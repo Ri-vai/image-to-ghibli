@@ -8,6 +8,14 @@ export interface Announcement {
   target?: string;
 }
 
+export interface HeroVideo {
+  src: string;
+  type?: string;
+  autoplay?: boolean;
+  loop?: boolean;
+  muted?: boolean;
+}
+
 export interface Hero {
   name?: string;
   disabled?: boolean;
@@ -17,6 +25,7 @@ export interface Hero {
   description?: string;
   buttons?: Button[];
   image?: Image;
+  video?: HeroVideo;
   tip?: string;
   show_happy_users?: boolean;
   show_badge?: boolean;

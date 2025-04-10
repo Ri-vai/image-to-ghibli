@@ -51,8 +51,29 @@
       "title": "Free & Secure",
       "url": "/#feature"
     },
+    "buttons": [
+      {
+        "title": "Try Now",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "View Examples",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "video": {
+      "src": "/hero-video.mp4",
+      "type": "video/mp4",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    },
     "tip": "",
-    "buttons": [],
     "show_happy_users": false,
     "show_badge": false
   },
@@ -62,7 +83,7 @@
     "label": "How It Works",
     "description": "Transform any photo with our advanced AI face swapping technology. Fast, accurate, and secure.",
     "image": {
-      "src": "https://aifaceswap.app/3.png"
+      "src": "/imgs/introduce.png"
     },
     "items": [
       {
@@ -93,7 +114,7 @@
         "description": "State-of-the-art deep learning models ensure natural and realistic face swaps.",
         "icon": "RiBrainLine",
         "image": {
-          "src": "https://aifaceswap.app/4.jpg"
+          "src": "/imgs/benefits.jpg"
         }
       },
       {
@@ -101,7 +122,7 @@
         "description": "Your photos are processed securely and automatically deleted after processing.",
         "icon": "RiShieldUserLine",
         "image": {
-          "src": "https://aifaceswap.app/4.jpg"
+          "src": "/imgs/benefits.jpg"
         }
       },
       {
@@ -109,7 +130,7 @@
         "description": "Integrate our face swap technology into your apps with our robust API.",
         "icon": "RiCodeSSlashLine",
         "image": {
-          "src": "https://aifaceswap.app/4.jpg"
+          "src": "/imgs/benefits.jpg"
         }
       }
     ]
@@ -324,7 +345,7 @@
         "label": "Professional Photographer",
         "description": "The quality of face swaps is incredible! I use it for professional headshots and the results are always perfect.",
         "image": {
-          "src": "/imgs/users/user1.png"
+          "src": "/imgs/users/1.png"
         }
       },
       {
@@ -332,7 +353,7 @@
         "label": "Content Creator",
         "description": "The API is super easy to integrate, and the processing speed is amazing. Perfect for my content creation needs.",
         "image": {
-          "src": "/imgs/users/user2.png"
+          "src": "/imgs/users/2.png"
         }
       },
       {
@@ -340,7 +361,7 @@
         "label": "Social Media Manager",
         "description": "Multiple face swap feature is a game-changer. Makes creating engaging content so much easier!",
         "image": {
-          "src": "/imgs/users/user3.png"
+          "src": "/imgs/users/3.png"
         }
       }
     ]
