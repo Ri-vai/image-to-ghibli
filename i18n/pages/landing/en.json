@@ -1,12 +1,12 @@
 {
-  "template": "shipany-template-one",
+  "template": "ai-face-swap",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "AI Face Swap",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "AI Face Swap"
       },
       "url": "/"
     },
@@ -23,329 +23,241 @@
           "icon": "MdPayment"
         },
         {
-          "title": "Showcase",
-          "url": "/#showcase",
-          "icon": "BiCube",
-          "children": [
-            {
-              "title": "AI Wallpaper Shop",
-              "description": "AI Wallpaper Generator",
-              "icon": "MdOutlineWallpaper",
-              "url": "https://aiwallpaper.shop",
-              "target": "_blank"
-            },
-            {
-              "title": "AI Cover Generator",
-              "description": "AI Cover Generator",
-              "icon": "",
-              "url": "https://aicover.design",
-              "target": "_blank"
-            }
-          ]
+          "title": "API",
+          "url": "/#api",
+          "icon": "BiCode"
         }
       ]
     },
     "buttons": [
       {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
+        "title": "Try Now",
+        "url": "/#try",
+        "target": "_self",
         "variant": "link",
         "icon": "RiArrowRightUpLine"
       }
     ],
-    "show_sign": true,
+    "show_sign": false,
     "show_theme": true,
     "show_locale": true
   },
   "hero": {
-    "title": "Ship Any AI Startups in hours, not days",
-    "highlight_text": "Ship Any",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups.<br/>Ship Fast with a variety of templates and components.",
+    "title": "Transform Your Photos with AI Face Swap Technology",
+    "highlight_text": "AI Face Swap",
+    "description": "Experience the magic of AI-powered face swapping technology.<br/>Create stunning transformations in seconds with our advanced AI.",
     "announcement": {
-      "label": "2025",
-      "title": "🎉 Happy New Year",
-      "url": "/#pricing"
+      "label": "NEW",
+      "title": "🎉 Now with Multiple Face Swap Support",
+      "url": "/#feature"
     },
-    "tip": "🎁 50% off before 2025",
+    "tip": "",
     "buttons": [
       {
-        "title": "Get Started",
+        "title": "Start Swapping",
         "icon": "RiFlashlightFill",
-        "url": "/#pricing",
+        "url": "/#try",
         "target": "_self",
         "variant": "default"
       },
       {
-        "title": "Join Discord",
-        "icon": "RiDiscordFill",
-        "url": "https://discord.gg/HQNnrzjZQS",
-        "target": "_blank",
+        "title": "View Examples",
+        "icon": "RiGalleryLine",
+        "url": "/#showcase",
+        "target": "_self",
         "variant": "outline"
       }
     ],
-    "show_happy_users": true,
+    "show_happy_users": false,
     "show_badge": false
   },
   "branding": {
-    "title": "ShipAny is built on the shoulders of giants",
+    "title": "Powered by Advanced AI Technology",
     "items": [
       {
-        "title": "Next.js",
+        "title": "TensorFlow",
         "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
+          "src": "/imgs/logos/tensorflow.svg",
+          "alt": "TensorFlow"
         }
       },
       {
-        "title": "React",
+        "title": "PyTorch",
         "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "React"
+          "src": "/imgs/logos/pytorch.svg",
+          "alt": "PyTorch"
         }
       },
       {
-        "title": "TailwindCSS",
+        "title": "NVIDIA",
         "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
+          "src": "/imgs/logos/nvidia.svg",
+          "alt": "NVIDIA"
         }
       },
       {
-        "title": "Shadcn/UI",
+        "title": "OpenCV",
         "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
+          "src": "/imgs/logos/opencv.svg",
+          "alt": "OpenCV"
         }
       },
       {
-        "title": "Vercel",
+        "title": "AWS",
         "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
+          "src": "/imgs/logos/aws.svg",
+          "alt": "AWS"
         }
       }
     ]
   },
   "introduce": {
     "name": "introduce",
-    "title": "What is ShipAny",
-    "label": "Introduce",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Built in a variety of templates and components.",
+    "title": "Experience the Magic of AI Face Swap",
+    "label": "How It Works",
+    "description": "Transform any photo with our advanced AI face swapping technology. Fast, accurate, and secure.",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/features/face-swap-demo.png"
     },
     "items": [
       {
-        "title": "Ready-to-use Templates",
-        "description": "Choose from dozens of production-ready AI SaaS templates to quickly start your project.",
-        "icon": "RiNextjsFill"
+        "title": "Upload Your Photos",
+        "description": "Simply upload the source image and the face you want to swap with.",
+        "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "Infrastructure Setup",
-        "description": "Get instant access to scalable infrastructure with best practices built-in.",
-        "icon": "RiDatabase2Line"
+        "title": "AI Processing",
+        "description": "Our AI analyzes and processes the images for perfect face swapping.",
+        "icon": "RiAiGenerate"
       },
       {
-        "title": "Quick Deployment",
-        "description": "Deploy your AI SaaS application to production in hours, not days.",
-        "icon": "RiCloudyFill"
+        "title": "Instant Results",
+        "description": "Get your transformed image in seconds, ready to download.",
+        "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "Why Choose ShipAny",
+    "title": "Why Choose AI Face Swap",
     "label": "Benefits",
-    "description": "Get everything you need to launch your AI startup - from ready-to-use templates to technical support.",
+    "description": "Experience the best face swapping technology with advanced features and security.",
     "items": [
       {
-        "title": "Complete Framework",
-        "description": "Built on Next.js with authentication, payments, and AI integration - everything works out of the box.",
-        "icon": "RiNextjsFill",
+        "title": "Advanced AI Technology",
+        "description": "State-of-the-art deep learning models ensure natural and realistic face swaps.",
+        "icon": "RiBrainLine",
         "image": {
-          "src": "/imgs/features/2.png"
+          "src": "/imgs/features/ai-tech.png"
         }
       },
       {
-        "title": "Rich Templates Library",
-        "description": "Choose from various AI SaaS templates to kickstart your project - chatbots, image generation, and more.",
-        "icon": "RiClapperboardAiLine",
+        "title": "Privacy & Security",
+        "description": "Your photos are processed securely and automatically deleted after processing.",
+        "icon": "RiShieldUserLine",
         "image": {
-          "src": "/imgs/features/3.png"
+          "src": "/imgs/features/security.png"
         }
       },
       {
-        "title": "Technical Guidance",
-        "description": "Get dedicated support and join our developer community to ensure your successful launch.",
-        "icon": "RiCodeFill",
+        "title": "Developer Friendly",
+        "description": "Integrate our face swap technology into your apps with our robust API.",
+        "icon": "RiCodeSSlashLine",
         "image": {
-          "src": "/imgs/features/4.png"
+          "src": "/imgs/features/api.png"
         }
       }
     ]
   },
   "usage": {
     "name": "usage",
-    "title": "How to Launch with ShipAny",
-    "description": "Get your AI SaaS startup running in three simple steps:",
+    "title": "How to Use AI Face Swap",
+    "description": "Get started with AI Face Swap in four easy steps:",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "left",
-    "text_align": "center",
+    "image_position": "right",
+    "text_align": "left",
     "items": [
       {
-        "title": "Get ShipAny",
-        "description": "Buy ShipAny with a one-time payment. Check your email for the code and documentation.",
-        "image": {
-          "src": "/imgs/features/5.png"
-        }
+        "title": "Create Account",
+        "description": "Sign up and get 5 free face swaps to try our service."
       },
       {
-        "title": "Start Your Project",
-        "description": "Read the documentation and clone the code of ShipAny. Start building your AI SaaS startup.",
-        "image": {
-          "src": "/imgs/features/6.png"
-        }
+        "title": "Upload Photos",
+        "description": "Upload the source image and the face image you want to swap with."
       },
       {
-        "title": "Customize Your Project",
-        "description": "Modify the template with your data and contents. Specific AI functionality needs.",
-        "image": {
-          "src": "/imgs/features/7.png"
-        }
+        "title": "Process Images",
+        "description": "Our AI will process your images and create a natural face swap."
       },
       {
-        "title": "Deploy to Production",
-        "description": "Deploy your project to production with a few steps and start serving customers immediately.",
-        "image": {
-          "src": "/imgs/features/8.png"
-        }
+        "title": "Download Results",
+        "description": "Download your transformed image in high quality."
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "Key Features of ShipAny",
-    "description": "Everything you need to launch your AI SaaS startup quickly and efficiently.",
+    "title": "Advanced Face Swap Features",
+    "description": "Powerful AI technology for perfect face swaps every time.",
     "items": [
       {
-        "title": "Next.js Boilerplate",
-        "description": "Production-ready Next.js templates with SEO-friendly structure and i18n support.",
-        "icon": "RiNextjsFill"
+        "title": "Multiple Face Swap",
+        "description": "Swap multiple faces in a single image with different source faces.",
+        "icon": "RiGroupLine"
       },
       {
-        "title": "Authentication & Payments",
-        "description": "Integrated Google OAuth, one-tap login, and Stripe payment processing.",
-        "icon": "RiKey2Fill"
+        "title": "High Quality Results",
+        "description": "Advanced AI algorithms ensure natural-looking and high-quality face swaps.",
+        "icon": "RiImageLine"
       },
       {
-        "title": "Data Infrastructure",
-        "description": "Built-in Supabase integration for reliable and scalable data storage.",
-        "icon": "RiDatabase2Line"
+        "title": "Fast Processing",
+        "description": "Get your results in seconds with our optimized AI processing.",
+        "icon": "RiTimerFlashLine"
       },
       {
-        "title": "One-Click Deployment",
-        "description": "Seamless deployment to Vercel or Cloudflare with automated setup.",
-        "icon": "RiCloudy2Fill"
+        "title": "API Access",
+        "description": "Integrate face swap capabilities into your own applications.",
+        "icon": "RiCodeLine"
       },
       {
-        "title": "Business Analytics",
-        "description": "Integrated Google Analytics and Search Console for tracking growth.",
-        "icon": "RiBarChart2Line"
+        "title": "Privacy First",
+        "description": "Your photos are processed securely and deleted after processing.",
+        "icon": "RiShieldCheckLine"
       },
       {
-        "title": "AI-Ready Infrastructure",
-        "description": "Pre-configured AI integration with built-in credits system and API sales.",
-        "icon": "RiRobot2Line"
+        "title": "24/7 Support",
+        "description": "Get help whenever you need it with our responsive support team.",
+        "icon": "RiCustomerService2Line"
       }
     ]
   },
   "showcase": {
     "name": "showcase",
-    "title": "AI SaaS Startups built with ShipAny",
-    "description": "Easy to use and fast to ship.",
+    "title": "Amazing Transformations",
+    "description": "See what our users have created with AI Face Swap.",
     "items": [
       {
-        "title": "ThinkAny",
-        "description": "AI Search Engine",
-        "url": "https://thinkany.ai",
-        "target": "_blank",
+        "title": "Video Face Swap",
+        "description": "Swap faces in videos, enhancing filmmaking or creating content for social media",
         "image": {
-          "src": "/imgs/showcases/7.png"
+          "src": "/imgs/showcases/video.png"
         }
       },
       {
-        "title": "HeyBeauty",
-        "description": "AI Virtual Try On",
-        "url": "https://heybeauty.ai",
-        "target": "_blank",
+        "title": "Photo Face Swap",
+        "description": "Allows you to swap heads and replace faces in photos",
         "image": {
-          "src": "/imgs/showcases/5.png"
+          "src": "/imgs/showcases/photo.png"
         }
       },
       {
-        "title": "AI Wallpaper",
-        "description": "AI Wallpaper Generator",
-        "url": "https://aiwallpaper.shop",
-        "target": "_blank",
+        "title": "Multiple Face Swap",
+        "description": "Swap Multiple Faces in family photos, wedding photos, party photos, etc",
         "image": {
-          "src": "/imgs/showcases/1.png"
-        }
-      },
-      {
-        "title": "AI Cover",
-        "description": "AI Cover Generator",
-        "url": "https://aicover.design",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/2.png"
-        }
-      },
-      {
-        "title": "GPTs Works",
-        "description": "GPTs Directory",
-        "url": "https://gpts.works",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/3.png"
-        }
-      },
-      {
-        "title": "Melodisco",
-        "description": "AI Music Player",
-        "url": "https://melodis.co",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/4.png"
-        }
-      },
-      {
-        "title": "Pagen",
-        "description": "AI Landing Page Generator",
-        "url": "https://pagen.so",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/6.png"
-        }
-      },
-      {
-        "title": "SoraFM",
-        "description": "AI Video Generator",
-        "url": "https://sorafm.trys.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/8.png"
-        }
-      },
-      {
-        "title": "PodLM",
-        "description": "AI Podcast Generator",
-        "url": "https://podlm.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/9.png"
+          "src": "/imgs/showcases/multiple.png"
         }
       }
     ]
@@ -353,187 +265,137 @@
   "stats": {
     "name": "stats",
     "label": "Stats",
-    "title": "People Love ShipAny",
-    "description": "for it's easy to use and fast to ship.",
+    "title": "Trusted by Users Worldwide",
+    "description": "Join thousands of satisfied users using AI Face Swap.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Trusted by",
-        "label": "99+",
-        "description": "Customers"
+        "title": "Happy Users",
+        "label": "1M+",
+        "description": "Active Users"
       },
       {
-        "title": "Built in",
-        "label": "20+",
-        "description": "Components"
+        "title": "Face Swaps",
+        "label": "10M+",
+        "description": "Completed"
       },
       {
-        "title": "Ship Fast in",
-        "label": "5",
-        "description": "Minutes"
+        "title": "Processing Time",
+        "label": "5s",
+        "description": "Average"
       }
     ]
   },
   "pricing": {
     "name": "pricing",
     "label": "Pricing",
-    "title": "Pricing",
-    "description": "Get all features of ShipAny, Ship your AI SaaS startups fast.",
-    "groups": [],
+    "title": "Simple, Transparent Pricing",
+    "description": "Choose the perfect plan for your face swapping needs.",
     "items": [
       {
-        "title": "Starter",
-        "description": "Get started with your first SaaS startup.",
-        "features_title": "Includes",
+        "title": "Basic",
+        "description": "Perfect for personal use",
         "features": [
-          "100 credits, valid for 1 month",
-          "NextJS boilerplate",
-          "SEO-friendly structure",
-          "Payment with Stripe",
-          "Data storage with Supabase",
-          "Google Oauth & One-Tap Login",
-          "i18n support"
+          "10 face swaps per month",
+          "Single face swap per image",
+          "Standard processing speed",
+          "Basic support",
+          "Web access only",
+          "Results in HD quality"
         ],
-        "interval": "one-time",
-        "amount": 9900,
-        "cn_amount": 69900,
+        "interval": "month",
+        "amount": 999,
         "currency": "USD",
-        "price": "$99",
-        "original_price": "$199",
-        "unit": "USD",
+        "price": "$9.99",
+        "unit": "month",
         "is_featured": false,
-        "tip": "Pay once. Build unlimited projects!",
+        "tip": "Great for getting started!",
         "button": {
-          "title": "Get ShipAny",
-          "url": "/#pricing",
+          "title": "Get Started",
+          "url": "/#signup",
           "icon": "RiFlashlightFill"
-        },
-        "product_id": "starter",
-        "product_name": "ShipAny Boilerplate Starter",
-        "credits": 100,
-        "valid_months": 1
+        }
       },
       {
-        "title": "Standard",
-        "description": "Ship Fast with your SaaS Startups.",
+        "title": "Pro",
+        "description": "For power users",
         "label": "Popular",
-        "features_title": "Everything in Starter, plus",
         "features": [
-          "200 credits, valid for 3 month",
-          "Deploy with Vercel or Cloudflare",
-          "Generation of Privacy & Terms",
-          "Google Analytics Integration",
-          "Google Search Console Integration",
-          "Discord community",
-          "Technical support for your first ship",
-          "Lifetime updates"
+          "50 face swaps per month",
+          "Multiple face swap support",
+          "Priority processing",
+          "Priority support",
+          "API access",
+          "Results in 4K quality"
         ],
-        "interval": "one-time",
-        "amount": 19900,
-        "cn_amount": 139900,
+        "interval": "month",
+        "amount": 2499,
         "currency": "USD",
-        "price": "$199",
-        "original_price": "$299",
-        "unit": "USD",
+        "price": "$24.99",
+        "unit": "month",
         "is_featured": true,
-        "tip": "Pay once. Build unlimited projects!",
+        "tip": "Most popular choice!",
         "button": {
-          "title": "Get ShipAny",
-          "url": "/#pricing",
+          "title": "Get Pro",
+          "url": "/#signup",
           "icon": "RiFlashlightFill"
-        },
-        "product_id": "standard",
-        "product_name": "ShipAny Boilerplate Standard",
-        "credits": 200,
-        "valid_months": 3
+        }
       },
       {
-        "title": "Premium",
-        "description": "Ship Any AI SaaS Startups.",
-        "features_title": "Everything in Standard, plus",
+        "title": "Enterprise",
+        "description": "For businesses",
         "features": [
-          "300 credits, valid for 1 year",
-          "Business Functions with AI",
-          "User Center",
-          "Credits System",
-          "API Sales for your SaaS",
-          "Admin System",
-          "Priority Technical Support"
+          "Unlimited face swaps",
+          "Multiple face swap support",
+          "Ultra-fast processing",
+          "24/7 priority support",
+          "Full API access",
+          "Custom integration support"
         ],
-        "interval": "one-time",
-        "amount": 29900,
-        "cn_amount": 199900,
+        "interval": "month",
+        "amount": 9999,
         "currency": "USD",
-        "price": "$299",
-        "original_price": "$399",
-        "unit": "USD",
+        "price": "$99.99",
+        "unit": "month",
         "is_featured": false,
-        "tip": "Pay once. Build unlimited projects!",
+        "tip": "Best for businesses!",
         "button": {
-          "title": "Get ShipAny",
-          "url": "/#pricing",
-          "icon": "RiFlashlightFill"
-        },
-        "product_id": "premium",
-        "product_name": "ShipAny Boilerplate Premium",
-        "credits": 300,
-        "valid_months": 12
+          "title": "Contact Sales",
+          "url": "/#contact",
+          "icon": "RiCustomerServiceLine"
+        }
       }
     ]
   },
   "testimonial": {
     "name": "testimonial",
-    "label": "Testimonial",
-    "title": "What Users Say About ShipAny",
-    "description": "Hear from developers and founders who launched their AI startups with ShipAny.",
+    "label": "Testimonials",
+    "title": "What Our Users Say",
+    "description": "Hear from people who love using AI Face Swap.",
     "icon": "GoThumbsup",
     "items": [
       {
-        "title": "David Chen",
-        "label": "Founder of AIWallpaper.shop",
-        "description": "ShipAny saved us months of development time. We launched our AI wallpaper business in just 2 days and got our first paying customer within a week!",
+        "title": "Sarah Johnson",
+        "label": "Professional Photographer",
+        "description": "The quality of face swaps is incredible! I use it for professional headshots and the results are always perfect.",
         "image": {
-          "src": "/imgs/users/1.png"
+          "src": "/imgs/users/user1.png"
         }
       },
       {
-        "title": "Rachel Kim",
-        "label": "CTO at HeyBeauty.ai",
-        "description": "The pre-built AI infrastructure is a game-changer. We didn't have to worry about architecture - just focused on our AI beauty tech and went live fast.",
+        "title": "Mike Chen",
+        "label": "Content Creator",
+        "description": "The API is super easy to integrate, and the processing speed is amazing. Perfect for my content creation needs.",
         "image": {
-          "src": "/imgs/users/2.png"
+          "src": "/imgs/users/user2.png"
         }
       },
       {
-        "title": "Marcus Thompson",
-        "label": "Solo Developer",
-        "description": "As a solo developer, ShipAny gave me everything I needed - auth, payments, AI integration, and beautiful UI. Launched my SaaS in a weekend!",
+        "title": "Emily Rodriguez",
+        "label": "Social Media Manager",
+        "description": "Multiple face swap feature is a game-changer. Makes creating engaging content so much easier!",
         "image": {
-          "src": "/imgs/users/3.png"
-        }
-      },
-      {
-        "title": "Sofia Garcia",
-        "label": "CEO of Melodisco",
-        "description": "The templates are production-ready and highly customizable. We built our AI music platform in hours instead of months. Incredible time-to-market!",
-        "image": {
-          "src": "/imgs/users/4.png"
-        }
-      },
-      {
-        "title": "James Wilson",
-        "label": "Tech Lead at GPTs.works",
-        "description": "ShipAny's infrastructure is rock-solid. We scaled from 0 to 10k users without touching the backend. Best investment for our AI startup.",
-        "image": {
-          "src": "/imgs/users/5.png"
-        }
-      },
-      {
-        "title": "Anna Zhang",
-        "label": "Startup Founder",
-        "description": "From idea to launch in 3 days! ShipAny's templates and deployment tools made it possible to test our AI business concept incredibly fast.",
-        "image": {
-          "src": "/imgs/users/6.png"
+          "src": "/imgs/users/user3.png"
         }
       }
     ]
@@ -541,50 +403,50 @@
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Frequently Asked Questions About ShipAny",
-    "description": "Have another question? Contact us on Discord or by email.",
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? We've got answers.",
     "items": [
       {
-        "title": "What exactly is ShipAny and how does it work?",
-        "description": "ShipAny is a comprehensive NextJS boilerplate designed specifically for building AI SaaS startups. It provides ready-to-use templates, infrastructure setup, and deployment tools that help you launch your AI business in hours instead of days."
+        "title": "How does AI Face Swap work?",
+        "description": "Our advanced AI technology analyzes facial features in both images, then seamlessly swaps them while maintaining natural looks and expressions. The process takes just seconds and ensures high-quality results."
       },
       {
-        "title": "Do I need advanced technical skills to use ShipAny?",
-        "description": "While basic programming knowledge is helpful, ShipAny is designed to be developer-friendly. Our templates and documentation make it easy to get started, even if you're not an expert in AI or cloud infrastructure."
+        "title": "Is my data secure?",
+        "description": "Yes, absolutely! We take privacy very seriously. All uploaded photos are processed securely and automatically deleted after processing. We never store or share your images without permission."
       },
       {
-        "title": "What types of AI SaaS can I build with ShipAny?",
-        "description": "ShipAny supports a wide range of AI applications, from content generation to data analysis tools. Our templates cover popular use cases like AI chatbots, content generators, image processing apps, and more."
+        "title": "What image formats are supported?",
+        "description": "We support all common image formats including JPG, PNG, and WEBP. For best results, we recommend using clear, well-lit photos with visible faces."
       },
       {
-        "title": "How long does it typically take to launch with ShipAny?",
-        "description": "With ShipAny, you can have a working prototype in hours and a production-ready application in hours. Our one-click deployment and pre-configured infrastructure significantly reduce the traditional months-long development cycle."
+        "title": "Can I swap multiple faces in one image?",
+        "description": "Yes! Our Pro and Enterprise plans support multiple face swaps in a single image. You can swap different faces with different source images in one go."
       },
       {
-        "title": "What's included in the ShipAny infrastructure?",
-        "description": "ShipAny provides a complete infrastructure stack including authentication, database setup, API integration, payment processing, and scalable cloud deployment. Everything is pre-configured following industry best practices."
+        "title": "Do you offer an API?",
+        "description": "Yes, we provide a robust API for developers to integrate our face swap technology into their applications. API access is available with our Pro and Enterprise plans."
       },
       {
-        "title": "Can I customize the templates to match my brand?",
-        "description": "Absolutely! All ShipAny templates are fully customizable. You can modify the design, features, and functionality to match your brand identity and specific business requirements while maintaining the robust underlying infrastructure."
+        "title": "What's your refund policy?",
+        "description": "We offer a 100% satisfaction guarantee. If you're not happy with our service, contact us within 7 days of your purchase for a full refund."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Ship your first AI SaaS Startup",
-    "description": "Start from here, ship with ShipAny.",
+    "title": "Start Transforming Your Photos Today",
+    "description": "Join millions of happy users and experience the magic of AI Face Swap.",
     "buttons": [
       {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
-        "icon": "GoArrowUpRight"
+        "title": "Try For Free",
+        "url": "/#signup",
+        "target": "_self",
+        "icon": "RiFlashlightFill"
       },
       {
-        "title": "Read Document",
-        "url": "https://docs.shipany.ai",
-        "target": "_blank",
+        "title": "View Examples",
+        "url": "/#showcase",
+        "target": "_self",
         "variant": "outline"
       }
     ]
@@ -592,19 +454,19 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+      "title": "AI Face Swap",
+      "description": "Transform your photos with advanced AI face swapping technology. Fast, secure, and easy to use.",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "AI Face Swap"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny All rights reserved.",
+    "copyright": "© 2024 • AI Face Swap All rights reserved.",
     "nav": {
       "items": [
         {
-          "title": "About",
+          "title": "Product",
           "children": [
             {
               "title": "Features",
@@ -612,54 +474,14 @@
               "target": "_self"
             },
             {
-              "title": "Showcases",
-              "url": "/#showcase",
-              "target": "_self"
-            },
-            {
               "title": "Pricing",
               "url": "/#pricing",
               "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "Resources",
-          "children": [
-            {
-              "title": "Documents",
-              "url": "https://docs.shipany.ai",
-              "target": "_blank"
             },
             {
-              "title": "Components",
-              "url": "https://shipany.ai/components",
-              "target": "_blank"
-            },
-            {
-              "title": "Templates",
-              "url": "https://shipany.ai/templates",
-              "target": "_blank"
-            }
-          ]
-        },
-        {
-          "title": "Friends",
-          "children": [
-            {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "Pagen",
-              "url": "https://pagen.so",
-              "target": "_blank"
+              "title": "API",
+              "url": "/#api",
+              "target": "_self"
             }
           ]
         }
@@ -668,27 +490,9 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/shipanyai",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/shipanyai",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/HQNnrzjZQS",
-          "target": "_blank"
-        },
-        {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@shipany.ai",
+          "url": "mailto:support@aifaceswap.io",
           "target": "_self"
         }
       ]
