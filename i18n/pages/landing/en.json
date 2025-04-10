@@ -43,73 +43,18 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Transform Your Photos with AI Face Swap Technology",
+    "title": "The best Online Free AI Face Swap",
     "highlight_text": "AI Face Swap",
-    "description": "Experience the magic of AI-powered face swapping technology.<br/>Create stunning transformations in seconds with our advanced AI.",
+    "description": "Dive into the innovative realm of AI Face Swapping, where state-of-the-art technology meets boundless entertainment. Easily modify images and footage, opening the door to unparalleled digital possibilities.",
     "announcement": {
-      "label": "NEW",
-      "title": "🎉 Now with Multiple Face Swap Support",
+      "label": "AI",
+      "title": "Free & Secure",
       "url": "/#feature"
     },
     "tip": "",
-    "buttons": [
-      {
-        "title": "Start Swapping",
-        "icon": "RiFlashlightFill",
-        "url": "/#try",
-        "target": "_self",
-        "variant": "default"
-      },
-      {
-        "title": "View Examples",
-        "icon": "RiGalleryLine",
-        "url": "/#showcase",
-        "target": "_self",
-        "variant": "outline"
-      }
-    ],
+    "buttons": [],
     "show_happy_users": false,
     "show_badge": false
-  },
-  "branding": {
-    "title": "Powered by Advanced AI Technology",
-    "items": [
-      {
-        "title": "TensorFlow",
-        "image": {
-          "src": "/imgs/logos/tensorflow.svg",
-          "alt": "TensorFlow"
-        }
-      },
-      {
-        "title": "PyTorch",
-        "image": {
-          "src": "/imgs/logos/pytorch.svg",
-          "alt": "PyTorch"
-        }
-      },
-      {
-        "title": "NVIDIA",
-        "image": {
-          "src": "/imgs/logos/nvidia.svg",
-          "alt": "NVIDIA"
-        }
-      },
-      {
-        "title": "OpenCV",
-        "image": {
-          "src": "/imgs/logos/opencv.svg",
-          "alt": "OpenCV"
-        }
-      },
-      {
-        "title": "AWS",
-        "image": {
-          "src": "/imgs/logos/aws.svg",
-          "alt": "AWS"
-        }
-      }
-    ]
   },
   "introduce": {
     "name": "introduce",
@@ -117,7 +62,7 @@
     "label": "How It Works",
     "description": "Transform any photo with our advanced AI face swapping technology. Fast, accurate, and secure.",
     "image": {
-      "src": "/imgs/features/face-swap-demo.png"
+      "src": "https://aifaceswap.app/3.png"
     },
     "items": [
       {
@@ -148,7 +93,7 @@
         "description": "State-of-the-art deep learning models ensure natural and realistic face swaps.",
         "icon": "RiBrainLine",
         "image": {
-          "src": "/imgs/features/ai-tech.png"
+          "src": "https://aifaceswap.app/4.jpg"
         }
       },
       {
@@ -156,7 +101,7 @@
         "description": "Your photos are processed securely and automatically deleted after processing.",
         "icon": "RiShieldUserLine",
         "image": {
-          "src": "/imgs/features/security.png"
+          "src": "https://aifaceswap.app/4.jpg"
         }
       },
       {
@@ -164,15 +109,15 @@
         "description": "Integrate our face swap technology into your apps with our robust API.",
         "icon": "RiCodeSSlashLine",
         "image": {
-          "src": "/imgs/features/api.png"
+          "src": "https://aifaceswap.app/4.jpg"
         }
       }
     ]
   },
   "usage": {
     "name": "usage",
-    "title": "How to Use AI Face Swap",
-    "description": "Get started with AI Face Swap in four easy steps:",
+    "title": "How to Swap a Face Online",
+    "description": "Create stunning images in just a few simple steps:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
@@ -180,57 +125,57 @@
     "text_align": "left",
     "items": [
       {
-        "title": "Create Account",
-        "description": "Sign up and get 5 free face swaps to try our service."
+        "title": "Upload Your Image",
+        "description": "Simply click 'Upload an Image' and select a photo you want to use as the source image. Ensure only one face in the photo is of good quality."
       },
       {
-        "title": "Upload Photos",
-        "description": "Upload the source image and the face image you want to swap with."
+        "title": "Choose your Face Swap Option",
+        "description": "Once your original image is ready, choose the desired swapping effect from the given presets. That means you will replace the face of your uploaded image with the selected preset."
       },
       {
-        "title": "Process Images",
-        "description": "Our AI will process your images and create a natural face swap."
+        "title": "Swap Face with AI",
+        "description": "Click the 'Swap Face Now' button to show AI its magic. AiFaceSwap.app will finish face swapping in a few seconds. Our AI does the job automatically while guaranteeing the best output."
       },
       {
-        "title": "Download Results",
-        "description": "Download your transformed image in high quality."
+        "title": "Preview and Download",
+        "description": "Bingo! Your face is swapped to who you like! Preview the final result on the same page. Click 'Download' to save the watermark-free picture to your device. Share it for fun!"
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "Advanced Face Swap Features",
-    "description": "Powerful AI technology for perfect face swaps every time.",
+    "title": "Powerful AI Face Swap Features",
+    "description": "Discover the amazing capabilities of our AI-powered face swapping technology",
     "items": [
       {
-        "title": "Multiple Face Swap",
-        "description": "Swap multiple faces in a single image with different source faces.",
-        "icon": "RiGroupLine"
-      },
-      {
-        "title": "High Quality Results",
-        "description": "Advanced AI algorithms ensure natural-looking and high-quality face swaps.",
+        "title": "Realistic Face Swaps",
+        "description": "Our forefront technology ensures perfect, realistic face swaps, completely obscuring any editing evidence.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Fast Processing",
-        "description": "Get your results in seconds with our optimized AI processing.",
-        "icon": "RiTimerFlashLine"
+        "title": "Easy-to-Use Interface",
+        "description": "With just a single click, you can substitute any face onto another image, making the process simple and intuitive.",
+        "icon": "RiMouseLine"
       },
       {
-        "title": "API Access",
-        "description": "Integrate face swap capabilities into your own applications.",
-        "icon": "RiCodeLine"
+        "title": "Meme Creation",
+        "description": "Craft hilarious memes with ease, boosting interaction with your audience through novel and engaging content.",
+        "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "Privacy First",
-        "description": "Your photos are processed securely and deleted after processing.",
-        "icon": "RiShieldCheckLine"
+        "title": "Celebrity Transformations",
+        "description": "Transform your appearance by swapping your face with various personas, from movie stars to superheroes.",
+        "icon": "RiUserStarLine"
       },
       {
-        "title": "24/7 Support",
-        "description": "Get help whenever you need it with our responsive support team.",
-        "icon": "RiCustomerService2Line"
+        "title": "Style Experimentation",
+        "description": "Explore new looks by applying your face to different characters, experimenting with makeup, hairstyles, and fashion styles.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Endless Creativity",
+        "description": "Unlock infinite potential for creativity and entertainment with our versatile face swapping technology.",
+        "icon": "RiMagicLine"
       }
     ]
   },
@@ -243,21 +188,21 @@
         "title": "Video Face Swap",
         "description": "Swap faces in videos, enhancing filmmaking or creating content for social media",
         "image": {
-          "src": "/imgs/showcases/video.png"
+          "src": "/imgs/showcases/1.png"
         }
       },
       {
         "title": "Photo Face Swap",
         "description": "Allows you to swap heads and replace faces in photos",
         "image": {
-          "src": "/imgs/showcases/photo.png"
+          "src": "/imgs/showcases/2.png"
         }
       },
       {
         "title": "Multiple Face Swap",
         "description": "Swap Multiple Faces in family photos, wedding photos, party photos, etc",
         "image": {
-          "src": "/imgs/showcases/multiple.png"
+          "src": "/imgs/showcases/3.png"
         }
       }
     ]
