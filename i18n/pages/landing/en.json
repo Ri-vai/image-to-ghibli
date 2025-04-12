@@ -475,5 +475,23 @@
         }
       ]
     }
+  },
+  "faceSwap": {
+    "photoFaceSwap": "Photo Face Swap",
+    "videoFaceSwap": "Video Face Swap",
+    "multipleFaceSwap": "Multiple Face Swap",
+    "uploadOriginalImage": "Upload original image with a face",
+    "uploadFacePhoto": "Upload a face photo",
+    "startFaceSwap": "Start your free face swap",
+    "swapFace": "Swap Face",
+    "uploadImage": "Upload Image",
+    "changeImage": "Change Image",
+    "before": "Before",
+    "after": "After",
+    "readyToSwap": "Ready to swap! Click the Swap Face button.",
+    "uploadBothImages": "Please upload both images to see the result",
+    "zoomIn": "Zoom In",
+    "download": "Download",
+    "comingSoon": "Coming Soon"
   }
 }

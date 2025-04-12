@@ -11,6 +11,7 @@ import Showcase from "@/components/blocks/showcase";
 import Stats from "@/components/blocks/stats";
 import Testimonial from "@/components/blocks/testimonial";
 import { getLandingPage } from "@/services/page";
+import FaceSwap from "@/components/face-swap";
 
 export async function generateMetadata({
   params: { locale },
@@ -39,6 +40,7 @@ export default async function LandingPage({
 
   return (
     <>
+      <FaceSwap locale={locale} faceSwap={page.faceSwap} />
       {page.hero && <Hero hero={page.hero} />}
       {/* {page.branding && <Branding section={page.branding} />} */}
       {page.introduce && <Feature1 section={page.introduce} />}

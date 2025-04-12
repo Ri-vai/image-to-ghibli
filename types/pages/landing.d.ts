@@ -18,4 +18,5 @@ export interface LandingPage {
   faq?: Section;
   cta?: Section;
   footer?: Footer;
+  faceSwap?: FaceSwap;
 }
