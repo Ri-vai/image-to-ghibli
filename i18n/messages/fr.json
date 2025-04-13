@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Créez des startups SaaS IA en quelques heures | ShipAny",
-    "description": "ShipAny est un modèle NextJS pour construire des startups SaaS IA, développez rapidement avec une variété de modèles et de composants.",
-    "keywords": "ShipAny, Modèle SaaS IA, Modèle NextJS"
+    "title": "AI Face Swap - La meilleure application gratuite d'échange de visage AI en ligne",
+    "description": "Sublimez vos images avec AI FaceSwap. Échange de visage rapide, sécurisé et de haute qualité pour la créativité et le divertissement.",
+    "keywords": ""
   },
   "user": {
     "sign_in": "Se connecter",
@@ -19,7 +19,7 @@
     "email_title": "Email",
     "email_placeholder": "Saisissez votre email ici",
     "password_title": "Mot de passe",
-    "password_placeholder": "Saisissez votre mot de passe ici",
+    "password_placeholder": "Entrez votre mot de passe ici",
     "forgot_password": "Mot de passe oublié ?",
     "or": "Ou",
     "continue": "Continuer",
@@ -41,7 +41,7 @@
     "read_docs": "Lire la Documentation",
     "table": {
       "order_no": "N° de Commande",
-      "email": "Email",
+      "email": "E-mail",
       "product_name": "Nom du Produit",
       "amount": "Montant",
       "paid_at": "Payé le",
@@ -52,7 +52,7 @@
   "my_credits": {
     "title": "Mes Crédits",
     "left_tip": "crédits restants : {left_credits}",
-    "no_credits": "Aucun enregistrement de crédits",
+    "no_credits": "Aucun historique de crédits",
     "recharge": "Recharger",
     "table": {
       "trans_no": "N° de Transaction",
@@ -80,7 +80,7 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Actualités, ressources et mises à jour concernant ShipAny",
+    "description": "Nouvelles, ressources et mises à jour à propos de ShipAny",
     "read_more_text": "Lire la suite"
   },
   "turnstile": {

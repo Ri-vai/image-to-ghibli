@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "몇 시간 만에 AI SaaS 스타트업 출시하기 | ShipAny",
-    "description": "ShipAny는 AI SaaS 스타트업을 구축하기 위한 NextJS 보일러플레이트로, 다양한 템플릿과 컴포넌트로 빠르게 출시할 수 있습니다.",
-    "keywords": "ShipAny, AI SaaS 보일러플레이트, NextJS 보일러플레이트"
+    "title": "AI 페이스 스왑 - 최고의 온라인 무료 AI 얼굴 교체 앱",
+    "description": "AI 페이스스왑으로 이미지를 한 단계 업그레이드하세요. 빠르고 안전하며 고품질의 얼굴 교체로 창의성과 재미를 더하세요.",
+    "keywords": ""
   },
   "user": {
     "sign_in": "로그인",
@@ -37,12 +37,12 @@
     "tip": "",
     "activate_order": "주문 활성화",
     "actived": "활성화됨",
-    "join_discord": "Discord 참여",
+    "join_discord": "Discord 참여하기",
     "read_docs": "문서 읽기",
     "table": {
       "order_no": "주문 번호",
       "email": "이메일",
-      "product_name": "상품명",
+      "product_name": "제품명",
       "amount": "금액",
       "paid_at": "결제일",
       "github_username": "GitHub 사용자명",
@@ -50,10 +50,10 @@
     }
   },
   "my_credits": {
-    "title": "나의 크레딧",
+    "title": "내 크레딧",
     "left_tip": "남은 크레딧: {left_credits}",
     "no_credits": "크레딧 기록 없음",
-    "recharge": "충전",
+    "recharge": "충전하기",
     "table": {
       "trans_no": "거래 번호",
       "trans_type": "거래 유형",
@@ -81,7 +81,7 @@
   "blog": {
     "title": "블로그",
     "description": "ShipAny에 대한 뉴스, 리소스 및 업데이트",
-    "read_more_text": "더보기"
+    "read_more_text": "더 읽기"
   },
   "turnstile": {
     "verifyYouAreHuman": "사람임을 인증하세요"

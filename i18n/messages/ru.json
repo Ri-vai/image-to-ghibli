@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Запустите любой AI SaaS стартап за считанные часы | ShipAny",
-    "description": "ShipAny — это NextJS шаблон для создания AI SaaS стартапов, быстрый запуск с множеством шаблонов и компонентов.",
-    "keywords": "ShipAny, AI SaaS Шаблон, NextJS Шаблон"
+    "title": "AI Face Swap - лучшее бесплатное онлайн-приложение для замены лиц с помощью ИИ",
+    "description": "Улучшите ваши изображения с помощью AI FaceSwap. Быстрая, безопасная и качественная замена лиц для творчества и развлечения.",
+    "keywords": ""
   },
   "user": {
     "sign_in": "Войти",
@@ -16,8 +16,8 @@
     "sign_in_description": "Войдите в свой аккаунт",
     "sign_up_title": "Регистрация",
     "sign_up_description": "Создать аккаунт",
-    "email_title": "Email",
-    "email_placeholder": "Введите ваш email здесь",
+    "email_title": "Электронная почта",
+    "email_placeholder": "Введите вашу электронную почту",
     "password_title": "Пароль",
     "password_placeholder": "Введите ваш пароль здесь",
     "forgot_password": "Забыли пароль?",
@@ -36,12 +36,12 @@
     "no_orders": "Заказы не найдены",
     "tip": "",
     "activate_order": "Активировать заказ",
-    "actived": "Активировано",
+    "actived": "Активирован",
     "join_discord": "Присоединиться к Discord",
     "read_docs": "Читать документацию",
     "table": {
       "order_no": "Номер заказа",
-      "email": "Email",
+      "email": "Электронная почта",
       "product_name": "Название продукта",
       "amount": "Сумма",
       "paid_at": "Дата оплаты",
@@ -63,17 +63,17 @@
     }
   },
   "api_keys": {
-    "title": "API ключи",
-    "tip": "Пожалуйста, храните ваш API ключ в безопасности, чтобы избежать утечек",
+    "title": "API Ключи",
+    "tip": "Пожалуйста, храните ваш apikey в безопасности, чтобы избежать утечек",
     "no_api_keys": "Нет API ключей",
     "create_api_key": "Создать API ключ",
     "table": {
-      "name": "Имя",
+      "name": "Название",
       "key": "Ключ",
-      "created_at": "Создано"
+      "created_at": "Дата создания"
     },
     "form": {
-      "name": "Имя",
+      "name": "Название",
       "name_placeholder": "Название API ключа",
       "submit": "Отправить"
     }
@@ -81,7 +81,7 @@
   "blog": {
     "title": "Блог",
     "description": "Новости, ресурсы и обновления о ShipAny",
-    "read_more_text": "Читать далее"
+    "read_more_text": "Подробнее"
   },
   "turnstile": {
     "verifyYouAreHuman": "Подтвердите, что вы человек"

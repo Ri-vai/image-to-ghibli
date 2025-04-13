@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "Lanceer elk AI SaaS-startup binnen enkele uren | ShipAny",
-    "description": "ShipAny is een NextJS-boilerplate voor het bouwen van AI SaaS-startups, Lanceer Snel met verschillende sjablonen en componenten.",
-    "keywords": "ShipAny, AI SaaS Boilerplate, NextJS Boilerplate"
+    "title": "AI Face Swap - De beste Online Gratis AI Face Swap APP",
+    "description": "Verbeter je afbeeldingen met AI FaceSwap. Snelle, veilige en hoogwaardige gezichtswisseling voor creativiteit en plezier.",
+    "keywords": ""
   },
   "user": {
     "sign_in": "Inloggen",
     "sign_out": "Uitloggen",
     "credits": "Credits",
-    "api_keys": "API-sleutels",
+    "api_keys": "API Sleutels",
     "my_orders": "Mijn Bestellingen"
   },
   "sign_modal": {
@@ -19,11 +19,11 @@
     "email_title": "E-mail",
     "email_placeholder": "Voer hier je e-mailadres in",
     "password_title": "Wachtwoord",
-    "password_placeholder": "Voer hier uw wachtwoord in",
+    "password_placeholder": "Voer hier je wachtwoord in",
     "forgot_password": "Wachtwoord vergeten?",
     "or": "Of",
     "continue": "Doorgaan",
-    "no_account": "Heeft u nog geen account?",
+    "no_account": "Heb je geen account?",
     "email_sign_in": "Inloggen met e-mail",
     "google_sign_in": "Inloggen met Google",
     "github_sign_in": "Inloggen met GitHub",
@@ -38,13 +38,13 @@
     "activate_order": "Bestelling activeren",
     "actived": "Geactiveerd",
     "join_discord": "Word lid van Discord",
-    "read_docs": "Lees Docs",
+    "read_docs": "Lees Documentatie",
     "table": {
       "order_no": "Bestelnummer",
       "email": "E-mail",
       "product_name": "Productnaam",
       "amount": "Bedrag",
-      "paid_at": "Betaald op",
+      "paid_at": "Betaald Op",
       "github_username": "GitHub Gebruikersnaam",
       "status": "Status"
     }
@@ -63,10 +63,10 @@
     }
   },
   "api_keys": {
-    "title": "API Sleutels",
-    "tip": "Bewaar uw API-sleutel veilig om lekken te voorkomen",
-    "no_api_keys": "Geen API Sleutels",
-    "create_api_key": "API Sleutel Aanmaken",
+    "title": "API-sleutels",
+    "tip": "Bewaar je API-sleutel veilig om lekken te voorkomen",
+    "no_api_keys": "Geen API-sleutels",
+    "create_api_key": "API-sleutel aanmaken",
     "table": {
       "name": "Naam",
       "key": "Sleutel",
@@ -74,14 +74,14 @@
     },
     "form": {
       "name": "Naam",
-      "name_placeholder": "API Sleutel Naam",
+      "name_placeholder": "API-sleutel naam",
       "submit": "Verzenden"
     }
   },
   "blog": {
     "title": "Blog",
-    "description": "Nieuws, bronnen en updates over ShipAny",
-    "read_more_text": "Lees Meer"
+    "description": "Nieuws, middelen en updates over ShipAny",
+    "read_more_text": "Lees meer"
   },
   "turnstile": {
     "verifyYouAreHuman": "Verifieer dat je een mens bent"

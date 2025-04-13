@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Crea qualsiasi startup SaaS di IA in poche ore | ShipAny",
-    "description": "ShipAny è un boilerplate NextJS per costruire startup SaaS di IA, sviluppa velocemente con una varietà di modelli e componenti.",
-    "keywords": "ShipAny, AI SaaS Boilerplate, NextJS Boilerplate"
+    "title": "AI Face Swap - La migliore APP gratuita online per lo scambio di volti con l'IA",
+    "description": "Migliora le tue immagini con AI FaceSwap. Scambio di volti rapido, sicuro e di alta qualità per creatività e divertimento.",
+    "keywords": ""
   },
   "user": {
     "sign_in": "Accedi",
@@ -44,7 +44,7 @@
       "email": "Email",
       "product_name": "Nome Prodotto",
       "amount": "Importo",
-      "paid_at": "Pagato il",
+      "paid_at": "Pagato Il",
       "github_username": "Nome Utente GitHub",
       "status": "Stato"
     }
@@ -52,11 +52,11 @@
   "my_credits": {
     "title": "I Miei Crediti",
     "left_tip": "crediti rimanenti: {left_credits}",
-    "no_credits": "Nessuna registrazione di crediti",
+    "no_credits": "Nessun registro dei crediti",
     "recharge": "Ricarica",
     "table": {
       "trans_no": "Numero Transazione",
-      "trans_type": "Tipo Trans",
+      "trans_type": "Tipo di transazione",
       "credits": "Crediti",
       "updated_at": "Aggiornato il",
       "status": "Stato"
@@ -64,9 +64,9 @@
   },
   "api_keys": {
     "title": "Chiavi API",
-    "tip": "Si prega di mantenere al sicuro la propria apikey per evitare perdite",
-    "no_api_keys": "Nessuna Chiave API",
-    "create_api_key": "Crea Chiave API",
+    "tip": "Si prega di mantenere al sicuro la propria apikey per evitare fughe di dati",
+    "no_api_keys": "Nessuna chiave API",
+    "create_api_key": "Crea chiave API",
     "table": {
       "name": "Nome",
       "key": "Chiave",
@@ -74,13 +74,13 @@
     },
     "form": {
       "name": "Nome",
-      "name_placeholder": "Nome Chiave API",
+      "name_placeholder": "Nome chiave API",
       "submit": "Invia"
     }
   },
   "blog": {
     "title": "Blog",
-    "description": "Novità, risorse e aggiornamenti su ShipAny",
+    "description": "Notizie, risorse e aggiornamenti su ShipAny",
     "read_more_text": "Leggi di più"
   },
   "turnstile": {

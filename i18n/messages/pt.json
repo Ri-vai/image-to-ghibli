@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Crie Startups SaaS de IA em horas | ShipAny",
-    "description": "ShipAny é um boilerplate NextJS para criar startups SaaS de IA, Desenvolva Rápido com uma variedade de templates e componentes.",
-    "keywords": "ShipAny, Boilerplate SaaS de IA, Boilerplate NextJS"
+    "title": "AI Face Swap - O melhor APP gratuito de troca de rosto com IA",
+    "description": "Eleve suas imagens com AI FaceSwap. Troca de rosto rápida, segura e de alta qualidade para criatividade e diversão.",
+    "keywords": ""
   },
   "user": {
     "sign_in": "Entrar",
@@ -16,8 +16,8 @@
     "sign_in_description": "Entre na sua conta",
     "sign_up_title": "Cadastrar",
     "sign_up_description": "Criar uma conta",
-    "email_title": "E-mail",
-    "email_placeholder": "Digite seu e-mail aqui",
+    "email_title": "Email",
+    "email_placeholder": "Digite seu email aqui",
     "password_title": "Senha",
     "password_placeholder": "Digite sua senha aqui",
     "forgot_password": "Esqueceu a senha?",
@@ -45,7 +45,7 @@
       "product_name": "Nome do Produto",
       "amount": "Valor",
       "paid_at": "Pago Em",
-      "github_username": "Nome de Usuário GitHub",
+      "github_username": "Usuário do GitHub",
       "status": "Status"
     }
   },
@@ -80,8 +80,8 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "Notícias, recursos e atualizações sobre o ShipAny",
-    "read_more_text": "Ler mais"
+    "description": "Notícias, recursos e atualizações sobre a ShipAny",
+    "read_more_text": "Leia Mais"
   },
   "turnstile": {
     "verifyYouAreHuman": "Verifique que você é humano"

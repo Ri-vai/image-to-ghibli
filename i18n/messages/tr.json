@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "AI SaaS Girişimlerini saatler içinde yayınlayın | ShipAny",
-    "description": "ShipAny, AI SaaS girişimleri oluşturmak için bir NextJS şablonudur, çeşitli şablonlar ve bileşenlerle hızlıca yayınlayın.",
-    "keywords": "ShipAny, AI SaaS Şablonu, NextJS Şablonu"
+    "title": "AI Face Swap - En İyi Ücretsiz Çevrimiçi AI Yüz Değiştirme Uygulaması",
+    "description": "Görüntülerinizi AI FaceSwap ile yükseltin. Yaratıcılık ve eğlence için hızlı, güvenli ve yüksek kaliteli yüz değiştirme.",
+    "keywords": ""
   },
   "user": {
     "sign_in": "Giriş Yap",
@@ -20,30 +20,30 @@
     "email_placeholder": "E-postanızı buraya girin",
     "password_title": "Şifre",
     "password_placeholder": "Şifrenizi buraya girin",
-    "forgot_password": "Şifreyi mi unuttunuz?",
+    "forgot_password": "Şifremi unuttum?",
     "or": "Veya",
-    "continue": "Devam Et",
+    "continue": "Devam et",
     "no_account": "Hesabınız yok mu?",
-    "email_sign_in": "E-posta ile Giriş Yap",
-    "google_sign_in": "Google ile Giriş Yap",
-    "github_sign_in": "GitHub ile Giriş Yap",
+    "email_sign_in": "E-posta ile giriş yap",
+    "google_sign_in": "Google ile giriş yap",
+    "github_sign_in": "GitHub ile giriş yap",
     "close_title": "Kapat",
     "cancel_title": "İptal"
   },
   "my_orders": {
     "title": "Siparişlerim",
-    "description": "ShipAny ile ödenmiş siparişler.",
+    "description": "ShipAny ile ödenen siparişler.",
     "no_orders": "Sipariş bulunamadı",
     "tip": "",
     "activate_order": "Siparişi Etkinleştir",
-    "actived": "Aktif",
+    "actived": "Aktifleştirildi",
     "join_discord": "Discord'a Katıl",
-    "read_docs": "Dökümanları Oku",
+    "read_docs": "Belgeleri Oku",
     "table": {
       "order_no": "Sipariş No",
       "email": "E-posta",
       "product_name": "Ürün Adı",
-      "amount": "Miktar",
+      "amount": "Tutar",
       "paid_at": "Ödeme Tarihi",
       "github_username": "GitHub Kullanıcı Adı",
       "status": "Durum"
@@ -64,7 +64,7 @@
   },
   "api_keys": {
     "title": "API Anahtarları",
-    "tip": "Lütfen apikey'inizi sızıntıları önlemek için güvende tutun",
+    "tip": "Sızıntıları önlemek için lütfen API anahtarınızı güvende tutun",
     "no_api_keys": "API Anahtarı Yok",
     "create_api_key": "API Anahtarı Oluştur",
     "table": {

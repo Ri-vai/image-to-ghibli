@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "title": "Envíe cualquier startup de SaaS de IA en horas | ShipAny",
-    "description": "ShipAny es un boilerplate NextJS para construir startups de SaaS de IA, envíe rápidamente con una variedad de plantillas y componentes.",
-    "keywords": "ShipAny, AI SaaS Boilerplate, NextJS Boilerplate"
+    "title": "AI Face Swap - La mejor APP gratuita de intercambio de rostros con IA",
+    "description": "Mejora tus imágenes con AI FaceSwap. Intercambio de rostros rápido, seguro y de alta calidad para la creatividad y diversión.",
+    "keywords": ""
   },
   "user": {
     "sign_in": "Iniciar Sesión",
@@ -17,7 +17,7 @@
     "sign_up_title": "Registrarse",
     "sign_up_description": "Crear una cuenta",
     "email_title": "Correo electrónico",
-    "email_placeholder": "Ingrese su correo electrónico aquí",
+    "email_placeholder": "Ingresa tu correo electrónico aquí",
     "password_title": "Contraseña",
     "password_placeholder": "Ingrese su contraseña aquí",
     "forgot_password": "¿Olvidó su contraseña?",
@@ -44,7 +44,7 @@
       "email": "Correo electrónico",
       "product_name": "Nombre del Producto",
       "amount": "Cantidad",
-      "paid_at": "Pagado el",
+      "paid_at": "Pagado El",
       "github_username": "Nombre de Usuario de GitHub",
       "status": "Estado"
     }
@@ -56,9 +56,9 @@
     "recharge": "Recargar",
     "table": {
       "trans_no": "Número de Transacción",
-      "trans_type": "Tipo de Trans",
+      "trans_type": "Tipo de Transacción",
       "credits": "Créditos",
-      "updated_at": "Actualizado el",
+      "updated_at": "Actualizado El",
       "status": "Estado"
     }
   },
@@ -70,11 +70,11 @@
     "table": {
       "name": "Nombre",
       "key": "Clave",
-      "created_at": "Creado el"
+      "created_at": "Creado El"
     },
     "form": {
       "name": "Nombre",
-      "name_placeholder": "Nombre de la Clave API",
+      "name_placeholder": "Nombre de Clave API",
       "submit": "Enviar"
     }
   },
@@ -84,6 +84,6 @@
     "read_more_text": "Leer Más"
   },
   "turnstile": {
-    "verifyYouAreHuman": "Verifique que es humano"
+    "verifyYouAreHuman": "Verifica que eres humano"
   }
 }

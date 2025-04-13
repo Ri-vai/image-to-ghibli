@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "title": "数時間でAI SaaSスタートアップを立ち上げ | ShipAny",
-    "description": "ShipAnyは、AI SaaSスタートアップを構築するためのNextJSボイラープレートで、様々なテンプレートとコンポーネントで素早く構築できます。",
-    "keywords": "ShipAny, AI SaaSボイラープレート, NextJSボイラープレート"
+    "title": "AI フェイススワップ - 最高のオンライン無料 AI フェイススワップアプリ",
+    "description": "AI フェイススワップで画像をグレードアップ。クイック、安全、高品質なフェイススワップで創造性と楽しさを。",
+    "keywords": ""
   },
   "user": {
     "sign_in": "ログイン",
     "sign_out": "ログアウト",
     "credits": "クレジット",
-    "api_keys": "APIキー",
+    "api_keys": "API キー",
     "my_orders": "注文履歴"
   },
   "sign_modal": {
@@ -32,7 +32,7 @@
   },
   "my_orders": {
     "title": "注文履歴",
-    "description": "ShipAnyでの支払い済み注文",
+    "description": "ShipAnyで支払われた注文",
     "no_orders": "注文が見つかりません",
     "tip": "",
     "activate_order": "注文を有効化",
@@ -42,7 +42,7 @@
     "table": {
       "order_no": "注文番号",
       "email": "メールアドレス",
-      "product_name": "商品名",
+      "product_name": "製品名",
       "amount": "金額",
       "paid_at": "支払日時",
       "github_username": "GitHubユーザー名",
@@ -56,7 +56,7 @@
     "recharge": "チャージ",
     "table": {
       "trans_no": "取引番号",
-      "trans_type": "取引種類",
+      "trans_type": "取引タイプ",
       "credits": "クレジット",
       "updated_at": "更新日時",
       "status": "ステータス"
@@ -84,6 +84,6 @@
     "read_more_text": "続きを読む"
   },
   "turnstile": {
-    "verifyYouAreHuman": "人間であることを確認してください"
+    "verifyYouAreHuman": "人間であることを確認"
   }
 }
