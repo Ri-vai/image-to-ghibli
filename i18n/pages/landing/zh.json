@@ -458,7 +458,7 @@
         {
           "title": "邮箱",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.io",
+          "url": "mailto:support@aifaceswap.app",
           "target": "_self"
         }
       ]
