@@ -1,5 +1,6 @@
 import { Footer as FooterType } from "@/types/blocks/footer";
 import Icon from "@/components/icon";
+import FooterLanguageSwitcher from "@/components/ui/footer-language-switcher";
 
 export default function Footer({ footer }: { footer: FooterType }) {
   if (footer.disabled) {
@@ -80,6 +81,10 @@ export default function Footer({ footer }: { footer: FooterType }) {
                 ))}
               </ul>
             )}
+          </div>
+
+          <div className="mt-6 border-t pt-6">
+            <FooterLanguageSwitcher />
           </div>
         </footer>
       </div>
