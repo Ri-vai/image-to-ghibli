@@ -22,10 +22,10 @@ export default async function AdminLayout({
 
   const sidebar: Sidebar = {
     brand: {
-      title: "ShipAny",
+      title: "AI Face Swap",
       logo: {
         src: "/logo.png",
-        alt: "ShipAny",
+        alt: "AI Face Swap",
       },
       url: "/admin",
     },
@@ -61,24 +61,6 @@ export default async function AdminLayout({
           url: "/",
           target: "_blank",
           icon: "RiHomeLine",
-        },
-        {
-          title: "Github",
-          url: "https://github.com/shipanyai/shipany-template-one",
-          target: "_blank",
-          icon: "RiGithubLine",
-        },
-        {
-          title: "Discord",
-          url: "https://discord.gg/HQNnrzjZQS",
-          target: "_blank",
-          icon: "RiDiscordLine",
-        },
-        {
-          title: "X",
-          url: "https://x.com/shipanyai",
-          target: "_blank",
-          icon: "RiTwitterLine",
         },
       ],
     },
