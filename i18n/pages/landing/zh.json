@@ -1,14 +1,14 @@
 {
-  "template": "shipany-template-one",
+  "template": "ai-face-swap",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "AI 换脸",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "AI 换脸"
       },
-      "url": "/zh"
+      "url": "/"
     },
     "nav": {
       "items": [
@@ -23,329 +23,207 @@
           "icon": "MdPayment"
         },
         {
-          "title": "案例展示",
-          "url": "/#showcase",
-          "icon": "BiCube",
-          "children": [
-            {
-              "title": "AI壁纸商店",
-              "description": "AI壁纸生成器",
-              "icon": "MdOutlineWallpaper",
-              "url": "https://aiwallpaper.shop",
-              "target": "_blank"
-            },
-            {
-              "title": "AI封面生成器",
-              "description": "AI封面生成器",
-              "icon": "",
-              "url": "https://aicover.design",
-              "target": "_blank"
-            }
-          ]
+          "title": "API",
+          "url": "/#api",
+          "icon": "BiCode"
         }
       ]
     },
     "buttons": [
       {
-        "title": "获取 ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
+        "title": "立即尝试",
+        "url": "/#try",
+        "target": "_self",
         "variant": "link",
         "icon": "RiArrowRightUpLine"
       }
     ],
-    "show_sign": true,
+    "show_sign": false,
     "show_theme": true,
     "show_locale": true
   },
   "hero": {
-    "title": "几小时内快速构建 AI 创业项目，而不是几天",
-    "highlight_text": "Ship Any",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。<br/>通过丰富的模板和组件快速启动。",
+    "title": "最佳在线免费AI换脸工具",
+    "highlight_text": "AI 换脸",
+    "description": "深入体验AI换脸的创新领域，尖端技术与无限娱乐完美结合。轻松修改图像和视频，开启前所未有的数字可能性。",
     "announcement": {
-      "label": "2025",
-      "title": "🎉 新年快乐",
-      "url": "/#pricing"
+      "label": "AI",
+      "title": "免费 & 安全",
+      "url": "/#feature"
     },
-    "tip": "🎁 2025年前五折优惠",
     "buttons": [
       {
-        "title": "立即开始",
-        "icon": "RiFlashlightFill",
-        "url": "/#pricing",
+        "title": "立即尝试",
+        "url": "/#try",
         "target": "_self",
-        "variant": "default"
+        "variant": "default",
+        "icon": "RiFlashlightFill"
       },
       {
-        "title": "加入 Discord",
-        "icon": "RiDiscordFill",
-        "url": "https://discord.gg/HQNnrzjZQS",
-        "target": "_blank",
+        "title": "查看示例",
+        "url": "/#showcase",
+        "target": "_self",
         "variant": "outline"
       }
     ],
-    "show_happy_users": true,
+    "video": {
+      "src": "/hero-video.mp4",
+      "type": "video/mp4",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    },
+    "tip": "",
+    "show_happy_users": false,
     "show_badge": false
-  },
-  "branding": {
-    "title": "ShipAny 建立在巨人的肩膀上",
-    "items": [
-      {
-        "title": "Next.js",
-        "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
-        }
-      },
-      {
-        "title": "React",
-        "image": {
-          "src": "/imgs/logos/react.svg",
-          "alt": "React"
-        }
-      },
-      {
-        "title": "TailwindCSS",
-        "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
-        }
-      },
-      {
-        "title": "Shadcn/UI",
-        "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
-        }
-      },
-      {
-        "title": "Vercel",
-        "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
-        }
-      }
-    ]
   },
   "introduce": {
     "name": "introduce",
-    "title": "什么是 ShipAny",
-    "label": "介绍",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板，内置多种模板和组件。",
+    "title": "体验AI换脸的魔力",
+    "label": "工作原理",
+    "description": "利用我们先进的AI换脸技术改变任何照片。快速、精准且安全。",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "即用型模板",
-        "description": "从数十个生产就绪的 AI SaaS 模板中选择，快速启动您的项目。",
-        "icon": "RiNextjsFill"
+        "title": "上传您的照片",
+        "description": "只需上传源图像和您想要替换的面孔。",
+        "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "基础设施配置",
-        "description": "立即获取内置最佳实践的可扩展基础设施。",
-        "icon": "RiDatabase2Line"
+        "title": "AI处理",
+        "description": "我们的AI分析并处理图像，实现完美的面部替换。",
+        "icon": "RiAiGenerate"
       },
       {
-        "title": "快速部署",
-        "description": "在几小时内将您的 AI SaaS 应用部署到生产环境，而不是几天。",
-        "icon": "RiCloudyFill"
+        "title": "即时结果",
+        "description": "几秒钟内获得您的变换后图像，随时可下载。",
+        "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "为什么选择 ShipAny",
+    "title": "为什么选择AI换脸",
     "label": "优势",
-    "description": "获取启动 AI 创业所需的一切 - 从即用型模板到技术支持。",
+    "description": "体验最佳的换脸技术，拥有先进功能和安全保障。",
     "items": [
       {
-        "title": "完整框架",
-        "description": "基于 Next.js 构建，集成身份验证、支付和 AI 功能 - 一切开箱即用。",
-        "icon": "RiNextjsFill",
+        "title": "先进AI技术",
+        "description": "最先进的深度学习模型确保自然逼真的换脸效果。",
+        "icon": "RiBrainLine",
         "image": {
-          "src": "/imgs/features/2.png"
+          "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "丰富的模板库",
-        "description": "选择各种 AI SaaS 模板来启动您的项目 - 聊天机器人、图像生成等。",
-        "icon": "RiClapperboardAiLine",
+        "title": "隐私与安全",
+        "description": "您的照片在安全处理后自动删除，确保隐私万无一失。",
+        "icon": "RiShieldUserLine",
         "image": {
-          "src": "/imgs/features/3.png"
+          "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "技术指导",
-        "description": "获得专门支持并加入我们的开发者社区，确保您成功启动。",
-        "icon": "RiCodeFill",
+        "title": "开发者友好",
+        "description": "通过我们强大的API，将换脸技术整合到您的应用中。",
+        "icon": "RiCodeSSlashLine",
         "image": {
-          "src": "/imgs/features/4.png"
+          "src": "/imgs/benefits.jpg"
         }
       }
     ]
   },
   "usage": {
     "name": "usage",
-    "title": "如何使用 ShipAny 启动项目",
-    "description": "通过三个简单步骤启动您的 AI SaaS 创业项目：",
+    "title": "如何在线换脸",
+    "description": "只需几个简单步骤，创建令人惊艳的图像：",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "left",
-    "text_align": "center",
+    "image_position": "right",
+    "text_align": "left",
     "items": [
       {
-        "title": "获取 ShipAny",
-        "description": "一次性付款购买 ShipAny。查收邮件获取代码和文档。",
-        "image": {
-          "src": "/imgs/features/5.png"
-        }
+        "title": "上传您的图像",
+        "description": "只需点击\"上传图像\"并选择您要用作源图像的照片。确保照片中只有一张高质量的面孔。"
       },
       {
-        "title": "开始您的项目",
-        "description": "阅读文档并克隆 ShipAny 代码。开始构建您的 AI SaaS 创业项目。",
-        "image": {
-          "src": "/imgs/features/6.png"
-        }
+        "title": "选择您的换脸选项",
+        "description": "准备好原始图像后，从给定的预设中选择所需的交换效果。这意味着您将用所选预设替换上传图像中的面孔。"
       },
       {
-        "title": "定制您的项目",
-        "description": "使用您的数据和内容修改模板。满足特定的 AI 功能需求。",
-        "image": {
-          "src": "/imgs/features/7.png"
-        }
+        "title": "用AI换脸",
+        "description": "点击\"立即换脸\"按钮，让AI展示它的魔力。AiFaceSwap.app将在几秒钟内完成换脸。我们的AI自动完成工作，同时保证最佳输出。"
       },
       {
-        "title": "部署到生产环境",
-        "description": "通过几个步骤将项目部署到生产环境，立即开始服务客户。",
-        "image": {
-          "src": "/imgs/features/8.png"
-        }
+        "title": "预览和下载",
+        "description": "成功！您的脸已成功替换为您喜欢的对象！在同一页面上预览最终结果。点击\"下载\"将无水印图片保存到您的设备。分享给朋友，一起娱乐！"
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "ShipAny 核心功能",
-    "description": "快速高效启动 AI SaaS 创业所需的一切。",
+    "title": "强大的AI换脸功能",
+    "description": "探索我们AI换脸技术的惊人能力",
     "items": [
       {
-        "title": "Next.js 模板",
-        "description": "生产就绪的 Next.js 模板，支持 SEO 友好结构和国际化。",
-        "icon": "RiNextjsFill"
+        "title": "逼真的换脸效果",
+        "description": "我们的前沿技术确保完美、逼真的换脸效果，完全隐藏任何编辑痕迹。",
+        "icon": "RiImageLine"
       },
       {
-        "title": "身份验证和支付",
-        "description": "集成 Google OAuth、一键登录和 Stripe 支付处理。",
-        "icon": "RiKey2Fill"
+        "title": "简易用户界面",
+        "description": "只需一次点击，您就可以将任何面孔替换到另一张图像上，使过程简单直观。",
+        "icon": "RiMouseLine"
       },
       {
-        "title": "数据基础设施",
-        "description": "内置 Supabase 集成，提供可靠和可扩展的数据存储。",
-        "icon": "RiDatabase2Line"
+        "title": "表情包创作",
+        "description": "轻松制作有趣的表情包，通过新颖有趣的内容增强与观众的互动。",
+        "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "一键部署",
-        "description": "无缝部署到 Vercel 或 Cloudflare，自动化设置。",
-        "icon": "RiCloudy2Fill"
+        "title": "名人变身",
+        "description": "通过将您的面孔与各种角色交换来改变您的外观，从电影明星到超级英雄。",
+        "icon": "RiUserStarLine"
       },
       {
-        "title": "业务分析",
-        "description": "集成 Google Analytics 和 Search Console 追踪增长。",
-        "icon": "RiBarChart2Line"
+        "title": "风格体验",
+        "description": "将您的面孔应用到不同的角色上，尝试化妆、发型和时尚风格，探索新的外观。",
+        "icon": "RiPaletteLine"
       },
       {
-        "title": "AI 就绪基础设施",
-        "description": "预配置 AI 集成，内置积分系统和 API 销售。",
-        "icon": "RiRobot2Line"
+        "title": "无限创意",
+        "description": "通过我们多功能的换脸技术，释放无限的创意和娱乐潜力。",
+        "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
     "name": "showcase",
-    "title": "使用 ShipAny 构建的 AI SaaS 创业项目",
-    "description": "易于使用，快速发布。",
+    "title": "惊人的变身效果",
+    "description": "看看我们的用户使用AI换脸创造的作品。",
     "items": [
       {
-        "title": "ThinkAny",
-        "description": "AI 搜索引擎",
-        "url": "https://thinkany.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/7.png"
-        }
-      },
-      {
-        "title": "HeyBeauty",
-        "description": "AI 虚拟试妆",
-        "url": "https://heybeauty.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/5.png"
-        }
-      },
-      {
-        "title": "AI Wallpaper",
-        "description": "AI 壁纸生成器",
-        "url": "https://aiwallpaper.shop",
-        "target": "_blank",
+        "title": "视频换脸",
+        "description": "在视频中交换面孔，增强电影制作或为社交媒体创建内容",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "AI Cover",
-        "description": "AI 封面生成器",
-        "url": "https://aicover.design",
-        "target": "_blank",
+        "title": "照片换脸",
+        "description": "让您在照片中交换头部和替换面孔",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "GPTs Works",
-        "description": "GPTs 目录",
-        "url": "https://gpts.works",
-        "target": "_blank",
+        "title": "多人换脸",
+        "description": "在家庭照片、婚礼照片、聚会照片等中交换多个面孔",
         "image": {
           "src": "/imgs/showcases/3.png"
-        }
-      },
-      {
-        "title": "Melodisco",
-        "description": "AI 音乐播放器",
-        "url": "https://melodis.co",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/4.png"
-        }
-      },
-      {
-        "title": "Pagen",
-        "description": "AI 落地页生成器",
-        "url": "https://pagen.so",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/6.png"
-        }
-      },
-      {
-        "title": "SoraFM",
-        "description": "AI 视频生成器",
-        "url": "https://sorafm.trys.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/8.png"
-        }
-      },
-      {
-        "title": "PodLM",
-        "description": "AI 播客生成器",
-        "url": "https://podlm.ai",
-        "target": "_blank",
-        "image": {
-          "src": "/imgs/showcases/9.png"
         }
       }
     ]
@@ -353,187 +231,137 @@
   "stats": {
     "name": "stats",
     "label": "统计",
-    "title": "用户喜爱 ShipAny",
-    "description": "因为它易于使用且快速发布。",
+    "title": "全球用户信赖之选",
+    "description": "加入数千名使用AI换脸的满意用户。",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "信任",
-        "label": "99+",
-        "description": "客户"
+        "title": "满意用户",
+        "label": "1M+",
+        "description": "活跃用户"
       },
       {
-        "title": "内置",
-        "label": "20+",
-        "description": "组件"
+        "title": "换脸次数",
+        "label": "10M+",
+        "description": "已完成"
       },
       {
-        "title": "快速发布",
-        "label": "5",
-        "description": "分钟"
+        "title": "处理时间",
+        "label": "5s",
+        "description": "平均"
       }
     ]
   },
   "pricing": {
     "name": "pricing",
     "label": "定价",
-    "title": "定价",
-    "description": "获取 ShipAny 的所有功能，快速启动您的 AI SaaS 创业项目。",
-    "groups": [],
+    "title": "简单透明的定价",
+    "description": "选择最适合您换脸需求的完美方案。",
     "items": [
       {
-        "title": "入门版",
-        "description": "开始您的第一个 SaaS 创业项目。",
-        "features_title": "包含",
+        "title": "基础版",
+        "description": "适合个人使用",
         "features": [
-          "100 积分，有效期 1 个月",
-          "NextJS 模板",
-          "SEO 友好结构",
-          "Stripe 支付",
-          "Supabase 数据存储",
-          "Google OAuth 和一键登录",
-          "国际化支持"
+          "每月10次换脸",
+          "每张图片单面孔交换",
+          "标准处理速度",
+          "基础支持",
+          "仅网页访问",
+          "高清质量结果"
         ],
-        "interval": "one-time",
-        "amount": 9900,
-        "cn_amount": 69900,
+        "interval": "month",
+        "amount": 999,
         "currency": "USD",
-        "price": "$99",
-        "original_price": "$199",
-        "unit": "USD",
+        "price": "$9.99",
+        "unit": "month",
         "is_featured": false,
-        "tip": "一次付费，无限项目！",
+        "tip": "入门的最佳选择！",
         "button": {
-          "title": "获取 ShipAny",
-          "url": "/#pricing",
+          "title": "开始使用",
+          "url": "/#signup",
           "icon": "RiFlashlightFill"
-        },
-        "product_id": "starter",
-        "product_name": "ShipAny 模板入门版",
-        "credits": 100,
-        "valid_months": 1
+        }
       },
       {
-        "title": "标准版",
-        "description": "快速启动您的 SaaS 创业项目。",
+        "title": "专业版",
+        "description": "适合高级用户",
         "label": "热门",
-        "features_title": "包含入门版所有功能，另加",
         "features": [
-          "200 积分，有效期 3 个月",
-          "Vercel 或 Cloudflare 部署",
-          "隐私和条款生成",
-          "Google Analytics 集成",
-          "Google Search Console 集成",
-          "Discord 社区",
-          "首次发布技术支持",
-          "终身更新"
+          "每月50次换脸",
+          "支持多人换脸",
+          "优先处理",
+          "优先支持",
+          "API访问",
+          "4K质量结果"
         ],
-        "interval": "one-time",
-        "amount": 19900,
-        "cn_amount": 139900,
+        "interval": "month",
+        "amount": 2499,
         "currency": "USD",
-        "price": "$199",
-        "original_price": "$299",
-        "unit": "USD",
+        "price": "$24.99",
+        "unit": "month",
         "is_featured": true,
-        "tip": "一次付费，无限项目！",
+        "tip": "最受欢迎的选择！",
         "button": {
-          "title": "获取 ShipAny",
-          "url": "/#pricing",
+          "title": "获取专业版",
+          "url": "/#signup",
           "icon": "RiFlashlightFill"
-        },
-        "product_id": "standard",
-        "product_name": "ShipAny 模板标准版",
-        "credits": 200,
-        "valid_months": 3
+        }
       },
       {
-        "title": "高级版",
-        "description": "构建任何 AI SaaS 创业项目。",
-        "features_title": "包含标准版所有功能，另加",
+        "title": "企业版",
+        "description": "适合企业",
         "features": [
-          "300 积分，有效期 1 年",
-          "AI 业务功能",
-          "用户中心",
-          "积分系统",
-          "SaaS API 销售",
-          "管理系统",
-          "优先技术支持"
+          "无限换脸次数",
+          "支持多人换脸",
+          "超快处理速度",
+          "24/7优先支持",
+          "完整API访问",
+          "自定义集成支持"
         ],
-        "interval": "one-time",
-        "amount": 29900,
-        "cn_amount": 199900,
+        "interval": "month",
+        "amount": 9999,
         "currency": "USD",
-        "price": "$299",
-        "original_price": "$399",
-        "unit": "USD",
+        "price": "$99.99",
+        "unit": "month",
         "is_featured": false,
-        "tip": "一次付费，无限项目！",
+        "tip": "企业的最佳选择！",
         "button": {
-          "title": "获取 ShipAny",
-          "url": "/#pricing",
-          "icon": "RiFlashlightFill"
-        },
-        "product_id": "premium",
-        "product_name": "ShipAny 模板高级版",
-        "credits": 300,
-        "valid_months": 12
+          "title": "联系销售",
+          "url": "/#contact",
+          "icon": "RiCustomerServiceLine"
+        }
       }
     ]
   },
   "testimonial": {
     "name": "testimonial",
     "label": "用户评价",
-    "title": "用户如何评价 ShipAny",
-    "description": "听听使用 ShipAny 启动 AI 创业项目的开发者和创始人怎么说。",
+    "title": "用户怎么说",
+    "description": "听听喜爱使用AI换脸的用户的心声。",
     "icon": "GoThumbsup",
     "items": [
       {
-        "title": "陈大卫",
-        "label": "AIWallpaper.shop 创始人",
-        "description": "ShipAny 为我们节省了数月的开发时间。我们仅用 2 天就启动了 AI 壁纸业务，一周内就获得了第一个付费客户！",
+        "title": "莎拉·约翰逊",
+        "label": "专业摄影师",
+        "description": "换脸的质量令人难以置信！我用它处理专业形象照，结果总是完美的。",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
-        "title": "金瑞秋",
-        "label": "HeyBeauty.ai 技术总监",
-        "description": "预构建的 AI 基础设施是一个游戏规则改变者。我们无需担心架构 - 只需专注于 AI 美容技术并快速上线。",
+        "title": "陈迈克",
+        "label": "内容创作者",
+        "description": "API非常容易集成，处理速度惊人。完美满足我的内容创作需求。",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
-        "title": "马库斯",
-        "label": "独立开发者",
-        "description": "作为独立开发者，ShipAny 给了我所需的一切 - 身份验证、支付、AI 集成和漂亮的 UI。一个周末就启动了我的 SaaS！",
+        "title": "艾米丽·罗德里格斯",
+        "label": "社交媒体经理",
+        "description": "多人换脸功能是个游戏规则改变者。让创建吸引人的内容变得如此容易！",
         "image": {
           "src": "/imgs/users/3.png"
-        }
-      },
-      {
-        "title": "索菲亚",
-        "label": "Melodisco CEO",
-        "description": "这些模板可直接用于生产且高度可定制。我们用几小时而不是几个月就建立了 AI 音乐平台。上市时间令人难以置信！",
-        "image": {
-          "src": "/imgs/users/4.png"
-        }
-      },
-      {
-        "title": "詹姆斯",
-        "label": "GPTs.works 技术主管",
-        "description": "ShipAny 的基础设施非常稳固。我们从 0 扩展到 1 万用户都没碰后端。这是我们 AI 创业最好的投资。",
-        "image": {
-          "src": "/imgs/users/5.png"
-        }
-      },
-      {
-        "title": "张安娜",
-        "label": "创业者",
-        "description": "从想法到上线只用了 3 天！ShipAny 的模板和部署工具让我们能够以令人难以置信的速度测试 AI 业务概念。",
-        "image": {
-          "src": "/imgs/users/6.png"
         }
       }
     ]
@@ -541,50 +369,50 @@
   "faq": {
     "name": "faq",
     "label": "常见问题",
-    "title": "关于 ShipAny 的常见问题",
-    "description": "还有其他问题？通过 Discord 或电子邮件联系我们。",
+    "title": "常见问题解答",
+    "description": "有问题？我们有答案。",
     "items": [
       {
-        "title": "ShipAny 究竟是什么，它是如何工作的？",
-        "description": "ShipAny 是一个专门为构建 AI SaaS 创业项目设计的综合性 NextJS 模板。它提供即用型模板、基础设施设置和部署工具，帮助您在几小时内而不是几天内启动 AI 业务。"
+        "title": "AI换脸是如何工作的？",
+        "description": "我们的先进AI技术分析两张图像中的面部特征，然后无缝替换它们，同时保持自然的外观和表情。这个过程只需几秒钟，并确保高质量的结果。"
       },
       {
-        "title": "使用 ShipAny 需要高级技术技能吗？",
-        "description": "虽然基本的编程知识会有帮助，但 ShipAny 设计得非常开发者友好。我们的模板和文档使您即使不是 AI 或云基础设施专家也能轻松入门。"
+        "title": "我的数据安全吗？",
+        "description": "是的，绝对安全！我们非常重视隐私。所有上传的照片都在安全处理后自动删除。未经许可，我们绝不会存储或分享您的图像。"
       },
       {
-        "title": "我可以用 ShipAny 构建什么类型的 AI SaaS？",
-        "description": "ShipAny 支持广泛的 AI 应用，从内容生成到数据分析工具。我们的模板涵盖流行用例，如 AI 聊天机器人、内容生成器、图像处理应用等。"
+        "title": "支持哪些图像格式？",
+        "description": "我们支持所有常见的图像格式，包括JPG、PNG和WEBP。为获得最佳效果，我们建议使用清晰、光线充足且面部可见的照片。"
       },
       {
-        "title": "使用 ShipAny 通常需要多长时间才能启动？",
-        "description": "使用 ShipAny，您可以在几小时内完成工作原型，并在几小时内完成生产就绪的应用。我们的一键部署和预配置基础设施显著缩短了传统的数月开发周期。"
+        "title": "我可以在一张图像中交换多个面孔吗？",
+        "description": "可以！我们的专业版和企业版支持在单张图像中进行多个面孔交换。您可以在一次操作中用不同的源图像交换不同的面孔。"
       },
       {
-        "title": "ShipAny 的基础设施包括什么？",
-        "description": "ShipAny 提供完整的基础设施栈，包括身份验证、数据库设置、API 集成、支付处理和可扩展的云部署。一切都按照行业最佳实践预先配置。"
+        "title": "你们提供API吗？",
+        "description": "是的，我们为开发者提供强大的API，可将我们的换脸技术集成到他们的应用程序中。API访问随专业版和企业版提供。"
       },
       {
-        "title": "我可以自定义模板以匹配我的品牌吗？",
-        "description": "当然可以！所有 ShipAny 模板都完全可定制。您可以修改设计、功能和功能性以匹配您的品牌标识和特定业务需求，同时保持强大的底层基础设施。"
+        "title": "你们的退款政策是什么？",
+        "description": "我们提供100%满意保证。如果您对我们的服务不满意，请在购买后7天内联系我们，获得全额退款。"
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "启动您的第一个 AI SaaS 创业项目",
-    "description": "从这里开始，使用 ShipAny 启动。",
+    "title": "今天就开始变换您的照片",
+    "description": "加入数百万满意用户，体验AI换脸的魔力。",
     "buttons": [
       {
-        "title": "获取 ShipAny",
-        "url": "https://shipany.ai",
-        "target": "_blank",
-        "icon": "GoArrowUpRight"
+        "title": "免费试用",
+        "url": "/#signup",
+        "target": "_self",
+        "icon": "RiFlashlightFill"
       },
       {
-        "title": "阅读文档",
-        "url": "https://docs.shipany.ai",
-        "target": "_blank",
+        "title": "查看示例",
+        "url": "/#showcase",
+        "target": "_self",
         "variant": "outline"
       }
     ]
@@ -592,19 +420,19 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。通过丰富的模板和组件快速启动。",
+      "title": "AI换脸",
+      "description": "使用先进的AI换脸技术改变您的照片。快速、安全且易于使用。",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "AI换脸"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny 保留所有权利。",
+    "copyright": "© 2024 • AI换脸 保留所有权利。",
     "nav": {
       "items": [
         {
-          "title": "关于",
+          "title": "产品",
           "children": [
             {
               "title": "功能特点",
@@ -612,54 +440,14 @@
               "target": "_self"
             },
             {
-              "title": "案例展示",
-              "url": "/#showcase",
-              "target": "_self"
-            },
-            {
               "title": "定价",
               "url": "/#pricing",
               "target": "_self"
-            }
-          ]
-        },
-        {
-          "title": "资源",
-          "children": [
-            {
-              "title": "文档",
-              "url": "https://docs.shipany.ai",
-              "target": "_blank"
             },
             {
-              "title": "组件",
-              "url": "https://shipany.ai/components",
-              "target": "_blank"
-            },
-            {
-              "title": "模板",
-              "url": "https://shipany.ai/templates",
-              "target": "_blank"
-            }
-          ]
-        },
-        {
-          "title": "友情链接",
-          "children": [
-            {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
-              "target": "_blank"
-            },
-            {
-              "title": "Pagen",
-              "url": "https://pagen.so",
-              "target": "_blank"
+              "title": "API",
+              "url": "/#api",
+              "target": "_self"
             }
           ]
         }
@@ -668,27 +456,9 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/shipanyai",
-          "target": "_blank"
-        },
-        {
-          "title": "Github",
-          "icon": "RiGithubFill",
-          "url": "https://github.com/shipanyai",
-          "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/HQNnrzjZQS",
-          "target": "_blank"
-        },
-        {
-          "title": "邮箱",
+          "title": "电子邮件",
           "icon": "RiMailLine",
-          "url": "mailto:support@shipany.ai",
+          "url": "mailto:support@aifaceswap.io",
           "target": "_self"
         }
       ]
@@ -705,5 +475,29 @@
         }
       ]
     }
+  },
+  "faceSwap": {
+    "photoFaceSwap": "照片换脸",
+    "videoFaceSwap": "视频换脸",
+    "multipleFaceSwap": "多人换脸",
+    "uploadOriginalImage": "上传原始图像",
+    "uploadFaceImage": "上传面孔图像",
+    "startFaceSwap": "开始换脸",
+    "swapFace": "换脸",
+    "processing": "处理中...",
+    "before": "换脸前",
+    "after": "换脸后",
+    "uploadImage": "上传图像",
+    "readyToSwap": "准备换脸",
+    "uploadBothImages": "上传两张图像",
+    "comingSoon": "即将推出",
+    "download": "下载",
+    "splitView": "分屏查看",
+    "compareView": "对比查看",
+    "zoomIn": "放大",
+    "swapInProgress": "面部交换进行中...",
+    "completeSoon": "将在几秒钟内完成",
+    "magicHappening": "魔法正在发生..."
   }
 }
+
