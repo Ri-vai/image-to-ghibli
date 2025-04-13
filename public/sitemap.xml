@@ -1,137 +1,63 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- Default (English) URLs -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://aifaceswap.app</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://aifaceswap.app"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://aifaceswap.app/zh"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://aifaceswap.app/ar"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://aifaceswap.app/de"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://aifaceswap.app/es"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://aifaceswap.app/fr"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://aifaceswap.app/it"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://aifaceswap.app/ja"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://aifaceswap.app/ko"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://aifaceswap.app/nl"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://aifaceswap.app/pt"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://aifaceswap.app/ru"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://aifaceswap.app/tr"/>
-    <xhtml:link rel="alternate" hreflang="tw" href="https://aifaceswap.app/tw"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://aifaceswap.app/vi"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Chinese -->
-  <url>
-    <loc>https://aifaceswap.app/zh</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://aifaceswap.app/zh"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
-  </url>
-
-  <!-- Arabic -->
   <url>
     <loc>https://aifaceswap.app/ar</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://aifaceswap.app/ar"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- German -->
   <url>
     <loc>https://aifaceswap.app/de</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://aifaceswap.app/de"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Spanish -->
   <url>
     <loc>https://aifaceswap.app/es</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="es" href="https://aifaceswap.app/es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- French -->
   <url>
     <loc>https://aifaceswap.app/fr</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://aifaceswap.app/fr"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Italian -->
   <url>
     <loc>https://aifaceswap.app/it</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="it" href="https://aifaceswap.app/it"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Japanese -->
   <url>
     <loc>https://aifaceswap.app/ja</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://aifaceswap.app/ja"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Korean -->
   <url>
     <loc>https://aifaceswap.app/ko</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://aifaceswap.app/ko"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Dutch -->
   <url>
     <loc>https://aifaceswap.app/nl</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://aifaceswap.app/nl"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Portuguese -->
   <url>
     <loc>https://aifaceswap.app/pt</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://aifaceswap.app/pt"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Russian -->
   <url>
     <loc>https://aifaceswap.app/ru</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://aifaceswap.app/ru"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Turkish -->
   <url>
     <loc>https://aifaceswap.app/tr</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://aifaceswap.app/tr"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
-
-  <!-- Traditional Chinese -->
-  <url>
-    <loc>https://aifaceswap.app/tw</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="tw" href="https://aifaceswap.app/tw"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
-  </url>
-
-  <!-- Vietnamese -->
   <url>
     <loc>https://aifaceswap.app/vi</loc>
-    <lastmod>2024-03-24T10:00:00+00:00</lastmod>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://aifaceswap.app/vi"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://aifaceswap.app"/>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://aifaceswap.app/tw</loc>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://aifaceswap.app/zh</loc>
+    <lastmod>2025-04-13T15:12:59+00:00</lastmod>
   </url>
 </urlset>

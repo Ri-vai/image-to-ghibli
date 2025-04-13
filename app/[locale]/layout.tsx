@@ -46,7 +46,10 @@ export default async function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <head>
         {/* Base URL for canonical and hreflang tags */}
-        <link rel="canonical" href={`https://aifaceswap.app/${locale}`} />
+        <link
+          rel="canonical"
+          href={`https://aifaceswap.app${locale === "en" ? "" : `/${locale}`}`}
+        />
 
         {/* Add hreflang tags for all supported languages */}
         <link
@@ -54,14 +57,16 @@ export default async function RootLayout({
           hrefLang="x-default"
           href="https://aifaceswap.app"
         />
-        {locales.map((lang) => (
-          <link
-            key={lang}
-            rel="alternate"
-            hrefLang={lang}
-            href={`https://aifaceswap.app/${lang}`}
-          />
-        ))}
+        {locales
+          .filter((lang) => lang !== "en")
+          .map((lang) => (
+            <link
+              key={lang}
+              rel="alternate"
+              hrefLang={lang}
+              href={`https://aifaceswap.app/${lang}`}
+            />
+          ))}
 
         <script
           defer
