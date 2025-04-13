@@ -1,0 +1,502 @@
+{
+  "template": "ai-face-swap",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "Troca de Rosto com IA",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Troca de Rosto com IA"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Recursos",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "Preços",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "API",
+          "url": "/#api",
+          "icon": "BiCode"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Experimente Agora",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "O melhor Trocador de Rosto com IA Online Gratuito",
+    "highlight_text": "Troca de Rosto com IA",
+    "description": "Mergulhe no mundo inovador da Troca de Rosto com IA, onde a tecnologia de ponta encontra o entretenimento ilimitado. Modifique facilmente imagens e vídeos, abrindo a porta para possibilidades digitais incomparáveis.",
+    "announcement": {
+      "label": "IA",
+      "title": "Grátis & Seguro",
+      "url": "/#feature"
+    },
+    "buttons": [
+      {
+        "title": "Experimente Agora",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "Ver Exemplos",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "video": {
+      "src": "/hero-video.mp4",
+      "type": "video/mp4",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    },
+    "tip": "",
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "Experimente a Magia da Troca de Rosto com IA",
+    "label": "Como Funciona",
+    "description": "Transforme qualquer foto com nossa tecnologia avançada de troca de rosto com IA. Rápido, preciso e seguro.",
+    "image": {
+      "src": "/imgs/introduce.png"
+    },
+    "items": [
+      {
+        "title": "Envie Suas Fotos",
+        "description": "Basta carregar a imagem de origem e o rosto que você deseja trocar.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Processamento por IA",
+        "description": "Nossa IA analisa e processa as imagens para uma troca de rosto perfeita.",
+        "icon": "RiAiGenerate"
+      },
+      {
+        "title": "Resultados Instantâneos",
+        "description": "Obtenha sua imagem transformada em segundos, pronta para download.",
+        "icon": "RiDownload2Line"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefício",
+    "title": "Por Que Escolher o AI Face Swap",
+    "label": "Benefícios",
+    "description": "Experimente a melhor tecnologia de troca de rosto com recursos avançados e segurança.",
+    "items": [
+      {
+        "title": "Tecnologia Avançada de IA",
+        "description": "Modelos de aprendizado profundo de última geração garantem trocas de rosto naturais e realistas.",
+        "icon": "RiBrainLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "Privacidade e Segurança",
+        "description": "Suas fotos são processadas com segurança e automaticamente excluídas após o processamento.",
+        "icon": "RiShieldUserLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "Amigável para Desenvolvedores",
+        "description": "Integre nossa tecnologia de troca de rosto em seus aplicativos com nossa API robusta.",
+        "icon": "RiCodeSSlashLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "uso",
+    "title": "Como Trocar um Rosto Online",
+    "description": "Crie imagens incríveis em apenas alguns passos simples:",
+    "image": {
+      "src": "/imgs/features/usage-demo.png"
+    },
+    "image_position": "right",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "Carregue Sua Imagem",
+        "description": "Simplesmente clique em 'Carregar uma Imagem' e selecione uma foto que você deseja usar como imagem fonte. Certifique-se de que apenas um rosto na foto seja de boa qualidade."
+      },
+      {
+        "title": "Escolha sua Opção de Troca de Rosto",
+        "description": "Quando sua imagem original estiver pronta, escolha o efeito de troca desejado entre as predefinições disponíveis. Isso significa que você substituirá o rosto da sua imagem carregada pela predefinição selecionada."
+      },
+      {
+        "title": "Troque o Rosto com IA",
+        "description": "Clique no botão 'Trocar Rosto Agora' para mostrar a mágica da IA. O AiFaceSwap.app concluirá a troca de rosto em poucos segundos. Nossa IA faz o trabalho automaticamente garantindo o melhor resultado."
+      },
+      {
+        "title": "Visualize e Baixe",
+        "description": "Bingo! Seu rosto foi trocado por quem você quiser! Visualize o resultado final na mesma página. Clique em 'Baixar' para salvar a imagem sem marca d'água no seu dispositivo. Compartilhe para se divertir!"
+      }
+    ]
+  },
+  "feature": {
+    "name": "recurso",
+    "title": "Poderosos Recursos de Troca de Rosto com IA",
+    "description": "Descubra as incríveis capacidades da nossa tecnologia de troca de rostos alimentada por IA",
+    "items": [
+      {
+        "title": "Trocas de Rosto Realistas",
+        "description": "Nossa tecnologia de ponta garante trocas de rosto perfeitas e realistas, ocultando completamente qualquer evidência de edição.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "Interface Fácil de Usar",
+        "description": "Com apenas um clique, você pode substituir qualquer rosto em outra imagem, tornando o processo simples e intuitivo.",
+        "icon": "RiMouseLine"
+      },
+      {
+        "title": "Criação de Memes",
+        "description": "Crie memes hilários facilmente, aumentando a interação com seu público através de conteúdo novo e envolvente.",
+        "icon": "RiEmotionLaughLine"
+      },
+      {
+        "title": "Transformações em Celebridades",
+        "description": "Transforme sua aparência trocando seu rosto com várias personas, de estrelas de cinema a super-heróis.",
+        "icon": "RiUserStarLine"
+      },
+      {
+        "title": "Experimentação de Estilos",
+        "description": "Explore novos visuais aplicando seu rosto em diferentes personagens, experimentando maquiagem, penteados e estilos de moda.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Criatividade Infinita",
+        "description": "Desbloqueie um potencial infinito para criatividade e entretenimento com nossa versátil tecnologia de troca de rostos.",
+        "icon": "RiMagicLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "vitrine",
+    "title": "Transformações Incríveis",
+    "description": "Veja o que nossos usuários criaram com o AI Face Swap.",
+    "items": [
+      {
+        "title": "Troca de Rosto em Vídeo",
+        "description": "Troque rostos em vídeos, aprimorando a produção cinematográfica ou criando conteúdo para redes sociais",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Troca de Rosto em Foto",
+        "description": "Permite trocar cabeças e substituir rostos em fotos",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Troca Múltipla de Rostos",
+        "description": "Troque múltiplos rostos em fotos de família, fotos de casamento, fotos de festa, etc",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "estatísticas",
+    "label": "Estatísticas",
+    "title": "Confiado por Usuários em Todo o Mundo",
+    "description": "Junte-se a milhares de usuários satisfeitos usando o AI Face Swap.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Usuários Satisfeitos",
+        "label": "1M+",
+        "description": "Usuários Ativos"
+      },
+      {
+        "title": "Trocas de Rosto",
+        "label": "10M+",
+        "description": "Concluídos"
+      },
+      {
+        "title": "Tempo de Processamento",
+        "label": "5s",
+        "description": "Média"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "preços",
+    "label": "Preços",
+    "title": "Preços Simples e Transparentes",
+    "description": "Escolha o plano perfeito para suas necessidades de troca de rosto.",
+    "items": [
+      {
+        "title": "Básico",
+        "description": "Perfeito para uso pessoal",
+        "features": [
+          "10 trocas de rosto por mês",
+          "Troca de rosto única por imagem",
+          "Velocidade de processamento padrão",
+          "Suporte básico",
+          "Apenas acesso web",
+          "Resultados em qualidade HD"
+        ],
+        "interval": "mês",
+        "amount": 999,
+        "currency": "USD",
+        "price": "$9.99",
+        "unit": "mês",
+        "is_featured": false,
+        "tip": "Ótimo para começar!",
+        "button": {
+          "title": "Começar",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "Pro",
+        "description": "Para usuários avançados",
+        "label": "Popular",
+        "features": [
+          "50 trocas de rosto por mês",
+          "Suporte para múltiplas trocas de rosto",
+          "Processamento prioritário",
+          "Suporte prioritário",
+          "Acesso à API",
+          "Resultados em qualidade 4K"
+        ],
+        "interval": "mês",
+        "amount": 2499,
+        "currency": "USD",
+        "price": "$24.99",
+        "unit": "mês",
+        "is_featured": true,
+        "tip": "A escolha mais popular!",
+        "button": {
+          "title": "Obter Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "Enterprise",
+        "description": "Para empresas",
+        "features": [
+          "Trocas de rosto ilimitadas",
+          "Suporte para múltiplas trocas de rosto",
+          "Processamento ultra-rápido",
+          "Suporte prioritário 24/7",
+          "Acesso completo à API",
+          "Suporte à integração personalizada"
+        ],
+        "interval": "mês",
+        "amount": 9999,
+        "currency": "USD",
+        "price": "$99.99",
+        "unit": "mês",
+        "is_featured": false,
+        "tip": "Melhor para empresas!",
+        "button": {
+          "title": "Contate Vendas",
+          "url": "/#contact",
+          "icon": "RiCustomerServiceLine"
+        }
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "depoimento",
+    "label": "Depoimentos",
+    "title": "O Que Nossos Usuários Dizem",
+    "description": "Ouça as pessoas que adoram usar o AI Face Swap.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Johnson",
+        "label": "Fotógrafo Profissional",
+        "description": "A qualidade das trocas de rosto é incrível! Eu uso para fotos profissionais e os resultados são sempre perfeitos.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Chen",
+        "label": "Criador de Conteúdo",
+        "description": "A API é super fácil de integrar, e a velocidade de processamento é incrível. Perfeito para minhas necessidades de criação de conteúdo.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Rodriguez",
+        "label": "Gerente de Mídias Sociais",
+        "description": "O recurso de troca múltipla de rostos é revolucionário. Torna a criação de conteúdo envolvente muito mais fácil!",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Perguntas Frequentes",
+    "description": "Tem perguntas? Nós temos respostas.",
+    "items": [
+      {
+        "title": "Como funciona a Troca de Rosto com IA?",
+        "description": "Nossa tecnologia avançada de IA analisa características faciais em ambas as imagens, então faz a troca perfeitamente mantendo aparência e expressões naturais. O processo leva apenas segundos e garante resultados de alta qualidade."
+      },
+      {
+        "title": "Meus dados estão seguros?",
+        "description": "Sim, absolutamente! Levamos a privacidade muito a sério. Todas as fotos enviadas são processadas com segurança e automaticamente excluídas após o processamento. Nunca armazenamos ou compartilhamos suas imagens sem permissão."
+      },
+      {
+        "title": "Quais formatos de imagem são suportados?",
+        "description": "Suportamos todos os formatos comuns de imagem, incluindo JPG, PNG e WEBP. Para melhores resultados, recomendamos usar fotos claras, bem iluminadas com rostos visíveis."
+      },
+      {
+        "title": "Posso trocar múltiplos rostos em uma imagem?",
+        "description": "Sim! Nossos planos Pro e Enterprise suportam múltiplas trocas de rosto em uma única imagem. Você pode trocar diferentes rostos com diferentes imagens de origem de uma só vez."
+      },
+      {
+        "title": "Vocês oferecem uma API?",
+        "description": "Sim, fornecemos uma API robusta para desenvolvedores integrarem nossa tecnologia de troca de rostos em seus aplicativos. O acesso à API está disponível com nossos planos Pro e Enterprise."
+      },
+      {
+        "title": "Qual é a política de reembolso?",
+        "description": "Oferecemos garantia de 100% de satisfação. Se você não estiver satisfeito com nosso serviço, entre em contato conosco dentro de 7 dias após sua compra para um reembolso total."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Comece a Transformar Suas Fotos Hoje",
+    "description": "Junte-se a milhões de usuários satisfeitos e experimente a magia da Troca de Rosto com IA.",
+    "buttons": [
+      {
+        "title": "Experimente Grátis",
+        "url": "/#signup",
+        "target": "_self",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "Ver Exemplos",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "AI Face Swap",
+      "description": "Transforme suas fotos com tecnologia avançada de troca de rosto por IA. Rápido, seguro e fácil de usar.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI Face Swap"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2024 • AI Face Swap Todos os direitos reservados.",
+    "nav": {
+      "items": [
+        {
+          "title": "Produto",
+          "children": [
+            {
+              "title": "Recursos",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Preços",
+              "url": "/#pricing",
+              "target": "_self"
+            },
+            {
+              "title": "API",
+              "url": "/#api",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@aifaceswap.io",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Política de Privacidade",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Termos de Serviço",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  },
+  "faceSwap": {
+    "photoFaceSwap": "Troca de Rosto em Foto",
+    "videoFaceSwap": "Video Face Swap",
+    "multipleFaceSwap": "Troca Múltipla de Rostos",
+    "uploadOriginalImage": "Carregar Imagem Original",
+    "uploadFaceImage": "Carregar Imagem do Rosto",
+    "startFaceSwap": "Iniciar Troca de Rosto",
+    "swapFace": "Trocar Rosto",
+    "processing": "Processando...",
+    "before": "Antes",
+    "after": "Depois",
+    "uploadImage": "Carregar Imagem",
+    "readyToSwap": "Pronto para Trocar",
+    "uploadBothImages": "Carregar Ambas as Imagens",
+    "comingSoon": "Em Breve",
+    "download": "Baixar",
+    "splitView": "Visão Dividida",
+    "compareView": "Visão Comparativa",
+    "zoomIn": "Ampliar",
+    "swapInProgress": "Troca de rosto em andamento...",
+    "completeSoon": "Será concluído em alguns segundos",
+    "magicHappening": "Mágica acontecendo..."
+  }
+}

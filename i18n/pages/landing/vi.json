@@ -1,0 +1,502 @@
+{
+  "template": "ai-face-swap",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "AI Hoán Đổi Khuôn Mặt",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI Hoán Đổi Khuôn Mặt"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Tính năng",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "Bảng giá",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "API",
+          "url": "/#api",
+          "icon": "BiCode"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Dùng thử ngay",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "Công cụ AI Hoán Đổi Khuôn Mặt trực tuyến miễn phí tốt nhất",
+    "highlight_text": "AI Hoán Đổi Khuôn Mặt",
+    "description": "Khám phá thế giới đổi mới của AI Hoán Đổi Khuôn Mặt, nơi công nghệ tiên tiến kết hợp với giải trí không giới hạn. Dễ dàng chỉnh sửa hình ảnh và video, mở ra cánh cửa cho những khả năng kỹ thuật số chưa từng có.",
+    "announcement": {
+      "label": "AI",
+      "title": "Miễn phí & An toàn",
+      "url": "/#feature"
+    },
+    "buttons": [
+      {
+        "title": "Dùng thử ngay",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "Xem ví dụ",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "video": {
+      "src": "/hero-video.mp4",
+      "type": "video/mp4",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    },
+    "tip": "",
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "Trải nghiệm điều kỳ diệu của Hoán đổi khuôn mặt AI",
+    "label": "Cách thức hoạt động",
+    "description": "Biến đổi bất kỳ bức ảnh nào với công nghệ hoán đổi khuôn mặt AI tiên tiến của chúng tôi. Nhanh chóng, chính xác và an toàn.",
+    "image": {
+      "src": "/imgs/introduce.png"
+    },
+    "items": [
+      {
+        "title": "Tải lên ảnh của bạn",
+        "description": "Chỉ cần tải lên ảnh nguồn và khuôn mặt bạn muốn hoán đổi.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Xử lý bằng AI",
+        "description": "AI của chúng tôi phân tích và xử lý hình ảnh để hoán đổi khuôn mặt hoàn hảo.",
+        "icon": "RiAiGenerate"
+      },
+      {
+        "title": "Kết quả tức thì",
+        "description": "Nhận hình ảnh đã chuyển đổi trong vài giây, sẵn sàng để tải xuống.",
+        "icon": "RiDownload2Line"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "lợi ích",
+    "title": "Tại sao chọn AI Face Swap",
+    "label": "Lợi ích",
+    "description": "Trải nghiệm công nghệ hoán đổi khuôn mặt tốt nhất với các tính năng nâng cao và bảo mật.",
+    "items": [
+      {
+        "title": "Công nghệ AI tiên tiến",
+        "description": "Mô hình học sâu hiện đại đảm bảo hoán đổi khuôn mặt tự nhiên và chân thực.",
+        "icon": "RiBrainLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "Quyền riêng tư & Bảo mật",
+        "description": "Ảnh của bạn được xử lý an toàn và tự động xóa sau khi xử lý.",
+        "icon": "RiShieldUserLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "Thân thiện với nhà phát triển",
+        "description": "Tích hợp công nghệ hoán đổi khuôn mặt của chúng tôi vào ứng dụng của bạn với API mạnh mẽ.",
+        "icon": "RiCodeSSlashLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "hướng dẫn",
+    "title": "Cách Hoán Đổi Khuôn Mặt Trực Tuyến",
+    "description": "Tạo hình ảnh tuyệt đẹp chỉ với vài bước đơn giản:",
+    "image": {
+      "src": "/imgs/features/usage-demo.png"
+    },
+    "image_position": "right",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "Tải Ảnh Lên",
+        "description": "Chỉ cần nhấp vào 'Tải lên Ảnh' và chọn bức ảnh bạn muốn sử dụng làm ảnh nguồn. Đảm bảo chỉ có một khuôn mặt trong ảnh và ảnh phải có chất lượng tốt."
+      },
+      {
+        "title": "Chọn Tùy Chọn Hoán Đổi Khuôn Mặt",
+        "description": "Khi ảnh gốc của bạn đã sẵn sàng, hãy chọn hiệu ứng hoán đổi mong muốn từ các mẫu có sẵn. Điều này có nghĩa là bạn sẽ thay thế khuôn mặt trong ảnh đã tải lên bằng mẫu đã chọn."
+      },
+      {
+        "title": "Hoán Đổi Khuôn Mặt với AI",
+        "description": "Nhấp vào nút 'Hoán Đổi Khuôn Mặt Ngay' để cho AI thể hiện phép màu. AiFaceSwap.app sẽ hoàn thành việc hoán đổi khuôn mặt trong vài giây. AI của chúng tôi thực hiện công việc một cách tự động đồng thời đảm bảo kết quả tốt nhất."
+      },
+      {
+        "title": "Xem Trước và Tải Xuống",
+        "description": "Tuyệt vời! Khuôn mặt của bạn đã được hoán đổi với người bạn thích! Xem trước kết quả cuối cùng ngay trên cùng trang. Nhấp vào 'Tải xuống' để lưu ảnh không có hình mờ vào thiết bị của bạn. Chia sẻ để cùng vui!"
+      }
+    ]
+  },
+  "feature": {
+    "name": "tính năng",
+    "title": "Các Tính Năng Hoán Đổi Khuôn Mặt AI Mạnh Mẽ",
+    "description": "Khám phá những khả năng tuyệt vời của công nghệ hoán đổi khuôn mặt được hỗ trợ bởi AI của chúng tôi",
+    "items": [
+      {
+        "title": "Hoán Đổi Khuôn Mặt Chân Thực",
+        "description": "Công nghệ tiên tiến của chúng tôi đảm bảo hoán đổi khuôn mặt hoàn hảo, chân thực, hoàn toàn che giấu mọi dấu vết chỉnh sửa.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "Giao Diện Dễ Sử Dụng",
+        "description": "Chỉ với một cú nhấp chuột, bạn có thể thay thế bất kỳ khuôn mặt nào lên một hình ảnh khác, làm cho quá trình trở nên đơn giản và trực quan.",
+        "icon": "RiMouseLine"
+      },
+      {
+        "title": "Tạo Meme",
+        "description": "Tạo ra những meme hài hước một cách dễ dàng, tăng cường tương tác với khán giả thông qua nội dung mới mẻ và hấp dẫn.",
+        "icon": "RiEmotionLaughLine"
+      },
+      {
+        "title": "Biến Đổi Thành Người Nổi Tiếng",
+        "description": "Biến đổi ngoại hình của bạn bằng cách hoán đổi khuôn mặt với nhiều nhân vật khác nhau, từ ngôi sao điện ảnh đến siêu anh hùng.",
+        "icon": "RiUserStarLine"
+      },
+      {
+        "title": "Thử Nghiệm Phong Cách",
+        "description": "Khám phá diện mạo mới bằng cách áp dụng khuôn mặt của bạn vào các nhân vật khác nhau, thử nghiệm với trang điểm, kiểu tóc và phong cách thời trang.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Sáng Tạo Vô Tận",
+        "description": "Mở khóa tiềm năng vô hạn cho sự sáng tạo và giải trí với công nghệ hoán đổi khuôn mặt đa năng của chúng tôi.",
+        "icon": "RiMagicLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "trưng bày",
+    "title": "Những Biến Đổi Tuyệt Vời",
+    "description": "Xem những gì người dùng của chúng tôi đã tạo ra với AI Face Swap.",
+    "items": [
+      {
+        "title": "Hoán Đổi Khuôn Mặt Video",
+        "description": "Hoán đổi khuôn mặt trong video, nâng cao việc làm phim hoặc tạo nội dung cho mạng xã hội",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Hoán Đổi Khuôn Mặt Ảnh",
+        "description": "Cho phép bạn hoán đổi đầu và thay thế khuôn mặt trong ảnh",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Hoán Đổi Nhiều Khuôn Mặt",
+        "description": "Hoán đổi nhiều khuôn mặt trong ảnh gia đình, ảnh cưới, ảnh tiệc, v.v",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "thống kê",
+    "label": "Thống Kê",
+    "title": "Được Tin Dùng Bởi Người Dùng Toàn Cầu",
+    "description": "Tham gia cùng hàng nghìn người dùng hài lòng đang sử dụng AI Face Swap.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Người Dùng Hài Lòng",
+        "label": "1M+",
+        "description": "Người Dùng Hoạt Động"
+      },
+      {
+        "title": "Hoán Đổi Khuôn Mặt",
+        "label": "10M+",
+        "description": "Đã hoàn thành"
+      },
+      {
+        "title": "Thời gian xử lý",
+        "label": "5s",
+        "description": "Trung bình"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "Bảng giá",
+    "title": "Bảng giá đơn giản, minh bạch",
+    "description": "Chọn gói phù hợp cho nhu cầu hoán đổi khuôn mặt của bạn.",
+    "items": [
+      {
+        "title": "Cơ bản",
+        "description": "Hoàn hảo cho sử dụng cá nhân",
+        "features": [
+          "10 lần hoán đổi khuôn mặt mỗi tháng",
+          "Hoán đổi một khuôn mặt trên mỗi ảnh",
+          "Tốc độ xử lý tiêu chuẩn",
+          "Hỗ trợ cơ bản",
+          "Chỉ truy cập web",
+          "Kết quả chất lượng HD"
+        ],
+        "interval": "tháng",
+        "amount": 999,
+        "currency": "USD",
+        "price": "$9.99",
+        "unit": "tháng",
+        "is_featured": false,
+        "tip": "Tuyệt vời để bắt đầu!",
+        "button": {
+          "title": "Bắt Đầu",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "Pro",
+        "description": "Dành cho người dùng chuyên nghiệp",
+        "label": "Phổ biến",
+        "features": [
+          "50 lần hoán đổi khuôn mặt mỗi tháng",
+          "Hỗ trợ hoán đổi nhiều khuôn mặt",
+          "Xử lý ưu tiên",
+          "Hỗ trợ ưu tiên",
+          "Truy cập API",
+          "Kết quả chất lượng 4K"
+        ],
+        "interval": "tháng",
+        "amount": 2499,
+        "currency": "USD",
+        "price": "$24.99",
+        "unit": "tháng",
+        "is_featured": true,
+        "tip": "Lựa chọn phổ biến nhất!",
+        "button": {
+          "title": "Nâng cấp Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "Enterprise",
+        "description": "Dành cho doanh nghiệp",
+        "features": [
+          "Hoán đổi khuôn mặt không giới hạn",
+          "Hỗ trợ hoán đổi nhiều khuôn mặt",
+          "Xử lý siêu nhanh",
+          "Hỗ trợ ưu tiên 24/7",
+          "Truy cập API đầy đủ",
+          "Hỗ trợ tích hợp tùy chỉnh"
+        ],
+        "interval": "tháng",
+        "amount": 9999,
+        "currency": "USD",
+        "price": "$99.99",
+        "unit": "tháng",
+        "is_featured": false,
+        "tip": "Tốt nhất cho doanh nghiệp!",
+        "button": {
+          "title": "Liên hệ Bộ phận Bán hàng",
+          "url": "/#contact",
+          "icon": "RiCustomerServiceLine"
+        }
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "lời chứng thực",
+    "label": "Lời chứng thực",
+    "title": "Người dùng Nói Gì Về Chúng Tôi",
+    "description": "Lắng nghe từ những người yêu thích sử dụng AI Face Swap.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Johnson",
+        "label": "Nhiếp ảnh gia chuyên nghiệp",
+        "description": "Chất lượng hoán đổi khuôn mặt thật đáng kinh ngạc! Tôi sử dụng nó cho ảnh chân dung chuyên nghiệp và kết quả luôn hoàn hảo.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Chen",
+        "label": "Người sáng tạo nội dung",
+        "description": "API rất dễ tích hợp và tốc độ xử lý thật tuyệt vời. Hoàn hảo cho nhu cầu sáng tạo nội dung của tôi.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Rodriguez",
+        "label": "Quản lý mạng xã hội",
+        "description": "Tính năng hoán đổi nhiều khuôn mặt là một bước đột phá. Giúp việc tạo nội dung hấp dẫn dễ dàng hơn nhiều!",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Câu hỏi thường gặp",
+    "description": "Bạn có thắc mắc? Chúng tôi có câu trả lời.",
+    "items": [
+      {
+        "title": "AI Face Swap hoạt động như thế nào?",
+        "description": "Công nghệ AI tiên tiến của chúng tôi phân tích các đặc điểm khuôn mặt trong cả hai hình ảnh, sau đó hoán đổi chúng một cách liền mạch trong khi vẫn giữ được vẻ tự nhiên và biểu cảm. Quá trình này chỉ mất vài giây và đảm bảo kết quả chất lượng cao."
+      },
+      {
+        "title": "Dữ liệu của tôi có an toàn không?",
+        "description": "Vâng, hoàn toàn có thể! Chúng tôi rất coi trọng quyền riêng tư. Tất cả các ảnh được tải lên đều được xử lý an toàn và tự động xóa sau khi xử lý. Chúng tôi không bao giờ lưu trữ hoặc chia sẻ hình ảnh của bạn khi chưa được phép."
+      },
+      {
+        "title": "Hỗ trợ những định dạng ảnh nào?",
+        "description": "Chúng tôi hỗ trợ tất cả các định dạng hình ảnh phổ biến bao gồm JPG, PNG và WEBP. Để có kết quả tốt nhất, chúng tôi khuyên bạn nên sử dụng ảnh rõ nét, đủ sáng với khuôn mặt dễ nhìn."
+      },
+      {
+        "title": "Tôi có thể hoán đổi nhiều khuôn mặt trong một hình ảnh không?",
+        "description": "Có! Gói Pro và Enterprise của chúng tôi hỗ trợ hoán đổi nhiều khuôn mặt trong một hình ảnh. Bạn có thể hoán đổi các khuôn mặt khác nhau với các ảnh nguồn khác nhau trong một lần."
+      },
+      {
+        "title": "Bạn có cung cấp API không?",
+        "description": "Có, chúng tôi cung cấp API mạnh mẽ để các nhà phát triển có thể tích hợp công nghệ hoán đổi khuôn mặt của chúng tôi vào ứng dụng của họ. API có sẵn với các gói Pro và Enterprise."
+      },
+      {
+        "title": "Chính sách hoàn tiền của bạn là gì?",
+        "description": "Chúng tôi cam kết đảm bảo sự hài lòng 100%. Nếu bạn không hài lòng với dịch vụ của chúng tôi, hãy liên hệ với chúng tôi trong vòng 7 ngày kể từ ngày mua để được hoàn tiền đầy đủ."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Bắt đầu Biến đổi Ảnh của Bạn Ngay Hôm Nay",
+    "description": "Tham gia cùng hàng triệu người dùng hài lòng và trải nghiệm điều kỳ diệu của AI Face Swap.",
+    "buttons": [
+      {
+        "title": "Dùng thử miễn phí",
+        "url": "/#signup",
+        "target": "_self",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "Xem ví dụ",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "AI Face Swap",
+      "description": "Biến đổi ảnh của bạn với công nghệ hoán đổi khuôn mặt AI tiên tiến. Nhanh chóng, an toàn và dễ sử dụng.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI Face Swap"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2024 • AI Face Swap Bảo lưu mọi quyền.",
+    "nav": {
+      "items": [
+        {
+          "title": "Sản phẩm",
+          "children": [
+            {
+              "title": "Tính năng",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Bảng giá",
+              "url": "/#pricing",
+              "target": "_self"
+            },
+            {
+              "title": "API",
+              "url": "/#api",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@aifaceswap.io",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Chính sách Bảo mật",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Điều khoản Dịch vụ",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  },
+  "faceSwap": {
+    "photoFaceSwap": "Hoán đổi Khuôn mặt trong Ảnh",
+    "videoFaceSwap": "Video Face Swap",
+    "multipleFaceSwap": "Hoán đổi Nhiều Khuôn mặt",
+    "uploadOriginalImage": "Tải lên Ảnh Gốc",
+    "uploadFaceImage": "Tải lên Ảnh Khuôn mặt",
+    "startFaceSwap": "Bắt đầu hoán đổi khuôn mặt",
+    "swapFace": "Hoán đổi khuôn mặt",
+    "processing": "Đang xử lý...",
+    "before": "Trước",
+    "after": "Sau",
+    "uploadImage": "Tải ảnh lên",
+    "readyToSwap": "Sẵn sàng hoán đổi",
+    "uploadBothImages": "Tải lên cả hai ảnh",
+    "comingSoon": "Sắp ra mắt",
+    "download": "Tải xuống",
+    "splitView": "Xem chia đôi",
+    "compareView": "Xem so sánh",
+    "zoomIn": "Phóng to",
+    "swapInProgress": "Đang hoán đổi khuôn mặt...",
+    "completeSoon": "Sẽ hoàn thành trong vài giây",
+    "magicHappening": "Đang thực hiện phép thuật..."
+  }
+}

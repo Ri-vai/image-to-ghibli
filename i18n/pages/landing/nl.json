@@ -1,0 +1,502 @@
+{
+  "template": "ai-face-swap",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "AI Gezichtswissel",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI Gezichtswissel"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Functies",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "Prijzen",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "API",
+          "url": "/#api",
+          "icon": "BiCode"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Probeer Nu",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "De beste Online Gratis AI Gezichtswissel",
+    "highlight_text": "AI Gezichtswissel",
+    "description": "Duik in de innovatieve wereld van AI Gezichtswissel, waar geavanceerde technologie en grenzeloos entertainment samenkomen. Bewerk eenvoudig afbeeldingen en video's, en open de deur naar ongekende digitale mogelijkheden.",
+    "announcement": {
+      "label": "AI",
+      "title": "Gratis & Veilig",
+      "url": "/#feature"
+    },
+    "buttons": [
+      {
+        "title": "Probeer Nu",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "Bekijk Voorbeelden",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "video": {
+      "src": "/hero-video.mp4",
+      "type": "video/mp4",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    },
+    "tip": "",
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "Ervaar de Magie van AI Gezichtsverwisseling",
+    "label": "Hoe Het Werkt",
+    "description": "Transformeer elke foto met onze geavanceerde AI gezichtsverwisselingstechnologie. Snel, nauwkeurig en veilig.",
+    "image": {
+      "src": "/imgs/introduce.png"
+    },
+    "items": [
+      {
+        "title": "Upload Je Foto's",
+        "description": "Upload simpelweg de bronafbeelding en het gezicht waarmee je wilt wisselen.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "AI Verwerking",
+        "description": "Onze AI analyseert en verwerkt de afbeeldingen voor perfecte gezichtswisseling.",
+        "icon": "RiAiGenerate"
+      },
+      {
+        "title": "Directe Resultaten",
+        "description": "Ontvang je getransformeerde afbeelding binnen enkele seconden, klaar om te downloaden.",
+        "icon": "RiDownload2Line"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "voordeel",
+    "title": "Waarom Kiezen voor AI Face Swap",
+    "label": "Voordelen",
+    "description": "Ervaar de beste gezichtswisseltechnologie met geavanceerde functies en beveiliging.",
+    "items": [
+      {
+        "title": "Geavanceerde AI Technologie",
+        "description": "Geavanceerde deep learning modellen zorgen voor natuurlijke en realistische gezichtswisselingen.",
+        "icon": "RiBrainLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "Privacy & Beveiliging",
+        "description": "Je foto's worden veilig verwerkt en automatisch verwijderd na verwerking.",
+        "icon": "RiShieldUserLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "Ontwikkelaarsvriendelijk",
+        "description": "Integreer onze gezichtswisseltechnologie in je apps met onze robuuste API.",
+        "icon": "RiCodeSSlashLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "gebruik",
+    "title": "Hoe je Online een Gezicht kunt Verwisselen",
+    "description": "Creëer verbluffende afbeeldingen in slechts een paar eenvoudige stappen:",
+    "image": {
+      "src": "/imgs/features/usage-demo.png"
+    },
+    "image_position": "right",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "Upload Je Afbeelding",
+        "description": "Klik simpelweg op 'Upload een Afbeelding' en selecteer een foto die je wilt gebruiken als bronafbeelding. Zorg ervoor dat er slechts één gezicht van goede kwaliteit op de foto staat."
+      },
+      {
+        "title": "Kies je Gezichtswissel Optie",
+        "description": "Zodra je originele afbeelding klaar is, kies het gewenste wisseleffect uit de gegeven voorinstellingen. Dit betekent dat je het gezicht van je geüploade afbeelding vervangt met de geselecteerde voorinstelling."
+      },
+      {
+        "title": "Wissel Gezicht met AI",
+        "description": "Klik op de 'Wissel Gezicht Nu' knop om de AI zijn magie te laten tonen. AiFaceSwap.app zal binnen enkele seconden het gezicht verwisselen. Onze AI doet het werk automatisch en garandeert het beste resultaat."
+      },
+      {
+        "title": "Bekijk en Download",
+        "description": "Bingo! Je gezicht is verwisseld met wie je maar wilt! Bekijk het eindresultaat op dezelfde pagina. Klik op 'Download' om de afbeelding zonder watermerk op te slaan op je apparaat. Deel het voor de lol!"
+      }
+    ]
+  },
+  "feature": {
+    "name": "functie",
+    "title": "Krachtige AI Gezichtswissel Functies",
+    "description": "Ontdek de verbazingwekkende mogelijkheden van onze AI-aangedreven gezichtswisseltechnologie",
+    "items": [
+      {
+        "title": "Realistische Gezichtswissels",
+        "description": "Onze vooruitstrevende technologie zorgt voor perfecte, realistische gezichtswissels, waarbij elk spoor van bewerking volledig wordt verborgen.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "Gebruiksvriendelijke Interface",
+        "description": "Met slechts één klik kun je elk gezicht op een andere afbeelding vervangen, waardoor het proces eenvoudig en intuïtief is.",
+        "icon": "RiMouseLine"
+      },
+      {
+        "title": "Meme Creatie",
+        "description": "Maak moeiteloos hilarische memes en versterk de interactie met je publiek door middel van nieuwe en boeiende content.",
+        "icon": "RiEmotionLaughLine"
+      },
+      {
+        "title": "Celebrity Transformaties",
+        "description": "Transformeer je uiterlijk door je gezicht te wisselen met verschillende personages, van filmsterren tot superhelden.",
+        "icon": "RiUserStarLine"
+      },
+      {
+        "title": "Stijl Experimentatie",
+        "description": "Verken nieuwe looks door je gezicht toe te passen op verschillende karakters, en experimenteer met make-up, kapsels en modestijlen.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Eindeloze Creativiteit",
+        "description": "Ontgrendel oneindige mogelijkheden voor creativiteit en entertainment met onze veelzijdige gezichtswisseltechnologie.",
+        "icon": "RiMagicLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "Geweldige Transformaties",
+    "description": "Bekijk wat onze gebruikers hebben gecreëerd met AI Face Swap.",
+    "items": [
+      {
+        "title": "Video Face Swap",
+        "description": "Wissel gezichten in video's, verbeter filmmaking of creëer content voor sociale media",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Foto Face Swap",
+        "description": "Hiermee kun je hoofden verwisselen en gezichten vervangen in foto's",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Meervoudige Face Swap",
+        "description": "Wissel meerdere gezichten in familiefoto's, trouwfoto's, feestfoto's, etc",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "statistieken",
+    "label": "Statistieken",
+    "title": "Vertrouwd door gebruikers wereldwijd",
+    "description": "Sluit je aan bij duizenden tevreden gebruikers van AI Face Swap.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Tevreden Gebruikers",
+        "label": "1M+",
+        "description": "Actieve Gebruikers"
+      },
+      {
+        "title": "Face Swaps",
+        "label": "10M+",
+        "description": "Voltooid"
+      },
+      {
+        "title": "Verwerkingstijd",
+        "label": "5s",
+        "description": "Gemiddeld"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "prijzen",
+    "label": "Prijzen",
+    "title": "Eenvoudige, Transparante Prijzen",
+    "description": "Kies het perfecte plan voor je face swapping behoeften.",
+    "items": [
+      {
+        "title": "Basis",
+        "description": "Perfect voor persoonlijk gebruik",
+        "features": [
+          "10 face swaps per maand",
+          "Enkele face swap per afbeelding",
+          "Standaard verwerkingssnelheid",
+          "Basis ondersteuning",
+          "Alleen webtoegang",
+          "Resultaten in HD-kwaliteit"
+        ],
+        "interval": "maand",
+        "amount": 999,
+        "currency": "USD",
+        "price": "$9.99",
+        "unit": "maand",
+        "is_featured": false,
+        "tip": "Geweldig om mee te beginnen!",
+        "button": {
+          "title": "Aan de slag",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "Pro",
+        "description": "Voor gevorderde gebruikers",
+        "label": "Populair",
+        "features": [
+          "50 face swaps per maand",
+          "Ondersteuning voor meerdere face swaps",
+          "Prioriteitsverwerking",
+          "Prioriteitsondersteuning",
+          "API-toegang",
+          "Resultaten in 4K-kwaliteit"
+        ],
+        "interval": "maand",
+        "amount": 2499,
+        "currency": "USD",
+        "price": "$24.99",
+        "unit": "maand",
+        "is_featured": true,
+        "tip": "Meest populaire keuze!",
+        "button": {
+          "title": "Word Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "Enterprise",
+        "description": "Voor bedrijven",
+        "features": [
+          "Onbeperkt gezichten verwisselen",
+          "Ondersteuning voor meerdere gezichtsverwisselingen",
+          "Ultrasnelle verwerking",
+          "24/7 prioritaire ondersteuning",
+          "Volledige API-toegang",
+          "Aangepaste integratieondersteuning"
+        ],
+        "interval": "maand",
+        "amount": 9999,
+        "currency": "USD",
+        "price": "$99.99",
+        "unit": "maand",
+        "is_featured": false,
+        "tip": "Het beste voor bedrijven!",
+        "button": {
+          "title": "Contact Verkoop",
+          "url": "/#contact",
+          "icon": "RiCustomerServiceLine"
+        }
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "Getuigenissen",
+    "title": "Wat Onze Gebruikers Zeggen",
+    "description": "Hoor van mensen die graag AI Face Swap gebruiken.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Johnson",
+        "label": "Professionele Fotograaf",
+        "description": "De kwaliteit van de face swaps is ongelooflijk! Ik gebruik het voor professionele portretfoto's en de resultaten zijn altijd perfect.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Chen",
+        "label": "Content Creator",
+        "description": "De API is super eenvoudig te integreren en de verwerkingssnelheid is geweldig. Perfect voor mijn content creatie behoeften.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Rodriguez",
+        "label": "Social Media Manager",
+        "description": "De meerdere face swap functie is een game-changer. Maakt het creëren van boeiende content zo veel makkelijker!",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Veelgestelde Vragen",
+    "description": "Vragen? Wij hebben de antwoorden.",
+    "items": [
+      {
+        "title": "Hoe werkt AI Face Swap?",
+        "description": "Onze geavanceerde AI-technologie analyseert gezichtskenmerken in beide afbeeldingen en wisselt ze vervolgens naadloos uit met behoud van natuurlijke looks en expressies. Het proces duurt slechts enkele seconden en zorgt voor hoogwaardige resultaten."
+      },
+      {
+        "title": "Zijn mijn gegevens veilig?",
+        "description": "Ja, absoluut! We nemen privacy zeer serieus. Alle geüploade foto's worden veilig verwerkt en automatisch verwijderd na verwerking. We slaan uw afbeeldingen nooit op en delen ze niet zonder toestemming."
+      },
+      {
+        "title": "Welke afbeeldingsformaten worden ondersteund?",
+        "description": "We ondersteunen alle gangbare afbeeldingsformaten, waaronder JPG, PNG en WEBP. Voor de beste resultaten raden we aan om duidelijke, goed belichte foto's met zichtbare gezichten te gebruiken."
+      },
+      {
+        "title": "Kan ik meerdere gezichten in één afbeelding verwisselen?",
+        "description": "Ja! Onze Pro- en Enterprise-abonnementen ondersteunen meerdere gezichtswissels in één afbeelding. U kunt verschillende gezichten met verschillende bronafbeeldingen in één keer verwisselen."
+      },
+      {
+        "title": "Bieden jullie een API aan?",
+        "description": "Ja, we bieden een robuuste API voor ontwikkelaars om onze gezichtswisseltechnologie in hun applicaties te integreren. API-toegang is beschikbaar bij onze Pro- en Enterprise-abonnementen."
+      },
+      {
+        "title": "Wat is jullie restitutiebeleid?",
+        "description": "We bieden een 100% tevredenheidsgarantie. Als u niet tevreden bent met onze service, neem dan binnen 7 dagen na uw aankoop contact met ons op voor een volledige terugbetaling."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Begin Vandaag Nog Met Het Transformeren Van Je Foto's",
+    "description": "Sluit je aan bij miljoenen tevreden gebruikers en ervaar de magie van AI Face Swap.",
+    "buttons": [
+      {
+        "title": "Probeer Gratis",
+        "url": "/#signup",
+        "target": "_self",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "Bekijk Voorbeelden",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "AI Face Swap",
+      "description": "Transformeer je foto's met geavanceerde AI-gezichtswisseltechnologie. Snel, veilig en gebruiksvriendelijk.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI Face Swap"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2024 • AI Face Swap Alle rechten voorbehouden.",
+    "nav": {
+      "items": [
+        {
+          "title": "Product",
+          "children": [
+            {
+              "title": "Functies",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Prijzen",
+              "url": "/#pricing",
+              "target": "_self"
+            },
+            {
+              "title": "API",
+              "url": "/#api",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "E-mail",
+          "icon": "RiMailLine",
+          "url": "mailto:support@aifaceswap.io",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacybeleid",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Servicevoorwaarden",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  },
+  "faceSwap": {
+    "photoFaceSwap": "Foto Gezichtswissel",
+    "videoFaceSwap": "Video Face Swap",
+    "multipleFaceSwap": "Meervoudige Gezichtswissel",
+    "uploadOriginalImage": "Upload Originele Afbeelding",
+    "uploadFaceImage": "Upload Gezichtsafbeelding",
+    "startFaceSwap": "Start Gezichtswissel",
+    "swapFace": "Wissel Gezicht",
+    "processing": "Bezig met verwerken...",
+    "before": "Voor",
+    "after": "Na",
+    "uploadImage": "Afbeelding uploaden",
+    "readyToSwap": "Klaar om te wisselen",
+    "uploadBothImages": "Upload beide afbeeldingen",
+    "comingSoon": "Binnenkort beschikbaar",
+    "download": "Downloaden",
+    "splitView": "Gesplitste weergave",
+    "compareView": "Vergelijkende weergave",
+    "zoomIn": "Inzoomen",
+    "swapInProgress": "Gezichtswissel wordt uitgevoerd...",
+    "completeSoon": "Zal binnen enkele seconden voltooid zijn",
+    "magicHappening": "Magie gebeurt..."
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "template": "ai-face-swap",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "Échange de Visage IA",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Échange de Visage IA"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Fonctionnalités",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "Tarifs",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "API",
+          "url": "/#api",
+          "icon": "BiCode"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Essayer Maintenant",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "Le meilleur échange de visage IA gratuit en ligne",
+    "highlight_text": "Échange de Visage IA",
+    "description": "Plongez dans l'univers innovant de l'échange de visage par IA, où la technologie de pointe rencontre le divertissement sans limites. Modifiez facilement des images et des vidéos, ouvrant la porte à des possibilités numériques inégalées.",
+    "announcement": {
+      "label": "IA",
+      "title": "Gratuit et sécurisé",
+      "url": "/#feature"
+    },
+    "buttons": [
+      {
+        "title": "Essayer maintenant",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "Voir les exemples",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "video": {
+      "src": "/hero-video.mp4",
+      "type": "video/mp4",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    },
+    "tip": "",
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "Découvrez la magie de l'échange de visages par IA",
+    "label": "Comment ça marche",
+    "description": "Transformez n'importe quelle photo avec notre technologie avancée d'échange de visages par IA. Rapide, précis et sécurisé.",
+    "image": {
+      "src": "/imgs/introduce.png"
+    },
+    "items": [
+      {
+        "title": "Téléchargez vos photos",
+        "description": "Il suffit de télécharger l'image source et le visage que vous souhaitez échanger.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Traitement IA",
+        "description": "Notre IA analyse et traite les images pour un échange de visage parfait.",
+        "icon": "RiAiGenerate"
+      },
+      {
+        "title": "Résultats Instantanés",
+        "description": "Obtenez votre image transformée en quelques secondes, prête à télécharger.",
+        "icon": "RiDownload2Line"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "avantage",
+    "title": "Pourquoi Choisir AI Face Swap",
+    "label": "Avantages",
+    "description": "Découvrez la meilleure technologie d'échange de visage avec des fonctionnalités avancées et une sécurité optimale.",
+    "items": [
+      {
+        "title": "Technologie IA Avancée",
+        "description": "Des modèles d'apprentissage profond de pointe assurent des échanges de visage naturels et réalistes.",
+        "icon": "RiBrainLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "Confidentialité et Sécurité",
+        "description": "Vos photos sont traitées en toute sécurité et automatiquement supprimées après le traitement.",
+        "icon": "RiShieldUserLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "Adapté aux Développeurs",
+        "description": "Intégrez notre technologie d'échange de visage dans vos applications grâce à notre API robuste.",
+        "icon": "RiCodeSSlashLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "utilisation",
+    "title": "Comment échanger un visage en ligne",
+    "description": "Créez des images étonnantes en quelques étapes simples :",
+    "image": {
+      "src": "/imgs/features/usage-demo.png"
+    },
+    "image_position": "right",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "Téléchargez votre image",
+        "description": "Cliquez simplement sur 'Télécharger une image' et sélectionnez une photo que vous souhaitez utiliser comme image source. Assurez-vous qu'un seul visage dans la photo soit de bonne qualité."
+      },
+      {
+        "title": "Choisissez votre option d'échange de visage",
+        "description": "Une fois que votre image originale est prête, choisissez l'effet d'échange souhaité parmi les préréglages proposés. Cela signifie que vous remplacerez le visage de votre image téléchargée par le préréglage sélectionné."
+      },
+      {
+        "title": "Échangez le visage avec l'IA",
+        "description": "Cliquez sur le bouton 'Échanger le visage maintenant' pour montrer la magie de l'IA. AiFaceSwap.app terminera l'échange de visage en quelques secondes. Notre IA fait le travail automatiquement tout en garantissant le meilleur résultat."
+      },
+      {
+        "title": "Aperçu et téléchargement",
+        "description": "Bingo ! Votre visage est échangé avec qui vous voulez ! Prévisualisez le résultat final sur la même page. Cliquez sur 'Télécharger' pour enregistrer l'image sans filigrane sur votre appareil. Partagez-la pour vous amuser !"
+      }
+    ]
+  },
+  "feature": {
+    "name": "caractéristique",
+    "title": "Puissantes fonctionnalités d'échange de visage par IA",
+    "description": "Découvrez les capacités incroyables de notre technologie d'échange de visage alimentée par l'IA",
+    "items": [
+      {
+        "title": "Échanges de visages réalistes",
+        "description": "Notre technologie de pointe assure des échanges de visages parfaits et réalistes, dissimulant complètement toute trace d'édition.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "Interface facile à utiliser",
+        "description": "En un seul clic, vous pouvez substituer n'importe quel visage sur une autre image, rendant le processus simple et intuitif.",
+        "icon": "RiMouseLine"
+      },
+      {
+        "title": "Création de mèmes",
+        "description": "Créez facilement des mèmes hilarants, augmentant l'interaction avec votre audience grâce à un contenu nouveau et engageant.",
+        "icon": "RiEmotionLaughLine"
+      },
+      {
+        "title": "Transformations en célébrités",
+        "description": "Transformez votre apparence en échangeant votre visage avec diverses personnalités, des stars de cinéma aux super-héros.",
+        "icon": "RiUserStarLine"
+      },
+      {
+        "title": "Expérimentation de styles",
+        "description": "Explorez de nouveaux looks en appliquant votre visage à différents personnages, en expérimentant avec le maquillage, les coiffures et les styles vestimentaires.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Créativité sans limites",
+        "description": "Débloquez un potentiel infini de créativité et de divertissement avec notre technologie polyvalente d'échange de visages.",
+        "icon": "RiMagicLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "vitrine",
+    "title": "Transformations étonnantes",
+    "description": "Découvrez ce que nos utilisateurs ont créé avec AI Face Swap.",
+    "items": [
+      {
+        "title": "Échange de Visage Vidéo",
+        "description": "Échangez des visages dans des vidéos, améliorez la réalisation de films ou créez du contenu pour les médias sociaux",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Échange de Visage Photo",
+        "description": "Vous permet d'échanger des têtes et de remplacer des visages dans les photos",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Échange Multiple de Visages",
+        "description": "Échangez plusieurs visages dans les photos de famille, photos de mariage, photos de fête, etc",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "statistiques",
+    "label": "Statistiques",
+    "title": "Fait confiance par des utilisateurs du monde entier",
+    "description": "Rejoignez des milliers d'utilisateurs satisfaits utilisant AI Face Swap.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Utilisateurs Satisfaits",
+        "label": "1M+",
+        "description": "Utilisateurs Actifs"
+      },
+      {
+        "title": "Échanges de Visages",
+        "label": "10M+",
+        "description": "Complétés"
+      },
+      {
+        "title": "Temps de traitement",
+        "label": "5s",
+        "description": "Moyenne"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "tarification",
+    "label": "Tarification",
+    "title": "Tarification Simple et Transparente",
+    "description": "Choisissez le forfait parfait pour vos besoins d'échange de visages.",
+    "items": [
+      {
+        "title": "Basique",
+        "description": "Parfait pour un usage personnel",
+        "features": [
+          "10 échanges de visages par mois",
+          "Un seul échange de visage par image",
+          "Vitesse de traitement standard",
+          "Support basique",
+          "Accès web uniquement",
+          "Résultats en qualité HD"
+        ],
+        "interval": "mois",
+        "amount": 999,
+        "currency": "USD",
+        "price": "$9.99",
+        "unit": "mois",
+        "is_featured": false,
+        "tip": "Parfait pour commencer !",
+        "button": {
+          "title": "Commencer",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "Pro",
+        "description": "Pour les utilisateurs avancés",
+        "label": "Populaire",
+        "features": [
+          "50 échanges de visages par mois",
+          "Support d'échange de plusieurs visages",
+          "Traitement prioritaire",
+          "Support prioritaire",
+          "Accès API",
+          "Résultats en qualité 4K"
+        ],
+        "interval": "mois",
+        "amount": 2499,
+        "currency": "USD",
+        "price": "$24.99",
+        "unit": "mois",
+        "is_featured": true,
+        "tip": "Choix le plus populaire !",
+        "button": {
+          "title": "Obtenir Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "Entreprise",
+        "description": "Pour les entreprises",
+        "features": [
+          "Échanges de visages illimités",
+          "Support d'échange de plusieurs visages",
+          "Traitement ultra-rapide",
+          "Support prioritaire 24h/24 et 7j/7",
+          "Accès complet à l'API",
+          "Support d'intégration personnalisé"
+        ],
+        "interval": "mois",
+        "amount": 9999,
+        "currency": "USD",
+        "price": "$99.99",
+        "unit": "mois",
+        "is_featured": false,
+        "tip": "Idéal pour les entreprises !",
+        "button": {
+          "title": "Contacter les ventes",
+          "url": "/#contact",
+          "icon": "RiCustomerServiceLine"
+        }
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "témoignage",
+    "label": "Témoignages",
+    "title": "Ce que disent nos utilisateurs",
+    "description": "Écoutez les personnes qui adorent utiliser AI Face Swap.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Johnson",
+        "label": "Photographe Professionnel",
+        "description": "La qualité des échanges de visages est incroyable ! Je l'utilise pour des photos professionnelles et les résultats sont toujours parfaits.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Chen",
+        "label": "Créateur de Contenu",
+        "description": "L'API est super facile à intégrer, et la vitesse de traitement est incroyable. Parfait pour mes besoins de création de contenu.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Rodriguez",
+        "label": "Gestionnaire de Médias Sociaux",
+        "description": "La fonction d'échange multiple de visages change la donne. Cela rend la création de contenu engageant tellement plus facile !",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Questions Fréquemment Posées",
+    "description": "Vous avez des questions ? Nous avons les réponses.",
+    "items": [
+      {
+        "title": "Comment fonctionne l'échange de visage par IA ?",
+        "description": "Notre technologie IA avancée analyse les caractéristiques faciales dans les deux images, puis les échange de manière transparente tout en maintenant un aspect et des expressions naturels. Le processus ne prend que quelques secondes et garantit des résultats de haute qualité."
+      },
+      {
+        "title": "Mes données sont-elles sécurisées ?",
+        "description": "Oui, absolument ! Nous prenons la confidentialité très au sérieux. Toutes les photos téléchargées sont traitées de manière sécurisée et automatiquement supprimées après le traitement. Nous ne stockons ni ne partageons jamais vos images sans permission."
+      },
+      {
+        "title": "Quels formats d'image sont pris en charge ?",
+        "description": "Nous prenons en charge tous les formats d'image courants, notamment JPG, PNG et WEBP. Pour de meilleurs résultats, nous recommandons d'utiliser des photos claires, bien éclairées avec des visages visibles."
+      },
+      {
+        "title": "Puis-je échanger plusieurs visages sur une seule image ?",
+        "description": "Oui ! Nos forfaits Pro et Enterprise permettent d'échanger plusieurs visages sur une seule image. Vous pouvez échanger différents visages avec différentes images sources en une seule fois."
+      },
+      {
+        "title": "Proposez-vous une API ?",
+        "description": "Oui, nous fournissons une API robuste permettant aux développeurs d'intégrer notre technologie d'échange de visages dans leurs applications. L'accès à l'API est disponible avec nos forfaits Pro et Enterprise."
+      },
+      {
+        "title": "Quelle est votre politique de remboursement ?",
+        "description": "Nous offrons une garantie de satisfaction à 100%. Si vous n'êtes pas satisfait de notre service, contactez-nous dans les 7 jours suivant votre achat pour un remboursement complet."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Commencez à transformer vos photos dès aujourd'hui",
+    "description": "Rejoignez des millions d'utilisateurs satisfaits et découvrez la magie de l'échange de visages par IA.",
+    "buttons": [
+      {
+        "title": "Essayer gratuitement",
+        "url": "/#signup",
+        "target": "_self",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "Voir les exemples",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "AI Face Swap",
+      "description": "Transformez vos photos avec une technologie avancée d'échange de visage par IA. Rapide, sécurisé et facile à utiliser.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI Face Swap"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2024 • AI Face Swap Tous droits réservés.",
+    "nav": {
+      "items": [
+        {
+          "title": "Produit",
+          "children": [
+            {
+              "title": "Fonctionnalités",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Tarifs",
+              "url": "/#pricing",
+              "target": "_self"
+            },
+            {
+              "title": "API",
+              "url": "/#api",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@aifaceswap.io",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Politique de confidentialité",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Conditions d'utilisation",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  },
+  "faceSwap": {
+    "photoFaceSwap": "Échange de visage photo",
+    "videoFaceSwap": "Video Face Swap",
+    "multipleFaceSwap": "Échange multiple de visages",
+    "uploadOriginalImage": "Télécharger l'image originale",
+    "uploadFaceImage": "Télécharger l'image du visage",
+    "startFaceSwap": "Démarrer l'échange de visage",
+    "swapFace": "Échanger le visage",
+    "processing": "Traitement en cours...",
+    "before": "Avant",
+    "after": "Après",
+    "uploadImage": "Télécharger l'image",
+    "readyToSwap": "Prêt à échanger",
+    "uploadBothImages": "Télécharger les deux images",
+    "comingSoon": "Bientôt disponible",
+    "download": "Télécharger",
+    "splitView": "Vue partagée",
+    "compareView": "Vue comparée",
+    "zoomIn": "Agrandir",
+    "swapInProgress": "Échange de visage en cours...",
+    "completeSoon": "Sera terminé dans quelques secondes",
+    "magicHappening": "La magie opère..."
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "template": "ai-face-swap",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "AI 페이스 스왑",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI 페이스 스왑"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "기능",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "가격",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "API",
+          "url": "/#api",
+          "icon": "BiCode"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "지금 시도하기",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "최고의 온라인 무료 AI 페이스 스왑",
+    "highlight_text": "AI 페이스 스왑",
+    "description": "최첨단 기술과 무한한 즐거움이 만나는 AI 페이스 스왑의 혁신적인 세계에 빠져보세요. 이미지와 영상을 쉽게 수정하고, 비교할 수 없는 디지털 가능성의 문을 열어보세요.",
+    "announcement": {
+      "label": "AI",
+      "title": "무료 & 안전",
+      "url": "/#feature"
+    },
+    "buttons": [
+      {
+        "title": "지금 시도하기",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "예시 보기",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "video": {
+      "src": "/hero-video.mp4",
+      "type": "video/mp4",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    },
+    "tip": "",
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "AI 페이스 스왑의 마법을 경험해보세요",
+    "label": "이용 방법",
+    "description": "고급 AI 페이스 스왑 기술로 모든 사진을 변환하세요. 빠르고, 정확하며, 안전합니다.",
+    "image": {
+      "src": "/imgs/introduce.png"
+    },
+    "items": [
+      {
+        "title": "사진 업로드하기",
+        "description": "원본 이미지와 교체하고 싶은 얼굴을 간단히 업로드하세요.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "AI 처리",
+        "description": "AI가 완벽한 얼굴 교체를 위해 이미지를 분석하고 처리합니다.",
+        "icon": "RiAiGenerate"
+      },
+      {
+        "title": "즉각적인 결과",
+        "description": "변환된 이미지를 몇 초 안에 다운로드할 수 있습니다.",
+        "icon": "RiDownload2Line"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "혜택",
+    "title": "AI 얼굴 교체를 선택해야 하는 이유",
+    "label": "혜택",
+    "description": "고급 기능과 보안을 갖춘 최고의 얼굴 교체 기술을 경험해보세요.",
+    "items": [
+      {
+        "title": "첨단 AI 기술",
+        "description": "최첨단 딥러닝 모델로 자연스럽고 사실적인 얼굴 교체를 보장합니다.",
+        "icon": "RiBrainLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "개인정보 보호 및 보안",
+        "description": "사진은 안전하게 처리되며 처리 후 자동으로 삭제됩니다.",
+        "icon": "RiShieldUserLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "개발자 친화적",
+        "description": "강력한 API를 통해 얼굴 교체 기술을 앱에 통합할 수 있습니다.",
+        "icon": "RiCodeSSlashLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "사용법",
+    "title": "온라인에서 얼굴 바꾸는 방법",
+    "description": "간단한 단계로 멋진 이미지를 만들어보세요:",
+    "image": {
+      "src": "/imgs/features/usage-demo.png"
+    },
+    "image_position": "right",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "이미지 업로드",
+        "description": "'이미지 업로드'를 클릭하고 원본 이미지로 사용할 사진을 선택하세요. 사진에 한 명의 얼굴만 있고 품질이 좋은지 확인하세요."
+      },
+      {
+        "title": "얼굴 바꾸기 옵션 선택",
+        "description": "원본 이미지가 준비되면, 제공된 프리셋에서 원하는 바꾸기 효과를 선택하세요. 업로드한 이미지의 얼굴을 선택한 프리셋으로 교체하게 됩니다."
+      },
+      {
+        "title": "AI로 얼굴 바꾸기",
+        "description": "'지금 얼굴 바꾸기' 버튼을 클릭하여 AI의 마법을 보여주세요. AiFaceSwap.app이 몇 초 안에 얼굴 바꾸기를 완료합니다. AI가 최상의 결과를 보장하면서 자동으로 작업을 수행합니다."
+      },
+      {
+        "title": "미리보기 및 다운로드",
+        "description": "성공! 원하는 대상으로 얼굴이 바뀌었습니다! 같은 페이지에서 최종 결과를 미리 보세요. '다운로드'를 클릭하여 워터마크 없는 이미지를 기기에 저장하세요. 재미있게 공유해보세요!"
+      }
+    ]
+  },
+  "feature": {
+    "name": "기능",
+    "title": "강력한 AI 얼굴 바꾸기 기능",
+    "description": "우리의 AI 기반 페이스 스왑 기술의 놀라운 기능을 발견해보세요",
+    "items": [
+      {
+        "title": "사실적인 얼굴 교체",
+        "description": "최첨단 기술로 완벽하고 사실적인 얼굴 교체를 보장하며, 편집의 흔적을 완전히 감춥니다.",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "사용하기 쉬운 인터페이스",
+        "description": "단 한 번의 클릭으로 다른 이미지에 얼굴을 대체할 수 있어 과정이 간단하고 직관적입니다.",
+        "icon": "RiMouseLine"
+      },
+      {
+        "title": "밈 제작",
+        "description": "새롭고 매력적인 콘텐츠를 통해 청중과의 상호작용을 높이며 재미있는 밈을 쉽게 만들 수 있습니다.",
+        "icon": "RiEmotionLaughLine"
+      },
+      {
+        "title": "셀럽 변신",
+        "description": "영화 스타부터 슈퍼히어로까지 다양한 페르소나와 얼굴을 바꾸어 외모를 변신시켜보세요.",
+        "icon": "RiUserStarLine"
+      },
+      {
+        "title": "스타일 실험",
+        "description": "다양한 캐릭터에 당신의 얼굴을 적용하여 메이크업, 헤어스타일, 패션 스타일을 실험해보세요.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "무한한 창의성",
+        "description": "다재다능한 페이스 스왑 기술로 창의성과 엔터테인먼트의 무한한 가능성을 열어보세요.",
+        "icon": "RiMagicLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "쇼케이스",
+    "title": "놀라운 변신",
+    "description": "AI 페이스 스왑으로 우리 사용자들이 만든 작품들을 확인해보세요.",
+    "items": [
+      {
+        "title": "동영상 페이스 스왑",
+        "description": "영화 제작이나 소셜 미디어 콘텐츠 제작을 위해 동영상에서 얼굴을 바꿔보세요",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "사진 페이스 스왑",
+        "description": "사진에서 얼굴과 머리를 교체할 수 있습니다",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "다중 페이스 스왑",
+        "description": "가족사진, 결혼사진, 파티사진 등에서 여러 얼굴을 교체해보세요",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "통계",
+    "label": "통계",
+    "title": "전 세계 사용자들이 신뢰하는 서비스",
+    "description": "AI 페이스 스왑을 사용하는 수천 명의 만족한 사용자들과 함께하세요.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "행복한 사용자",
+        "label": "1M+",
+        "description": "활성 사용자"
+      },
+      {
+        "title": "페이스 스왑",
+        "label": "10M+",
+        "description": "완료됨"
+      },
+      {
+        "title": "처리 시간",
+        "label": "5s",
+        "description": "평균"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "가격",
+    "label": "가격",
+    "title": "단순하고 투명한 가격",
+    "description": "얼굴 교체 필요에 맞는 완벽한 플랜을 선택하세요.",
+    "items": [
+      {
+        "title": "기본",
+        "description": "개인 사용에 적합",
+        "features": [
+          "월 10회 얼굴 교체",
+          "이미지당 단일 얼굴 교체",
+          "표준 처리 속도",
+          "기본 지원",
+          "웹 액세스만 가능",
+          "HD 품질의 결과물"
+        ],
+        "interval": "월",
+        "amount": 999,
+        "currency": "USD",
+        "price": "$9.99",
+        "unit": "월",
+        "is_featured": false,
+        "tip": "시작하기에 좋은 플랜입니다!",
+        "button": {
+          "title": "시작하기",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "Pro",
+        "description": "파워 유저를 위한",
+        "label": "인기",
+        "features": [
+          "월 50회 페이스 스왑",
+          "다중 페이스 스왑 지원",
+          "우선 처리",
+          "우선 지원",
+          "API 접근",
+          "4K 품질의 결과물"
+        ],
+        "interval": "월",
+        "amount": 2499,
+        "currency": "USD",
+        "price": "$24.99",
+        "unit": "월",
+        "is_featured": true,
+        "tip": "가장 인기있는 선택!",
+        "button": {
+          "title": "프로 시작하기",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "title": "엔터프라이즈",
+        "description": "기업용",
+        "features": [
+          "무제한 페이스 스왑",
+          "다중 페이스 스왑 지원",
+          "초고속 처리",
+          "24/7 우선 지원",
+          "전체 API 접근 권한",
+          "맞춤형 통합 지원"
+        ],
+        "interval": "월",
+        "amount": 9999,
+        "currency": "USD",
+        "price": "$99.99",
+        "unit": "월",
+        "is_featured": false,
+        "tip": "비즈니스에 최적화!",
+        "button": {
+          "title": "영업팀 문의",
+          "url": "/#contact",
+          "icon": "RiCustomerServiceLine"
+        }
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "후기",
+    "label": "사용자 후기",
+    "title": "사용자들의 의견",
+    "description": "AI Face Swap을 사랑하는 사용자들의 이야기를 들어보세요.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Johnson",
+        "label": "전문 사진작가",
+        "description": "페이스 스왑의 품질이 믿을 수 없을 정도로 뛰어납니다! 전문 헤드샷 촬영에 사용하는데 결과가 항상 완벽해요.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Chen",
+        "label": "콘텐츠 크리에이터",
+        "description": "API 통합이 매우 쉽고 처리 속도가 놀랍습니다. 제 콘텐츠 제작 요구사항에 완벽해요.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Rodriguez",
+        "label": "소셜 미디어 매니저",
+        "description": "다중 페이스 스왑 기능이 정말 혁신적입니다. 매력적인 콘텐츠 제작이 훨씬 쉬워졌어요!",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "자주 묻는 질문",
+    "description": "궁금하신 점이 있으신가요? 답변해 드리겠습니다.",
+    "items": [
+      {
+        "title": "AI 페이스 스왑은 어떻게 작동하나요?",
+        "description": "저희의 첨단 AI 기술은 두 이미지의 얼굴 특징을 분석한 후, 자연스러운 표정과 모습을 유지하면서 완벽하게 교체합니다. 이 과정은 단 몇 초 만에 이루어지며 고품질 결과를 보장합니다."
+      },
+      {
+        "title": "내 데이터는 안전한가요?",
+        "description": "네, 물론입니다! 저희는 개인정보 보호를 매우 중요하게 생각합니다. 업로드된 모든 사진은 안전하게 처리되며 처리 후 자동으로 삭제됩니다. 허가 없이 이미지를 저장하거나 공유하지 않습니다."
+      },
+      {
+        "title": "어떤 이미지 형식을 지원하나요?",
+        "description": "JPG, PNG, WEBP를 포함한 모든 일반적인 이미지 형식을 지원합니다. 최상의 결과를 위해 얼굴이 잘 보이는 밝고 선명한 사진을 사용하시는 것을 추천합니다."
+      },
+      {
+        "title": "한 이미지에서 여러 얼굴을 바꿀 수 있나요?",
+        "description": "네! Pro와 Enterprise 플랜에서는 한 이미지에서 여러 얼굴 교체를 지원합니다. 하나의 이미지에서 서로 다른 얼굴을 다른 소스 이미지로 한 번에 교체할 수 있습니다."
+      },
+      {
+        "title": "API를 제공하나요?",
+        "description": "네, 개발자가 자신의 애플리케이션에 얼굴 교체 기술을 통합할 수 있도록 강력한 API를 제공합니다. API 접근은 Pro와 Enterprise 플랜에서 이용 가능합니다."
+      },
+      {
+        "title": "환불 정책은 어떻게 되나요?",
+        "description": "100% 만족 보장을 제공합니다. 서비스에 만족하지 않으시면 구매 후 7일 이내에 연락 주시면 전액 환불해 드립니다."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "지금 바로 사진 변환을 시작하세요",
+    "description": "수백만 명의 행복한 사용자들과 함께 AI 페이스 스왑의 마법을 경험해보세요.",
+    "buttons": [
+      {
+        "title": "무료로 시도하기",
+        "url": "/#signup",
+        "target": "_self",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "예시 보기",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "AI 페이스 스왑",
+      "description": "고급 AI 얼굴 교체 기술로 사진을 변환하세요. 빠르고 안전하며 사용하기 쉽습니다.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI 페이스 스왑"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2024 • AI Face Swap 모든 권리 보유.",
+    "nav": {
+      "items": [
+        {
+          "title": "제품",
+          "children": [
+            {
+              "title": "기능",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "가격",
+              "url": "/#pricing",
+              "target": "_self"
+            },
+            {
+              "title": "API",
+              "url": "/#api",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "이메일",
+          "icon": "RiMailLine",
+          "url": "mailto:support@aifaceswap.io",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "개인정보 처리방침",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "서비스 이용약관",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  },
+  "faceSwap": {
+    "photoFaceSwap": "사진 얼굴 교체",
+    "videoFaceSwap": "Video Face Swap",
+    "multipleFaceSwap": "다중 얼굴 교체",
+    "uploadOriginalImage": "원본 이미지 업로드",
+    "uploadFaceImage": "얼굴 이미지 업로드",
+    "startFaceSwap": "페이스 스왑 시작",
+    "swapFace": "얼굴 바꾸기",
+    "processing": "처리 중...",
+    "before": "이전",
+    "after": "이후",
+    "uploadImage": "이미지 업로드",
+    "readyToSwap": "스왑 준비 완료",
+    "uploadBothImages": "두 이미지 모두 업로드",
+    "comingSoon": "출시 예정",
+    "download": "다운로드",
+    "splitView": "분할 보기",
+    "compareView": "비교 보기",
+    "zoomIn": "확대",
+    "swapInProgress": "페이스 스왑 진행 중...",
+    "completeSoon": "몇 초 후에 완료됩니다",
+    "magicHappening": "마법이 일어나는 중..."
+  }
+}
