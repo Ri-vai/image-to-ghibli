@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "AI 换脸",
+      "title": "AI换脸",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI 换脸"
+        "alt": "AI换脸"
       },
       "url": "/"
     },
@@ -18,7 +18,7 @@
           "icon": "HiOutlineSparkles"
         },
         {
-          "title": "定价",
+          "title": "价格",
           "url": "/#pricing",
           "icon": "MdPayment"
         },
@@ -31,7 +31,7 @@
     },
     "buttons": [
       {
-        "title": "立即尝试",
+        "title": "立即体验",
         "url": "/#try",
         "target": "_self",
         "variant": "link",
@@ -44,16 +44,16 @@
   },
   "hero": {
     "title": "最佳在线免费AI换脸工具",
-    "highlight_text": "AI 换脸",
-    "description": "深入体验AI换脸的创新领域，尖端技术与无限娱乐完美结合。轻松修改图像和视频，开启前所未有的数字可能性。",
+    "highlight_text": "AI换脸",
+    "description": "深入创新的AI换脸领域，在这里最先进的技术与无限娱乐相遇。轻松修改图片和视频，打开无与伦比的数字可能性之门。",
     "announcement": {
       "label": "AI",
-      "title": "免费 & 安全",
+      "title": "免费且安全",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "立即尝试",
+        "title": "立即体验",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
@@ -80,37 +80,37 @@
   "introduce": {
     "name": "introduce",
     "title": "体验AI换脸的魔力",
-    "label": "工作原理",
-    "description": "利用我们先进的AI换脸技术改变任何照片。快速、精准且安全。",
+    "label": "使用方法",
+    "description": "使用我们先进的AI换脸技术转换任何照片。快速、准确且安全。",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
         "title": "上传您的照片",
-        "description": "只需上传源图像和您想要替换的面孔。",
+        "description": "只需上传原始图片和您想要替换的面部图像即可。",
         "icon": "RiUploadCloud2Line"
       },
       {
         "title": "AI处理",
-        "description": "我们的AI分析并处理图像，实现完美的面部替换。",
+        "description": "我们的AI会分析并处理图像，实现完美的面部替换。",
         "icon": "RiAiGenerate"
       },
       {
         "title": "即时结果",
-        "description": "几秒钟内获得您的变换后图像，随时可下载。",
+        "description": "几秒钟内即可获得处理后的图像，随时可供下载。",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
-    "name": "benefit",
+    "name": "优势",
     "title": "为什么选择AI换脸",
-    "label": "优势",
-    "description": "体验最佳的换脸技术，拥有先进功能和安全保障。",
+    "label": "优势特点",
+    "description": "体验具有先进功能和安全保障的最佳换脸技术。",
     "items": [
       {
-        "title": "先进AI技术",
+        "title": "先进的AI技术",
         "description": "最先进的深度学习模型确保自然逼真的换脸效果。",
         "icon": "RiBrainLine",
         "image": {
@@ -119,7 +119,7 @@
       },
       {
         "title": "隐私与安全",
-        "description": "您的照片在安全处理后自动删除，确保隐私万无一失。",
+        "description": "您的照片会被安全处理，并在处理后自动删除。",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -127,7 +127,7 @@
       },
       {
         "title": "开发者友好",
-        "description": "通过我们强大的API，将换脸技术整合到您的应用中。",
+        "description": "通过我们强大的API，将换脸技术集成到您的应用中。",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -137,8 +137,8 @@
   },
   "usage": {
     "name": "usage",
-    "title": "如何在线换脸",
-    "description": "只需几个简单步骤，创建令人惊艳的图像：",
+    "title": "How to Swap a Face Online",
+    "description": "Create stunning images in just a few simple steps:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
@@ -146,82 +146,82 @@
     "text_align": "left",
     "items": [
       {
-        "title": "上传您的图像",
-        "description": "只需点击\"上传图像\"并选择您要用作源图像的照片。确保照片中只有一张高质量的面孔。"
+        "title": "Upload Your Image",
+        "description": "Simply click 'Upload an Image' and select a photo you want to use as the source image. Ensure only one face in the photo is of good quality."
       },
       {
-        "title": "选择您的换脸选项",
-        "description": "准备好原始图像后，从给定的预设中选择所需的交换效果。这意味着您将用所选预设替换上传图像中的面孔。"
+        "title": "Choose your Face Swap Option",
+        "description": "Once your original image is ready, choose the desired swapping effect from the given presets. That means you will replace the face of your uploaded image with the selected preset."
       },
       {
-        "title": "用AI换脸",
-        "description": "点击\"立即换脸\"按钮，让AI展示它的魔力。AiFaceSwap.app将在几秒钟内完成换脸。我们的AI自动完成工作，同时保证最佳输出。"
+        "title": "Swap Face with AI",
+        "description": "Click the 'Swap Face Now' button to show AI its magic. AiFaceSwap.app will finish face swapping in a few seconds. Our AI does the job automatically while guaranteeing the best output."
       },
       {
-        "title": "预览和下载",
-        "description": "成功！您的脸已成功替换为您喜欢的对象！在同一页面上预览最终结果。点击\"下载\"将无水印图片保存到您的设备。分享给朋友，一起娱乐！"
+        "title": "Preview and Download",
+        "description": "Bingo! Your face is swapped to who you like! Preview the final result on the same page. Click 'Download' to save the watermark-free picture to your device. Share it for fun!"
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "强大的AI换脸功能",
-    "description": "探索我们AI换脸技术的惊人能力",
+    "title": "Powerful AI Face Swap Features",
+    "description": "Discover the amazing capabilities of our AI-powered face swapping technology",
     "items": [
       {
-        "title": "逼真的换脸效果",
-        "description": "我们的前沿技术确保完美、逼真的换脸效果，完全隐藏任何编辑痕迹。",
+        "title": "Realistic Face Swaps",
+        "description": "Our forefront technology ensures perfect, realistic face swaps, completely obscuring any editing evidence.",
         "icon": "RiImageLine"
       },
       {
-        "title": "简易用户界面",
-        "description": "只需一次点击，您就可以将任何面孔替换到另一张图像上，使过程简单直观。",
+        "title": "Easy-to-Use Interface",
+        "description": "With just a single click, you can substitute any face onto another image, making the process simple and intuitive.",
         "icon": "RiMouseLine"
       },
       {
-        "title": "表情包创作",
-        "description": "轻松制作有趣的表情包，通过新颖有趣的内容增强与观众的互动。",
+        "title": "Meme Creation",
+        "description": "Craft hilarious memes with ease, boosting interaction with your audience through novel and engaging content.",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "名人变身",
-        "description": "通过将您的面孔与各种角色交换来改变您的外观，从电影明星到超级英雄。",
+        "title": "Celebrity Transformations",
+        "description": "Transform your appearance by swapping your face with various personas, from movie stars to superheroes.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "风格体验",
-        "description": "将您的面孔应用到不同的角色上，尝试化妆、发型和时尚风格，探索新的外观。",
+        "title": "Style Experimentation",
+        "description": "Explore new looks by applying your face to different characters, experimenting with makeup, hairstyles, and fashion styles.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "无限创意",
-        "description": "通过我们多功能的换脸技术，释放无限的创意和娱乐潜力。",
+        "title": "Endless Creativity",
+        "description": "Unlock infinite potential for creativity and entertainment with our versatile face swapping technology.",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
     "name": "showcase",
-    "title": "惊人的变身效果",
-    "description": "看看我们的用户使用AI换脸创造的作品。",
+    "title": "Amazing Transformations",
+    "description": "See what our users have created with AI Face Swap.",
     "items": [
       {
-        "title": "视频换脸",
-        "description": "在视频中交换面孔，增强电影制作或为社交媒体创建内容",
+        "title": "Video Face Swap",
+        "description": "Swap faces in videos, enhancing filmmaking or creating content for social media",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "照片换脸",
-        "description": "让您在照片中交换头部和替换面孔",
+        "title": "Photo Face Swap",
+        "description": "Allows you to swap heads and replace faces in photos",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "多人换脸",
-        "description": "在家庭照片、婚礼照片、聚会照片等中交换多个面孔",
+        "title": "Multiple Face Swap",
+        "description": "Swap Multiple Faces in family photos, wedding photos, party photos, etc",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -230,44 +230,44 @@
   },
   "stats": {
     "name": "stats",
-    "label": "统计",
-    "title": "全球用户信赖之选",
-    "description": "加入数千名使用AI换脸的满意用户。",
+    "label": "Stats",
+    "title": "Trusted by Users Worldwide",
+    "description": "Join thousands of satisfied users using AI Face Swap.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "满意用户",
+        "title": "Happy Users",
         "label": "1M+",
-        "description": "活跃用户"
+        "description": "Active Users"
       },
       {
-        "title": "换脸次数",
+        "title": "Face Swaps",
         "label": "10M+",
-        "description": "已完成"
+        "description": "Completed"
       },
       {
-        "title": "处理时间",
+        "title": "Processing Time",
         "label": "5s",
-        "description": "平均"
+        "description": "Average"
       }
     ]
   },
   "pricing": {
     "name": "pricing",
-    "label": "定价",
-    "title": "简单透明的定价",
-    "description": "选择最适合您换脸需求的完美方案。",
+    "label": "Pricing",
+    "title": "Simple, Transparent Pricing",
+    "description": "Choose the perfect plan for your face swapping needs.",
     "items": [
       {
-        "title": "基础版",
-        "description": "适合个人使用",
+        "title": "Basic",
+        "description": "Perfect for personal use",
         "features": [
-          "每月10次换脸",
-          "每张图片单面孔交换",
-          "标准处理速度",
-          "基础支持",
-          "仅网页访问",
-          "高清质量结果"
+          "10 face swaps per month",
+          "Single face swap per image",
+          "Standard processing speed",
+          "Basic support",
+          "Web access only",
+          "Results in HD quality"
         ],
         "interval": "month",
         "amount": 999,
@@ -275,24 +275,24 @@
         "price": "$9.99",
         "unit": "month",
         "is_featured": false,
-        "tip": "入门的最佳选择！",
+        "tip": "Great for getting started!",
         "button": {
-          "title": "开始使用",
+          "title": "Get Started",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
-        "title": "专业版",
-        "description": "适合高级用户",
-        "label": "热门",
+        "title": "Pro",
+        "description": "For power users",
+        "label": "Popular",
         "features": [
-          "每月50次换脸",
-          "支持多人换脸",
-          "优先处理",
-          "优先支持",
-          "API访问",
-          "4K质量结果"
+          "50 face swaps per month",
+          "Multiple face swap support",
+          "Priority processing",
+          "Priority support",
+          "API access",
+          "Results in 4K quality"
         ],
         "interval": "month",
         "amount": 2499,
@@ -300,23 +300,23 @@
         "price": "$24.99",
         "unit": "month",
         "is_featured": true,
-        "tip": "最受欢迎的选择！",
+        "tip": "Most popular choice!",
         "button": {
-          "title": "获取专业版",
+          "title": "Get Pro",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
-        "title": "企业版",
-        "description": "适合企业",
+        "title": "Enterprise",
+        "description": "For businesses",
         "features": [
-          "无限换脸次数",
-          "支持多人换脸",
-          "超快处理速度",
-          "24/7优先支持",
-          "完整API访问",
-          "自定义集成支持"
+          "Unlimited face swaps",
+          "Multiple face swap support",
+          "Ultra-fast processing",
+          "24/7 priority support",
+          "Full API access",
+          "Custom integration support"
         ],
         "interval": "month",
         "amount": 9999,
@@ -324,9 +324,9 @@
         "price": "$99.99",
         "unit": "month",
         "is_featured": false,
-        "tip": "企业的最佳选择！",
+        "tip": "Best for businesses!",
         "button": {
-          "title": "联系销售",
+          "title": "Contact Sales",
           "url": "/#contact",
           "icon": "RiCustomerServiceLine"
         }
@@ -335,31 +335,31 @@
   },
   "testimonial": {
     "name": "testimonial",
-    "label": "用户评价",
-    "title": "用户怎么说",
-    "description": "听听喜爱使用AI换脸的用户的心声。",
+    "label": "Testimonials",
+    "title": "What Our Users Say",
+    "description": "Hear from people who love using AI Face Swap.",
     "icon": "GoThumbsup",
     "items": [
       {
-        "title": "莎拉·约翰逊",
-        "label": "专业摄影师",
-        "description": "换脸的质量令人难以置信！我用它处理专业形象照，结果总是完美的。",
+        "title": "Sarah Johnson",
+        "label": "Professional Photographer",
+        "description": "The quality of face swaps is incredible! I use it for professional headshots and the results are always perfect.",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
-        "title": "陈迈克",
-        "label": "内容创作者",
-        "description": "API非常容易集成，处理速度惊人。完美满足我的内容创作需求。",
+        "title": "Mike Chen",
+        "label": "Content Creator",
+        "description": "The API is super easy to integrate, and the processing speed is amazing. Perfect for my content creation needs.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
-        "title": "艾米丽·罗德里格斯",
-        "label": "社交媒体经理",
-        "description": "多人换脸功能是个游戏规则改变者。让创建吸引人的内容变得如此容易！",
+        "title": "Emily Rodriguez",
+        "label": "Social Media Manager",
+        "description": "Multiple face swap feature is a game-changer. Makes creating engaging content so much easier!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -368,49 +368,49 @@
   },
   "faq": {
     "name": "faq",
-    "label": "常见问题",
-    "title": "常见问题解答",
-    "description": "有问题？我们有答案。",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Got questions? We've got answers.",
     "items": [
       {
-        "title": "AI换脸是如何工作的？",
-        "description": "我们的先进AI技术分析两张图像中的面部特征，然后无缝替换它们，同时保持自然的外观和表情。这个过程只需几秒钟，并确保高质量的结果。"
+        "title": "How does AI Face Swap work?",
+        "description": "Our advanced AI technology analyzes facial features in both images, then seamlessly swaps them while maintaining natural looks and expressions. The process takes just seconds and ensures high-quality results."
       },
       {
-        "title": "我的数据安全吗？",
-        "description": "是的，绝对安全！我们非常重视隐私。所有上传的照片都在安全处理后自动删除。未经许可，我们绝不会存储或分享您的图像。"
+        "title": "Is my data secure?",
+        "description": "Yes, absolutely! We take privacy very seriously. All uploaded photos are processed securely and automatically deleted after processing. We never store or share your images without permission."
       },
       {
-        "title": "支持哪些图像格式？",
-        "description": "我们支持所有常见的图像格式，包括JPG、PNG和WEBP。为获得最佳效果，我们建议使用清晰、光线充足且面部可见的照片。"
+        "title": "What image formats are supported?",
+        "description": "We support all common image formats including JPG, PNG, and WEBP. For best results, we recommend using clear, well-lit photos with visible faces."
       },
       {
-        "title": "我可以在一张图像中交换多个面孔吗？",
-        "description": "可以！我们的专业版和企业版支持在单张图像中进行多个面孔交换。您可以在一次操作中用不同的源图像交换不同的面孔。"
+        "title": "Can I swap multiple faces in one image?",
+        "description": "Yes! Our Pro and Enterprise plans support multiple face swaps in a single image. You can swap different faces with different source images in one go."
       },
       {
-        "title": "你们提供API吗？",
-        "description": "是的，我们为开发者提供强大的API，可将我们的换脸技术集成到他们的应用程序中。API访问随专业版和企业版提供。"
+        "title": "Do you offer an API?",
+        "description": "Yes, we provide a robust API for developers to integrate our face swap technology into their applications. API access is available with our Pro and Enterprise plans."
       },
       {
-        "title": "你们的退款政策是什么？",
-        "description": "我们提供100%满意保证。如果您对我们的服务不满意，请在购买后7天内联系我们，获得全额退款。"
+        "title": "What's your refund policy?",
+        "description": "We offer a 100% satisfaction guarantee. If you're not happy with our service, contact us within 7 days of your purchase for a full refund."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "今天就开始变换您的照片",
-    "description": "加入数百万满意用户，体验AI换脸的魔力。",
+    "title": "Start Transforming Your Photos Today",
+    "description": "Join millions of happy users and experience the magic of AI Face Swap.",
     "buttons": [
       {
-        "title": "免费试用",
+        "title": "Try For Free",
         "url": "/#signup",
         "target": "_self",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "查看示例",
+        "title": "View Examples",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -420,27 +420,27 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI换脸",
-      "description": "使用先进的AI换脸技术改变您的照片。快速、安全且易于使用。",
+      "title": "AI Face Swap",
+      "description": "Transform your photos with advanced AI face swapping technology. Fast, secure, and easy to use.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI换脸"
+        "alt": "AI Face Swap"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI换脸 保留所有权利。",
+    "copyright": "© 2024 • AI Face Swap All rights reserved.",
     "nav": {
       "items": [
         {
-          "title": "产品",
+          "title": "Product",
           "children": [
             {
-              "title": "功能特点",
+              "title": "Features",
               "url": "/#feature",
               "target": "_self"
             },
             {
-              "title": "定价",
+              "title": "Pricing",
               "url": "/#pricing",
               "target": "_self"
             },
@@ -456,7 +456,7 @@
     "social": {
       "items": [
         {
-          "title": "电子邮件",
+          "title": "Email",
           "icon": "RiMailLine",
           "url": "mailto:support@aifaceswap.io",
           "target": "_self"
@@ -466,38 +466,37 @@
     "agreement": {
       "items": [
         {
-          "title": "隐私政策",
+          "title": "Privacy Policy",
           "url": "/privacy-policy"
         },
         {
-          "title": "服务条款",
+          "title": "Terms of Service",
           "url": "/terms-of-service"
         }
       ]
     }
   },
   "faceSwap": {
-    "photoFaceSwap": "照片换脸",
-    "videoFaceSwap": "视频换脸",
-    "multipleFaceSwap": "多人换脸",
-    "uploadOriginalImage": "上传原始图像",
-    "uploadFaceImage": "上传面孔图像",
-    "startFaceSwap": "开始换脸",
-    "swapFace": "换脸",
-    "processing": "处理中...",
-    "before": "换脸前",
-    "after": "换脸后",
-    "uploadImage": "上传图像",
-    "readyToSwap": "准备换脸",
-    "uploadBothImages": "上传两张图像",
-    "comingSoon": "即将推出",
-    "download": "下载",
-    "splitView": "分屏查看",
-    "compareView": "对比查看",
-    "zoomIn": "放大",
-    "swapInProgress": "面部交换进行中...",
-    "completeSoon": "将在几秒钟内完成",
-    "magicHappening": "魔法正在发生..."
+    "photoFaceSwap": "Photo Face Swap",
+    "videoFaceSwap": "Video Face Swap",
+    "multipleFaceSwap": "Multiple Face Swap",
+    "uploadOriginalImage": "Upload Original Image",
+    "uploadFaceImage": "Upload Face Image",
+    "startFaceSwap": "Start Face Swap",
+    "swapFace": "Swap Face",
+    "processing": "Processing...",
+    "before": "Before",
+    "after": "After",
+    "uploadImage": "Upload Image",
+    "readyToSwap": "Ready to Swap",
+    "uploadBothImages": "Upload Both Images",
+    "comingSoon": "Coming Soon",
+    "download": "Download",
+    "splitView": "Split View",
+    "compareView": "Compare View",
+    "zoomIn": "Zoom In",
+    "swapInProgress": "Face swap in progress...",
+    "completeSoon": "Will complete in a few seconds",
+    "magicHappening": "Magic happening..."
   }
 }
-

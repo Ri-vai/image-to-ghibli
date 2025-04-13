@@ -1,13 +1,13 @@
 {
   "metadata": {
     "title": "几小时内构建任何 AI SaaS 创业项目 | ShipAny",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板，提供各种模板和组件，帮助您快速启动。",
+    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板，提供各种模板和组件，帮助快速构建。",
     "keywords": "ShipAny, AI SaaS 模板, NextJS 模板"
   },
   "user": {
     "sign_in": "登录",
     "sign_out": "退出登录",
-    "credits": "额度",
+    "credits": "积分",
     "api_keys": "API 密钥",
     "my_orders": "我的订单"
   },
@@ -15,15 +15,15 @@
     "sign_in_title": "登录",
     "sign_in_description": "登录您的账户",
     "sign_up_title": "注册",
-    "sign_up_description": "创建新账户",
+    "sign_up_description": "创建一个账户",
     "email_title": "邮箱",
-    "email_placeholder": "请输入您的邮箱",
+    "email_placeholder": "在此输入您的邮箱",
     "password_title": "密码",
-    "password_placeholder": "请输入您的密码",
+    "password_placeholder": "在此输入您的密码",
     "forgot_password": "忘记密码？",
     "or": "或",
     "continue": "继续",
-    "no_account": "还没有账户？",
+    "no_account": "没有账户？",
     "email_sign_in": "使用邮箱登录",
     "google_sign_in": "使用 Google 登录",
     "github_sign_in": "使用 GitHub 登录",
@@ -32,7 +32,7 @@
   },
   "my_orders": {
     "title": "我的订单",
-    "description": "在 ShipAny 上购买的订单。",
+    "description": "通过 ShipAny 支付的订单。",
     "no_orders": "未找到订单",
     "tip": "",
     "activate_order": "激活订单",
@@ -51,8 +51,8 @@
   },
   "my_credits": {
     "title": "我的积分",
-    "left_tip": "剩余积分: {left_credits}",
-    "no_credits": "没有积分记录",
+    "left_tip": "剩余积分：{left_credits}",
+    "no_credits": "无积分记录",
     "recharge": "充值",
     "table": {
       "trans_no": "交易号",
@@ -64,8 +64,8 @@
   },
   "api_keys": {
     "title": "API 密钥",
-    "tip": "请妥善保管您的 API 密钥，避免泄露",
-    "no_api_keys": "没有 API 密钥",
+    "tip": "请妥善保管您的 API 密钥以避免泄露",
+    "no_api_keys": "无 API 密钥",
     "create_api_key": "创建 API 密钥",
     "table": {
       "name": "名称",
