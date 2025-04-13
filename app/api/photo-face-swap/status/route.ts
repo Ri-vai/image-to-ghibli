@@ -32,8 +32,6 @@ export async function GET(req: NextRequest) {
     const result = await response.json();
     
     if (result.status === "succeeded") {
-      console.log("🚀 ~ GET ~ result:", result)
-        console.log("🚀 ~ GET ~ result.output:", result.output)
       return NextResponse.json({ 
         success: true, 
         status: result.status,
