@@ -50,13 +50,6 @@ export default async function () {
     toolbar: {
       items: [
         {
-          title: t("my_orders.read_docs"),
-          icon: "RiBookLine",
-          url: "https://docs.shipany.ai",
-          target: "_blank",
-          variant: "outline",
-        },
-        {
           title: t("my_orders.join_discord"),
           icon: "RiDiscordFill",
           url: "https://discord.gg/HQNnrzjZQS",

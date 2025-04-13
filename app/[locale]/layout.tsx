@@ -9,6 +9,7 @@ import { NextAuthSessionProvider } from "@/auth/session";
 import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
+import { locales } from "@/i18n/locale";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -44,6 +45,24 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        {/* Base URL for canonical and hreflang tags */}
+        <link rel="canonical" href={`https://aifaceswap.app/${locale}`} />
+
+        {/* Add hreflang tags for all supported languages */}
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://aifaceswap.app"
+        />
+        {locales.map((lang) => (
+          <link
+            key={lang}
+            rel="alternate"
+            hrefLang={lang}
+            href={`https://aifaceswap.app/${lang}`}
+          />
+        ))}
+
         <script
           defer
           data-domain="aifaceswap.app"
