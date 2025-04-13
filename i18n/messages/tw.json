@@ -82,5 +82,8 @@
     "title": "部落格",
     "description": "關於ShipAny的新聞、資源和更新",
     "read_more_text": "閱讀更多"
+  },
+  "turnstile": {
+    "verifyYouAreHuman": "驗證你是人類"
   }
 }

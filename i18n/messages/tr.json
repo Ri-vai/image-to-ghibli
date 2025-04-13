@@ -82,5 +82,8 @@
     "title": "Blog",
     "description": "ShipAny hakkında haberler, kaynaklar ve güncellemeler",
     "read_more_text": "Devamını Oku"
+  },
+  "turnstile": {
+    "verifyYouAreHuman": "İnsan olduğunuzu doğrulayın"
   }
 }

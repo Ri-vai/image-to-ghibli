@@ -82,5 +82,8 @@
     "title": "Blog",
     "description": "Tin tức, tài nguyên, và cập nhật về ShipAny",
     "read_more_text": "Đọc thêm"
+  },
+  "turnstile": {
+    "verifyYouAreHuman": "Xác minh bạn là người"
   }
 }

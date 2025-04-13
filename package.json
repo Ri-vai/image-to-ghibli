@@ -30,6 +30,7 @@
     "@devnomic/marquee": "^1.0.2",
     "@hookform/resolvers": "^3.10.0",
     "@libsql/client": "^0.14.0",
+    "@marsidev/react-turnstile": "^1.1.0",
     "@mdx-js/loader": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
     "@next/mdx": "^15.1.3",

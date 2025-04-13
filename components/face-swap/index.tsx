@@ -19,6 +19,7 @@ import {
   ReactCompareSliderImage,
   ReactCompareSliderHandle,
 } from "react-compare-slider";
+import { TurnstileDialog } from "@/components/ui/turnstile-dialog";
 
 type FaceSwapProps = {
   locale: string;
@@ -33,6 +34,8 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [showCompareSlider, setShowCompareSlider] = useState(false);
+  const [showTurnstile, setShowTurnstile] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
 
   const handleBodyImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
@@ -71,19 +74,27 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
   const handleSwapFace = async () => {
     if (!faceImage || !bodyImage) return;
 
+    // Show Turnstile dialog
+    setShowTurnstile(true);
+  };
+
+  const handleTurnstileVerify = async (token: string) => {
+    setTurnstileToken(token);
+    setShowTurnstile(false);
+
     try {
       setIsLoading(true);
       setError(null);
 
-      // 发送请求时，确保参数名称与API期望的一致
       const response = await fetch("/api/photo-face-swap", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          sourceImage: faceImage, // 脸部照片 (source_image)
-          targetImage: bodyImage, // 身体照片 (target_image)
+          sourceImage: faceImage,
+          targetImage: bodyImage,
+          turnstileToken: token,
         }),
       });
 
@@ -97,10 +108,9 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
         throw new Error(data.error || "Failed to start face swap process");
       }
 
-      // 第二步：轮询检查处理状态
       const predictionId = data.prediction.id;
       let attempts = 0;
-      const maxAttempts = 30; // 最多尝试30次，每次间隔2秒
+      const maxAttempts = 30;
 
       const checkStatus = async () => {
         if (attempts >= maxAttempts) {
@@ -119,14 +129,11 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
         }
 
         if (statusData.success && statusData.output) {
-          // 处理成功，设置结果图片
           setResultImage(statusData.output.image);
           return true;
         } else if (statusData.status === "failed") {
-          // 处理失败，显示友好的错误信息
           throw new Error(statusData.error || "换脸处理失败");
         } else {
-          // 继续处理中，等待后再次检查
           attempts++;
           await new Promise((resolve) => setTimeout(resolve, 2000));
           return checkStatus();
@@ -134,7 +141,6 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
       };
 
       await checkStatus();
-      // 成功生成图片后，启用对比滑块
       setShowCompareSlider(true);
     } catch (error) {
       console.error("Error swapping face:", error);
@@ -178,6 +184,11 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
 
   return (
     <section className="w-full py-12 bg-background">
+      <TurnstileDialog
+        open={showTurnstile}
+        onClose={() => setShowTurnstile(false)}
+        onVerify={handleTurnstileVerify}
+      />
       <div className="container mx-auto px-4">
         <Tabs
           defaultValue="photo"

@@ -82,5 +82,8 @@
     "title": "المدونة",
     "description": "أخبار وموارد وتحديثات عن ShipAny",
     "read_more_text": "اقرأ المزيد"
+  },
+  "turnstile": {
+    "verifyYouAreHuman": "تحقق من أنك إنسان"
   }
 }

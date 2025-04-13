@@ -82,5 +82,8 @@
     "title": "Blog",
     "description": "Novità, risorse e aggiornamenti su ShipAny",
     "read_more_text": "Leggi di più"
+  },
+  "turnstile": {
+    "verifyYouAreHuman": "Verifica che sei umano"
   }
 }
