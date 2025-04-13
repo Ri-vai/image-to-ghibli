@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "AI SaaS Girişimlerini saatler içinde yayınlayın | ShipAny",
+    "description": "ShipAny, AI SaaS girişimleri oluşturmak için bir NextJS şablonudur, çeşitli şablonlar ve bileşenlerle hızlıca yayınlayın.",
+    "keywords": "ShipAny, AI SaaS Şablonu, NextJS Şablonu"
+  },
+  "user": {
+    "sign_in": "Giriş Yap",
+    "sign_out": "Çıkış Yap",
+    "credits": "Krediler",
+    "api_keys": "API Anahtarları",
+    "my_orders": "Siparişlerim"
+  },
+  "sign_modal": {
+    "sign_in_title": "Giriş Yap",
+    "sign_in_description": "Hesabınıza giriş yapın",
+    "sign_up_title": "Kayıt Ol",
+    "sign_up_description": "Hesap oluştur",
+    "email_title": "E-posta",
+    "email_placeholder": "E-postanızı buraya girin",
+    "password_title": "Şifre",
+    "password_placeholder": "Şifrenizi buraya girin",
+    "forgot_password": "Şifreyi mi unuttunuz?",
+    "or": "Veya",
+    "continue": "Devam Et",
+    "no_account": "Hesabınız yok mu?",
+    "email_sign_in": "E-posta ile Giriş Yap",
+    "google_sign_in": "Google ile Giriş Yap",
+    "github_sign_in": "GitHub ile Giriş Yap",
+    "close_title": "Kapat",
+    "cancel_title": "İptal"
+  },
+  "my_orders": {
+    "title": "Siparişlerim",
+    "description": "ShipAny ile ödenmiş siparişler.",
+    "no_orders": "Sipariş bulunamadı",
+    "tip": "",
+    "activate_order": "Siparişi Etkinleştir",
+    "actived": "Aktif",
+    "join_discord": "Discord'a Katıl",
+    "read_docs": "Dökümanları Oku",
+    "table": {
+      "order_no": "Sipariş No",
+      "email": "E-posta",
+      "product_name": "Ürün Adı",
+      "amount": "Miktar",
+      "paid_at": "Ödeme Tarihi",
+      "github_username": "GitHub Kullanıcı Adı",
+      "status": "Durum"
+    }
+  },
+  "my_credits": {
+    "title": "Kredilerim",
+    "left_tip": "kalan krediler: {left_credits}",
+    "no_credits": "Kredi kaydı yok",
+    "recharge": "Yeniden Yükle",
+    "table": {
+      "trans_no": "İşlem No",
+      "trans_type": "İşlem Türü",
+      "credits": "Krediler",
+      "updated_at": "Güncellenme Tarihi",
+      "status": "Durum"
+    }
+  },
+  "api_keys": {
+    "title": "API Anahtarları",
+    "tip": "Lütfen apikey'inizi sızıntıları önlemek için güvende tutun",
+    "no_api_keys": "API Anahtarı Yok",
+    "create_api_key": "API Anahtarı Oluştur",
+    "table": {
+      "name": "İsim",
+      "key": "Anahtar",
+      "created_at": "Oluşturulma Tarihi"
+    },
+    "form": {
+      "name": "İsim",
+      "name_placeholder": "API Anahtar İsmi",
+      "submit": "Gönder"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "ShipAny hakkında haberler, kaynaklar ve güncellemeler",
+    "read_more_text": "Devamını Oku"
+  }
+}

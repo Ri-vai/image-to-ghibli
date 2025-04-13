@@ -34,7 +34,7 @@
     "title": "我的订单",
     "description": "通过 ShipAny 支付的订单。",
     "no_orders": "未找到订单",
-    "tip": "",
+    "tip": "我的订单",
     "activate_order": "激活订单",
     "actived": "已激活",
     "join_discord": "加入 Discord",

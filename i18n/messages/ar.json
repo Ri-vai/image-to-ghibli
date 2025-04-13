@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "قم بشحن أي شركات ناشئة في مجال SaaS للذكاء الاصطناعي في ساعات | ShipAny",
+    "description": "ShipAny هو نموذج NextJS لبناء الشركات الناشئة في مجال SaaS للذكاء الاصطناعي، قم بالشحن السريع مع مجموعة متنوعة من القوالب والمكونات.",
+    "keywords": "ShipAny, نموذج SaaS للذكاء الاصطناعي, نموذج NextJS"
+  },
+  "user": {
+    "sign_in": "تسجيل الدخول",
+    "sign_out": "تسجيل الخروج",
+    "credits": "الرصيد",
+    "api_keys": "مفاتيح API",
+    "my_orders": "طلباتي"
+  },
+  "sign_modal": {
+    "sign_in_title": "تسجيل الدخول",
+    "sign_in_description": "تسجيل الدخول إلى حسابك",
+    "sign_up_title": "إنشاء حساب",
+    "sign_up_description": "إنشاء حساب جديد",
+    "email_title": "البريد الإلكتروني",
+    "email_placeholder": "أدخل بريدك الإلكتروني هنا",
+    "password_title": "كلمة المرور",
+    "password_placeholder": "أدخل كلمة المرور هنا",
+    "forgot_password": "نسيت كلمة المرور؟",
+    "or": "أو",
+    "continue": "متابعة",
+    "no_account": "ليس لديك حساب؟",
+    "email_sign_in": "تسجيل الدخول بالبريد الإلكتروني",
+    "google_sign_in": "تسجيل الدخول باستخدام Google",
+    "github_sign_in": "تسجيل الدخول باستخدام GitHub",
+    "close_title": "إغلاق",
+    "cancel_title": "إلغاء"
+  },
+  "my_orders": {
+    "title": "طلباتي",
+    "description": "الطلبات المدفوعة باستخدام ShipAny.",
+    "no_orders": "لم يتم العثور على طلبات",
+    "tip": "",
+    "activate_order": "تفعيل الطلب",
+    "actived": "مفعل",
+    "join_discord": "انضم إلى Discord",
+    "read_docs": "اقرأ المستندات",
+    "table": {
+      "order_no": "رقم الطلب",
+      "email": "البريد الإلكتروني",
+      "product_name": "اسم المنتج",
+      "amount": "المبلغ",
+      "paid_at": "تاريخ الدفع",
+      "github_username": "اسم المستخدم في GitHub",
+      "status": "الحالة"
+    }
+  },
+  "my_credits": {
+    "title": "رصيدي",
+    "left_tip": "الرصيد المتبقي: {left_credits}",
+    "no_credits": "لا توجد سجلات رصيد",
+    "recharge": "إعادة شحن",
+    "table": {
+      "trans_no": "رقم المعاملة",
+      "trans_type": "نوع المعاملة",
+      "credits": "الأرصدة",
+      "updated_at": "تم التحديث في",
+      "status": "الحالة"
+    }
+  },
+  "api_keys": {
+    "title": "مفاتيح API",
+    "tip": "يرجى الحفاظ على مفتاح API الخاص بك آمناً لتجنب التسريبات",
+    "no_api_keys": "لا توجد مفاتيح API",
+    "create_api_key": "إنشاء مفتاح API",
+    "table": {
+      "name": "الاسم",
+      "key": "المفتاح",
+      "created_at": "تم الإنشاء في"
+    },
+    "form": {
+      "name": "الاسم",
+      "name_placeholder": "اسم مفتاح API",
+      "submit": "إرسال"
+    }
+  },
+  "blog": {
+    "title": "المدونة",
+    "description": "أخبار وموارد وتحديثات عن ShipAny",
+    "read_more_text": "اقرأ المزيد"
+  }
+}

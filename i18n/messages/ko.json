@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "몇 시간 만에 AI SaaS 스타트업 출시하기 | ShipAny",
+    "description": "ShipAny는 AI SaaS 스타트업을 구축하기 위한 NextJS 보일러플레이트로, 다양한 템플릿과 컴포넌트로 빠르게 출시할 수 있습니다.",
+    "keywords": "ShipAny, AI SaaS 보일러플레이트, NextJS 보일러플레이트"
+  },
+  "user": {
+    "sign_in": "로그인",
+    "sign_out": "로그아웃",
+    "credits": "크레딧",
+    "api_keys": "API 키",
+    "my_orders": "내 주문"
+  },
+  "sign_modal": {
+    "sign_in_title": "로그인",
+    "sign_in_description": "계정에 로그인하세요",
+    "sign_up_title": "회원가입",
+    "sign_up_description": "계정 만들기",
+    "email_title": "이메일",
+    "email_placeholder": "이메일을 입력하세요",
+    "password_title": "비밀번호",
+    "password_placeholder": "비밀번호를 입력하세요",
+    "forgot_password": "비밀번호를 잊으셨나요?",
+    "or": "또는",
+    "continue": "계속하기",
+    "no_account": "계정이 없으신가요?",
+    "email_sign_in": "이메일로 로그인",
+    "google_sign_in": "Google로 로그인",
+    "github_sign_in": "GitHub로 로그인",
+    "close_title": "닫기",
+    "cancel_title": "취소"
+  },
+  "my_orders": {
+    "title": "내 주문",
+    "description": "ShipAny로 결제한 주문",
+    "no_orders": "주문을 찾을 수 없습니다",
+    "tip": "",
+    "activate_order": "주문 활성화",
+    "actived": "활성화됨",
+    "join_discord": "Discord 참여",
+    "read_docs": "문서 읽기",
+    "table": {
+      "order_no": "주문 번호",
+      "email": "이메일",
+      "product_name": "상품명",
+      "amount": "금액",
+      "paid_at": "결제일",
+      "github_username": "GitHub 사용자명",
+      "status": "상태"
+    }
+  },
+  "my_credits": {
+    "title": "나의 크레딧",
+    "left_tip": "남은 크레딧: {left_credits}",
+    "no_credits": "크레딧 기록 없음",
+    "recharge": "충전",
+    "table": {
+      "trans_no": "거래 번호",
+      "trans_type": "거래 유형",
+      "credits": "크레딧",
+      "updated_at": "업데이트 시간",
+      "status": "상태"
+    }
+  },
+  "api_keys": {
+    "title": "API 키",
+    "tip": "API 키가 유출되지 않도록 안전하게 보관해 주세요",
+    "no_api_keys": "API 키 없음",
+    "create_api_key": "API 키 생성",
+    "table": {
+      "name": "이름",
+      "key": "키",
+      "created_at": "생성 시간"
+    },
+    "form": {
+      "name": "이름",
+      "name_placeholder": "API 키 이름",
+      "submit": "제출"
+    }
+  },
+  "blog": {
+    "title": "블로그",
+    "description": "ShipAny에 대한 뉴스, 리소스 및 업데이트",
+    "read_more_text": "더보기"
+  }
+}

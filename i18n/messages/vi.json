@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "Phát triển các ứng dụng SaaS AI trong vài giờ | ShipAny",
+    "description": "ShipAny là một boilerplate NextJS để xây dựng các ứng dụng khởi nghiệp SaaS AI, Phát triển nhanh chóng với nhiều mẫu và components.",
+    "keywords": "ShipAny, AI SaaS Boilerplate, NextJS Boilerplate"
+  },
+  "user": {
+    "sign_in": "Đăng nhập",
+    "sign_out": "Đăng xuất",
+    "credits": "Số dư",
+    "api_keys": "Khóa API",
+    "my_orders": "Đơn hàng của tôi"
+  },
+  "sign_modal": {
+    "sign_in_title": "Đăng nhập",
+    "sign_in_description": "Đăng nhập vào tài khoản của bạn",
+    "sign_up_title": "Đăng ký",
+    "sign_up_description": "Tạo tài khoản mới",
+    "email_title": "Email",
+    "email_placeholder": "Nhập email của bạn vào đây",
+    "password_title": "Mật khẩu",
+    "password_placeholder": "Nhập mật khẩu của bạn tại đây",
+    "forgot_password": "Quên mật khẩu?",
+    "or": "Hoặc",
+    "continue": "Tiếp tục",
+    "no_account": "Bạn chưa có tài khoản?",
+    "email_sign_in": "Đăng nhập bằng Email",
+    "google_sign_in": "Đăng nhập bằng Google",
+    "github_sign_in": "Đăng nhập bằng GitHub",
+    "close_title": "Đóng",
+    "cancel_title": "Hủy"
+  },
+  "my_orders": {
+    "title": "Đơn hàng của tôi",
+    "description": "đơn hàng đã thanh toán với ShipAny.",
+    "no_orders": "Không tìm thấy đơn hàng",
+    "tip": "",
+    "activate_order": "Kích hoạt đơn hàng",
+    "actived": "Đã kích hoạt",
+    "join_discord": "Tham gia Discord",
+    "read_docs": "Đọc tài liệu",
+    "table": {
+      "order_no": "Mã đơn hàng",
+      "email": "Email",
+      "product_name": "Tên sản phẩm",
+      "amount": "Số tiền",
+      "paid_at": "Thời gian thanh toán",
+      "github_username": "Tên người dùng GitHub",
+      "status": "Trạng thái"
+    }
+  },
+  "my_credits": {
+    "title": "Credit của tôi",
+    "left_tip": "credit còn lại: {left_credits}",
+    "no_credits": "Không có lịch sử credit",
+    "recharge": "Nạp tiền",
+    "table": {
+      "trans_no": "Mã giao dịch",
+      "trans_type": "Loại Giao Dịch",
+      "credits": "Tín dụng",
+      "updated_at": "Cập nhật Lúc",
+      "status": "Trạng thái"
+    }
+  },
+  "api_keys": {
+    "title": "Khóa API",
+    "tip": "Vui lòng giữ an toàn apikey của bạn để tránh rò rỉ",
+    "no_api_keys": "Không có Khóa API",
+    "create_api_key": "Tạo Khóa API",
+    "table": {
+      "name": "Tên",
+      "key": "Khóa",
+      "created_at": "Tạo Lúc"
+    },
+    "form": {
+      "name": "Tên",
+      "name_placeholder": "Tên Khóa API",
+      "submit": "Gửi"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Tin tức, tài nguyên, và cập nhật về ShipAny",
+    "read_more_text": "Đọc thêm"
+  }
+}

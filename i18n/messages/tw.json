@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "數小時內打造任何AI SaaS創業項目 | ShipAny",
+    "description": "ShipAny是一個用於構建AI SaaS創業項目的NextJS樣板，提供各種模板和組件，幫助您快速開發。",
+    "keywords": "ShipAny, AI SaaS樣板, NextJS樣板"
+  },
+  "user": {
+    "sign_in": "登入",
+    "sign_out": "登出",
+    "credits": "點數",
+    "api_keys": "API金鑰",
+    "my_orders": "我的訂單"
+  },
+  "sign_modal": {
+    "sign_in_title": "登入",
+    "sign_in_description": "登入您的帳戶",
+    "sign_up_title": "註冊",
+    "sign_up_description": "創建一個帳戶",
+    "email_title": "電子郵件",
+    "email_placeholder": "在此輸入您的電子郵件",
+    "password_title": "密碼",
+    "password_placeholder": "請在此輸入您的密碼",
+    "forgot_password": "忘記密碼？",
+    "or": "或",
+    "continue": "繼續",
+    "no_account": "還沒有帳號？",
+    "email_sign_in": "使用電子郵件登入",
+    "google_sign_in": "使用 Google 登入",
+    "github_sign_in": "使用 GitHub 登入",
+    "close_title": "關閉",
+    "cancel_title": "取消"
+  },
+  "my_orders": {
+    "title": "我的訂單",
+    "description": "使用 ShipAny 支付的訂單。",
+    "no_orders": "未找到訂單",
+    "tip": "",
+    "activate_order": "啟用訂單",
+    "actived": "已啟用",
+    "join_discord": "加入 Discord",
+    "read_docs": "閱讀文件",
+    "table": {
+      "order_no": "訂單編號",
+      "email": "電子郵件",
+      "product_name": "產品名稱",
+      "amount": "金額",
+      "paid_at": "付款時間",
+      "github_username": "GitHub 用戶名",
+      "status": "狀態"
+    }
+  },
+  "my_credits": {
+    "title": "我的點數",
+    "left_tip": "剩餘點數：{left_credits}",
+    "no_credits": "無點數紀錄",
+    "recharge": "儲值",
+    "table": {
+      "trans_no": "交易編號",
+      "trans_type": "交易類型",
+      "credits": "點數",
+      "updated_at": "更新時間",
+      "status": "狀態"
+    }
+  },
+  "api_keys": {
+    "title": "API 金鑰",
+    "tip": "請妥善保管您的 API 金鑰以避免洩漏",
+    "no_api_keys": "尚無 API 金鑰",
+    "create_api_key": "創建 API 金鑰",
+    "table": {
+      "name": "名稱",
+      "key": "金鑰",
+      "created_at": "創建時間"
+    },
+    "form": {
+      "name": "名稱",
+      "name_placeholder": "API 金鑰名稱",
+      "submit": "提交"
+    }
+  },
+  "blog": {
+    "title": "部落格",
+    "description": "關於ShipAny的新聞、資源和更新",
+    "read_more_text": "閱讀更多"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "title": "Crea qualsiasi startup SaaS di IA in poche ore | ShipAny",
+    "description": "ShipAny è un boilerplate NextJS per costruire startup SaaS di IA, sviluppa velocemente con una varietà di modelli e componenti.",
+    "keywords": "ShipAny, AI SaaS Boilerplate, NextJS Boilerplate"
+  },
+  "user": {
+    "sign_in": "Accedi",
+    "sign_out": "Esci",
+    "credits": "Crediti",
+    "api_keys": "Chiavi API",
+    "my_orders": "I miei ordini"
+  },
+  "sign_modal": {
+    "sign_in_title": "Accedi",
+    "sign_in_description": "Accedi al tuo account",
+    "sign_up_title": "Registrati",
+    "sign_up_description": "Crea un account",
+    "email_title": "Email",
+    "email_placeholder": "Inserisci qui la tua email",
+    "password_title": "Password",
+    "password_placeholder": "Inserisci qui la tua password",
+    "forgot_password": "Password dimenticata?",
+    "or": "Oppure",
+    "continue": "Continua",
+    "no_account": "Non hai un account?",
+    "email_sign_in": "Accedi con Email",
+    "google_sign_in": "Accedi con Google",
+    "github_sign_in": "Accedi con GitHub",
+    "close_title": "Chiudi",
+    "cancel_title": "Annulla"
+  },
+  "my_orders": {
+    "title": "I Miei Ordini",
+    "description": "ordini pagati con ShipAny.",
+    "no_orders": "Nessun ordine trovato",
+    "tip": "",
+    "activate_order": "Attiva Ordine",
+    "actived": "Attivato",
+    "join_discord": "Unisciti a Discord",
+    "read_docs": "Leggi i Documenti",
+    "table": {
+      "order_no": "Numero Ordine",
+      "email": "Email",
+      "product_name": "Nome Prodotto",
+      "amount": "Importo",
+      "paid_at": "Pagato il",
+      "github_username": "Nome Utente GitHub",
+      "status": "Stato"
+    }
+  },
+  "my_credits": {
+    "title": "I Miei Crediti",
+    "left_tip": "crediti rimanenti: {left_credits}",
+    "no_credits": "Nessuna registrazione di crediti",
+    "recharge": "Ricarica",
+    "table": {
+      "trans_no": "Numero Transazione",
+      "trans_type": "Tipo Trans",
+      "credits": "Crediti",
+      "updated_at": "Aggiornato il",
+      "status": "Stato"
+    }
+  },
+  "api_keys": {
+    "title": "Chiavi API",
+    "tip": "Si prega di mantenere al sicuro la propria apikey per evitare perdite",
+    "no_api_keys": "Nessuna Chiave API",
+    "create_api_key": "Crea Chiave API",
+    "table": {
+      "name": "Nome",
+      "key": "Chiave",
+      "created_at": "Creato il"
+    },
+    "form": {
+      "name": "Nome",
+      "name_placeholder": "Nome Chiave API",
+      "submit": "Invia"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Novità, risorse e aggiornamenti su ShipAny",
+    "read_more_text": "Leggi di più"
+  }
+}
