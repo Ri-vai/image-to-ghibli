@@ -8,6 +8,7 @@ export async function getDb() {
 
   const client = createClient({
     url: process.env.SQLITE_URL,
+    authToken: process.env.SQLITE_AUTH_TOKEN,
   });
   const db = drizzle(client);
 

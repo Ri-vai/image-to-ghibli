@@ -1,1 +1,1 @@
-export * from "./postgres/db";
+export * from "./sqlite/db";
