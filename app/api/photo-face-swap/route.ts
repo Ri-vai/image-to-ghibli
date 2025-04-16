@@ -5,7 +5,14 @@ import { newStorage } from "@/lib/storage";
 // 记录API调用到Cloudflare KV
 async function recordApiUsage() {
   try {
-    const today = new Date().toISOString().split('T')[0]; // 格式：YYYY-MM-DD
+    // 获取北京时间的日期字符串（YYYY-MM-DD格式）
+    const today = (() => {
+      const date = new Date();
+      // 调整为北京时间 (UTC+8)
+      const beijingDate = new Date(date.getTime() + 8 * 60 * 60 * 1000);
+      return beijingDate.toISOString().split('T')[0]; // 格式：YYYY-MM-DD
+    })();
+    
     const key = `photo-face-swap:${today}`;
     
     // Cloudflare KV API的账户信息
@@ -47,7 +54,7 @@ async function recordApiUsage() {
       body: count.toString()
     });
     
-    console.log(`📊 API 调用次数已更新: ${today} = ${count}`);
+    console.log(`📊 API 调用次数已更新: ${today} = ${count} (北京时间)`);
   } catch (error) {
     console.error("记录API使用量时出错:", error);
     // 不影响主流程，只记录错误
