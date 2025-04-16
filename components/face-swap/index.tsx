@@ -74,7 +74,13 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
   const handleSwapFace = async () => {
     if (!faceImage || !bodyImage) return;
 
-    // Show Turnstile dialog
+    // 开发环境中直接使用模拟token
+    if (process.env.NODE_ENV === "development") {
+      await handleTurnstileVerify("development_mock_token");
+      return;
+    }
+
+    // 生产环境中正常显示Turnstile对话框
     setShowTurnstile(true);
   };
 

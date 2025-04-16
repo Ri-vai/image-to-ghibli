@@ -2,7 +2,65 @@ import { NextRequest, NextResponse } from "next/server";
 import Replicate from "replicate";
 import { newStorage } from "@/lib/storage";
 
+// 记录API调用到Cloudflare KV
+async function recordApiUsage() {
+  try {
+    const today = new Date().toISOString().split('T')[0]; // 格式：YYYY-MM-DD
+    const key = `photo-face-swap:${today}`;
+    
+    // Cloudflare KV API的账户信息
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+    const namespaceId = process.env.CLOUDFLARE_KV_NAMESPACE_ID;
+    const apiKey = process.env.CLOUDFLARE_API_KEY;
+    
+    if (!accountId || !namespaceId || !apiKey) {
+      console.warn("⚠️ Cloudflare KV配置缺失，跳过统计");
+      return;
+    }
+    
+    // 1. 先获取当前值
+    const getUrl = `https://api.cloudflare.com/client/v4/accounts/${accountId}/storage/kv/namespaces/${namespaceId}/values/${key}`;
+    
+    const getResponse = await fetch(getUrl, {
+      headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json'
+      }
+    });
+    
+    // 如果值存在，则+1；否则设为1
+    let count = 1;
+    if (getResponse.status === 200) {
+      const currentValue = await getResponse.text();
+      count = parseInt(currentValue, 10) + 1;
+    }
+    
+    // 2. 更新值
+    const putUrl = `https://api.cloudflare.com/client/v4/accounts/${accountId}/storage/kv/namespaces/${namespaceId}/values/${key}`;
+    
+    await fetch(putUrl, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'text/plain'
+      },
+      body: count.toString()
+    });
+    
+    console.log(`📊 API 调用次数已更新: ${today} = ${count}`);
+  } catch (error) {
+    console.error("记录API使用量时出错:", error);
+    // 不影响主流程，只记录错误
+  }
+}
+
 async function verifyTurnstileToken(token: string) {
+  // 如果是开发环境，直接返回成功
+  if (process.env.NODE_ENV === "development") {
+    console.log("🔄 开发环境中跳过Turnstile验证");
+    return true;
+  }
+
   const response = await fetch(
     "https://challenges.cloudflare.com/turnstile/v0/siteverify",
     {
@@ -75,6 +133,14 @@ export async function POST(req: NextRequest) {
         { error: "Images must be in data URL format (data:image/...)" },
         { status: 400 }
       );
+    }
+
+    // 在验证成功后记录API调用
+    try {
+      await recordApiUsage();
+    } catch (error) {
+      // 记录错误但继续执行后续逻辑
+      console.error("📊 记录API调用次数失败，但将继续执行:", error);
     }
 
     // 上传图片到存储桶
