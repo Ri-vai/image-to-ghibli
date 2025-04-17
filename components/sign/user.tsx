@@ -45,10 +45,10 @@ export default function ({ user }: { user: User }) {
         </DropdownMenuItem>
         <DropdownMenuSeparator />
 
-        <DropdownMenuItem className="flex justify-center cursor-pointer">
+        {/* <DropdownMenuItem className="flex justify-center cursor-pointer">
           <Link href="/api-keys">{t("api_keys.title")}</Link>
         </DropdownMenuItem>
-        <DropdownMenuSeparator />
+        <DropdownMenuSeparator /> */}
 
         <DropdownMenuItem
           className="flex justify-center cursor-pointer"
