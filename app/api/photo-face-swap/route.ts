@@ -45,7 +45,7 @@ async function recordApiUsage() {
     // 2. 更新值
     const putUrl = `https://api.cloudflare.com/client/v4/accounts/${accountId}/storage/kv/namespaces/${namespaceId}/values/${key}`;
     
-    await fetch(putUrl, {
+    const putResponse = await fetch(putUrl, {
       method: 'PUT',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
@@ -53,6 +53,14 @@ async function recordApiUsage() {
       },
       body: count.toString()
     });
+    
+    // 验证PUT请求是否成功
+    const putResult = await putResponse.json();
+    if (!putResult.success) {
+      console.log("🚀 ~ Cloudflare KV ~ putResult:", putResult)
+      console.error("❌ Cloudflare KV更新失败:", putResult.errors);
+      throw new Error(`Cloudflare KV更新失败: ${JSON.stringify(putResult.errors)}`);
+    }
     
     console.log(`📊 API 调用次数已更新: ${today} = ${count} (北京时间)`);
   } catch (error) {
