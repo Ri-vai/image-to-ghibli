@@ -3,7 +3,7 @@ import "@/app/globals.css";
 import { getMessages, getTranslations } from "next-intl/server";
 
 import { AppContextProvider } from "@/contexts/app";
-import { Inter as FontSans, Newsreader } from "next/font/google";
+import { Inter as FontSans } from "next/font/google";
 import { Metadata } from "next";
 import { NextAuthSessionProvider } from "@/auth/session";
 import { NextIntlClientProvider } from "next-intl";
@@ -11,7 +11,7 @@ import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
 import { locales } from "@/i18n/locale";
 import { UTMHandler } from "@/lib/utm_handler";
-const fontSans = Newsreader({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
