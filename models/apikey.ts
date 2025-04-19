@@ -1,6 +1,6 @@
 import { and, desc, eq } from "drizzle-orm";
 
-import { apikeys } from "@/drizzle/schema";
+import { apikeys } from "@/drizzle/sqlite/schema";
 import { getDb } from "@/drizzle/db";
 
 export enum ApikeyStatus {
