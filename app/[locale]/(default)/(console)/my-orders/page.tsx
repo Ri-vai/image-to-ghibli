@@ -52,7 +52,7 @@ export default async function () {
         {
           title: t("my_orders.join_discord"),
           icon: "RiDiscordFill",
-          url: "https://discord.gg/HQNnrzjZQS",
+          url: "",
           target: "_blank",
         },
       ],
