@@ -1,7 +1,7 @@
 import { desc, eq } from "drizzle-orm";
 
 import { getDb } from "@/drizzle/db";
-import { users } from "@/drizzle/schema";
+import { users } from "@/drizzle/sqlite/schema";
 
 export async function insertUser(user: typeof users.$inferInsert) {
   const db = await getDb();
@@ -49,4 +49,14 @@ export async function getUsers(
     .offset((page - 1) * limit);
 
   return data;
+}
+
+export async function updateUser(
+  uuid: string,
+  user: Partial<typeof users.$inferInsert>
+) {
+  const db = await getDb();
+  await db.update(users).set(user).where(eq(users.uuid, uuid));
+
+  return user;
 }

@@ -10,7 +10,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
 import { locales } from "@/i18n/locale";
-
+import { UTMHandler } from "@/lib/utm_handler";
 const fontSans = Newsreader({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -85,6 +85,7 @@ export default async function RootLayout({
           fontSans.variable
         )}
       >
+        <UTMHandler />
         <NextIntlClientProvider messages={messages}>
           <NextAuthSessionProvider>
             <AppContextProvider>

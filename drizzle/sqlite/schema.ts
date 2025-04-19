@@ -19,6 +19,7 @@ export const users = sqliteTable(
     signin_ip: text(),
     signin_provider: text(),
     signin_openid: text(),
+    utm: text({ mode: "json" }).default("{}"),
   },
   (table) => [
     uniqueIndex("email_provider_unique_idx").on(
