@@ -1,6 +1,7 @@
-import { users } from "@/drizzle/schema";
+import { users } from "@/drizzle/sqlite/schema";
 
 export type User = typeof users.$inferInsert & {
+  utm?: any;
   credits?: UserCredits;
 };
 

@@ -1,6 +1,6 @@
 import { and, asc, desc, eq, gte } from "drizzle-orm";
 
-import { credits } from "@/drizzle/schema";
+import { credits } from "@/drizzle/sqlite/schema";
 import { getDb } from "@/drizzle/db";
 import { getIsoTimestr } from "@/lib/time";
 

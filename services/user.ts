@@ -1,5 +1,10 @@
 import { CreditsAmount, CreditsTransType } from "./credit";
-import { findUserByEmail, findUserByUuid, insertUser } from "@/models/user";
+import {
+  findUserByEmail,
+  findUserByUuid,
+  insertUser,
+  updateUser,
+} from "@/models/user";
 import { getIsoTimestr, getOneYearLaterTimestr } from "@/lib/time";
 
 import { User } from "@/types/user";
@@ -11,14 +16,19 @@ import { increaseCredits } from "./credit";
 
 export async function saveUser(user: User) {
   try {
+    console.log("开始保存用户:", user.email);
     const existUser = await findUserByEmail(user.email);
     if (!existUser) {
+      console.log("用户不存在，创建新用户");
       const dbUser = {
         ...user,
         uuid: user.uuid || getUniSeq(),
         created_at: getIsoTimestr(),
+        utm: user.utm || {},
       };
+      console.log("准备插入用户:", dbUser);
       await insertUser(dbUser);
+      console.log("用户插入成功");
 
       // increase credits for new user, expire in one year
       await increaseCredits({
@@ -28,13 +38,19 @@ export async function saveUser(user: User) {
         expired_at: getOneYearLaterTimestr(),
       });
     } else {
+      console.log("用户已存在:", existUser.uuid);
       user.uuid = existUser.uuid;
       user.created_at = existUser.created_at;
+      if (user.utm && Object.keys(user.utm).length > 0) {
+        await updateUser(existUser.uuid, {
+          utm: user.utm || {},
+        });
+      }
     }
 
     return user;
   } catch (e) {
-    console.log("save user failed: ", e);
+    console.error("保存用户失败，详细错误:", e);
     throw e;
   }
 }

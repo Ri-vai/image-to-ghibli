@@ -1,7 +1,7 @@
 import { and, asc, desc, eq } from "drizzle-orm";
 
 import { getDb } from "@/drizzle/db";
-import { orders } from "@/drizzle/schema";
+import { orders } from "@/drizzle/sqlite/schema";
 
 export enum OrderStatus {
   Created = "created",

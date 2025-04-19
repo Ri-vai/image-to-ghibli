@@ -9,7 +9,10 @@ import { User } from "@/types/user";
 import { getClientIp } from "@/lib/ip";
 import { getUuid } from "@/lib/hash";
 import { saveUser } from "@/services/user";
-
+import { headers, cookies } from "next/headers";
+import { eq } from "drizzle-orm";
+import { users } from "@/drizzle/sqlite/schema";
+import { getDb } from "@/drizzle/sqlite/db";
 let providers: Provider[] = [];
 
 // Google One Tap Auth
@@ -148,8 +151,22 @@ export const authOptions: NextAuthConfig = {
     async jwt({ token, user, account }) {
       // Persist the OAuth access_token and or the user id to the token right after signin
       try {
+        const utmDataStr = cookies().get("utm_data")?.value;
+        let utmData = {};
+        try {
+          const parsedUtmData = JSON.parse(utmDataStr || "{}");
+          utmData = {
+            ...parsedUtmData,
+            country: headers().get("cf-ipcountry") || "",
+            ip: await getClientIp(),
+          };
+          console.log("[Debug] utmData", utmData);
+        } catch (e) {
+          console.error("[Debug] Error parsing UTM data:", e);
+        }
+
         if (user && user.email && account) {
-          const dbUser: User = {
+          const dbUser = {
             uuid: getUuid(),
             email: user.email,
             nickname: user.name || "",
@@ -159,6 +176,7 @@ export const authOptions: NextAuthConfig = {
             signin_openid: account.providerAccountId,
             created_at: getIsoTimestr(),
             signin_ip: await getClientIp(),
+            utm: utmData,
           };
 
           try {

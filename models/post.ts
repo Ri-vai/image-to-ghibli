@@ -1,7 +1,7 @@
 import { and, desc, eq } from "drizzle-orm";
 
 import { getDb } from "@/drizzle/db";
-import { posts } from "@/drizzle/schema";
+import { posts } from "@/drizzle/sqlite/schema";
 
 export enum PostStatus {
   Created = "created",
