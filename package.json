@@ -15,6 +15,7 @@
     "db:migrate": "drizzle-kit migrate --config drizzle/config.ts",
     "db:push": "drizzle-kit push --config drizzle/config.ts",
     "db:studio": "drizzle-kit studio --config drizzle/config.ts",
+    "db:drop": "drizzle-kit drop --config drizzle/config.ts",
     "translate": "node scripts/translate.js",
     "check-json": "node scripts/check-json-key-consistency.js"
   },
