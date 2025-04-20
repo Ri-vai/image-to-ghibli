@@ -1,5 +1,4 @@
 import Stripe from "stripe";
-import { handleOrderSession } from "@/services/order";
 import { respOk } from "@/lib/resp";
 
 export async function POST(req: Request) {
@@ -30,8 +29,6 @@ export async function POST(req: Request) {
     switch (event.type) {
       case "checkout.session.completed": {
         const session = event.data.object;
-
-        await handleOrderSession(session);
         break;
       }
 

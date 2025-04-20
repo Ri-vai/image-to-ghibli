@@ -9,7 +9,7 @@ import {
 
 export type SubscriptionCycle = "monthly" | "yearly";
 export type ChargeType = "subscription" | "renewal" | "one-time" | "upgrade";
-export type PaymentStatus = "paid" | "refunded";
+export type OrderStatus = "paid" | "refunded";
 export type SubscriptionStatus = "active" | "cancelled" | "cancelling";
 export type PaymentChannel = "Stripe" | "Paypro" | "Creem" | "LemonSqueezy";
 
@@ -91,7 +91,7 @@ export const orders = sqliteTable(
       .$type<PaymentChannel>()
       .notNull(),
     status: text({ enum: ["paid", "refunded"] })
-      .$type<PaymentStatus>()
+      .$type<OrderStatus>()
       .notNull(),
     last_refund_at: text(),
     total_refund_amount: real(),
