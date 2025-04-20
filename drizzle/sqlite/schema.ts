@@ -75,6 +75,7 @@ export const orders = sqliteTable(
     order_no: text().unique().notNull(),
     user_uuid: text().notNull(),
     user_email: text().notNull(),
+    paid_email: text(),
     customer_id: text(),
     amount: real(),
     net_amount: real(),
