@@ -37,7 +37,7 @@ export const users = sqliteTable(
   ]
 );
 
-export const subscription = sqliteTable(
+export const subscriptions = sqliteTable(
   "subscriptions",
   {
     id: integer().primaryKey({ autoIncrement: true }),

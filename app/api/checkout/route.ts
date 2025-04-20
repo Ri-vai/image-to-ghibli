@@ -84,22 +84,22 @@ export async function POST(req: Request) {
 
     expired_at = newDate.toISOString();
 
-    const order: Order = {
-      order_no: order_no,
-      created_at: created_at,
-      user_uuid: user_uuid,
-      user_email: user_email,
-      amount: amount,
-      interval: interval,
-      expired_at: expired_at,
-      status: "created",
-      credits: credits,
-      currency: currency,
-      product_id: product_id,
-      product_name: product_name,
-      valid_months: valid_months,
-    };
-    await insertOrder(order);
+    // const order: Order = {
+    //   order_no: order_no,
+    //   created_at: created_at,
+    //   user_uuid: user_uuid,
+    //   user_email: user_email,
+    //   amount: amount,
+    //   interval: interval,
+    //   expired_at: expired_at,
+    //   status: "created",
+    //   credits: credits,
+    //   currency: currency,
+    //   product_id: product_id,
+    //   product_name: product_name,
+    //   valid_months: valid_months,
+    // };
+    // await insertOrder(order);
 
     const stripe = new Stripe(process.env.STRIPE_PRIVATE_KEY || "");
 
@@ -161,10 +161,10 @@ export async function POST(req: Request) {
     const session = await stripe.checkout.sessions.create(options);
 
     const stripe_session_id = session.id;
-    await updateOrder(order_no, {
-      stripe_session_id,
-      order_detail,
-    });
+    // await updateOrder(order_no, {
+    //   stripe_session_id,
+    //   order_detail,
+    // });
 
     return respData({
       public_key: process.env.STRIPE_PUBLIC_KEY,
