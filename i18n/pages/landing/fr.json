@@ -276,6 +276,10 @@
         "unit": "mois",
         "is_featured": false,
         "tip": "Parfait pour commencer !",
+        "product_id": "price_month_999",
+        "product_name": "Basique",
+        "credits": 20,
+        "valid_months": 1,
         "button": {
           "title": "Commencer",
           "url": "/#signup",
@@ -301,6 +305,10 @@
         "unit": "mois",
         "is_featured": true,
         "tip": "Choix le plus populaire !",
+        "product_id": "price_month_2499",
+        "product_name": "Pro",
+        "credits": 50,
+        "valid_months": 1,
         "button": {
           "title": "Obtenir Pro",
           "url": "/#signup",
@@ -325,6 +333,10 @@
         "unit": "mois",
         "is_featured": false,
         "tip": "Idéal pour les entreprises !",
+        "product_id": "price_month_9999",
+        "product_name": "Entreprise",
+        "credits": 100,
+        "valid_months": 1,
         "button": {
           "title": "Contacter les ventes",
           "url": "/#contact",

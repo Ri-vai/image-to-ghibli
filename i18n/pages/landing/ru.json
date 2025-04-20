@@ -276,6 +276,10 @@
         "unit": "месяц",
         "is_featured": false,
         "tip": "Отлично подходит для начала!",
+        "product_id": "price_month_999",
+        "product_name": "Basic",
+        "credits": 20,
+        "valid_months": 1,
         "button": {
           "title": "Начать",
           "url": "/#signup",
@@ -301,6 +305,10 @@
         "unit": "месяц",
         "is_featured": true,
         "tip": "Самый популярный выбор!",
+        "product_id": "price_month_2499",
+        "product_name": "Профессиональный",
+        "credits": 50,
+        "valid_months": 1,
         "button": {
           "title": "Получить Pro",
           "url": "/#signup",
@@ -325,6 +333,10 @@
         "unit": "месяц",
         "is_featured": false,
         "tip": "Лучший выбор для бизнеса!",
+        "product_id": "price_month_9999",
+        "product_name": "Предприятие",
+        "credits": 100,
+        "valid_months": 1,
         "button": {
           "title": "Связаться с отделом продаж",
           "url": "/#contact",

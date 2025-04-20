@@ -276,6 +276,10 @@
         "unit": "tháng",
         "is_featured": false,
         "tip": "Tuyệt vời để bắt đầu!",
+        "product_id": "price_month_999",
+        "product_name": "Cơ bản",
+        "credits": 20,
+        "valid_months": 1,
         "button": {
           "title": "Bắt Đầu",
           "url": "/#signup",
@@ -301,6 +305,10 @@
         "unit": "tháng",
         "is_featured": true,
         "tip": "Lựa chọn phổ biến nhất!",
+        "product_id": "price_month_2499",
+        "product_name": "Chuyên nghiệp",
+        "credits": 50,
+        "valid_months": 1,
         "button": {
           "title": "Nâng cấp Pro",
           "url": "/#signup",
@@ -325,6 +333,10 @@
         "unit": "tháng",
         "is_featured": false,
         "tip": "Tốt nhất cho doanh nghiệp!",
+        "product_id": "price_month_9999",
+        "product_name": "Doanh nghiệp",
+        "credits": 100,
+        "valid_months": 1,
         "button": {
           "title": "Liên hệ Bộ phận Bán hàng",
           "url": "/#contact",

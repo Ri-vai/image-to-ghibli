@@ -26,7 +26,10 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
 
   const handleCheckout = async (item: PricingItem, cn_pay: boolean = false) => {
     try {
+      console.log("🚀 开始支付流程", { item, cn_pay });
+      
       if (!user) {
+        console.log("⚠️ 用户未登录，显示登录窗口");
         setShowSignModal(true);
         return;
       }
@@ -40,10 +43,13 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
         currency: cn_pay ? "cny" : item.currency,
         valid_months: item.valid_months,
       };
+      
+      console.log("📝 支付参数:", params);
 
       setIsLoading(true);
       setProductId(item.product_id);
-
+      
+      console.log("🔄 发送支付请求...");
       const response = await fetch("/api/checkout", {
         method: "POST",
         headers: {
@@ -51,8 +57,11 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
         },
         body: JSON.stringify(params),
       });
+      
+      console.log("📥 收到支付响应状态:", response.status);
 
       if (response.status === 401) {
+        console.log("🔒 认证失败 (401)，显示登录窗口");
         setIsLoading(false);
         setProductId(null);
 
@@ -61,31 +70,40 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
       }
 
       const { code, message, data } = await response.json();
+      console.log("📄 支付响应数据:", { code, message, data });
+      
       if (code !== 0) {
+        console.error("❌ 支付请求失败:", message);
         toast.error(message);
         return;
       }
 
       const { public_key, session_id } = data;
+      console.log("🔑 获取Stripe公钥:", public_key);
+      console.log("📋 获取会话ID:", session_id);
 
+      console.log("🔄 加载Stripe...");
       const stripe = await loadStripe(public_key);
       if (!stripe) {
+        console.error("❌ Stripe加载失败");
         toast.error("checkout failed");
         return;
       }
 
+      console.log("🔄 重定向到Stripe结账页面...");
       const result = await stripe.redirectToCheckout({
         sessionId: session_id,
       });
 
       if (result.error) {
+        console.error("❌ Stripe重定向失败:", result.error.message);
         toast.error(result.error.message);
       }
     } catch (e) {
-      console.log("checkout failed: ", e);
-
+      console.error("❌ 支付过程发生异常:", e);
       toast.error("checkout failed");
     } finally {
+      console.log("🏁 支付流程结束");
       setIsLoading(false);
       setProductId(null);
     }
