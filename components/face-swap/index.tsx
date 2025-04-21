@@ -21,14 +21,27 @@ import {
   ReactCompareSliderHandle,
 } from "react-compare-slider";
 import { TurnstileDialog } from "@/components/ui/turnstile-dialog";
+import { useSearchParams, usePathname, useRouter } from "next/navigation";
 
 type FaceSwapProps = {
   locale: string;
   faceSwap?: any; // 这里可以定义更具体的类型
+  defaultTab?: string; // 添加默认tab属性
 };
 
-export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
-  const [activeTab, setActiveTab] = useState("photo");
+export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: FaceSwapProps) {
+  const pathname = usePathname();
+  const router = useRouter();
+  
+  // 根据当前路径判断应该激活哪个tab
+  const determineActiveTab = () => {
+    if (pathname.includes('/gif-face-swap')) {
+      return "gif";
+    }
+    return defaultTab;
+  };
+  
+  const [activeTab, setActiveTab] = useState(determineActiveTab());
   const [bodyImage, setBodyImage] = useState<string | null>(null); // 第一张上传的照片 (target_image)
   const [faceImage, setFaceImage] = useState<string | null>(null); // 第二张上传的照片 (source_image)
   const [resultImage, setResultImage] = useState<string | null>(null);
@@ -63,6 +76,29 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
     
     fetchUserCredits();
   }, []);
+
+  // 同步组件状态和路由
+  useEffect(() => {
+    setActiveTab(determineActiveTab());
+  }, [pathname]);
+
+  // 处理选项卡切换
+  const handleTabChange = (value: string) => {
+    setActiveTab(value);
+    
+    // 根据选择的选项卡更新路由，但不重新加载页面
+    if (value === "gif") {
+      const baseUrl = pathname.includes('/[locale]') 
+        ? `/${locale}/gif-face-swap` 
+        : `/${locale === 'en' ? '' : locale + '/'}gif-face-swap`;
+      router.push(baseUrl, { scroll: false });
+    } else {
+      const baseUrl = pathname.includes('/[locale]') 
+        ? `/${locale}` 
+        : `/${locale === 'en' ? '' : locale + '/'}`;
+      router.push(baseUrl, { scroll: false });
+    }
+  };
 
   const handleBodyImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
@@ -371,9 +407,10 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
       />
       <div className="container mx-auto px-4">
         <Tabs
-          defaultValue="photo"
+          defaultValue={activeTab}
+          value={activeTab}
           className="w-full"
-          onValueChange={setActiveTab}
+          onValueChange={handleTabChange}
         >
           <div className="flex justify-center mb-8">
             <TabsList className="bg-muted/50 border border-primary/20">
@@ -509,7 +546,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                         />
                       </label>
                       <p className="mt-2 text-xs text-muted-foreground">
-                        PNG/JPG/JPEG/WEBP/GIF
+                        PNG/JPG/JPEG/WEBP
                       </p>
                     </div>
                   </div>
@@ -766,7 +803,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                         1
                       </div>
                       <p className="text-xl font-medium text-foreground">
-                        {faceSwap?.uploadGif || "上传GIF动图"}
+                        {faceSwap?.uploadGif || "Upload GIF"}
                       </p>
                     </div>
 
@@ -790,7 +827,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                           <div className="flex flex-col items-center justify-center">
                             <Upload className="w-6 h-6 text-muted-foreground" />
                             <p className="mt-2 text-sm text-muted-foreground">
-                              {faceSwap?.uploadGif || "上传GIF动图"}
+                              {faceSwap?.uploadGif || "Upload GIF"}
                             </p>
                           </div>
                         )}
@@ -803,7 +840,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                         />
                       </label>
                       <p className="mt-2 text-xs text-muted-foreground">
-                        GIF格式
+                        {faceSwap?.gifFormat || "GIF"}
                       </p>
                     </div>
                   </div>
@@ -815,7 +852,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                         2
                       </div>
                       <p className="text-xl font-medium text-foreground">
-                        {faceSwap?.uploadFaceImage || "上传人脸照片"}
+                        {faceSwap?.uploadFacePhoto || "Upload Face Photo"}
                       </p>
                     </div>
 
@@ -842,7 +879,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                           <div className="flex flex-col items-center justify-center">
                             <Upload className="w-6 h-6 text-muted-foreground" />
                             <p className="mt-2 text-sm text-muted-foreground">
-                              {faceSwap?.uploadImage || "上传照片"}
+                              {faceSwap?.uploadImage || "Upload Image"}
                             </p>
                           </div>
                         )}
@@ -867,7 +904,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                         3
                       </div>
                       <p className="text-xl font-medium text-foreground">
-                        {faceSwap?.startGifFaceSwap || "开始GIF换脸"}
+                        {faceSwap?.startGifFaceSwap || "Start GIF Face Swap"}
                       </p>
                     </div>
 
@@ -876,36 +913,10 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                       disabled={!faceImage || !targetGif || isLoadingGif}
                       className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-6"
                     >
-                      {isLoadingGif ? (
-                        <div className="absolute inset-0 flex flex-col items-center justify-center">
-                          <div className="text-muted-foreground text-center">
-                            {/* 加载动画 */}
-                            <div className="relative h-20 w-20 mx-auto mb-4">
-                              <div className="absolute inset-0 rounded-full border-4 border-primary/20 border-t-primary animate-spin"></div>
-                              <div className="absolute inset-0 flex items-center justify-center">
-                                <span className="text-primary text-xl">✨</span>
-                              </div>
-                            </div>
-
-                            <p className="font-medium text-foreground mb-1">
-                              {faceSwap?.gifSwapInProgress || "GIF换脸处理中..."}
-                            </p>
-
-                            <p className="text-sm text-muted-foreground">
-                              {faceSwap?.gifCompleteSoon || "需要较长时间，请耐心等待"}
-                            </p>
-
-                            <div className="mt-3 text-xs text-muted-foreground animate-pulse">
-                              {faceSwap?.magicHappening || "魔法正在发生..."}
-                            </div>
-                          </div>
-                        </div>
-                      ) : (
                         <>
-                          {faceSwap?.swapGifFace || "GIF换脸"}{" "}
+                          {faceSwap?.swapGifFace || "Swap GIF Face"}{" "}
                           <ArrowRight className="ml-2 h-4 w-4" />
                         </>
-                      )}
                     </Button>
                   </div>
                 </div>
@@ -915,14 +926,25 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                   {/* 当没有上传内容时显示示例 */}
                   {!faceImage && !targetGif ? (
                     <div className="relative aspect-[16/9] md:aspect-[16/10] bg-muted rounded-lg overflow-hidden w-full shadow-md group">
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="text-center p-6">
-                          <FileType className="w-16 h-16 mx-auto text-muted-foreground mb-4" />
-                          <p className="text-muted-foreground">
-                            {faceSwap?.gifExampleText || "上传GIF和照片进行换脸"}
-                          </p>
-                        </div>
+                      <div className="absolute top-2 left-2 bg-background/70 text-foreground text-xs px-2 py-1 rounded">
+                        {faceSwap?.before || "Before"}
                       </div>
+                      <div className="absolute top-2 right-2 bg-background/70 text-foreground text-xs px-2 py-1 rounded">
+                        {faceSwap?.after || "After"}
+                      </div>
+                      <video
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="h-full w-full object-cover transition-transform duration-500 will-change-transform group-hover:scale-105"
+                      >
+                        <source
+                          src="/hero-video.mp4"
+                          type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                      </video>
                     </div>
                   ) : (
                     // 显示预览和结果
@@ -932,7 +954,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                         <div className="bg-muted rounded-lg overflow-hidden shadow-md">
                           <div className="flex justify-between items-center p-2 bg-background/50 border-b border-border">
                             <div className="text-sm font-medium">
-                              {resultGif ? "换脸结果" : "GIF预览"}
+                              {resultGif ? faceSwap?.swapResult || "Swap Result" : faceSwap?.gifPreview || "GIF Preview"}
                             </div>
                             {resultGif && (
                               <Button
@@ -941,12 +963,12 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                                 className="bg-primary hover:bg-primary/90 text-primary-foreground"
                               >
                                 <Download className="mr-2 h-4 w-4" />{" "}
-                                {faceSwap?.download || "下载"}
+                                {faceSwap?.download || "Download"}
                               </Button>
                             )}
                           </div>
                           
-                          <div className="relative aspect-video bg-background/30 p-4 flex items-center justify-center">
+                          <div className="relative aspect-[16/9] bg-background/30 p-4 flex items-center justify-center">
                             {resultGif ? (
                               // 显示结果GIF
                               <div className="max-h-96 overflow-hidden">
@@ -967,7 +989,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                               </div>
                             ) : (
                               <div className="text-muted-foreground">
-                                {faceSwap?.pleaseUploadGif || "请上传GIF动图"}
+                                {faceSwap?.pleaseUploadGif || "Please upload a GIF"}
                               </div>
                             )}
                             
@@ -982,15 +1004,15 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                                   </div>
                                   
                                   <p className="font-medium text-foreground mb-1">
-                                    {faceSwap?.gifSwapInProgress || "GIF换脸处理中..."}
+                                    {faceSwap?.gifSwapInProgress || "GIF face swap in progress..."}
                                   </p>
                                   
                                   <p className="text-sm text-muted-foreground">
-                                    {faceSwap?.gifCompleteSoon || "需要较长时间，请耐心等待"}
+                                    {faceSwap?.gifCompleteSoon || "This may take a while, please be patient"}
                                   </p>
                                   
                                   <div className="mt-3 text-xs text-muted-foreground animate-pulse">
-                                    {faceSwap?.magicHappening || "魔法正在发生..."}
+                                    {faceSwap?.magicHappening || "Magic happening..."}
                                   </div>
                                 </div>
                               </div>
@@ -1031,7 +1053,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
             </svg>
-            {faceSwap?.watermarkNotice || "积分不足，图片上已添加水印"}
+            {faceSwap?.watermarkNotice || "Insufficient credits, watermark added"}
           </p>
         </div>
       )}
