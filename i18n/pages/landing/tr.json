@@ -480,6 +480,7 @@
     "photoFaceSwap": "Fotoğraf Yüz Değiştirme",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "Çoklu Yüz Değiştirme",
+    "gifFaceSwap": "GIF Yüz Takası",
     "uploadOriginalImage": "Orijinal Görüntüyü Yükle",
     "uploadFaceImage": "Yüz Görüntüsünü Yükle",
     "startFaceSwap": "Yüz Değişimini Başlat",
@@ -497,6 +498,78 @@
     "zoomIn": "Yakınlaştır",
     "swapInProgress": "Yüz değişimi devam ediyor...",
     "completeSoon": "Birkaç saniye içinde tamamlanacak",
-    "magicHappening": "Sihir gerçekleşiyor..."
+    "magicHappening": "Sihir gerçekleşiyor...",
+    "uploadGif": "GIF Yükle",
+    "uploadFacePhoto": "Yüz Fotoğrafı Yükle",
+    "startGifFaceSwap": "GIF Yüz Takası Başlat",
+    "swapGifFace": "GIF Yüz Değiştir",
+    "preview": "Önizleme",
+    "gifPreview": "GIF Önizleme",
+    "swapResult": "Değiştirme Sonucu",
+    "pleaseUploadGif": "Lütfen bir GIF yükleyin",
+    "gifSwapInProgress": "GIF yüz değişimi devam ediyor...",
+    "gifCompleteSoon": "Bu biraz zaman alabilir, lütfen sabırlı olun",
+    "watermarkNotice": "Yetersiz kredi, filigran eklenmiştir",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "GIF Yüz Değiştirme - Yüz Değiştirme Teknolojisiyle Komik GIF'ler Oluşturun",
+      "description": "GIF'lerde yüz değiştirme yapın gelişmiş yapay zeka teknolojimizle. Saniyeler içinde komik, paylaşılabilir GIF'ler oluşturun. Kayıt olmaya gerek yok, ücretsiz ve sınırsız değiştirme!",
+      "heading": "Komik GIF Yüz Değiştirme Oluşturun",
+      "subheading": "GIF'lerinizi yükleyin ve sadece birkaç tıklama ile eğlenceli, paylaşılabilir resimler oluşturun!",
+      "features": {
+        "title": "GIF Yüz Değiştirme Özellikleri",
+        "items": [
+          {
+            "title": "Anında Yüz Değiştirme",
+            "description": "Araçlarımız hızlı ve etkili gerçek zamanlı yüz değiştirme sunar. Sadece GIF'inizi yükleyin ve yapay zekamız hemen yüzleri tanır ve değiştirerek sonuçları hızla görmenizi sağlar."
+          },
+          {
+            "title": "Gelişmiş Sosyal İnteraksiyon",
+            "description": "Arkadaşlarınızla eğlenceli GIF'ler paylaşarak sosyal etkileşimi artırın ve mizah katın. İçeriğinizi daha etkileyici hale getirmek için çeşitli sosyal medya platformları için mükemmel."
+          },
+          {
+            "title": "Birden Fazla Format Desteği",
+            "description": "GIF formatının yanı sıra, aracımız çeşitli resim giriş formatlarını destekler, böylece farklı kaynaklardan dosya yükleme konusunda esnek bir kullanıcı deneyimi sağlar."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "GIF'te Yüz Değiştirmek İçin Nasıl Yapılır",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Bir yüz içeren bir GIF yükleyin",
+            "description": "Değiştirmek istediğiniz yüzün bir GIF'ini yükleyin. En iyi sonuçlar için net yüz detaylarına sahip olduğundan emin olun."
+          },
+          {
+            "number": "2",
+            "title": "Hedef yüz resmini yükleyin",
+            "description": "Değiştirme için kullanmak istediğiniz yüzün bir fotoğrafını yükleyin. Yüz netliği gereklidir."
+          },
+          {
+            "number": "3",
+            "title": "Oluşması için bekleyin",
+            "description": "\"GIF Yüz Değiştirme\" düğmesine tıklayın ve yapay zekamızın yüzleri değiştirerek yeni GIF'inizi oluşturmasını bekleyin."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Çoklu Kullanım Senaryoları",
+        "items": [
+          {
+            "title": "Sosyal Medya Paylaşımı",
+            "description": "Instagram, Facebook ve Twitter gibi büyük sosyal medya platformlarında eğlenceli GIF'lerinizi paylaşarak etkileşimi artırabilir ve dikkat çekebilirsiniz."
+          },
+          {
+            "title": "Komedi İçerik Oluşturma",
+            "description": "İçerik oluşturucular, GIF Yüz Değiştirme özelliğini kullanarak komik videolar ve klipler üretebilir, içeriklerini zenginleştirir ve daha fazla izleyici çekerler."
+          },
+          {
+            "title": "Etkinlik ve Parti Davetiyeleri",
+            "description": "Daha ilgi çekici ve çekici hale getirmek için partiler veya etkinlikler için kişiselleştirilmiş davetiye GIF'leri oluşturarak katılımı artırın."
+          }
+        ]
+      }
+    }
   }
 }

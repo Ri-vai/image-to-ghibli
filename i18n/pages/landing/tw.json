@@ -480,6 +480,7 @@
     "photoFaceSwap": "照片換臉",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "多人換臉",
+    "gifFaceSwap": "GIF臉部交換",
     "uploadOriginalImage": "上傳原始圖片",
     "uploadFaceImage": "上傳臉部圖片",
     "startFaceSwap": "開始換臉",
@@ -497,6 +498,78 @@
     "zoomIn": "放大",
     "swapInProgress": "換臉進行中...",
     "completeSoon": "幾秒鐘後完成",
-    "magicHappening": "魔法進行中..."
+    "magicHappening": "魔法進行中...",
+    "uploadGif": "上傳GIF",
+    "uploadFacePhoto": "上傳臉部照片",
+    "startGifFaceSwap": "開始GIF臉部交換",
+    "swapGifFace": "交換GIF臉部",
+    "preview": "預覽",
+    "gifPreview": "GIF預覽",
+    "swapResult": "交換結果",
+    "pleaseUploadGif": "請上傳GIF",
+    "gifSwapInProgress": "GIF臉部交換進行中...",
+    "gifCompleteSoon": "這可能需要一些時間，請耐心等待",
+    "watermarkNotice": "積分不足，已添加水印",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "GIF面部交換–使用人工智能技術創建有趣的GIF面部交換",
+      "description": "使用我們先進的人工智能技術在GIF上進行臉部交換。在幾秒鐘內創建有趣且可共享的GIF。無需註冊，免費使用，無限次數交換！",
+      "heading": "創建有趣的GIF面部交換",
+      "subheading": "上傳您的GIF，只需幾個點擊即可創建有趣且可共享的圖像！",
+      "features": {
+        "title": "GIF面部交換的功能",
+        "items": [
+          {
+            "title": "即時面部交換",
+            "description": "我們的工具提供快速高效的實時面部交換。只需上傳您的GIF，我們的人工智能可以立即識別並替換面部，確保您可以立即查看結果。"
+          },
+          {
+            "title": "增強社交互動",
+            "description": "與朋友分享有趣的GIF，促進社交互動並增添幽默感。非常適合在各種社交媒體平台上，使您的內容更加引人入勝。"
+          },
+          {
+            "title": "支援多種格式",
+            "description": "除了GIF格式外，我們的工具還支持各種圖像輸入格式，輕鬆上傳不同來源的文件，提供靈活的用戶體驗。"
+          }
+        ]
+      },
+      "howTo": {
+        "title": "如何在GIF中交換面部",
+        "steps": [
+          {
+            "number": "1",
+            "title": "上傳一個有臉部的 GIF",
+            "description": "上傳一個您想要替換的臉部 GIF。為了獲得最佳效果，請確保清晰的臉部細節。"
+          },
+          {
+            "number": "2",
+            "title": "上傳目標臉部圖像",
+            "description": "上傳一張您想要作為替換的臉部照片。需要清晰的臉部細節。"
+          },
+          {
+            "number": "3",
+            "title": "等待生成",
+            "description": "點擊\"交換 GIF 臉部\"按鈕，等待我們的 AI 生成您新的已交換臉部的 GIF。"
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "多種使用場景",
+        "items": [
+          {
+            "title": "社交媒體分享",
+            "description": "在Instagram、Facebook、Twitter等主要社交媒體平台上分享您的有趣 GIF，增強互動並吸引注意力。"
+          },
+          {
+            "title": "喜劇內容創作",
+            "description": "內容創作者可以使用 GIF 臉部交換功能製作有趣的視頻和剪輯，豐富內容並吸引更多觀眾。"
+          },
+          {
+            "title": "活動和派對邀請",
+            "description": "創建個性化的邀請函GIF動畫，使派對或活動更具吸引力和參與度，增加出席的興趣。"
+          }
+        ]
+      }
+    }
   }
 }
