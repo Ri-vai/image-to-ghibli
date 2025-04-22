@@ -1,79 +1,74 @@
 import { NextRequest, NextResponse } from "next/server";
-import { newStorage } from "@/lib/storage";
+import Replicate from "replicate";
 
-export async function GET(req: NextRequest) {
-  const predictionId = req.nextUrl.searchParams.get("id");
-  const needsWatermark = req.nextUrl.searchParams.get("watermark") === "true";
-  
-  if (!predictionId) {
-    return NextResponse.json(
-      { error: "Prediction ID is required" },
-      { status: 400 }
-    );
-  }
-  
-  if (!process.env.REPLICATE_API_TOKEN) {
-    return NextResponse.json(
-      { error: "REPLICATE_API_TOKEN is not configured" },
-      { status: 500 }
-    );
-  }
-  
+export async function GET(request: NextRequest) {
   try {
-    const response = await fetch(`https://api.replicate.com/v1/predictions/${predictionId}`, {
-      headers: {
-        Authorization: `Token ${process.env.REPLICATE_API_TOKEN}`,
-        "Content-Type": "application/json",
-      },
-    });
-    
-    if (!response.ok) {
-      throw new Error(`Failed to get prediction status: ${response.status} ${response.statusText}`);
+    // 获取预测ID
+    const url = new URL(request.url);
+    const predictionId = url.searchParams.get("id");
+
+    if (!predictionId) {
+      return NextResponse.json(
+        { error: "Missing prediction ID" },
+        { status: 400 }
+      );
     }
-    
-    const result = await response.json();
-    
-    if (result.status === "succeeded") {
-      // GIF模型的输出是一个URL，不需要像图片那样处理
-      // 目前我们保留水印参数但GIF不添加水印，可以根据需要后续实现
-      // 注意：zetyquickly-org/faceswap-a-gif模型输出格式是 { output: "url_to_gif" }
+
+    // 初始化Replicate客户端
+    if (!process.env.REPLICATE_API_TOKEN) {
+      return NextResponse.json(
+        { error: "REPLICATE_API_TOKEN is not configured" },
+        { status: 500 }
+      );
+    }
+
+    const replicate = new Replicate({
+      auth: process.env.REPLICATE_API_TOKEN,
+    });
+
+    // 获取预测状态
+    const prediction = await replicate.predictions.get(predictionId);
+
+    // 如果预测完成并有输出
+    if (prediction.status === "succeeded" && prediction.output) {
+      console.log("✅ GIF face swap succeeded, output:", prediction.output);
       
-      if (result.output) {
-        // 检查输出格式并适配
-        const outputUrl = typeof result.output === 'string' ? result.output : result.output.output || result.output.gif;
-        
-        return NextResponse.json({ 
-          success: true, 
-          status: result.status,
-          output: { 
-            gif: outputUrl,
-            hasWatermark: false 
-          } 
-        });
-      }
-      
-      return NextResponse.json({ 
-        success: true, 
-        status: result.status,
-        output: result.output 
+      // 这里我们直接返回Replicate提供的GIF URL
+      return NextResponse.json({
+        success: true,
+        status: prediction.status,
+        output: {
+          gif: prediction.output
+        },
       });
-    } else if (result.status === "failed") {
-      return NextResponse.json({ 
-        success: false, 
-        status: result.status,
-        error: result.error || "GIF face swap processing failed" 
-      });
-    } else {
-      return NextResponse.json({ 
-        success: false, 
-        status: result.status,
-        message: "GIF face swap is still processing" 
+    } 
+    // 如果预测失败
+    else if (prediction.status === "failed") {
+      console.error("❌ GIF face swap failed:", prediction.error);
+      return NextResponse.json(
+        {
+          success: false,
+          status: prediction.status,
+          error: prediction.error || "GIF face swap failed",
+        },
+        { status: 500 }
+      );
+    } 
+    // 如果预测仍在进行中
+    else {
+      console.log("🔄 GIF face swap in progress:", prediction.status);
+      return NextResponse.json({
+        success: false,
+        status: prediction.status,
       });
     }
   } catch (error) {
-    console.error("Error checking prediction status:", error);
+    console.error("❌ Error checking GIF face swap status:", error);
     return NextResponse.json(
-      { error: "Failed to check prediction status" },
+      {
+        error: "Failed to check GIF face swap status",
+        details: error instanceof Error ? error.message : String(error),
+      },
       { status: 500 }
     );
   }

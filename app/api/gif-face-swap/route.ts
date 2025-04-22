@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import Replicate from "replicate";
 import { newStorage } from "@/lib/storage";
+import { auth } from "@/auth";
 
 // 记录API调用到Cloudflare KV
 async function recordApiUsage() {
@@ -69,36 +70,21 @@ async function recordApiUsage() {
   }
 }
 
-async function verifyTurnstileToken(token: string) {
-  // 如果是开发环境，直接返回成功
-  if (process.env.NODE_ENV === "development") {
-    console.log("🔄 开发环境中跳过Turnstile验证");
-    return true;
-  }
-
-  const response = await fetch(
-    "https://challenges.cloudflare.com/turnstile/v0/siteverify",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        secret: process.env.CLOUDFLARE_TURNSTILE_SECRET_KEY,
-        response: token,
-      }),
-    }
-  );
-
-  const data = await response.json();
-  return data.success;
-}
-
 export async function POST(req: NextRequest) {
   console.log("🔄 GIF face swap API request received");
 
   try {
-    const { sourceImage, targetGif, turnstileToken } = await req.json();
+    // 验证用户是否已登录
+    const session = await auth();
+    if (!session) {
+      console.error("❌ Unauthorized access attempt");
+      return NextResponse.json(
+        { error: "Unauthorized. Please login to use this feature." },
+        { status: 401 }
+      );
+    }
+
+    const { sourceImage, targetGif } = await req.json();
     console.log("📥 Received images data", {
       sourceImageLength: sourceImage?.length || 0,
       targetGifLength: targetGif?.length || 0,
@@ -112,22 +98,12 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    if (!turnstileToken) {
-      console.error("❌ Missing Turnstile token");
-      return NextResponse.json(
-        { error: "Turnstile verification is required" },
-        { status: 400 }
-      );
-    }
-
-    // 验证Turnstile token
-    const isValid = await verifyTurnstileToken(turnstileToken);
-    if (!isValid) {
-      console.error("❌ Invalid Turnstile token");
-      return NextResponse.json(
-        { error: "Invalid Turnstile verification" },
-        { status: 400 }
-      );
+    // 直接进行API调用记录
+    try {
+      await recordApiUsage();
+    } catch (error) {
+      // 记录错误但继续执行后续逻辑
+      console.error("📊 记录API调用次数失败，但将继续执行:", error);
     }
 
     if (!process.env.REPLICATE_API_TOKEN) {
@@ -154,14 +130,6 @@ export async function POST(req: NextRequest) {
         { error: "Target GIF must be in data URL format" },
         { status: 400 }
       );
-    }
-
-    // 在验证成功后记录API调用
-    try {
-      await recordApiUsage();
-    } catch (error) {
-      // 记录错误但继续执行后续逻辑
-      console.error("📊 记录API调用次数失败，但将继续执行:", error);
     }
 
     // 上传图片和GIF到存储桶

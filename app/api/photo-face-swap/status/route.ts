@@ -126,7 +126,7 @@ async function addWatermark(imageBuffer: Buffer): Promise<Buffer> {
             filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));
           }
         </style>
-        <text x="50%" y="70%" text-anchor="middle" class="watermark">${watermarkText}</text>
+        <text x="50%" y="80%" text-anchor="middle" class="watermark">${watermarkText}</text>
       </svg>`;
     
     // 合成水印和图片
