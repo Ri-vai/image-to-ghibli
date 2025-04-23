@@ -257,28 +257,55 @@
     "label": "定价",
     "title": "简单透明的定价",
     "description": "选择最适合您换脸需求的完美方案。",
+    "toggle": {
+      "monthly": "每月",
+      "annual": "年度",
+      "default_plan": "年度",
+      "discount_text": "年度购买，免费获得2个月"
+    },
+    "cancel_text": "随时取消。无隐藏费用",
     "items": [
       {
         "title": "基础版",
         "description": "适合个人使用",
         "features": [
-          "每月10次换脸",
-          "每张图片单次换脸",
-          "标准处理速度",
-          "基础支持",
-          "仅限网页访问",
-          "高清画质的结果"
+          {
+            "text": "带水印的无限换脸",
+            "included": true
+          },
+          {
+            "text": "标准处理速度",
+            "included": true
+          },
+          {
+            "text": "基础支持",
+            "included": true
+          },
+          {
+            "text": "无GIF或视频换脸",
+            "included": false
+          }
         ],
-        "interval": "月",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "¥0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "月",
         "is_featured": false,
         "tip": "非常适合入门！",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "免费",
+          "annual": "免费"
+        },
         "product_name": "基本版",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "开始使用",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "适合高级用户",
-        "label": "热门",
         "features": [
-          "每月50次换脸",
-          "支持多人换脸",
-          "优先处理",
-          "优先支持",
-          "API访问",
-          "4K质量的结果"
+          {
+            "text": "每月600个积分",
+            "included": true
+          },
+          {
+            "text": "600个无水印换脸",
+            "included": true
+          },
+          {
+            "text": "或者200个动态换脸GIF",
+            "included": true
+          },
+          {
+            "text": "优先处理",
+            "included": true
+          },
+          {
+            "text": "优先支持",
+            "included": true
+          }
         ],
-        "interval": "月",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "¥12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "¥10",
+            "savings_text": "每年节省¥24"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "月",
         "is_featured": true,
         "tip": "最受欢迎的选择！",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "每月价格1200",
+          "annual": "年度价格_10000"
+        },
         "product_name": "专业版",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "获取专业版",
@@ -319,23 +370,44 @@
         "title": "企业版",
         "description": "适合企业",
         "features": [
-          "无限换脸次数",
-          "支持多人换脸",
-          "超快处理速度",
-          "24/7优先支持",
-          "完整API访问权限",
-          "自定义集成支持"
+          {
+            "text": "无限去水印换脸",
+            "included": true
+          },
+          {
+            "text": "无限GIF换脸",
+            "included": true
+          },
+          {
+            "text": "超快速处理",
+            "included": true
+          },
+          {
+            "text": "24/7优先支持",
+            "included": true
+          }
         ],
-        "interval": "月",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "节省$48/年"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "月",
         "is_featured": false,
         "tip": "最适合企业！",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "月度价格_2400",
+          "annual": "年度价格_20000"
+        },
         "product_name": "企业版",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "联系销售",

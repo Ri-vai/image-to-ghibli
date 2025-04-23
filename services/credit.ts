@@ -12,12 +12,14 @@ export enum CreditsTransType {
   SystemAdd = "system_add", // system add credits
   Ping = "ping", // cost for ping api
   GifSwap = "gif_swap", // cost for gif face swap
+  PhotoFaceSwap = "photo_face_swap", // cost for photo face swap without watermark
 }
 
 export enum CreditsAmount {
   NewUserGet = 10,
   PingCost = 1,
   GifSwapCost = 3, // gif face swap costs 3 credits
+  PhotoFaceSwapCost = 1, // photo face swap costs 1 credit (no watermark)
 }
 
 export async function getUserCredits(user_uuid: string): Promise<UserCredits> {

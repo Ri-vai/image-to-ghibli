@@ -257,28 +257,55 @@
     "label": "Preise",
     "title": "Einfache, transparente Preisgestaltung",
     "description": "Wählen Sie den perfekten Plan für Ihre Face-Swapping-Bedürfnisse.",
+    "toggle": {
+      "monthly": "Monatlich",
+      "annual": "Jährlich",
+      "default_plan": "jährlich",
+      "discount_text": "2 MONATE GRATIS JÄHRLICH"
+    },
+    "cancel_text": "Jederzeit kündbar. Keine versteckten Gebühren",
     "items": [
       {
         "title": "Basis",
         "description": "Perfekt für die private Nutzung",
         "features": [
-          "10 Face-Swaps pro Monat",
-          "Einzelner Face-Swap pro Bild",
-          "Standardmäßige Verarbeitungsgeschwindigkeit",
-          "Basis-Support",
-          "Nur Webzugriff",
-          "Ergebnisse in HD-Qualität"
+          {
+            "text": "Unbegrenzte Gesichtstausch mit Wasserzeichen",
+            "included": true
+          },
+          {
+            "text": "Standard-Verarbeitungsgeschwindigkeit",
+            "included": true
+          },
+          {
+            "text": "Grundlegender Support",
+            "included": true
+          },
+          {
+            "text": "Kein GIF- oder Videogesichtstausch",
+            "included": false
+          }
         ],
-        "interval": "Monat",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "$0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "Monat",
         "is_featured": false,
         "tip": "Perfekt für den Einstieg!",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "kostenlos",
+          "annual": "kostenlos"
+        },
         "product_name": "Grundlage",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "Loslegen",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "Für Power-User",
-        "label": "Beliebt",
         "features": [
-          "50 Gesichtertausche pro Monat",
-          "Unterstützung für mehrere Gesichtertausche",
-          "Vorrangige Verarbeitung",
-          "Bevorzugter Support",
-          "API-Zugriff",
-          "Ergebnisse in 4K-Qualität"
+          {
+            "text": "600 Credits pro Monat",
+            "included": true
+          },
+          {
+            "text": "600 wasserzeichenfreie Gesichtstausche",
+            "included": true
+          },
+          {
+            "text": "oder 200 GIF-Gesichtstausche",
+            "included": true
+          },
+          {
+            "text": "Prioritätsverarbeitung",
+            "included": true
+          },
+          {
+            "text": "Prioritätssupport",
+            "included": true
+          }
         ],
-        "interval": "Monat",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "$12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "$10",
+            "savings_text": "Sparen Sie $24 pro Jahr"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "Monat",
         "is_featured": true,
         "tip": "Beliebteste Wahl!",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "Preis_Monat_1200",
+          "annual": "preis_jahr_10000"
+        },
         "product_name": "Profi",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "Pro erhalten",
@@ -319,23 +370,44 @@
         "title": "Enterprise",
         "description": "Für Unternehmen",
         "features": [
-          "Unbegrenzte Gesichtstausche",
-          "Unterstützung für mehrere Gesichtstausche",
-          "Ultraschnelle Verarbeitung",
-          "24/7 Prioritäts-Support",
-          "Voller API-Zugriff",
-          "Individuelle Integrationsunterstützung"
+          {
+            "text": "Unbegrenzte wasserzeichenfreie Gesichtsumtausch",
+            "included": true
+          },
+          {
+            "text": "Unbegrenzte GIF-Gesichtsumtausch",
+            "included": true
+          },
+          {
+            "text": "Ultra-schnelle Verarbeitung",
+            "included": true
+          },
+          {
+            "text": "24/7 Prioritätssupport",
+            "included": true
+          }
         ],
-        "interval": "Monat",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "Sparen Sie $48/jährlich"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "Monat",
         "is_featured": false,
         "tip": "Perfekt für Unternehmen!",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "preis_monat_2400",
+          "annual": "preis_jahr_20000"
+        },
         "product_name": "Unternehmen",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "Vertrieb kontaktieren",

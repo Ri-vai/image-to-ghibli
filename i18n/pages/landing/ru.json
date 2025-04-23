@@ -257,28 +257,55 @@
     "label": "Цены",
     "title": "Простые, прозрачные цены",
     "description": "Выберите идеальный план для ваших потребностей в замене лиц.",
+    "toggle": {
+      "monthly": "Ежемесячно",
+      "annual": "Ежегодно",
+      "default_plan": "Ежегодно",
+      "discount_text": "Получите 2 МЕСЯЦА БЕСПЛАТНО ЕЖЕГОДНО"
+    },
+    "cancel_text": "Отменить в любое время. Нет скрытых платежей",
     "items": [
       {
         "title": "Базовый",
         "description": "Идеально для личного использования",
         "features": [
-          "10 замен лиц в месяц",
-          "Одна замена лица на изображение",
-          "Стандартная скорость обработки",
-          "Базовая поддержка",
-          "Только веб-доступ",
-          "Результаты в HD качестве"
+          {
+            "text": "Неограниченные обмены лицами с водяным знаком",
+            "included": true
+          },
+          {
+            "text": "Стандартная скорость обработки",
+            "included": true
+          },
+          {
+            "text": "Базовая поддержка",
+            "included": true
+          },
+          {
+            "text": "Без GIF или видео обмена лицами",
+            "included": false
+          }
         ],
-        "interval": "месяц",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "$0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "месяц",
         "is_featured": false,
         "tip": "Отлично подходит для начала!",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "бесплатно",
+          "annual": "бесплатно"
+        },
         "product_name": "Basic",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "Начать",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "Для опытных пользователей",
-        "label": "Популярный",
         "features": [
-          "50 замен лиц в месяц",
-          "Поддержка замены нескольких лиц",
-          "Приоритетная обработка",
-          "Приоритетная поддержка",
-          "Доступ к API",
-          "Результаты в качестве 4K"
+          {
+            "text": "600 кредитов в месяц",
+            "included": true
+          },
+          {
+            "text": "600 безводяного обмена лицами",
+            "included": true
+          },
+          {
+            "text": "или 200 обменов лицами в формате GIF",
+            "included": true
+          },
+          {
+            "text": "Приоритетная обработка",
+            "included": true
+          },
+          {
+            "text": "Приоритетная поддержка",
+            "included": true
+          }
         ],
-        "interval": "месяц",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "$12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "$10",
+            "savings_text": "Сэкономьте $24 в год"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "месяц",
         "is_featured": true,
         "tip": "Самый популярный выбор!",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
+        },
         "product_name": "Профессиональный",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "Получить Pro",
@@ -319,23 +370,44 @@
         "title": "Enterprise",
         "description": "Для бизнеса",
         "features": [
-          "Безлимитная замена лиц",
-          "Поддержка замены нескольких лиц",
-          "Сверхбыстрая обработка",
-          "Приоритетная поддержка 24/7",
-          "Полный доступ к API",
-          "Поддержка пользовательской интеграции"
+          {
+            "text": "Неограниченное количество без водяных знаков",
+            "included": true
+          },
+          {
+            "text": "Неограниченное количество GIF с заменой лиц",
+            "included": true
+          },
+          {
+            "text": "Ультра-быстрая обработка",
+            "included": true
+          },
+          {
+            "text": "Приоритетная поддержка 24/7",
+            "included": true
+          }
         ],
-        "interval": "месяц",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "Сэкономьте $48 в год"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "месяц",
         "is_featured": false,
         "tip": "Лучший выбор для бизнеса!",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
+        },
         "product_name": "Предприятие",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "Связаться с отделом продаж",

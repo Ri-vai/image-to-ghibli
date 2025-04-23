@@ -2,11 +2,18 @@ import Stripe from "stripe";
 import { respOk } from "@/lib/resp";
 import { insertSubscription } from "@/models/sub";
 import { insertOrder } from "@/models/order";
+import { insertCredit } from "@/models/credit";
+import { getUniSeq } from "@/lib/hash";
+
+console.log("Stripe webhook route loaded");
+
 
 export async function POST(req: Request) {
+  console.log("接收到Stripe webhook请求");
   try {
     const stripePrivateKey = process.env.STRIPE_PRIVATE_KEY;
     const stripeWebhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
+
 
     if (!stripePrivateKey || !stripeWebhookSecret) {
       throw new Error("invalid stripe config");
@@ -32,7 +39,6 @@ export async function POST(req: Request) {
       case "checkout.session.completed": {
         const session = event.data.object as Stripe.Checkout.Session;
 
-        // Get subscription details
         if (session.subscription && session.customer) {
           const subscription = await stripe.subscriptions.retrieve(
             session.subscription as string
@@ -47,13 +53,11 @@ export async function POST(req: Request) {
             );
           }
 
-          // Extract billing cycle from subscription
           const cycle =
             subscription.items.data[0]?.plan.interval === "year"
               ? "yearly"
               : "monthly";
 
-          // Insert subscription record
           await insertSubscription({
             sub_id: subscription.id,
             user_uuid: session.client_reference_id || "",
@@ -70,7 +74,6 @@ export async function POST(req: Request) {
             ).toISOString(),
           });
 
-          // For subscription payments, we need to get the latest invoice
           const latestInvoice = await stripe.invoices.retrieve(
             subscription.latest_invoice as string
           );
@@ -94,10 +97,12 @@ export async function POST(req: Request) {
               )
             : 0;
 
-          // Insert order record
+          const order_no = charge?.payment_intent as string;
+          const user_uuid = session.client_reference_id || "";
+
           await insertOrder({
-            order_no: charge?.payment_intent as string,
-            user_uuid: session.client_reference_id || "",
+            order_no: order_no,
+            user_uuid: user_uuid,
             user_email: customer.email || "",
             paid_email: customer.email || "",
             customer_id: session.customer as string,
@@ -110,6 +115,22 @@ export async function POST(req: Request) {
             invoice: latestInvoice.invoice_pdf,
             paid_at: new Date().toISOString(),
           });
+          
+          const now = new Date();
+          const expiredAt = new Date(now);
+          expiredAt.setMonth(now.getMonth() + 1);
+          
+          await insertCredit({
+            trans_no: getUniSeq(),
+            created_at: now.toISOString(),
+            user_uuid: user_uuid,
+            trans_type: "subscription",
+            credits: 600,
+            order_no: order_no,
+            expired_at: expiredAt.toISOString()
+          });
+          
+          // console.log("成功添加积分记录，用户:", user_uuid, "积分:", 100);
         }
         break;
       }

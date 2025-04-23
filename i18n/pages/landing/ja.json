@@ -257,28 +257,55 @@
     "label": "料金プラン",
     "title": "シンプルで透明性のある料金設定",
     "description": "顔交換のニーズに合わせた最適なプランをお選びください。",
+    "toggle": {
+      "monthly": "月間",
+      "annual": "年間",
+      "default_plan": "annual",
+      "discount_text": "年間サービスで2ヶ月無料"
+    },
+    "cancel_text": "いつでもキャンセル可能。隠れた料金はありません",
     "items": [
       {
         "title": "ベーシック",
         "description": "個人利用に最適",
         "features": [
-          "月10回の顔交換",
-          "1画像につき1回の顔交換",
-          "標準処理速度",
-          "基本サポート",
-          "ウェブアクセスのみ",
-          "HD品質の結果"
+          {
+            "text": "ウォーターマーク付きの無制限のフェイススワップ",
+            "included": true
+          },
+          {
+            "text": "標準の処理速度",
+            "included": true
+          },
+          {
+            "text": "基本的なサポート",
+            "included": true
+          },
+          {
+            "text": "GIFや動画のフェイススワップは利用不可",
+            "included": false
+          }
         ],
-        "interval": "月",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "$0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "月",
         "is_featured": false,
         "tip": "始めるのに最適！",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "price_free",
+          "annual": "price_free"
+        },
         "product_name": "基本",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "始める",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "パワーユーザー向け",
-        "label": "人気",
         "features": [
-          "月50回の顔交換",
-          "複数の顔交換に対応",
-          "優先処理",
-          "優先サポート",
-          "APIアクセス",
-          "4K品質の結果"
+          {
+            "text": "1ヶ月あたり600クレジット",
+            "included": true
+          },
+          {
+            "text": "ウォーターマークのないフェイススワップ600回まで",
+            "included": true
+          },
+          {
+            "text": "またはGIFフェイススワップ200回まで",
+            "included": true
+          },
+          {
+            "text": "優先処理",
+            "included": true
+          },
+          {
+            "text": "優先サポート",
+            "included": true
+          }
         ],
-        "interval": "月",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "$12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "$10",
+            "savings_text": "$24/年を節約"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "月",
         "is_featured": true,
         "tip": "最も人気のある選択！",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
+        },
         "product_name": "プロ",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "Proを取得",
@@ -319,23 +370,44 @@
         "title": "Enterprise",
         "description": "ビジネス向け",
         "features": [
-          "無制限の顔交換",
-          "複数の顔交換サポート",
-          "超高速処理",
-          "24時間365日の優先サポート",
-          "完全なAPIアクセス",
-          "カスタム統合サポート"
+          {
+            "text": "無制限の透かしフリーの顔交換",
+            "included": true
+          },
+          {
+            "text": "無制限のGIF顔交換",
+            "included": true
+          },
+          {
+            "text": "超高速処理",
+            "included": true
+          },
+          {
+            "text": "24/7優先サポート",
+            "included": true
+          }
         ],
-        "interval": "月",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "年間$48節約"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "月",
         "is_featured": false,
         "tip": "ビジネスに最適！",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
+        },
         "product_name": "エンタープライズ",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "営業部へ問い合わせ",

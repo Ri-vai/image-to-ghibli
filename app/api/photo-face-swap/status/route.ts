@@ -4,7 +4,8 @@ import { newStorage } from "@/lib/storage";
 
 export async function GET(req: NextRequest) {
   const predictionId = req.nextUrl.searchParams.get("id");
-  const needsWatermark = req.nextUrl.searchParams.get("watermark") === "true";
+  // 从查询参数中获取是否需要水印，默认为true
+  const needsWatermark = req.nextUrl.searchParams.get("watermark") !== "false";
   
   if (!predictionId) {
     return NextResponse.json(
@@ -71,7 +72,8 @@ export async function GET(req: NextRequest) {
           return NextResponse.json({ 
             success: true, 
             status: result.status,
-            output: result.output 
+            output: result.output,
+            hasWatermark: false
           });
         }
       }
@@ -80,7 +82,8 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ 
         success: true, 
         status: result.status,
-        output: result.output 
+        output: result.output,
+        hasWatermark: false 
       });
     } else if (result.status === "failed") {
       return NextResponse.json({ 

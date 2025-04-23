@@ -257,28 +257,55 @@
     "label": "Preços",
     "title": "Preços Simples e Transparentes",
     "description": "Escolha o plano perfeito para suas necessidades de troca de rosto.",
+    "toggle": {
+      "monthly": "Mensal",
+      "annual": "Anual",
+      "default_plan": "anual",
+      "discount_text": "GANHE 2 MESES GRÁTIS ANUALMENTE"
+    },
+    "cancel_text": "Cancelar a qualquer momento. Sem taxas ocultas",
     "items": [
       {
         "title": "Básico",
         "description": "Perfeito para uso pessoal",
         "features": [
-          "10 trocas de rosto por mês",
-          "Troca de rosto única por imagem",
-          "Velocidade de processamento padrão",
-          "Suporte básico",
-          "Apenas acesso web",
-          "Resultados em qualidade HD"
+          {
+            "text": "Trocas de rosto ilimitadas com marca d'água",
+            "included": true
+          },
+          {
+            "text": "Velocidade de processamento padrão",
+            "included": true
+          },
+          {
+            "text": "Suporte básico",
+            "included": true
+          },
+          {
+            "text": "Sem troca de rosto em GIF ou vídeo",
+            "included": false
+          }
         ],
-        "interval": "mês",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "$0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "mês",
         "is_featured": false,
         "tip": "Ótimo para começar!",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "price_free",
+          "annual": "price_free"
+        },
         "product_name": "Básico",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "Começar",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "Para usuários avançados",
-        "label": "Popular",
         "features": [
-          "50 trocas de rosto por mês",
-          "Suporte para múltiplas trocas de rosto",
-          "Processamento prioritário",
-          "Suporte prioritário",
-          "Acesso à API",
-          "Resultados em qualidade 4K"
+          {
+            "text": "600 créditos por mês",
+            "included": true
+          },
+          {
+            "text": "600 trocas de rosto sem marca d'água",
+            "included": true
+          },
+          {
+            "text": "ou 200 trocas de rosto em GIF",
+            "included": true
+          },
+          {
+            "text": "Processamento prioritário",
+            "included": true
+          },
+          {
+            "text": "Suporte prioritário",
+            "included": true
+          }
         ],
-        "interval": "mês",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "$12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "$10",
+            "savings_text": "Economize $24/ano"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "mês",
         "is_featured": true,
         "tip": "A escolha mais popular!",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "price_month_1200",
+          "annual": "preço_ano_10000"
+        },
         "product_name": "Pro",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "Obter Pro",
@@ -319,23 +370,44 @@
         "title": "Enterprise",
         "description": "Para empresas",
         "features": [
-          "Trocas de rosto ilimitadas",
-          "Suporte para múltiplas trocas de rosto",
-          "Processamento ultra-rápido",
-          "Suporte prioritário 24/7",
-          "Acesso completo à API",
-          "Suporte à integração personalizada"
+          {
+            "text": "Trocas de rosto sem marca d'água ilimitadas",
+            "included": true
+          },
+          {
+            "text": "Trocas de rosto em GIF ilimitadas",
+            "included": true
+          },
+          {
+            "text": "Processamento ultra-rápido",
+            "included": true
+          },
+          {
+            "text": "Suporte prioritário 24/7",
+            "included": true
+          }
         ],
-        "interval": "mês",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "Economize $48/ano"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "mês",
         "is_featured": false,
         "tip": "Melhor para empresas!",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "preço_mês_2400",
+          "annual": "preço_ano_20000"
+        },
         "product_name": "Enterprise",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "Contate Vendas",
@@ -492,6 +564,7 @@
     "photoFaceSwap": "Troca de Rosto em Foto",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "Troca Múltipla de Rostos",
+    "gifFaceSwap": "Troca de Rosto em GIF",
     "uploadOriginalImage": "Carregar Imagem Original",
     "uploadFaceImage": "Carregar Imagem do Rosto",
     "startFaceSwap": "Iniciar Troca de Rosto",
@@ -509,6 +582,78 @@
     "zoomIn": "Ampliar",
     "swapInProgress": "Troca de rosto em andamento...",
     "completeSoon": "Será concluído em alguns segundos",
-    "magicHappening": "Mágica acontecendo..."
+    "magicHappening": "Mágica acontecendo...",
+    "uploadGif": "Carregar GIF",
+    "uploadFacePhoto": "Carregar Foto do Rosto",
+    "startGifFaceSwap": "Iniciar Troca de Rosto em GIF",
+    "swapGifFace": "Trocar Rosto em GIF",
+    "preview": "Pré-visualização",
+    "gifPreview": "Pré-visualização em GIF",
+    "swapResult": "Resultado da Troca",
+    "pleaseUploadGif": "Por favor, carregue um GIF",
+    "gifSwapInProgress": "Troca de rosto em GIF em andamento...",
+    "gifCompleteSoon": "Isso pode levar um tempo, por favor, tenha paciência",
+    "watermarkNotice": "Créditos insuficientes, marca d'água adicionada",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "Troca de Rosto em GIF - Crie Trocas de Rosto Divertidas em GIF com Tecnologia de IA",
+      "description": "Troque rostos em GIFs com nossa avançada tecnologia de IA. Crie GIFs engraçados e compartilháveis em segundos. Não é necessário registro, uso gratuito, trocas ilimitadas!",
+      "heading": "Crie Trocas de Rosto Divertidas em GIF",
+      "subheading": "Faça upload dos seus GIFs e crie imagens divertidas e compartilháveis em apenas alguns cliques!",
+      "features": {
+        "title": "Recursos de Troca de Rosto em GIF",
+        "items": [
+          {
+            "title": "Troca Instantânea de Rosto",
+            "description": "Nossa ferramenta oferece troca de rosto em tempo real rápida e eficiente. Basta fazer upload do seu GIF, e nossa IA pode reconhecer e substituir instantaneamente rostos, garantindo que você possa visualizar os resultados imediatamente."
+          },
+          {
+            "title": "Interação Social Aprimorada",
+            "description": "Compartilhe GIFs divertidos com amigos para promover a interação social e adicionar humor. Perfeito para várias plataformas de mídia social para tornar seu conteúdo mais atraente."
+          },
+          {
+            "title": "Suporte para Múltiplos Formatos",
+            "description": "Além do formato GIF, nossa ferramenta suporta vários formatos de imagem de entrada, facilitando o upload de arquivos de diferentes fontes para uma experiência de usuário flexível."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "Como Trocar Rostos em GIF",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Faça upload de um GIF com um rosto",
+            "description": "Faça upload de um GIF do rosto que você deseja substituir. Garanta detalhes faciais claros para obter os melhores resultados."
+          },
+          {
+            "number": "2",
+            "title": "Faça upload de uma imagem de rosto de destino",
+            "description": "Faça upload de uma foto do rosto que você deseja usar como substituição. Clareza facial é necessária."
+          },
+          {
+            "number": "3",
+            "title": "Aguarde a geração",
+            "description": "Clique no botão \"Trocar rosto do GIF\" e aguarde nosso IA gerar seu novo GIF com rostos trocados."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Múltiplos cenários de uso",
+        "items": [
+          {
+            "title": "Compartilhamento em redes sociais",
+            "description": "Compartilhe seus GIFs divertidos em plataformas de redes sociais como Instagram, Facebook e Twitter para aumentar a interação e atrair atenção."
+          },
+          {
+            "title": "Criação de conteúdo cômico",
+            "description": "Os criadores de conteúdo podem usar o GIF Face Swap para produzir vídeos e clipes engraçados, enriquecendo seu conteúdo e atraindo mais espectadores."
+          },
+          {
+            "title": "Convites para eventos e festas",
+            "description": "Crie GIFs de convite personalizados para festas ou eventos para torná-los mais envolventes e atraentes, aumentando o interesse em participar."
+          }
+        ]
+      }
+    }
   }
 }

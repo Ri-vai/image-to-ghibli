@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import Replicate from "replicate";
 import { newStorage } from "@/lib/storage";
 import { auth } from "@/auth";
+import { CreditsAmount, CreditsTransType, decreaseCredits, getUserCredits } from "@/services/credit";
+import { getFirstPaidOrderByUserUuid } from "@/models/order";
 
 // 记录API调用到Cloudflare KV
 async function recordApiUsage() {
@@ -76,11 +78,47 @@ export async function POST(req: NextRequest) {
   try {
     // 验证用户是否已登录
     const session = await auth();
+    console.log("🚀 ~ POST ~ session:", session)
     if (!session) {
       console.error("❌ Unauthorized access attempt");
       return NextResponse.json(
         { error: "Unauthorized. Please login to use this feature." },
         { status: 401 }
+      );
+    }
+
+    const user_uuid = session.user.uuid;
+    
+    // 检查用户是否有付费订阅
+    const paidOrder = await getFirstPaidOrderByUserUuid(user_uuid);
+    console.log("🚀 ~ 用户订单:", paidOrder)
+    if (!paidOrder) {
+      console.error("❌ 用户未订阅", { userId: user_uuid });
+      return NextResponse.json(
+        { 
+          error: "需要订阅才能使用GIF换脸功能", 
+          needSubscription: true 
+        },
+        { status: 403 }
+      );
+    }
+
+    // 验证用户是否有足够的积分
+    const userCredits = await getUserCredits(user_uuid);
+    console.log("🚀 ~ POST ~ userCredits:", userCredits)
+    if (userCredits.left_credits < CreditsAmount.GifSwapCost) {
+      console.error("❌ 用户积分不足", { 
+        userId: user_uuid, 
+        requiredCredits: CreditsAmount.GifSwapCost, 
+        leftCredits: userCredits.left_credits 
+      });
+      return NextResponse.json(
+        { 
+          error: "积分不足，无法使用GIF换脸功能", 
+          creditsNeeded: CreditsAmount.GifSwapCost,
+          creditsLeft: userCredits.left_credits
+        },
+        { status: 402 }
       );
     }
 
@@ -196,6 +234,14 @@ export async function POST(req: NextRequest) {
       });
       console.log("✅ Received prediction response", prediction);
 
+      // 扣除用户积分
+      await decreaseCredits({
+        user_uuid,
+        trans_type: CreditsTransType.GifSwap,
+        credits: CreditsAmount.GifSwapCost,
+      });
+      console.log(`💰 已扣除用户(${user_uuid})积分: ${CreditsAmount.GifSwapCost}`);
+
       return NextResponse.json({
         success: true,
         message: "GIF face swap processing started",
@@ -203,6 +249,8 @@ export async function POST(req: NextRequest) {
           id: prediction.id,
           status: prediction.status,
         },
+        creditsUsed: CreditsAmount.GifSwapCost,
+        creditsLeft: userCredits.left_credits - CreditsAmount.GifSwapCost
       });
     } catch (error) {
       console.error("❌ Error creating prediction:", error);

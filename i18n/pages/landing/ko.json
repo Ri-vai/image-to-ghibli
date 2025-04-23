@@ -257,28 +257,55 @@
     "label": "가격",
     "title": "단순하고 투명한 가격",
     "description": "얼굴 교체 필요에 맞는 완벽한 플랜을 선택하세요.",
+    "toggle": {
+      "monthly": "매월",
+      "annual": "연간",
+      "default_plan": "연간",
+      "discount_text": "연간 결제 시 2개월 무료"
+    },
+    "cancel_text": "언제든지 취소 가능. 숨겨진 수수료 없음",
     "items": [
       {
         "title": "기본",
         "description": "개인 사용에 적합",
         "features": [
-          "월 10회 얼굴 교체",
-          "이미지당 단일 얼굴 교체",
-          "표준 처리 속도",
-          "기본 지원",
-          "웹 액세스만 가능",
-          "HD 품질의 결과물"
+          {
+            "text": "워터마크가 있는 무제한 얼굴 교환",
+            "included": true
+          },
+          {
+            "text": "표준 처리 속도",
+            "included": true
+          },
+          {
+            "text": "기본 지원",
+            "included": true
+          },
+          {
+            "text": "GIF 또는 비디오 얼굴 교환 불가",
+            "included": false
+          }
         ],
-        "interval": "월",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "$0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "월",
         "is_featured": false,
         "tip": "시작하기에 좋은 플랜입니다!",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "무료 가격",
+          "annual": "무료 가격"
+        },
         "product_name": "기본",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "시작하기",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "파워 유저를 위한",
-        "label": "인기",
         "features": [
-          "월 50회 페이스 스왑",
-          "다중 페이스 스왑 지원",
-          "우선 처리",
-          "우선 지원",
-          "API 접근",
-          "4K 품질의 결과물"
+          {
+            "text": "월간 600 크레딧",
+            "included": true
+          },
+          {
+            "text": "워터마크 없는 얼굴 교체 600회",
+            "included": true
+          },
+          {
+            "text": "GIF 얼굴 교체 200회",
+            "included": true
+          },
+          {
+            "text": "우선 처리",
+            "included": true
+          },
+          {
+            "text": "우선 지원",
+            "included": true
+          }
         ],
-        "interval": "월",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "$12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "$10",
+            "savings_text": "1년에 $24 절약"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "월",
         "is_featured": true,
         "tip": "가장 인기있는 선택!",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
+        },
         "product_name": "프로",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "프로 시작하기",
@@ -319,23 +370,44 @@
         "title": "엔터프라이즈",
         "description": "기업용",
         "features": [
-          "무제한 페이스 스왑",
-          "다중 페이스 스왑 지원",
-          "초고속 처리",
-          "24/7 우선 지원",
-          "전체 API 접근 권한",
-          "맞춤형 통합 지원"
+          {
+            "text": "무제한 워터마크 없는 얼굴 교체",
+            "included": true
+          },
+          {
+            "text": "무제한 GIF 얼굴 교체",
+            "included": true
+          },
+          {
+            "text": "초고속 처리",
+            "included": true
+          },
+          {
+            "text": "24/7 우선 지원",
+            "included": true
+          }
         ],
-        "interval": "월",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "$48/년 저장"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "월",
         "is_featured": false,
         "tip": "비즈니스에 최적화!",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
+        },
         "product_name": "기업",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "영업팀 문의",

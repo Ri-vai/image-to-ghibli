@@ -257,28 +257,55 @@
     "label": "Bảng giá",
     "title": "Bảng giá đơn giản, minh bạch",
     "description": "Chọn gói phù hợp cho nhu cầu hoán đổi khuôn mặt của bạn.",
+    "toggle": {
+      "monthly": "Hàng tháng",
+      "annual": "Hàng năm",
+      "default_plan": "hàng năm",
+      "discount_text": "NHẬN MIỄN PHÍ 2 THÁNG HÀNG NĂM"
+    },
+    "cancel_text": "Hủy bất cứ lúc nào. Không có phí ẩn",
     "items": [
       {
         "title": "Cơ bản",
         "description": "Hoàn hảo cho sử dụng cá nhân",
         "features": [
-          "10 lần hoán đổi khuôn mặt mỗi tháng",
-          "Hoán đổi một khuôn mặt trên mỗi ảnh",
-          "Tốc độ xử lý tiêu chuẩn",
-          "Hỗ trợ cơ bản",
-          "Chỉ truy cập web",
-          "Kết quả chất lượng HD"
+          {
+            "text": "Tráo đổi khuôn mặt không giới hạn với dấu thương hiệu",
+            "included": true
+          },
+          {
+            "text": "Tốc độ xử lý tiêu chuẩn",
+            "included": true
+          },
+          {
+            "text": "Hỗ trợ cơ bản",
+            "included": true
+          },
+          {
+            "text": "Không hỗ trợ tráo đổi khuôn mặt GIF hoặc video",
+            "included": false
+          }
         ],
-        "interval": "tháng",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "0 đô la"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "tháng",
         "is_featured": false,
         "tip": "Tuyệt vời để bắt đầu!",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "giá_miễn_phí",
+          "annual": "giá_miễn_phí"
+        },
         "product_name": "Cơ bản",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "Bắt Đầu",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "Dành cho người dùng chuyên nghiệp",
-        "label": "Phổ biến",
         "features": [
-          "50 lần hoán đổi khuôn mặt mỗi tháng",
-          "Hỗ trợ hoán đổi nhiều khuôn mặt",
-          "Xử lý ưu tiên",
-          "Hỗ trợ ưu tiên",
-          "Truy cập API",
-          "Kết quả chất lượng 4K"
+          {
+            "text": "600 tín dụng mỗi tháng",
+            "included": true
+          },
+          {
+            "text": "600 hoán đổi khuôn mặt không có thương hiệu",
+            "included": true
+          },
+          {
+            "text": "hoặc 200 hoán đổi khuôn mặt GIF",
+            "included": true
+          },
+          {
+            "text": "Xử lý ưu tiên",
+            "included": true
+          },
+          {
+            "text": "Hỗ trợ ưu tiên",
+            "included": true
+          }
         ],
-        "interval": "tháng",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "12 đô la"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "10 đô la",
+            "savings_text": "Tiết kiệm 24 đô la/năm"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "tháng",
         "is_featured": true,
         "tip": "Lựa chọn phổ biến nhất!",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "giá_tháng_1200",
+          "annual": "price_year_10000"
+        },
         "product_name": "Chuyên nghiệp",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "Nâng cấp Pro",
@@ -319,23 +370,44 @@
         "title": "Enterprise",
         "description": "Dành cho doanh nghiệp",
         "features": [
-          "Hoán đổi khuôn mặt không giới hạn",
-          "Hỗ trợ hoán đổi nhiều khuôn mặt",
-          "Xử lý siêu nhanh",
-          "Hỗ trợ ưu tiên 24/7",
-          "Truy cập API đầy đủ",
-          "Hỗ trợ tích hợp tùy chỉnh"
+          {
+            "text": "Số lần thay đổi khuôn mặt không giới hạn mà không có watermark",
+            "included": true
+          },
+          {
+            "text": "Số lần thay đổi khuôn mặt GIF không giới hạn",
+            "included": true
+          },
+          {
+            "text": "Xử lý nhanh chóng",
+            "included": true
+          },
+          {
+            "text": "Hỗ trợ ưu tiên 24/7",
+            "included": true
+          }
         ],
-        "interval": "tháng",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "Tiết kiệm $48/năm"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "tháng",
         "is_featured": false,
         "tip": "Tốt nhất cho doanh nghiệp!",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
+        },
         "product_name": "Doanh nghiệp",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "Liên hệ Bộ phận Bán hàng",

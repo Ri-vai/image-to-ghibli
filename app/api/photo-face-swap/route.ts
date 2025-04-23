@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import Replicate from "replicate";
 import { newStorage } from "@/lib/storage";
+import { auth } from "@/auth";
+import { CreditsAmount, CreditsTransType, decreaseCredits, getUserCredits } from "@/services/credit";
+import { getFirstPaidOrderByUserUuid } from "@/models/order";
 
 // 记录API调用到Cloudflare KV
 async function recordApiUsage() {
@@ -130,6 +133,38 @@ export async function POST(req: NextRequest) {
       );
     }
 
+    // 验证用户身份，检查是否需要水印
+    const session = await auth();
+    let needsWatermark = true; // 默认需要水印
+    let userUuid = null;
+    
+    if (session && session.user && session.user.uuid) {
+      userUuid = session.user.uuid;
+      console.log("🔍 检查用户订阅状态:", userUuid);
+      
+      // 检查用户是否有付费订阅
+      const paidOrder = await getFirstPaidOrderByUserUuid(userUuid);
+      console.log("🚀 ~ 用户订单:", paidOrder);
+      
+      if (paidOrder) {
+        // 用户有订阅，检查积分是否足够
+        const userCredits = await getUserCredits(userUuid);
+        console.log("🚀 ~ 用户积分:", userCredits);
+        
+        if (userCredits.left_credits >= CreditsAmount.PhotoFaceSwapCost) {
+          // 用户有足够积分，无需水印
+          needsWatermark = false;
+          console.log("✅ 用户有订阅且积分充足，将生成无水印图片");
+        } else {
+          console.log("⚠️ 用户有订阅但积分不足，将添加水印");
+        }
+      } else {
+        console.log("⚠️ 用户无订阅，将添加水印");
+      }
+    } else {
+      console.log("⚠️ 未登录用户，将添加水印");
+    }
+
     if (!process.env.REPLICATE_API_TOKEN) {
       console.error("❌ REPLICATE_API_TOKEN not configured");
       return NextResponse.json(
@@ -228,12 +263,28 @@ export async function POST(req: NextRequest) {
       });
       console.log("✅ Received prediction response", prediction);
 
+      // 如果用户有订阅且不需要水印，扣除积分
+      if (!needsWatermark && userUuid) {
+        try {
+          await decreaseCredits({
+            user_uuid: userUuid,
+            trans_type: CreditsTransType.PhotoFaceSwap,
+            credits: CreditsAmount.PhotoFaceSwapCost,
+          });
+          console.log(`💰 已扣除用户(${userUuid})积分: ${CreditsAmount.PhotoFaceSwapCost}`);
+        } catch (error) {
+          console.error("❌ 扣除积分失败:", error);
+          // 失败不影响主流程，继续返回结果
+        }
+      }
+
       return NextResponse.json({
         success: true,
         message: "Face swap processing started",
         prediction: {
           id: prediction.id,
           status: prediction.status,
+          needsWatermark: needsWatermark,
         },
       });
     } catch (error) {

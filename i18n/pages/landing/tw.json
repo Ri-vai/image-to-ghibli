@@ -257,28 +257,55 @@
     "label": "定價",
     "title": "簡單透明的價格",
     "description": "為您的換臉需求選擇完美的方案。",
+    "toggle": {
+      "monthly": "每月",
+      "annual": "每年",
+      "default_plan": "annual",
+      "discount_text": "以年計算，2個月免費"
+    },
+    "cancel_text": "隨時取消，沒有隱藏費用",
     "items": [
       {
         "title": "基本版",
         "description": "適合個人使用",
         "features": [
-          "每月10次換臉",
-          "每張圖片單次換臉",
-          "標準處理速度",
-          "基本支援",
-          "僅限網頁存取",
-          "HD品質成果"
+          {
+            "text": "帶水印的無限臉部交換",
+            "included": true
+          },
+          {
+            "text": "標準處理速度",
+            "included": true
+          },
+          {
+            "text": "基本支援",
+            "included": true
+          },
+          {
+            "text": "沒有GIF或視頻臉部交換",
+            "included": false
+          }
         ],
-        "interval": "月",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "NT$0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "月",
         "is_featured": false,
         "tip": "非常適合入門！",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "price_free",
+          "annual": "price_free"
+        },
         "product_name": "基本",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "開始使用",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "適合進階使用者",
-        "label": "熱門",
         "features": [
-          "每月50次換臉",
-          "支援多張臉部交換",
-          "優先處理",
-          "優先支援",
-          "API 存取",
-          "4K 品質成果"
+          {
+            "text": "每月600個點數",
+            "included": true
+          },
+          {
+            "text": "每月600個無水印人臉交換",
+            "included": true
+          },
+          {
+            "text": "或每月200個GIF人臉交換",
+            "included": true
+          },
+          {
+            "text": "優先處理",
+            "included": true
+          },
+          {
+            "text": "優先支援",
+            "included": true
+          }
         ],
-        "interval": "月",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "NT$12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "NT$10",
+            "savings_text": "每年節省NT$24"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "月",
         "is_featured": true,
         "tip": "最受歡迎的選擇！",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
+        },
         "product_name": "專業版",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "取得專業版",
@@ -319,23 +370,44 @@
         "title": "企業版",
         "description": "適合企業使用",
         "features": [
-          "無限換臉",
-          "支援多人換臉",
-          "超快速處理",
-          "24/7全天候優先支援",
-          "完整API存取",
-          "客製化整合支援"
+          {
+            "text": "Unlimited watermark-free face swaps",
+            "included": true
+          },
+          {
+            "text": "Unlimited GIF face swaps",
+            "included": true
+          },
+          {
+            "text": "Ultra-fast processing",
+            "included": true
+          },
+          {
+            "text": "24/7 priority support",
+            "included": true
+          }
         ],
-        "interval": "月",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "Save $48/year"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "月",
         "is_featured": false,
         "tip": "最適合企業！",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
+        },
         "product_name": "企業版",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "聯繫銷售",

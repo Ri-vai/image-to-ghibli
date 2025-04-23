@@ -257,28 +257,55 @@
     "label": "Tarification",
     "title": "Tarification Simple et Transparente",
     "description": "Choisissez le forfait parfait pour vos besoins d'échange de visages.",
+    "toggle": {
+      "monthly": "Mensuel",
+      "annual": "Annuel",
+      "default_plan": "annuel",
+      "discount_text": "OBTENEZ 2 MOIS GRATUITS ANNUELLEMENT"
+    },
+    "cancel_text": "Annulez à tout moment. Pas de frais cachés",
     "items": [
       {
         "title": "Basique",
         "description": "Parfait pour un usage personnel",
         "features": [
-          "10 échanges de visages par mois",
-          "Un seul échange de visage par image",
-          "Vitesse de traitement standard",
-          "Support basique",
-          "Accès web uniquement",
-          "Résultats en qualité HD"
+          {
+            "text": "Échanges de visage illimités avec filigrane",
+            "included": true
+          },
+          {
+            "text": "Vitesse de traitement standard",
+            "included": true
+          },
+          {
+            "text": "Support basique",
+            "included": true
+          },
+          {
+            "text": "Pas d'échange de visage en GIF ou vidéo",
+            "included": false
+          }
         ],
-        "interval": "mois",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "0 €"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "mois",
         "is_featured": false,
         "tip": "Parfait pour commencer !",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "prix_gratuit",
+          "annual": "prix_gratuit"
+        },
         "product_name": "Basique",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "Commencer",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "Pour les utilisateurs avancés",
-        "label": "Populaire",
         "features": [
-          "50 échanges de visages par mois",
-          "Support d'échange de plusieurs visages",
-          "Traitement prioritaire",
-          "Support prioritaire",
-          "Accès API",
-          "Résultats en qualité 4K"
+          {
+            "text": "600 crédits par mois",
+            "included": true
+          },
+          {
+            "text": "600 échanges de visage sans filigrane",
+            "included": true
+          },
+          {
+            "text": "ou 200 GIF d'échanges de visage",
+            "included": true
+          },
+          {
+            "text": "Traitement prioritaire",
+            "included": true
+          },
+          {
+            "text": "Assistance prioritaire",
+            "included": true
+          }
         ],
-        "interval": "mois",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "12 €"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "10 €",
+            "savings_text": "Économisez 24 €/an"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "mois",
         "is_featured": true,
         "tip": "Choix le plus populaire !",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "prix_mensuel_1200",
+          "annual": "prix_annuel_10000"
+        },
         "product_name": "Pro",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "Obtenir Pro",
@@ -319,23 +370,44 @@
         "title": "Entreprise",
         "description": "Pour les entreprises",
         "features": [
-          "Échanges de visages illimités",
-          "Support d'échange de plusieurs visages",
-          "Traitement ultra-rapide",
-          "Support prioritaire 24h/24 et 7j/7",
-          "Accès complet à l'API",
-          "Support d'intégration personnalisé"
+          {
+            "text": "Échanges de visage illimités sans filigrane",
+            "included": true
+          },
+          {
+            "text": "Échanges de visage GIF illimités",
+            "included": true
+          },
+          {
+            "text": "Traitement ultra-rapide",
+            "included": true
+          },
+          {
+            "text": "Assistance prioritaire 24/7",
+            "included": true
+          }
         ],
-        "interval": "mois",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "Économisez $48/an"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "mois",
         "is_featured": false,
         "tip": "Idéal pour les entreprises !",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "prix_mensuel_2400",
+          "annual": "prix_annuel_20000"
+        },
         "product_name": "Entreprise",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "Contacter les ventes",

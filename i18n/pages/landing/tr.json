@@ -257,28 +257,55 @@
     "label": "Fiyatlandırma",
     "title": "Basit, Şeffaf Fiyatlandırma",
     "description": "Yüz değiştirme ihtiyaçlarınız için mükemmel planı seçin.",
+    "toggle": {
+      "monthly": "Aylık",
+      "annual": "Yıllık",
+      "default_plan": "yıllık",
+      "discount_text": "YILLIK İNDİRİMLE 2 AY BEDAVA"
+    },
+    "cancel_text": "Dilediğiniz zaman iptal edebilirsiniz. Gizli ücret yok",
     "items": [
       {
         "title": "Temel",
         "description": "Kişisel kullanım için mükemmel",
         "features": [
-          "Ayda 10 yüz değiştirme",
-          "Görüntü başına tek yüz değiştirme",
-          "Standart işlem hızı",
-          "Temel destek",
-          "Sadece web erişimi",
-          "HD kalitesinde sonuçlar"
+          {
+            "text": "Filigranlı sınırsız yüz değiştirme",
+            "included": true
+          },
+          {
+            "text": "Standart işleme hızı",
+            "included": true
+          },
+          {
+            "text": "Temel destek",
+            "included": true
+          },
+          {
+            "text": "GIF veya video yüz değiştirme yok",
+            "included": false
+          }
         ],
-        "interval": "ay",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "₺0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "ay",
         "is_featured": false,
         "tip": "Başlamak için harika!",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "ücretsiz_fiyat",
+          "annual": "ücretsiz_fiyat"
+        },
         "product_name": "Temel",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "Başla",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "Güçlü kullanıcılar için",
-        "label": "Popüler",
         "features": [
-          "Ayda 50 yüz değiştirme",
-          "Çoklu yüz değiştirme desteği",
-          "Öncelikli işleme",
-          "Öncelikli destek",
-          "API erişimi",
-          "4K kalitesinde sonuçlar"
+          {
+            "text": "Aylık 600 kredi",
+            "included": true
+          },
+          {
+            "text": "600 su işaretsiz yüz takası",
+            "included": true
+          },
+          {
+            "text": "ya da 200 GIF yüz takası",
+            "included": true
+          },
+          {
+            "text": "Öncelikli işleme",
+            "included": true
+          },
+          {
+            "text": "Öncelikli destek",
+            "included": true
+          }
         ],
-        "interval": "ay",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "₺12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "₺10",
+            "savings_text": "Yılda ₺24 tasarruf yapın"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "ay",
         "is_featured": true,
         "tip": "En popüler seçim!",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "fiyat_aylık_1200",
+          "annual": "fiyat_yıl_10000"
+        },
         "product_name": "Pro",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "Pro'yu Al",
@@ -319,23 +370,44 @@
         "title": "Enterprise",
         "description": "İşletmeler için",
         "features": [
-          "Sınırsız yüz değiştirme",
-          "Çoklu yüz değiştirme desteği",
-          "Ultra hızlı işleme",
-          "7/24 öncelikli destek",
-          "Tam API erişimi",
-          "Özel entegrasyon desteği"
+          {
+            "text": "Sınırsız filigransız yüz değiştirme",
+            "included": true
+          },
+          {
+            "text": "Sınırsız GIF yüz değiştirme",
+            "included": true
+          },
+          {
+            "text": "Ultra hızlı işleme",
+            "included": true
+          },
+          {
+            "text": "7/24 öncelikli destek",
+            "included": true
+          }
         ],
-        "interval": "ay",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "Yılda $48 tasarruf edin"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "ay",
         "is_featured": false,
         "tip": "İşletmeler için en iyisi!",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "fiyat_ay_2400",
+          "annual": "fiyat_yıl_20000"
+        },
         "product_name": "Kurumsal",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "Satış Ekibiyle İletişime Geç",

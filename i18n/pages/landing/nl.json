@@ -257,28 +257,55 @@
     "label": "Prijzen",
     "title": "Eenvoudige, Transparante Prijzen",
     "description": "Kies het perfecte plan voor je face swapping behoeften.",
+    "toggle": {
+      "monthly": "Maandelijks",
+      "annual": "Jaarlijks",
+      "default_plan": "jaarlijks",
+      "discount_text": "KRIJG 2 MAANDEN GRATIS JAARLIJKS"
+    },
+    "cancel_text": "Altijd opzegbaar. Geen verborgen kosten",
     "items": [
       {
         "title": "Basis",
         "description": "Perfect voor persoonlijk gebruik",
         "features": [
-          "10 face swaps per maand",
-          "Enkele face swap per afbeelding",
-          "Standaard verwerkingssnelheid",
-          "Basis ondersteuning",
-          "Alleen webtoegang",
-          "Resultaten in HD-kwaliteit"
+          {
+            "text": "Onbeperkte gezichtswisselingen met watermerk",
+            "included": true
+          },
+          {
+            "text": "Standaard verwerkingssnelheid",
+            "included": true
+          },
+          {
+            "text": "Basis ondersteuning",
+            "included": true
+          },
+          {
+            "text": "Geen GIF- of videogegevensuitwisseling",
+            "included": false
+          }
         ],
-        "interval": "maand",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "$0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "maand",
         "is_featured": false,
         "tip": "Geweldig om mee te beginnen!",
-        "product_id": "price_month_999",
+        "product_id": {
+          "monthly": "price_free",
+          "annual": "price_free"
+        },
         "product_name": "Basis",
-        "credits": 20,
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "Aan de slag",
@@ -289,25 +316,49 @@
       {
         "title": "Pro",
         "description": "Voor gevorderde gebruikers",
-        "label": "Populair",
         "features": [
-          "50 face swaps per maand",
-          "Ondersteuning voor meerdere face swaps",
-          "Prioriteitsverwerking",
-          "Prioriteitsondersteuning",
-          "API-toegang",
-          "Resultaten in 4K-kwaliteit"
+          {
+            "text": "600 credits per maand",
+            "included": true
+          },
+          {
+            "text": "600 watermark-vrije gezichtswisselingen",
+            "included": true
+          },
+          {
+            "text": "of 200 GIF-gezichtswisselingen",
+            "included": true
+          },
+          {
+            "text": "Voorrang bij verwerking",
+            "included": true
+          },
+          {
+            "text": "Voorrangsondersteuning",
+            "included": true
+          }
         ],
-        "interval": "maand",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "$12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "$10",
+            "savings_text": "Bespaar $24 per jaar"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "maand",
         "is_featured": true,
         "tip": "Meest populaire keuze!",
-        "product_id": "price_month_2499",
+        "product_id": {
+          "monthly": "price_maand_1200",
+          "annual": "prijs_jaar_10000"
+        },
         "product_name": "Pro",
-        "credits": 50,
+        "credits": 600,
         "valid_months": 1,
         "button": {
           "title": "Word Pro",
@@ -319,23 +370,44 @@
         "title": "Enterprise",
         "description": "Voor bedrijven",
         "features": [
-          "Onbeperkt gezichten verwisselen",
-          "Ondersteuning voor meerdere gezichtsverwisselingen",
-          "Ultrasnelle verwerking",
-          "24/7 prioritaire ondersteuning",
-          "Volledige API-toegang",
-          "Aangepaste integratieondersteuning"
+          {
+            "text": "Onbeperkte watermerkvrije gezichtswissels",
+            "included": true
+          },
+          {
+            "text": "Onbeperkte GIF gezichtswissels",
+            "included": true
+          },
+          {
+            "text": "Supersnelle verwerking",
+            "included": true
+          },
+          {
+            "text": "24/7 prioritaire ondersteuning",
+            "included": true
+          }
         ],
-        "interval": "maand",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "Bespaar $48 per jaar"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "maand",
         "is_featured": false,
         "tip": "Het beste voor bedrijven!",
-        "product_id": "price_month_9999",
+        "product_id": {
+          "monthly": "prijs_maand_2400",
+          "annual": "prijs_jaar_20000"
+        },
         "product_name": "Enterprise",
-        "credits": 100,
+        "credits": -1,
         "valid_months": 1,
         "button": {
           "title": "Contact Verkoop",
@@ -492,6 +564,7 @@
     "photoFaceSwap": "Foto Gezichtswissel",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "Meervoudige Gezichtswissel",
+    "gifFaceSwap": "GIF Gezichtswissel",
     "uploadOriginalImage": "Upload Originele Afbeelding",
     "uploadFaceImage": "Upload Gezichtsafbeelding",
     "startFaceSwap": "Start Gezichtswissel",
@@ -509,6 +582,78 @@
     "zoomIn": "Inzoomen",
     "swapInProgress": "Gezichtswissel wordt uitgevoerd...",
     "completeSoon": "Zal binnen enkele seconden voltooid zijn",
-    "magicHappening": "Magie gebeurt..."
+    "magicHappening": "Magie gebeurt...",
+    "uploadGif": "Upload GIF",
+    "uploadFacePhoto": "Upload Gezichtsfoto",
+    "startGifFaceSwap": "Start GIF-Gezichtswap",
+    "swapGifFace": "GIF-Gezichtswaps",
+    "preview": "Voorbeeld",
+    "gifPreview": "GIF-voorbeeld",
+    "swapResult": "Swapresultaat",
+    "pleaseUploadGif": "Upload alstublieft een GIF",
+    "gifSwapInProgress": "GIF-gezichtswap bezig...",
+    "gifCompleteSoon": "Dit kan even duren, wees geduldig",
+    "watermarkNotice": "Onvoldoende credits, watermerk toegevoegd",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "GIF-Gezichtswap - Maak grappige GIF-Gezichtswaps met AI-technologie",
+      "description": "Verwissel gezichten op GIFs met behulp van onze geavanceerde AI-technologie. Maak in enkele seconden grappige, deelbare GIFs. Geen registratie vereist, gratis te gebruiken, onbeperkte swaps!",
+      "heading": "Maak grappige GIF-Gezichtswaps",
+      "subheading": "Upload uw GIFs en maak in slechts een paar klikken grappige, deelbare afbeeldingen!",
+      "features": {
+        "title": "Kenmerken van GIF-gezichtswap",
+        "items": [
+          {
+            "title": "Directe gezichtswap",
+            "description": "Onze tool biedt snelle en efficiënte real-time gezichtswap. Upload gewoon uw GIF en onze AI kan direct gezichten herkennen en vervangen, zodat u meteen de resultaten kunt bekijken."
+          },
+          {
+            "title": "Verbeterde sociale interactie",
+            "description": "Deel leuke GIFs met vrienden om sociale interactie te bevorderen en humor toe te voegen. Perfect voor verschillende sociale media platforms om uw inhoud boeiender te maken."
+          },
+          {
+            "title": "Ondersteuning voor meerdere formaten",
+            "description": "Naast het GIF-formaat ondersteunt onze tool verschillende beeldindelingen, waardoor het gemakkelijk is om bestanden van verschillende bronnen te uploaden voor een flexibele gebruikerservaring."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "Hoe gezichten te wisselen in een GIF",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Upload een GIF met een gezicht",
+            "description": "Upload een GIF van het gezicht dat je wilt vervangen. Zorg voor duidelijke gezichtsdetails voor de beste resultaten."
+          },
+          {
+            "number": "2",
+            "title": "Upload een doelgezichtfoto",
+            "description": "Upload een foto van het gezicht dat je wilt gebruiken als vervanging. Duidelijkheid van het gezicht is vereist."
+          },
+          {
+            "number": "3",
+            "title": "Wacht op generatie",
+            "description": "Klik op de \"Swap GIF-gezicht\" knop en wacht tot onze AI uw nieuwe GIF genereert met verwisselde gezichten."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Meerdere Gebruiksscenario's",
+        "items": [
+          {
+            "title": "Delen op sociale media",
+            "description": "Deel je leuke GIFs op grote sociale mediaplatforms zoals Instagram, Facebook en Twitter om interactie te verbeteren en aandacht te trekken."
+          },
+          {
+            "title": "Comedy Inhoud Creatie",
+            "description": "Contentmakers kunnen GIF Face Swap gebruiken om grappige video's en clips te produceren, waardoor hun inhoud wordt verrijkt en meer kijkers worden aangetrokken."
+          },
+          {
+            "title": "Evenement- en Feestuitnodigingen",
+            "description": "Maak gepersonaliseerde uitnodiging GIFs voor feesten of evenementen om ze boeiender en aantrekkelijker te maken, waardoor de interesse in deelname toeneemt."
+          }
+        ]
+      }
+    }
   }
 }

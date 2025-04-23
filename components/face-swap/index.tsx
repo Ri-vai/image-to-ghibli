@@ -150,11 +150,6 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
       setIsLoading(true);
       setError(null);
 
-      // 检查用户积分，决定是否需要水印
-      const needsWatermark = userCredits <= 0; // 修正判断条件：积分不足时添加水印
-      console.log("🚀 ~ handleTurnstileVerify ~ needsWatermark:", needsWatermark, "userCredits:", userCredits);
-      setHasWatermark(needsWatermark);
-
       const response = await fetch("/api/photo-face-swap", {
         method: "POST",
         headers: {
@@ -164,7 +159,6 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
           sourceImage: faceImage,
           targetImage: bodyImage,
           turnstileToken: token,
-          needsWatermark, // 传递水印标志到API
         }),
       });
 
@@ -178,6 +172,8 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
         throw new Error(data.error || "Failed to start face swap process");
       }
 
+      setHasWatermark(data.prediction.needsWatermark);
+      
       const predictionId = data.prediction.id;
       let attempts = 0;
       const maxAttempts = 30;
@@ -188,7 +184,7 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
         }
 
         const statusResponse = await fetch(
-          `/api/photo-face-swap/status?id=${predictionId}&watermark=${needsWatermark}`
+          `/api/photo-face-swap/status?id=${predictionId}&watermark=${data.prediction.needsWatermark ? 'true' : 'false'}`
         );
         const statusData = await statusResponse.json();
 
@@ -200,6 +196,9 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
 
         if (statusData.success && statusData.output) {
           setResultImage(statusData.output.image);
+          if (statusData.hasWatermark !== undefined) {
+            setHasWatermark(statusData.hasWatermark);
+          }
           return true;
         } else if (statusData.status === "failed") {
           throw new Error(statusData.error || "换脸处理失败");
