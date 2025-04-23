@@ -7,25 +7,55 @@ export interface PricingGroup {
   label?: string;
 }
 
+export interface PricingToggle {
+  monthly: string;
+  annual: string;
+  default_plan: "monthly" | "annual";
+  discount_text?: string;
+}
+
+export interface PricingPlan {
+  monthly: {
+    amount: number;
+    price: string;
+  };
+  annual: {
+    amount: number;
+    price: string;
+    savings_text?: string;
+  };
+}
+
 export interface PricingItem {
   title?: string;
   description?: string;
   label?: string;
-  price?: string;
-  original_price?: string;
-  currency?: string;
+  pricing: {
+    monthly: {
+      amount: number;
+      price: string;
+    };
+    annual: {
+      amount: number;
+      price: string;
+      savings_text?: string;
+    };
+  };
+  currency: string;
   unit?: string;
   features_title?: string;
-  features?: string[];
+  features?: {
+    text: string;
+    included: boolean;
+  }[];
   button?: Button;
   tip?: string;
   is_featured?: boolean;
-  interval: "month" | "year" | "one-time";
-  product_id: string;
+  product_id: {
+    monthly: string;
+    annual: string;
+  };
   product_name?: string;
-  amount: number;
-  cn_amount?: number;
-  currency: string;
   credits?: number;
   valid_months?: number;
   group?: string;
@@ -36,6 +66,8 @@ export interface Pricing {
   name?: string;
   title?: string;
   description?: string;
+  toggle?: PricingToggle;
   items?: PricingItem[];
   groups?: PricingGroup[];
+  cancel_text?: string;
 }

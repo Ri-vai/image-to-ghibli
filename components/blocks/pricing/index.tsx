@@ -1,8 +1,8 @@
 "use client";
 
-import { Check, Loader } from "lucide-react";
+import { Check, X, Loader } from "lucide-react";
 import { PricingItem, Pricing as PricingType } from "@/types/blocks/pricing";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Switch } from "@/components/ui/switch";
 import { useEffect, useState } from "react";
 
 import { Badge } from "@/components/ui/badge";
@@ -19,103 +19,62 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
   }
 
   const { user, setShowSignModal } = useAppContext();
-
-  const [group, setGroup] = useState(pricing.groups?.[0]?.name);
+  const [isAnnual, setIsAnnual] = useState(
+    pricing.toggle?.default_plan === "annual"
+  );
   const [isLoading, setIsLoading] = useState(false);
   const [productId, setProductId] = useState<string | null>(null);
 
-  const handleCheckout = async (item: PricingItem, cn_pay: boolean = false) => {
+  const handleCheckout = async (planType: string) => {
     try {
-      console.log("🚀 开始支付流程", { item, cn_pay });
-      
       if (!user) {
-        console.log("⚠️ 用户未登录，显示登录窗口");
         setShowSignModal(true);
         return;
       }
 
       const params = {
-        product_id: item.product_id,
-        product_name: item.product_name,
-        credits: item.credits,
-        interval: item.interval,
-        amount: cn_pay ? item.cn_amount : item.amount,
-        currency: cn_pay ? "cny" : item.currency,
-        valid_months: item.valid_months,
+        planType,
+        billingType: isAnnual ? "yearly" : "monthly",
+        mode: "subscription",
+        successUrl: `${window.location.origin}`,
+        cancelUrl: `${window.location.origin}`,
       };
-      
-      console.log("📝 支付参数:", params);
 
       setIsLoading(true);
-      setProductId(item.product_id);
-      
-      console.log("🔄 发送支付请求...");
-      const response = await fetch("/api/checkout", {
+      setProductId(`${planType}_${params.billingType}`);
+
+      const response = await fetch("/api/checkout/stripe", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(params),
       });
-      
-      console.log("📥 收到支付响应状态:", response.status);
 
       if (response.status === 401) {
-        console.log("🔒 认证失败 (401)，显示登录窗口");
         setIsLoading(false);
         setProductId(null);
-
         setShowSignModal(true);
         return;
       }
 
       const { code, message, data } = await response.json();
-      console.log("📄 支付响应数据:", { code, message, data });
-      
+
       if (code !== 0) {
-        console.error("❌ 支付请求失败:", message);
         toast.error(message);
         return;
       }
 
-      const { public_key, session_id } = data;
-      console.log("🔑 获取Stripe公钥:", public_key);
-      console.log("📋 获取会话ID:", session_id);
+      const { url } = data;
 
-      console.log("🔄 加载Stripe...");
-      const stripe = await loadStripe(public_key);
-      if (!stripe) {
-        console.error("❌ Stripe加载失败");
-        toast.error("checkout failed");
-        return;
-      }
-
-      console.log("🔄 重定向到Stripe结账页面...");
-      const result = await stripe.redirectToCheckout({
-        sessionId: session_id,
-      });
-
-      if (result.error) {
-        console.error("❌ Stripe重定向失败:", result.error.message);
-        toast.error(result.error.message);
-      }
+      window.location.href = url;
     } catch (e) {
-      console.error("❌ 支付过程发生异常:", e);
       toast.error("checkout failed");
     } finally {
-      console.log("🏁 支付流程结束");
       setIsLoading(false);
       setProductId(null);
     }
   };
-
-  useEffect(() => {
-    if (pricing.items) {
-      setGroup(pricing.items[0].group);
-      setProductId(pricing.items[0].product_id);
-      setIsLoading(false);
-    }
-  }, [pricing.items]);
 
   return (
     <section id={pricing.name} className="py-16">
@@ -127,186 +86,158 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
           <p className="text-muted-foreground lg:text-lg">
             {pricing.description}
           </p>
-        </div>
-        <div className="flex flex-col items-center gap-2">
-          {pricing.groups && pricing.groups.length > 0 && (
-            <div className="flex h-12 mb-12 items-center rounded-md bg-muted p-1 text-lg">
-              <RadioGroup
-                value={group}
-                className={`h-full grid-cols-${pricing.groups.length}`}
-                onValueChange={(value) => {
-                  setGroup(value);
-                }}
-              >
-                {pricing.groups.map((item, i) => {
-                  return (
-                    <div
-                      key={i}
-                      className='h-full rounded-md transition-all has-[button[data-state="checked"]]:bg-white'
-                    >
-                      <RadioGroupItem
-                        value={item.name || ""}
-                        id={item.name}
-                        className="peer sr-only"
-                      />
-                      <Label
-                        htmlFor={item.name}
-                        className="flex h-full cursor-pointer items-center justify-center px-7 font-semibold text-muted-foreground peer-data-[state=checked]:text-primary"
-                      >
-                        {item.title}
-                        {item.label && (
-                          <Badge
-                            variant="outline"
-                            className="border-primary bg-primary px-1.5 ml-1 text-primary-foreground"
-                          >
-                            {item.label}
-                          </Badge>
-                        )}
-                      </Label>
-                    </div>
-                  );
-                })}
-              </RadioGroup>
+
+          {pricing.toggle && (
+            <div className="mt-8">
+              <div className="flex items-center justify-center gap-4">
+                <span
+                  className={
+                    !isAnnual ? "font-semibold" : "text-muted-foreground"
+                  }
+                >
+                  {pricing.toggle.monthly}
+                </span>
+                <Switch checked={isAnnual} onCheckedChange={setIsAnnual} />
+                <span
+                  className={
+                    isAnnual ? "font-semibold" : "text-muted-foreground"
+                  }
+                >
+                  {pricing.toggle.annual}
+                </span>
+              </div>
+              {isAnnual && pricing.toggle.discount_text && (
+                <div className="mt-2">
+                  <Badge variant="secondary" className="bg-primary/10">
+                    {pricing.toggle.discount_text}
+                  </Badge>
+                </div>
+              )}
+              {pricing.cancel_text && (
+                <p className="mt-4 text-sm text-muted-foreground">
+                  {pricing.cancel_text}
+                </p>
+              )}
             </div>
           )}
-          <div
-            className={`md:min-w-96 mt-0 grid gap-6 md:grid-cols-${
-              pricing.items?.filter(
-                (item) => !item.group || item.group === group
-              )?.length
-            }`}
-          >
-            {pricing.items?.map((item, index) => {
-              if (item.group && item.group !== group) {
-                return null;
-              }
+        </div>
 
-              return (
-                <div
-                  key={index}
-                  className={`rounded-lg p-6 ${
-                    item.is_featured
-                      ? "border-primary border-2 bg-card text-card-foreground"
-                      : "border-muted border"
-                  }`}
-                >
-                  <div className="flex h-full flex-col justify-between gap-5">
-                    <div>
-                      <div className="flex items-center gap-2 mb-4">
-                        {item.title && (
-                          <h3 className="text-xl font-semibold">
-                            {item.title}
-                          </h3>
-                        )}
-                        <div className="flex-1"></div>
-                        {item.label && (
-                          <Badge
-                            variant="outline"
-                            className="border-primary bg-primary px-1.5 text-primary-foreground"
-                          >
-                            {item.label}
-                          </Badge>
-                        )}
-                      </div>
-                      <div className="flex items-end gap-2 mb-4">
-                        {item.original_price && (
-                          <span className="text-xl text-muted-foreground font-semibold line-through">
-                            {item.original_price}
-                          </span>
-                        )}
-                        {item.price && (
-                          <span className="text-5xl font-semibold">
-                            {item.price}
-                          </span>
-                        )}
-                        {item.unit && (
-                          <span className="block font-semibold">
-                            {item.unit}
-                          </span>
-                        )}
-                      </div>
-                      {item.description && (
-                        <p className="text-muted-foreground">
-                          {item.description}
-                        </p>
+        <div className="grid gap-6 md:grid-cols-3">
+          {pricing.items?.map((item, index) => {
+            const plan = (
+              isAnnual ? item.pricing.annual : item.pricing.monthly
+            ) as {
+              amount: number;
+              price: string;
+              savings_text?: string;
+            };
+
+            return (
+              <div
+                key={index}
+                className={`rounded-lg p-6 ${
+                  item.is_featured
+                    ? "border-primary border-2 bg-card text-card-foreground shadow-lg"
+                    : "border bg-background/60"
+                }`}
+              >
+                <div className="flex h-full flex-col justify-between gap-5">
+                  <div>
+                    <div className="flex items-center gap-2 mb-4">
+                      {item.title && (
+                        <h3 className="text-xl font-semibold">{item.title}</h3>
                       )}
-                      {item.features_title && (
-                        <p className="mb-3 mt-6 font-semibold">
-                          {item.features_title}
-                        </p>
-                      )}
-                      {item.features && (
-                        <ul className="flex flex-col gap-3">
-                          {item.features.map((feature, fi) => {
-                            return (
-                              <li className="flex gap-2" key={`feature-${fi}`}>
-                                <Check className="mt-1 size-4 shrink-0" />
-                                {feature}
-                              </li>
-                            );
-                          })}
-                        </ul>
+                      <div className="flex-1"></div>
+                      {item.label && (
+                        <Badge variant="secondary" className="bg-primary/10">
+                          {item.label}
+                        </Badge>
                       )}
                     </div>
-                    <div className="flex flex-col gap-2">
-                      {item.cn_amount && item.cn_amount > 0 ? (
-                        <div className="flex items-center gap-x-2 mt-2">
-                          <span className="text-sm">人民币支付 👉</span>
-                          <div
-                            className="inline-block p-2 hover:cursor-pointer hover:bg-base-200 rounded-md"
-                            onClick={() => {
-                              if (isLoading) {
-                                return;
+                    <div className="flex items-end gap-2 mb-4">
+                      <span className="text-5xl font-semibold">
+                        {plan.price}
+                      </span>
+                      {item.unit && (
+                        <span className="text-muted-foreground mb-1">
+                          /{item.unit}
+                        </span>
+                      )}
+                    </div>
+                    {isAnnual && plan.savings_text && (
+                      <p className="text-sm text-primary">
+                        {plan.savings_text}
+                      </p>
+                    )}
+                    {item.description && (
+                      <p className="text-muted-foreground mt-2">
+                        {item.description}
+                      </p>
+                    )}
+                    {item.features && (
+                      <ul className="mt-6 space-y-3">
+                        {item.features.map((feature, fi) => (
+                          <li className="flex gap-2" key={`feature-${fi}`}>
+                            {feature.included ? (
+                              <Check className="mt-1 size-4 shrink-0 text-primary" />
+                            ) : (
+                              <X className="mt-1 size-4 shrink-0 text-muted-foreground" />
+                            )}
+                            <span
+                              className={
+                                !feature.included ? "text-muted-foreground" : ""
                               }
-                              handleCheckout(item, true);
-                            }}
-                          >
-                            <img
-                              src="/imgs/cnpay.png"
-                              alt="cnpay"
-                              className="w-20 h-10 rounded-lg"
-                            />
-                          </div>
-                        </div>
-                      ) : null}
-                      {item.button && (
-                        <Button
-                          className="w-full flex items-center justify-center gap-2 font-semibold"
-                          disabled={isLoading}
-                          onClick={() => {
-                            if (isLoading) {
-                              return;
-                            }
-                            handleCheckout(item);
-                          }}
-                        >
-                          {(!isLoading ||
-                            (isLoading && productId !== item.product_id)) && (
-                            <p>{item.button.title}</p>
-                          )}
-
-                          {isLoading && productId === item.product_id && (
-                            <p>{item.button.title}</p>
-                          )}
-                          {isLoading && productId === item.product_id && (
+                            >
+                              {feature.text}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                  <div>
+                    {item.button && (
+                      <Button
+                        className="w-full font-semibold"
+                        variant={item.is_featured ? "default" : "outline"}
+                        disabled={isLoading}
+                        onClick={() => {
+                          if (isLoading) return;
+                          handleCheckout(item.title?.toLowerCase() || "");
+                        }}
+                      >
+                        {isLoading &&
+                        productId ===
+                          (isAnnual
+                            ? item.product_id.annual
+                            : item.product_id.monthly) ? (
+                          <>
                             <Loader className="mr-2 h-4 w-4 animate-spin" />
-                          )}
-                          {item.button.icon && (
-                            <Icon name={item.button.icon} className="size-4" />
-                          )}
-                        </Button>
-                      )}
-                      {item.tip && (
-                        <p className="text-muted-foreground text-sm mt-2">
-                          {item.tip}
-                        </p>
-                      )}
-                    </div>
+                            {item.button.title}
+                          </>
+                        ) : (
+                          <>
+                            {item.button.title}
+                            {item.button.icon && (
+                              <Icon
+                                name={item.button.icon}
+                                className="ml-2 size-4"
+                              />
+                            )}
+                          </>
+                        )}
+                      </Button>
+                    )}
+                    {item.tip && (
+                      <p className="text-muted-foreground text-sm mt-2 text-center">
+                        {item.tip}
+                      </p>
+                    )}
                   </div>
                 </div>
-              );
-            })}
-          </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

@@ -257,28 +257,55 @@
     "label": "Pricing",
     "title": "Simple, Transparent Pricing",
     "description": "Choose the perfect plan for your face swapping needs.",
+    "toggle": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "default_plan": "annual",
+      "discount_text": "GET 2 MONTHS FREE ANNUALLY"
+    },
+    "cancel_text": "Cancel anytime. No hidden fees",
     "items": [
       {
-        "title": "Basic",
-        "description": "Perfect for personal use",
+        "title": "Free",
+        "description": "Perfect for trying out",
         "features": [
-          "10 face swaps per month",
-          "Single face swap per image",
-          "Standard processing speed",
-          "Basic support",
-          "Web access only",
-          "Results in HD quality"
+          {
+            "text": "Unlimited face swaps with watermark",
+            "included": true
+          },
+          {
+            "text": "Standard processing speed",
+            "included": true
+          },
+          {
+            "text": "Basic support",
+            "included": true
+          },
+          {
+            "text": "No GIF or video face swap",
+            "included": false
+          }
         ],
-        "interval": "month",
-        "amount": 999,
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "$0"
+          }
+        },
         "currency": "USD",
-        "price": "$9.99",
         "unit": "month",
         "is_featured": false,
         "tip": "Great for getting started!",
-        "product_id": "price_month_999",
-        "product_name": "Basic",
-        "credits": 20,
+        "product_id": {
+          "monthly": "price_free",
+          "annual": "price_free"
+        },
+        "product_name": "Free",
+        "credits": 0,
         "valid_months": 1,
         "button": {
           "title": "Get Started",
@@ -287,60 +314,105 @@
         }
       },
       {
-        "title": "Pro",
-        "description": "For power users",
-        "label": "Popular",
+        "title": "Basic",
+        "description": "For regular users",
         "features": [
-          "50 face swaps per month",
-          "Multiple face swap support",
-          "Priority processing",
-          "Priority support",
-          "API access",
-          "Results in 4K quality"
+          {
+            "text": "600 credits per month",
+            "included": true
+          },
+          {
+            "text": "600 watermark-free face swaps",
+            "included": true
+          },
+          {
+            "text": "or 200 GIF face swaps",
+            "included": true
+          },
+          {
+            "text": "Priority processing",
+            "included": true
+          },
+          {
+            "text": "Priority support",
+            "included": true
+          }
         ],
-        "interval": "month",
-        "amount": 2499,
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "$12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "$10",
+            "savings_text": "Save $24/year"
+          }
+        },
         "currency": "USD",
-        "price": "$24.99",
         "unit": "month",
         "is_featured": true,
         "tip": "Most popular choice!",
-        "product_id": "price_month_2499",
-        "product_name": "Pro",
-        "credits": 50,
+        "product_id": {
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
+        },
+        "product_name": "Basic",
+        "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "Get Pro",
+          "title": "Get Basic",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
-        "title": "Enterprise",
-        "description": "For businesses",
+        "title": "Pro",
+        "description": "For power users",
         "features": [
-          "Unlimited face swaps",
-          "Multiple face swap support",
-          "Ultra-fast processing",
-          "24/7 priority support",
-          "Full API access",
-          "Custom integration support"
+          {
+            "text": "Unlimited watermark-free face swaps",
+            "included": true
+          },
+          {
+            "text": "Unlimited GIF face swaps",
+            "included": true
+          },
+          {
+            "text": "Ultra-fast processing",
+            "included": true
+          },
+          {
+            "text": "24/7 priority support",
+            "included": true
+          }
         ],
-        "interval": "month",
-        "amount": 9999,
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "Save $48/year"
+          }
+        },
         "currency": "USD",
-        "price": "$99.99",
         "unit": "month",
         "is_featured": false,
-        "tip": "Best for businesses!",
-        "product_id": "price_month_9999",
-        "product_name": "Enterprise",
-        "credits": 100,
+        "tip": "Best for professionals!",
+        "product_id": {
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
+        },
+        "product_name": "Pro",
+        "credits": -1,
         "valid_months": 1,
         "button": {
-          "title": "Contact Sales",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "Get Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]
@@ -523,13 +595,13 @@
     "gifCompleteSoon": "This may take a while, please be patient",
     "watermarkNotice": "Insufficient credits, watermark added",
     "gifFormat": "GIF",
-    
+
     "gif": {
       "title": "GIF Face Swap - Create Hilarious GIF Face Swaps with AI Technology",
       "description": "Swap faces on GIFs with our advanced AI technology. Create funny, shareable GIFs in seconds. No registration required, free to use, unlimited swaps!",
       "heading": "Create Hilarious GIF Face Swaps",
       "subheading": "Upload your GIFs and create fun, shareable images in just a few clicks!",
-      
+
       "features": {
         "title": "Features of GIF Face Swap",
         "items": [
@@ -547,7 +619,7 @@
           }
         ]
       },
-      
+
       "howTo": {
         "title": "How to Swap Faces in GIF",
         "steps": [
@@ -568,7 +640,7 @@
           }
         ]
       },
-      
+
       "usageScenarios": {
         "title": "Multiple Usage Scenarios",
         "items": [
