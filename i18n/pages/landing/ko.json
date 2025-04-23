@@ -492,6 +492,7 @@
     "photoFaceSwap": "사진 얼굴 교체",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "다중 얼굴 교체",
+    "gifFaceSwap": "GIF 얼굴 스왑",
     "uploadOriginalImage": "원본 이미지 업로드",
     "uploadFaceImage": "얼굴 이미지 업로드",
     "startFaceSwap": "페이스 스왑 시작",
@@ -509,6 +510,78 @@
     "zoomIn": "확대",
     "swapInProgress": "페이스 스왑 진행 중...",
     "completeSoon": "몇 초 후에 완료됩니다",
-    "magicHappening": "마법이 일어나는 중..."
+    "magicHappening": "마법이 일어나는 중...",
+    "uploadGif": "GIF 업로드",
+    "uploadFacePhoto": "얼굴 사진 업로드",
+    "startGifFaceSwap": "GIF 얼굴 스왑 시작",
+    "swapGifFace": "GIF 얼굴 스왑",
+    "preview": "미리 보기",
+    "gifPreview": "GIF 미리 보기",
+    "swapResult": "스왑 결과",
+    "pleaseUploadGif": "GIF를 업로드해주세요",
+    "gifSwapInProgress": "GIF 얼굴 스왑 진행 중...",
+    "gifCompleteSoon": "이 작업은 시간이 걸릴 수 있으니 조금 기다려주십시오",
+    "watermarkNotice": "크레딧이 부족하여 워터마크가 추가되었습니다",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "GIF 얼굴 교체 - AI 기술로 유쾌한 GIF 얼굴 교체 생성",
+      "description": "고급 AI 기술로 GIF에서 얼굴을 교체하세요. 몇 초만에 재미있고 공유 가능한 GIF를 만들 수 있습니다. 등록 필요 없이 사용은 무료이며 얼마든지 교체할 수 있습니다!",
+      "heading": "유쾌한 GIF 얼굴 교체 만들기",
+      "subheading": "GIF를 업로드하고 몇 번의 클릭만으로 재미있고 공유 가능한 이미지를 만드세요!",
+      "features": {
+        "title": "GIF 얼굴 교체의 특징",
+        "items": [
+          {
+            "title": "즉시 얼굴 교체",
+            "description": "우리 도구는 실시간으로 빠르고 효율적인 얼굴 교체를 제공합니다. GIF를 업로드하면 AI가 즉시 얼굴을 인식하고 교체하여 결과를 확인할 수 있습니다."
+          },
+          {
+            "title": "증강된 소셜 상호작용",
+            "description": "친구들과 재미있는 GIF를 공유하여 소셜 상호작용을 촉진하고 유머를 더하세요. 다양한 소셜 미디어 플랫폼에서 활용할 수 있어 콘텐츠를 더욱 매력적으로 만듭니다."
+          },
+          {
+            "title": "다양한 형식 지원",
+            "description": "GIF 형식 외에도, 저희 도구는 다양한 이미지 형식을 지원하여 다른 출처에서 파일을 간편하게 업로드할 수 있어 유연한 사용자 경험을 제공합니다."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "GIF에서 얼굴 교체 하는 방법",
+        "steps": [
+          {
+            "number": "1",
+            "title": "GIF 얼굴 업로드",
+            "description": "교체하려는 얼굴이 있는 GIF를 업로드하세요. 최상의 결과를 위해 명확한 얼굴 세부 정보를 보장하세요."
+          },
+          {
+            "number": "2",
+            "title": "목표 얼굴 사진 업로드",
+            "description": "교체하려는 얼굴의 사진을 업로드하세요. 얼굴의 명확함이 요구됩니다."
+          },
+          {
+            "number": "3",
+            "title": "생성을 기다리세요",
+            "description": " \"얼굴 교환 GIF\" 버튼을 클릭하고 AI가 얼굴을 교환한 새로운 GIF를 생성할 때까지 기다리세요."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "다양한 사용 시나리오",
+        "items": [
+          {
+            "title": "소셜 미디어 공유",
+            "description": "Instagram, Facebook, Twitter 등 주요 소셜 미디어 플랫폼에서 재미있는 GIF를 공유하여 상호작용을 향상시키고 관심을 끌 수 있습니다."
+          },
+          {
+            "title": "코미디 콘텐츠 제작",
+            "description": "콘텐츠 크리에이터는 GIF 얼굴 교환을 사용하여 재미있는 동영상과 클립을 제작하여 콘텐츠를 풍부하게 하고 더 많은 시청자를 유치할 수 있습니다."
+          },
+          {
+            "title": "이벤트 및 파티 초대",
+            "description": "파티나 이벤트에 참석하는 흥미를 높이기 위해 개인 맞춤식 초대 GIF를 만들어보세요. 이로 인해 더욱 매력적이고 매료적인 파티나 이벤트가 될 것입니다."
+          }
+        ]
+      }
+    }
   }
 }

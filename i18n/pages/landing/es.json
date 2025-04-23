@@ -492,6 +492,7 @@
     "photoFaceSwap": "Intercambio de Rostro en Foto",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "Intercambio Múltiple de Rostros",
+    "gifFaceSwap": "Intercambio de cara en GIF",
     "uploadOriginalImage": "Subir Imagen Original",
     "uploadFaceImage": "Subir Imagen del Rostro",
     "startFaceSwap": "Iniciar Intercambio de Rostros",
@@ -509,6 +510,78 @@
     "zoomIn": "Acercar",
     "swapInProgress": "Intercambio de rostros en progreso...",
     "completeSoon": "Se completará en unos segundos",
-    "magicHappening": "Magia sucediendo..."
+    "magicHappening": "Magia sucediendo...",
+    "uploadGif": "Cargar GIF",
+    "uploadFacePhoto": "Cargar foto de cara",
+    "startGifFaceSwap": "Iniciar intercambio de cara en GIF",
+    "swapGifFace": "Intercambiar cara en GIF",
+    "preview": "Vista previa",
+    "gifPreview": "Vista previa del GIF",
+    "swapResult": "Resultado del intercambio",
+    "pleaseUploadGif": "Por favor, carga un GIF",
+    "gifSwapInProgress": "Intercambio de cara en GIF en progreso...",
+    "gifCompleteSoon": "Esto puede llevar un tiempo, por favor ten paciencia",
+    "watermarkNotice": "Créditos insuficientes, se añadió una marca de agua",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "Cambio de cara en GIF - Crea divertidos cambios de cara en GIF con tecnología AI",
+      "description": "Cambia caras en GIFs con nuestra avanzada tecnología de inteligencia artificial. Crea GIFs divertidos y compartibles en segundos. No se requiere registro, gratis para usar, intercambios ilimitados.",
+      "heading": "Crea divertidos cambios de cara en GIF",
+      "subheading": "¡Sube tus GIFs y crea imágenes divertidas y compartibles en tan solo unos clics!",
+      "features": {
+        "title": "Características del Cambio de Cara en GIF",
+        "items": [
+          {
+            "title": "Cambio de cara instantáneo",
+            "description": "Nuestra herramienta ofrece un cambio de cara rápido y eficiente en tiempo real. Simplemente carga tu GIF y nuestra IA puede reconocer e intercambiar caras al instante, asegurando que puedas ver los resultados de inmediato."
+          },
+          {
+            "title": "Interacción social mejorada",
+            "description": "Comparte divertidos GIFs con amigos para promover la interacción social y añadir humor. Perfecto para diversas plataformas de redes sociales para hacer tu contenido más atractivo."
+          },
+          {
+            "title": "Soporte para múltiples formatos",
+            "description": "Además del formato GIF, nuestra herramienta admite varios formatos de imagen de entrada, lo que facilita la carga de archivos desde diferentes fuentes para una experiencia de usuario flexible."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "Cómo intercambiar caras en un GIF",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Sube un GIF con un rostro",
+            "description": "Sube un GIF del rostro que deseas reemplazar. Asegúrate de tener detalles faciales claros para obtener los mejores resultados."
+          },
+          {
+            "number": "2",
+            "title": "Sube una imagen del rostro objetivo",
+            "description": "Sube una foto del rostro que deseas utilizar como reemplazo. Se requiere claridad facial."
+          },
+          {
+            "number": "3",
+            "title": "Espera la generación",
+            "description": "Haz clic en el botón \"Intercambiar rostro en el GIF\" y espera a que nuestro IA genere tu nuevo GIF con los rostros intercambiados."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Múltiples escenarios de uso",
+        "items": [
+          {
+            "title": "Compartir en redes sociales",
+            "description": "Comparte tus divertidos GIF en plataformas de redes sociales importantes como Instagram, Facebook y Twitter para mejorar la interacción y atraer atención."
+          },
+          {
+            "title": "Creación de contenido cómico",
+            "description": "Los creadores de contenido pueden utilizar GIF Face Swap para producir videos y clips divertidos, enriqueciendo su contenido y atrayendo a más espectadores."
+          },
+          {
+            "title": "Invitaciones a eventos y fiestas",
+            "description": "Crea GIF de invitación personalizados para fiestas o eventos para hacerlos más atractivos y atractivos, aumentando el interés en asistir."
+          }
+        ]
+      }
+    }
   }
 }

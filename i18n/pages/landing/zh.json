@@ -492,6 +492,7 @@
     "photoFaceSwap": "照片换脸",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "多人换脸",
+    "gifFaceSwap": "GIF人脸替换",
     "uploadOriginalImage": "上传原始图片",
     "uploadFaceImage": "上传面部图片",
     "startFaceSwap": "开始换脸",
@@ -509,6 +510,78 @@
     "zoomIn": "放大",
     "swapInProgress": "换脸处理中...",
     "completeSoon": "将在几秒钟内完成",
-    "magicHappening": "魔法进行中..."
+    "magicHappening": "魔法进行中...",
+    "uploadGif": "上传GIF",
+    "uploadFacePhoto": "上传脸部照片",
+    "startGifFaceSwap": "开始GIF人脸替换",
+    "swapGifFace": "替换GIF人脸",
+    "preview": "预览",
+    "gifPreview": "GIF预览",
+    "swapResult": "替换结果",
+    "pleaseUploadGif": "请上传一个GIF",
+    "gifSwapInProgress": "GIF人脸替换进行中...",
+    "gifCompleteSoon": "这可能需要一些时间，请耐心等待",
+    "watermarkNotice": "积分不足，已添加水印",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "GIF面部交换 - 利用AI技术创建搞笑的GIF面部交换",
+      "description": "利用我们先进的AI技术在GIF上进行面部交换。只需几秒钟即可创建有趣、可共享的GIF动图。无需注册，免费使用，无限次交换！",
+      "heading": "创建搞笑的GIF面部交换",
+      "subheading": "上传您的GIF动图，仅需几次点击即可创建有趣、可共享的图片！",
+      "features": {
+        "title": "GIF面部交换的特点",
+        "items": [
+          {
+            "title": "即时面部交换",
+            "description": "我们的工具提供快速高效的实时面部交换。只需上传您的GIF动图，我们的AI可以立即识别和替换面部，确保您可以立即查看结果。"
+          },
+          {
+            "title": "增强社交互动",
+            "description": "与朋友分享有趣的GIF动图，促进社交互动并增添幽默。适用于各种社交媒体平台，使您的内容更具吸引力。"
+          },
+          {
+            "title": "支持多种格式",
+            "description": "除了GIF格式，我们的工具还支持各种图片输入格式，方便从不同来源上传文件，提供灵活的用户体验。"
+          }
+        ]
+      },
+      "howTo": {
+        "title": "如何在GIF中进行面部交换",
+        "steps": [
+          {
+            "number": "1",
+            "title": "上传一张有人脸的GIF",
+            "description": "上传一张您想要替换的人脸的GIF。确保面部细节清晰以获得最佳效果。"
+          },
+          {
+            "number": "2",
+            "title": "上传目标人脸图片",
+            "description": "上传一张您想要用作替代的人脸照片。需要面部清晰度。"
+          },
+          {
+            "number": "3",
+            "title": "等待生成",
+            "description": "点击“交换GIF人脸”按钮，等待我们的人工智能生成带有交换人脸的新GIF。"
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "多种使用场景",
+        "items": [
+          {
+            "title": "社交媒体分享",
+            "description": "在Instagram、Facebook和Twitter等主要社交媒体平台上分享您的有趣GIF，以增强互动并吸引注意。"
+          },
+          {
+            "title": "喜剧内容创作",
+            "description": "内容创作者可以使用GIF人脸交换来制作有趣的视频和剪辑，丰富他们的内容并吸引更多观众。"
+          },
+          {
+            "title": "活动和派对邀请",
+            "description": "创建个性化邀请函GIF，用于聚会或活动，使其更加吸引人，增加参与的兴趣。"
+          }
+        ]
+      }
+    }
   }
 }

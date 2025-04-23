@@ -492,6 +492,7 @@
     "photoFaceSwap": "Photo Face Swap",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "Multiple Face Swap",
+    "gifFaceSwap": "GIF Face Swap",
     "uploadOriginalImage": "Upload Original Image",
     "uploadFaceImage": "Upload Face Image",
     "startFaceSwap": "Start Face Swap",
@@ -509,6 +510,82 @@
     "zoomIn": "Zoom In",
     "swapInProgress": "Face swap in progress...",
     "completeSoon": "Will complete in a few seconds",
-    "magicHappening": "Magic happening..."
+    "magicHappening": "Magic happening...",
+    "uploadGif": "Upload GIF",
+    "uploadFacePhoto": "Upload Face Photo",
+    "startGifFaceSwap": "Start GIF Face Swap",
+    "swapGifFace": "Swap GIF Face",
+    "preview": "Preview",
+    "gifPreview": "GIF Preview",
+    "swapResult": "Swap Result",
+    "pleaseUploadGif": "Please upload a GIF",
+    "gifSwapInProgress": "GIF face swap in progress...",
+    "gifCompleteSoon": "This may take a while, please be patient",
+    "watermarkNotice": "Insufficient credits, watermark added",
+    "gifFormat": "GIF",
+    
+    "gif": {
+      "title": "GIF Face Swap - Create Hilarious GIF Face Swaps with AI Technology",
+      "description": "Swap faces on GIFs with our advanced AI technology. Create funny, shareable GIFs in seconds. No registration required, free to use, unlimited swaps!",
+      "heading": "Create Hilarious GIF Face Swaps",
+      "subheading": "Upload your GIFs and create fun, shareable images in just a few clicks!",
+      
+      "features": {
+        "title": "Features of GIF Face Swap",
+        "items": [
+          {
+            "title": "Instant Face Swapping",
+            "description": "Our tool offers fast and efficient real-time face swapping. Simply upload your GIF, and our AI can instantly recognize and replace faces, ensuring you can view the results right away."
+          },
+          {
+            "title": "Enhanced Social Interaction",
+            "description": "Share fun GIFs with friends to promote social interaction and add humor. Perfect for various social media platforms to make your content more engaging."
+          },
+          {
+            "title": "Support for Multiple Formats",
+            "description": "Besides GIF format, our tool supports various image input formats, making it easy to upload files from different sources for a flexible user experience."
+          }
+        ]
+      },
+      
+      "howTo": {
+        "title": "How to Swap Faces in GIF",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Upload a GIF with a face",
+            "description": "Upload a GIF of the face you want to replace. Ensure clear facial details for best results."
+          },
+          {
+            "number": "2",
+            "title": "Upload a target face image",
+            "description": "Upload a photo of the face you want to use as a replacement. Facial clarity is required."
+          },
+          {
+            "number": "3",
+            "title": "Wait for generation",
+            "description": "Click the \"Swap GIF Face\" button and wait for our AI to generate your new GIF with swapped faces."
+          }
+        ]
+      },
+      
+      "usageScenarios": {
+        "title": "Multiple Usage Scenarios",
+        "items": [
+          {
+            "title": "Social Media Sharing",
+            "description": "Share your fun GIFs on major social media platforms like Instagram, Facebook, and Twitter to enhance interaction and attract attention."
+          },
+          {
+            "title": "Comedy Content Creation",
+            "description": "Content creators can use GIF Face Swap to produce funny videos and clips, enriching their content and attracting more viewers."
+          },
+          {
+            "title": "Event and Party Invitations",
+            "description": "Create personalized invitation GIFs for parties or events to make them more engaging and appealing, increasing interest in attending."
+          }
+        ]
+      }
+    }
   }
 }

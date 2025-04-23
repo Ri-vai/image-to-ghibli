@@ -492,6 +492,7 @@
     "photoFaceSwap": "Foto-Gesichtstausch",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "Mehrfacher Gesichtstausch",
+    "gifFaceSwap": "GIF Gesichtstausch",
     "uploadOriginalImage": "Originalbild hochladen",
     "uploadFaceImage": "Gesichtsbild hochladen",
     "startFaceSwap": "Face Swap starten",
@@ -509,6 +510,78 @@
     "zoomIn": "Vergrößern",
     "swapInProgress": "Gesichtstausch wird durchgeführt...",
     "completeSoon": "Wird in wenigen Sekunden abgeschlossen",
-    "magicHappening": "Magie geschieht..."
+    "magicHappening": "Magie geschieht...",
+    "uploadGif": "GIF hochladen",
+    "uploadFacePhoto": "Gesichtsfoto hochladen",
+    "startGifFaceSwap": "GIF Gesichtstausch starten",
+    "swapGifFace": "GIF-Gesicht austauschen",
+    "preview": "Vorschau",
+    "gifPreview": "GIF-Vorschau",
+    "swapResult": "Tauschergebnis",
+    "pleaseUploadGif": "Bitte ein GIF hochladen",
+    "gifSwapInProgress": "GIF-Gesichtstausch wird durchgeführt...",
+    "gifCompleteSoon": "Dies kann eine Weile dauern, bitte haben Sie Geduld",
+    "watermarkNotice": "Unzureichende Credits, Wasserzeichen hinzugefügt",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "GIF-Gesichtstausch – Erstellen Sie lustige GIF-Gesichtstausche mit KI-Technologie",
+      "description": "Tauschen Sie Gesichter in GIFs mit unserer fortschrittlichen KI-Technologie aus. Erstellen Sie in Sekundenschnelle lustige, teilbare GIFs. Keine Registrierung erforderlich, kostenlos und unbegrenzte Tauschmöglichkeiten!",
+      "heading": "Erstellen Sie lustige GIF-Gesichtstausche",
+      "subheading": "Laden Sie Ihre GIFs hoch und erstellen Sie mit nur wenigen Klicks unterhaltsame, teilbare Bilder!",
+      "features": {
+        "title": "Merkmale des GIF-Gesichtstauschs",
+        "items": [
+          {
+            "title": "Sofortiger Gesichtstausch",
+            "description": "Unser Tool bietet schnellen und effizienten Echtzeit-Gesichtstausch. Laden Sie einfach Ihr GIF hoch und unsere KI erkennt und ersetzt Gesichter sofort, sodass Sie die Ergebnisse sofort sehen können."
+          },
+          {
+            "title": "Erhöhte soziale Interaktion",
+            "description": "Teilen Sie lustige GIFs mit Freunden, um die soziale Interaktion zu fördern und Humor hinzuzufügen. Perfekt für verschiedene soziale Medien, um Ihren Inhalten mehr Engagement zu verleihen."
+          },
+          {
+            "title": "Unterstützung für verschiedene Formate",
+            "description": "Neben dem GIF-Format unterstützt unser Tool verschiedene Eingabeformate für Bilder, sodass Sie Dateien aus unterschiedlichen Quellen problemlos hochladen können und ein flexibles Nutzungserlebnis haben."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "So tauschen Sie Gesichter in GIFs aus",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Laden Sie ein GIF mit einem Gesicht hoch",
+            "description": "Laden Sie ein GIF des Gesichts hoch, das Sie ersetzen möchten. Stellen Sie klare Gesichtsdetails für beste Ergebnisse sicher."
+          },
+          {
+            "number": "2",
+            "title": "Laden Sie ein Zielfoto des Gesichts hoch",
+            "description": "Laden Sie ein Foto des Gesichts hoch, das Sie als Ersatz verwenden möchten. Eine klare Gesichtsdarstellung ist erforderlich."
+          },
+          {
+            "number": "3",
+            "title": "Warten Sie auf die Generierung",
+            "description": "Klicken Sie auf den Button \"Gesicht im GIF tauschen\" und warten Sie, bis unsere KI Ihr neues GIF mit ausgetauschten Gesichtern generiert."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Mehrere Anwendungsszenarien",
+        "items": [
+          {
+            "title": "Teilung auf sozialen Medien",
+            "description": "Teilen Sie Ihre lustigen GIFs auf großen sozialen Medienplattformen wie Instagram, Facebook und Twitter, um die Interaktion zu verbessern und Aufmerksamkeit zu erregen."
+          },
+          {
+            "title": "Erstellung von Comedy-Inhalten",
+            "description": "Content-Ersteller können GIF Face Swap verwenden, um lustige Videos und Clips zu produzieren, um ihren Inhalt zu bereichern und mehr Zuschauer anzulocken."
+          },
+          {
+            "title": "Einladungen zu Veranstaltungen und Partys",
+            "description": "Erstellen Sie personalisierte Einladungs-GIFs für Partys oder Veranstaltungen, um sie ansprechender und attraktiver zu gestalten und das Interesse an einer Teilnahme zu steigern."
+          }
+        ]
+      }
+    }
   }
 }

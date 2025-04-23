@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -11,6 +11,7 @@ import {
   ArrowRight,
   Download,
   SplitSquareVertical,
+  FileType,
 } from "lucide-react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
@@ -20,14 +21,28 @@ import {
   ReactCompareSliderHandle,
 } from "react-compare-slider";
 import { TurnstileDialog } from "@/components/ui/turnstile-dialog";
+import { useSearchParams, usePathname, useRouter } from "next/navigation";
+import GifFaceSwap from "./GifFaceSwap";
 
 type FaceSwapProps = {
   locale: string;
   faceSwap?: any; // 这里可以定义更具体的类型
+  defaultTab?: string; // 添加默认tab属性
 };
 
-export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
-  const [activeTab, setActiveTab] = useState("photo");
+export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: FaceSwapProps) {
+  const pathname = usePathname();
+  const router = useRouter();
+  
+  // 根据当前路径判断应该激活哪个tab
+  const determineActiveTab = () => {
+    if (pathname.includes('/gif-face-swap')) {
+      return "gif";
+    }
+    return defaultTab;
+  };
+  
+  const [activeTab, setActiveTab] = useState(determineActiveTab());
   const [bodyImage, setBodyImage] = useState<string | null>(null); // 第一张上传的照片 (target_image)
   const [faceImage, setFaceImage] = useState<string | null>(null); // 第二张上传的照片 (source_image)
   const [resultImage, setResultImage] = useState<string | null>(null);
@@ -36,6 +51,49 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
   const [showCompareSlider, setShowCompareSlider] = useState(false);
   const [showTurnstile, setShowTurnstile] = useState(false);
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
+  const [hasWatermark, setHasWatermark] = useState(false);
+  const [userCredits, setUserCredits] = useState<number>(0);
+
+  // 获取用户积分
+  useEffect(() => {
+    async function fetchUserCredits() {
+      try {
+        const response = await fetch('/api/user/credits');
+        if (response.ok) {
+          const data = await response.json();
+          console.log("🚀 ~ fetchUserCredits ~ data:", data)
+          setUserCredits(data.credits?.left_credits || 0);
+        }
+      } catch (error) {
+        console.error('获取用户积分失败:', error);
+      }
+    }
+    
+    fetchUserCredits();
+  }, []);
+
+  // 同步组件状态和路由
+  useEffect(() => {
+    setActiveTab(determineActiveTab());
+  }, [pathname]);
+
+  // 处理选项卡切换
+  const handleTabChange = (value: string) => {
+    setActiveTab(value);
+    
+    // 根据选择的选项卡更新路由，但不重新加载页面
+    if (value === "gif") {
+      const baseUrl = pathname.includes('/[locale]') 
+        ? `/${locale}/gif-face-swap` 
+        : `/${locale === 'en' ? '' : locale + '/'}gif-face-swap`;
+      router.push(baseUrl, { scroll: false });
+    } else {
+      const baseUrl = pathname.includes('/[locale]') 
+        ? `/${locale}` 
+        : `/${locale === 'en' ? '' : locale + '/'}`;
+      router.push(baseUrl, { scroll: false });
+    }
+  };
 
   const handleBodyImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
@@ -92,6 +150,11 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
       setIsLoading(true);
       setError(null);
 
+      // 检查用户积分，决定是否需要水印
+      const needsWatermark = userCredits <= 0; // 修正判断条件：积分不足时添加水印
+      console.log("🚀 ~ handleTurnstileVerify ~ needsWatermark:", needsWatermark, "userCredits:", userCredits);
+      setHasWatermark(needsWatermark);
+
       const response = await fetch("/api/photo-face-swap", {
         method: "POST",
         headers: {
@@ -101,6 +164,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
           sourceImage: faceImage,
           targetImage: bodyImage,
           turnstileToken: token,
+          needsWatermark, // 传递水印标志到API
         }),
       });
 
@@ -124,7 +188,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
         }
 
         const statusResponse = await fetch(
-          `/api/photo-face-swap/status?id=${predictionId}`
+          `/api/photo-face-swap/status?id=${predictionId}&watermark=${needsWatermark}`
         );
         const statusData = await statusResponse.json();
 
@@ -197,9 +261,10 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
       />
       <div className="container mx-auto px-4">
         <Tabs
-          defaultValue="photo"
+          defaultValue={activeTab}
+          value={activeTab}
           className="w-full"
-          onValueChange={setActiveTab}
+          onValueChange={handleTabChange}
         >
           <div className="flex justify-center mb-8">
             <TabsList className="bg-muted/50 border border-primary/20">
@@ -209,6 +274,13 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
               >
                 <ImageIcon className="mr-2 h-4 w-4" />
                 {faceSwap?.photoFaceSwap || "Photo Face Swap"}
+              </TabsTrigger>
+              <TabsTrigger
+                value="gif"
+                className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+              >
+                <FileType className="mr-2 h-4 w-4" />
+                {faceSwap?.gifFaceSwap || "GIF Face Swap"}
               </TabsTrigger>
               {/* 暂时隐藏视频和多人换脸选项卡
               <TabsTrigger value="video" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
@@ -328,7 +400,7 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                         />
                       </label>
                       <p className="mt-2 text-xs text-muted-foreground">
-                        PNG/JPG/JPEG/WEBP/GIF
+                        PNG/JPG/JPEG/WEBP
                       </p>
                     </div>
                   </div>
@@ -349,38 +421,8 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
                       disabled={!faceImage || !bodyImage || isLoading}
                       className="w-full bg-primary hover:bg-primary/90 text-primary-foreground py-6"
                     >
-                      {isLoading ? (
-                        <div className="absolute inset-0 flex flex-col items-center justify-center">
-                          <div className="text-muted-foreground text-center">
-                            {/* 有趣的加载动画 */}
-                            <div className="relative h-20 w-20 mx-auto mb-4">
-                              <div className="absolute inset-0 rounded-full border-4 border-primary/20 border-t-primary animate-spin"></div>
-                              <div className="absolute inset-0 flex items-center justify-center">
-                                <span className="text-primary text-xl">✨</span>
-                              </div>
-                            </div>
-
-                            <p className="font-medium text-foreground mb-1">
-                              {faceSwap?.swapInProgress ||
-                                "Face swap in progress..."}
-                            </p>
-
-                            <p className="text-sm text-muted-foreground">
-                              {faceSwap?.completeSoon ||
-                                "Will complete in a few seconds"}
-                            </p>
-
-                            <div className="mt-3 text-xs text-muted-foreground animate-pulse">
-                              {faceSwap?.magicHappening || "Magic happening..."}
-                            </div>
-                          </div>
-                        </div>
-                      ) : (
-                        <>
-                          {faceSwap?.swapFace || "Swap Face"}{" "}
-                          <ArrowRight className="ml-2 h-4 w-4" />
-                        </>
-                      )}
+                      {faceSwap?.swapFace || "Swap Face"}{" "}
+                      <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </div>
                 </div>
@@ -572,6 +614,16 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
             </div>
           </TabsContent>
 
+          {/* 新增GIF换脸内容 */}
+          <TabsContent value="gif" className="mt-0">
+            <GifFaceSwap 
+              locale={locale}
+              faceSwap={faceSwap}
+              faceImage={faceImage}
+              handleFaceImageUpload={handleFaceImageUpload}
+            />
+          </TabsContent>
+
           {/* 保留但不显示其他选项卡内容 */}
           <TabsContent value="video" className="mt-0 hidden">
             <div className="flex justify-center items-center h-64 border border-dashed border-border rounded-lg bg-card/50">
@@ -590,6 +642,17 @@ export default function FaceSwap({ locale, faceSwap }: FaceSwapProps) {
           </TabsContent>
         </Tabs>
       </div>
+      {/* 在结果图片附近添加水印提示 */}
+      {resultImage && hasWatermark && (
+        <div className="text-center mt-2">
+          <p className="text-amber-500 text-sm flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
+            </svg>
+            {faceSwap?.watermarkNotice || "Insufficient credits, watermark added"}
+          </p>
+        </div>
+      )}
       {error && <p className="mt-2 text-sm text-red-500">{error}</p>}
     </section>
   );

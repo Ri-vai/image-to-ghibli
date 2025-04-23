@@ -492,6 +492,7 @@
     "photoFaceSwap": "写真の顔交換",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "複数の顔交換",
+    "gifFaceSwap": "GIFフェイススワップ",
     "uploadOriginalImage": "元の画像をアップロード",
     "uploadFaceImage": "顔の画像をアップロード",
     "startFaceSwap": "顔交換を開始",
@@ -509,6 +510,78 @@
     "zoomIn": "拡大",
     "swapInProgress": "顔交換処理中...",
     "completeSoon": "数秒で完了します",
-    "magicHappening": "魔法が起きています..."
+    "magicHappening": "魔法が起きています...",
+    "uploadGif": "GIFをアップロード",
+    "uploadFacePhoto": "顔写真をアップロード",
+    "startGifFaceSwap": "GIFフェイススワップを開始",
+    "swapGifFace": "GIFフェイスをスワップ",
+    "preview": "プレビュー",
+    "gifPreview": "GIFプレビュー",
+    "swapResult": "スワップ結果",
+    "pleaseUploadGif": "GIFをアップロードしてください",
+    "gifSwapInProgress": "GIFフェイススワップ進行中...",
+    "gifCompleteSoon": "しばらくお待ちください、完了まで時間がかかる場合があります",
+    "watermarkNotice": "残高不足のため、ウォーターマークが追加されました",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "GIFフェイススワップ - AIテクノロジーで面白いGIFフェイススワップを作成",
+      "description": "高度なAIテクノロジーを使用して、GIF上の顔をスワップします。数秒で面白く共有可能なGIFを作成できます。登録不要で無料で使い放題です！",
+      "heading": "面白いGIFフェイススワップを作成",
+      "subheading": "GIFをアップロードし、わずか数クリックで楽しく共有可能な画像を作成しましょう！",
+      "features": {
+        "title": "GIFフェイススワップの特徴",
+        "items": [
+          {
+            "title": "瞬時のフェイススワップ",
+            "description": "当社のツールは高速で効率的なリアルタイムのフェイススワップを提供します。単にGIFをアップロードするだけで、AIは即座に顔を認識して置換し、すぐに結果を表示できます。"
+          },
+          {
+            "title": "社会的なインタラクションの向上",
+            "description": "友人と楽しいGIFを共有して社会的なインタラクションを促進し、ユーモアを追加しましょう。さまざまなソーシャルメディアプラットフォームに最適で、コンテンツをより魅力的にします。"
+          },
+          {
+            "title": "複数のフォーマットのサポート",
+            "description": "GIF形式以外にも、当社のツールはさまざまな画像入力形式をサポートしており、さまざまなソースからファイルを簡単にアップロードして柔軟なユーザーエクスペリエンスを提供します。"
+          }
+        ]
+      },
+      "howTo": {
+        "title": "GIFでのフェイススワップ方法",
+        "steps": [
+          {
+            "number": "1",
+            "title": "GIFのアップロード",
+            "description": "置き換えたい顔を含むGIFをアップロードしてください。最良の結果を得るために、明瞭な顔の詳細を確保してください。"
+          },
+          {
+            "number": "2",
+            "title": "ターゲットの顔画像をアップロード",
+            "description": "置き換えに使用したい顔の写真をアップロードしてください。顔の明瞭さが必要です。"
+          },
+          {
+            "number": "3",
+            "title": "生成を待つ",
+            "description": "「顔のGIFを交換」ボタンをクリックし、AIが顔を交換した新しいGIFを生成するまで待ちます。"
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "複数の使用シナリオ",
+        "items": [
+          {
+            "title": "ソーシャルメディアでの共有",
+            "description": "Instagram、Facebook、Twitterなどの主要なソーシャルメディアプラットフォームで楽しいGIFを共有し、相互作用を向上させ注目を集めることができます。"
+          },
+          {
+            "title": "コメディコンテンツの作成",
+            "description": "コンテンツクリエイターはGIF Face Swapを使用して面白いビデオやクリップを制作し、コンテンツを豊かにし、より多くの視聴者を惹きつけることができます。"
+          },
+          {
+            "title": "イベントやパーティーの招待状",
+            "description": "パーティーやイベントのために、参加意欲を高めるために個人的な招待用のGIFを作成して、魅力的で魅力的にしましょう。"
+          }
+        ]
+      }
+    }
   }
 }

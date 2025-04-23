@@ -492,6 +492,7 @@
     "photoFaceSwap": "Hoán đổi Khuôn mặt trong Ảnh",
     "videoFaceSwap": "Video Face Swap",
     "multipleFaceSwap": "Hoán đổi Nhiều Khuôn mặt",
+    "gifFaceSwap": "GIF Face Swap",
     "uploadOriginalImage": "Tải lên Ảnh Gốc",
     "uploadFaceImage": "Tải lên Ảnh Khuôn mặt",
     "startFaceSwap": "Bắt đầu hoán đổi khuôn mặt",
@@ -509,6 +510,78 @@
     "zoomIn": "Phóng to",
     "swapInProgress": "Đang hoán đổi khuôn mặt...",
     "completeSoon": "Sẽ hoàn thành trong vài giây",
-    "magicHappening": "Đang thực hiện phép thuật..."
+    "magicHappening": "Đang thực hiện phép thuật...",
+    "uploadGif": "Tải lên GIF",
+    "uploadFacePhoto": "Tải lên ảnh khuôn mặt",
+    "startGifFaceSwap": "Bắt đầu GIF Face Swap",
+    "swapGifFace": "Swap khuôn mặt GIF",
+    "preview": "Xem trước",
+    "gifPreview": "Xem trước GIF",
+    "swapResult": "Kết quả Swap",
+    "pleaseUploadGif": "Vui lòng tải lên một GIF",
+    "gifSwapInProgress": "GIF face swap đang tiến hành...",
+    "gifCompleteSoon": "Việc này có thể mất một thời gian, vui lòng kiên nhẫn",
+    "watermarkNotice": "Ít tín chỉ, đã thêm dấu chứa",
+    "gifFormat": "GIF",
+    "gif": {
+      "title": "GIF Face Swap - Tạo GIF Face Swap hài hước với công nghệ AI",
+      "description": "Đổi khuôn mặt trên GIF bằng Công nghệ AI tiên tiến của chúng tôi. Tạo GIF hài hước, dễ chia sẻ chỉ trong vài giây. Không cần đăng ký, miễn phí sử dụng, không giới hạn đổi khuôn mặt!",
+      "heading": "Tạo GIF Face Swap hài hước",
+      "subheading": "Tải lên GIF của bạn và tạo hình ảnh vui vẻ, dễ chia sẻ chỉ sau vài cú nhấp chuột!",
+      "features": {
+        "title": "Các tính năng của GIF Face Swap",
+        "items": [
+          {
+            "title": "Đổi khuôn mặt tức thì",
+            "description": "Công cụ của chúng tôi cung cấp việc đổi khuôn mặt tức thì và hiệu quả. Chỉ cần tải lên GIF của bạn, trí tuệ nhân tạo của chúng tôi có thể nhận diện và thay thế khuôn mặt ngay lập tức, đảm bảo bạn có thể xem kết quả ngay lập tức."
+          },
+          {
+            "title": "Tương tác Xã hội Nâng cao",
+            "description": "Chia sẻ những GIF vui nhộn với bạn bè để thúc đẩy tương tác xã hội và thêm hài hước. Hoàn hảo cho các nền tảng truyền thông xã hội khác nhau để làm cho nội dung của bạn trở nên thú vị hơn."
+          },
+          {
+            "title": "Hỗ trợ nhiều định dạng",
+            "description": "Ngoài định dạng GIF, công cụ của chúng tôi hỗ trợ nhiều định dạng hình ảnh khác nhau, giúp dễ dàng tải lên tệp từ các nguồn khác nhau để có trải nghiệm linh hoạt cho người dùng."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "Cách Đổi Khuôn mặt trong GIF",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Tải lên một GIF có khuôn mặt",
+            "description": "Tải lên một GIF với khuôn mặt bạn muốn thay thế. Đảm bảo chi tiết khuôn mặt rõ ràng để có kết quả tốt nhất."
+          },
+          {
+            "number": "2",
+            "title": "Tải lên hình ảnh khuôn mặt mục tiêu",
+            "description": "Tải lên một bức ảnh của khuôn mặt bạn muốn sử dụng làm khuôn mặt thay thế. Yêu cầu rõ ràng về khuôn mặt."
+          },
+          {
+            "number": "3",
+            "title": "Chờ quá trình tạo thành",
+            "description": "Nhấp vào nút \"Swap GIF Face\" và chờ đợi trí tuệ nhân tạo của chúng tôi tạo ra GIF mới của bạn với khuôn mặt đã thay đổi."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Các Kịch bản Sử dụng Đa dạng",
+        "items": [
+          {
+            "title": "Chia sẻ trên Mạng xã hội",
+            "description": "Chia sẻ những GIF vui nhộn của bạn trên các nền tảng mạng xã hội lớn như Instagram, Facebook và Twitter để tăng cường sự tương tác và thu hút sự chú ý."
+          },
+          {
+            "title": "Tạo nội dung Hài hước",
+            "description": "Người tạo nội dung có thể sử dụng GIF Face Swap để tạo ra những video và đoạn clip hài hước, làm phong phú nội dung của họ và thu hút thêm người xem."
+          },
+          {
+            "title": "Lời mời Sự kiện và Bữa tiệc",
+            "description": "Tạo GIF mời cá nhân cho bữa tiệc hoặc sự kiện để làm cho chúng trở nên hấp dẫn và lôi cuốn hơn, tăng sự quan tâm đến việc tham dự."
+          }
+        ]
+      }
+    }
   }
 }
