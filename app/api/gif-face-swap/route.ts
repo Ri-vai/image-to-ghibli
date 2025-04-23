@@ -96,7 +96,7 @@ export async function POST(req: NextRequest) {
       console.error("❌ 用户未订阅", { userId: user_uuid });
       return NextResponse.json(
         { 
-          error: "需要订阅才能使用GIF换脸功能", 
+          error: "Subscription required for GIF face swap", 
           needSubscription: true 
         },
         { status: 403 }
@@ -114,7 +114,7 @@ export async function POST(req: NextRequest) {
       });
       return NextResponse.json(
         { 
-          error: "积分不足，无法使用GIF换脸功能", 
+          error: "Insufficient credits for GIF face swap", 
           creditsNeeded: CreditsAmount.GifSwapCost,
           creditsLeft: userCredits.left_credits
         },
