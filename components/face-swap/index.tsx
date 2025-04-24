@@ -23,6 +23,7 @@ import {
 import { TurnstileDialog } from "@/components/ui/turnstile-dialog";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import GifFaceSwap from "./GifFaceSwap";
+import { useSession } from "next-auth/react";
 
 type FaceSwapProps = {
   locale: string;
@@ -33,6 +34,7 @@ type FaceSwapProps = {
 export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: FaceSwapProps) {
   const pathname = usePathname();
   const router = useRouter();
+  const session = useSession();
   
   // 根据当前路径判断应该激活哪个tab
   const determineActiveTab = () => {
@@ -53,24 +55,32 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
   const [turnstileToken, setTurnstileToken] = useState<string | null>(null);
   const [hasWatermark, setHasWatermark] = useState(false);
   const [userCredits, setUserCredits] = useState<number>(0);
+  const [watermarkedImage, setWatermarkedImage] = useState<string | null>(null);
 
-  // 获取用户积分
+  // 修改useEffect获取用户积分的逻辑，先判断用户是否登录
   useEffect(() => {
     async function fetchUserCredits() {
-      try {
-        const response = await fetch('/api/user/credits');
-        if (response.ok) {
-          const data = await response.json();
-          console.log("🚀 ~ fetchUserCredits ~ data:", data)
-          setUserCredits(data.credits?.left_credits || 0);
+      // 只有当用户已登录时才获取积分
+      if (session.status === 'authenticated') {
+        try {
+          const response = await fetch('/api/user/credits');
+          if (response.ok) {
+            const data = await response.json();
+            console.log("🚀 ~ fetchUserCredits ~ data:", data)
+            setUserCredits(data.credits?.left_credits || 0);
+          }
+        } catch (error) {
+          console.error('获取用户积分失败:', error);
         }
-      } catch (error) {
-        console.error('获取用户积分失败:', error);
+      } else {
+        console.log("用户未登录，不获取积分信息");
+        // 未登录用户积分设为0
+        setUserCredits(0);
       }
     }
     
     fetchUserCredits();
-  }, []);
+  }, [session.status]); // 依赖于session状态，当登录状态变化时重新获取
 
   // 同步组件状态和路由
   useEffect(() => {
@@ -178,6 +188,75 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
       let attempts = 0;
       const maxAttempts = 30;
 
+      const needsFrontendWatermark = () => {
+        // 用户未登录或积分不足
+        console.log("水印检查 - 会话状态:", session.status, "用户积分:", userCredits);
+        const needWatermark = session.status !== "authenticated" || userCredits <= 10;
+        console.log("需要前端水印:", needWatermark);
+        return needWatermark;
+      };
+
+      const addWatermark = (imageUrl: string): Promise<string> => {
+        console.log("开始添加水印到图片:", imageUrl.substring(0, 50) + "...");
+        return new Promise((resolve, reject) => {
+          // 使用window.Image确保使用的是浏览器的原生Image构造函数
+          const img = new window.Image();
+          img.crossOrigin = "anonymous";
+          console.log("设置图片crossOrigin为anonymous");
+          
+          img.onload = () => {
+            console.log("图片加载成功，尺寸:", img.width, "x", img.height);
+            // 创建canvas元素
+            const canvas = document.createElement("canvas");
+            const ctx = canvas.getContext("2d");
+            
+            // 设置canvas尺寸与图片相同
+            canvas.width = img.width;
+            canvas.height = img.height;
+            console.log("Canvas尺寸设置为:", canvas.width, "x", canvas.height);
+            
+            // 绘制原图
+            ctx?.drawImage(img, 0, 0);
+            console.log("原图已绘制到Canvas");
+            
+            // 设置水印样式
+            if (ctx) {
+              ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
+              const fontSize = Math.max(20, img.width / 15);
+              ctx.font = `${fontSize}px Arial`;
+              ctx.textAlign = "center";
+              ctx.textBaseline = "middle";
+              console.log("水印样式已设置, 字体大小:", fontSize);
+              
+              // 计算水印位置（中心）
+              const watermarkText = "aifaceswap.app";
+              const x = img.width / 2;
+              const y = img.height / 2;
+              console.log("水印位置:", x, y, "文字:", watermarkText);
+              
+              // 绘制水印
+              ctx.fillText(watermarkText, x, y);
+              console.log("水印已绘制完成");
+              
+              // 转换为URL
+              const watermarkedUrl = canvas.toDataURL("image/jpeg");
+              console.log("转换完成，输出URL长度:", watermarkedUrl.length);
+              resolve(watermarkedUrl);
+            } else {
+              console.error("无法创建Canvas上下文");
+              reject(new Error("无法创建Canvas上下文"));
+            }
+          };
+          
+          img.onerror = (err) => {
+            console.error("图片加载失败:", err);
+            reject(new Error("加载图片失败"));
+          };
+          img.src = imageUrl;
+          console.log("已设置图片源");
+        });
+      };
+
       const checkStatus = async () => {
         if (attempts >= maxAttempts) {
           throw new Error("处理超时，请稍后再试");
@@ -195,7 +274,28 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
         }
 
         if (statusData.success && statusData.output) {
-          setResultImage(statusData.output.image);
+          const originalImageUrl = statusData.output.image;
+          console.log("获取到原始结果图片URL:", originalImageUrl.substring(0, 50) + "...");
+          
+          // 如果需要前端添加水印
+          if (needsFrontendWatermark()) {
+            console.log("需要添加前端水印，开始处理...");
+            try {
+              const watermarkedUrl = await addWatermark(originalImageUrl);
+              console.log("水印添加成功，设置结果图片");
+              setWatermarkedImage(watermarkedUrl);
+              setResultImage(watermarkedUrl); // 使用带水印的图片
+              setHasWatermark(true); // 设置水印状态为true
+            } catch (error) {
+              console.error("添加水印失败，详细错误:", error);
+              console.log("使用原始图片作为结果");
+              setResultImage(originalImageUrl); // 如果添加水印失败，使用原图
+            }
+          } else {
+            console.log("不需要添加前端水印，直接使用原始图片");
+            setResultImage(originalImageUrl);
+          }
+          
           if (statusData.hasWatermark !== undefined) {
             setHasWatermark(statusData.hasWatermark);
           }
