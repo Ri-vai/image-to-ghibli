@@ -11,35 +11,43 @@ COPY package.json pnpm-lock.yaml* ./
 RUN pnpm i --frozen-lockfile
 
 # Rebuild the source code only when needed
-FROM deps AS builder
-
+FROM base AS builder
 WORKDIR /app
 
-# Install dependencies based on the preferred package manager
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+
+# Set environment variables
+ENV NEXT_TELEMETRY_DISABLED 1
+
 RUN pnpm build
 
 # Production image, copy all the files and run next
 FROM base AS runner
 WORKDIR /app
 
+ENV NODE_ENV production
+ENV NEXT_TELEMETRY_DISABLED 1
+
 RUN addgroup --system --gid 1001 nodejs && \
-    adduser --system --uid 1001 nextjs && \
-    mkdir .next && \
+    adduser --system --uid 1001 nextjs
+
+# Set the correct permission for prerender cache
+RUN mkdir .next && \
     chown nextjs:nodejs .next
 
-COPY --from=builder /app/public ./public
-COPY --from=builder /app/node_modules ./node_modules
+# Automatically leverage output traces to reduce image size
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
+# Copy public folder
+COPY --from=builder /app/public ./public
+
 USER nextjs
 
-EXPOSE 8080
+EXPOSE 3000
 
-ENV NODE_ENV production
-
-ENV PORT 8080
+ENV PORT 3000
 ENV HOSTNAME "0.0.0.0"
 
 # server.js is created by next build from the standalone output
