@@ -1,54 +1,30 @@
-FROM node:18-alpine AS base
+FROM node:18-slim AS base
+RUN npm install -g pnpm
 
-# Install dependencies only when needed
+# Stage 1: Install ALL dependencies for building
 FROM base AS deps
-RUN apk add --no-cache libc6-compat python3 make g++ && yarn global add pnpm
-
 WORKDIR /app
-
-# Install dependencies based on the preferred package manager
 COPY package.json pnpm-lock.yaml* ./
-RUN pnpm i --frozen-lockfile
+RUN pnpm install
 
-# Rebuild the source code only when needed
+# Stage 2: Build the application
 FROM base AS builder
 WORKDIR /app
-
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+RUN set -ex && \
+    pnpm build && \
+    ls -la .next/
 
-# Set environment variables
-ENV NEXT_TELEMETRY_DISABLED 1
-
-RUN pnpm build
-
-# Production image, copy all the files and run next
+# Stage 3: Production server
 FROM base AS runner
 WORKDIR /app
+ENV NODE_ENV=production
+RUN mkdir -p /app/public /app/.next/static
 
-ENV NODE_ENV production
-ENV NEXT_TELEMETRY_DISABLED 1
-
-RUN addgroup --system --gid 1001 nodejs && \
-    adduser --system --uid 1001 nextjs
-
-# Set the correct permission for prerender cache
-RUN mkdir .next && \
-    chown nextjs:nodejs .next
-
-# Automatically leverage output traces to reduce image size
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
-COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-
-# Copy public folder
 COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/.next/static ./.next/static
 
-USER nextjs
-
-EXPOSE 3000
-
-ENV PORT 3000
-ENV HOSTNAME "0.0.0.0"
-
-# server.js is created by next build from the standalone output
+EXPOSE 8080
 CMD ["node", "server.js"]
