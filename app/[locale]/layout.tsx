@@ -74,6 +74,11 @@ export default async function RootLayout({
           src="https://click.pageview.click/js/script.js"
         ></script>
         <script
+          defer
+          data-domain="aifaceswap.app"
+          src="https://application-plausible-f9470a-77-37-67-93.traefik.me/js/script.js"
+        ></script>
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2968253568243697"
           crossOrigin="anonymous"
