@@ -4,8 +4,7 @@ import Replicate from "replicate";
 export async function GET(request: NextRequest) {
   try {
     // 获取预测ID
-    const url = new URL(request.url);
-    const predictionId = url.searchParams.get("id");
+    const predictionId = request.nextUrl.searchParams.get("id");
 
     if (!predictionId) {
       return NextResponse.json(
