@@ -1,5 +1,6 @@
 import { auth } from "@/auth/index";
-import { respData, respErr, respJson, respOk } from "@/lib/resp";
+import { respData, respErr } from "@/lib/resp";
+import { sendNotification } from "@/lib/notification";
 import Stripe from "stripe";
 
 export async function POST(req: Request) {
@@ -34,10 +35,12 @@ export async function POST(req: Request) {
       client_reference_id: user.uuid,
     });
 
+    await sendNotification(`Checkout: ${user.email} - Plan: ${planType}`);
     return respData({
       url: session.url,
     });
   } catch (error) {
+    await sendNotification(`Checkout failed: ${user.email}`);
     console.error(error);
     return respErr("checkout failed");
   }

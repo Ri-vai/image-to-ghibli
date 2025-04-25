@@ -4,16 +4,14 @@ import { insertSubscription } from "@/models/sub";
 import { insertOrder } from "@/models/order";
 import { insertCredit } from "@/models/credit";
 import { getUniSeq } from "@/lib/hash";
-
+import { sendNotification } from "@/lib/notification";
 console.log("Stripe webhook route loaded");
-
 
 export async function POST(req: Request) {
   console.log("接收到Stripe webhook请求");
   try {
     const stripePrivateKey = process.env.STRIPE_PRIVATE_KEY;
     const stripeWebhookSecret = process.env.STRIPE_WEBHOOK_SECRET;
-
 
     if (!stripePrivateKey || !stripeWebhookSecret) {
       throw new Error("invalid stripe config");
@@ -115,11 +113,11 @@ export async function POST(req: Request) {
             invoice: latestInvoice.invoice_pdf,
             paid_at: new Date().toISOString(),
           });
-          
+
           const now = new Date();
           const expiredAt = new Date(now);
           expiredAt.setMonth(now.getMonth() + 1);
-          
+
           await insertCredit({
             trans_no: getUniSeq(),
             created_at: now.toISOString(),
@@ -127,9 +125,14 @@ export async function POST(req: Request) {
             trans_type: "subscription",
             credits: 600,
             order_no: order_no,
-            expired_at: expiredAt.toISOString()
+            expired_at: expiredAt.toISOString(),
           });
-          
+
+          await sendNotification(
+            `New Subscription: ${customer.email} - Plan: ${getPlanTypeByPriceId(
+              subscription.items.data[0]?.plan.id || ""
+            )}`
+          );
           // console.log("成功添加积分记录，用户:", user_uuid, "积分:", 100);
         }
         break;
@@ -142,6 +145,7 @@ export async function POST(req: Request) {
     return respOk();
   } catch (e: any) {
     console.log("stripe notify failed: ", e);
+    await sendNotification(`Stripe notify failed: ${e.message}`);
     return Response.json(
       { error: `handle stripe notify failed: ${e.message}` },
       { status: 500 }
