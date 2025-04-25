@@ -92,7 +92,14 @@ export default function GifFaceSwap({
         }
 
         const statusResponse = await fetch(
-          `/api/gif-face-swap/status?id=${predictionId}`
+          `/api/gif-face-swap/status`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ id: predictionId }),
+          }
         );
         const statusData = await statusResponse.json();
 

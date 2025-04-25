@@ -1,12 +1,16 @@
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
 
 import { NextRequest, NextResponse } from "next/server";
 import Replicate from "replicate";
 
-export async function GET(request: NextRequest) {
+export async function POST(request: NextRequest) {
   try {
-    // 获取预测ID
-    const predictionId = request.nextUrl.searchParams.get("id");
+    // 从请求体中获取预测ID
+    const data = await request.json();
+    const predictionId = data.id;
+    
+    // 添加日志记录每次请求的时间和ID
+    console.log(`🔍 检查状态 - ID: ${predictionId}, 时间: ${new Date().toISOString()}`);
 
     if (!predictionId) {
       return NextResponse.json(
@@ -29,18 +33,27 @@ export async function GET(request: NextRequest) {
 
     // 获取预测状态
     const prediction = await replicate.predictions.get(predictionId);
+    
+    // 输出完整的prediction对象（开发调试用）
+    console.log(`🔄 Replicate预测完整响应:`, JSON.stringify(prediction, null, 2));
 
     // 如果预测完成并有输出
     if (prediction.status === "succeeded" && prediction.output) {
       console.log("✅ GIF face swap succeeded, output:", prediction.output);
 
-      // 这里我们直接返回Replicate提供的GIF URL
+      // 添加禁止缓存的响应头
       return NextResponse.json({
         success: true,
         status: prediction.status,
         output: {
           gif: prediction.output,
         },
+      }, {
+        headers: {
+          'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+          'Pragma': 'no-cache',
+          'Expires': '0',
+        }
       });
     }
     // 如果预测失败
