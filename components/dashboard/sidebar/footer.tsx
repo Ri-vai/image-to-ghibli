@@ -21,7 +21,10 @@ export default function ({ social }: { social: SocialType }) {
             <div className="cursor-pointer hover:text-primary" key={idx}>
               <Link href={item.url || ""} target={item.target || "_self"}>
                 {item.icon && <Icon name={item.icon} className="text-xl" />}
-              </Link>
+              </Link>1111
+              {item.url && (
+                  <span className="text-xs">{item.url}</span>
+              )}
             </div>
           ))}
         </div>
