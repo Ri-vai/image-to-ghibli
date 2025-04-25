@@ -405,9 +405,9 @@
         "credits": -1,
         "valid_months": 1,
         "button": {
-          "title": "Contacter les ventes",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "Obtenir Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]

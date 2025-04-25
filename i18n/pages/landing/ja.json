@@ -405,9 +405,9 @@
         "credits": -1,
         "valid_months": 1,
         "button": {
-          "title": "営業部へ問い合わせ",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "プロ版を入手",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]

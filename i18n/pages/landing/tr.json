@@ -405,9 +405,9 @@
         "credits": -1,
         "valid_months": 1,
         "button": {
-          "title": "Satış Ekibiyle İletişime Geç",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "Pro Sürüm Al",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]

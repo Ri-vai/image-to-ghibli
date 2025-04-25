@@ -405,9 +405,9 @@
         "credits": -1,
         "valid_months": 1,
         "button": {
-          "title": "영업팀 문의",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "프로 버전 받기",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]

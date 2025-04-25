@@ -405,9 +405,9 @@
         "credits": -1,
         "valid_months": 1,
         "button": {
-          "title": "Связаться с отделом продаж",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "Получить Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]

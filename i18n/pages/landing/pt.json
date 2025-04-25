@@ -405,9 +405,9 @@
         "credits": -1,
         "valid_months": 1,
         "button": {
-          "title": "Contate Vendas",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "Obter Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]

@@ -405,9 +405,9 @@
         "credits": -1,
         "valid_months": 1,
         "button": {
-          "title": "联系销售",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "获取专业版",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]

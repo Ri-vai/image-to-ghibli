@@ -405,9 +405,9 @@
         "credits": -1,
         "valid_months": 1,
         "button": {
-          "title": "Liên hệ Bộ phận Bán hàng",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "Nâng cấp Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]
