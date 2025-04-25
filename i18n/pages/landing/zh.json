@@ -349,8 +349,8 @@
         "is_featured": true,
         "tip": "最受欢迎的选择！",
         "product_id": {
-          "monthly": "每月价格1200",
-          "annual": "年度价格_10000"
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
         },
         "product_name": "专业版",
         "credits": 600,
@@ -398,8 +398,8 @@
         "is_featured": false,
         "tip": "最适合企业！",
         "product_id": {
-          "monthly": "月度价格_2400",
-          "annual": "年度价格_20000"
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
         },
         "product_name": "企业版",
         "credits": -1,

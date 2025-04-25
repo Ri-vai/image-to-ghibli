@@ -349,8 +349,8 @@
         "is_featured": true,
         "tip": "La scelta più popolare!",
         "product_id": {
-          "monthly": "prezzo_mensile_1200",
-          "annual": "prezzo_anno_10000"
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
         },
         "product_name": "Pro",
         "credits": 600,
@@ -398,8 +398,8 @@
         "is_featured": false,
         "tip": "Ideale per le aziende!",
         "product_id": {
-          "monthly": "prezzo_mensile_2400",
-          "annual": "prezzo_anno_20000"
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
         },
         "product_name": "Enterprise",
         "credits": -1,

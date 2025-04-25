@@ -349,8 +349,8 @@
         "is_featured": true,
         "tip": "Beliebteste Wahl!",
         "product_id": {
-          "monthly": "Preis_Monat_1200",
-          "annual": "preis_jahr_10000"
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
         },
         "product_name": "Profi",
         "credits": 600,
@@ -398,8 +398,8 @@
         "is_featured": false,
         "tip": "Perfekt für Unternehmen!",
         "product_id": {
-          "monthly": "preis_monat_2400",
-          "annual": "preis_jahr_20000"
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
         },
         "product_name": "Unternehmen",
         "credits": -1,

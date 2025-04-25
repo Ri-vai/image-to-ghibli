@@ -349,7 +349,7 @@
         "is_featured": true,
         "tip": "Lựa chọn phổ biến nhất!",
         "product_id": {
-          "monthly": "giá_tháng_1200",
+          "monthly": "price_month_1200",
           "annual": "price_year_10000"
         },
         "product_name": "Chuyên nghiệp",

@@ -349,8 +349,8 @@
         "is_featured": true,
         "tip": "Meest populaire keuze!",
         "product_id": {
-          "monthly": "price_maand_1200",
-          "annual": "prijs_jaar_10000"
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
         },
         "product_name": "Pro",
         "credits": 600,
