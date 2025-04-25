@@ -74,7 +74,7 @@ async function recordApiUsage() {
 
 async function verifyTurnstileToken(token: string) {
   // 如果是开发环境或Vercel环境，直接返回成功
-  if (process.env.NODE_ENV === "development" || process.env.VERCEL === "1") {
+  if (process.env.NODE_ENV === "development" || process.env.VERCEL === "true") {
     console.log("🔄 测试环境中跳过Turnstile验证");
     return true;
   }
