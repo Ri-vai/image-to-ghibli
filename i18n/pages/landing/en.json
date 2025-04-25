@@ -595,7 +595,14 @@
     "gifCompleteSoon": "This may take a while, please be patient",
     "watermarkNotice": "Insufficient credits, watermark added",
     "gifFormat": "GIF",
-
+    "wantRemoveWatermark": "Want to remove watermark?",
+    "upgradePremium": "Unlock Premium Features",
+    "watermarkDescription": "Subscribe today to enjoy all premium features of our platform.",
+    "premiumBenefits": "With subscription you get:",
+    "benefit1": "Ad-free experience",
+    "benefit2": "Watermark-free photos",
+    "benefit3": "GIF face swap capability",
+    "subscribeNow": "Subscribe Now",
     "gif": {
       "title": "GIF Face Swap - Create Hilarious GIF Face Swaps with AI Technology",
       "description": "Swap faces on GIFs with our advanced AI technology. Create funny, shareable GIFs in seconds. No registration required, free to use, unlimited swaps!",

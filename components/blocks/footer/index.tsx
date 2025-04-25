@@ -44,6 +44,9 @@ export default function Footer({ footer }: { footer: FooterType }) {
                         {item.icon && (
                           <Icon name={item.icon} className="size-4" />
                         )}
+                        {item.url && (
+                          <span className="text-xs">{item.url}</span>
+                        )}
                       </a>
                     </li>
                   ))}

@@ -24,6 +24,15 @@ import { TurnstileDialog } from "@/components/ui/turnstile-dialog";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import GifFaceSwap from "./GifFaceSwap";
 import { useSession } from "next-auth/react";
+import { Sparkles } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+  DialogFooter,
+} from "@/components/ui/dialog";
 
 type FaceSwapProps = {
   locale: string;
@@ -56,6 +65,8 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
   const [hasWatermark, setHasWatermark] = useState(false);
   const [userCredits, setUserCredits] = useState<number>(0);
   const [watermarkedImage, setWatermarkedImage] = useState<string | null>(null);
+  const [showWatermarkDialog, setShowWatermarkDialog] = useState(false);
+  const [hasShownWatermarkDialog, setHasShownWatermarkDialog] = useState(false);
 
   // 修改useEffect获取用户积分的逻辑，先判断用户是否登录
   useEffect(() => {
@@ -307,8 +318,14 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
             setResultImage(originalImageUrl);
           }
           
+          // 如果有水印，第一次自动显示弹窗
           if (statusData.hasWatermark !== undefined) {
             setHasWatermark(statusData.hasWatermark);
+            // 仅在首次发现水印时自动打开弹窗
+            if (statusData.hasWatermark && !hasShownWatermarkDialog) {
+              setShowWatermarkDialog(true);
+              setHasShownWatermarkDialog(true); // 标记已显示过
+            }
           }
           return true;
         } else if (statusData.status === "failed") {
@@ -717,6 +734,18 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
                           </Button>
                         </div>
                       )}
+
+                      {resultImage && hasWatermark && (
+                        <div className="text-center">
+                          <Button 
+                            variant="link" 
+                            className="text-xs text-amber-500"
+                            onClick={() => router.push(`/${locale}#pricing`)}
+                          >
+                            {faceSwap?.wantRemoveWatermark || "Want to remove watermark?"}
+                          </Button>
+                        </div>
+                      )}
                     </div>
                   )}
                 </div>
@@ -752,18 +781,64 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
           </TabsContent>
         </Tabs>
       </div>
-      {/* 在结果图片附近添加水印提示 */}
-      {resultImage && hasWatermark && (
-        <div className="text-center mt-2">
-          <p className="text-amber-500 text-sm flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clipRule="evenodd" />
-            </svg>
-            {faceSwap?.watermarkNotice || "Insufficient credits, watermark added"}
-          </p>
-        </div>
-      )}
       {error && <p className="mt-2 text-sm text-red-500">{error}</p>}
+      {showWatermarkDialog && (
+        <Dialog open={showWatermarkDialog} onOpenChange={setShowWatermarkDialog}>
+          <DialogContent className="sm:max-w-md">
+            <DialogHeader>
+              <DialogTitle className="flex items-center">
+                <Sparkles className="h-5 w-5 mr-2 text-amber-500" />
+                {faceSwap?.upgradePremium || "Unlock Premium Features"}
+              </DialogTitle>
+              <DialogDescription>
+                {faceSwap?.watermarkDescription || 
+                  "Subscribe today to enjoy all premium features of our platform."}
+              </DialogDescription>
+            </DialogHeader>
+            
+            <div className="grid gap-4 py-4">
+              <div className="rounded-lg bg-amber-50 p-4 border border-amber-200">
+                <h3 className="font-medium text-amber-800 mb-2">
+                  {faceSwap?.premiumBenefits || "With subscription you get:"}
+                </h3>
+                <ul className="text-amber-700 text-sm space-y-2">
+                  <li className="flex items-start">
+                    <svg className="h-5 w-5 mr-2 text-amber-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    {faceSwap?.benefit1 || "Ad-free experience"}
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="h-5 w-5 mr-2 text-amber-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    {faceSwap?.benefit2 || "Watermark-free photos"}
+                  </li>
+                  <li className="flex items-start">
+                    <svg className="h-5 w-5 mr-2 text-amber-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                    </svg>
+                    {faceSwap?.benefit3 || "GIF face swap capability"}
+                  </li>
+                </ul>
+              </div>
+            </div>
+            
+            <DialogFooter className="sm:justify-end">
+              <Button 
+                onClick={() => {
+                  setShowWatermarkDialog(false);
+                  // 导航至订阅页面
+                  router.push(`/${locale}#pricing`);
+                }}
+                className="bg-primary hover:bg-primary/90 text-primary-foreground"
+              >
+                {faceSwap?.subscribeNow || "Subscribe Now"}
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+      )}
     </section>
   );
 }
