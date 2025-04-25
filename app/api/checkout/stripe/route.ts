@@ -40,7 +40,9 @@ export async function POST(req: Request) {
       url: session.url,
     });
   } catch (error) {
-    await sendNotification(`Checkout failed: ${user.email}`);
+    await sendNotification(
+      `Checkout failed: ${user.email} Error: ${JSON.stringify(error)}`
+    );
     console.error(error);
     return respErr("checkout failed");
   }
