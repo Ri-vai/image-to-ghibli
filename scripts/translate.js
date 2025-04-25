@@ -100,6 +100,15 @@ const CONFIG = {
       "show_locale", // 显示语言
       "show_happy_users", // 显示快乐用户
       "show_badge", // 显示徽章
+
+      // 添加新的字段
+      "product_title", // 产品标题
+      "product_id", // 产品ID
+      "monthly", // 月度
+      "annual", // 年度
+      "product_name", // 产品名称
+      "credits", // 积分
+      "valid_months", // 有效月份
     ],
     // 需要翻译的字段（优先级高于 excludeKeys）
     includeKeys: [

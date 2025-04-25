@@ -266,7 +266,7 @@
     "cancel_text": "随时取消。无隐藏费用",
     "items": [
       {
-        "title": "基础版",
+        "product_title": "Free",
         "description": "适合个人使用",
         "features": [
           {
@@ -293,7 +293,7 @@
           },
           "annual": {
             "amount": 0,
-            "price": "¥0"
+            "price": "$0"
           }
         },
         "currency": "USD",
@@ -301,15 +301,15 @@
         "is_featured": false,
         "tip": "非常适合入门！",
         "product_id": {
-          "monthly": "免费",
-          "annual": "免费"
+          "monthly": "price_free",
+          "annual": "price_free"
         },
-        "product_name": "基本版",
+        "product_name": "Free",
         "credits": 0,
         "valid_months": 1
       },
       {
-        "title": "Pro",
+        "product_title": "Basic",
         "description": "适合高级用户",
         "features": [
           {
@@ -352,7 +352,7 @@
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
         },
-        "product_name": "专业版",
+        "product_name": "Basic",
         "credits": 600,
         "valid_months": 1,
         "button": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "企业版",
+        "product_title": "Pro",
         "description": "适合企业",
         "features": [
           {
@@ -401,7 +401,7 @@
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
         },
-        "product_name": "企业版",
+        "product_name": "Pro",
         "credits": -1,
         "valid_months": 1,
         "button": {
@@ -636,7 +636,7 @@
           {
             "number": "3",
             "title": "等待生成",
-            "description": "点击“交换GIF人脸”按钮，等待我们的人工智能生成带有交换人脸的新GIF。"
+            "description": "点击"交换GIF人脸"按钮，等待我们的人工智能生成带有交换人脸的新GIF。"
           }
         ]
       },

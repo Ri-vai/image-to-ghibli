@@ -266,7 +266,7 @@
     "cancel_text": "Annulla in qualsiasi momento. Nessuna tassa nascosta",
     "items": [
       {
-        "title": "Base",
+        "product_title": "Free",
         "description": "Perfetto per uso personale",
         "features": [
           {
@@ -299,17 +299,17 @@
         "currency": "USD",
         "unit": "mese",
         "is_featured": false,
-        "tip": "Ottimo per iniziare!",
+        "tip": "Perfetto per iniziare!",
         "product_id": {
-          "monthly": "prezzo_gratuito",
-          "annual": "prezzo_gratuito"
+          "monthly": "price_free",
+          "annual": "price_free"
         },
-        "product_name": "Base",
+        "product_name": "Free",
         "credits": 0,
         "valid_months": 1
       },
       {
-        "title": "Pro",
+        "product_title": "Basic",
         "description": "Per utenti avanzati",
         "features": [
           {
@@ -352,7 +352,7 @@
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
         },
-        "product_name": "Pro",
+        "product_name": "Basic",
         "credits": 600,
         "valid_months": 1,
         "button": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "Enterprise",
+        "product_title": "Pro",
         "description": "Per le aziende",
         "features": [
           {
@@ -401,7 +401,7 @@
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
         },
-        "product_name": "Enterprise",
+        "product_name": "Pro",
         "credits": -1,
         "valid_months": 1,
         "button": {

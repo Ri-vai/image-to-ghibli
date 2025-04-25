@@ -266,7 +266,7 @@
     "cancel_text": "Dilediğiniz zaman iptal edebilirsiniz. Gizli ücret yok",
     "items": [
       {
-        "title": "Temel",
+        "product_title": "Free",
         "description": "Kişisel kullanım için mükemmel",
         "features": [
           {
@@ -301,15 +301,15 @@
         "is_featured": false,
         "tip": "Başlamak için harika!",
         "product_id": {
-          "monthly": "ücretsiz_fiyat",
-          "annual": "ücretsiz_fiyat"
+          "monthly": "price_free",
+          "annual": "price_free"
         },
-        "product_name": "Temel",
+        "product_name": "Free",
         "credits": 0,
         "valid_months": 1
       },
       {
-        "title": "Pro",
+        "product_title": "Basic",
         "description": "Güçlü kullanıcılar için",
         "features": [
           {
@@ -352,7 +352,7 @@
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
         },
-        "product_name": "Pro",
+        "product_name": "Basic",
         "credits": 600,
         "valid_months": 1,
         "button": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "Enterprise",
+        "product_title": "Pro",
         "description": "İşletmeler için",
         "features": [
           {
@@ -401,7 +401,7 @@
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
         },
-        "product_name": "Kurumsal",
+        "product_name": "Pro",
         "credits": -1,
         "valid_months": 1,
         "button": {

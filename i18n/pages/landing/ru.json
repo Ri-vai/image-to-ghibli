@@ -266,7 +266,7 @@
     "cancel_text": "Отменить в любое время. Нет скрытых платежей",
     "items": [
       {
-        "title": "Базовый",
+        "product_title": "Free",
         "description": "Идеально для личного использования",
         "features": [
           {
@@ -301,15 +301,15 @@
         "is_featured": false,
         "tip": "Отлично подходит для начала!",
         "product_id": {
-          "monthly": "бесплатно",
-          "annual": "бесплатно"
+          "monthly": "price_free",
+          "annual": "price_free"
         },
-        "product_name": "Basic",
+        "product_name": "Free",
         "credits": 0,
         "valid_months": 1
       },
       {
-        "title": "Pro",
+        "product_title": "Basic",
         "description": "Для опытных пользователей",
         "features": [
           {
@@ -352,7 +352,7 @@
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
         },
-        "product_name": "Профессиональный",
+        "product_name": "Basic",
         "credits": 600,
         "valid_months": 1,
         "button": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "Enterprise",
+        "product_title": "Pro",
         "description": "Для бизнеса",
         "features": [
           {
@@ -401,7 +401,7 @@
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
         },
-        "product_name": "Предприятие",
+        "product_name": "Pro",
         "credits": -1,
         "valid_months": 1,
         "button": {

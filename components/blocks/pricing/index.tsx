@@ -144,8 +144,8 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
                 <div className="flex h-full flex-col justify-between gap-5">
                   <div>
                     <div className="flex items-center gap-2 mb-4">
-                      {item.title && (
-                        <h3 className="text-xl font-semibold">{item.title}</h3>
+                      {item.product_title && (
+                        <h3 className="text-xl font-semibold">{item.product_title}</h3>
                       )}
                       <div className="flex-1"></div>
                       {item.label && (
@@ -203,7 +203,7 @@ export default function Pricing({ pricing }: { pricing: PricingType }) {
                         disabled={isLoading}
                         onClick={() => {
                           if (isLoading) return;
-                          handleCheckout(item.title?.toLowerCase() || "");
+                          handleCheckout(item.product_name?.toLowerCase() || "");
                         }}
                       >
                         {isLoading &&

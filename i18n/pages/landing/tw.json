@@ -266,7 +266,7 @@
     "cancel_text": "隨時取消，沒有隱藏費用",
     "items": [
       {
-        "title": "基本版",
+        "product_title": "Free",
         "description": "適合個人使用",
         "features": [
           {
@@ -304,12 +304,12 @@
           "monthly": "price_free",
           "annual": "price_free"
         },
-        "product_name": "基本",
+        "product_name": "Free",
         "credits": 0,
         "valid_months": 1
       },
       {
-        "title": "Pro",
+        "product_title": "Basic",
         "description": "適合進階使用者",
         "features": [
           {
@@ -352,7 +352,7 @@
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
         },
-        "product_name": "專業版",
+        "product_name": "Basic",
         "credits": 600,
         "valid_months": 1,
         "button": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "企業版",
+        "product_title": "Pro",
         "description": "適合企業使用",
         "features": [
           {
@@ -401,7 +401,7 @@
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
         },
-        "product_name": "企業版",
+        "product_name": "Pro",
         "credits": -1,
         "valid_months": 1,
         "button": {

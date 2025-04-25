@@ -266,7 +266,7 @@
     "cancel_text": "Altijd opzegbaar. Geen verborgen kosten",
     "items": [
       {
-        "title": "Basis",
+        "product_title": "Free",
         "description": "Perfect voor persoonlijk gebruik",
         "features": [
           {
@@ -304,12 +304,12 @@
           "monthly": "price_free",
           "annual": "price_free"
         },
-        "product_name": "Basis",
+        "product_name": "Free",
         "credits": 0,
         "valid_months": 1
       },
       {
-        "title": "Pro",
+        "product_title": "Basic",
         "description": "Voor gevorderde gebruikers",
         "features": [
           {
@@ -349,10 +349,10 @@
         "is_featured": true,
         "tip": "Meest populaire keuze!",
         "product_id": {
-          "monthly": "price_month_2400",
-          "annual": "price_year_20000"
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
         },
-        "product_name": "Pro",
+        "product_name": "Basic",
         "credits": 600,
         "valid_months": 1,
         "button": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "Enterprise",
+        "product_title": "Pro",
         "description": "Voor bedrijven",
         "features": [
           {
@@ -398,10 +398,10 @@
         "is_featured": false,
         "tip": "Het beste voor bedrijven!",
         "product_id": {
-          "monthly": "prijs_maand_2400",
-          "annual": "prijs_jaar_20000"
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
         },
-        "product_name": "Enterprise",
+        "product_name": "Pro",
         "credits": -1,
         "valid_months": 1,
         "button": {

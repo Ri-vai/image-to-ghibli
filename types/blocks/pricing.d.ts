@@ -27,7 +27,7 @@ export interface PricingPlan {
 }
 
 export interface PricingItem {
-  title?: string;
+  product_title?: string;
   description?: string;
   label?: string;
   pricing: {

@@ -266,7 +266,7 @@
     "cancel_text": "언제든지 취소 가능. 숨겨진 수수료 없음",
     "items": [
       {
-        "title": "기본",
+        "product_title": "Free",
         "description": "개인 사용에 적합",
         "features": [
           {
@@ -301,15 +301,15 @@
         "is_featured": false,
         "tip": "시작하기에 좋은 플랜입니다!",
         "product_id": {
-          "monthly": "무료 가격",
-          "annual": "무료 가격"
+          "monthly": "price_free",
+          "annual": "price_free"
         },
-        "product_name": "기본",
+        "product_name": "Free",
         "credits": 0,
         "valid_months": 1
       },
       {
-        "title": "Pro",
+        "product_title": "Basic",
         "description": "파워 유저를 위한",
         "features": [
           {
@@ -352,7 +352,7 @@
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
         },
-        "product_name": "프로",
+        "product_name": "Basic",
         "credits": 600,
         "valid_months": 1,
         "button": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "엔터프라이즈",
+        "product_title": "Pro",
         "description": "기업용",
         "features": [
           {
@@ -401,7 +401,7 @@
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
         },
-        "product_name": "기업",
+        "product_name": "Pro",
         "credits": -1,
         "valid_months": 1,
         "button": {

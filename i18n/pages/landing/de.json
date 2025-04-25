@@ -266,7 +266,7 @@
     "cancel_text": "Jederzeit kündbar. Keine versteckten Gebühren",
     "items": [
       {
-        "title": "Basis",
+        "product_title": "Free",
         "description": "Perfekt für die private Nutzung",
         "features": [
           {
@@ -301,15 +301,15 @@
         "is_featured": false,
         "tip": "Perfekt für den Einstieg!",
         "product_id": {
-          "monthly": "kostenlos",
-          "annual": "kostenlos"
+          "monthly": "price_free",
+          "annual": "price_free"
         },
-        "product_name": "Grundlage",
+        "product_name": "Free",
         "credits": 0,
         "valid_months": 1
       },
       {
-        "title": "Pro",
+        "product_title": "Basic",
         "description": "Für Power-User",
         "features": [
           {
@@ -352,7 +352,7 @@
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
         },
-        "product_name": "Profi",
+        "product_name": "Basic",
         "credits": 600,
         "valid_months": 1,
         "button": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "Enterprise",
+        "product_title": "Pro",
         "description": "Für Unternehmen",
         "features": [
           {
@@ -401,7 +401,7 @@
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
         },
-        "product_name": "Unternehmen",
+        "product_name": "Pro",
         "credits": -1,
         "valid_months": 1,
         "button": {

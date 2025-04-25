@@ -266,7 +266,7 @@
     "cancel_text": "Annulez à tout moment. Pas de frais cachés",
     "items": [
       {
-        "title": "Basique",
+        "product_title": "Free",
         "description": "Parfait pour un usage personnel",
         "features": [
           {
@@ -301,15 +301,15 @@
         "is_featured": false,
         "tip": "Parfait pour commencer !",
         "product_id": {
-          "monthly": "prix_gratuit",
-          "annual": "prix_gratuit"
+          "monthly": "price_free",
+          "annual": "price_free"
         },
-        "product_name": "Basique",
+        "product_name": "Free",
         "credits": 0,
         "valid_months": 1
       },
       {
-        "title": "Pro",
+        "product_title": "Basic",
         "description": "Pour les utilisateurs avancés",
         "features": [
           {
@@ -352,7 +352,7 @@
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
         },
-        "product_name": "Pro",
+        "product_name": "Basic",
         "credits": 600,
         "valid_months": 1,
         "button": {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "Entreprise",
+        "product_title": "Pro",
         "description": "Pour les entreprises",
         "features": [
           {
@@ -401,7 +401,7 @@
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
         },
-        "product_name": "Entreprise",
+        "product_name": "Pro",
         "credits": -1,
         "valid_months": 1,
         "button": {

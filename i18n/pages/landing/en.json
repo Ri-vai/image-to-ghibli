@@ -266,7 +266,7 @@
     "cancel_text": "Cancel anytime. No hidden fees",
     "items": [
       {
-        "title": "Free",
+        "product_title": "Free",
         "description": "Perfect for trying out",
         "features": [
           {
@@ -309,7 +309,7 @@
         "valid_months": 1
       },
       {
-        "title": "Basic",
+        "product_title": "Basic",
         "description": "For regular users",
         "features": [
           {
@@ -362,7 +362,7 @@
         }
       },
       {
-        "title": "Pro",
+        "product_title": "Pro",
         "description": "For power users",
         "features": [
           {
