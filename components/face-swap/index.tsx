@@ -262,8 +262,19 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
           throw new Error("处理超时，请稍后再试");
         }
 
+        // 使用POST方法替代GET方法
         const statusResponse = await fetch(
-          `/api/photo-face-swap/status?id=${predictionId}&watermark=${data.prediction.needsWatermark ? 'true' : 'false'}`
+          `/api/photo-face-swap/status`,
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ 
+              id: predictionId,
+              watermark: data.prediction.needsWatermark 
+            }),
+          }
         );
         const statusData = await statusResponse.json();
 
