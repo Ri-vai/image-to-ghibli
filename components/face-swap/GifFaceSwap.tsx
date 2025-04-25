@@ -7,7 +7,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { useSession, signIn } from "next-auth/react";
 import { useAppContext } from "@/contexts/app";
-import { CreditsAmount } from "@/services/credit";
+// import { CreditsAmount } from "@/services/credit";
 
 type GifFaceSwapProps = {
   locale: string;
@@ -279,7 +279,7 @@ export default function GifFaceSwap({
             >
                 <>
                   {faceSwap?.swapGifFace || "Swap GIF Face"}{" "}
-                  ({CreditsAmount.GifSwapCost} credits) <ArrowRight className="ml-2 h-4 w-4" />
+                  (3 credits) <ArrowRight className="ml-2 h-4 w-4" />
                 </>
             </Button>
           </div>
