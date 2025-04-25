@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { NextRequest, NextResponse } from "next/server";
 import Replicate from "replicate";
 
@@ -31,16 +33,16 @@ export async function GET(request: NextRequest) {
     // 如果预测完成并有输出
     if (prediction.status === "succeeded" && prediction.output) {
       console.log("✅ GIF face swap succeeded, output:", prediction.output);
-      
+
       // 这里我们直接返回Replicate提供的GIF URL
       return NextResponse.json({
         success: true,
         status: prediction.status,
         output: {
-          gif: prediction.output
+          gif: prediction.output,
         },
       });
-    } 
+    }
     // 如果预测失败
     else if (prediction.status === "failed") {
       console.error("❌ GIF face swap failed:", prediction.error);
@@ -52,7 +54,7 @@ export async function GET(request: NextRequest) {
         },
         { status: 500 }
       );
-    } 
+    }
     // 如果预测仍在进行中
     else {
       console.log("🔄 GIF face swap in progress:", prediction.status);
@@ -71,4 +73,4 @@ export async function GET(request: NextRequest) {
       { status: 500 }
     );
   }
-} 
+}
