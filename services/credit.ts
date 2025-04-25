@@ -16,7 +16,7 @@ export enum CreditsTransType {
 }
 
 export enum CreditsAmount {
-  NewUserGet = 10,
+  NewUserGet = 0,
   PingCost = 1,
   GifSwapCost = 3, // gif face swap costs 3 credits
   PhotoFaceSwapCost = 1, // photo face swap costs 1 credit (no watermark)

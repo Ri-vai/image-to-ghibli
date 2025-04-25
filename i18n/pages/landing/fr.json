@@ -306,12 +306,7 @@
         },
         "product_name": "Basique",
         "credits": 0,
-        "valid_months": 1,
-        "button": {
-          "title": "Commencer",
-          "url": "/#signup",
-          "icon": "RiFlashlightFill"
-        }
+        "valid_months": 1
       },
       {
         "title": "Pro",

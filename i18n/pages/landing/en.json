@@ -306,12 +306,7 @@
         },
         "product_name": "Free",
         "credits": 0,
-        "valid_months": 1,
-        "button": {
-          "title": "Get Started",
-          "url": "/#signup",
-          "icon": "RiFlashlightFill"
-        }
+        "valid_months": 1
       },
       {
         "title": "Basic",

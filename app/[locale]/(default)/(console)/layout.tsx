@@ -16,12 +16,12 @@ export default async function ({ children }: { children: ReactNode }) {
   const sidebar: Sidebar = {
     nav: {
       items: [
-        {
-          title: t("user.my_orders"),
-          url: "/my-orders",
-          icon: "RiOrderPlayLine",
-          is_active: false,
-        },
+        // {
+        //   title: t("user.my_orders"),
+        //   url: "/my-orders",
+        //   icon: "RiOrderPlayLine",
+        //   is_active: false,
+        // },
         {
           title: t("my_credits.title"),
           url: "/my-credits",

@@ -34,11 +34,11 @@ export default function ({ user }: { user: User }) {
           {user.nickname}
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
-
+{/* 
         <DropdownMenuItem className="flex justify-center cursor-pointer">
           <Link href="/my-orders">{t("user.my_orders")}</Link>
         </DropdownMenuItem>
-        <DropdownMenuSeparator />
+        <DropdownMenuSeparator /> */}
 
         <DropdownMenuItem className="flex justify-center cursor-pointer">
           <Link href="/my-credits">{t("my_credits.title")}</Link>

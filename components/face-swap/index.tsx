@@ -202,7 +202,7 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
       const needsFrontendWatermark = () => {
         // 用户未登录或积分不足
         console.log("水印检查 - 会话状态:", session.status, "用户积分:", userCredits);
-        const needWatermark = session.status !== "authenticated" || userCredits <= 10;
+        const needWatermark = session.status !== "authenticated" || userCredits <= 0;
         console.log("需要前端水印:", needWatermark);
         return needWatermark;
       };

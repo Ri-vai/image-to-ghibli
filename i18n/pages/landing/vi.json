@@ -306,12 +306,7 @@
         },
         "product_name": "Cơ bản",
         "credits": 0,
-        "valid_months": 1,
-        "button": {
-          "title": "Bắt Đầu",
-          "url": "/#signup",
-          "icon": "RiFlashlightFill"
-        }
+        "valid_months": 1
       },
       {
         "title": "Pro",
