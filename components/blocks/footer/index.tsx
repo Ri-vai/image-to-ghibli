@@ -45,7 +45,9 @@ export default function Footer({ footer }: { footer: FooterType }) {
                           <Icon name={item.icon} className="size-4" />
                         )}
                         {item.url && (
-                          <span className="text-xs">{item.url}</span>
+                          <span className="text-xs">
+                            {item.url.replace(/^mailto:/, '')}
+                          </span>
                         )}
                       </a>
                     </li>

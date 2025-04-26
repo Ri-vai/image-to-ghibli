@@ -22,9 +22,6 @@ export default function ({ social }: { social: SocialType }) {
               <Link href={item.url || ""} target={item.target || "_self"}>
                 {item.icon && <Icon name={item.icon} className="text-xl" />}
               </Link>
-              {item.url && (
-                  <span className="text-xs">support@aifaceswap.app</span>
-              )}
             </div>
           ))}
         </div>

@@ -23,20 +23,72 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 
 import { Header as HeaderType } from "@/types/blocks/header";
 import Icon from "@/components/icon";
 import Link from "next/link";
 import LocaleToggle from "@/components/locale/toggle";
-import { Menu } from "lucide-react";
+import { Menu, Coins, Mail } from "lucide-react";
 import SignToggle from "@/components/sign/toggle";
 import ThemeToggle from "@/components/theme/toggle";
 import { cn } from "@/lib/utils";
+import { useEffect, useState } from "react";
+
+// 添加一个显示积分的组件
+function CreditsDisplay() {
+  const [credits, setCredits] = useState<number | null>(null);
+  
+  useEffect(() => {
+    async function fetchCredits() {
+      try {
+        // 使用客户端API获取积分
+        const response = await fetch('/api/user/credits');
+        if (response.ok) {
+          const data = await response.json();
+          setCredits(data.credits?.left_credits || 0);
+        } else {
+          setCredits(0);
+        }
+      } catch (error) {
+        console.error("获取积分失败:", error);
+        setCredits(0);
+      }
+    }
+    
+    fetchCredits();
+  }, []);
+
+  return (
+    <div className="flex items-center gap-1 px-3 py-1.5 bg-primary/10 rounded-full text-sm font-medium text-primary">
+      <Coins className="h-4 w-4" />
+      <span>{credits !== null ? credits : '...'}</span>
+    </div>
+  );
+}
 
 export default function Header({ header }: { header: HeaderType }) {
+  const [showApiDialog, setShowApiDialog] = useState(false);
+  
   if (header.disabled) {
     return null;
   }
+
+  // 处理API链接点击
+  const handleApiClick = (e: React.MouseEvent, url: string | undefined) => {
+    console.log("🚀 ~ handleApiClick ~ url:", url)
+    // 如果URL存在且包含"api"（不区分大小写）
+    if (url && url.toLowerCase().includes('api')) {
+      e.preventDefault();
+      setShowApiDialog(true);
+    }
+  };
 
   return (
     <section className="py-3">
@@ -127,6 +179,7 @@ export default function Header({ header }: { header: HeaderType }) {
                           )}
                           href={item.url}
                           target={item.target}
+                          onClick={(e) => handleApiClick(e, item.url)}
                         >
                           {item.icon && (
                             <Icon
@@ -144,6 +197,7 @@ export default function Header({ header }: { header: HeaderType }) {
             </div>
           </div>
           <div className="shrink-0 flex gap-2 items-center">
+            <CreditsDisplay />
             {header.show_locale && <LocaleToggle />}
             {header.show_theme && <ThemeToggle />}
 
@@ -308,6 +362,29 @@ export default function Header({ header }: { header: HeaderType }) {
           </div>
         </div>
       </div>
+
+      {/* API联系对话框 */}
+      <Dialog open={showApiDialog} onOpenChange={setShowApiDialog}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle className="flex items-center">
+              <Mail className="h-5 w-5 mr-2 text-primary" />
+              API Access
+            </DialogTitle>
+            <DialogDescription>
+              Please contact us for API access information.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="p-4 bg-muted/50 rounded-lg mt-4">
+            <div className="flex items-center">
+              <Mail className="h-4 w-4 mr-2 text-muted-foreground" />
+              <p className="text-sm font-medium">
+                Email: support@aifaceswap.app
+              </p>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
     </section>
   );
 }
