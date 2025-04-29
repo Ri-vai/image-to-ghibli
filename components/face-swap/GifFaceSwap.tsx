@@ -483,7 +483,7 @@ export default function GifFaceSwap({
                 onClick={() => {
                   setShowWatermarkDialog(false);
                   // 导航至订阅页面
-                  router.push(`/#pricing`);
+                  router.push(`/${locale}#pricing`);
                 }}
                 className="bg-primary hover:bg-primary/90 text-primary-foreground"
               >

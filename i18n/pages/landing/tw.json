@@ -19,7 +19,7 @@
         },
         {
           "title": "價格方案",
-          "url": "/#pricing",
+          "url": "#pricing",
           "icon": "MdPayment"
         },
         {
@@ -520,7 +520,7 @@
             },
             {
               "title": "價格",
-              "url": "/#pricing",
+              "url": "#pricing",
               "target": "_self"
             },
             {

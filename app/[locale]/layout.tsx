@@ -11,6 +11,7 @@ import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
 import { locales } from "@/i18n/locale";
 import { UTMHandler } from "@/lib/utm_handler";
+import ScrollToHash from "@/components/ScrollToHash";
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -90,6 +91,7 @@ export default async function RootLayout({
           fontSans.variable
         )}
       >
+        <ScrollToHash />
         <UTMHandler />
         <NextIntlClientProvider messages={messages}>
           <NextAuthSessionProvider>

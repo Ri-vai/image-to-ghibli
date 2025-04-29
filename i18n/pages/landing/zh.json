@@ -19,7 +19,7 @@
         },
         {
           "title": "价格",
-          "url": "/#pricing",
+          "url": "#pricing",
           "icon": "MdPayment"
         },
         {
@@ -336,12 +336,12 @@
         "pricing": {
           "monthly": {
             "amount": 1200,
-            "price": "¥12"
+            "price": "$12"
           },
           "annual": {
             "amount": 10000,
-            "price": "¥10",
-            "savings_text": "每年节省¥24"
+            "price": "$10",
+            "savings_text": "每年节省$24"
           }
         },
         "currency": "USD",
@@ -520,7 +520,7 @@
             },
             {
               "title": "价格",
-              "url": "/#pricing",
+              "url": "#pricing",
               "target": "_self"
             },
             {

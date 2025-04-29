@@ -19,7 +19,7 @@
         },
         {
           "title": "Preços",
-          "url": "/#pricing",
+          "url": "#pricing",
           "icon": "MdPayment"
         },
         {
@@ -520,7 +520,7 @@
             },
             {
               "title": "Preços",
-              "url": "/#pricing",
+              "url": "#pricing",
               "target": "_self"
             },
             {
