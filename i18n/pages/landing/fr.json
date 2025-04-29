@@ -557,7 +557,7 @@
   },
   "faceSwap": {
     "photoFaceSwap": "Échange de visage photo",
-    "videoFaceSwap": "Video Face Swap",
+    "videoFaceSwap": "Échange de visage vidéo",
     "multipleFaceSwap": "Échange multiple de visages",
     "gifFaceSwap": "GIF d'échange de visage",
     "uploadOriginalImage": "Télécharger l'image originale",
@@ -654,6 +654,83 @@
           {
             "title": "Invitations pour événements et fêtes",
             "description": "Créez des GIF personnalisés d'invitation pour des fêtes ou des événements afin de les rendre plus attractifs et captivants, augmentant ainsi l'intérêt pour y participer."
+          }
+        ]
+      }
+    },
+    "video": {
+      "title": "Échange de visage vidéo | AIFACESWAP.APP",
+      "description": "Transformez vos vidéos avec une technologie avancée d'échange de visage vidéo par IA.",
+      "heading": "Échange de visage vidéo IA",
+      "subheading": "Expérimentez un puissant échange de visage par IA pour les vidéos, rendant chaque image passionnante et parfaitement fluide. Remplacez instantanément les visages pour créer du contenu amusant, captivant ou professionnel.",
+      "features": {
+        "title": "Fonctionnalités de notre échange de visage vidéo",
+        "items": [
+          {
+            "title": "Remplacement de visage sans couture",
+            "description": "Notre IA avancée garantit un échange de visage fluide image par image, tout en conservant les expressions et les mouvements naturels tout au long de la vidéo."
+          },
+          {
+            "title": "Résultats de haute qualité",
+            "description": "Découvrez des échanges de visage vidéo de qualité professionnelle avec un éclairage constant, des tons de peau réalistes et une cartographie précise des traits du visage."
+          },
+          {
+            "title": "Processus convivial pour les utilisateurs",
+            "description": "Grâce à notre interface intuitive, remplacer des visages dans des vidéos est aussi simple que de télécharger votre vidéo, de sélectionner une image de visage et de laisser notre IA faire le travail."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "Comment ça marche",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Téléchargez votre vidéo",
+            "description": "Sélectionnez et téléchargez la vidéo dans laquelle vous voulez échanger un visage. Nous prenons en charge plusieurs formats vidéo courants."
+          },
+          {
+            "number": "2",
+            "title": "Téléchargez une photo de visage",
+            "description": "Choisissez une photo de visage claire pour l'échange. Pour de meilleurs résultats, utilisez une image de haute qualité avec un visage visible."
+          },
+          {
+            "number": "3",
+            "title": "Générez votre vidéo d'échange de visage",
+            "description": "En un clic seulement, notre IA traite votre vidéo pour créer un échange de visage fluide et de haute qualité."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Utilisations créatives de l'échange de visage vidéo",
+        "items": [
+          {
+            "title": "Recréation de scènes de films",
+            "description": "Plongez dans des moments iconiques de films en échangeant les visages avec vos acteurs préférés. Créez des expériences cinématographiques uniques avec vous-mêmes ou vos amis en tant que stars."
+          },
+          {
+            "title": "Contenu sur les réseaux sociaux",
+            "description": "Créez du contenu captivant et viral pour TikTok, Instagram et YouTube avec des vidéos amusantes d'échange de visages qui captent l'attention des spectateurs."
+          },
+          {
+            "title": "Vidéos pour les occasions spéciales",
+            "description": "Rendez les anniversaires, les mariages et les célébrations plus mémorables en créant des vidéos personnalisées avec des échanges de visages des invités d'honneur."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Questions fréquemment posées",
+        "items": [
+          {
+            "title": "Combien de temps faut-il pour traiter ma vidéo ?",
+            "description": "Le temps de traitement dépendra de la longueur et de la qualité de la vidéo, mais notre IA avancée vise à fournir rapidement des résultats tout en maintenant une haute qualité."
+          },
+          {
+            "title": "Quels formats vidéo seront pris en charge ?",
+            "description": "Notre service prendra en charge les formats vidéo courants, y compris MP4, MOV et AVI."
+          },
+          {
+            "title": "Y aura-t-il une limite de durée de vidéo ?",
+            "description": "Les utilisateurs gratuits auront accès à un traitement vidéo plus court, tandis que les abonnés premium bénéficieront d'une prise en charge vidéo plus longue."
           }
         ]
       }

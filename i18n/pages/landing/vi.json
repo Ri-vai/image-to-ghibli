@@ -557,7 +557,7 @@
   },
   "faceSwap": {
     "photoFaceSwap": "Hoán đổi Khuôn mặt trong Ảnh",
-    "videoFaceSwap": "Video Face Swap",
+    "videoFaceSwap": "Hoán đổi khuôn mặt video",
     "multipleFaceSwap": "Hoán đổi Nhiều Khuôn mặt",
     "gifFaceSwap": "GIF Face Swap",
     "uploadOriginalImage": "Tải lên Ảnh Gốc",
@@ -654,6 +654,83 @@
           {
             "title": "Lời mời Sự kiện và Bữa tiệc",
             "description": "Tạo GIF mời cá nhân cho bữa tiệc hoặc sự kiện để làm cho chúng trở nên hấp dẫn và lôi cuốn hơn, tăng sự quan tâm đến việc tham dự."
+          }
+        ]
+      }
+    },
+    "video": {
+      "title": "Video Face Swap | AIFACESWAP.APP",
+      "description": "Biến đổi video của bạn với công nghệ đổi khuôn mặt thông minh AI tiên tiến.",
+      "heading": "AI Video Face Swap",
+      "subheading": "Trải nghiệm công nghệ đổi khuôn mặt AI mạnh mẽ cho video, làm cho từng khung hình trở nên thú vị và mượt mà. Thay thế khuôn mặt ngay lập tức để tạo ra nội dung vui nhộn, hấp dẫn hoặc chuyên nghiệp.",
+      "features": {
+        "title": "Các tính năng của công cụ Đổi Khuôn Mặt Video",
+        "items": [
+          {
+            "title": "Thay Thế Khuôn Mặt Mượt Mà",
+            "description": "Công nghệ AI tiên tiến của chúng tôi đảm bảo việc thay đổi khuôn mặt mượt mà, từng khung hình duy trì biểu hiện tự nhiên và chuyển động suốt toàn bộ video."
+          },
+          {
+            "title": "Kết quả chất lượng cao",
+            "description": "Trải nghiệm việc trao đổi khuôn mặt video chuyên nghiệp với ánh sáng nhất quán, tông màu da thực tế và ánh xạ đặc trưng khuôn mặt chính xác."
+          },
+          {
+            "title": "Quy trình Dễ sử dụng",
+            "description": "Với giao diện trực quan của chúng tôi, việc thay đổi khuôn mặt trong video chỉ đơn giản là tải lên video của bạn, chọn hình ảnh khuôn mặt và để trí thông minh nhân tạo của chúng tôi thực hiện công việc."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "Cách Hoạt động",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Tải lên Video của Bạn",
+            "description": "Chọn và tải lên video mà bạn muốn trao đổi khuôn mặt. Chúng tôi hỗ trợ định dạng video phổ biến."
+          },
+          {
+            "number": "2",
+            "title": "Tải lên Hình ảnh Khuôn mặt",
+            "description": "Chọn một hình ảnh khuôn mặt rõ ràng để trao đổi. Để có kết quả tốt nhất, hãy sử dụng một hình ảnh chất lượng cao với khuôn mặt rõ ràng."
+          },
+          {
+            "number": "3",
+            "title": "Tạo Video Trao đổi Khuôn mặt của Bạn",
+            "description": "Chỉ với một cú nhấp chuột, trí thông minh nhân tạo của chúng tôi xử lý video của bạn để tạo ra một trao đổi khuôn mặt mượt mà, chất lượng cao."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Các Ứng dụng Sáng tạo của Trao đổi Khuôn mặt Trong Video",
+        "items": [
+          {
+            "title": "Tái hiện Cảnh phim",
+            "description": "Bước vào những cảnh phim kinh điển bằng cách đổi khuôn mặt với những diễn viên yêu thích của bạn. Tạo ra những trải nghiệm điện ảnh độc đáo với chính bạn hoặc bạn bè đóng vai chính."
+          },
+          {
+            "title": "Nội dung truyền thông xã hội",
+            "description": "Tạo ra nội dung hấp dẫn và đáng chia sẻ trên TikTok, Instagram và YouTube với những video đổi khuôn mặt giải trí thu hút sự chú ý của người xem."
+          },
+          {
+            "title": "Video dịp đặc biệt",
+            "description": "Làm cho sinh nhật, ngày cưới và các dịp kỷ niệm trở nên đáng nhớ hơn bằng cách tạo ra những video cá nhân hóa với việc đổi khuôn mặt của các vị khách danh dự."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Câu hỏi thường gặp",
+        "items": [
+          {
+            "title": "Thời gian xử lý video sẽ mất bao lâu?",
+            "description": "Thời gian xử lý sẽ phụ thuộc vào độ dài và chất lượng video, nhưng trí tuệ nhân tạo tiên tiến của chúng tôi mong muốn mang đến kết quả nhanh chóng đồng thời duy trì chất lượng cao."
+          },
+          {
+            "title": "Định dạng video nào sẽ được hỗ trợ?",
+            "description": "Dịch vụ của chúng tôi sẽ hỗ trợ các định dạng video phổ biến bao gồm MP4, MOV và AVI."
+          },
+          {
+            "title": "Có giới hạn về độ dài video không?",
+            "description": "Người dùng miễn phí sẽ có thời gian xử lý video ngắn hơn, trong khi người dùng có thuê bao cao cấp sẽ được hưởng hỗ trợ video dài hơn."
           }
         ]
       }

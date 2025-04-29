@@ -557,7 +557,7 @@
   },
   "faceSwap": {
     "photoFaceSwap": "Troca de Rosto em Foto",
-    "videoFaceSwap": "Video Face Swap",
+    "videoFaceSwap": "Troca de Rosto em Vídeo",
     "multipleFaceSwap": "Troca Múltipla de Rostos",
     "gifFaceSwap": "Troca de Rosto em GIF",
     "uploadOriginalImage": "Carregar Imagem Original",
@@ -654,6 +654,83 @@
           {
             "title": "Convites para eventos e festas",
             "description": "Crie GIFs de convite personalizados para festas ou eventos para torná-los mais envolventes e atraentes, aumentando o interesse em participar."
+          }
+        ]
+      }
+    },
+    "video": {
+      "title": "Video Face Swap | AIFACESWAP.APP",
+      "description": "Transform your videos with advanced AI video face swapping technology.",
+      "heading": "AI Video Face Swap",
+      "subheading": "Experience powerful AI face swap for videos, making every frame exciting and seamless. Instantly replace faces to create fun, engaging, or professional content.",
+      "features": {
+        "title": "Features of Our Video Face Swap",
+        "items": [
+          {
+            "title": "Seamless Face Replacement",
+            "description": "Our advanced AI ensures smooth, frame-by-frame face swapping that maintains natural expressions and movements throughout the entire video."
+          },
+          {
+            "title": "High-Quality Results",
+            "description": "Experimente trocas de rosto de vídeo de alta qualidade, com iluminação consistente, tons de pele realistas e mapeamento preciso dos traços faciais."
+          },
+          {
+            "title": "Processo Fácil de Usar",
+            "description": "Com nossa interface intuitiva, substituir rostos em vídeos é tão simples quanto fazer o upload do seu vídeo, selecionar uma imagem de rosto e deixar que nossa inteligência artificial faça o trabalho."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "Como Funciona",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Faça o Upload do Seu Vídeo",
+            "description": "Selecione e faça o upload do vídeo onde você deseja trocar de rosto. Aceitamos vários formatos de vídeo comuns."
+          },
+          {
+            "number": "2",
+            "title": "Faça o Upload de uma Foto de Rosto",
+            "description": "Escolha uma foto clara do rosto para fazer a troca. Para obter os melhores resultados, use uma imagem de alta qualidade com um rosto visível."
+          },
+          {
+            "number": "3",
+            "title": "Gere Seu Vídeo com Troca de Rosto",
+            "description": "Com apenas um clique, nossa IA processa seu vídeo para criar uma troca de rosto suave e de alta qualidade."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Usos Criativos para a Troca de Rosto em Vídeo",
+        "items": [
+          {
+            "title": "Recriação de Cena de Filme",
+            "description": "Entre em momentos icônicos do cinema trocando de rosto com seus atores favoritos. Crie experiências cinematográficas únicas com você mesmo ou com amigos como estrelas."
+          },
+          {
+            "title": "Conteúdo de Mídia Social",
+            "description": "Crie conteúdo envolvente e viral para TikTok, Instagram e YouTube com vídeos de troca de rosto divertidos que capturam a atenção dos espectadores."
+          },
+          {
+            "title": "Vídeos para Ocasiões Especiais",
+            "description": "Torne aniversários, casamentos e comemorações mais memoráveis ao criar vídeos personalizados com trocas de rosto dos convidados de honra."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Perguntas Frequentes",
+        "items": [
+          {
+            "title": "Quanto tempo levará para processar meu vídeo?",
+            "description": "O tempo de processamento dependerá do comprimento e qualidade do vídeo, mas nossa IA avançada visa entregar resultados rapidamente, mantendo alta qualidade."
+          },
+          {
+            "title": "Quais formatos de vídeo serão suportados?",
+            "description": "Nosso serviço suportará formatos de vídeo comuns, incluindo MP4, MOV e AVI."
+          },
+          {
+            "title": "Haverá um limite de duração do vídeo?",
+            "description": "Os usuários gratuitos terão acesso a processamento de vídeo de duração mais curta, enquanto os assinantes premium desfrutarão de suporte a vídeos mais longos."
           }
         ]
       }

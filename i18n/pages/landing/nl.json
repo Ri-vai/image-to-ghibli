@@ -557,7 +557,7 @@
   },
   "faceSwap": {
     "photoFaceSwap": "Foto Gezichtswissel",
-    "videoFaceSwap": "Video Face Swap",
+    "videoFaceSwap": "Video Gezichtswissel",
     "multipleFaceSwap": "Meervoudige Gezichtswissel",
     "gifFaceSwap": "GIF Gezichtswissel",
     "uploadOriginalImage": "Upload Originele Afbeelding",
@@ -654,6 +654,83 @@
           {
             "title": "Evenement- en Feestuitnodigingen",
             "description": "Maak gepersonaliseerde uitnodiging GIFs voor feesten of evenementen om ze boeiender en aantrekkelijker te maken, waardoor de interesse in deelname toeneemt."
+          }
+        ]
+      }
+    },
+    "video": {
+      "title": "Video Face Swap | AIFACESWAP.APP",
+      "description": "Transformeer je video's met geavanceerde AI-video-gezichtsverwisselingstechnologie.",
+      "heading": "AI Video Face Swap",
+      "subheading": "Ervaar krachtige AI-gezichtsverwisseling voor video's, waardoor elke frame spannend en naadloos wordt. Vervang direct gezichten om leuke, boeiende of professionele inhoud te creëren.",
+      "features": {
+        "title": "Kenmerken van onze Video Face Swap",
+        "items": [
+          {
+            "title": "Naadloze gezichtsvervanging",
+            "description": "Onze geavanceerde AI zorgt voor een soepele, frame-voor-frame gezichtsverwisseling die natuurlijke expressies en bewegingen behoudt gedurende de hele video."
+          },
+          {
+            "title": "Resultaten van hoge kwaliteit",
+            "description": "Ervaar professionele video-gezichtswisselingen met constante belichting, realistische huidtinten en nauwkeurige mapping van gezichtskenmerken."
+          },
+          {
+            "title": "Gebruiksvriendelijk proces",
+            "description": "Met onze intuïtieve interface is het vervangen van gezichten in video's net zo eenvoudig als het uploaden van uw video, het selecteren van een gezichtsafbeelding en het gebruik van onze AI om het werk te doen."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "Hoe het werkt",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Upload uw video",
+            "description": "Selecteer en upload de video waarin u een gezicht wilt verwisselen. We ondersteunen verschillende veelvoorkomende videoformaten."
+          },
+          {
+            "number": "2",
+            "title": "Upload een gezichtsfoto",
+            "description": "Kies een duidelijke gezichtsfoto om te verwisselen. Gebruik voor de beste resultaten een hoogwaardige afbeelding met een zichtbaar gezicht."
+          },
+          {
+            "number": "3",
+            "title": "Genereer uw gezichtswissel video",
+            "description": "Met slechts één klik verwerkt onze AI uw video om een ​​soepele, hoogwaardige gezichtswisseling te creëren."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Creatieve toepassingen voor video-gezichtswissel",
+        "items": [
+          {
+            "title": "Recreatie van filmscène",
+            "description": "Stap in iconische filmmomenten door gezichten te verwisselen met je favoriete acteurs. Creëer unieke filmische ervaringen met jezelf of vrienden als de sterren."
+          },
+          {
+            "title": "Inhoud voor sociale media",
+            "description": "Creëer boeiende en viraalwaardige inhoud voor TikTok, Instagram en YouTube met vermakelijke gezichtsverwisselingsvideo's die de aandacht van kijkers trekken."
+          },
+          {
+            "title": "Video's voor speciale gelegenheden",
+            "description": "Maak verjaardagen, bruiloften en vieringen onvergetelijk door gepersonaliseerde video's te maken met gezichtsverwisselingen van de eregasten."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Veelgestelde vragen",
+        "items": [
+          {
+            "title": "Hoe lang duurt het om mijn video te verwerken?",
+            "description": "De verwerkingstijd is afhankelijk van de lengte en kwaliteit van de video, maar onze geavanceerde AI streeft ernaar om snel resultaten te leveren met behoud van hoge kwaliteit."
+          },
+          {
+            "title": "Welke videoformaten worden ondersteund?",
+            "description": "Onze service ondersteunt gangbare videoformaten, waaronder MP4, MOV en AVI."
+          },
+          {
+            "title": "Zal er een limiet zijn aan de videolengte?",
+            "description": "Gratis gebruikers hebben toegang tot kortere videoverwerking, terwijl premium-abonnees kunnen genieten van langere videondersteuning."
           }
         ]
       }

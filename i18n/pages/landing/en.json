@@ -638,7 +638,7 @@
           {
             "number": "3",
             "title": "Wait for generation",
-            "description": "Click the “Swap GIF Face” button and wait for our AI to generate your new GIF with swapped faces."
+            "description": "Click the \"Swap GIF Face\" button and wait for our AI to generate your new GIF with swapped faces."
           }
         ]
       },
@@ -660,6 +660,88 @@
           }
         ]
       }
+    },
+    "video": {
+      "title": "Video Face Swap | AIFACESWAP.APP",
+      "description": "Transform your videos with advanced AI video face swapping technology.",
+      "heading": "AI Video Face Swap",
+      "subheading": "Experience powerful AI face swap for videos, making every frame exciting and seamless. Instantly replace faces to create fun, engaging, or professional content.",
+      
+      "features": {
+        "title": "Features of Our Video Face Swap",
+        "items": [
+          {
+            "title": "Seamless Face Replacement",
+            "description": "Our advanced AI ensures smooth, frame-by-frame face swapping that maintains natural expressions and movements throughout the entire video."
+          },
+          {
+            "title": "High-Quality Results",
+            "description": "Experience professional-grade video face swaps with consistent lighting, realistic skin tones, and precise facial feature mapping."
+          },
+          {
+            "title": "User-Friendly Process",
+            "description": "With our intuitive interface, replacing faces in videos is as simple as uploading your video, selecting a face image, and letting our AI do the work."
+          }
+        ]
+      },
+      
+      "howTo": {
+        "title": "How It Works",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Upload Your Video",
+            "description": "Select and upload the video where you want to swap a face. We support various common video formats."
+          },
+          {
+            "number": "2",
+            "title": "Upload a Face Photo",
+            "description": "Choose a clear face photo for swapping. For the best results, use a high-quality image with a visible face."
+          },
+          {
+            "number": "3",
+            "title": "Generate Your Face Swap Video",
+            "description": "With just one click, our AI processes your video to create a smooth, high-quality face swap."
+          }
+        ]
+      },
+      
+      "usageScenarios": {
+        "title": "Creative Uses for Video Face Swap",
+        "items": [
+          {
+            "title": "Movie Scene Recreation",
+            "description": "Step into iconic movie moments by swapping faces with your favorite actors. Create unique cinematic experiences with yourself or friends as the stars."
+          },
+          {
+            "title": "Social Media Content",
+            "description": "Create engaging and viral-worthy content for TikTok, Instagram, and YouTube with entertaining face swap videos that grab viewers' attention."
+          },
+          {
+            "title": "Special Occasion Videos",
+            "description": "Make birthdays, weddings, and celebrations more memorable by creating personalized videos with face swaps of the guests of honor."
+          }
+        ]
+      },
+      
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "title": "How long will it take to process my video?",
+            "description": "Processing time will depend on video length and quality, but our advanced AI aims to deliver results quickly while maintaining high quality."
+          },
+          {
+            "title": "What video formats will be supported?",
+            "description": "Our service will support common video formats including MP4, MOV, and AVI."
+          },
+          {
+            "title": "Will there be a limit on video length?",
+            "description": "Free users will have access to shorter video processing, while premium subscribers will enjoy longer video support."
+          }
+        ]
+      }
+      
     }
   }
 }

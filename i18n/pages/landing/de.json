@@ -557,7 +557,7 @@
   },
   "faceSwap": {
     "photoFaceSwap": "Foto-Gesichtstausch",
-    "videoFaceSwap": "Video Face Swap",
+    "videoFaceSwap": "Video-Gesichtstausch",
     "multipleFaceSwap": "Mehrfacher Gesichtstausch",
     "gifFaceSwap": "GIF Gesichtstausch",
     "uploadOriginalImage": "Originalbild hochladen",
@@ -654,6 +654,83 @@
           {
             "title": "Einladungen zu Veranstaltungen und Partys",
             "description": "Erstellen Sie personalisierte Einladungs-GIFs für Partys oder Veranstaltungen, um sie ansprechender und attraktiver zu gestalten und das Interesse an einer Teilnahme zu steigern."
+          }
+        ]
+      }
+    },
+    "video": {
+      "title": "Video Face Swap | AIFACESWAP.APP",
+      "description": "Verwandeln Sie Ihre Videos mit fortschrittlicher KI-Video-Gesichtsumtausch-Technologie.",
+      "heading": "AI-Video-Gesichtsumtausch",
+      "subheading": "Erleben Sie kraftvollen KI-Gesichtsumtausch für Videos und machen Sie jede einzelne Frame aufregend und nahtlos. Ersetzen Sie Gesichter sofort, um unterhaltsame, ansprechende oder professionelle Inhalte zu erstellen.",
+      "features": {
+        "title": "Merkmale unseres Video-Gesichtsumtauschs",
+        "items": [
+          {
+            "title": "Nahtloser Gesichtsaustausch",
+            "description": "Dank unserer fortschrittlichen KI wird ein reibungsloser, framegenauer Gesichtsaustausch gewährleistet, der natürliche Ausdrücke und Bewegungen während des gesamten Videos beibehält."
+          },
+          {
+            "title": "Hochwertige Ergebnisse",
+            "description": "Experience professional-grade video face swaps with consistent lighting, realistic skin tones, and precise facial feature mapping."
+          },
+          {
+            "title": "User-Friendly Process",
+            "description": "With our intuitive interface, replacing faces in videos is as simple as uploading your video, selecting a face image, and letting our AI do the work."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "How It Works",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Upload Your Video",
+            "description": "Select and upload the video where you want to swap a face. We support various common video formats."
+          },
+          {
+            "number": "2",
+            "title": "Upload a Face Photo",
+            "description": "Choose a clear face photo for swapping. For the best results, use a high-quality image with a visible face."
+          },
+          {
+            "number": "3",
+            "title": "Generate Your Face Swap Video",
+            "description": "With just one click, our AI processes your video to create a smooth, high-quality face swap."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Creative Uses for Video Face Swap",
+        "items": [
+          {
+            "title": "Movie Scene Recreation",
+            "description": "Treten Sie in ikonische Filmszenen ein, indem Sie Gesichter mit Ihren Lieblingsschauspielern tauschen. Erstellen Sie einzigartige Filmerlebnisse mit sich selbst oder Freunden als Stars."
+          },
+          {
+            "title": "Inhalte für soziale Medien",
+            "description": "Erstellen Sie mit unterhaltsamen Gesichtstauschvideos fesselnde und viralwürdige Inhalte für TikTok, Instagram und YouTube, die die Aufmerksamkeit der Zuschauer auf sich ziehen."
+          },
+          {
+            "title": "Videos für besondere Anlässe",
+            "description": "Machen Sie Geburtstage, Hochzeiten und Feierlichkeiten mit personalisierten Videos mit Gesichtstausch der Ehrengäste unvergesslicher."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+          {
+            "title": "Wie lange dauert die Bearbeitung meines Videos?",
+            "description": "Die Bearbeitungszeit hängt von der Länge und Qualität des Videos ab, aber unsere fortschrittliche KI strebt danach, schnell Ergebnisse zu liefern und gleichzeitig eine hohe Qualität beizubehalten."
+          },
+          {
+            "title": "Welche Videoformate werden unterstützt?",
+            "description": "Unser Service unterstützt gängige Videoformate wie MP4, MOV und AVI."
+          },
+          {
+            "title": "Gibt es eine Begrenzung für die Videolänge?",
+            "description": "Kostenlose Benutzer erhalten Zugriff auf die Bearbeitung von kürzeren Videos, während Premium-Abonnenten eine längere Videounterstützung genießen werden."
           }
         ]
       }

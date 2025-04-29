@@ -557,7 +557,7 @@
   },
   "faceSwap": {
     "photoFaceSwap": "照片换脸",
-    "videoFaceSwap": "Video Face Swap",
+    "videoFaceSwap": "视频换脸",
     "multipleFaceSwap": "多人换脸",
     "gifFaceSwap": "GIF人脸替换",
     "uploadOriginalImage": "上传原始图片",
@@ -654,6 +654,83 @@
           {
             "title": "活动和派对邀请",
             "description": "创建个性化邀请函GIF，用于聚会或活动，使其更加吸引人，增加参与的兴趣。"
+          }
+        ]
+      }
+    },
+    "video": {
+      "title": "视频人脸交换 | AIFACESWAP.APP",
+      "description": "通过先进的AI视频人脸交换技术转换您的视频。",
+      "heading": "AI视频人脸交换",
+      "subheading": "体验强大的AI视频人脸交换技术，使每一帧都充满乐趣和流畅。即刻替换面部以创造有趣、引人入胜或专业的内容。",
+      "features": {
+        "title": "我们视频人脸交换的特点",
+        "items": [
+          {
+            "title": "无缝面部替换",
+            "description": "我们先进的AI确保平滑、逐帧替换面部，同时在整个视频期间保持自然的表情和动作。"
+          },
+          {
+            "title": "高质量的结果",
+            "description": "通过稳定的光照、逼真的肤色和精确的面部特征映射，体验专业级的视频换脸。"
+          },
+          {
+            "title": "用户友好的流程",
+            "description": "通过我们直观的界面，只需上传您的视频、选择一张面部图像，让我们的人工智能完成工作。"
+          }
+        ]
+      },
+      "howTo": {
+        "title": "工作原理",
+        "steps": [
+          {
+            "number": "1",
+            "title": "上传您的视频",
+            "description": "选择并上传您想要进行换脸的视频。我们支持各种常见的视频格式。"
+          },
+          {
+            "number": "2",
+            "title": "上传一张面部照片",
+            "description": "选择一张清晰的面部照片进行换脸。为了获得最佳效果，请使用一张质量高且面部清晰可见的图像。"
+          },
+          {
+            "number": "3",
+            "title": "生成您的换脸视频",
+            "description": "只需点击一次，我们的人工智能即可处理您的视频，创建出流畅、高质量的换脸视频。"
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "视频换脸的创意用途",
+        "items": [
+          {
+            "title": "电影场景重现",
+            "description": "通过与您最喜欢的演员交换脸部，步入经典电影场景。使用自己或朋友作为明星，创造独特的电影体验。"
+          },
+          {
+            "title": "社交媒体内容",
+            "description": "创建有趣的面部互换视频，为TikTok、Instagram和YouTube制作引人注目的内容，获得病毒级传播。"
+          },
+          {
+            "title": "特别场合视频",
+            "description": "通过为庆祝活动的贵宾创建面部互换视频，使生日、婚礼和庆典更加难忘。"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常见问题",
+        "items": [
+          {
+            "title": "处理我的视频需要多长时间？",
+            "description": "处理时间取决于视频长度和质量，但我们的先进人工智能旨在快速交付结果，同时保持高质量。"
+          },
+          {
+            "title": "支持哪些视频格式？",
+            "description": "我们的服务将支持常见的视频格式，包括MP4、MOV和AVI。"
+          },
+          {
+            "title": "视频长度有限制吗？",
+            "description": "免费用户将只能处理较短的视频，而高级订阅用户将享受更长的视频支持。"
           }
         ]
       }

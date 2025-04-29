@@ -557,7 +557,7 @@
   },
   "faceSwap": {
     "photoFaceSwap": "Scambio Volto Foto",
-    "videoFaceSwap": "Video Face Swap",
+    "videoFaceSwap": "Scambio di volti in video",
     "multipleFaceSwap": "Scambio Multiplo di Volti",
     "gifFaceSwap": "Scambio di faccia in formato GIF",
     "uploadOriginalImage": "Carica Immagine Originale",
@@ -654,6 +654,83 @@
           {
             "title": "Inviti per eventi e feste",
             "description": "Crea GIF personalizzate per inviti per feste o eventi per renderli più coinvolgenti e accattivanti, aumentando l'interesse a partecipare."
+          }
+        ]
+      }
+    },
+    "video": {
+      "title": "Video Face Swap | AIFACESWAP.APP",
+      "description": "Trasforma i tuoi video con la tecnologia avanzata di sostituzione del viso tramite intelligenza artificiale.",
+      "heading": "Sostituzione del viso nei video tramite IA",
+      "subheading": "Vivi un'esperienza potente con la sostituzione del viso tramite IA per i video, rendendo ogni frame eccitante e senza soluzione di continuità. Sostituisci istantaneamente i volti per creare contenuti divertenti, coinvolgenti o professionali.",
+      "features": {
+        "title": "Caratteristiche della sostituzione del viso nei video",
+        "items": [
+          {
+            "title": "Sostituzione del viso senza soluzione di continuità",
+            "description": "La nostra IA avanzata garantisce una sostituzione del viso senza soluzione di continuità frame per frame, mantenendo espressioni naturali e movimenti per l'intero video."
+          },
+          {
+            "title": "Risultati di alta qualità",
+            "description": "Esperienza di scambi facciali video di livello professionale con illuminazione costante, tonalità della pelle realistiche e mappatura precisa delle caratteristiche facciali."
+          },
+          {
+            "title": "Processo Facile da Usare",
+            "description": "Grazie alla nostra interfaccia intuitiva, sostituire i volti nei video è semplice come caricare il tuo video, selezionare un'immagine del volto e lasciare che la nostra intelligenza artificiale faccia il lavoro."
+          }
+        ]
+      },
+      "howTo": {
+        "title": "Come Funziona",
+        "steps": [
+          {
+            "number": "1",
+            "title": "Carica il Tuo Video",
+            "description": "Seleziona e carica il video in cui desideri scambiare un volto. Supportiamo vari formati video comuni."
+          },
+          {
+            "number": "2",
+            "title": "Carica una Foto del Volto",
+            "description": "Scegli una foto chiara del volto da scambiare. Per ottenere i migliori risultati, utilizza un'immagine di alta qualità con un volto visibile."
+          },
+          {
+            "number": "3",
+            "title": "Genera il Tuo Video di Scambio Volto",
+            "description": "Con un solo clic, la nostra intelligenza artificiale elabora il tuo video per creare uno scambio facciale fluido e di alta qualità."
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "Usi Creativi per lo Scambio Facciale Video",
+        "items": [
+          {
+            "title": "Ricreazione di Scene del Film",
+            "description": "Entra in momenti iconici del cinema scambiando facce con i tuoi attori preferiti. Crea esperienze cinematografiche uniche con te stesso o con gli amici come protagonisti."
+          },
+          {
+            "title": "Contenuti per Social Media",
+            "description": "Crea contenuti coinvolgenti e virali per TikTok, Instagram e YouTube con video di scambio facciale divertenti che catturano l'attenzione degli spettatori."
+          },
+          {
+            "title": "Video per Occasioni Speciali",
+            "description": "Rendi i compleanni, i matrimoni e le celebrazioni più memorabili creando video personalizzati con scambi di facce degli ospiti onorati."
+          }
+        ]
+      },
+      "faq": {
+        "title": "Domande Frequenti",
+        "items": [
+          {
+            "title": "Quanto tempo ci vorrà per elaborare il mio video?",
+            "description": "Il tempo di elaborazione dipenderà dalla lunghezza e dalla qualità del video, ma la nostra avanzata intelligenza artificiale mira a fornire risultati rapidamente mantenendo un'alta qualità."
+          },
+          {
+            "title": "Quali formati video saranno supportati?",
+            "description": "Il nostro servizio supporterà formati video comuni, inclusi MP4, MOV e AVI."
+          },
+          {
+            "title": "Ci sarà un limite sulla lunghezza del video?",
+            "description": "Gli utenti gratuiti avranno accesso a un elaborazione video più breve, mentre gli abbonati premium potranno godere di un supporto video più lungo."
           }
         ]
       }

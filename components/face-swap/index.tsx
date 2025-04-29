@@ -108,6 +108,11 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
         ? `/${locale}/gif-face-swap` 
         : `/${locale === 'en' ? '' : locale + '/'}gif-face-swap`;
       router.push(baseUrl, { scroll: false });
+    } else if (value === "video") {
+      const baseUrl = pathname.includes('/[locale]') 
+        ? `/${locale}/video-face-swap` 
+        : `/${locale === 'en' ? '' : locale + '/'}video-face-swap`;
+      router.push(baseUrl, { scroll: false });
     } else {
       const baseUrl = pathname.includes('/[locale]') 
         ? `/${locale}` 
@@ -409,11 +414,14 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
                 <FileType className="mr-2 h-4 w-4" />
                 {faceSwap?.gifFaceSwap || "GIF Face Swap"}
               </TabsTrigger>
-              {/* 暂时隐藏视频和多人换脸选项卡
-              <TabsTrigger value="video" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
+              <TabsTrigger 
+                value="video" 
+                className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+              >
                 <Video className="mr-2 h-4 w-4" />
                 {faceSwap?.videoFaceSwap || "Video Face Swap"}
               </TabsTrigger>
+              {/* 暂时隐藏多人换脸选项卡
               <TabsTrigger value="multiple" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
                 <Users className="mr-2 h-4 w-4" />
                 {faceSwap?.multipleFaceSwap || "Multiple Face Swap"}

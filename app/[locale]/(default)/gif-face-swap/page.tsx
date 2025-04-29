@@ -10,15 +10,17 @@ export async function generateMetadata({
   params: { locale: string };
 }): Promise<Metadata> {
   const t = await getTranslations();
+  const landingPage = await getLandingPage(locale);
+  const gifData = landingPage.faceSwap?.gif || {};
   
   return {
     title: {
-      absolute: "GIF Face Swap - Create Hilarious GIF Face Swaps with AI Technology"
+      absolute: gifData.title || "GIF Face Swap - Create Hilarious GIF Face Swaps with AI Technology"
     },
-    description: "Swap faces on GIFs with our advanced AI technology. Create funny, shareable GIFs in seconds. No registration required, free to use, unlimited swaps!",
+    description: gifData.description || "Swap faces on GIFs with our advanced AI technology. Create funny, shareable GIFs in seconds. No registration required, free to use, unlimited swaps!",
     openGraph: {
-      title: "GIF Face Swap - Create Hilarious GIF Face Swaps with AI Technology",
-      description: "Swap faces on GIFs with our advanced AI technology. Create funny, shareable GIFs in seconds. No registration required, free to use, unlimited swaps!",
+      title: gifData.title || "GIF Face Swap - Create Hilarious GIF Face Swaps with AI Technology",
+      description: gifData.description || "Swap faces on GIFs with our advanced AI technology. Create funny, shareable GIFs in seconds. No registration required, free to use, unlimited swaps!",
       url: `${process.env.NEXT_PUBLIC_WEB_URL}${locale === "en" ? "" : `/${locale}`}/gif-face-swap`,
       siteName: "AI Face Swap",
       images: [
