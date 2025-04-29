@@ -748,7 +748,7 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
                           <Button 
                             variant="link" 
                             className="text-xs text-amber-500"
-                            onClick={() => router.push(`/${locale}#pricing`)}
+                            onClick={() => router.push(`/#pricing`)}
                           >
                             {faceSwap?.wantRemoveWatermark || "Want to remove watermark?"}
                           </Button>
@@ -837,7 +837,7 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
                 onClick={() => {
                   setShowWatermarkDialog(false);
                   // 导航至订阅页面
-                  router.push(`/${locale}#pricing`);
+                  router.push(`/#pricing`);
                 }}
                 className="bg-primary hover:bg-primary/90 text-primary-foreground"
               >
