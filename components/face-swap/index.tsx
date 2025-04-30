@@ -552,16 +552,16 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
                                     </div>
                                   </div>
 
-                                  <p className="font-medium text-foreground mb-1">
+                                  {/* <p className="font-medium text-foreground mb-1">
                                     {faceSwap?.swapInProgress ||
                                       "Face swap in progress..."}
-                                  </p>
+                                  </p> */}
 
                                   {/* <p className="text-sm text-muted-foreground">
                                     {faceSwap?.completeSoon ||
                                       "Will complete in a few seconds"}
                                   </p> */}
-{/* 
+                                  {/* 
                                   <div className="mt-3 text-xs text-muted-foreground animate-pulse">
                                     {faceSwap?.magicHappening ||
                                       "Magic happening..."}
