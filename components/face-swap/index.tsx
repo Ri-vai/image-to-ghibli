@@ -398,41 +398,237 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
           className="w-full"
           onValueChange={handleTabChange}
         >
-          <div className="flex justify-center mb-8">
-            <TabsList className="bg-muted/50 border border-primary/20">
+          <div className="flex justify-start sm:justify-center mb-8 overflow-x-auto pb-2 -mx-4 px-4">
+            <TabsList className="bg-muted/50 border border-primary/20 flex-nowrap min-w-max mx-auto sm:mx-0">
               <TabsTrigger
                 value="photo"
                 className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
               >
                 <ImageIcon className="mr-2 h-4 w-4" />
-                {faceSwap?.photoFaceSwap || "Photo Face Swap"}
+                <span className="whitespace-nowrap">{faceSwap?.photoFaceSwap || "Photo Face Swap"}</span>
               </TabsTrigger>
               <TabsTrigger
                 value="gif"
                 className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
               >
                 <FileType className="mr-2 h-4 w-4" />
-                {faceSwap?.gifFaceSwap || "GIF Face Swap"}
+                <span className="whitespace-nowrap">{faceSwap?.gifFaceSwap || "GIF Face Swap"}</span>
               </TabsTrigger>
               <TabsTrigger 
                 value="video" 
                 className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
               >
                 <Video className="mr-2 h-4 w-4" />
-                {faceSwap?.videoFaceSwap || "Video Face Swap"}
+                <span className="whitespace-nowrap">{faceSwap?.videoFaceSwap || "Video Face Swap"}</span>
               </TabsTrigger>
               {/* 暂时隐藏多人换脸选项卡
               <TabsTrigger value="multiple" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
                 <Users className="mr-2 h-4 w-4" />
-                {faceSwap?.multipleFaceSwap || "Multiple Face Swap"}
+                <span className="whitespace-nowrap">{faceSwap?.multipleFaceSwap || "Multiple Face Swap"}</span>
               </TabsTrigger>
               */}
             </TabsList>
           </div>
 
           <TabsContent value="photo" className="mt-0">
-            <div className="border border-dashed border-border rounded-lg p-8 bg-card/50 shadow-sm">
+            <div className="border border-dashed border-border rounded-lg p-4 sm:p-8 bg-card/50 shadow-sm">
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                {/* 在手机端显示在上方的预览区域 */}
+                <div className="lg:hidden w-full mb-6">
+                  {/* 当没有上传图片时显示示例对比图 */}
+                  {!faceImage && !bodyImage ? (
+                    <div className="relative aspect-[16/9] md:aspect-[16/10] bg-muted rounded-lg overflow-hidden w-full shadow-md group">
+                      <div className="absolute top-2 left-2 bg-background/70 text-foreground text-xs px-2 py-1 rounded">
+                        {faceSwap?.before || "Before"}
+                      </div>
+                      <div className="absolute top-2 right-2 bg-background/70 text-foreground text-xs px-2 py-1 rounded">
+                        {faceSwap?.after || "After"}
+                      </div>
+                      <Image
+                        src="/imgs/face-swap/show.png"
+                        alt="Face Swap Example"
+                        fill
+                        className="object-cover transition-transform duration-500 will-change-transform group-hover:scale-105"
+                      />
+                    </div>
+                  ) : (
+                    // 当上传了图片后显示分开的预览区域
+                    <div className="grid grid-cols-1 gap-4 w-full">
+                      {/* 如果有结果图片且启用了对比滑块，显示滑动对比效果 */}
+                      {resultImage && showCompareSlider ? (
+                        <div className="relative aspect-[16/9] w-full bg-muted rounded-lg overflow-hidden shadow-md">
+                          <ReactCompareSlider
+                            itemOne={
+                              <ReactCompareSliderImage
+                                src={bodyImage!}
+                                alt="Before"
+                                style={{
+                                  objectFit: "contain",
+                                  width: "100%",
+                                  height: "100%",
+                                  backgroundColor: "#f8f9fa",
+                                }}
+                              />
+                            }
+                            itemTwo={
+                              <ReactCompareSliderImage
+                                src={resultImage}
+                                alt="After"
+                                style={{
+                                  objectFit: "contain",
+                                  width: "100%",
+                                  height: "100%",
+                                  backgroundColor: "#f8f9fa",
+                                }}
+                              />
+                            }
+                            handle={
+                              <ReactCompareSliderHandle
+                                buttonStyle={{
+                                  backdropFilter: "none",
+                                  border: "none",
+                                  boxShadow: "0 0 0 2px rgba(0, 0, 0, 0.3)",
+                                  color: "#fff",
+                                  backgroundColor: "rgba(0, 0, 0, 0.7)",
+                                }}
+                                linesStyle={{
+                                  width: 2,
+                                  color: "rgba(0, 0, 0, 0.5)",
+                                }}
+                              />
+                            }
+                            style={{
+                              height: "100%",
+                              width: "100%",
+                              borderRadius: "0.5rem",
+                            }}
+                            className="rounded-lg"
+                          />
+                          <div className="absolute top-2 left-2 bg-background/70 text-foreground text-xs px-2 py-1 rounded">
+                            {faceSwap?.before || "Before"}
+                          </div>
+                          <div className="absolute top-2 right-2 bg-background/70 text-foreground text-xs px-2 py-1 rounded">
+                            {faceSwap?.after || "After"}
+                          </div>
+                        </div>
+                      ) : (
+                        // 否则显示原来的分开预览
+                        <div className="grid grid-cols-2 gap-4 w-full">
+                          <div className="relative aspect-square bg-muted rounded-lg overflow-hidden shadow-md group">
+                            <div className="absolute top-2 left-2 bg-background/70 text-foreground text-xs px-2 py-1 rounded">
+                              {faceSwap?.before || "Before"}
+                            </div>
+                            {bodyImage && (
+                              <Image
+                                src={bodyImage}
+                                alt="Before"
+                                fill
+                                className="object-cover transition-transform duration-500 will-change-transform group-hover:scale-105"
+                              />
+                            )}
+                          </div>
+
+                          <div className="relative aspect-square bg-muted rounded-lg overflow-hidden shadow-md group">
+                            <div className="absolute top-2 left-2 bg-background/70 text-foreground text-xs px-2 py-1 rounded">
+                              {faceSwap?.after || "After"}
+                            </div>
+                            {resultImage ? (
+                              <Image
+                                src={resultImage}
+                                alt="After"
+                                fill
+                                className="object-cover transition-transform duration-500 will-change-transform group-hover:scale-105"
+                              />
+                            ) : isLoading ? (
+                              <div className="absolute inset-0 flex flex-col items-center justify-center bg-background/50 backdrop-blur-sm">
+                                <div className="text-center p-6 rounded-lg bg-background/80 shadow-lg border border-border">
+                                  {/* 有趣的加载动画 */}
+                                  <div className="relative h-20 w-20 mx-auto mb-4">
+                                    <div className="absolute inset-0 rounded-full border-4 border-primary/20 border-t-primary animate-spin"></div>
+                                    <div className="absolute inset-0 flex items-center justify-center">
+                                      <span className="text-primary text-xl">
+                                        ✨
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <p className="font-medium text-foreground mb-1">
+                                    {faceSwap?.swapInProgress ||
+                                      "Face swap in progress..."}
+                                  </p>
+
+                                  {/* <p className="text-sm text-muted-foreground">
+                                    {faceSwap?.completeSoon ||
+                                      "Will complete in a few seconds"}
+                                  </p> */}
+{/* 
+                                  <div className="mt-3 text-xs text-muted-foreground animate-pulse">
+                                    {faceSwap?.magicHappening ||
+                                      "Magic happening..."}
+                                  </div> */}
+                                </div>
+                              </div>
+                            ) : faceImage && bodyImage ? (
+                              <div className="absolute inset-0 flex items-center justify-center">
+                                <div className="text-muted-foreground text-center">
+                                  <p>
+                                    {faceSwap?.readyToSwap || "Ready to Swap"}
+                                  </p>
+                                </div>
+                              </div>
+                            ) : (
+                              <div className="absolute inset-0 flex items-center justify-center">
+                                <div className="text-muted-foreground text-center">
+                                  <p>
+                                    {faceSwap?.uploadBothImages ||
+                                      "Upload Both Images"}
+                                  </p>
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      )}
+
+                      {resultImage && (
+                        <div className="flex justify-center space-x-4 mt-4">
+                          <Button
+                            variant="outline"
+                            className="border-border"
+                            onClick={() =>
+                              setShowCompareSlider(!showCompareSlider)
+                            }
+                          >
+                            <SplitSquareVertical className="mr-2 h-4 w-4" />
+                            {showCompareSlider
+                              ? faceSwap?.splitView
+                              : faceSwap?.compareView}
+                          </Button>
+                          <Button
+                            className="bg-primary hover:bg-primary/90 text-primary-foreground"
+                            onClick={handleDownload}
+                          >
+                            <Download className="mr-2 h-4 w-4" />{" "}
+                            {faceSwap?.download || "Download"}
+                          </Button>
+                        </div>
+                      )}
+
+                      {resultImage && hasWatermark && (
+                        <div className="text-center">
+                          <Button 
+                            variant="link" 
+                            className="text-xs text-amber-500"
+                            onClick={() => router.push(`/${locale}#pricing`)}
+                          >
+                            {faceSwap?.wantRemoveWatermark || "Want to remove watermark?"}
+                          </Button>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+
                 {/* 左侧上传区域 - 调整为flex布局，使三个步骤均匀分布 */}
                 <div className="flex flex-col justify-between h-full">
                   {/* 步骤1：上传原始图片 */}
@@ -562,8 +758,8 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
                   </div>
                 </div>
 
-                {/* 中间和右侧预览区域 - 调整为flex布局，使内容垂直居中 */}
-                <div className="col-span-2 flex items-center">
+                {/* 中间和右侧预览区域 - 在大屏幕上显示，小屏幕上隐藏 */}
+                <div className="col-span-2 hidden lg:flex items-center">
                   {/* 当没有上传图片时显示示例对比图 */}
                   {!faceImage && !bodyImage ? (
                     <div className="relative aspect-[16/9] md:aspect-[16/10] bg-muted rounded-lg overflow-hidden w-full shadow-md group">
