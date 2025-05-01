@@ -33,6 +33,7 @@ import {
   DialogDescription,
   DialogFooter,
 } from "@/components/ui/dialog";
+import { addDelayForRuPath } from "@/lib/path-delay";
 
 type FaceSwapProps = {
   locale: string;
@@ -67,6 +68,7 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
   const [watermarkedImage, setWatermarkedImage] = useState<string | null>(null);
   const [showWatermarkDialog, setShowWatermarkDialog] = useState(false);
   const [hasShownWatermarkDialog, setHasShownWatermarkDialog] = useState(false);
+  const [isProcessingRequest, setIsProcessingRequest] = useState(false);
 
   // 修改useEffect获取用户积分的逻辑，先判断用户是否登录
   useEffect(() => {
@@ -156,26 +158,38 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
   };
 
   const handleSwapFace = async () => {
-    if (!faceImage || !bodyImage) return;
-
-    // 开发环境中直接使用模拟token
-    if (process.env.NODE_ENV === "development") {
-      await handleTurnstileVerify("development_mock_token");
-      return;
+    if (!faceImage || !bodyImage || isProcessingRequest) return;
+    
+    setIsProcessingRequest(true);
+    
+    try {
+      // 开发环境中直接使用模拟token
+      if (process.env.NODE_ENV === "development") {
+        await handleTurnstileVerify("development_mock_token");
+        return;
+      }
+      
+      // 生产环境中正常显示Turnstile对话框
+      setShowTurnstile(true);
+    } catch (error) {
+      console.error("处理换脸请求时出错:", error);
+      setError(error instanceof Error ? error.message : "未知错误，请稍后再试");
+    } finally {
+      setIsProcessingRequest(false);
     }
-
-    // 生产环境中正常显示Turnstile对话框
-    setShowTurnstile(true);
   };
 
   const handleTurnstileVerify = async (token: string) => {
     setTurnstileToken(token);
     setShowTurnstile(false);
-
+    
     try {
       setIsLoading(true);
       setError(null);
-
+      
+      // 为俄语路径用户添加隐藏延迟，在加载状态中进行
+      await addDelayForRuPath(locale);
+      
       const response = await fetch("/api/photo-face-swap", {
         method: "POST",
         headers: {
