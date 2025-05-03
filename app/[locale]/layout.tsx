@@ -13,6 +13,7 @@ import { locales } from "@/i18n/locale";
 import { UTMHandler } from "@/lib/utm_handler";
 import ScrollToHash from "@/components/ScrollToHash";
 import { CreditsProvider } from "@/lib/credits-context";
+import AdScript from "@/components/ads/AdScript";
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -80,11 +81,6 @@ export default async function RootLayout({
           data-domain="aifaceswap.app"
           src="https://application-plausible-f9470a-77-37-67-93.traefik.me/js/script.js"
         ></script>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2968253568243697"
-          crossOrigin="anonymous"
-        ></script>
       </head>
       <body
         className={cn(
@@ -95,6 +91,7 @@ export default async function RootLayout({
         <ScrollToHash />
         <UTMHandler />
         <CreditsProvider>
+          <AdScript />
           <NextIntlClientProvider messages={messages}>
             <NextAuthSessionProvider>
               <AppContextProvider>
