@@ -34,6 +34,7 @@ import {
   DialogFooter,
 } from "@/components/ui/dialog";
 import { addDelayForRuPath } from "@/lib/path-delay";
+import { useCredits } from "@/lib/credits-context";
 
 type FaceSwapProps = {
   locale: string;
@@ -45,6 +46,7 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
   const pathname = usePathname();
   const router = useRouter();
   const session = useSession();
+  const { credits, refreshCredits } = useCredits();
   
   // 根据当前路径判断应该激活哪个tab
   const determineActiveTab = () => {
@@ -70,30 +72,12 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
   const [hasShownWatermarkDialog, setHasShownWatermarkDialog] = useState(false);
   const [isProcessingRequest, setIsProcessingRequest] = useState(false);
 
-  // 修改useEffect获取用户积分的逻辑，先判断用户是否登录
+  // 使用全局状态中的积分
   useEffect(() => {
-    async function fetchUserCredits() {
-      // 只有当用户已登录时才获取积分
-      if (session.status === 'authenticated') {
-        try {
-          const response = await fetch('/api/user/credits');
-          if (response.ok) {
-            const data = await response.json();
-            console.log("🚀 ~ fetchUserCredits ~ data:", data)
-            setUserCredits(data.credits?.left_credits || 0);
-          }
-        } catch (error) {
-          console.error('获取用户积分失败:', error);
-        }
-      } else {
-        console.log("用户未登录，不获取积分信息");
-        // 未登录用户积分设为0
-        setUserCredits(0);
-      }
+    if (credits) {
+      setUserCredits(credits.left_credits || 0);
     }
-    
-    fetchUserCredits();
-  }, [session.status]); // 依赖于session状态，当登录状态变化时重新获取
+  }, [credits]);
 
   // 同步组件状态和路由
   useEffect(() => {
@@ -358,6 +342,11 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
 
       await checkStatus();
       setShowCompareSlider(true);
+
+      // 在成功处理后刷新积分
+      if (!needsFrontendWatermark()) {
+        await refreshCredits();
+      }
     } catch (error) {
       console.error("Error swapping face:", error);
       setError(error instanceof Error ? error.message : "未知错误，请稍后再试");

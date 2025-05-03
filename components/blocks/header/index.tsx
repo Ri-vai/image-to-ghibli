@@ -40,35 +40,16 @@ import SignToggle from "@/components/sign/toggle";
 import ThemeToggle from "@/components/theme/toggle";
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
+import { useCredits } from "@/lib/credits-context";
 
-// 添加一个显示积分的组件
+// 替换现有的CreditsDisplay组件
 function CreditsDisplay() {
-  const [credits, setCredits] = useState<number | null>(null);
+  const { credits, loading } = useCredits();
   
-  useEffect(() => {
-    async function fetchCredits() {
-      try {
-        // 使用客户端API获取积分
-        const response = await fetch('/api/user/credits');
-        if (response.ok) {
-          const data = await response.json();
-          setCredits(data.credits?.left_credits || 0);
-        } else {
-          setCredits(0);
-        }
-      } catch (error) {
-        console.error("获取积分失败:", error);
-        setCredits(0);
-      }
-    }
-    
-    fetchCredits();
-  }, []);
-
   return (
     <div className="flex items-center gap-1 px-3 py-1.5 bg-primary/10 rounded-full text-sm font-medium text-primary">
       <Coins className="h-4 w-4" />
-      <span>{credits !== null ? credits : '...'}</span>
+      <span>{loading ? '...' : credits?.left_credits || 0}</span>
     </div>
   );
 }

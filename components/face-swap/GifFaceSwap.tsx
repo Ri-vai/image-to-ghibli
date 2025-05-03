@@ -16,7 +16,7 @@ import {
   DialogFooter
 } from "@/components/ui/dialog";
 import { useRouter } from "next/navigation";
-// import { CreditsAmount } from "@/services/credit";
+import { useCredits } from "@/lib/credits-context";
 
 type GifFaceSwapProps = {
   locale: string;
@@ -38,31 +38,16 @@ export default function GifFaceSwap({
   const [resultGif, setResultGif] = useState<string | null>(null);
   const [isLoadingGif, setIsLoadingGif] = useState(false);
   const [errorGif, setErrorGif] = useState<string | null>(null);
+  const { credits, refreshCredits } = useCredits();
   const [userCredits, setUserCredits] = useState<number>(0);
   const [showWatermarkDialog, setShowWatermarkDialog] = useState(false);
 
-  // 添加获取用户积分的useEffect
+  // 使用全局状态中的积分
   useEffect(() => {
-    async function fetchUserCredits() {
-      // 只有当用户已登录时才获取积分
-      if (status === 'authenticated') {
-        try {
-          const response = await fetch('/api/user/credits');
-          if (response.ok) {
-            const data = await response.json();
-            setUserCredits(data.credits?.left_credits || 0);
-          }
-        } catch (error) {
-          console.error('获取用户积分失败:', error);
-        }
-      } else {
-        // 未登录用户积分设为0
-        setUserCredits(0);
-      }
+    if (credits) {
+      setUserCredits(credits.left_credits || 0);
     }
-    
-    fetchUserCredits();
-  }, [status]);
+  }, [credits]);
 
   // GIF上传处理函数
   const handleTargetGifUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -151,6 +136,11 @@ export default function GifFaceSwap({
 
         if (statusData.success && statusData.output) {
           setResultGif(statusData.output.gif); // 注意这里获取的是gif属性
+        
+          console.log("🚀 ~ checkStatus ~ userCredits:", userCredits)
+          // 在成功处理后刷新积分
+            await refreshCredits();
+          
           return true;
         } else if (statusData.status === "failed") {
           throw new Error(statusData.error || "GIF换脸处理失败");
