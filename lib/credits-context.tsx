@@ -20,6 +20,18 @@ export function CreditsProvider({ children }: { children: ReactNode }) {
   const fetchCredits = async () => {
     try {
       setLoading(true);
+      // 先检查用户是否登录
+      const authCheckResponse = await fetch('/api/auth/check');
+      const authData = await authCheckResponse.json();
+      
+      // 如果用户未登录，直接设置积分为0
+      if (!authData.authenticated) {
+        setCredits({ left_credits: 0 });
+        setLoading(false);
+        return;
+      }
+      
+      // 用户已登录，获取积分
       const response = await fetch('/api/user/credits');
       if (response.ok) {
         const data = await response.json();

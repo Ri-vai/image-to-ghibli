@@ -300,14 +300,14 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
 
         if (statusData.success && statusData.output) {
           const originalImageUrl = statusData.output.image;
-          console.log("获取到原始结果图片URL:", originalImageUrl.substring(0, 50) + "...");
+          console.log("获取到原始结果图片URL");
           
           // 如果需要前端添加水印
           if (needsFrontendWatermark()) {
-            console.log("需要添加前端水印，开始处理...");
+            console.log("需要添加水印，开始处理...");
             try {
               const watermarkedUrl = await addWatermark(originalImageUrl);
-              console.log("水印添加成功，设置结果图片");
+              console.log("水印添加成功");
               setWatermarkedImage(watermarkedUrl);
               setResultImage(watermarkedUrl); // 使用带水印的图片
               setHasWatermark(true); // 设置水印状态为true
@@ -317,7 +317,7 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
               setResultImage(originalImageUrl); // 如果添加水印失败，使用原图
             }
           } else {
-            console.log("不需要添加前端水印，直接使用原始图片");
+            console.log("不需要添加水印，直接使用原始图片");
             setResultImage(originalImageUrl);
           }
           
