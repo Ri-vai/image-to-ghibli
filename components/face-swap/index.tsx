@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -71,6 +71,58 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
   const [showWatermarkDialog, setShowWatermarkDialog] = useState(false);
   const [hasShownWatermarkDialog, setHasShownWatermarkDialog] = useState(false);
   const [isProcessingRequest, setIsProcessingRequest] = useState(false);
+  
+  // 添加计数器相关状态
+  const [userCount, setUserCount] = useState(0);
+  const countRef = useRef<HTMLSpanElement>(null);
+  const countObserved = useRef(false);
+  
+  // 添加计数器动画效果
+  useEffect(() => {
+    const options = {
+      threshold: 0.1
+    };
+    
+    const handleIntersect = (entries: IntersectionObserverEntry[]) => {
+      const [entry] = entries;
+      if (entry.isIntersecting && !countObserved.current) {
+        countObserved.current = true;
+        
+        const startCount = 20000;
+        const endCount = 22000; // 稍微超过6000，显得更真实
+        const duration = 2000; // 动画持续2秒
+        const startTime = performance.now();
+        
+        const updateCount = (currentTime: number) => {
+          const elapsedTime = currentTime - startTime;
+          const progress = Math.min(elapsedTime / duration, 1);
+          // 使用easeOutExpo缓动函数让动画更自然
+          const easeProgress = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+          const currentCount = Math.floor(startCount + (endCount - startCount) * easeProgress);
+          
+          setUserCount(currentCount);
+          
+          if (progress < 1) {
+            requestAnimationFrame(updateCount);
+          }
+        };
+        
+        requestAnimationFrame(updateCount);
+      }
+    };
+    
+    const observer = new IntersectionObserver(handleIntersect, options);
+    
+    if (countRef.current) {
+      observer.observe(countRef.current);
+    }
+    
+    return () => {
+      if (countRef.current) {
+        observer.unobserve(countRef.current);
+      }
+    };
+  }, []);
 
   // 使用全局状态中的积分
   useEffect(() => {
@@ -405,27 +457,27 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
             <TabsList className="bg-muted/50 border border-primary/20 flex-nowrap min-w-max mx-auto sm:mx-0">
               <TabsTrigger
                 value="photo"
-                className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground hover:bg-primary/10 transition-colors"
               >
                 <ImageIcon className="mr-2 h-4 w-4" />
                 <span className="whitespace-nowrap">{faceSwap?.photoFaceSwap || "Photo Face Swap"}</span>
               </TabsTrigger>
               <TabsTrigger
                 value="gif"
-                className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground hover:bg-primary/10 transition-colors"
               >
                 <FileType className="mr-2 h-4 w-4" />
                 <span className="whitespace-nowrap">{faceSwap?.gifFaceSwap || "GIF Face Swap"}</span>
               </TabsTrigger>
               <TabsTrigger 
                 value="video" 
-                className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground"
+                className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground hover:bg-primary/10 transition-colors"
               >
                 <Video className="mr-2 h-4 w-4" />
                 <span className="whitespace-nowrap">{faceSwap?.videoFaceSwap || "Video Face Swap"}</span>
               </TabsTrigger>
               {/* 暂时隐藏多人换脸选项卡
-              <TabsTrigger value="multiple" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground">
+              <TabsTrigger value="multiple" className="data-[state=active]:bg-primary data-[state=active]:text-primary-foreground hover:bg-primary/10 transition-colors">
                 <Users className="mr-2 h-4 w-4" />
                 <span className="whitespace-nowrap">{faceSwap?.multipleFaceSwap || "Multiple Face Swap"}</span>
               </TabsTrigger>
@@ -987,6 +1039,22 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
             </div>
           </TabsContent>
         </Tabs>
+        
+        {/* 添加计数器组件在Tabs组件之后 - 修改为居中显示，点带闪烁效果，改为绿色 */}
+        <div className="mt-6 bg-gradient-to-r from-primary/5 to-transparent rounded-lg p-3 border border-primary/10 shadow-sm">
+          <div className="flex flex-row items-center justify-center gap-3 text-center">
+            <div className="flex items-center">
+              <Users className="h-4 w-4 mr-1.5 text-primary/70" />
+              <span ref={countRef} className="text-base font-medium text-foreground">
+                <span className="tabular-nums">{userCount.toLocaleString()}</span>+
+              </span>
+            </div>
+            <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div>
+            <div className="text-xs text-muted-foreground">
+              {faceSwap?.joinCommunity || "Become our premium subscriber"}
+            </div>
+          </div>
+        </div>
       </div>
       {error && <p className="mt-2 text-sm text-red-500">{error}</p>}
       {showWatermarkDialog && (
