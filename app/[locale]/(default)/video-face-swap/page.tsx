@@ -36,12 +36,12 @@ export async function generateMetadata({
   
   return {
     title: {
-      absolute: videoData.title || "Video Face Swap - Coming Soon | AIFACESWAP.APP"
+      absolute: videoData.title || "Video Face Swap | AIFACESWAP.APP"
     },
-    description: videoData.description || "Our video face swap feature is coming soon. Stay tuned for advanced AI video face swapping technology.",
+    description: videoData.description || "Swap faces in videos with our advanced AI technology. Easy to use, high quality results.",
     openGraph: {
-      title: videoData.title || "Video Face Swap - Coming Soon | AIFACESWAP.APP",
-      description: videoData.description || "Our video face swap feature is coming soon. Stay tuned for advanced AI video face swapping technology.",
+      title: videoData.title || "Video Face Swap | AIFACESWAP.APP",
+      description: videoData.description || "Swap faces in videos with our advanced AI technology. Easy to use, high quality results.",
       url: `${process.env.NEXT_PUBLIC_WEB_URL}${locale === "en" ? "" : `/${locale}`}/video-face-swap`,
       siteName: "AI Face Swap",
       images: [
@@ -70,15 +70,9 @@ export default async function VideoFaceSwapPage({
       <FaceSwap locale={locale} faceSwap={landingPage.faceSwap} defaultTab="video" />
       
       <div className="container mx-auto px-4 py-16">
-        <div className="flex justify-center items-center h-64 w-full border border-dashed border-border rounded-lg bg-card/50 mb-40">
-            <p className="text-muted-foreground text-xl font-medium">
-                {landingPage.faceSwap?.comingSoon || "Coming Soon"}
-            </p>
-        </div>
-        
         <div className="flex flex-col justify-center items-center text-center mb-16">
           <h1 className="text-4xl font-bold mb-6">
-            {videoData.heading || "AI Video Face Swap - Coming Soon"}
+            {videoData.heading || "AI Video Face Swap"}
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl">
             {videoData.subheading || "Experience powerful AI face swap for videos, making every frame exciting and seamless."}
@@ -86,7 +80,7 @@ export default async function VideoFaceSwapPage({
         </div>
         
         <h2 className="text-3xl font-bold mb-8">
-          {videoData.features?.title || "What to Expect from Our Video Face Swap"}
+          {videoData.features?.title || "Features of Our Video Face Swap"}
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -99,7 +93,7 @@ export default async function VideoFaceSwapPage({
         </div>
         
         <h2 className="text-3xl font-bold mb-8">
-          {videoData.howTo?.title || "How It Will Work"}
+          {videoData.howTo?.title || "How It Works"}
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8 mb-16">

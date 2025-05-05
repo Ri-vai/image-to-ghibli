@@ -23,6 +23,7 @@ import {
 import { TurnstileDialog } from "@/components/ui/turnstile-dialog";
 import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import GifFaceSwap from "./GifFaceSwap";
+import VideoFaceSwap from "./VideoFaceSwap";
 import { useSession } from "next-auth/react";
 import { Sparkles } from "lucide-react";
 import {
@@ -1022,13 +1023,14 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
             />
           </TabsContent>
 
-          {/* 保留但不显示其他选项卡内容 */}
-          <TabsContent value="video" className="mt-0 hidden">
-            <div className="flex justify-center items-center h-64 border border-dashed border-border rounded-lg bg-card/50">
-              <p className="text-muted-foreground">
-                {faceSwap?.comingSoon || "Coming Soon"}
-              </p>
-            </div>
+          {/* 修改视频选项卡内容，不再显示"Coming Soon" */}
+          <TabsContent value="video" className="mt-0">
+            <VideoFaceSwap 
+              locale={locale}
+              faceSwap={faceSwap}
+              faceImage={faceImage}
+              handleFaceImageUpload={handleFaceImageUpload}
+            />
           </TabsContent>
 
           <TabsContent value="multiple" className="mt-0 hidden">
