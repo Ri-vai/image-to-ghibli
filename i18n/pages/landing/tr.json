@@ -605,9 +605,11 @@
     "videoSwapInProgress": "Video yüz değiştirme işlemi devam ediyor...",
     "videoCompleteSoon": "Bu biraz zaman alabilir, lütfen sabırlı olun",
     "videoFormat": "M4V, MP4, MOV videoları",
-    "videoSizeLimit": "Aboneler: 1024MB / 300s / 4K",
+    "videoSizeLimit": "Aboneler: 10MB / 20s",
     "startVideoFaceSwap": "Video Yüz Takası Başlat",
     "swapVideoFace": "Video Yüz Değiştirme",
+    "videoSizeError": "Video dosyası 10MB'den büyük. Lütfen daha küçük bir video yükleyin.",
+    "videoDurationError": "Video süresi 20 saniyeyi aşıyor. Lütfen daha kısa bir video yükleyin.",
     "gif": {
       "title": "GIF Yüz Değiştirme - Yüz Değiştirme Teknolojisiyle Komik GIF'ler Oluşturun",
       "description": "GIF'lerde yüz değiştirme yapın gelişmiş yapay zeka teknolojimizle. Saniyeler içinde komik, paylaşılabilir GIF'ler oluşturun. Kayıt olmaya gerek yok, ücretsiz ve sınırsız değiştirme!",

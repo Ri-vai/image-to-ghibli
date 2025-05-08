@@ -605,9 +605,11 @@
     "videoSwapInProgress": "Video face swap in progress...",
     "videoCompleteSoon": "This may take a while, please be patient",
     "videoFormat": "M4V, MP4, MOV videos",
-    "videoSizeLimit": "Subscribers: 1024MB / 300s / 4K",
+    "videoSizeLimit": "Subscribers: 10MB / 20s",
     "startVideoFaceSwap": "Start Video Face Swap",
     "swapVideoFace": "Swap Video Face",
+    "videoSizeError": "Video file exceeds 10MB. Please upload a smaller video.",
+    "videoDurationError": "Video duration exceeds 20 seconds. Please upload a shorter video.",
     "gif": {
       "title": "GIF Face Swap - Create Hilarious GIF Face Swaps with AI Technology",
       "description": "Swap faces on GIFs with our advanced AI technology. Create funny, shareable GIFs in seconds. No registration required, free to use, unlimited swaps!",

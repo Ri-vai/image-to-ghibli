@@ -605,9 +605,11 @@
     "videoSwapInProgress": "Đang thực hiện trao đổi khuôn mặt video...",
     "videoCompleteSoon": "Quá trình này có thể mất một thời gian, vui lòng kiên nhẫn",
     "videoFormat": "Video định dạng M4V, MP4, MOV",
-    "videoSizeLimit": "Người đăng ký: 1024MB / 300s / 4K",
+    "videoSizeLimit": "Người đăng ký: 10MB / 20s",
     "startVideoFaceSwap": "Bắt đầu Hoán Đổi Khuôn Mặt Trên Video",
     "swapVideoFace": "Hoán Đổi Khuôn Mặt Trên Video",
+    "videoSizeError": "Tệp video vượt quá 10MB. Vui lòng tải lên video nhỏ hơn.",
+    "videoDurationError": "Thời lượng video vượt quá 20 giây. Vui lòng tải lên video ngắn hơn.",
     "gif": {
       "title": "GIF Face Swap - Tạo GIF Face Swap hài hước với công nghệ AI",
       "description": "Đổi khuôn mặt trên GIF bằng Công nghệ AI tiên tiến của chúng tôi. Tạo GIF hài hước, dễ chia sẻ chỉ trong vài giây. Không cần đăng ký, miễn phí sử dụng, không giới hạn đổi khuôn mặt!",

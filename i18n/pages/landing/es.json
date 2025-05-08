@@ -605,9 +605,11 @@
     "videoSwapInProgress": "Intercambio facial de video en progreso...",
     "videoCompleteSoon": "Esto puede llevar un tiempo, por favor, ten paciencia",
     "videoFormat": "Videos M4V, MP4, MOV",
-    "videoSizeLimit": "Suscriptores: 1024MB / 300s / 4K",
+    "videoSizeLimit": "Suscriptores: 10MB / 20s",
     "startVideoFaceSwap": "Iniciar intercambio facial de video",
     "swapVideoFace": "Intercambiar cara de video",
+    "videoSizeError": "El archivo de vídeo supera los 10MB. Sube un vídeo más pequeño, por favor.",
+    "videoDurationError": "La duración del vídeo supera los 20 segundos. Sube un vídeo más corto, por favor.",
     "gif": {
       "title": "Cambio de cara en GIF - Crea divertidos cambios de cara en GIF con tecnología AI",
       "description": "Cambia caras en GIFs con nuestra avanzada tecnología de inteligencia artificial. Crea GIFs divertidos y compartibles en segundos. No se requiere registro, gratis para usar, intercambios ilimitados.",

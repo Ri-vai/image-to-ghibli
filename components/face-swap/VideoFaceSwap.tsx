@@ -19,7 +19,7 @@ import { useRouter } from "next/navigation";
 import { useCredits } from "@/lib/credits-context";
 
 // 视频换脸所需积分，集中管理便于修改
-const VIDEO_FACE_SWAP_COST = 15;
+const VIDEO_FACE_SWAP_COST = 25;
 
 type VideoFaceSwapProps = {
   locale: string;
@@ -61,23 +61,60 @@ export default function VideoFaceSwap({
   const handleTargetVideoUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
-      
-      // 检查文件大小（限制为100MB）
-      if (file.size > 100 * 1024 * 1024) {
-        setErrorVideo("视频文件过大，请上传小于100MB的视频");
+      const maxSize = 10 * 1024 * 1024; // 10MB
+      const maxDuration = 20; // 20 seconds
+
+      // 检查文件大小
+      if (file.size > maxSize) {
+        setErrorVideo(faceSwap?.videoSizeError || "Video file exceeds 10MB. Please upload a smaller video.");
+        setTargetVideo(null); // 清除已选择的文件预览
+        e.target.value = ""; // 清除input的值，以便用户可以重新选择同一个文件
         return;
       }
       
       const reader = new FileReader();
       reader.onload = (event) => {
-        if (event.target) {
-          setTargetVideo(event.target.result as string);
-          // 重置结果状态
-          setResultVideo(null);
-          setErrorVideo(null);
+        if (event.target && event.target.result) {
+          const videoSrc = event.target.result as string;
+          
+          // 创建一个临时的video元素来获取时长
+          const videoElement = document.createElement('video');
+          videoElement.preload = 'metadata';
+          videoElement.onloadedmetadata = () => {
+            window.URL.revokeObjectURL(videoElement.src); // 释放对象URL
+            if (videoElement.duration > maxDuration) {
+              setErrorVideo(faceSwap?.videoDurationError || `Video duration exceeds ${maxDuration} seconds. Please upload a shorter video.`);
+              setTargetVideo(null);
+              if (e.target) e.target.value = "";
+            } else {
+              setTargetVideo(videoSrc);
+              setResultVideo(null); // 重置结果状态
+              setErrorVideo(null); // 清除之前的错误信息
+            }
+          };
+          videoElement.onerror = () => {
+            setErrorVideo("Failed to load video metadata. Please try a different video.");
+            setTargetVideo(null);
+            if (e.target) e.target.value = "";
+          };
+          videoElement.src = URL.createObjectURL(file); // 使用 createObjectURL 以便获取 metadata
         }
       };
-      reader.readAsDataURL(file);
+      reader.onerror = () => {
+        setErrorVideo("Failed to read video file.");
+        setTargetVideo(null);
+        if (e.target) e.target.value = "";
+      };
+      // 注意：这里我们不再直接读取为DataURL，因为获取时长需要Blob URL
+      // 如果后续API确实需要DataURL，可以在时长检查通过后再读取
+      // 但通常API可以直接处理Blob/File对象，或者在发送前再转换
+      // 为了简化，我们先用 videoSrc (DataURL) 设置预览，如果API需要File，则需要调整
+      // 此处我们先假设API可以处理DataURL，或者在handleSwapFaceVideo中再处理File对象
+      // 为了预览，我们还是读取DataURL
+      reader.readAsDataURL(file); 
+    } else {
+      setTargetVideo(null);
+      setErrorVideo(null);
     }
   };
 
@@ -411,7 +448,7 @@ export default function VideoFaceSwap({
                 {faceSwap?.videoFormat || "M4V, MP4, MOV videos"}
               </p>
               <p className="text-xs text-muted-foreground">
-              {faceSwap?.videoSizeLimit || "Subscribers: 1024MB / 300s / 4K"}
+              {faceSwap?.videoSizeLimit || "Subscribers: 10MB / 20s"}
               </p>
             </div>
           </div>

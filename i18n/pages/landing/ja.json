@@ -608,6 +608,8 @@
     "videoSizeLimit": "登録者: 1024MB / 300秒 / 4K",
     "startVideoFaceSwap": "ビデオフェイススワップを開始",
     "swapVideoFace": "ビデオフェイスを交換",
+    "videoSizeError": "動画ファイルが10MBを超えています。より小さい動画をアップロードしてください。",
+    "videoDurationError": "動画の長さが20秒を超えています。より短い動画をアップロードしてください。",
     "gif": {
       "title": "GIFフェイススワップ - AIテクノロジーで面白いGIFフェイススワップを作成",
       "description": "高度なAIテクノロジーを使用して、GIF上の顔をスワップします。数秒で面白く共有可能なGIFを作成できます。登録不要で無料で使い放題です！",

@@ -21,7 +21,7 @@ export enum CreditsAmount {
   PingCost = 1,
   GifSwapCost = 3, // gif face swap costs 3 credits
   PhotoFaceSwapCost = 1, // photo face swap costs 1 credit (no watermark)
-  VideoSwapCost = 15, // video face swap costs 15 credits
+  VideoSwapCost = 25, // video face swap costs 25 credits
 }
 
 export async function getUserCredits(user_uuid: string): Promise<UserCredits> {

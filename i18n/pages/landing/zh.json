@@ -605,9 +605,11 @@
     "videoSwapInProgress": "视频面部交换进行中...",
     "videoCompleteSoon": "可能需要一段时间，请耐心等待",
     "videoFormat": "M4V、MP4、MOV 视频",
-    "videoSizeLimit": "订阅者: 1024MB / 300s / 4K",
+    "videoSizeLimit": "订阅者: 10MB / 20s",
     "startVideoFaceSwap": "开始视频换脸",
     "swapVideoFace": "交换视频人脸",
+    "videoSizeError": "视频文件超过了10MB。请上传一个更小的视频。",
+    "videoDurationError": "视频时长超过了20秒。请上传一个更短的视频。",
     "gif": {
       "title": "GIF面部交换 - 利用AI技术创建搞笑的GIF面部交换",
       "description": "利用我们先进的AI技术在GIF上进行面部交换。只需几秒钟即可创建有趣、可共享的GIF动图。无需注册，免费使用，无限次交换！",

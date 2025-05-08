@@ -605,9 +605,11 @@
     "videoSwapInProgress": "Video-Gesichtstausch läuft...",
     "videoCompleteSoon": "Dies kann eine Weile dauern, bitte haben Sie Geduld",
     "videoFormat": "M4V, MP4, MOV Videos",
-    "videoSizeLimit": "Abonnenten: 1024MB / 300s / 4K",
+    "videoSizeLimit": "Abonnenten: 10MB / 20s",
     "startVideoFaceSwap": "Starten Sie das Video-Gesichtsaustausch",
     "swapVideoFace": "Gesicht im Video austauschen",
+    "videoSizeError": "Videodatei überschreitet 10 MB. Bitte laden Sie eine kleinere Videodatei hoch.",
+    "videoDurationError": "Videodauer überschreitet 20 Sekunden. Bitte laden Sie ein kürzeres Video hoch.",
     "gif": {
       "title": "GIF-Gesichtstausch – Erstellen Sie lustige GIF-Gesichtstausche mit KI-Technologie",
       "description": "Tauschen Sie Gesichter in GIFs mit unserer fortschrittlichen KI-Technologie aus. Erstellen Sie in Sekundenschnelle lustige, teilbare GIFs. Keine Registrierung erforderlich, kostenlos und unbegrenzte Tauschmöglichkeiten!",
