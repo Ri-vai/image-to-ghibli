@@ -3,6 +3,7 @@ import { LandingPage } from "@/types/pages/landing";
 import { getLandingPage } from "@/services/page";
 import { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import Pricing from "@/components/blocks/pricing";
 
 export async function generateMetadata({
   params: { locale },
@@ -129,6 +130,10 @@ export default async function GifFaceSwapPage({
           </div>
         </div>
       </div>
+
+      <section id="pricing">
+        <Pricing pricing={landingPage.pricing} />
+      </section>
     </div>
   );
 } 

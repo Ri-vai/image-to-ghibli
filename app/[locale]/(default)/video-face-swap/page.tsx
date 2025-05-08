@@ -2,6 +2,7 @@ import FaceSwap from "@/components/face-swap";
 import { LandingPage } from "@/types/pages/landing";
 import { getLandingPage } from "@/services/page";
 import { Metadata } from "next";
+import Pricing from "@/components/blocks/pricing";
 import { getTranslations } from "next-intl/server";
 
 interface VideoFeature {
@@ -136,6 +137,10 @@ export default async function VideoFaceSwapPage({
           </div>
         </div>
       </div>
+      
+      <section id="pricing">
+        <Pricing pricing={landingPage.pricing} />
+      </section>
     </div>
   );
 }

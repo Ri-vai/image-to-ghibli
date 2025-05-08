@@ -250,7 +250,7 @@ export async function POST(req: NextRequest) {
 
     try {
       const prediction = await replicate.predictions.create({
-        version: "11b6bf0f4e14d808f655e87e5448233cceff10a45f659d71539cafb7163b2e84",
+        version: "02fe0b57b6505cc04fd71204787d45392a25b26bd8d2c5af4ff4c932e138d4fb",
         input: input,
       });
       console.log("✅ 收到预测响应", prediction);

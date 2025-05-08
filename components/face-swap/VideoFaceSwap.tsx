@@ -18,6 +18,9 @@ import {
 import { useRouter } from "next/navigation";
 import { useCredits } from "@/lib/credits-context";
 
+// 视频换脸所需积分，集中管理便于修改
+const VIDEO_FACE_SWAP_COST = 15;
+
 type VideoFaceSwapProps = {
   locale: string;
   faceSwap?: any;
@@ -123,8 +126,8 @@ export default function VideoFaceSwap({
       return;
     }
     
-    // 检查用户积分是否足够（视频需要5积分）
-    if (userCredits < 5) {
+    // 检查用户积分是否足够
+    if (userCredits < VIDEO_FACE_SWAP_COST) {
       setShowWatermarkDialog(true);
       return;
     }
@@ -483,7 +486,7 @@ export default function VideoFaceSwap({
             >
                 <>
                   {faceSwap?.swapVideoFace || "Swap Video Face"}{" "}
-                  (5 credits) <ArrowRight className="ml-2 h-4 w-4" />
+                  ({VIDEO_FACE_SWAP_COST} credits) <ArrowRight className="ml-2 h-4 w-4" />
                 </>
             </Button>
           </div>
