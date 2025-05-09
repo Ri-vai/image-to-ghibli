@@ -325,6 +325,10 @@
             "included": true
           },
           {
+            "text": "或每月24個視頻人臉交換",
+            "included": true
+          },
+          {
             "text": "優先處理",
             "included": true
           },
@@ -366,19 +370,23 @@
         "description": "適合企業使用",
         "features": [
           {
-            "text": "Unlimited watermark-free face swaps",
+            "text": "無限水印人臉交換",
             "included": true
           },
           {
-            "text": "Unlimited GIF face swaps",
+            "text": "無限GIF人臉交換",
             "included": true
           },
           {
-            "text": "Ultra-fast processing",
+            "text": "64視頻人臉交換",
             "included": true
           },
           {
-            "text": "24/7 priority support",
+            "text": "超快處理",
+            "included": true
+          },
+          {
+            "text": "24/7優先支援",
             "included": true
           }
         ],

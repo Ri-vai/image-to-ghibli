@@ -313,23 +313,27 @@
         "description": "للمستخدمين المحترفين",
         "features": [
           {
-            "text": "600 credits per month",
+            "text": "600 رصيد شهريًا",
             "included": true
           },
           {
-            "text": "600 watermark-free face swaps",
+            "text": "600 عملية تبديل وجه بدون علامة مائية",
             "included": true
           },
           {
-            "text": "or 200 GIF face swaps",
+            "text": "أو 200 عملية تبديل وجه لصور GIF",
             "included": true
           },
           {
-            "text": "Priority processing",
+            "text": "أو 24 عملية تبديل وجه للفيديو",
             "included": true
           },
           {
-            "text": "Priority support",
+            "text": "معالجة ذات أولوية",
+            "included": true
+          },
+          {
+            "text": "دعم ذو أولوية",
             "included": true
           }
         ],
@@ -371,6 +375,10 @@
           },
           {
             "text": "تبديل الوجوه المتحركة غير المحدود",
+            "included": true
+          },
+          {
+            "text": "64 عملية تبديل وجه في الفيديو",
             "included": true
           },
           {
