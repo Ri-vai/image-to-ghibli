@@ -402,7 +402,7 @@
           "annual": "price_year_20000"
         },
         "product_name": "Pro",
-        "credits": -1,
+        "credits": 1600,
         "valid_months": 1,
         "button": {
           "title": "取得專業版",

@@ -8,6 +8,7 @@ import { findUserByUuid } from "@/models/user";
 import { getSnowId } from "@/lib/hash";
 
 export async function POST(req: Request) {
+  console.log("[/api/checkout] Received POST request");
   try {
     let {
       credits,
@@ -19,6 +20,7 @@ export async function POST(req: Request) {
       valid_months,
       cancel_url,
     } = await req.json();
+    console.log("[/api/checkout] Parsed request body:", { credits, currency, amount, interval, product_id, product_name, valid_months, cancel_url });
 
     if (!cancel_url) {
       cancel_url = `${
@@ -46,7 +48,9 @@ export async function POST(req: Request) {
     }
 
     const user_uuid = await getUserUuid();
+    console.log("[/api/checkout] User UUID:", user_uuid);
     if (!user_uuid) {
+      console.error("[/api/checkout] Error: No auth, please sign-in");
       return respErr("no auth, please sign-in");
     }
 
@@ -57,11 +61,14 @@ export async function POST(req: Request) {
         user_email = user.email;
       }
     }
+    console.log("[/api/checkout] User Email:", user_email);
     if (!user_email) {
+      console.error("[/api/checkout] Error: Invalid user");
       return respErr("invalid user");
     }
 
     const order_no = getSnowId();
+    console.log("[/api/checkout] Generated Order No:", order_no);
 
     const currentDate = new Date();
     const created_at = currentDate.toISOString();
@@ -157,8 +164,19 @@ export async function POST(req: Request) {
     }
 
     const order_detail = JSON.stringify(options);
+    console.log("[/api/checkout] Stripe session create options (partially logged for brevity):");
+    console.log({ 
+        mode: options.mode, 
+        success_url: options.success_url, 
+        cancel_url: options.cancel_url,
+        customer_email: options.customer_email,
+        line_items_count: options.line_items?.length,
+        metadata_keys: options.metadata ? Object.keys(options.metadata) : 'N/A'
+    });
+    console.log("[/api/checkout] Full metadata being sent to Stripe:", options.metadata);
 
     const session = await stripe.checkout.sessions.create(options);
+    console.log("[/api/checkout] Stripe session created successfully. Session ID:", session.id);
 
     const stripe_session_id = session.id;
     // await updateOrder(order_no, {
@@ -172,7 +190,7 @@ export async function POST(req: Request) {
       session_id: stripe_session_id,
     });
   } catch (e: any) {
-    console.log("checkout failed: ", e);
+    console.error("[/api/checkout] Checkout failed: ", e);
     return respErr("checkout failed: " + e.message);
   }
 }
