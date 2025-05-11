@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "AI Face Swap - La mejor APP gratuita de intercambio de rostros con IA",
+    "description": "Mejora tus imágenes con AI FaceSwap. Intercambio de rostros rápido, seguro y de alta calidad para la creatividad y diversión.",
+    "keywords": ""
+  },
+  "user": {
+    "sign_in": "Iniciar Sesión",
+    "sign_out": "Cerrar Sesión",
+    "credits": "Créditos",
+    "api_keys": "Claves API",
+    "my_orders": "Mis Pedidos"
+  },
+  "sign_modal": {
+    "sign_in_title": "Iniciar Sesión",
+    "sign_in_description": "Inicia sesión en tu cuenta",
+    "sign_up_title": "Registrarse",
+    "sign_up_description": "Crear una cuenta",
+    "email_title": "Correo electrónico",
+    "email_placeholder": "Ingresa tu correo electrónico aquí",
+    "password_title": "Contraseña",
+    "password_placeholder": "Ingrese su contraseña aquí",
+    "forgot_password": "¿Olvidó su contraseña?",
+    "or": "O",
+    "continue": "Continuar",
+    "no_account": "¿No tiene una cuenta?",
+    "email_sign_in": "Iniciar sesión con correo electrónico",
+    "google_sign_in": "Iniciar sesión con Google",
+    "github_sign_in": "Iniciar sesión con GitHub",
+    "close_title": "Cerrar",
+    "cancel_title": "Cancelar"
+  },
+  "my_orders": {
+    "title": "Mis Pedidos",
+    "description": "pedidos pagados con ShipAny.",
+    "no_orders": "No se encontraron pedidos",
+    "tip": "",
+    "activate_order": "Activar Pedido",
+    "actived": "Activado",
+    "join_discord": "Unirse a Discord",
+    "read_docs": "Leer Documentación",
+    "table": {
+      "order_no": "Número de Orden",
+      "email": "Correo electrónico",
+      "product_name": "Nombre del Producto",
+      "amount": "Cantidad",
+      "paid_at": "Pagado El",
+      "github_username": "Nombre de Usuario de GitHub",
+      "status": "Estado"
+    }
+  },
+  "my_credits": {
+    "title": "Mis Créditos",
+    "left_tip": "créditos restantes: {left_credits}",
+    "no_credits": "No hay registros de créditos",
+    "recharge": "Recargar",
+    "table": {
+      "trans_no": "Número de Transacción",
+      "trans_type": "Tipo de Transacción",
+      "credits": "Créditos",
+      "updated_at": "Actualizado El",
+      "status": "Estado"
+    }
+  },
+  "api_keys": {
+    "title": "Claves API",
+    "tip": "Por favor, mantenga su clave API segura para evitar filtraciones",
+    "no_api_keys": "Sin Claves API",
+    "create_api_key": "Crear Clave API",
+    "table": {
+      "name": "Nombre",
+      "key": "Clave",
+      "created_at": "Creado El"
+    },
+    "form": {
+      "name": "Nombre",
+      "name_placeholder": "Nombre de Clave API",
+      "submit": "Enviar"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Noticias, recursos y actualizaciones sobre ShipAny",
+    "read_more_text": "Leer Más"
+  },
+  "turnstile": {
+    "verifyYouAreHuman": "Verifica que eres humano"
+  }
+}

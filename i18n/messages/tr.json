@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "AI Face Swap - En İyi Ücretsiz Çevrimiçi AI Yüz Değiştirme Uygulaması",
+    "description": "Görüntülerinizi AI FaceSwap ile yükseltin. Yaratıcılık ve eğlence için hızlı, güvenli ve yüksek kaliteli yüz değiştirme.",
+    "keywords": ""
+  },
+  "user": {
+    "sign_in": "Giriş Yap",
+    "sign_out": "Çıkış Yap",
+    "credits": "Krediler",
+    "api_keys": "API Anahtarları",
+    "my_orders": "Siparişlerim"
+  },
+  "sign_modal": {
+    "sign_in_title": "Giriş Yap",
+    "sign_in_description": "Hesabınıza giriş yapın",
+    "sign_up_title": "Kayıt Ol",
+    "sign_up_description": "Hesap oluştur",
+    "email_title": "E-posta",
+    "email_placeholder": "E-postanızı buraya girin",
+    "password_title": "Şifre",
+    "password_placeholder": "Şifrenizi buraya girin",
+    "forgot_password": "Şifremi unuttum?",
+    "or": "Veya",
+    "continue": "Devam et",
+    "no_account": "Hesabınız yok mu?",
+    "email_sign_in": "E-posta ile giriş yap",
+    "google_sign_in": "Google ile giriş yap",
+    "github_sign_in": "GitHub ile giriş yap",
+    "close_title": "Kapat",
+    "cancel_title": "İptal"
+  },
+  "my_orders": {
+    "title": "Siparişlerim",
+    "description": "ShipAny ile ödenen siparişler.",
+    "no_orders": "Sipariş bulunamadı",
+    "tip": "",
+    "activate_order": "Siparişi Etkinleştir",
+    "actived": "Aktifleştirildi",
+    "join_discord": "Discord'a Katıl",
+    "read_docs": "Belgeleri Oku",
+    "table": {
+      "order_no": "Sipariş No",
+      "email": "E-posta",
+      "product_name": "Ürün Adı",
+      "amount": "Tutar",
+      "paid_at": "Ödeme Tarihi",
+      "github_username": "GitHub Kullanıcı Adı",
+      "status": "Durum"
+    }
+  },
+  "my_credits": {
+    "title": "Kredilerim",
+    "left_tip": "kalan krediler: {left_credits}",
+    "no_credits": "Kredi kaydı yok",
+    "recharge": "Yeniden Yükle",
+    "table": {
+      "trans_no": "İşlem No",
+      "trans_type": "İşlem Türü",
+      "credits": "Krediler",
+      "updated_at": "Güncellenme Tarihi",
+      "status": "Durum"
+    }
+  },
+  "api_keys": {
+    "title": "API Anahtarları",
+    "tip": "Sızıntıları önlemek için lütfen API anahtarınızı güvende tutun",
+    "no_api_keys": "API Anahtarı Yok",
+    "create_api_key": "API Anahtarı Oluştur",
+    "table": {
+      "name": "İsim",
+      "key": "Anahtar",
+      "created_at": "Oluşturulma Tarihi"
+    },
+    "form": {
+      "name": "İsim",
+      "name_placeholder": "API Anahtar İsmi",
+      "submit": "Gönder"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "ShipAny hakkında haberler, kaynaklar ve güncellemeler",
+    "read_more_text": "Devamını Oku"
+  },
+  "turnstile": {
+    "verifyYouAreHuman": "İnsan olduğunuzu doğrulayın"
+  }
+}

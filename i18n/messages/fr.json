@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "AI Face Swap - La meilleure application gratuite d'échange de visage AI en ligne",
+    "description": "Sublimez vos images avec AI FaceSwap. Échange de visage rapide, sécurisé et de haute qualité pour la créativité et le divertissement.",
+    "keywords": ""
+  },
+  "user": {
+    "sign_in": "Se connecter",
+    "sign_out": "Se déconnecter",
+    "credits": "Crédits",
+    "api_keys": "Clés API",
+    "my_orders": "Mes commandes"
+  },
+  "sign_modal": {
+    "sign_in_title": "Se connecter",
+    "sign_in_description": "Connectez-vous à votre compte",
+    "sign_up_title": "S'inscrire",
+    "sign_up_description": "Créer un compte",
+    "email_title": "Email",
+    "email_placeholder": "Saisissez votre email ici",
+    "password_title": "Mot de passe",
+    "password_placeholder": "Entrez votre mot de passe ici",
+    "forgot_password": "Mot de passe oublié ?",
+    "or": "Ou",
+    "continue": "Continuer",
+    "no_account": "Vous n'avez pas de compte ?",
+    "email_sign_in": "Se connecter avec l'e-mail",
+    "google_sign_in": "Se connecter avec Google",
+    "github_sign_in": "Se connecter avec GitHub",
+    "close_title": "Fermer",
+    "cancel_title": "Annuler"
+  },
+  "my_orders": {
+    "title": "Mes Commandes",
+    "description": "commandes payées avec ShipAny.",
+    "no_orders": "Aucune commande trouvée",
+    "tip": "",
+    "activate_order": "Activer la Commande",
+    "actived": "Activé",
+    "join_discord": "Rejoindre Discord",
+    "read_docs": "Lire la Documentation",
+    "table": {
+      "order_no": "N° de Commande",
+      "email": "E-mail",
+      "product_name": "Nom du Produit",
+      "amount": "Montant",
+      "paid_at": "Payé le",
+      "github_username": "Nom d'utilisateur GitHub",
+      "status": "Statut"
+    }
+  },
+  "my_credits": {
+    "title": "Mes Crédits",
+    "left_tip": "crédits restants : {left_credits}",
+    "no_credits": "Aucun historique de crédits",
+    "recharge": "Recharger",
+    "table": {
+      "trans_no": "N° de Transaction",
+      "trans_type": "Type de transaction",
+      "credits": "Crédits",
+      "updated_at": "Mis à jour le",
+      "status": "Statut"
+    }
+  },
+  "api_keys": {
+    "title": "Clés API",
+    "tip": "Veuillez garder votre clé API en sécurité pour éviter les fuites",
+    "no_api_keys": "Aucune clé API",
+    "create_api_key": "Créer une clé API",
+    "table": {
+      "name": "Nom",
+      "key": "Clé",
+      "created_at": "Créé le"
+    },
+    "form": {
+      "name": "Nom",
+      "name_placeholder": "Nom de la clé API",
+      "submit": "Soumettre"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Nouvelles, ressources et mises à jour à propos de ShipAny",
+    "read_more_text": "Lire la suite"
+  },
+  "turnstile": {
+    "verifyYouAreHuman": "Vérifiez que vous êtes humain"
+  }
+}

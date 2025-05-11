@@ -1,0 +1,759 @@
+{
+  "template": "ai-face-swap",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "AI换脸",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI换脸"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "价格",
+          "url": "#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "API",
+          "url": "/#api",
+          "icon": "BiCode"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "立即体验",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "最佳在线免费AI换脸工具",
+    "highlight_text": "AI换脸",
+    "description": "进入创新的AI换脸领域，在这里尖端技术与无限娱乐完美结合。轻松修改图片和视频，开启无与伦比的数字可能性。",
+    "announcement": {
+      "label": "AI",
+      "title": "免费且安全",
+      "url": "/#feature"
+    },
+    "buttons": [
+      {
+        "title": "立即尝试",
+        "url": "/#try",
+        "target": "_self",
+        "variant": "default",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "查看示例",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "video": {
+      "src": "/hero-video.mp4",
+      "type": "video/mp4",
+      "autoplay": true,
+      "loop": true,
+      "muted": true
+    },
+    "tip": "",
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "体验AI换脸的魔力",
+    "label": "工作原理",
+    "description": "使用我们先进的AI换脸技术转换任何照片。快速、准确且安全。",
+    "image": {
+      "src": "/imgs/introduce.png"
+    },
+    "items": [
+      {
+        "title": "上传你的照片",
+        "description": "只需上传源图片和要替换的人脸即可。",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "AI处理",
+        "description": "我们的AI分析并处理图像，实现完美的人脸替换。",
+        "icon": "RiAiGenerate"
+      },
+      {
+        "title": "即时结果",
+        "description": "几秒钟内获得转换后的图像，随时可供下载。",
+        "icon": "RiDownload2Line"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "优势",
+    "title": "为什么选择AI换脸",
+    "label": "优势",
+    "description": "体验具有先进功能和安全性的最佳换脸技术。",
+    "items": [
+      {
+        "title": "先进的AI技术",
+        "description": "最先进的深度学习模型确保自然逼真的换脸效果。",
+        "icon": "RiBrainLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "隐私与安全",
+        "description": "您的照片经过安全处理，处理后会自动删除。",
+        "icon": "RiShieldUserLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      },
+      {
+        "title": "开发者友好",
+        "description": "通过我们强大的API将换脸技术集成到您的应用中。",
+        "icon": "RiCodeSSlashLine",
+        "image": {
+          "src": "/imgs/benefits.jpg"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "使用说明",
+    "title": "如何在线换脸",
+    "description": "只需几个简单步骤即可创建令人惊艳的图片：",
+    "image": {
+      "src": "/imgs/features/usage-demo.png"
+    },
+    "image_position": "right",
+    "text_align": "left",
+    "items": [
+      {
+        "title": "上传图片",
+        "description": "只需点击'上传图片'并选择要用作源图片的照片。确保照片中只有一张清晰的面孔。"
+      },
+      {
+        "title": "选择换脸选项",
+        "description": "原始图片准备就绪后，从给定的预设中选择所需的换脸效果。这意味着您将用选定的预设替换上传图片中的面孔。"
+      },
+      {
+        "title": "AI换脸",
+        "description": "点击'立即换脸'按钮，让AI展现魔法。AiFaceSwap.app将在几秒钟内完成换脸。我们的AI自动完成工作，同时保证最佳输出效果。"
+      },
+      {
+        "title": "预览和下载",
+        "description": "太棒了！您的脸已经换成了您喜欢的样子！在同一页面预览最终结果。点击'下载'将无水印图片保存到您的设备。分享给大家一起娱乐！"
+      }
+    ]
+  },
+  "feature": {
+    "name": "功能特点",
+    "title": "强大的AI换脸功能",
+    "description": "探索我们AI驱动的换脸技术的惊人功能",
+    "items": [
+      {
+        "title": "真实换脸效果",
+        "description": "我们的前沿技术确保完美、逼真的换脸效果，完全消除任何编辑痕迹。",
+        "icon": "RiImageLine"
+      },
+      {
+        "title": "简单易用界面",
+        "description": "只需一键点击，您就能将任何面孔替换到另一张图片上，使过程简单直观。",
+        "icon": "RiMouseLine"
+      },
+      {
+        "title": "表情包制作",
+        "description": "轻松制作有趣的表情包，通过新颖有趣的内容提升与观众的互动。",
+        "icon": "RiEmotionLaughLine"
+      },
+      {
+        "title": "明星变身",
+        "description": "通过将您的脸与各种角色互换，从影星到超级英雄，彻底改变您的外表。",
+        "icon": "RiUserStarLine"
+      },
+      {
+        "title": "风格尝试",
+        "description": "将您的脸应用到不同角色上，尝试不同的妆容、发型和时尚风格，探索全新造型。",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "无限创意",
+        "description": "借助我们多功能的换脸技术，释放无限创意和娱乐潜能。",
+        "icon": "RiMagicLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "展示",
+    "title": "惊艳变身",
+    "description": "看看我们的用户使用AI换脸创作的作品。",
+    "items": [
+      {
+        "title": "视频换脸",
+        "description": "在视频中进行面部替换，提升电影制作或创作社交媒体内容",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "照片换脸",
+        "description": "允许你在照片中替换头部和面部",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "多人换脸",
+        "description": "在家庭照片、婚礼照片、派对照片等中替换多个面部",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "统计",
+    "label": "统计",
+    "title": "全球用户信赖",
+    "description": "加入数千名使用AI换脸的满意用户。",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "快乐用户",
+        "label": "1M+",
+        "description": "活跃用户"
+      },
+      {
+        "title": "换脸次数",
+        "label": "10M+",
+        "description": "已完成"
+      },
+      {
+        "title": "处理时间",
+        "label": "5s",
+        "description": "平均"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "定价",
+    "label": "定价",
+    "title": "简单透明的定价",
+    "description": "选择最适合您换脸需求的完美方案。",
+    "toggle": {
+      "monthly": "每月",
+      "annual": "年度",
+      "default_plan": "年度",
+      "discount_text": "年度购买，免费获得2个月"
+    },
+    "cancel_text": "随时取消。无隐藏费用",
+    "items": [
+      {
+        "product_title": "Free",
+        "description": "适合个人使用",
+        "features": [
+          {
+            "text": "带水印的无限换脸",
+            "included": true
+          },
+          {
+            "text": "标准处理速度",
+            "included": true
+          },
+          {
+            "text": "基础支持",
+            "included": true
+          },
+          {
+            "text": "无GIF或视频换脸",
+            "included": false
+          }
+        ],
+        "pricing": {
+          "monthly": {
+            "amount": 0,
+            "price": "$0"
+          },
+          "annual": {
+            "amount": 0,
+            "price": "$0"
+          }
+        },
+        "currency": "USD",
+        "unit": "月",
+        "is_featured": false,
+        "tip": "非常适合入门！",
+        "product_id": {
+          "monthly": "price_free",
+          "annual": "price_free"
+        },
+        "product_name": "Free",
+        "credits": 0,
+        "valid_months": 1
+      },
+      {
+        "product_title": "Basic",
+        "description": "适合高级用户",
+        "features": [
+          {
+            "text": "每月600个积分",
+            "included": true
+          },
+          {
+            "text": "600个无水印换脸",
+            "included": true
+          },
+          {
+            "text": "或者200个动态换脸GIF",
+            "included": true
+          },
+          {
+            "text": "或者24个视频换脸",
+            "included": true
+          },
+          {
+            "text": "优先处理",
+            "included": true
+          },
+          {
+            "text": "优先支持",
+            "included": true
+          }
+        ],
+        "pricing": {
+          "monthly": {
+            "amount": 1200,
+            "price": "$12"
+          },
+          "annual": {
+            "amount": 10000,
+            "price": "$10",
+            "savings_text": "每年节省$24"
+          }
+        },
+        "currency": "USD",
+        "unit": "月",
+        "is_featured": true,
+        "tip": "最受欢迎的选择！",
+        "product_id": {
+          "monthly": "price_month_1200",
+          "annual": "price_year_10000"
+        },
+        "product_name": "Basic",
+        "credits": 600,
+        "valid_months": 1,
+        "button": {
+          "title": "获取专业版",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      },
+      {
+        "product_title": "Pro",
+        "description": "适合企业",
+        "features": [
+          {
+            "text": "无限去水印换脸",
+            "included": true
+          },
+          {
+            "text": "无限GIF换脸",
+            "included": true
+          },
+          {
+            "text": "64个视频换脸",
+            "included": true
+          },
+          {
+            "text": "超快速处理",
+            "included": true
+          },
+          {
+            "text": "24/7优先支持",
+            "included": true
+          }
+        ],
+        "pricing": {
+          "monthly": {
+            "amount": 2400,
+            "price": "$24"
+          },
+          "annual": {
+            "amount": 20000,
+            "price": "$20",
+            "savings_text": "节省$48/年"
+          }
+        },
+        "currency": "USD",
+        "unit": "月",
+        "is_featured": false,
+        "tip": "最适合企业！",
+        "product_id": {
+          "monthly": "price_month_2400",
+          "annual": "price_year_20000"
+        },
+        "product_name": "Pro",
+        "credits": 1600,
+        "valid_months": 1,
+        "button": {
+          "title": "获取专业版",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
+        }
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "用户评价",
+    "label": "用户评价",
+    "title": "用户怎么说",
+    "description": "听听使用AI Face Swap的用户们的心声。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Johnson",
+        "label": "专业摄影师",
+        "description": "换脸效果的质量令人难以置信！我用它来处理专业形象照，效果总是完美的。",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Chen",
+        "label": "内容创作者",
+        "description": "API非常容易集成，处理速度惊人。完全满足我的内容创作需求。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Rodriguez",
+        "label": "社交媒体经理",
+        "description": "多人换脸功能真是改变游戏规则的突破。让创建有吸引力的内容变得更加容易！",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "常见问题",
+    "title": "常见问题解答",
+    "description": "有问题？我们来解答。",
+    "items": [
+      {
+        "title": "AI换脸是如何工作的？",
+        "description": "我们的先进AI技术分析两张图片中的面部特征，然后无缝地进行换脸，同时保持自然的外观和表情。整个过程只需几秒钟，并确保高质量的结果。"
+      },
+      {
+        "title": "我的数据安全吗？",
+        "description": "是的,完全可以!我们非常重视隐私。所有上传的照片都会被安全处理,处理后自动删除。未经许可,我们绝不会存储或分享您的图片。"
+      },
+      {
+        "title": "支持哪些图片格式?",
+        "description": "我们支持所有常见的图片格式,包括JPG、PNG和WEBP。为获得最佳效果,我们建议使用清晰、光线充足且人脸可见的照片。"
+      },
+      {
+        "title": "我可以在一张图片中替换多个人脸吗?",
+        "description": "是的!我们的Pro和Enterprise计划支持在单张图片中进行多个人脸替换。您可以一次性用不同的源图片替换不同的人脸。"
+      },
+      {
+        "title": "你们提供API吗?",
+        "description": "是的,我们为开发者提供强大的API,可以将我们的人脸替换技术集成到他们的应用程序中。API访问在Pro和Enterprise计划中提供。"
+      },
+      {
+        "title": "你们的退款政策是什么?",
+        "description": "我们提供100%满意保证。如果您对我们的服务不满意,请在购买后7天内联系我们,我们将全额退款。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "立即开始转换您的照片",
+    "description": "加入数百万快乐用户的行列,体验AI换脸的神奇。",
+    "buttons": [
+      {
+        "title": "免费试用",
+        "url": "/#signup",
+        "target": "_self",
+        "icon": "RiFlashlightFill"
+      },
+      {
+        "title": "查看示例",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "AI 换脸",
+      "description": "使用先进的AI换脸技术转换你的照片。快速、安全、易用。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "AI 换脸"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2024 • AI Face Swap 版权所有。",
+    "nav": {
+      "items": [
+        {
+          "title": "产品",
+          "children": [
+            {
+              "title": "功能特点",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "价格",
+              "url": "#pricing",
+              "target": "_self"
+            },
+            {
+              "title": "API",
+              "url": "/#api",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "邮箱",
+          "icon": "RiMailLine",
+          "url": "mailto:support@aifaceswap.app",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  },
+  "faceSwap": {
+    "photoFaceSwap": "照片换脸",
+    "videoFaceSwap": "视频换脸",
+    "multipleFaceSwap": "多人换脸",
+    "gifFaceSwap": "GIF人脸替换",
+    "uploadOriginalImage": "上传原始图片",
+    "uploadFaceImage": "上传面部图片",
+    "startFaceSwap": "开始换脸",
+    "swapFace": "换脸",
+    "processing": "处理中...",
+    "before": "处理前",
+    "after": "处理后",
+    "uploadImage": "上传图片",
+    "readyToSwap": "准备换脸",
+    "uploadBothImages": "上传两张图片",
+    "comingSoon": "即将推出",
+    "download": "下载",
+    "splitView": "分屏视图",
+    "compareView": "对比视图",
+    "zoomIn": "放大",
+    "swapInProgress": "换脸处理中...",
+    "completeSoon": "将在几秒钟内完成",
+    "magicHappening": "魔法进行中...",
+    "uploadGif": "上传GIF",
+    "uploadFacePhoto": "上传脸部照片",
+    "startGifFaceSwap": "开始GIF人脸替换",
+    "swapGifFace": "替换GIF人脸",
+    "preview": "预览",
+    "gifPreview": "GIF预览",
+    "swapResult": "替换结果",
+    "pleaseUploadGif": "请上传一个GIF",
+    "gifSwapInProgress": "GIF人脸替换进行中...",
+    "gifCompleteSoon": "这可能需要一些时间，请耐心等待",
+    "watermarkNotice": "积分不足，已添加水印",
+    "gifFormat": "GIF",
+    "wantRemoveWatermark": "想要去除水印吗？",
+    "upgradePremium": "解锁高级功能",
+    "watermarkDescription": "立即订阅，享受平台的所有高级功能。",
+    "premiumBenefits": "订阅后您将获得：",
+    "benefit1": "无广告体验",
+    "benefit2": "无水印照片",
+    "benefit3": "GIF面部交换功能",
+    "benefit4": "视频面部交换功能",
+    "subscribeNow": "立即订阅",
+    "uploadVideo": "上传视频",
+    "pleaseUploadVideo": "请上传视频",
+    "videoPreview": "视频预览",
+    "videoSwapInProgress": "视频面部交换进行中...",
+    "videoCompleteSoon": "可能需要一段时间，请耐心等待",
+    "videoFormat": "M4V、MP4、MOV 视频",
+    "videoSizeLimit": "订阅者: 10MB / 20s",
+    "startVideoFaceSwap": "开始视频换脸",
+    "swapVideoFace": "交换视频人脸",
+    "videoSizeError": "视频文件超过了10MB。请上传一个更小的视频。",
+    "videoDurationError": "视频时长超过了20秒。请上传一个更短的视频。",
+    "gif": {
+      "title": "GIF面部交换 - 利用AI技术创建搞笑的GIF面部交换",
+      "description": "利用我们先进的AI技术在GIF上进行面部交换。只需几秒钟即可创建有趣、可共享的GIF动图。无需注册，免费使用，无限次交换！",
+      "heading": "创建搞笑的GIF面部交换",
+      "subheading": "上传您的GIF动图，仅需几次点击即可创建有趣、可共享的图片！",
+      "features": {
+        "title": "GIF面部交换的特点",
+        "items": [
+          {
+            "title": "即时面部交换",
+            "description": "我们的工具提供快速高效的实时面部交换。只需上传您的GIF动图，我们的AI可以立即识别和替换面部，确保您可以立即查看结果。"
+          },
+          {
+            "title": "增强社交互动",
+            "description": "与朋友分享有趣的GIF动图，促进社交互动并增添幽默。适用于各种社交媒体平台，使您的内容更具吸引力。"
+          },
+          {
+            "title": "支持多种格式",
+            "description": "除了GIF格式，我们的工具还支持各种图片输入格式，方便从不同来源上传文件，提供灵活的用户体验。"
+          }
+        ]
+      },
+      "howTo": {
+        "title": "如何在GIF中进行面部交换",
+        "steps": [
+          {
+            "number": "1",
+            "title": "上传一张有人脸的GIF",
+            "description": "上传一张您想要替换的人脸的GIF。确保面部细节清晰以获得最佳效果。"
+          },
+          {
+            "number": "2",
+            "title": "上传目标人脸图片",
+            "description": "上传一张您想要用作替代的人脸照片。需要面部清晰度。"
+          },
+          {
+            "number": "3",
+            "title": "等待生成",
+            "description": "点击“交换GIF人脸”按钮，等待我们的人工智能生成带有交换人脸的新GIF。"
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "多种使用场景",
+        "items": [
+          {
+            "title": "社交媒体分享",
+            "description": "在Instagram、Facebook和Twitter等主要社交媒体平台上分享您的有趣GIF，以增强互动并吸引注意。"
+          },
+          {
+            "title": "喜剧内容创作",
+            "description": "内容创作者可以使用GIF人脸交换来制作有趣的视频和剪辑，丰富他们的内容并吸引更多观众。"
+          },
+          {
+            "title": "活动和派对邀请",
+            "description": "创建个性化邀请函GIF，用于聚会或活动，使其更加吸引人，增加参与的兴趣。"
+          }
+        ]
+      }
+    },
+    "video": {
+      "title": "视频人脸交换 | AIFACESWAP.APP",
+      "description": "通过先进的AI视频人脸交换技术转换您的视频。",
+      "heading": "AI视频人脸交换",
+      "subheading": "体验强大的AI视频人脸交换技术，使每一帧都充满乐趣和流畅。即刻替换面部以创造有趣、引人入胜或专业的内容。",
+      "features": {
+        "title": "我们视频人脸交换的特点",
+        "items": [
+          {
+            "title": "无缝面部替换",
+            "description": "我们先进的AI确保平滑、逐帧替换面部，同时在整个视频期间保持自然的表情和动作。"
+          },
+          {
+            "title": "高质量的结果",
+            "description": "通过稳定的光照、逼真的肤色和精确的面部特征映射，体验专业级的视频换脸。"
+          },
+          {
+            "title": "用户友好的流程",
+            "description": "通过我们直观的界面，只需上传您的视频、选择一张面部图像，让我们的人工智能完成工作。"
+          }
+        ]
+      },
+      "howTo": {
+        "title": "工作原理",
+        "steps": [
+          {
+            "number": "1",
+            "title": "上传您的视频",
+            "description": "选择并上传您想要进行换脸的视频。我们支持各种常见的视频格式。"
+          },
+          {
+            "number": "2",
+            "title": "上传一张面部照片",
+            "description": "选择一张清晰的面部照片进行换脸。为了获得最佳效果，请使用一张质量高且面部清晰可见的图像。"
+          },
+          {
+            "number": "3",
+            "title": "生成您的换脸视频",
+            "description": "只需点击一次，我们的人工智能即可处理您的视频，创建出流畅、高质量的换脸视频。"
+          }
+        ]
+      },
+      "usageScenarios": {
+        "title": "视频换脸的创意用途",
+        "items": [
+          {
+            "title": "电影场景重现",
+            "description": "通过与您最喜欢的演员交换脸部，步入经典电影场景。使用自己或朋友作为明星，创造独特的电影体验。"
+          },
+          {
+            "title": "社交媒体内容",
+            "description": "创建有趣的面部互换视频，为TikTok、Instagram和YouTube制作引人注目的内容，获得病毒级传播。"
+          },
+          {
+            "title": "特别场合视频",
+            "description": "通过为庆祝活动的贵宾创建面部互换视频，使生日、婚礼和庆典更加难忘。"
+          }
+        ]
+      },
+      "faq": {
+        "title": "常见问题",
+        "items": [
+          {
+            "title": "处理我的视频需要多长时间？",
+            "description": "处理时间取决于视频长度和质量，但我们的先进人工智能旨在快速交付结果，同时保持高质量。"
+          },
+          {
+            "title": "支持哪些视频格式？",
+            "description": "我们的服务将支持常见的视频格式，包括MP4、MOV和AVI。"
+          },
+          {
+            "title": "视频长度有限制吗？",
+            "description": "免费用户将只能处理较短的视频，而高级订阅用户将享受更长的视频支持。"
+          }
+        ]
+      }
+    }
+  }
+}

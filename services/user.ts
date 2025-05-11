@@ -1,0 +1,111 @@
+import { CreditsAmount, CreditsTransType } from "./credit";
+import {
+  findUserByEmail,
+  findUserByUuid,
+  insertUser,
+  updateUser,
+} from "@/models/user";
+import { getIsoTimestr, getOneYearLaterTimestr } from "@/lib/time";
+
+import { User } from "@/types/user";
+import { auth } from "@/auth";
+import { getUniSeq } from "@/lib/hash";
+import { getUserUuidByApiKey } from "@/models/apikey";
+import { headers } from "next/headers";
+import { increaseCredits } from "./credit";
+
+export async function saveUser(user: User) {
+  try {
+    console.log("开始保存用户:", user.email);
+    const existUser = await findUserByEmail(user.email);
+    if (!existUser) {
+      console.log("用户不存在，创建新用户");
+      const dbUser = {
+        ...user,
+        uuid: user.uuid || getUniSeq(),
+        created_at: getIsoTimestr(),
+        utm: user.utm || {},
+      };
+      console.log("准备插入用户:", dbUser);
+      await insertUser(dbUser);
+      console.log("用户插入成功");
+
+      // increase credits for new user, expire in one year
+      await increaseCredits({
+        user_uuid: dbUser.uuid,
+        trans_type: CreditsTransType.NewUser,
+        credits: CreditsAmount.NewUserGet,
+        expired_at: getOneYearLaterTimestr(),
+      });
+    } else {
+      console.log("用户已存在:", existUser.uuid);
+      user.uuid = existUser.uuid;
+      user.created_at = existUser.created_at;
+      if (user.utm && Object.keys(user.utm).length > 0) {
+        await updateUser(existUser.uuid, {
+          utm: user.utm || {},
+        });
+      }
+    }
+
+    return user;
+  } catch (e) {
+    console.error("保存用户失败，详细错误:", e);
+    throw e;
+  }
+}
+
+export async function getUserUuid() {
+  let user_uuid = "";
+
+  const token = getBearerToken();
+
+  if (token) {
+    // api key
+    if (token.startsWith("sk-")) {
+      const user_uuid = await getUserUuidByApiKey(token);
+
+      return user_uuid || "";
+    }
+  }
+
+  const session = await auth();
+  if (session && session.user && session.user.uuid) {
+    user_uuid = session.user.uuid;
+  }
+
+  return user_uuid;
+}
+
+export function getBearerToken() {
+  const h = headers();
+  const auth = h.get("Authorization");
+  if (!auth) {
+    return "";
+  }
+
+  return auth.replace("Bearer ", "");
+}
+
+export async function getUserEmail() {
+  let user_email = "";
+
+  const session = await auth();
+  if (session && session.user && session.user.email) {
+    user_email = session.user.email;
+  }
+
+  return user_email;
+}
+
+export async function getUserInfo() {
+  let user_uuid = await getUserUuid();
+
+  if (!user_uuid) {
+    return;
+  }
+
+  const user = await findUserByUuid(user_uuid);
+
+  return user;
+}

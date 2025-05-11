@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "title": "AI Face Swap - De beste Online Gratis AI Face Swap APP",
+    "description": "Verbeter je afbeeldingen met AI FaceSwap. Snelle, veilige en hoogwaardige gezichtswisseling voor creativiteit en plezier.",
+    "keywords": ""
+  },
+  "user": {
+    "sign_in": "Inloggen",
+    "sign_out": "Uitloggen",
+    "credits": "Credits",
+    "api_keys": "API Sleutels",
+    "my_orders": "Mijn Bestellingen"
+  },
+  "sign_modal": {
+    "sign_in_title": "Inloggen",
+    "sign_in_description": "Log in op je account",
+    "sign_up_title": "Registreren",
+    "sign_up_description": "Maak een account aan",
+    "email_title": "E-mail",
+    "email_placeholder": "Voer hier je e-mailadres in",
+    "password_title": "Wachtwoord",
+    "password_placeholder": "Voer hier je wachtwoord in",
+    "forgot_password": "Wachtwoord vergeten?",
+    "or": "Of",
+    "continue": "Doorgaan",
+    "no_account": "Heb je geen account?",
+    "email_sign_in": "Inloggen met e-mail",
+    "google_sign_in": "Inloggen met Google",
+    "github_sign_in": "Inloggen met GitHub",
+    "close_title": "Sluiten",
+    "cancel_title": "Annuleren"
+  },
+  "my_orders": {
+    "title": "Mijn bestellingen",
+    "description": "bestellingen betaald met ShipAny.",
+    "no_orders": "Geen bestellingen gevonden",
+    "tip": "",
+    "activate_order": "Bestelling activeren",
+    "actived": "Geactiveerd",
+    "join_discord": "Word lid van Discord",
+    "read_docs": "Lees Documentatie",
+    "table": {
+      "order_no": "Bestelnummer",
+      "email": "E-mail",
+      "product_name": "Productnaam",
+      "amount": "Bedrag",
+      "paid_at": "Betaald Op",
+      "github_username": "GitHub Gebruikersnaam",
+      "status": "Status"
+    }
+  },
+  "my_credits": {
+    "title": "Mijn Credits",
+    "left_tip": "resterende credits: {left_credits}",
+    "no_credits": "Geen creditrecords",
+    "recharge": "Opladen",
+    "table": {
+      "trans_no": "Transactienummer",
+      "trans_type": "Transactietype",
+      "credits": "Credits",
+      "updated_at": "Bijgewerkt op",
+      "status": "Status"
+    }
+  },
+  "api_keys": {
+    "title": "API-sleutels",
+    "tip": "Bewaar je API-sleutel veilig om lekken te voorkomen",
+    "no_api_keys": "Geen API-sleutels",
+    "create_api_key": "API-sleutel aanmaken",
+    "table": {
+      "name": "Naam",
+      "key": "Sleutel",
+      "created_at": "Aangemaakt op"
+    },
+    "form": {
+      "name": "Naam",
+      "name_placeholder": "API-sleutel naam",
+      "submit": "Verzenden"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Nieuws, middelen en updates over ShipAny",
+    "read_more_text": "Lees meer"
+  },
+  "turnstile": {
+    "verifyYouAreHuman": "Verifieer dat je een mens bent"
+  }
+}
