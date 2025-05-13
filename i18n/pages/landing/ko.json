@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "AI 페이스 스왑",
+      "title": "AI 얼굴 합성",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI 페이스 스왑"
+        "alt": "AI 얼굴 합성"
       },
       "url": "/"
     },
@@ -43,9 +43,9 @@
     "show_locale": true
   },
   "hero": {
-    "title": "최고의 온라인 무료 AI 페이스 스왑",
-    "highlight_text": "AI 페이스 스왑",
-    "description": "최첨단 기술과 무한한 즐거움이 만나는 AI 페이스 스왑의 혁신적인 세계에 빠져보세요. 이미지와 영상을 쉽게 수정하고, 비교할 수 없는 디지털 가능성의 문을 열어보세요.",
+    "title": "최고의 온라인 무료 AI 얼굴 합성 사이트",
+    "highlight_text": "AI 얼굴 합성",
+    "description": "최첨단 기술과 무한한 즐거움이 만나는 AI 얼굴 합성의 혁신적인 세계에 빠져보세요. 저희 무료 AI 얼굴 합성 사이트에서 이미지와 영상을 쉽게 변환하고, 비교할 수 없는 디지털 가능성의 문을 열어보세요.",
     "announcement": {
       "label": "AI",
       "title": "무료 & 안전",
@@ -79,9 +79,9 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "AI 페이스 스왑의 마법을 경험해보세요",
+    "title": "AI 얼굴 합성의 마법을 경험해보세요",
     "label": "이용 방법",
-    "description": "고급 AI 페이스 스왑 기술로 모든 사진을 변환하세요. 빠르고, 정확하며, 안전합니다.",
+    "description": "고급 AI 얼굴 합성 기술로 모든 사진을 변환하세요. 저희 사이트는 빠르고, 정확하며, 안전한 무료 AI 얼굴 합성을 제공합니다.",
     "image": {
       "src": "/imgs/introduce.png"
     },
@@ -105,13 +105,13 @@
   },
   "benefit": {
     "name": "혜택",
-    "title": "AI 얼굴 교체를 선택해야 하는 이유",
+    "title": "AI 얼굴 합성을 선택해야 하는 이유",
     "label": "혜택",
-    "description": "고급 기능과 보안을 갖춘 최고의 얼굴 교체 기술을 경험해보세요.",
+    "description": "고급 기능과 보안을 갖춘 최고의 AI 얼굴 합성 기술을 경험해보세요.",
     "items": [
       {
         "title": "첨단 AI 기술",
-        "description": "최첨단 딥러닝 모델로 자연스럽고 사실적인 얼굴 교체를 보장합니다.",
+        "description": "최첨단 딥러닝 모델로 자연스럽고 사실적인 얼굴 합성을 보장합니다.",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -127,7 +127,7 @@
       },
       {
         "title": "개발자 친화적",
-        "description": "강력한 API를 통해 얼굴 교체 기술을 앱에 통합할 수 있습니다.",
+        "description": "강력한 API를 통해 얼굴 합성 기술을 앱에 통합할 수 있습니다.",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -137,8 +137,8 @@
   },
   "usage": {
     "name": "사용법",
-    "title": "온라인에서 얼굴 바꾸는 방법",
-    "description": "간단한 단계로 멋진 이미지를 만들어보세요:",
+    "title": "온라인 AI 얼굴 합성 방법",
+    "description": "저희 무료 AI 얼굴 합성 사이트에서 간단한 단계로 멋진 이미지를 만들어보세요:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
@@ -150,27 +150,27 @@
         "description": "'이미지 업로드'를 클릭하고 원본 이미지로 사용할 사진을 선택하세요. 사진에 한 명의 얼굴만 있고 품질이 좋은지 확인하세요."
       },
       {
-        "title": "얼굴 바꾸기 옵션 선택",
-        "description": "원본 이미지가 준비되면, 제공된 프리셋에서 원하는 바꾸기 효과를 선택하세요. 업로드한 이미지의 얼굴을 선택한 프리셋으로 교체하게 됩니다."
+        "title": "얼굴 합성 옵션 선택",
+        "description": "원본 이미지가 준비되면, 제공된 프리셋에서 원하는 합성 효과를 선택하세요. 업로드한 이미지의 얼굴을 선택한 프리셋으로 합성하게 됩니다."
       },
       {
-        "title": "AI로 얼굴 바꾸기",
-        "description": "'지금 얼굴 바꾸기' 버튼을 클릭하여 AI의 마법을 보여주세요. AiFaceSwap.app이 몇 초 안에 얼굴 바꾸기를 완료합니다. AI가 최상의 결과를 보장하면서 자동으로 작업을 수행합니다."
+        "title": "AI로 얼굴 합성하기",
+        "description": "'지금 얼굴 합성하기' 버튼을 클릭하여 AI의 마법을 보여주세요. AiFaceSwap.app이 몇 초 안에 얼굴 합성을 완료합니다. AI가 최상의 결과를 보장하면서 자동으로 작업을 수행합니다."
       },
       {
         "title": "미리보기 및 다운로드",
-        "description": "성공! 원하는 대상으로 얼굴이 바뀌었습니다! 같은 페이지에서 최종 결과를 미리 보세요. '다운로드'를 클릭하여 워터마크 없는 이미지를 기기에 저장하세요. 재미있게 공유해보세요!"
+        "description": "성공! 원하는 대상으로 얼굴이 합성되었습니다! 같은 페이지에서 최종 결과를 미리 보세요. '다운로드'를 클릭하여 워터마크 없는 이미지를 기기에 저장하세요. 재미있게 공유해보세요!"
       }
     ]
   },
   "feature": {
     "name": "기능",
-    "title": "강력한 AI 얼굴 바꾸기 기능",
-    "description": "우리의 AI 기반 페이스 스왑 기술의 놀라운 기능을 발견해보세요",
+    "title": "강력한 AI 얼굴 합성 기능",
+    "description": "우리의 AI 기반 얼굴 합성 기술의 놀라운 기능을 발견해보세요. 최고의 무료 AI 얼굴 합성 경험을 제공합니다.",
     "items": [
       {
-        "title": "사실적인 얼굴 교체",
-        "description": "최첨단 기술로 완벽하고 사실적인 얼굴 교체를 보장하며, 편집의 흔적을 완전히 감춥니다.",
+        "title": "사실적인 얼굴 합성",
+        "description": "최첨단 기술로 완벽하고 사실적인 얼굴 합성을 보장하며, 편집의 흔적을 완전히 감춥니다.",
         "icon": "RiImageLine"
       },
       {
@@ -185,7 +185,7 @@
       },
       {
         "title": "셀럽 변신",
-        "description": "영화 스타부터 슈퍼히어로까지 다양한 페르소나와 얼굴을 바꾸어 외모를 변신시켜보세요.",
+        "description": "영화 스타부터 슈퍼히어로까지 다양한 페르소나와 얼굴을 합성해 외모를 변신시켜보세요.",
         "icon": "RiUserStarLine"
       },
       {
@@ -202,26 +202,26 @@
   },
   "showcase": {
     "name": "쇼케이스",
-    "title": "놀라운 변신",
-    "description": "AI 페이스 스왑으로 우리 사용자들이 만든 작품들을 확인해보세요.",
+    "title": "AI 얼굴 합성을 통한 놀라운 변신",
+    "description": "AI 얼굴 합성으로 우리 사용자들이 만든 작품들을 확인해보세요. 저희 무료 사이트에서 당신도 멋진 작품을 만들 수 있습니다.",
     "items": [
       {
-        "title": "동영상 페이스 스왑",
-        "description": "영화 제작이나 소셜 미디어 콘텐츠 제작을 위해 동영상에서 얼굴을 바꿔보세요",
+        "title": "동영상 얼굴 합성",
+        "description": "영화 제작이나 소셜 미디어 콘텐츠 제작을 위해 동영상에서 얼굴을 합성해보세요",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "사진 페이스 스왑",
-        "description": "사진에서 얼굴과 머리를 교체할 수 있습니다",
+        "title": "사진 얼굴 합성",
+        "description": "사진에서 얼굴과 머리를 합성할 수 있습니다",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "다중 페이스 스왑",
-        "description": "가족사진, 결혼사진, 파티사진 등에서 여러 얼굴을 교체해보세요",
+        "title": "다중 얼굴 합성",
+        "description": "가족사진, 결혼사진, 파티사진 등에서 여러 얼굴을 합성해보세요",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,8 +231,8 @@
   "stats": {
     "name": "통계",
     "label": "통계",
-    "title": "전 세계 사용자들이 신뢰하는 서비스",
-    "description": "AI 페이스 스왑을 사용하는 수천 명의 만족한 사용자들과 함께하세요.",
+    "title": "전 세계 사용자들이 신뢰하는 AI 얼굴 합성 서비스",
+    "description": "AI 얼굴 합성을 사용하는 수천 명의 만족한 사용자들과 함께하세요.",
     "icon": "FaRegHeart",
     "items": [
       {
@@ -241,7 +241,7 @@
         "description": "활성 사용자"
       },
       {
-        "title": "페이스 스왑",
+        "title": "얼굴 합성",
         "label": "10M+",
         "description": "완료됨"
       },
@@ -255,8 +255,8 @@
   "pricing": {
     "name": "가격",
     "label": "가격",
-    "title": "단순하고 투명한 가격",
-    "description": "얼굴 교체 필요에 맞는 완벽한 플랜을 선택하세요.",
+    "title": "AI 얼굴 합성: 단순하고 투명한 가격 정책",
+    "description": "AI 얼굴 합성 필요에 맞는 완벽한 플랜을 선택하세요.",
     "toggle": {
       "monthly": "매월",
       "annual": "연간",
@@ -270,7 +270,7 @@
         "description": "개인 사용에 적합",
         "features": [
           {
-            "text": "워터마크가 있는 무제한 얼굴 교환",
+            "text": "워터마크가 있는 무제한 얼굴 합성",
             "included": true
           },
           {
@@ -282,7 +282,7 @@
             "included": true
           },
           {
-            "text": "GIF 또는 비디오 얼굴 교환 불가",
+            "text": "GIF 또는 비디오 얼굴 합성 불가",
             "included": false
           }
         ],
@@ -317,15 +317,15 @@
             "included": true
           },
           {
-            "text": "워터마크 없는 얼굴 교체 600회",
+            "text": "워터마크 없는 얼굴 합성 600회",
             "included": true
           },
           {
-            "text": "GIF 얼굴 교체 200회",
+            "text": "GIF 얼굴 합성 200회",
             "included": true
           },
           {
-            "text": "24 비디오 얼굴 교체",
+            "text": "24 비디오 얼굴 합성",
             "included": true
           },
           {
@@ -370,15 +370,15 @@
         "description": "기업용",
         "features": [
           {
-            "text": "무제한 워터마크 없는 얼굴 교체",
+            "text": "무제한 워터마크 없는 얼굴 합성",
             "included": true
           },
           {
-            "text": "무제한 GIF 얼굴 교체",
+            "text": "무제한 GIF 얼굴 합성",
             "included": true
           },
           {
-            "text": "64 비디오 얼굴 교체",
+            "text": "64 비디오 얼굴 합성",
             "included": true
           },
           {
@@ -423,14 +423,14 @@
   "testimonial": {
     "name": "후기",
     "label": "사용자 후기",
-    "title": "사용자들의 의견",
-    "description": "AI Face Swap을 사랑하는 사용자들의 이야기를 들어보세요.",
+    "title": "AI 얼굴 합성 사용자 후기",
+    "description": "AI 얼굴 합성을 사랑하는 사용자들의 이야기를 들어보세요.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
         "label": "전문 사진작가",
-        "description": "페이스 스왑의 품질이 믿을 수 없을 정도로 뛰어납니다! 전문 헤드샷 촬영에 사용하는데 결과가 항상 완벽해요.",
+        "description": "얼굴 합성의 품질이 믿을 수 없을 정도로 뛰어납니다! 전문 헤드샷 촬영에 사용하는데 결과가 항상 완벽해요.",
         "image": {
           "src": "/imgs/users/1.png"
         }
@@ -438,7 +438,7 @@
       {
         "title": "Mike Chen",
         "label": "콘텐츠 크리에이터",
-        "description": "API 통합이 매우 쉽고 처리 속도가 놀랍습니다. 제 콘텐츠 제작 요구사항에 완벽해요.",
+        "description": "API 통합이 매우 쉽고 처리 속도가 놀랍습니다. 제 콘텐츠 제작 요구사항에 완벽해요. AI 얼굴 합성 기능 덕분입니다.",
         "image": {
           "src": "/imgs/users/2.png"
         }
@@ -446,7 +446,7 @@
       {
         "title": "Emily Rodriguez",
         "label": "소셜 미디어 매니저",
-        "description": "다중 페이스 스왑 기능이 정말 혁신적입니다. 매력적인 콘텐츠 제작이 훨씬 쉬워졌어요!",
+        "description": "다중 얼굴 합성 기능이 정말 혁신적입니다. 매력적인 콘텐츠 제작이 훨씬 쉬워졌어요!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -456,12 +456,12 @@
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "자주 묻는 질문",
+    "title": "AI 얼굴 합성에 대한 자주 묻는 질문",
     "description": "궁금하신 점이 있으신가요? 답변해 드리겠습니다.",
     "items": [
       {
-        "title": "AI 페이스 스왑은 어떻게 작동하나요?",
-        "description": "저희의 첨단 AI 기술은 두 이미지의 얼굴 특징을 분석한 후, 자연스러운 표정과 모습을 유지하면서 완벽하게 교체합니다. 이 과정은 단 몇 초 만에 이루어지며 고품질 결과를 보장합니다."
+        "title": "AI 얼굴 합성은 어떻게 작동하나요?",
+        "description": "저희의 첨단 AI 기술은 두 이미지의 얼굴 특징을 분석한 후, 자연스러운 표정과 모습을 유지하면서 완벽하게 합성합니다. 저희 무료 AI 얼굴 합성 사이트에서 이 놀라운 기술을 직접 경험해보세요. 이 과정은 단 몇 초 만에 이루어지며 고품질 결과를 보장합니다."
       },
       {
         "title": "내 데이터는 안전한가요?",
@@ -472,12 +472,12 @@
         "description": "JPG, PNG, WEBP를 포함한 모든 일반적인 이미지 형식을 지원합니다. 최상의 결과를 위해 얼굴이 잘 보이는 밝고 선명한 사진을 사용하시는 것을 추천합니다."
       },
       {
-        "title": "한 이미지에서 여러 얼굴을 바꿀 수 있나요?",
-        "description": "네! Pro와 Enterprise 플랜에서는 한 이미지에서 여러 얼굴 교체를 지원합니다. 하나의 이미지에서 서로 다른 얼굴을 다른 소스 이미지로 한 번에 교체할 수 있습니다."
+        "title": "한 이미지에서 여러 얼굴을 합성할 수 있나요?",
+        "description": "네! Pro와 Enterprise 플랜에서는 한 이미지에서 여러 얼굴 합성을 지원합니다. 하나의 이미지에서 서로 다른 얼굴을 다른 소스 이미지로 한 번에 합성할 수 있습니다."
       },
       {
         "title": "API를 제공하나요?",
-        "description": "네, 개발자가 자신의 애플리케이션에 얼굴 교체 기술을 통합할 수 있도록 강력한 API를 제공합니다. API 접근은 Pro와 Enterprise 플랜에서 이용 가능합니다."
+        "description": "네, 개발자가 자신의 애플리케이션에 얼굴 합성 기술을 통합할 수 있도록 강력한 API를 제공합니다. API 접근은 Pro와 Enterprise 플랜에서 이용 가능합니다."
       },
       {
         "title": "환불 정책은 어떻게 되나요?",
@@ -487,8 +487,8 @@
   },
   "cta": {
     "name": "cta",
-    "title": "지금 바로 사진 변환을 시작하세요",
-    "description": "수백만 명의 행복한 사용자들과 함께 AI 페이스 스왑의 마법을 경험해보세요.",
+    "title": "지금 바로 AI 얼굴 합성으로 사진을 변환하세요",
+    "description": "수백만 명의 행복한 사용자들과 함께 AI 얼굴 합성의 마법을 경험해보세요. 저희 무료 사이트에서 시작하세요.",
     "buttons": [
       {
         "title": "무료로 시도하기",
@@ -507,15 +507,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI 페이스 스왑",
-      "description": "고급 AI 얼굴 교체 기술로 사진을 변환하세요. 빠르고 안전하며 사용하기 쉽습니다.",
+      "title": "AI 얼굴 합성",
+      "description": "고급 AI 얼굴 합성 기술로 사진을 변환하세요. 저희 무료 AI 얼굴 합성 사이트는 빠르고 안전하며 사용하기 쉽습니다.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI 페이스 스왑"
+        "alt": "AI 얼굴 합성"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap 모든 권리 보유.",
+    "copyright": "© 2024 • AI 얼굴 합성 모든 권리 보유.",
     "nav": {
       "items": [
         {
@@ -564,37 +564,37 @@
     }
   },
   "faceSwap": {
-    "photoFaceSwap": "사진 얼굴 교체",
-    "videoFaceSwap": "비디오 얼굴 바꾸기",
-    "multipleFaceSwap": "다중 얼굴 교체",
-    "gifFaceSwap": "GIF 얼굴 스왑",
+    "photoFaceSwap": "사진 얼굴 합성",
+    "videoFaceSwap": "비디오 얼굴 합성",
+    "multipleFaceSwap": "다중 얼굴 합성",
+    "gifFaceSwap": "GIF 얼굴 합성",
     "uploadOriginalImage": "원본 이미지 업로드",
     "uploadFaceImage": "얼굴 이미지 업로드",
-    "startFaceSwap": "페이스 스왑 시작",
-    "swapFace": "얼굴 바꾸기",
+    "startFaceSwap": "얼굴 합성 시작",
+    "swapFace": "얼굴 합성하기",
     "processing": "처리 중...",
     "before": "이전",
     "after": "이후",
     "uploadImage": "이미지 업로드",
-    "readyToSwap": "스왑 준비 완료",
+    "readyToSwap": "합성 준비 완료",
     "uploadBothImages": "두 이미지 모두 업로드",
     "comingSoon": "출시 예정",
     "download": "다운로드",
     "splitView": "분할 보기",
     "compareView": "비교 보기",
     "zoomIn": "확대",
-    "swapInProgress": "페이스 스왑 진행 중...",
+    "swapInProgress": "얼굴 합성 진행 중...",
     "completeSoon": "몇 초 후에 완료됩니다",
     "magicHappening": "마법이 일어나는 중...",
     "uploadGif": "GIF 업로드",
     "uploadFacePhoto": "얼굴 사진 업로드",
-    "startGifFaceSwap": "GIF 얼굴 스왑 시작",
-    "swapGifFace": "GIF 얼굴 스왑",
+    "startGifFaceSwap": "GIF 얼굴 합성 시작",
+    "swapGifFace": "GIF 얼굴 합성하기",
     "preview": "미리 보기",
     "gifPreview": "GIF 미리 보기",
-    "swapResult": "스왑 결과",
+    "swapResult": "합성 결과",
     "pleaseUploadGif": "GIF를 업로드해주세요",
-    "gifSwapInProgress": "GIF 얼굴 스왑 진행 중...",
+    "gifSwapInProgress": "GIF 얼굴 합성 진행 중...",
     "gifCompleteSoon": "이 작업은 시간이 걸릴 수 있으니 조금 기다려주십시오",
     "watermarkNotice": "크레딧이 부족하여 워터마크가 추가되었습니다",
     "gifFormat": "GIF",
@@ -604,31 +604,31 @@
     "premiumBenefits": "구독 시 다음 기능을 이용할 수 있습니다:",
     "benefit1": "광고 없는 경험",
     "benefit2": "워터마크 없는 사진",
-    "benefit3": "GIF 얼굴 스왑 기능",
-    "benefit4": "비디오 얼굴 교체 기능",
+    "benefit3": "GIF 얼굴 합성 기능",
+    "benefit4": "비디오 얼굴 합성 기능",
     "subscribeNow": "지금 구독하기",
     "uploadVideo": "비디오 업로드",
     "pleaseUploadVideo": "비디오를 업로드해주세요",
     "videoPreview": "비디오 미리보기",
-    "videoSwapInProgress": "비디오 얼굴 교체 진행 중...",
+    "videoSwapInProgress": "비디오 얼굴 합성 진행 중...",
     "videoCompleteSoon": "이 작업은 시간이 걸릴 수 있으니, 잠시 기다려주십시오",
     "videoFormat": "M4V, MP4, MOV 비디오",
     "videoSizeLimit": "구독자: 1024MB / 300초 / 4K",
-    "startVideoFaceSwap": "비디오 얼굴 교체 시작",
-    "swapVideoFace": "비디오 얼굴 교체",
+    "startVideoFaceSwap": "비디오 얼굴 합성 시작",
+    "swapVideoFace": "비디오 얼굴 합성하기",
     "videoSizeError": "비디오 파일 크기가 10MB를 초과합니다. 더 작은 비디오를 업로드해주세요.",
     "videoDurationError": "비디오 길이가 20초를 초과합니다. 더 짧은 비디오를 업로드해주세요.",
     "gif": {
-      "title": "GIF 얼굴 교체 - AI 기술로 유쾌한 GIF 얼굴 교체 생성",
-      "description": "고급 AI 기술로 GIF에서 얼굴을 교체하세요. 몇 초만에 재미있고 공유 가능한 GIF를 만들 수 있습니다. 등록 필요 없이 사용은 무료이며 얼마든지 교체할 수 있습니다!",
-      "heading": "유쾌한 GIF 얼굴 교체 만들기",
+      "title": "GIF 얼굴 합성 - AI 기술로 유쾌한 GIF 만들기. 무료 AI 얼굴 합성 사이트에서 경험하세요.",
+      "description": "고급 AI 기술로 GIF에서 얼굴을 합성하세요. 몇 초 만에 재미있고 공유 가능한 GIF를 만들 수 있습니다. 저희 무료 AI 얼굴 합성 사이트에서는 등록 없이 무료로 얼마든지 합성할 수 있습니다!",
+      "heading": "유쾌한 GIF 얼굴 합성 만들기",
       "subheading": "GIF를 업로드하고 몇 번의 클릭만으로 재미있고 공유 가능한 이미지를 만드세요!",
       "features": {
-        "title": "GIF 얼굴 교체의 특징",
+        "title": "GIF 얼굴 합성의 특징",
         "items": [
           {
-            "title": "즉시 얼굴 교체",
-            "description": "우리 도구는 실시간으로 빠르고 효율적인 얼굴 교체를 제공합니다. GIF를 업로드하면 AI가 즉시 얼굴을 인식하고 교체하여 결과를 확인할 수 있습니다."
+            "title": "즉시 얼굴 합성",
+            "description": "우리 도구는 실시간으로 빠르고 효율적인 얼굴 합성을 제공합니다. GIF를 업로드하면 AI가 즉시 얼굴을 인식하고 합성하여 결과를 확인할 수 있습니다."
           },
           {
             "title": "증강된 소셜 상호작용",
@@ -641,22 +641,22 @@
         ]
       },
       "howTo": {
-        "title": "GIF에서 얼굴 교체 하는 방법",
+        "title": "GIF에서 얼굴 합성 하는 방법",
         "steps": [
           {
             "number": "1",
             "title": "GIF 얼굴 업로드",
-            "description": "교체하려는 얼굴이 있는 GIF를 업로드하세요. 최상의 결과를 위해 명확한 얼굴 세부 정보를 보장하세요."
+            "description": "합성하려는 얼굴이 있는 GIF를 업로드하세요. 최상의 결과를 위해 명확한 얼굴 세부 정보를 보장하세요."
           },
           {
             "number": "2",
             "title": "목표 얼굴 사진 업로드",
-            "description": "교체하려는 얼굴의 사진을 업로드하세요. 얼굴의 명확함이 요구됩니다."
+            "description": "합성하려는 얼굴의 사진을 업로드하세요. 얼굴의 명확함이 요구됩니다."
           },
           {
             "number": "3",
             "title": "생성을 기다리세요",
-            "description": " \"얼굴 교환 GIF\" 버튼을 클릭하고 AI가 얼굴을 교환한 새로운 GIF를 생성할 때까지 기다리세요."
+            "description": " \"얼굴 합성 GIF\" 버튼을 클릭하고 AI가 얼굴을 합성한 새로운 GIF를 생성할 때까지 기다리세요."
           }
         ]
       },
@@ -669,7 +669,7 @@
           },
           {
             "title": "코미디 콘텐츠 제작",
-            "description": "콘텐츠 크리에이터는 GIF 얼굴 교환을 사용하여 재미있는 동영상과 클립을 제작하여 콘텐츠를 풍부하게 하고 더 많은 시청자를 유치할 수 있습니다."
+            "description": "콘텐츠 크리에이터는 GIF 얼굴 합성을 사용하여 재미있는 동영상과 클립을 제작하여 콘텐츠를 풍부하게 하고 더 많은 시청자를 유치할 수 있습니다."
           },
           {
             "title": "이벤트 및 파티 초대",
@@ -679,24 +679,24 @@
       }
     },
     "video": {
-      "title": "비디오 얼굴 스왑 | AIFACESWAP.APP",
-      "description": "고급 AI 비디오 얼굴 스왑 기술로 동영상을 변형해보세요.",
-      "heading": "AI 비디오 얼굴 스왑",
-      "subheading": "강력한 AI 얼굴 스왑을 경험하고 모든 프레임을 흥미롭고 매끄럽게 만들어보세요. 얼굴을 즉시 교체하여 재미있거나 전문적인 콘텐츠를 만들어보세요.",
+      "title": "비디오 얼굴 합성 | 최고의 무료 AI 얼굴 합성 사이트 AIFACESWAP.APP",
+      "description": "고급 AI 비디오 얼굴 합성 기술로 동영상을 변형해보세요.",
+      "heading": "AI 비디오 얼굴 합성",
+      "subheading": "강력한 AI 얼굴 합성을 경험하고 모든 프레임을 흥미롭고 매끄럽게 만들어보세요. 저희 무료 AI 얼굴 합성 사이트에서 얼굴을 즉시 합성하여 재미있거나 전문적인 콘텐츠를 만들어보세요.",
       "features": {
-        "title": "비디오 얼굴 스왑의 기능",
+        "title": "비디오 얼굴 합성의 기능",
         "items": [
           {
-            "title": "매끄러운 얼굴 교체",
-            "description": "고급 AI를 사용하여 자연스러운 표현과 움직임을 유지하면서 매끄러운 프레임별 얼굴 스왑이 가능합니다."
+            "title": "매끄러운 얼굴 합성",
+            "description": "고급 AI를 사용하여 자연스러운 표현과 움직임을 유지하면서 매끄러운 프레임별 얼굴 합성이 가능합니다."
           },
           {
             "title": "고품질 결과",
-            "description": "일관된 조명, 현실적인 피부 톤 및 정확한 얼굴 특징 매핑으로 전문적인 비디오 얼굴 교체를 경험하세요."
+            "description": "일관된 조명, 현실적인 피부 톤 및 정확한 얼굴 특징 매핑으로 전문적인 비디오 얼굴 합성을 경험하세요."
           },
           {
             "title": "사용하기 쉬운 과정",
-            "description": "직관적인 인터페이스로 비디오에서 얼굴을 교체하는 것은 비디오 업로드, 얼굴 이미지 선택 및 AI가 작업을 처리하는 것만큼 간단합니다."
+            "description": "직관적인 인터페이스로 비디오에서 얼굴을 합성하는 것은 비디오 업로드, 얼굴 이미지 선택 및 AI가 작업을 처리하는 것만큼 간단합니다."
           }
         ]
       },
@@ -706,34 +706,34 @@
           {
             "number": "1",
             "title": "비디오 업로드",
-            "description": "얼굴을 교체하려는 비디오를 선택하고 업로드하세요. 다양한 일반적인 비디오 형식을 지원합니다."
+            "description": "얼굴을 합성하려는 비디오를 선택하고 업로드하세요. 다양한 일반적인 비디오 형식을 지원합니다."
           },
           {
             "number": "2",
             "title": "얼굴 사진 업로드",
-            "description": "교체용으로 명확한 얼굴 사진을 선택하세요. 최상의 결과를 얻으려면 얼굴이 잘 보이는 고화질 이미지를 사용하세요."
+            "description": "합성용으로 명확한 얼굴 사진을 선택하세요. 최상의 결과를 얻으려면 얼굴이 잘 보이는 고화질 이미지를 사용하세요."
           },
           {
             "number": "3",
-            "title": "얼굴 교체 비디오 생성",
-            "description": "한 번의 클릭으로 AI가 비디오를 처리하여 부드럽고 고품질의 얼굴 교체 비디오를 만듭니다."
+            "title": "얼굴 합성 비디오 생성",
+            "description": "한 번의 클릭으로 AI가 비디오를 처리하여 부드럽고 고품질의 얼굴 합성 비디오를 만듭니다."
           }
         ]
       },
       "usageScenarios": {
-        "title": "비디오 얼굴 교체의 창조적인 사용 사례",
+        "title": "비디오 얼굴 합성의 창조적인 사용 사례",
         "items": [
           {
             "title": "영화 장면 재현",
-            "description": "당신이 좋아하는 배우와 얼굴을 바꿔 명작영화 순간을 경험해보세요. 자신이나 친구들을 주인공으로 하는 독특한 영화 경험을 만들어보세요."
+            "description": "당신이 좋아하는 배우와 얼굴을 합성해 명작영화 순간을 경험해보세요. 자신이나 친구들을 주인공으로 하는 독특한 영화 경험을 만들어보세요."
           },
           {
             "title": "소셜 미디어 콘텐츠",
-            "description": "흥미로운 얼굴 바꿈 비디오로 TikTok, Instagram, YouTube에서 사람들의 관심을 끄는 매력적인 콘텐츠를 만들어보세요."
+            "description": "흥미로운 얼굴 합성 비디오로 TikTok, Instagram, YouTube에서 사람들의 관심을 끄는 매력적인 콘텐츠를 만들어보세요."
           },
           {
             "title": "특별한 기념일 비디오",
-            "description": "얼굴 바꿈으로 초대된 손님들의 비디오를 만들어 생일, 결혼식, 축하 행사를 더욱 기억에 남도록 만들어보세요."
+            "description": "얼굴 합성을 통해 초대된 손님들의 비디오를 만들어 생일, 결혼식, 축하 행사를 더욱 기억에 남도록 만들어보세요."
           }
         ]
       },

@@ -36,4 +36,31 @@ html {
     --sidebar-border: var(--border);
     --sidebar-ring: var(--ring);
   }
+  
+  /* 添加自定义滚动条样式 */
+  .tab-scroll-container {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary) transparent;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .tab-scroll-container::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+  
+  .tab-scroll-container::-webkit-scrollbar-track {
+    background: var(--primary-foreground);
+    border-radius: 8px;
+    opacity: 0.3;
+  }
+  
+  .tab-scroll-container::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 8px;
+  }
+  
+  .tab-scroll-container:hover::-webkit-scrollbar-thumb {
+    background: var(--primary);
+  }
 }

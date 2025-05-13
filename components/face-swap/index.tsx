@@ -454,7 +454,7 @@ export default function FaceSwap({ locale, faceSwap, defaultTab = "photo" }: Fac
           className="w-full"
           onValueChange={handleTabChange}
         >
-          <div className="flex justify-start sm:justify-center mb-8 overflow-x-auto pb-2 -mx-4 px-4">
+          <div className="flex justify-start sm:justify-center mb-8 overflow-x-auto pb-2 -mx-4 px-4 tab-scroll-container">
             <TabsList className="bg-muted/50 border border-primary/20 flex-nowrap min-w-max mx-auto sm:mx-0">
               <TabsTrigger
                 value="photo"
