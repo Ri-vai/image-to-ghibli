@@ -10,7 +10,7 @@ import { sendNotification } from "@/lib/notification";
 enum PlanCredits {
   FREE = 600,
   BASIC = 600,
-  PRO = 1600
+  PRO = 1600,
 }
 
 console.log("[STRIPE WEBHOOK] 路由模块加载");
@@ -51,7 +51,12 @@ export async function POST(req: Request) {
       case "checkout.session.completed": {
         console.log("[STRIPE WEBHOOK] 处理结账完成事件");
         const session = event.data.object as Stripe.Checkout.Session;
-        console.log("[STRIPE WEBHOOK] 结账会话ID:", session.id, "客户ID:", session.customer);
+        console.log(
+          "[STRIPE WEBHOOK] 结账会话ID:",
+          session.id,
+          "客户ID:",
+          session.customer
+        );
 
         if (session.subscription && session.customer) {
           console.log("[STRIPE WEBHOOK] 获取订阅订阅ID:", session.subscription);
@@ -61,7 +66,10 @@ export async function POST(req: Request) {
 
           // console.log("[STRIPE WEBHOOK] 获取订阅详情:", subscription.items.data);
 
-          console.log("[STRIPE WEBHOOK] 获取客户详情，客户ID:", session.customer);
+          console.log(
+            "[STRIPE WEBHOOK] 获取客户详情，客户ID:",
+            session.customer
+          );
           const customer = await stripe.customers.retrieve(
             session.customer as string
           );
@@ -78,11 +86,16 @@ export async function POST(req: Request) {
             subscription.items.data[0]?.plan.interval === "year"
               ? "yearly"
               : "monthly";
-          
+
           const planType = getPlanTypeByPriceId(
             subscription.items.data[0]?.plan.id || ""
           );
-          console.log("[STRIPE WEBHOOK] 确定计划类型:", planType, "订阅周期:", cycle);
+          console.log(
+            "[STRIPE WEBHOOK] 确定计划类型:",
+            planType,
+            "订阅周期:",
+            cycle
+          );
 
           console.log("[STRIPE WEBHOOK] 插入订阅记录到数据库");
           await insertSubscription({
@@ -98,27 +111,33 @@ export async function POST(req: Request) {
               subscription.current_period_end * 1000
             ).toISOString(),
           });
-          console.log("[STRIPE WEBHOOK] 订阅记录已保存，订阅ID:", subscription.id);
+          console.log(
+            "[STRIPE WEBHOOK] 订阅记录已保存，订阅ID:",
+            subscription.id
+          );
 
           console.log("[STRIPE WEBHOOK] 获取最新发票");
           const latestInvoice = await stripe.invoices.retrieve(
             subscription.latest_invoice as string
           );
           console.log("[STRIPE WEBHOOK] 最新发票ID:", latestInvoice.id);
-          
+
           console.log("[STRIPE WEBHOOK] 获取支付记录");
           const charge = latestInvoice.charge
             ? await stripe.charges.retrieve(latestInvoice.charge as string)
             : null;
           console.log("[STRIPE WEBHOOK] 支付记录ID:", charge?.id || "无");
-          
+
           console.log("[STRIPE WEBHOOK] 获取余额交易记录");
           const balanceTransaction = charge?.balance_transaction
             ? await stripe.balanceTransactions.retrieve(
                 charge.balance_transaction as string
               )
             : null;
-          console.log("[STRIPE WEBHOOK] 余额交易记录ID:", balanceTransaction?.id || "无");
+          console.log(
+            "[STRIPE WEBHOOK] 余额交易记录ID:",
+            balanceTransaction?.id || "无"
+          );
 
           const netAmountUSD = balanceTransaction
             ? parseFloat(
@@ -134,7 +153,12 @@ export async function POST(req: Request) {
 
           const order_no = charge?.payment_intent as string;
           const user_uuid = session.client_reference_id || "";
-          console.log("[STRIPE WEBHOOK] 准备订单数据, 订单号:", order_no, "用户ID:", user_uuid);
+          console.log(
+            "[STRIPE WEBHOOK] 准备订单数据, 订单号:",
+            order_no,
+            "用户ID:",
+            user_uuid
+          );
 
           console.log("[STRIPE WEBHOOK] 插入订单记录到数据库");
           await insertOrder({
@@ -157,15 +181,19 @@ export async function POST(req: Request) {
           const now = new Date();
           const expiredAt = new Date(now);
           expiredAt.setMonth(now.getMonth() + 1);
-          
+
           // 根据计划类型获取对应的积分
-          const credits = planType === "basic" 
-            ? PlanCredits.BASIC 
-            : planType === "pro" 
-              ? PlanCredits.PRO 
+          const credits =
+            planType === "basic"
+              ? PlanCredits.BASIC
+              : planType === "pro"
+              ? PlanCredits.PRO
               : PlanCredits.FREE;
-          
-          console.log(`[STRIPE WEBHOOK] 为用户添加积分, 计划类型: ${planType}, 积分数量: ${credits}, 过期时间:`, expiredAt.toISOString());
+
+          console.log(
+            `[STRIPE WEBHOOK] 为用户添加积分, 计划类型: ${planType}, 积分数量: ${credits}, 过期时间:`,
+            expiredAt.toISOString()
+          );
 
           console.log("[STRIPE WEBHOOK] 插入积分记录到数据库");
           await insertCredit({
@@ -177,16 +205,26 @@ export async function POST(req: Request) {
             order_no: order_no,
             expired_at: expiredAt.toISOString(),
           });
-          console.log("[STRIPE WEBHOOK] 积分记录已保存, 用户:", user_uuid, "积分:", credits);
+          console.log(
+            "[STRIPE WEBHOOK] 积分记录已保存, 用户:",
+            user_uuid,
+            "积分:",
+            credits
+          );
 
           await sendNotification(
-            `New Subscription: ${customer.email} - Plan: ${getPlanTypeByPriceId(
-              subscription.items.data[0]?.plan.id || ""
-            )}`
+            `New Subscription: ${customer.email} - Price: ${session.amount_total}`
           );
-          console.log("[STRIPE WEBHOOK] 订阅处理完成, 用户:", customer.email, "计划:", planType);
+          console.log(
+            "[STRIPE WEBHOOK] 订阅处理完成, 用户:",
+            customer.email,
+            "计划:",
+            planType
+          );
         } else {
-          console.log("[STRIPE WEBHOOK] 结账会话未包含订阅或客户信息, 跳过处理");
+          console.log(
+            "[STRIPE WEBHOOK] 结账会话未包含订阅或客户信息, 跳过处理"
+          );
         }
         break;
       }
@@ -215,7 +253,7 @@ export async function POST(req: Request) {
 
 const getPlanTypeByPriceId = (priceId: string) => {
   console.log("[STRIPE WEBHOOK] 根据价格ID获取计划类型, 价格ID:", priceId);
-  
+
   if (
     priceId === process.env.STRIPE_BAISC_MONTHLY_PRICE_ID ||
     priceId === process.env.STRIPE_BAISC_YEARLY_PRICE_ID

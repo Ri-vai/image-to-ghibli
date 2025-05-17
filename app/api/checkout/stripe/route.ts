@@ -19,8 +19,10 @@ export async function POST(req: Request) {
     const { planType, billingType, mode, successUrl, cancelUrl } =
       await req.json();
 
-    console.log(`[STRIPE CHECKOUT] 请求参数: planType=${planType}, billingType=${billingType}, mode=${mode}`);
-    
+    console.log(
+      `[STRIPE CHECKOUT] 请求参数: planType=${planType}, billingType=${billingType}, mode=${mode}`
+    );
+
     if (!planType || !billingType || !mode || !successUrl || !cancelUrl) {
       console.log("[STRIPE CHECKOUT] 参数不完整，请求无效");
       return respErr("invalid params");
@@ -48,7 +50,7 @@ export async function POST(req: Request) {
     });
 
     console.log(`[STRIPE CHECKOUT] Stripe会话创建成功: ${session.id}`);
-    await sendNotification(`Checkout: ${user.email} - Plan: ${planType}`);
+    // await sendNotification(`Checkout: ${user.email} - Plan: ${planType}`);
     console.log(`[STRIPE CHECKOUT] 结账URL已生成: ${session.url}`);
     return respData({
       url: session.url,
@@ -64,8 +66,10 @@ export async function POST(req: Request) {
 }
 
 const getPriceId = (planType: string, billingType: string) => {
-  console.log(`[STRIPE CHECKOUT] 获取价格ID: planType=${planType}, billingType=${billingType}`);
-  
+  console.log(
+    `[STRIPE CHECKOUT] 获取价格ID: planType=${planType}, billingType=${billingType}`
+  );
+
   if (planType === "basic" && billingType === "monthly") {
     console.log("[STRIPE CHECKOUT] 选择基础月度计划");
     return process.env.STRIPE_BAISC_MONTHLY_PRICE_ID;
