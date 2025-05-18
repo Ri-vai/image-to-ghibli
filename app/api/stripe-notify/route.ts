@@ -213,7 +213,9 @@ export async function POST(req: Request) {
           );
 
           await sendNotification(
-            `New Subscription: ${customer.email} - Price: ${session.amount_total}`
+            `New Subscription: ${customer.email} - Price: ${(
+              (session.amount_total || 0) / 100
+            ).toFixed(2)}$`
           );
           console.log(
             "[STRIPE WEBHOOK] 订阅处理完成, 用户:",
