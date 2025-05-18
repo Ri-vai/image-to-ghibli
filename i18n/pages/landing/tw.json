@@ -614,6 +614,7 @@
     "videoCompleteSoon": "這可能需要一段時間，請耐心等待",
     "videoFormat": "M4V，MP4，MOV 視訊",
     "videoSizeLimit": "訂閱者：10MB / 20s",
+    "videoFaceTip": "請確保在視頻開頭出現清晰的正面臉部",
     "startVideoFaceSwap": "開始視頻人臉交換",
     "swapVideoFace": "交換視頻人臉",
     "videoSizeError": "影片檔案超過10MB。 請上傳一個較小的影片。",

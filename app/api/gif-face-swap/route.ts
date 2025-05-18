@@ -4,6 +4,7 @@ import { newStorage } from "@/lib/storage";
 import { auth } from "@/auth";
 import { CreditsAmount, CreditsTransType, decreaseCredits, getUserCredits } from "@/services/credit";
 import { getFirstPaidOrderByUserUuid } from "@/models/order";
+import { hasValidProSubscription } from "@/services/subscription";
 
 // 记录API调用到Cloudflare KV
 async function recordApiUsage() {
@@ -89,37 +90,45 @@ export async function POST(req: NextRequest) {
 
     const user_uuid = session.user.uuid;
     
-    // 检查用户是否有付费订阅
-    const paidOrder = await getFirstPaidOrderByUserUuid(user_uuid);
-    console.log("🚀 ~ 用户订单:", paidOrder)
-    if (!paidOrder) {
-      console.error("❌ 用户未订阅", { userId: user_uuid });
-      return NextResponse.json(
-        { 
-          error: "Subscription required for GIF face swap", 
-          needSubscription: true 
-        },
-        { status: 403 }
-      );
-    }
+    // 先检查用户是否有有效的pro订阅
+    const hasProSub = await hasValidProSubscription(user_uuid);
+    if (hasProSub) {
+      console.log("✅ 用户有有效的pro订阅，可以使用GIF换脸且不消耗积分");
+    } 
+    // 如果不是pro会员，检查是否有付费订阅和足够积分
+    else {
+      // 检查用户是否有付费订阅
+      const paidOrder = await getFirstPaidOrderByUserUuid(user_uuid);
+      console.log("🚀 ~ 用户订单:", paidOrder)
+      if (!paidOrder) {
+        console.error("❌ 用户未订阅", { userId: user_uuid });
+        return NextResponse.json(
+          { 
+            error: "Subscription required for GIF face swap", 
+            needSubscription: true 
+          },
+          { status: 403 }
+        );
+      }
 
-    // 验证用户是否有足够的积分
-    const userCredits = await getUserCredits(user_uuid);
-    console.log("🚀 ~ POST ~ userCredits:", userCredits)
-    if (userCredits.left_credits < CreditsAmount.GifSwapCost) {
-      console.error("❌ 用户积分不足", { 
-        userId: user_uuid, 
-        requiredCredits: CreditsAmount.GifSwapCost, 
-        leftCredits: userCredits.left_credits 
-      });
-      return NextResponse.json(
-        { 
-          error: "Insufficient credits for GIF face swap", 
-          creditsNeeded: CreditsAmount.GifSwapCost,
-          creditsLeft: userCredits.left_credits
-        },
-        { status: 402 }
-      );
+      // 验证用户是否有足够的积分
+      const userCredits = await getUserCredits(user_uuid);
+      console.log("🚀 ~ POST ~ userCredits:", userCredits)
+      if (userCredits.left_credits < CreditsAmount.GifSwapCost) {
+        console.error("❌ 用户积分不足", { 
+          userId: user_uuid, 
+          requiredCredits: CreditsAmount.GifSwapCost, 
+          leftCredits: userCredits.left_credits 
+        });
+        return NextResponse.json(
+          { 
+            error: "Insufficient credits for GIF face swap", 
+            creditsNeeded: CreditsAmount.GifSwapCost,
+            creditsLeft: userCredits.left_credits
+          },
+          { status: 402 }
+        );
+      }
     }
 
     const { sourceImage, targetGif } = await req.json();
@@ -234,13 +243,24 @@ export async function POST(req: NextRequest) {
       });
       console.log("✅ Received prediction response", prediction);
 
-      // 扣除用户积分
-      await decreaseCredits({
-        user_uuid,
-        trans_type: CreditsTransType.GifSwap,
-        credits: CreditsAmount.GifSwapCost,
-      });
-      console.log(`💰 已扣除用户(${user_uuid})积分: ${CreditsAmount.GifSwapCost}`);
+      // 获取用户最新积分以返回
+      const userCredits = await getUserCredits(user_uuid);
+      let creditsLeft = userCredits.left_credits;
+      
+      // 只有非pro会员才扣除积分
+      const hasProSub = await hasValidProSubscription(user_uuid);
+      if (!hasProSub) {
+        // 扣除用户积分
+        await decreaseCredits({
+          user_uuid,
+          trans_type: CreditsTransType.GifSwap,
+          credits: CreditsAmount.GifSwapCost,
+        });
+        console.log(`💰 已扣除用户(${user_uuid})积分: ${CreditsAmount.GifSwapCost}`);
+        creditsLeft = userCredits.left_credits - CreditsAmount.GifSwapCost;
+      } else {
+        console.log(`💰 用户(${user_uuid})有pro订阅，不扣除积分`);
+      }
 
       return NextResponse.json({
         success: true,
@@ -249,8 +269,8 @@ export async function POST(req: NextRequest) {
           id: prediction.id,
           status: prediction.status,
         },
-        creditsUsed: CreditsAmount.GifSwapCost,
-        creditsLeft: userCredits.left_credits - CreditsAmount.GifSwapCost
+        creditsUsed: hasProSub ? 0 : CreditsAmount.GifSwapCost,
+        creditsLeft: creditsLeft
       });
     } catch (error) {
       console.error("❌ Error creating prediction:", error);

@@ -77,3 +77,18 @@ CREATE TABLE posts (
     author_avatar_url VARCHAR(255),
     locale VARCHAR(50)
 );
+
+CREATE TABLE `subscriptions` (
+	`id` integer PRIMARY KEY AUTOINCREMENT NOT NULL,
+	`sub_id` text NOT NULL,
+	`user_uuid` text NOT NULL,
+	`user_email` text NOT NULL,
+	`sub_expires_at` text,
+	`sub_status` text,
+	`customer_id` text,
+	`plan_type` text,
+	`cycle` text,
+	`payment_channel` text,
+	`created_at` text,
+	`updated_at` text
+)

@@ -4,6 +4,7 @@ import { newStorage } from "@/lib/storage";
 import { auth } from "@/auth";
 import { CreditsAmount, CreditsTransType, decreaseCredits, getUserCredits } from "@/services/credit";
 import { getFirstPaidOrderByUserUuid } from "@/models/order";
+import { hasValidProSubscription } from "@/services/subscription";
 
 // 记录API调用到Cloudflare KV
 async function recordApiUsage() {
@@ -149,24 +150,33 @@ export async function POST(req: NextRequest) {
       userUuid = session.user.uuid;
       console.log("🔍 检查用户订阅状态:", userUuid);
       
-      // 检查用户是否有付费订阅
-      const paidOrder = await getFirstPaidOrderByUserUuid(userUuid);
-      console.log("🚀 ~ 用户订单:", paidOrder);
+      // 检查用户是否有有效的pro订阅
+      const hasProSub = await hasValidProSubscription(userUuid);
       
-      if (paidOrder) {
-        // 用户有订阅，检查积分是否足够
-        const userCredits = await getUserCredits(userUuid);
-        console.log("🚀 ~ 用户积分:", userCredits);
-        
-        if (userCredits.left_credits >= CreditsAmount.PhotoFaceSwapCost) {
-          // 用户有足够积分，无需水印
-          needsWatermark = false;
-          console.log("✅ 用户有订阅且积分充足，将生成无水印图片");
-        } else {
-          console.log("⚠️ 用户有订阅但积分不足，将添加水印");
-        }
+      if (hasProSub) {
+        // 用户有有效的pro订阅，无需水印和积分
+        needsWatermark = false;
+        console.log("✅ 用户有有效的pro订阅，将生成无水印图片且不消耗积分");
       } else {
-        console.log("⚠️ 用户无订阅，将添加水印");
+        // 检查用户是否有付费订单和足够积分
+        const paidOrder = await getFirstPaidOrderByUserUuid(userUuid);
+        console.log("🚀 ~ 用户订单:", paidOrder);
+        
+        if (paidOrder) {
+          // 用户有订阅，检查积分是否足够
+          const userCredits = await getUserCredits(userUuid);
+          console.log("🚀 ~ 用户积分:", userCredits);
+          
+          if (userCredits.left_credits >= CreditsAmount.PhotoFaceSwapCost) {
+            // 用户有足够积分，无需水印
+            needsWatermark = false;
+            console.log("✅ 用户有订阅且积分充足，将生成无水印图片");
+          } else {
+            console.log("⚠️ 用户有订阅但积分不足，将添加水印");
+          }
+        } else {
+          console.log("⚠️ 用户无订阅，将添加水印");
+        }
       }
     } else {
       console.log("⚠️ 未登录用户，将添加水印");
@@ -270,18 +280,23 @@ export async function POST(req: NextRequest) {
       });
       console.log("✅ Received prediction response", prediction);
 
-      // 如果用户有订阅且不需要水印，扣除积分
+      // 如果用户有订阅且不需要水印，且不是pro会员，才扣除积分
       if (!needsWatermark && userUuid) {
-        try {
-          await decreaseCredits({
-            user_uuid: userUuid,
-            trans_type: CreditsTransType.PhotoFaceSwap,
-            credits: CreditsAmount.PhotoFaceSwapCost,
-          });
-          console.log(`💰 已扣除用户(${userUuid})积分: ${CreditsAmount.PhotoFaceSwapCost}`);
-        } catch (error) {
-          console.error("❌ 扣除积分失败:", error);
-          // 失败不影响主流程，继续返回结果
+        const hasProSub = await hasValidProSubscription(userUuid);
+        if (!hasProSub) {
+          try {
+            await decreaseCredits({
+              user_uuid: userUuid,
+              trans_type: CreditsTransType.PhotoFaceSwap,
+              credits: CreditsAmount.PhotoFaceSwapCost,
+            });
+            console.log(`💰 已扣除用户(${userUuid})积分: ${CreditsAmount.PhotoFaceSwapCost}`);
+          } catch (error) {
+            console.error("❌ 扣除积分失败:", error);
+            // 失败不影响主流程，继续返回结果
+          }
+        } else {
+          console.log(`💰 用户(${userUuid})有pro订阅，不扣除积分`);
         }
       }
 

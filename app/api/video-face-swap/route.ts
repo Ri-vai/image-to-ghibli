@@ -255,15 +255,10 @@ export async function POST(req: NextRequest) {
       });
       console.log("✅ 收到预测响应", prediction);
 
-      // 扣除用户积分
-      console.log(`💰 扣除用户积分: ${CreditsAmount.VideoSwapCost}...`);
-      await decreaseCredits({
-        user_uuid,
-        trans_type: CreditsTransType.VideoSwap,
-        credits: CreditsAmount.VideoSwapCost,
-      });
-      console.log(`💰 已扣除用户(${user_uuid})积分: ${CreditsAmount.VideoSwapCost}`);
-
+      // 获取用户最新积分
+      const userCredits = await getUserCredits(user_uuid);
+      
+      // 不再立即扣除积分，而是在状态检查成功后扣除
       return NextResponse.json({
         success: true,
         message: "Video face swap processing started",
@@ -271,8 +266,8 @@ export async function POST(req: NextRequest) {
           id: prediction.id,
           status: prediction.status,
         },
-        creditsUsed: CreditsAmount.VideoSwapCost,
-        creditsLeft: userCredits.left_credits - CreditsAmount.VideoSwapCost
+        creditsNeeded: CreditsAmount.VideoSwapCost,
+        creditsLeft: userCredits.left_credits
       });
     } catch (error) {
       console.error("❌ 创建预测时出错:", error);

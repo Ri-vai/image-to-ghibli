@@ -614,6 +614,7 @@
     "videoCompleteSoon": "しばらくお待ちください。少々お時間がかかる場合があります",
     "videoFormat": "M4V、MP4、MOV形式のビデオ",
     "videoSizeLimit": "登録者: 1024MB / 300秒 / 4K",
+    "videoFaceTip": "ビデオの冒頭に明確な正面顔が表示されることを確認してください",
     "startVideoFaceSwap": "ビデオフェイススワップを開始",
     "swapVideoFace": "ビデオフェイスを交換",
     "videoSizeError": "動画ファイルが10MBを超えています。より小さい動画をアップロードしてください。",

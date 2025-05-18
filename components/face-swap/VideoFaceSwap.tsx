@@ -173,6 +173,11 @@ export default function VideoFaceSwap({
       setIsLoadingVideo(true);
       setErrorVideo(null);
       setProgress(0);
+      
+      // 记录开始时间
+      const startTime = Date.now();
+      // 预计总时长（毫秒）- 3分钟
+      const expectedDuration = 4 * 60 * 1000;
 
       const response = await fetch("/api/video-face-swap", {
         method: "POST",
@@ -222,12 +227,15 @@ export default function VideoFaceSwap({
           );
         }
 
-        // 更新进度
-        setProgress(Math.min(95, Math.floor((attempts / maxAttempts) * 100)));
+        // 更新进度 - 基于预计3分钟处理时间
+        const elapsedTime = Date.now() - startTime;
+        const timeBasedProgress = Math.floor((elapsedTime / expectedDuration) * 100);
+        // 限制最大进度为95%，直到实际完成
+        setProgress(Math.min(95, timeBasedProgress));
 
         if (statusData.success && statusData.output) {
           setResultVideo(statusData.output.video);
-          setProgress(100);
+          setProgress(100); // 完成时设为100%
         
           // 在成功处理后刷新积分
           await refreshCredits();
@@ -448,7 +456,10 @@ export default function VideoFaceSwap({
                 {faceSwap?.videoFormat || "M4V, MP4, MOV videos"}
               </p>
               <p className="text-xs text-muted-foreground">
-              {faceSwap?.videoSizeLimit || "Subscribers: 10MB / 20s"}
+                {faceSwap?.videoSizeLimit || "Subscribers: 10MB / 20s"}
+              </p>
+              <p className="text-xs text-muted-foreground text-amber-500">
+                {faceSwap?.videoFaceTip || "Please ensure a clear frontal face appears at the beginning of the video"}
               </p>
             </div>
           </div>

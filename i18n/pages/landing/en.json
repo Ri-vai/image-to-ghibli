@@ -614,6 +614,7 @@
     "videoCompleteSoon": "This may take a while, please be patient",
     "videoFormat": "M4V, MP4, MOV videos",
     "videoSizeLimit": "Subscribers: 10MB / 20s",
+    "videoFaceTip": "Please ensure a clear frontal face appears at the beginning of the video",
     "startVideoFaceSwap": "Start Video Face Swap",
     "swapVideoFace": "Swap Video Face",
     "videoSizeError": "Video file exceeds 10MB. Please upload a smaller video.",

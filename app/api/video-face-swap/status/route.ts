@@ -2,15 +2,30 @@
 
 import { NextRequest, NextResponse } from "next/server";
 import Replicate from "replicate";
+import { auth } from "@/auth";
+import { CreditsAmount, CreditsTransType, decreaseCredits, getUserCredits } from "@/services/credit";
 
 export async function POST(request: NextRequest) {
   console.log("🔍 视频换脸状态检查API请求开始处理 - 时间:", new Date().toISOString());
   
   try {
+    // 获取当前用户会话
+    const session = await auth();
+    if (!session || !session.user || !session.user.uuid) {
+      console.error("❌ 未授权的访问尝试");
+      return NextResponse.json(
+        { error: "Unauthorized. Please login to use this feature." },
+        { status: 401 }
+      );
+    }
+
+    const user_uuid = session.user.uuid;
+
     // 从请求体中获取预测ID
     console.log("📥 解析请求数据...");
     const data = await request.json();
     const predictionId = data.id;
+    const creditDeducted = data.creditDeducted || false; // 是否已扣除积分标记
     
     // 添加日志记录每次请求的时间和ID
     console.log(`🔍 检查视频换脸状态 - ID: ${predictionId}, 时间: ${new Date().toISOString()}`);
@@ -48,6 +63,27 @@ export async function POST(request: NextRequest) {
     // 如果预测完成并有输出
     if (prediction.status === "succeeded" && prediction.output) {
       console.log("✅ 视频换脸成功, output:", prediction.output);
+      
+      // 如果还未扣除积分
+      if (!creditDeducted) {
+        try {
+          // 扣除用户积分
+          await decreaseCredits({
+            user_uuid,
+            trans_type: CreditsTransType.VideoSwap,
+            credits: CreditsAmount.VideoSwapCost,
+          });
+          console.log(`💰 已扣除用户(${user_uuid})积分: ${CreditsAmount.VideoSwapCost}`);
+        } catch (error) {
+          console.error("❌ 扣除积分失败:", error);
+          // 继续处理，不阻止用户获取结果
+        }
+      } else {
+        console.log(`💰 积分已扣除，跳过`);
+      }
+
+      // 获取最新积分
+      const userCredits = await getUserCredits(user_uuid);
 
       // 添加禁止缓存的响应头
       return NextResponse.json({
@@ -56,6 +92,8 @@ export async function POST(request: NextRequest) {
         output: {
           video: prediction.output,
         },
+        creditDeducted: true, // 标记已扣除积分
+        creditsLeft: userCredits.left_credits
       }, {
         headers: {
           'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',

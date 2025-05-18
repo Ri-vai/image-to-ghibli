@@ -614,6 +614,7 @@
     "videoCompleteSoon": "Bu biraz zaman alabilir, lütfen sabırlı olun",
     "videoFormat": "M4V, MP4, MOV videoları",
     "videoSizeLimit": "Aboneler: 10MB / 20s",
+    "videoFaceTip": "Lütfen videonun başında net bir önden yüz göründüğünden emin olun",
     "startVideoFaceSwap": "Video Yüz Takası Başlat",
     "swapVideoFace": "Video Yüz Değiştirme",
     "videoSizeError": "Video dosyası 10MB'den büyük. Lütfen daha küçük bir video yükleyin.",

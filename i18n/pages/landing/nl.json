@@ -614,6 +614,7 @@
     "videoCompleteSoon": "Dit kan even duren, gelieve geduld te hebben",
     "videoFormat": "M4V, MP4, MOV videos",
     "videoSizeLimit": "Abonnees: 10MB / 20s",
+    "videoFaceTip": "Zorg ervoor dat er aan het begin van de video een duidelijk frontaal gezicht verschijnt",
     "startVideoFaceSwap": "Start Video Gezichtsruil",
     "swapVideoFace": "Ruil Video Gezicht",
     "videoSizeError": "Videobestand overschrijdt 10MB. Gelieve een kleiner video-bestand te uploaden.",

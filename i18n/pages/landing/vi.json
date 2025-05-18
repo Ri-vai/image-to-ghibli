@@ -614,6 +614,7 @@
     "videoCompleteSoon": "Quá trình này có thể mất một thời gian, vui lòng kiên nhẫn",
     "videoFormat": "Video định dạng M4V, MP4, MOV",
     "videoSizeLimit": "Người đăng ký: 10MB / 20s",
+    "videoFaceTip": "Vui lòng đảm bảo một khuôn mặt trước rõ ràng xuất hiện ở đầu video",
     "startVideoFaceSwap": "Bắt đầu Hoán Đổi Khuôn Mặt Trên Video",
     "swapVideoFace": "Hoán Đổi Khuôn Mặt Trên Video",
     "videoSizeError": "Tệp video vượt quá 10MB. Vui lòng tải lên video nhỏ hơn.",
