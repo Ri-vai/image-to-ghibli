@@ -29,11 +29,17 @@ export default async function ({ children }: { children: ReactNode }) {
           is_active: false,
         },
         {
-          title: t("api_keys.title"),
-          url: "/api-keys",
-          icon: "RiKey2Line",
+          title: t("my_subscription.title"),
+          url: "/my-subscription",
+          icon: "RiBankCardLine",
           is_active: false,
         },
+        // {
+        //   title: t("api_keys.title"),
+        //   url: "/api-keys",
+        //   icon: "RiKey2Line",
+        //   is_active: false,
+        // },
       ],
     },
   };

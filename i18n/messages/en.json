@@ -62,6 +62,20 @@
       "status": "Status"
     }
   },
+  "my_subscription": {
+    "title": "My Subscription",
+    "manage_subscription": "Manage Subscription",
+    "no_subscription": "No subscription found",
+    "no_valid_subscription": "No valid subscription",
+    "active": "Active",
+    "inactive": "Inactive",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "subscription_id": "Subscription ID",
+    "payment_channel": "Payment Channel",
+    "created_at": "Created At",
+    "expires_at": "Expires At"
+  },
   "api_keys": {
     "title": "API Keys",
     "tip": "Please keep your apikey safe to avoid leaks",
