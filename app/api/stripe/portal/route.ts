@@ -4,7 +4,7 @@ import { getUserUuid } from '@/services/user';
 import { getLastSubscriptionByUserUuid } from '@/services/subscription';
 
 const stripe = new Stripe(process.env.STRIPE_PRIVATE_KEY!, {
-  apiVersion: '2023-10-16',
+  apiVersion: '2025-01-27.acacia',
 });
 
 console.log('Stripe key prefix:', process.env.STRIPE_PRIVATE_KEY?.substring(0, 7));
