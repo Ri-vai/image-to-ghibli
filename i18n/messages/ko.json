@@ -62,6 +62,20 @@
       "status": "상태"
     }
   },
+  "my_subscription": {
+    "title": "내 구독",
+    "manage_subscription": "구독 관리",
+    "no_subscription": "구독을 찾을 수 없습니다",
+    "no_valid_subscription": "유효한 구독이 없습니다",
+    "active": "활성화",
+    "inactive": "비활성화",
+    "monthly": "매월",
+    "yearly": "매년",
+    "subscription_id": "구독 ID",
+    "payment_channel": "결제 채널",
+    "created_at": "생성 날짜",
+    "expires_at": "만료 날짜"
+  },
   "api_keys": {
     "title": "API 키",
     "tip": "API 키가 유출되지 않도록 안전하게 보관해 주세요",

@@ -62,6 +62,20 @@
       "status": "Durum"
     }
   },
+  "my_subscription": {
+    "title": "Aboneliklerim",
+    "manage_subscription": "Aboneliği Yönet",
+    "no_subscription": "Abonelik bulunamadı",
+    "no_valid_subscription": "Geçerli abonelik bulunamadı",
+    "active": "Aktif",
+    "inactive": "Aktif Değil",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "subscription_id": "Abonelik ID'si",
+    "payment_channel": "Ödeme Kanalı",
+    "created_at": "Oluşturulma Tarihi",
+    "expires_at": "Sonlanma Tarihi"
+  },
   "api_keys": {
     "title": "API Anahtarları",
     "tip": "Sızıntıları önlemek için lütfen API anahtarınızı güvende tutun",

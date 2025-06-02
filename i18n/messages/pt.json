@@ -62,6 +62,20 @@
       "status": "Status"
     }
   },
+  "my_subscription": {
+    "title": "Minha Assinatura",
+    "manage_subscription": "Gerenciar Assinatura",
+    "no_subscription": "Nenhuma assinatura encontrada",
+    "no_valid_subscription": "Nenhuma assinatura válida",
+    "active": "Ativa",
+    "inactive": "Inativa",
+    "monthly": "Mensal",
+    "yearly": "Anual",
+    "subscription_id": "ID da Assinatura",
+    "payment_channel": "Canal de Pagamento",
+    "created_at": "Criada Em",
+    "expires_at": "Expira Em"
+  },
   "api_keys": {
     "title": "Chaves API",
     "tip": "Por favor, mantenha sua chave API segura para evitar vazamentos",

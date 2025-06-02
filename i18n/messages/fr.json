@@ -62,6 +62,20 @@
       "status": "Statut"
     }
   },
+  "my_subscription": {
+    "title": "Mon Abonnement",
+    "manage_subscription": "Gérer l'abonnement",
+    "no_subscription": "Aucun abonnement trouvé",
+    "no_valid_subscription": "Aucun abonnement valide",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "subscription_id": "ID d'abonnement",
+    "payment_channel": "Canal de paiement",
+    "created_at": "Créé le",
+    "expires_at": "Expire le"
+  },
   "api_keys": {
     "title": "Clés API",
     "tip": "Veuillez garder votre clé API en sécurité pour éviter les fuites",

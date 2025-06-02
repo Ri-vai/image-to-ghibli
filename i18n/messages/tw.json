@@ -62,6 +62,20 @@
       "status": "狀態"
     }
   },
+  "my_subscription": {
+    "title": "我的訂閱",
+    "manage_subscription": "管理訂閱",
+    "no_subscription": "找不到訂閱",
+    "no_valid_subscription": "沒有有效訂閱",
+    "active": "啟用",
+    "inactive": "停用",
+    "monthly": "每月",
+    "yearly": "每年",
+    "subscription_id": "訂閱ID",
+    "payment_channel": "付款渠道",
+    "created_at": "建立日期",
+    "expires_at": "到期日"
+  },
   "api_keys": {
     "title": "API 金鑰",
     "tip": "請妥善保管您的 API 金鑰以避免洩漏",

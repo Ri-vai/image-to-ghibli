@@ -62,6 +62,20 @@
       "status": "Status"
     }
   },
+  "my_subscription": {
+    "title": "Mijn Abonnement",
+    "manage_subscription": "Beheer Abonnement",
+    "no_subscription": "Geen abonnement gevonden",
+    "no_valid_subscription": "Geen geldig abonnement",
+    "active": "Actief",
+    "inactive": "Inactief",
+    "monthly": "Maandelijks",
+    "yearly": "Jaarlijks",
+    "subscription_id": "Abonnements-ID",
+    "payment_channel": "Betaalkanaal",
+    "created_at": "Aangemaakt op",
+    "expires_at": "Vervalt op"
+  },
   "api_keys": {
     "title": "API-sleutels",
     "tip": "Bewaar je API-sleutel veilig om lekken te voorkomen",

@@ -62,6 +62,20 @@
       "status": "الحالة"
     }
   },
+  "my_subscription": {
+    "title": "اشتراكي",
+    "manage_subscription": "إدارة الاشتراك",
+    "no_subscription": "لم يتم العثور على اشتراك",
+    "no_valid_subscription": "لا يوجد اشتراك صالح",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "monthly": "شهرياً",
+    "yearly": "سنوياً",
+    "subscription_id": "معرف الاشتراك",
+    "payment_channel": "قناة الدفع",
+    "created_at": "تم الإنشاء في",
+    "expires_at": "ينتهي في"
+  },
   "api_keys": {
     "title": "مفاتيح API",
     "tip": "يرجى الحفاظ على مفتاح API الخاص بك آمنًا لتجنب التسرب",

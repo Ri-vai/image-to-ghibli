@@ -62,6 +62,20 @@
       "status": "Trạng thái"
     }
   },
+  "my_subscription": {
+    "title": "Gói đăng ký của tôi",
+    "manage_subscription": "Quản lý đăng ký",
+    "no_subscription": "Không tìm thấy gói đăng ký nào",
+    "no_valid_subscription": "Không có gói đăng ký hợp lệ",
+    "active": "Hoạt động",
+    "inactive": "Không hoạt động",
+    "monthly": "Hàng tháng",
+    "yearly": "Hằng năm",
+    "subscription_id": "ID Đăng ký",
+    "payment_channel": "Kênh thanh toán",
+    "created_at": "Đã tạo lúc",
+    "expires_at": "Hết hạn lúc"
+  },
   "api_keys": {
     "title": "Khóa API",
     "tip": "Vui lòng giữ an toàn apikey của bạn để tránh rò rỉ",

@@ -62,6 +62,20 @@
       "status": "Статус"
     }
   },
+  "my_subscription": {
+    "title": "Мои подписки",
+    "manage_subscription": "Управление подпиской",
+    "no_subscription": "Подписка не найдена",
+    "no_valid_subscription": "Нет действующей подписки",
+    "active": "Активная",
+    "inactive": "Неактивная",
+    "monthly": "Ежемесячная",
+    "yearly": "Ежегодная",
+    "subscription_id": "Идентификатор подписки",
+    "payment_channel": "Платежный канал",
+    "created_at": "Создана",
+    "expires_at": "Истекает"
+  },
   "api_keys": {
     "title": "API Ключи",
     "tip": "Пожалуйста, храните ваш apikey в безопасности, чтобы избежать утечек",

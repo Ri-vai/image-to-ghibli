@@ -62,6 +62,20 @@
       "status": "Status"
     }
   },
+  "my_subscription": {
+    "title": "Mein Abonnement",
+    "manage_subscription": "Abonnement verwalten",
+    "no_subscription": "Kein Abonnement gefunden",
+    "no_valid_subscription": "Kein gültiges Abonnement",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "subscription_id": "Abonnement-ID",
+    "payment_channel": "Zahlungskanal",
+    "created_at": "Erstellt am",
+    "expires_at": "Ablaufdatum"
+  },
   "api_keys": {
     "title": "API-Schlüssel",
     "tip": "Bitte bewahren Sie Ihren API-Schlüssel sicher auf, um Lecks zu vermeiden",

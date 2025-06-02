@@ -62,6 +62,20 @@
       "status": "Estado"
     }
   },
+  "my_subscription": {
+    "title": "Mi Suscripción",
+    "manage_subscription": "Gestionar Suscripción",
+    "no_subscription": "No se encontró ninguna suscripción",
+    "no_valid_subscription": "Sin suscripción válida",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "subscription_id": "ID de Suscripción",
+    "payment_channel": "Canal de Pago",
+    "created_at": "Creado En",
+    "expires_at": "Caduca En"
+  },
   "api_keys": {
     "title": "Claves API",
     "tip": "Por favor, mantenga su clave API segura para evitar filtraciones",

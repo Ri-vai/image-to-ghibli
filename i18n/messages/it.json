@@ -62,6 +62,20 @@
       "status": "Stato"
     }
   },
+  "my_subscription": {
+    "title": "La Mia Sottoscrizione",
+    "manage_subscription": "Gestisci Sottoscrizione",
+    "no_subscription": "Nessuna sottoscrizione trovata",
+    "no_valid_subscription": "Nessuna sottoscrizione valida",
+    "active": "Attiva",
+    "inactive": "Inattiva",
+    "monthly": "Mensile",
+    "yearly": "Annuale",
+    "subscription_id": "ID Sottoscrizione",
+    "payment_channel": "Canale di Pagamento",
+    "created_at": "Creato il",
+    "expires_at": "Scade il"
+  },
   "api_keys": {
     "title": "Chiavi API",
     "tip": "Si prega di mantenere al sicuro la propria apikey per evitare fughe di dati",
