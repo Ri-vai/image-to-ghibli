@@ -30,7 +30,7 @@ export async function POST(request: NextRequest) {
       return_url: `${request.nextUrl.origin}/my-subscription`,
     });
 
-    return NextResponse.redirect(session.url);
+    return NextResponse.json({ url: session.url });
   } catch (error) {
     console.error('Portal session error:', error);
     return NextResponse.json({ error: 'Failed to create portal session' }, { status: 500 });

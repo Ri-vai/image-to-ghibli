@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import moment from "moment";
+import { PortalButton } from '@/components/ui/portal-button';
 
 export default async function () {
   const t = await getTranslations();
@@ -46,12 +47,9 @@ export default async function () {
         <div>
           <h3 className="text-lg font-medium">{t("my_subscription.title")}</h3>
         </div>
-        <form action="/api/stripe/portal" method="POST">
-          <input type="hidden" name="user_uuid" value={user_uuid} />
-          <Button type="submit" variant="destructive">
-            {t("my_subscription.manage_subscription")}
-          </Button>
-        </form>
+        <PortalButton>
+          {t("my_subscription.manage_subscription")}
+        </PortalButton>
       </div>
 
       <Card>
