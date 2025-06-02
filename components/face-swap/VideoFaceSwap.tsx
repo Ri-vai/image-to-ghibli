@@ -458,9 +458,9 @@ export default function VideoFaceSwap({
               <p className="text-xs text-muted-foreground">
                 {faceSwap?.videoSizeLimit || "Subscribers: 10MB / 20s"}
               </p>
-              <p className="text-xs text-muted-foreground text-amber-500">
+              {/* <p className="text-xs text-muted-foreground text-amber-500">
                 {faceSwap?.videoFaceTip || "Please ensure a clear frontal face appears at the beginning of the video"}
-              </p>
+              </p> */}
             </div>
           </div>
 
