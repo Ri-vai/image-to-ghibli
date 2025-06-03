@@ -7,6 +7,11 @@ export default function AdScript() {
   const { credits, loading } = useCredits();
 
   useEffect(() => {
+    // 检查环境变量
+    const showAds = process.env.NEXT_PUBLIC_SHOW_ADS === "true";
+    const clientId = process.env.NEXT_PUBLIC_GOOGLE_ADS_CLIENT_ID;
+    if (!showAds || !clientId) return;
+
     // 等待积分加载完成
     if (loading) return;
 
@@ -16,7 +21,7 @@ export default function AdScript() {
 
     // 用户没有积分，动态加载广告脚本
     const script = document.createElement("script");
-    script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2968253568243697";
+    script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${clientId}`;
     script.async = true;
     script.crossOrigin = "anonymous";
     document.head.appendChild(script);
@@ -30,4 +35,4 @@ export default function AdScript() {
   }, [credits, loading]);
 
   return null;
-} 
+}

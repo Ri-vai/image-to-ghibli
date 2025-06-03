@@ -27,13 +27,6 @@ export default function LegalLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <script
-          defer
-          data-domain="aifaceswap.app"
-          src="https://click.pageview.click/js/script.js"
-        ></script>
-      </head>
       <body>
         <CreditsProvider>
           <AdScript />

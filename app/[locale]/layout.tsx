@@ -70,12 +70,6 @@ export default async function RootLayout({
               href={`https://aifaceswap.app/${lang}`}
             />
           ))}
-
-        <script
-          defer
-          data-domain="aifaceswap.app"
-          src="https://click.pageview.click/js/script.js"
-        ></script>
         <script
           defer
           data-domain="aifaceswap.app"

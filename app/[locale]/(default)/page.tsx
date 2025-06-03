@@ -40,7 +40,7 @@ export default async function LandingPage({
 
   return (
     <>
-      <FaceSwap locale={locale} faceSwap={page.faceSwap} />
+      {/* <FaceSwap locale={locale} faceSwap={page.faceSwap} /> */}
       {page.hero && <Hero hero={page.hero} />}
       {/* {page.branding && <Branding section={page.branding} />} */}
       {page.introduce && <Feature1 section={page.introduce} />}
@@ -49,7 +49,7 @@ export default async function LandingPage({
       {page.feature && <Feature section={page.feature} />}
       {page.showcase && <Showcase section={page.showcase} />}
       {page.stats && <Stats section={page.stats} />}
-      {page.pricing && (
+      {process.env.SHOW_PRICING === "true" && page.pricing && (
         <section id="pricing">
           <Pricing pricing={page.pricing} />
         </section>

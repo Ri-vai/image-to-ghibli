@@ -44,8 +44,6 @@ export default async function GifFaceSwapPage({
 }) {
   const landingPage = await getLandingPage(locale);
 
-  console.log("🚀 ~ landingPage:", landingPage);
-
   return (
     <div>
       
