@@ -1,12 +1,12 @@
 {
-  "template": "ai-face-swap",
-  "theme": "light",
+  "template": "ảnh-đến-ghibli",
+  "theme": "sáng",
   "header": {
     "brand": {
-      "title": "AI Hoán Đổi Khuôn Mặt",
+      "title": "Hình ảnh đến Ghibli",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Hoán Đổi Khuôn Mặt"
+        "alt": "Hình ảnh đến Ghibli"
       },
       "url": "/"
     },
@@ -18,7 +18,7 @@
           "icon": "HiOutlineSparkles"
         },
         {
-          "title": "Bảng giá",
+          "title": "Giá cả",
           "url": "#pricing",
           "icon": "MdPayment"
         },
@@ -31,7 +31,7 @@
     },
     "buttons": [
       {
-        "title": "Dùng thử ngay",
+        "title": "Thử ngay",
         "url": "/#try",
         "target": "_self",
         "variant": "link",
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Công cụ AI Hoán Đổi Khuôn Mặt trực tuyến miễn phí tốt nhất",
-    "highlight_text": "AI Hoán Đổi Khuôn Mặt",
-    "description": "Khám phá thế giới đổi mới của AI Hoán Đổi Khuôn Mặt, nơi công nghệ tiên tiến kết hợp với giải trí không giới hạn. Dễ dàng chỉnh sửa hình ảnh và video, mở ra cánh cửa cho những khả năng kỹ thuật số chưa từng có.",
+    "title": "Biến hình ảnh của bạn thành Nghệ thuật Anime Phép thuật",
+    "highlight_text": "Phong cách Studio Ghibli",
+    "description": "Trải nghiệm sự biến hóa quyến rũ của các bức ảnh của bạn thành những tác phẩm nghệ thuật anime tuyệt đẹp lấy cảm hứng từ thẩm mỹ huyền thoại của Studio Ghibli. Công nghệ AI của chúng tôi mang đến thế giới diệu kỳ của hoạt hình vào những khoảnh khắc hàng ngày của bạn.",
     "announcement": {
       "label": "AI",
-      "title": "Miễn phí & An toàn",
+      "title": "Ngay lập tức & Phép thuật",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "Dùng thử ngay",
+        "title": "Biến Đổi Ngay",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Xem ví dụ",
+        "title": "Xem Bộ Sưu Tập",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -78,56 +78,56 @@
     "show_badge": false
   },
   "introduce": {
-    "name": "introduce",
-    "title": "Trải nghiệm điều kỳ diệu của Hoán đổi khuôn mặt AI",
-    "label": "Cách thức hoạt động",
-    "description": "Biến đổi bất kỳ bức ảnh nào với công nghệ hoán đổi khuôn mặt AI tiên tiến của chúng tôi. Nhanh chóng, chính xác và an toàn.",
+    "name": "giới thiệu",
+    "title": "Biến Ảnh Thành Phép Thuật Anime",
+    "label": "Cách Hoạt Động",
+    "description": "Biến những bức ảnh thông thường của bạn thành tác phẩm nghệ thuật anime đặc biệt với công nghệ AI tiên tiến của chúng tôi. Nhanh chóng, đẹp đẽ, và phù thủy.",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "Tải lên ảnh của bạn",
-        "description": "Chỉ cần tải lên ảnh nguồn và khuôn mặt bạn muốn hoán đổi.",
+        "title": "Tải Ảnh Của Bạn",
+        "description": "Đơn giản tải lên bất kỳ bức ảnh nào bạn muốn chuyển đổi thành tác phẩm nghệ thuật phong cách anime.",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "Xử lý bằng AI",
-        "description": "AI của chúng tôi phân tích và xử lý hình ảnh để hoán đổi khuôn mặt hoàn hảo.",
+        "title": "Trí tuệ Nhân tạo",
+        "description": "Trí tuệ nhân tạo của chúng tôi phân tích hình ảnh của bạn và áp dụng phong cách Studio Ghibli được yêu thích.",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "Kết quả tức thì",
-        "description": "Nhận hình ảnh đã chuyển đổi trong vài giây, sẵn sàng để tải xuống.",
+        "title": "Tải Xuống Nghệ Thuật",
+        "description": "Nhận ngay tác phẩm nghệ thuật sau khi chuyển đổi, sẵn sàng chia sẻ và trân trọng.",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
     "name": "lợi ích",
-    "title": "Tại sao chọn AI Face Swap",
-    "label": "Lợi ích",
-    "description": "Trải nghiệm công nghệ hoán đổi khuôn mặt tốt nhất với các tính năng nâng cao và bảo mật.",
+    "title": "Tại Sao Chọn Máy Biến Đổi Nghệ Thuật AI Của Chúng Tôi",
+    "label": "Lợi Ích",
+    "description": "Trải nghiệm phép màu chuyển đổi ảnh của bạn thành tác phẩm nghệ thuật phong cách anime tuyệt đẹp với các tính năng tiên tiến.",
     "items": [
       {
-        "title": "Công nghệ AI tiên tiến",
-        "description": "Mô hình học sâu hiện đại đảm bảo hoán đổi khuôn mặt tự nhiên và chân thực.",
+        "title": "Công Nghệ Trí Tuệ Nhân Tạo Tiên Tiến",
+        "description": "Các mô hình học sâu tiên tiến đảm bảo các chuyển đổi phong cách anime đẹp và chân thực.",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Quyền riêng tư & Bảo mật",
-        "description": "Ảnh của bạn được xử lý an toàn và tự động xóa sau khi xử lý.",
+        "title": "Phong Cách Tự Nhiên",
+        "description": "Trí tuệ nhân tạo của chúng tôi bắt lấy bản chất của thẩm mỹ anime được yêu thích trong mọi chuyển đổi.",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Thân thiện với nhà phát triển",
-        "description": "Tích hợp công nghệ hoán đổi khuôn mặt của chúng tôi vào ứng dụng của bạn với API mạnh mẽ.",
+        "title": "Tích Hợp Dễ Dàng",
+        "description": "Tích hợp công nghệ biến đổi hình ảnh của chúng tôi vào ứng dụng của bạn với API mạnh mẽ của chúng tôi.",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -136,9 +136,9 @@
     ]
   },
   "usage": {
-    "name": "hướng dẫn",
-    "title": "Cách Hoán Đổi Khuôn Mặt Trực Tuyến",
-    "description": "Tạo hình ảnh tuyệt đẹp chỉ với vài bước đơn giản:",
+    "name": "sử dụng",
+    "title": "Biến đổi Ảnh của Bạn trong Vài Bước Đơn Giản",
+    "description": "Tạo nghệ thuật anime tuyệt đẹp chỉ trong vài lần nhấp chuột:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
@@ -146,82 +146,82 @@
     "text_align": "left",
     "items": [
       {
-        "title": "Tải Ảnh Lên",
-        "description": "Chỉ cần nhấp vào 'Tải lên Ảnh' và chọn bức ảnh bạn muốn sử dụng làm ảnh nguồn. Đảm bảo chỉ có một khuôn mặt trong ảnh và ảnh phải có chất lượng tốt."
+        "title": "Tải Lên Ảnh của Bạn",
+        "description": "Nhấp 'Tải Ảnh lên' và chọn bất kỳ hình ảnh nào bạn muốn biến đổi. Những bức ảnh có chủ đề rõ nét sẽ hoạt động tốt nhất."
       },
       {
-        "title": "Chọn Tùy Chọn Hoán Đổi Khuôn Mặt",
-        "description": "Khi ảnh gốc của bạn đã sẵn sàng, hãy chọn hiệu ứng hoán đổi mong muốn từ các mẫu có sẵn. Điều này có nghĩa là bạn sẽ thay thế khuôn mặt trong ảnh đã tải lên bằng mẫu đã chọn."
+        "title": "Chọn Tùy Chọn Phong Cách",
+        "description": "Chọn từ các tùy chọn phong cách khác nhau để tùy chỉnh biến đổi của bạn. Mỗi tùy chọn mang đến các yếu tố nghệ thuật độc đáo cho tác phẩm cuối cùng của bạn."
       },
       {
-        "title": "Hoán Đổi Khuôn Mặt với AI",
-        "description": "Nhấp vào nút 'Hoán Đổi Khuôn Mặt Ngay' để cho AI thể hiện phép màu. AiFaceSwap.app sẽ hoàn thành việc hoán đổi khuôn mặt trong vài giây. AI của chúng tôi thực hiện công việc một cách tự động đồng thời đảm bảo kết quả tốt nhất."
+        "title": "Biến Đổi AI",
+        "description": "Hãy để trí tuệ nhân tạo của chúng tôi hoạt động. Chỉ trong vài giây, bức ảnh của bạn sẽ được biến đổi thành một tác phẩm nghệ thuật lấy cảm hứng từ anime đẹp mắt."
       },
       {
-        "title": "Xem Trước và Tải Xuống",
-        "description": "Tuyệt vời! Khuôn mặt của bạn đã được hoán đổi với người bạn thích! Xem trước kết quả cuối cùng ngay trên cùng trang. Nhấp vào 'Tải xuống' để lưu ảnh không có hình mờ vào thiết bị của bạn. Chia sẻ để cùng vui!"
+        "title": "Tải Xuống và Chia Sẻ",
+        "description": "Tác phẩm của bạn đã sẵn sàng! Tải xuống hình ảnh đã được biến đổi của bạn với chất lượng cao và chia sẻ sáng tạo kỳ diệu của bạn với thế giới."
       }
     ]
   },
   "feature": {
     "name": "tính năng",
-    "title": "Các Tính Năng Hoán Đổi Khuôn Mặt AI Mạnh Mẽ",
-    "description": "Khám phá những khả năng tuyệt vời của công nghệ hoán đổi khuôn mặt được hỗ trợ bởi AI của chúng tôi",
+    "title": "Các Tính Năng Đặc Biệt Cho Ảnh Của Bạn",
+    "description": "Khám phá khả năng mê hoặc của công nghệ biến đổi nghệ thuật AI của chúng tôi",
     "items": [
       {
-        "title": "Hoán Đổi Khuôn Mặt Chân Thực",
-        "description": "Công nghệ tiên tiến của chúng tôi đảm bảo hoán đổi khuôn mặt hoàn hảo, chân thực, hoàn toàn che giấu mọi dấu vết chỉnh sửa.",
+        "title": "Phong cách Anime Chân Thực",
+        "description": "AI của chúng tôi hoàn hảo trong việc lưu giữ phong cách nghệ thuật đặc biệt khiến nghệ thuật anime trở nên được yêu thích trên toàn thế giới.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Giao Diện Dễ Sử Dụng",
-        "description": "Chỉ với một cú nhấp chuột, bạn có thể thay thế bất kỳ khuôn mặt nào lên một hình ảnh khác, làm cho quá trình trở nên đơn giản và trực quan.",
+        "title": "Giao Diện Đơn Giản",
+        "description": "Biến đổi ảnh của bạn chỉ với một cú nhấp chuột, mang phép màu của nghệ thuật anime trở nên dễ tiếp cận với mọi người.",
         "icon": "RiMouseLine"
       },
       {
-        "title": "Tạo Meme",
-        "description": "Tạo ra những meme hài hước một cách dễ dàng, tăng cường tương tác với khán giả thông qua nội dung mới mẻ và hấp dẫn.",
+        "title": "Biến Thể Phong Cách",
+        "description": "Chọn từ các phong cách nghệ thuật khác nhau để tìm kiếm diện mạo hoàn hảo cho ảnh của bạn.",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "Biến Đổi Thành Người Nổi Tiếng",
-        "description": "Biến đổi ngoại hình của bạn bằng cách hoán đổi khuôn mặt với nhiều nhân vật khác nhau, từ ngôi sao điện ảnh đến siêu anh hùng.",
+        "title": "Độ Phân Giải Cao",
+        "description": "Nhận được tác phẩm nghệ thuật đẹp, độ phân giải cao hoàn hảo cho in ấn hoặc trình chiếu số.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "Thử Nghiệm Phong Cách",
-        "description": "Khám phá diện mạo mới bằng cách áp dụng khuôn mặt của bạn vào các nhân vật khác nhau, thử nghiệm với trang điểm, kiểu tóc và phong cách thời trang.",
+        "title": "Xử Lý Hàng Loạt",
+        "description": "Biến đổi nhiều ảnh cùng một lúc để tạo ra một bộ sưu tập các tác phẩm nghệ thuật anime.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "Sáng Tạo Vô Tận",
-        "description": "Mở khóa tiềm năng vô hạn cho sự sáng tạo và giải trí với công nghệ hoán đổi khuôn mặt đa năng của chúng tôi.",
+        "title": "Tự Do Sáng Tạo",
+        "description": "Thả sức sáng tạo của bạn với các tùy chọn tùy chỉnh đa dạng cho các biến đổi của bạn.",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
-    "name": "trưng bày",
-    "title": "Những Biến Đổi Tuyệt Vời",
-    "description": "Xem những gì người dùng của chúng tôi đã tạo ra với AI Face Swap.",
+    "name": "showcase",
+    "title": "Biến Đổi Phép Thuật",
+    "description": "Xem những tác phẩm nghệ thuật tuyệt đẹp được tạo ra bằng công nghệ AI của chúng tôi.",
     "items": [
       {
-        "title": "Hoán Đổi Khuôn Mặt Video",
-        "description": "Hoán đổi khuôn mặt trong video, nâng cao việc làm phim hoặc tạo nội dung cho mạng xã hội",
+        "title": "Biến đổi Cảnh Đẹp",
+        "description": "Biến hình ảnh cảnh đẹp của bạn thành những khung cảnh anime gây ấn tượng",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "Hoán Đổi Khuôn Mặt Ảnh",
-        "description": "Cho phép bạn hoán đổi đầu và thay thế khuôn mặt trong ảnh",
+        "title": "Biến đổi Chân Dung",
+        "description": "Chuyển đổi chân dung thành tác phẩm nghệ thuật nhân vật theo phong cách anime đẹp mắt",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "Hoán Đổi Nhiều Khuôn Mặt",
-        "description": "Hoán đổi nhiều khuôn mặt trong ảnh gia đình, ảnh cưới, ảnh tiệc, v.v",
+        "title": "Biến đổi Ảnh Nhóm",
+        "description": "Chuyển đổi ảnh nhóm thành những bức tranh anime dễ thương",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -230,47 +230,47 @@
   },
   "stats": {
     "name": "thống kê",
-    "label": "Thống Kê",
-    "title": "Được Tin Dùng Bởi Người Dùng Toàn Cầu",
-    "description": "Tham gia cùng hàng nghìn người dùng hài lòng đang sử dụng AI Face Swap.",
+    "label": "Thống kê",
+    "title": "Được Mọi Nghệ Sĩ Trên Thế Giới Tin Tưởng",
+    "description": "Tham gia hàng ngàn người tạo ra tranh anime từ ảnh của họ.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Người Dùng Hài Lòng",
-        "label": "1M+",
+        "title": "Nghệ Sĩ Hạnh Phúc",
+        "label": "1 triệu+",
         "description": "Người Dùng Hoạt Động"
       },
       {
-        "title": "Hoán Đổi Khuôn Mặt",
-        "label": "10M+",
-        "description": "Đã hoàn thành"
+        "title": "Biến đổi",
+        "label": "Hơn 10 triệu",
+        "description": "Hoàn thành"
       },
       {
-        "title": "Thời gian xử lý",
-        "label": "5s",
+        "title": "Thời Gian Xử Lý",
+        "label": "5 giây",
         "description": "Trung bình"
       }
     ]
   },
   "pricing": {
-    "name": "pricing",
-    "label": "Bảng giá",
-    "title": "Bảng giá đơn giản, minh bạch",
-    "description": "Chọn gói phù hợp cho nhu cầu hoán đổi khuôn mặt của bạn.",
+    "name": "giá",
+    "label": "Giá cả",
+    "title": "Giá cả Đơn giản, Rõ ràng",
+    "description": "Chọn gói phù hợp cho hành trình nghệ thuật của bạn.",
     "toggle": {
-      "monthly": "Hàng tháng",
-      "annual": "Hàng năm",
+      "monthly": "Monthly",
+      "annual": "Annual",
       "default_plan": "hàng năm",
-      "discount_text": "NHẬN MIỄN PHÍ 2 THÁNG HÀNG NĂM"
+      "discount_text": "NHẬN 2 THÁNG MIỄN PHÍ HÀNG NĂM"
     },
-    "cancel_text": "Hủy bất cứ lúc nào. Không có phí ẩn",
+    "cancel_text": "Hủy bất kỳ lúc nào. Không phí ẩn",
     "items": [
       {
         "product_title": "Free",
-        "description": "Hoàn hảo cho sử dụng cá nhân",
+        "description": "Lý tưởng để thử nghiệm",
         "features": [
           {
-            "text": "Tráo đổi khuôn mặt không giới hạn với dấu thương hiệu",
+            "text": "Biến đổi giới hạn với watermark",
             "included": true
           },
           {
@@ -282,7 +282,7 @@
             "included": true
           },
           {
-            "text": "Không hỗ trợ tráo đổi khuôn mặt GIF hoặc video",
+            "text": "Không có xử lý theo lô",
             "included": false
           }
         ],
@@ -293,13 +293,13 @@
           },
           "annual": {
             "amount": 0,
-            "price": "0 đô la"
+            "price": "$0"
           }
         },
         "currency": "USD",
         "unit": "tháng",
         "is_featured": false,
-        "tip": "Tuyệt vời để bắt đầu!",
+        "tip": "Tuyệt vời cho việc bắt đầu!",
         "product_id": {
           "monthly": "price_free",
           "annual": "price_free"
@@ -310,22 +310,22 @@
       },
       {
         "product_title": "Basic",
-        "description": "Dành cho người dùng chuyên nghiệp",
+        "description": "Dành cho người sáng tạo thường xuyên",
         "features": [
           {
-            "text": "600 tín dụng mỗi tháng",
+            "text": "600 biến đổi mỗi tháng",
             "included": true
           },
           {
-            "text": "600 hoán đổi khuôn mặt không có thương hiệu",
+            "text": "600 tác phẩm không có watermark",
             "included": true
           },
           {
-            "text": "hoặc 200 hoán đổi khuôn mặt GIF",
+            "text": "Đầu ra độ phân giải cao",
             "included": true
           },
           {
-            "text": "hoặc 24 hoán đổi khuôn mặt video",
+            "text": "Xử lý theo lô lên đến 10 hình ảnh",
             "included": true
           },
           {
@@ -340,12 +340,12 @@
         "pricing": {
           "monthly": {
             "amount": 1200,
-            "price": "12 đô la"
+            "price": "$12"
           },
           "annual": {
             "amount": 10000,
-            "price": "10 đô la",
-            "savings_text": "Tiết kiệm 24 đô la/năm"
+            "price": "$10",
+            "savings_text": "Tiết kiệm $24/năm"
           }
         },
         "currency": "USD",
@@ -360,29 +360,29 @@
         "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "Nâng cấp Pro",
+          "title": "Nhận Gói Cơ Bản",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
         "product_title": "Pro",
-        "description": "Dành cho doanh nghiệp",
+        "description": "Dành cho các nghệ sĩ chuyên nghiệp",
         "features": [
           {
-            "text": "Số lần thay đổi khuôn mặt không giới hạn mà không có watermark",
+            "text": "Biến đổi không giới hạn",
             "included": true
           },
           {
-            "text": "Số lần thay đổi khuôn mặt GIF không giới hạn",
+            "text": "Đầu ra độ phân giải siêu cao",
             "included": true
           },
           {
-            "text": "64 lần thay đổi khuôn mặt video",
+            "text": "Tùy chỉnh kiểu nghệ thuật tiên tiến",
             "included": true
           },
           {
-            "text": "Xử lý nhanh chóng",
+            "text": "Xử lý lô không giới hạn",
             "included": true
           },
           {
@@ -404,7 +404,7 @@
         "currency": "USD",
         "unit": "tháng",
         "is_featured": false,
-        "tip": "Tốt nhất cho doanh nghiệp!",
+        "tip": "Phù hợp nhất cho các chuyên gia!",
         "product_id": {
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
@@ -413,7 +413,7 @@
         "credits": 1600,
         "valid_months": 1,
         "button": {
-          "title": "Nâng cấp Pro",
+          "title": "Nhận Pro",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
@@ -421,32 +421,32 @@
     ]
   },
   "testimonial": {
-    "name": "lời chứng thực",
-    "label": "Lời chứng thực",
-    "title": "Người dùng Nói Gì Về Chúng Tôi",
-    "description": "Lắng nghe từ những người yêu thích sử dụng AI Face Swap.",
+    "name": "testimonial",
+    "label": "Chứng nhận",
+    "title": "Những Gì Người Sáng Tạo Của Chúng Tôi Nói",
+    "description": "Nghe từ những người yêu thích việc sử dụng bộ biến đổi nghệ thuật AI của chúng tôi.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "Nhiếp ảnh gia chuyên nghiệp",
-        "description": "Chất lượng hoán đổi khuôn mặt thật đáng kinh ngạc! Tôi sử dụng nó cho ảnh chân dung chuyên nghiệp và kết quả luôn hoàn hảo.",
+        "label": "Nghệ sĩ số hóa",
+        "description": "Chất lượng của các biến đổi anime là tuyệt vời! Tôi sử dụng nó để tạo nghệ thuật độc đáo và kết quả luôn tuyệt vời.",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
         "title": "Mike Chen",
-        "label": "Người sáng tạo nội dung",
-        "description": "API rất dễ tích hợp và tốc độ xử lý thật tuyệt vời. Hoàn hảo cho nhu cầu sáng tạo nội dung của tôi.",
+        "label": "Người tạo nội dung",
+        "description": "API rất dễ tích hợp và tốc độ biến đổi là tuyệt vời. Hoàn hảo cho các dự án sáng tạo của tôi.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "Quản lý mạng xã hội",
-        "description": "Tính năng hoán đổi nhiều khuôn mặt là một bước đột phá. Giúp việc tạo nội dung hấp dẫn dễ dàng hơn nhiều!",
+        "label": "Nghệ sĩ truyền thông xã hội",
+        "description": "Tính năng xử lý hàng loạt là yếu tố đổi game. Làm cho việc tạo bộ sưu tập theo chủ đề dễ dàng hơn nhiều!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -455,49 +455,49 @@
   },
   "faq": {
     "name": "faq",
-    "label": "FAQ",
+    "label": "Câu hỏi thường gặp",
     "title": "Câu hỏi thường gặp",
-    "description": "Bạn có thắc mắc? Chúng tôi có câu trả lời.",
+    "description": "Có câu hỏi? Chúng tôi có câu trả lời.",
     "items": [
       {
-        "title": "AI Face Swap hoạt động như thế nào?",
-        "description": "Công nghệ AI tiên tiến của chúng tôi phân tích các đặc điểm khuôn mặt trong cả hai hình ảnh, sau đó hoán đổi chúng một cách liền mạch trong khi vẫn giữ được vẻ tự nhiên và biểu cảm. Quá trình này chỉ mất vài giây và đảm bảo kết quả chất lượng cao."
+        "title": "Image to Ghibli hoạt động như thế nào?",
+        "description": "Công nghệ AI tiên tiến của chúng tôi phân tích ảnh của bạn và biến chúng thành tác phẩm nghệ thuật phong cách anime đẹp mắt được truyền cảm hứng bởi phong cách của Studio Ghibli. Quá trình chỉ mất vài giây và đảm bảo kết quả chất lượng cao."
       },
       {
         "title": "Dữ liệu của tôi có an toàn không?",
-        "description": "Vâng, hoàn toàn có thể! Chúng tôi rất coi trọng quyền riêng tư. Tất cả các ảnh được tải lên đều được xử lý an toàn và tự động xóa sau khi xử lý. Chúng tôi không bao giờ lưu trữ hoặc chia sẻ hình ảnh của bạn khi chưa được phép."
+        "description": "Vâng, hoàn toàn đúng! Chúng tôi rất nghiêm túc với quyền riêng tư. Tất cả các hình ảnh được tải lên được xử lý một cách an toàn và tự động bị xóa sau khi xử lý. Chúng tôi không bao giờ lưu trữ hoặc chia sẻ hình ảnh của bạn mà không có sự cho phép."
       },
       {
-        "title": "Hỗ trợ những định dạng ảnh nào?",
-        "description": "Chúng tôi hỗ trợ tất cả các định dạng hình ảnh phổ biến bao gồm JPG, PNG và WEBP. Để có kết quả tốt nhất, chúng tôi khuyên bạn nên sử dụng ảnh rõ nét, đủ sáng với khuôn mặt dễ nhìn."
+        "title": "Định dạng hình ảnh nào được hỗ trợ?",
+        "description": "Chúng tôi hỗ trợ tất cả các định dạng hình ảnh phổ biến bao gồm JPG, PNG và WEBP. Để có kết quả tốt nhất, chúng tôi khuyến nghị sử dụng các hình ảnh rõ ràng và được chiếu sáng tốt."
       },
       {
-        "title": "Tôi có thể hoán đổi nhiều khuôn mặt trong một hình ảnh không?",
-        "description": "Có! Gói Pro và Enterprise của chúng tôi hỗ trợ hoán đổi nhiều khuôn mặt trong một hình ảnh. Bạn có thể hoán đổi các khuôn mặt khác nhau với các ảnh nguồn khác nhau trong một lần."
+        "title": "Tôi có thể biến đổi nhiều hình ảnh cùng một lúc không?",
+        "description": "Vâng! Các gói Pro và Doanh nghiệp của chúng tôi hỗ trợ xử lý hàng loạt, cho phép bạn biến đổi nhiều hình ảnh đồng thời mà vẫn duy trì phong cách nhất quán."
       },
       {
         "title": "Bạn có cung cấp API không?",
-        "description": "Có, chúng tôi cung cấp API mạnh mẽ để các nhà phát triển có thể tích hợp công nghệ hoán đổi khuôn mặt của chúng tôi vào ứng dụng của họ. API có sẵn với các gói Pro và Enterprise."
+        "description": "Vâng, chúng tôi cung cấp một API mạnh mẽ để nhà phát triển tích hợp công nghệ biến đổi của chúng tôi vào ứng dụng của họ. Truy cập API có sẵn với các gói Pro và Doanh nghiệp của chúng tôi."
       },
       {
         "title": "Chính sách hoàn tiền của bạn là gì?",
-        "description": "Chúng tôi cam kết đảm bảo sự hài lòng 100%. Nếu bạn không hài lòng với dịch vụ của chúng tôi, hãy liên hệ với chúng tôi trong vòng 7 ngày kể từ ngày mua để được hoàn tiền đầy đủ."
+        "description": "Chúng tôi cung cấp một cam kết hài lòng 100%. Nếu bạn không hài lòng với dịch vụ của chúng tôi, hãy liên hệ với chúng tôi trong vòng 7 ngày kể từ khi mua hàng để được hoàn tiền đầy đủ."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Bắt đầu Biến đổi Ảnh của Bạn Ngay Hôm Nay",
-    "description": "Tham gia cùng hàng triệu người dùng hài lòng và trải nghiệm điều kỳ diệu của AI Face Swap.",
+    "title": "Bắt đầu Hành trình Nghệ thuật của Bạn Ngay Hôm Nay",
+    "description": "Tham gia hàng triệu người sáng tạo và trải nghiệm phép màu của công nghệ AI trong việc biến đổi nghệ thuật.",
     "buttons": [
       {
-        "title": "Dùng thử miễn phí",
+        "title": "Thử Miễn Phí",
         "url": "/#signup",
         "target": "_self",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Xem ví dụ",
+        "title": "Xem Bộ Sưu Tập",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,15 +507,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "Biến đổi ảnh của bạn với công nghệ hoán đổi khuôn mặt AI tiên tiến. Nhanh chóng, an toàn và dễ sử dụng.",
+      "title": "Hình ảnh thành Ghibli",
+      "description": "Biến ảnh của bạn thành tác phẩm nghệ thuật phong cách anime tuyệt đẹp với công nghệ AI tiên tiến. Nhanh chóng, an toàn và dễ sử dụng.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Hình ảnh thành Ghibli"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap Bảo lưu mọi quyền.",
+    "copyright": "© 2024 • Hình ảnh thành Ghibli Đã đăng ký bản quyền.",
     "nav": {
       "items": [
         {
@@ -527,7 +527,7 @@
               "target": "_self"
             },
             {
-              "title": "Bảng giá",
+              "title": "Giá cả",
               "url": "#pricing",
               "target": "_self"
             },
@@ -545,7 +545,7 @@
         {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
@@ -553,7 +553,7 @@
     "agreement": {
       "items": [
         {
-          "title": "Chính sách Bảo mật",
+          "title": "Chính sách bảo mật",
           "url": "/privacy-policy"
         },
         {
@@ -564,194 +564,194 @@
     }
   },
   "faceSwap": {
-    "photoFaceSwap": "Hoán đổi Khuôn mặt trong Ảnh",
-    "videoFaceSwap": "Hoán đổi khuôn mặt video",
-    "multipleFaceSwap": "Hoán đổi Nhiều Khuôn mặt",
-    "gifFaceSwap": "GIF Face Swap",
-    "uploadOriginalImage": "Tải lên Ảnh Gốc",
-    "uploadFaceImage": "Tải lên Ảnh Khuôn mặt",
-    "startFaceSwap": "Bắt đầu hoán đổi khuôn mặt",
-    "swapFace": "Hoán đổi khuôn mặt",
-    "processing": "Đang xử lý...",
+    "photoFaceSwap": "Đổi khuôn mặt ảnh",
+    "videoFaceSwap": "Đổi khuôn mặt video",
+    "multipleFaceSwap": "Đổi nhiều khuôn mặt",
+    "gifFaceSwap": "Đổi khuôn mặt GIF",
+    "uploadOriginalImage": "Tải Ảnh Gốc",
+    "uploadFaceImage": "Tải Ảnh Khuôn Mặt",
+    "startFaceSwap": "Bắt Đầu Đổi Khuôn Mặt",
+    "swapFace": "Đổi Khuôn Mặt",
+    "processing": "Đang Xử Lý...",
     "before": "Trước",
     "after": "Sau",
-    "uploadImage": "Tải ảnh lên",
-    "readyToSwap": "Sẵn sàng hoán đổi",
-    "uploadBothImages": "Tải lên cả hai ảnh",
-    "comingSoon": "Sắp ra mắt",
-    "download": "Tải xuống",
-    "splitView": "Xem chia đôi",
-    "compareView": "Xem so sánh",
-    "zoomIn": "Phóng to",
-    "swapInProgress": "Đang hoán đổi khuôn mặt...",
+    "uploadImage": "Tải Ảnh",
+    "readyToSwap": "Sẵn Sàng Đổi",
+    "uploadBothImages": "Tải Cả Hai Ảnh",
+    "comingSoon": "Sắp Ra Mắt",
+    "download": "Tải Xuống",
+    "splitView": "Chế Độ Chia",
+    "compareView": "Chế Độ So Sánh",
+    "zoomIn": "Thu Phóng",
+    "swapInProgress": "Đang thực hiện đổi khuôn mặt...",
     "completeSoon": "Sẽ hoàn thành trong vài giây",
-    "magicHappening": "Đang thực hiện phép thuật...",
+    "magicHappening": "Đang diễn ra phép màu...",
     "uploadGif": "Tải lên GIF",
     "uploadFacePhoto": "Tải lên ảnh khuôn mặt",
-    "startGifFaceSwap": "Bắt đầu GIF Face Swap",
-    "swapGifFace": "Swap khuôn mặt GIF",
+    "startGifFaceSwap": "Bắt đầu Đổi Khuôn Mặt GIF",
+    "swapGifFace": "Đổi Khuôn Mặt GIF",
     "preview": "Xem trước",
     "gifPreview": "Xem trước GIF",
-    "swapResult": "Kết quả Swap",
+    "swapResult": "Kết quả Đổi",
     "pleaseUploadGif": "Vui lòng tải lên một GIF",
-    "gifSwapInProgress": "GIF face swap đang tiến hành...",
-    "gifCompleteSoon": "Việc này có thể mất một thời gian, vui lòng kiên nhẫn",
-    "watermarkNotice": "Ít tín chỉ, đã thêm dấu chứa",
+    "gifSwapInProgress": "Đang thực hiện đổi khuôn mặt GIF...",
+    "gifCompleteSoon": "Việc này có thể mất một chút thời gian, vui lòng kiên nhẫn",
+    "watermarkNotice": "Số điểm không đủ, đã thêm dấu bản quyền",
     "gifFormat": "GIF",
-    "wantRemoveWatermark": "Bạn muốn loại bỏ dấu thương hiệu?",
-    "upgradePremium": "Mở khóa Tính năng Premium",
-    "watermarkDescription": "Hãy đăng ký hôm nay để tận hưởng tất cả tính năng Premium của nền tảng chúng tôi.",
-    "premiumBenefits": "Khi đăng ký, bạn sẽ nhận được:",
+    "wantRemoveWatermark": "Muốn xóa watermark không?",
+    "upgradePremium": "Mở khóa tính năng Premium",
+    "watermarkDescription": "Đăng ký ngay hôm nay để tận hưởng tất cả các tính năng premium của nền tảng của chúng tôi.",
+    "premiumBenefits": "Với việc đăng ký bạn sẽ nhận được:",
     "benefit1": "Trải nghiệm không có quảng cáo",
-    "benefit2": "Ảnh không có dấu thương hiệu",
-    "benefit3": "Khả năng tráo đổi khuôn mặt trong GIF",
-    "benefit4": "Khả năng trao đổi khuôn mặt video",
-    "subscribeNow": "Đăng Ký Ngay",
-    "uploadVideo": "Tải video lên",
+    "benefit2": "Ảnh không có watermark",
+    "benefit3": "Khả năng swap face GIF",
+    "benefit4": "Khả năng swap face video",
+    "subscribeNow": "Đăng ký Ngay",
+    "uploadVideo": "Tải Video lên",
     "pleaseUploadVideo": "Vui lòng tải lên một video",
-    "videoPreview": "Xem trước video",
-    "videoSwapInProgress": "Đang thực hiện trao đổi khuôn mặt video...",
-    "videoCompleteSoon": "Quá trình này có thể mất một thời gian, vui lòng kiên nhẫn",
+    "videoPreview": "Xem Trước Video",
+    "videoSwapInProgress": "Đang thực hiện swap face video...",
+    "videoCompleteSoon": "Việc này có thể mất một thời gian, hãy kiên nhẫn",
     "videoFormat": "Video định dạng M4V, MP4, MOV",
-    "videoSizeLimit": "Người đăng ký: 10MB / 20s",
-    "videoFaceTip": "Vui lòng đảm bảo một khuôn mặt trước rõ ràng xuất hiện ở đầu video",
-    "startVideoFaceSwap": "Bắt đầu Hoán Đổi Khuôn Mặt Trên Video",
-    "swapVideoFace": "Hoán Đổi Khuôn Mặt Trên Video",
-    "videoSizeError": "Tệp video vượt quá 10MB. Vui lòng tải lên video nhỏ hơn.",
-    "videoDurationError": "Thời lượng video vượt quá 20 giây. Vui lòng tải lên video ngắn hơn.",
+    "videoSizeLimit": "Người đăng ký: 10MB / 20 giây",
+    "videoFaceTip": "Vui lòng đảm bảo một khuôn mặt rõ ràng phía trước xuất hiện ở đầu video",
+    "startVideoFaceSwap": "Bắt đầu Trao đổi Khuôn mặt Trên Video",
+    "swapVideoFace": "Trao đổi Khuôn mặt Trên Video",
+    "videoSizeError": "Tệp video vượt quá 10MB. Vui lòng tải lên một video nhỏ hơn.",
+    "videoDurationError": "Thời lượng video vượt quá 20 giây. Vui lòng tải lên một video ngắn hơn.",
     "gif": {
-      "title": "GIF Face Swap - Tạo GIF Face Swap hài hước với công nghệ AI",
-      "description": "Đổi khuôn mặt trên GIF bằng Công nghệ AI tiên tiến của chúng tôi. Tạo GIF hài hước, dễ chia sẻ chỉ trong vài giây. Không cần đăng ký, miễn phí sử dụng, không giới hạn đổi khuôn mặt!",
-      "heading": "Tạo GIF Face Swap hài hước",
-      "subheading": "Tải lên GIF của bạn và tạo hình ảnh vui vẻ, dễ chia sẻ chỉ sau vài cú nhấp chuột!",
+      "title": "Trao đổi Khuôn mặt GIF - Tạo Trao đổi Khuôn mặt GIF Hài hước với Công nghệ AI",
+      "description": "Trao đổi khuôn mặt trên GIF với công nghệ AI tiên tiến của chúng tôi. Tạo những GIF hài hước, dễ chia sẻ chỉ trong vài giây. Không cần đăng ký, miễn phí sử dụng, tra o đổi không giới hạn!",
+      "heading": "Tạo Trao đổi Khuôn mặt GIF Hài hước",
+      "subheading": "Tải lên GIF của bạn và tạo những hình ảnh vui, dễ chia sẻ chỉ trong vài cú nhấp chuột!",
       "features": {
-        "title": "Các tính năng của GIF Face Swap",
+        "title": "Các Tính năng của Trao đổi Khuôn mặt GIF",
         "items": [
           {
-            "title": "Đổi khuôn mặt tức thì",
-            "description": "Công cụ của chúng tôi cung cấp việc đổi khuôn mặt tức thì và hiệu quả. Chỉ cần tải lên GIF của bạn, trí tuệ nhân tạo của chúng tôi có thể nhận diện và thay thế khuôn mặt ngay lập tức, đảm bảo bạn có thể xem kết quả ngay lập tức."
+            "title": "Trao đổi Khuôn mặt Ngay lập tức",
+            "description": "Công cụ của chúng tôi cung cấp việc tra o đổi khuôn mặt ngay lập tức và hiệu quả trong thời gian thực. Chỉ cần tải lên GIF của bạn, và trí tuệ nhân tạo của chúng tôi có thể nhận diện và thay thế khuôn mặt ngay lập tức, đảm bảo bạn có thể xem kết quả ngay lập tức."
           },
           {
             "title": "Tương tác Xã hội Nâng cao",
-            "description": "Chia sẻ những GIF vui nhộn với bạn bè để thúc đẩy tương tác xã hội và thêm hài hước. Hoàn hảo cho các nền tảng truyền thông xã hội khác nhau để làm cho nội dung của bạn trở nên thú vị hơn."
+            "description": "Chia sẻ những GIF vui vẻ với bạn bè để thúc đẩy tương tác xã hội và thêm hài hước. Hoàn hảo cho các nền tảng truyền thông xã hội khác nhau để làm cho nội dung của bạn trở nên hấp dẫn hơn."
           },
           {
-            "title": "Hỗ trợ nhiều định dạng",
-            "description": "Ngoài định dạng GIF, công cụ của chúng tôi hỗ trợ nhiều định dạng hình ảnh khác nhau, giúp dễ dàng tải lên tệp từ các nguồn khác nhau để có trải nghiệm linh hoạt cho người dùng."
+            "title": "Hỗ trợ Nhiều Định dạng",
+            "description": "Ngoài định dạng GIF, công cụ của chúng tôi hỗ trợ nhiều định dạng đầu vào hình ảnh khác nhau, giúp dễ dàng tải lên tệp từ các nguồn khác nhau để có trải nghiệm người dùng linh hoạt."
           }
         ]
       },
       "howTo": {
-        "title": "Cách Đổi Khuôn mặt trong GIF",
+        "title": "Cách Đổi Khuôn Mặt trong GIF",
         "steps": [
           {
             "number": "1",
             "title": "Tải lên một GIF có khuôn mặt",
-            "description": "Tải lên một GIF với khuôn mặt bạn muốn thay thế. Đảm bảo chi tiết khuôn mặt rõ ràng để có kết quả tốt nhất."
+            "description": "Tải lên một GIF của khuôn mặt bạn muốn thay thế. Đảm bảo rõ ràng các chi tiết khuôn mặt để đạt kết quả tốt nhất."
           },
           {
             "number": "2",
             "title": "Tải lên hình ảnh khuôn mặt mục tiêu",
-            "description": "Tải lên một bức ảnh của khuôn mặt bạn muốn sử dụng làm khuôn mặt thay thế. Yêu cầu rõ ràng về khuôn mặt."
+            "description": "Tải lên một bức ảnh của khuôn mặt bạn muốn sử dụng làm phần thay thế. Yêu cầu về sự rõ ràng của khuôn mặt."
           },
           {
             "number": "3",
-            "title": "Chờ quá trình tạo thành",
-            "description": "Nhấp vào nút \"Swap GIF Face\" và chờ đợi trí tuệ nhân tạo của chúng tôi tạo ra GIF mới của bạn với khuôn mặt đã thay đổi."
+            "title": "Chờ cho quá trình tạo ra",
+            "description": "Nhấn nút \"Đổi Khuôn Mặt GIF\" và chờ đợi cho AI của chúng tôi tạo ra GIF mới của bạn với khuôn mặt được đổi chỗ."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Các Kịch bản Sử dụng Đa dạng",
+        "title": "Nhiều Kịch bản Sử dụng",
         "items": [
           {
-            "title": "Chia sẻ trên Mạng xã hội",
-            "description": "Chia sẻ những GIF vui nhộn của bạn trên các nền tảng mạng xã hội lớn như Instagram, Facebook và Twitter để tăng cường sự tương tác và thu hút sự chú ý."
+            "title": "Chia Sẻ trên Mạng Xã Hội",
+            "description": "Chia sẻ những GIF vui nhộn của bạn trên các nền tảng mạng xã hội lớn như Instagram, Facebook và Twitter để tăng cường tương tác và thu hút sự chú ý."
           },
           {
-            "title": "Tạo nội dung Hài hước",
+            "title": "Tạo Nội Dung Hài Hước",
             "description": "Người tạo nội dung có thể sử dụng GIF Face Swap để tạo ra những video và đoạn clip hài hước, làm phong phú nội dung của họ và thu hút thêm người xem."
           },
           {
-            "title": "Lời mời Sự kiện và Bữa tiệc",
-            "description": "Tạo GIF mời cá nhân cho bữa tiệc hoặc sự kiện để làm cho chúng trở nên hấp dẫn và lôi cuốn hơn, tăng sự quan tâm đến việc tham dự."
+            "title": "Thiệp Mời Sự Kiện và Tiệc Tùng",
+            "description": "Tạo ra các GIF thiệp mời cá nhân cho các bữa tiệc hoặc sự kiện để làm cho chúng trở nên hấp dẫn hơn và thú vị, tăng sự quan tâm đến việc tham dự."
           }
         ]
       }
     },
     "video": {
       "title": "Video Face Swap | AIFACESWAP.APP",
-      "description": "Biến đổi video của bạn với công nghệ đổi khuôn mặt thông minh AI tiên tiến.",
+      "description": "Biến đổi video của bạn với công nghệ đổi khuôn mặt video AI tiên tiến.",
       "heading": "AI Video Face Swap",
-      "subheading": "Trải nghiệm công nghệ đổi khuôn mặt AI mạnh mẽ cho video, làm cho từng khung hình trở nên thú vị và mượt mà. Thay thế khuôn mặt ngay lập tức để tạo ra nội dung vui nhộn, hấp dẫn hoặc chuyên nghiệp.",
+      "subheading": "Trải nghiệm công nghệ đổi khuôn mặt video AI mạnh mẽ, làm cho mỗi khung hình trở nên hấp dẫn và mượt mà. Ngay lập tức thay thế khuôn mặt để tạo ra nội dung vui nhộn, hấp dẫn hoặc chuyên nghiệp.",
       "features": {
-        "title": "Các tính năng của công cụ Đổi Khuôn Mặt Video",
+        "title": "Các Tính Năng của Việc Đổi Khuôn Mặt Video Của Chúng Tôi",
         "items": [
           {
             "title": "Thay Thế Khuôn Mặt Mượt Mà",
-            "description": "Công nghệ AI tiên tiến của chúng tôi đảm bảo việc thay đổi khuôn mặt mượt mà, từng khung hình duy trì biểu hiện tự nhiên và chuyển động suốt toàn bộ video."
+            "description": "Công nghệ AI tiên tiến của chúng tôi đảm bảo việc thay thế khuôn mặt từng khung một mượt mà, duy trì biểu cảm tự nhiên và chuyển động suốt cả video."
           },
           {
-            "title": "Kết quả chất lượng cao",
-            "description": "Trải nghiệm việc trao đổi khuôn mặt video chuyên nghiệp với ánh sáng nhất quán, tông màu da thực tế và ánh xạ đặc trưng khuôn mặt chính xác."
+            "title": "Kết Quả Chất Lượng Cao",
+            "description": "Trải nghiệm việc đổi khuôn mặt video chuyên nghiệp với ánh sáng đồng nhất, tông màu da thực tế và ánh xác trong ánh mãng trên khuôn mặt."
           },
           {
-            "title": "Quy trình Dễ sử dụng",
-            "description": "Với giao diện trực quan của chúng tôi, việc thay đổi khuôn mặt trong video chỉ đơn giản là tải lên video của bạn, chọn hình ảnh khuôn mặt và để trí thông minh nhân tạo của chúng tôi thực hiện công việc."
+            "title": "Quy Trình Dễ Sử Dụng",
+            "description": "Với giao diện thân thiện của chúng tôi, việc thay thế khuôn mặt trong video chỉ đơn giản như tải video lên, chọn ảnh khuôn mặt và để công nghệ AI của chúng tôi thực hiện phần còn lại."
           }
         ]
       },
       "howTo": {
-        "title": "Cách Hoạt động",
+        "title": "Cách Hoạt Động",
         "steps": [
           {
             "number": "1",
-            "title": "Tải lên Video của Bạn",
-            "description": "Chọn và tải lên video mà bạn muốn trao đổi khuôn mặt. Chúng tôi hỗ trợ định dạng video phổ biến."
+            "title": "Tải Lên Video Của Bạn",
+            "description": "Chọn và tải lên video mà bạn muốn hoán đổi khuôn mặt. Chúng tôi hỗ trợ nhiều định dạng video phổ biến."
           },
           {
             "number": "2",
-            "title": "Tải lên Hình ảnh Khuôn mặt",
-            "description": "Chọn một hình ảnh khuôn mặt rõ ràng để trao đổi. Để có kết quả tốt nhất, hãy sử dụng một hình ảnh chất lượng cao với khuôn mặt rõ ràng."
+            "title": "Tải Lên Ảnh Khuôn Mặt",
+            "description": "Chọn một ảnh khuôn mặt rõ ràng để hoán đổi. Để có kết quả tốt nhất, sử dụng một hình ảnh chất lượng cao với khuôn mặt rõ ràng."
           },
           {
             "number": "3",
-            "title": "Tạo Video Trao đổi Khuôn mặt của Bạn",
-            "description": "Chỉ với một cú nhấp chuột, trí thông minh nhân tạo của chúng tôi xử lý video của bạn để tạo ra một trao đổi khuôn mặt mượt mà, chất lượng cao."
+            "title": "Tạo Video Hoán Đổi Khuôn Mặt Của Bạn",
+            "description": "Chỉ cần một cú nhấp chuột, trí tuệ nhân tạo của chúng tôi xử lý video của bạn để tạo ra một hoán đổi khuôn mặt mượt mà, chất lượng cao."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Các Ứng dụng Sáng tạo của Trao đổi Khuôn mặt Trong Video",
+        "title": "Các Ứng Dụng Sáng Tạo của Việc Hoán Đổi Khuôn Mặt Trên Video",
         "items": [
           {
-            "title": "Tái hiện Cảnh phim",
-            "description": "Bước vào những cảnh phim kinh điển bằng cách đổi khuôn mặt với những diễn viên yêu thích của bạn. Tạo ra những trải nghiệm điện ảnh độc đáo với chính bạn hoặc bạn bè đóng vai chính."
+            "title": "Tái Tạo Cảnh Phim",
+            "description": "Bước vào những khoảnh khắc phim nổi tiếng bằng cách hoán đổi khuôn mặt với các diễn viên yêu thích của bạn. Tạo ra trải nghiệm điện ảnh độc đáo với chính bạn hoặc bạn bè làm ngôi sao."
           },
           {
-            "title": "Nội dung truyền thông xã hội",
-            "description": "Tạo ra nội dung hấp dẫn và đáng chia sẻ trên TikTok, Instagram và YouTube với những video đổi khuôn mặt giải trí thu hút sự chú ý của người xem."
+            "title": "Nội Dung Mạng Xã Hội",
+            "description": "Tạo nội dung hấp dẫn và đáng chia sẻ trên TikTok, Instagram và YouTube với những video hoán đổi khuôn mặt giải trí để thu hút sự chú ý của người xem."
           },
           {
-            "title": "Video dịp đặc biệt",
-            "description": "Làm cho sinh nhật, ngày cưới và các dịp kỷ niệm trở nên đáng nhớ hơn bằng cách tạo ra những video cá nhân hóa với việc đổi khuôn mặt của các vị khách danh dự."
+            "title": "Video Đặc Biệt Cho Dịp Đặc Biệt",
+            "description": "Tạo thêm không khí sôi động cho sinh nhật, đám cưới và các dịp đặc biệt khác bằng cách tạo video cá nhân hóa với việc đổi khuôn mặt của những người được tôn vinh."
           }
         ]
       },
       "faq": {
-        "title": "Câu hỏi thường gặp",
+        "title": "Câu Hỏi Thường Gặp",
         "items": [
           {
-            "title": "Thời gian xử lý video sẽ mất bao lâu?",
-            "description": "Thời gian xử lý sẽ phụ thuộc vào độ dài và chất lượng video, nhưng trí tuệ nhân tạo tiên tiến của chúng tôi mong muốn mang đến kết quả nhanh chóng đồng thời duy trì chất lượng cao."
+            "title": "Mất bao lâu để xử lý video của tôi?",
+            "description": "Thời gian xử lý sẽ phụ thuộc vào độ dài và chất lượng video, nhưng trí tuệ nhân tạo tiên tiến của chúng tôi nhằm mục tiêu cung cấp kết quả nhanh chóng trong khi duy trì chất lượng cao."
           },
           {
-            "title": "Định dạng video nào sẽ được hỗ trợ?",
+            "title": "Các định dạng video nào sẽ được hỗ trợ?",
             "description": "Dịch vụ của chúng tôi sẽ hỗ trợ các định dạng video phổ biến bao gồm MP4, MOV và AVI."
           },
           {
-            "title": "Có giới hạn về độ dài video không?",
-            "description": "Người dùng miễn phí sẽ có thời gian xử lý video ngắn hơn, trong khi người dùng có thuê bao cao cấp sẽ được hưởng hỗ trợ video dài hơn."
+            "title": "Có giới hạn đối với độ dài video không?",
+            "description": "Người dùng miễn phí sẽ có khả năng xử lý video ngắn hơn, trong khi người đăng ký cao cấp sẽ được hỗ trợ video dài hơn."
           }
         ]
       }

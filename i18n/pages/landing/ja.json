@@ -1,24 +1,24 @@
 {
-  "template": "ai-face-swap",
+  "template": "image-to-ghibli",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "AI フェイススワップ",
+      "title": "画像からジブリへ",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI フェイススワップ"
+        "alt": "画像からジブリへ"
       },
       "url": "/"
     },
     "nav": {
       "items": [
         {
-          "title": "機能",
+          "title": "特徴",
           "url": "/#feature",
           "icon": "HiOutlineSparkles"
         },
         {
-          "title": "料金",
+          "title": "価格",
           "url": "#pricing",
           "icon": "MdPayment"
         },
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "最高のオンライン無料AIフェイススワップ",
-    "highlight_text": "AI フェイススワップ",
-    "description": "最先端技術と無限のエンターテイメントが融合するAIフェイススワップの革新的な世界へ飛び込みましょう。画像や動画を簡単に加工し、比類のないデジタルの可能性への扉を開きます。",
+    "title": "あなたの写真を魔法のアニメアートに変える",
+    "highlight_text": "スタジオジブリ風",
+    "description": "伝説的なスタジオジブリの美学に触発された驚くべきアニメアートにあなたの写真を変身させる体験をしてください。当社のAI技術はアニメーションの魔法の世界を日常の瞬間にもたらします。",
     "announcement": {
       "label": "AI",
-      "title": "無料＆安全",
+      "title": "インスタント＆マジカル",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "今すぐ試す",
+        "title": "今すぐ変身",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "サンプルを見る",
+        "title": "ギャラリーを見る",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -79,55 +79,55 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "AIフェイススワップの魔法を体験",
+    "title": "写真をアニメマジックに変換",
     "label": "使い方",
-    "description": "高度なAIフェイススワップ技術で写真を変換。高速、正確、そして安全です。",
+    "description": "当社の高度なAI技術を使用して、普通の写真を驚異的なアニメアートワークに変えてください。高速、美しい、そしてマジカル。",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "写真をアップロード",
-        "description": "ソース画像と入れ替えたい顔を単にアップロードするだけです。",
+        "title": "写真をアップロードする",
+        "description": "アニメスタイルの作品に変換したい写真を簡単にアップロードしてください。",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "AI処理",
-        "description": "AIが画像を分析し、完璧な顔の入れ替えのために処理します。",
+        "title": "AIマジック",
+        "description": "当社のAIがあなたの画像を分析し、愛されるスタジオジブリの美学を適用します。",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "即時結果",
-        "description": "変換された画像を数秒で取得し、ダウンロードできます。",
+        "title": "アートをダウンロード",
+        "description": "変換されたアート作品を即座に取得し、共有したり大切にしたりできます。",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
-    "name": "特長",
-    "title": "なぜAI Face Swapを選ぶのか",
-    "label": "特長",
-    "description": "高度な機能とセキュリティを備えた最高の顔入れ替え技術を体験してください。",
+    "name": "benefit",
+    "title": "なぜ当社のAIアートトランスフォーマーを選ぶのですか",
+    "label": "利点",
+    "description": "高度な機能を備えた写真を見事なアニメスタイルの作品に変換する魔法を体験してください。",
     "items": [
       {
-        "title": "高度なAI技術",
-        "description": "最先端のディープラーニングモデルが自然で現実的な顔の入れ替えを実現します。",
+        "title": "高度なAIテクノロジー",
+        "description": "最新のディープラーニングモデルにより、美しい本物のアニメスタイルの変換が保証されます。",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "プライバシーとセキュリティ",
-        "description": "写真は安全に処理され、処理後は自動的に削除されます。",
+        "title": "本物のスタイル",
+        "description": "当社のAIは、すべての変換で愛されるアニメの美学の本質を捉えます。",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "開発者フレンドリー",
-        "description": "堅牢なAPIを使用して、あなたのアプリに顔入れ替え技術を統合できます。",
+        "title": "簡単な統合",
+        "description": "強力なAPIを使用して、画像変換テクノロジーをアプリに簡単に統合できます。",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -136,92 +136,92 @@
     ]
   },
   "usage": {
-    "name": "usage",
-    "title": "オンラインで顔を入れ替える方法",
-    "description": "簡単な手順で素晴らしい画像を作成できます：",
+    "name": "使用方法",
+    "title": "簡単な手順で写真を変換する",
+    "description": "わずか数クリックで驚くほど美しいアニメ作品を作成:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "right",
-    "text_align": "left",
+    "image_position": "右",
+    "text_align": "左",
     "items": [
       {
-        "title": "画像をアップロード",
-        "description": "「画像をアップロード」をクリックし、ソース画像として使用したい写真を選択してください。写真内の1つの顔が良質であることを確認してください。"
+        "title": "写真をアップロード",
+        "description": "「写真をアップロード」をクリックし、変換したい画像を選択します。はっきりした主題を持つ写真が最適です。"
       },
       {
-        "title": "顔入れ替えオプションを選択",
-        "description": "元の画像の準備ができたら、用意されたプリセットから希望の入れ替え効果を選択してください。これはアップロードした画像の顔を、選択したプリセットと入れ替えることを意味します。"
+        "title": "スタイルオプションを選択",
+        "description": "さまざまなスタイルオプションから選択して、変換をカスタマイズします。各オプションが最終作品に独自の芸術的要素をもたらします。"
       },
       {
-        "title": "AIで顔を入れ替え",
-        "description": "「今すぐ顔を入れ替え」ボタンをクリックして、AIの魔法を見てみましょう。AiFaceSwap.appは数秒で顔の入れ替えを完了します。AIが最高の出力を保証しながら自動的に処理を行います。"
+        "title": "AI変換",
+        "description": "当社のAIに魔法をかけさせます。数秒で、写真が美しいアニメ風の作品に変換されます。"
       },
       {
-        "title": "プレビューとダウンロード",
-        "description": "完成！好きな人物と顔が入れ替わりました！同じページで最終結果をプレビューできます。「ダウンロード」をクリックして、ウォーターマークのない画像をデバイスに保存しましょう。楽しみのためにシェアしてください！"
+        "title": "ダウンロードして共有",
+        "description": "作品が完成しました！高品質で変換された画像をダウンロードして、魔法のような創作を世界と共有しましょう。"
       }
     ]
   },
   "feature": {
-    "name": "feature",
-    "title": "パワフルなAI顔入れ替え機能",
-    "description": "AI駆動の顔交換テクノロジーの素晴らしい機能を発見しましょう",
+    "name": "特徴",
+    "title": "写真向けの魔法の機能",
+    "description": "当社のAIアート変換技術の魅力的な機能を発見してください",
     "items": [
       {
-        "title": "リアルな顔交換",
-        "description": "最先端の技術により、完璧でリアルな顔交換を実現し、編集の痕跡を完全に隠すことができます。",
+        "title": "本物のアニメスタイル",
+        "description": "当社のAIは、世界中で愛されているアニメアートの特徴的な芸術的スタイルを完璧に捉えます。",
         "icon": "RiImageLine"
       },
       {
-        "title": "使いやすいインターフェース",
-        "description": "わずか1クリックで任意の顔を別の画像に置き換えることができ、プロセスはシンプルで直感的です。",
+        "title": "シンプルなインターフェース",
+        "description": "ワンクリックで写真を変換し、アニメアートの魔法を誰もが手軽に利用できるようにします。",
         "icon": "RiMouseLine"
       },
       {
-        "title": "ミーム作成",
-        "description": "簡単に面白いミームを作成し、新しく魅力的なコンテンツでオーディエンスとの交流を促進します。",
+        "title": "スタイルのバリエーション",
+        "description": "さまざまな芸術的スタイルから選択し、写真に最適な見栄えを見つけます。",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "セレブ変身",
-        "description": "映画スターからスーパーヒーローまで、様々な人物と顔を交換して外見を変身させることができます。",
+        "title": "高解像度",
+        "description": "印刷やデジタルディスプレイに最適な美しい高解像度のアートワークを入手します。",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "スタイル実験",
-        "description": "異なるキャラクターに自分の顔を適用し、メイクアップ、ヘアスタイル、ファッションスタイルを試すことができます。",
+        "title": "バッチ処理",
+        "description": "一度に複数の写真を変換して、アニメアートのコレクションを作成します。",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "無限の創造性",
-        "description": "多目的な顔交換技術で、創造性とエンターテイメントの無限の可能性を解き放ちます。",
+        "title": "創造的自由",
+        "description": "変換に対するさまざまなカスタマイズオプションで創造力を解放します。",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
-    "name": "ショーケース",
-    "title": "驚くべき変身",
-    "description": "私たちのユーザーがAIフェイススワップで作成した作品をご覧ください。",
+    "name": "showcase",
+    "title": "Magical Transformations",
+    "description": "私たちのAI技術で作成された見事なアートワークをご覧ください。",
     "items": [
       {
-        "title": "動画フェイススワップ",
-        "description": "動画内の顔を入れ替え、映画制作やソーシャルメディアのコンテンツ作成を強化",
+        "title": "風景変換",
+        "description": "素晴らしいアニメ風景に風景写真を変換します",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "写真フェイススワップ",
-        "description": "写真内の頭部や顔を入れ替えることができます",
+        "title": "肖像変換",
+        "description": "肖像を美しいアニメ風キャラクターアートに変えます",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "複数人フェイススワップ",
-        "description": "家族写真、結婚写真、パーティー写真などで複数の顔を入れ替え",
+        "title": "グループ写真変換",
+        "description": "グループ写真を魅力的なアニメシーンに変換します",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,46 +231,46 @@
   "stats": {
     "name": "統計",
     "label": "統計",
-    "title": "世界中のユーザーから信頼",
-    "description": "AIフェイススワップを使用する何千人もの満足ユーザーの仲間入りをしましょう。",
+    "title": "世界中のアーティストに信頼されています",
+    "description": "写真をアニメアートに変換する数千人のクリエイターに参加してください。",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "ハッピーユーザー",
-        "label": "1M+",
+        "title": "幸せなアーティスト",
+        "label": "100万人以上",
         "description": "アクティブユーザー"
       },
       {
-        "title": "フェイススワップ",
+        "title": "変換",
         "label": "10M+",
-        "description": "完了済み"
+        "description": "完了"
       },
       {
         "title": "処理時間",
-        "label": "5s",
+        "label": "5秒",
         "description": "平均"
       }
     ]
   },
   "pricing": {
-    "name": "pricing",
-    "label": "料金プラン",
-    "title": "シンプルで透明性のある料金設定",
-    "description": "顔交換のニーズに合わせた最適なプランをお選びください。",
+    "name": "料金",
+    "label": "料金",
+    "title": "シンプルで透明な料金設定",
+    "description": "あなたの芸術の旅に最適なプランを選択してください。",
     "toggle": {
-      "monthly": "月間",
-      "annual": "年間",
-      "default_plan": "annual",
-      "discount_text": "年間サービスで2ヶ月無料"
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "default_plan": "年間",
+      "discount_text": "年間購読で2ヶ月無料"
     },
     "cancel_text": "いつでもキャンセル可能。隠れた料金はありません",
     "items": [
       {
         "product_title": "Free",
-        "description": "個人利用に最適",
+        "description": "試すのに最適",
         "features": [
           {
-            "text": "ウォーターマーク付きの無制限のフェイススワップ",
+            "text": "ウォーターマーク付きでの限られた変換",
             "included": true
           },
           {
@@ -278,11 +278,11 @@
             "included": true
           },
           {
-            "text": "基本的なサポート",
+            "text": "基本サポート",
             "included": true
           },
           {
-            "text": "GIFや動画のフェイススワップは利用不可",
+            "text": "バッチ処理無し",
             "included": false
           }
         ],
@@ -297,9 +297,9 @@
           }
         },
         "currency": "USD",
-        "unit": "月",
+        "unit": "month",
         "is_featured": false,
-        "tip": "始めるのに最適！",
+        "tip": "はじめるのに最適！",
         "product_id": {
           "monthly": "price_free",
           "annual": "price_free"
@@ -310,22 +310,22 @@
       },
       {
         "product_title": "Basic",
-        "description": "パワーユーザー向け",
+        "description": "通常のクリエイター向け",
         "features": [
           {
-            "text": "1ヶ月あたり600クレジット",
+            "text": "月間600回の変換",
             "included": true
           },
           {
-            "text": "ウォーターマークのないフェイススワップ600回まで",
+            "text": "600点のウォーターマークフリーアートワーク",
             "included": true
           },
           {
-            "text": "またはGIFフェイススワップ200回まで",
+            "text": "高解像度の出力",
             "included": true
           },
           {
-            "text": "または24回のビデオフェイススワップ",
+            "text": "最大10枚の画像のバッチ処理",
             "included": true
           },
           {
@@ -345,11 +345,11 @@
           "annual": {
             "amount": 10000,
             "price": "$10",
-            "savings_text": "$24/年を節約"
+            "savings_text": "Save $24/year"
           }
         },
         "currency": "USD",
-        "unit": "月",
+        "unit": "month",
         "is_featured": true,
         "tip": "最も人気のある選択！",
         "product_id": {
@@ -360,29 +360,29 @@
         "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "Proを取得",
+          "title": "Get Basic",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
         "product_title": "Pro",
-        "description": "ビジネス向け",
+        "description": "プロのアーティスト向け",
         "features": [
           {
-            "text": "無制限の透かしフリーの顔交換",
+            "text": "無制限の変換",
             "included": true
           },
           {
-            "text": "無制限のGIF顔交換",
+            "text": "超高解像度の出力",
             "included": true
           },
           {
-            "text": "64回のビデオ顔交換",
+            "text": "高度なスタイルのカスタマイズ",
             "included": true
           },
           {
-            "text": "超高速処理",
+            "text": "無制限のバッチ処理",
             "included": true
           },
           {
@@ -402,9 +402,9 @@
           }
         },
         "currency": "USD",
-        "unit": "月",
+        "unit": "month",
         "is_featured": false,
-        "tip": "ビジネスに最適！",
+        "tip": "プロ向け最適！",
         "product_id": {
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
@@ -413,7 +413,7 @@
         "credits": 1600,
         "valid_months": 1,
         "button": {
-          "title": "プロ版を入手",
+          "title": "プロを手に入れる",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
@@ -422,15 +422,15 @@
   },
   "testimonial": {
     "name": "testimonial",
-    "label": "お客様の声",
-    "title": "ユーザーの声",
-    "description": "AI Face Swapを愛用しているユーザーの声をご紹介します。",
+    "label": "Testimonials",
+    "title": "What Our Artists Say",
+    "description": "当社のAIアート変換を愛用する人々の声をお聞きください。",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "プロフェッショナルフォトグラファー",
-        "description": "顔交換の品質が信じられないほど素晴らしいです！プロフェッショナルなヘッドショットに使用していますが、結果は常に完璧です。",
+        "label": "デジタルアーティスト",
+        "description": "アニメの変換の品質は信じられないほどです！ユニークなアートワークを作成するために使用し、結果はいつも魔法のようです。",
         "image": {
           "src": "/imgs/users/1.png"
         }
@@ -438,15 +438,15 @@
       {
         "title": "Mike Chen",
         "label": "コンテンツクリエイター",
-        "description": "APIの統合が非常に簡単で、処理速度が驚くほど速いです。コンテンツ制作のニーズに完璧です。",
+        "description": "APIの統合は超簡単で、変換の速度は驚異的です。私のクリエイティブプロジェクトに最適です。",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "ソーシャルメディアマネージャー",
-        "description": "複数の顔交換機能は画期的です。魅力的なコンテンツの作成がとても簡単になりました！",
+        "label": "ソーシャルメディアアーティスト",
+        "description": "バッチ処理機能は画期的です。テーマに沿ったコレクションを作成するのがとても簡単になりました！",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -457,47 +457,47 @@
     "name": "faq",
     "label": "よくある質問",
     "title": "よくある質問",
-    "description": "ご質問がありますか？私たちが答えます。",
+    "description": "質問がありますか？お答えします。",
     "items": [
       {
-        "title": "AI Face Swapはどのように機能しますか？",
-        "description": "私たちの高度なAI技術は、両方の画像の顔の特徴を分析し、自然な表情や外見を維持しながらシームレスに交換します。処理は数秒で完了し、高品質な結果を保証します。"
+        "title": "Image to Ghibliはどのように動作しますか？",
+        "description": "当社の高度なAI技術はあなたの写真を分析し、スタジオジブリの美学にインスパイアされた美しいアニメスタイルのアートワークに変換します。プロセスはわずか数秒で完了し、高品質な結果を保証します。"
       },
       {
-        "title": "データは安全ですか？",
-        "description": "はい、もちろんです！私たちはプライバシーを非常に重視しています。アップロードされた写真はすべて安全に処理され、処理後に自動的に削除されます。許可なく画像を保存したり共有したりすることは決してありません。"
+        "title": "私のデータは安全ですか？",
+        "description": "はい、もちろんです！プライバシー保護について非常に真剣に取り組んでいます。アップロードされたすべての写真は安全に処理され、処理後に自動的に削除されます。許可なしに画像を保存または共有することは決してありません。"
       },
       {
-        "title": "対応している画像フォーマットは何ですか？",
-        "description": "JPG、PNG、WEBPなど、一般的な画像フォーマットすべてに対応しています。最良の結果を得るために、顔がはっきりと見える、十分な明るさの写真をお勧めします。"
+        "title": "サポートされている画像形式は何ですか？",
+        "description": "JPG、PNG、およびWEBPを含むすべての一般的な画像形式に対応しています。最良の結果を得るためには、クリアでよく照らされた写真の使用をお勧めします。"
       },
       {
-        "title": "1枚の画像で複数の顔を入れ替えることはできますか？",
-        "description": "はい！ProプランとEnterpriseプランでは、1枚の画像で複数の顔の入れ替えに対応しています。1回の操作で異なる顔を異なるソース画像と入れ替えることができます。"
+        "title": "複数の写真を一度に変換できますか？",
+        "description": "はい！ProプランとEnterpriseプランではバッチ処理をサポートしており、一貫したスタイルを保ちながら複数の写真を同時に変換できます。"
       },
       {
-        "title": "APIは提供していますか？",
-        "description": "はい、開発者が自身のアプリケーションに顔入れ替え技術を統合できる堅牢なAPIを提供しています。APIアクセスはProプランとEnterpriseプランで利用可能です。"
+        "title": "APIを提供していますか？",
+        "description": "はい、デベロッパーが当社の変換技術をアプリケーションに統合するための堅牢なAPIを提供しています。APIアクセスはProプランとEnterpriseプランで利用可能です。"
       },
       {
-        "title": "返金ポリシーはどうなっていますか？",
-        "description": "100%満足保証を提供しています。サービスにご満足いただけない場合は、購入から7日以内にご連絡いただければ、全額返金いたします。"
+        "title": "返金ポリシーはどうですか？",
+        "description": "100%の満足保証を提供しています。サービスに満足していない場合は、購入後7日以内にお問い合わせいただければ全額返金いたします。"
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "今すぐ写真の変換を始めましょう",
-    "description": "何百万人もの満足ユーザーと共に、AI顔入れ替えの魔法を体験してください。",
+    "title": "今日、芸術的な旅を始めましょう",
+    "description": "何百万ものクリエイターに参加し、AIアート変換の魔法を体験してください。",
     "buttons": [
       {
-        "title": "無料で試す",
+        "title": "無料でお試しください",
         "url": "/#signup",
         "target": "_self",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "例を見る",
+        "title": "ギャラリーを見る",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,15 +507,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "高度なAI顔交換技術で写真を変換。高速、安全、使いやすい。",
+      "title": "画像をジブリに",
+      "description": "高度なAI技術を使用して、写真を素晴らしいアニメ風のアートワークに変換します。高速で安全、使いやすい。",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "画像をジブリに"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap All rights reserved.",
+    "copyright": "© 2024 • 画像をジブリに All rights reserved.",
     "nav": {
       "items": [
         {
@@ -527,7 +527,7 @@
               "target": "_self"
             },
             {
-              "title": "料金",
+              "title": "価格",
               "url": "#pricing",
               "target": "_self"
             },
@@ -545,7 +545,7 @@
         {
           "title": "メール",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
@@ -564,140 +564,140 @@
     }
   },
   "faceSwap": {
-    "photoFaceSwap": "写真の顔交換",
-    "videoFaceSwap": "ビデオ顔交換",
-    "multipleFaceSwap": "複数の顔交換",
+    "photoFaceSwap": "写真フェイススワップ",
+    "videoFaceSwap": "ビデオフェイススワップ",
+    "multipleFaceSwap": "複数フェイススワップ",
     "gifFaceSwap": "GIFフェイススワップ",
     "uploadOriginalImage": "元の画像をアップロード",
     "uploadFaceImage": "顔の画像をアップロード",
     "startFaceSwap": "顔交換を開始",
     "swapFace": "顔を交換",
     "processing": "処理中...",
-    "before": "交換前",
-    "after": "交換後",
+    "before": "前",
+    "after": "後",
     "uploadImage": "画像をアップロード",
-    "readyToSwap": "交換準備完了",
+    "readyToSwap": "交換の準備ができました",
     "uploadBothImages": "両方の画像をアップロード",
     "comingSoon": "近日公開",
     "download": "ダウンロード",
     "splitView": "分割表示",
     "compareView": "比較表示",
-    "zoomIn": "拡大",
-    "swapInProgress": "顔交換処理中...",
-    "completeSoon": "数秒で完了します",
-    "magicHappening": "魔法が起きています...",
+    "zoomIn": "ズームイン",
+    "swapInProgress": "フェイススワップ進行中...",
+    "completeSoon": "数秒後に完了します",
+    "magicHappening": "魔法が起こっています...",
     "uploadGif": "GIFをアップロード",
     "uploadFacePhoto": "顔写真をアップロード",
     "startGifFaceSwap": "GIFフェイススワップを開始",
-    "swapGifFace": "GIFフェイスをスワップ",
+    "swapGifFace": "GIFフェイススワップ",
     "preview": "プレビュー",
     "gifPreview": "GIFプレビュー",
     "swapResult": "スワップ結果",
     "pleaseUploadGif": "GIFをアップロードしてください",
     "gifSwapInProgress": "GIFフェイススワップ進行中...",
-    "gifCompleteSoon": "しばらくお待ちください、完了まで時間がかかる場合があります",
-    "watermarkNotice": "残高不足のため、ウォーターマークが追加されました",
+    "gifCompleteSoon": "しばらくお待ちください。完了まで時間がかかる場合があります",
+    "watermarkNotice": "クレジットが不足しています。ウォーターマークが追加されました",
     "gifFormat": "GIF",
     "wantRemoveWatermark": "ウォーターマークを削除しますか？",
-    "upgradePremium": "プレミアム機能を解除",
-    "watermarkDescription": "今すぐご登録いただき、プラットフォームのすべてのプレミアム機能をお楽しみください。",
-    "premiumBenefits": "ご登録いただくと以下の特典があります。",
+    "upgradePremium": "プレミアム機能をアンロック",
+    "watermarkDescription": "今日登録して、当社のプラットフォームのすべてのプレミアム機能をお楽しみください。",
+    "premiumBenefits": "サブスクリプションに含まれるもの：",
     "benefit1": "広告なしの体験",
-    "benefit2": "ウォーターマークなしの写真",
+    "benefit2": "ウォーターマークのない写真",
     "benefit3": "GIFフェイススワップ機能",
     "benefit4": "ビデオフェイススワップ機能",
-    "subscribeNow": "今すぐご登録",
+    "subscribeNow": "今すぐ購読",
     "uploadVideo": "ビデオをアップロード",
     "pleaseUploadVideo": "ビデオをアップロードしてください",
     "videoPreview": "ビデオプレビュー",
     "videoSwapInProgress": "ビデオフェイススワップ進行中...",
-    "videoCompleteSoon": "しばらくお待ちください。少々お時間がかかる場合があります",
+    "videoCompleteSoon": "しばらくお待ちください",
     "videoFormat": "M4V、MP4、MOV形式のビデオ",
-    "videoSizeLimit": "登録者: 1024MB / 300秒 / 4K",
-    "videoFaceTip": "ビデオの冒頭に明確な正面顔が表示されることを確認してください",
+    "videoSizeLimit": "登録者: 10MB / 20秒",
+    "videoFaceTip": "ビデオの先頭にクリアな正面顔が表示されることを確認してください",
     "startVideoFaceSwap": "ビデオフェイススワップを開始",
-    "swapVideoFace": "ビデオフェイスを交換",
-    "videoSizeError": "動画ファイルが10MBを超えています。より小さい動画をアップロードしてください。",
-    "videoDurationError": "動画の長さが20秒を超えています。より短い動画をアップロードしてください。",
+    "swapVideoFace": "ビデオフェイススワップを交換",
+    "videoSizeError": "ビデオファイルが10MBを超えています。より小さなビデオをアップロードしてください。",
+    "videoDurationError": "ビデオの再生時間が20秒を超えています。短いビデオをアップロードしてください。",
     "gif": {
-      "title": "GIFフェイススワップ - AIテクノロジーで面白いGIFフェイススワップを作成",
-      "description": "高度なAIテクノロジーを使用して、GIF上の顔をスワップします。数秒で面白く共有可能なGIFを作成できます。登録不要で無料で使い放題です！",
+      "title": "GIFフェイススワップ - AIテクノロジーを使用して楽しいGIFフェイススワップを作成",
+      "description": "当社の高度なAIテクノロジーを使用してGIFの顔を交換します。数秒で面白く共有可能なGIFを作成します。登録不要、無料で使用可能、無制限の交換が可能です！",
       "heading": "面白いGIFフェイススワップを作成",
-      "subheading": "GIFをアップロードし、わずか数クリックで楽しく共有可能な画像を作成しましょう！",
+      "subheading": "GIFをアップロードし、わずか数クリックで楽しく共有可能な画像を作成します！",
       "features": {
         "title": "GIFフェイススワップの特徴",
         "items": [
           {
-            "title": "瞬時のフェイススワップ",
-            "description": "当社のツールは高速で効率的なリアルタイムのフェイススワップを提供します。単にGIFをアップロードするだけで、AIは即座に顔を認識して置換し、すぐに結果を表示できます。"
+            "title": "即座のフェイススワップ",
+            "description": "当社のツールは高速で効率的なリアルタイムの顔の交換を提供します。簡単にGIFをアップロードし、当社のAIが顔を即座に認識し、置き換えるため、結果をすぐに確認できます。"
           },
           {
-            "title": "社会的なインタラクションの向上",
-            "description": "友人と楽しいGIFを共有して社会的なインタラクションを促進し、ユーモアを追加しましょう。さまざまなソーシャルメディアプラットフォームに最適で、コンテンツをより魅力的にします。"
+            "title": "ソーシャルインタラクションの向上",
+            "description": "友達と楽しいGIFを共有して、ソーシャルインタラクションを促進し、ユーモアを加えます。様々なソーシャルメディアプラットフォーム向けに完璧で、コンテンツをより魅力的にします。"
           },
           {
             "title": "複数のフォーマットのサポート",
-            "description": "GIF形式以外にも、当社のツールはさまざまな画像入力形式をサポートしており、さまざまなソースからファイルを簡単にアップロードして柔軟なユーザーエクスペリエンスを提供します。"
+            "description": "GIF形式に加え、当社のツールはさまざまな画像入力形式をサポートしており、異なるソースからファイルをアップロードしやすく、柔軟なユーザーエクスペリエンスを実現します。"
           }
         ]
       },
       "howTo": {
-        "title": "GIFでのフェイススワップ方法",
+        "title": "GIFで顔を交換する方法",
         "steps": [
           {
             "number": "1",
-            "title": "GIFのアップロード",
-            "description": "置き換えたい顔を含むGIFをアップロードしてください。最良の結果を得るために、明瞭な顔の詳細を確保してください。"
+            "title": "顔があるGIFをアップロードする",
+            "description": "置き換えたい顔があるGIFをアップロードします。最良の結果を得るためには、顔の詳細がはっきりとしていることを確認してください。"
           },
           {
             "number": "2",
-            "title": "ターゲットの顔画像をアップロード",
-            "description": "置き換えに使用したい顔の写真をアップロードしてください。顔の明瞭さが必要です。"
+            "title": "ターゲットの顔画像をアップロードする",
+            "description": "交換に使用する顔の写真をアップロードします。顔の明瞭さが必要です。"
           },
           {
             "number": "3",
             "title": "生成を待つ",
-            "description": "「顔のGIFを交換」ボタンをクリックし、AIが顔を交換した新しいGIFを生成するまで待ちます。"
+            "description": "「顔を交換するGIF」ボタンをクリックし、AIが新しい顔の交換されたGIFを生成するのを待ちます。"
           }
         ]
       },
       "usageScenarios": {
-        "title": "複数の使用シナリオ",
+        "title": "さまざまな使用シナリオ",
         "items": [
           {
-            "title": "ソーシャルメディアでの共有",
-            "description": "Instagram、Facebook、Twitterなどの主要なソーシャルメディアプラットフォームで楽しいGIFを共有し、相互作用を向上させ注目を集めることができます。"
+            "title": "ソーシャルメディア共有",
+            "description": "Instagram、Facebook、Twitterなどの主要ソーシャルメディアプラットフォームに楽しいGIFを共有し、相互作用を向上させ、注目を集めます。"
           },
           {
-            "title": "コメディコンテンツの作成",
+            "title": "コメディコンテンツ制作",
             "description": "コンテンツクリエイターはGIF Face Swapを使用して面白いビデオやクリップを制作し、コンテンツを豊かにし、より多くの視聴者を惹きつけることができます。"
           },
           {
             "title": "イベントやパーティーの招待状",
-            "description": "パーティーやイベントのために、参加意欲を高めるために個人的な招待用のGIFを作成して、魅力的で魅力的にしましょう。"
+            "description": "パーティーやイベントのためにパーソナライズされた招待状のGIFを作成し、参加をより魅力的で魅力的にすることで、参加の興味を引き付けます。"
           }
         ]
       }
     },
     "video": {
-      "title": "ビデオフェイススワップ| AIFACESWAP.APP",
-      "description": "高度なAIビデオフェイススワップ技術で動画を変換します。",
-      "heading": "AIビデオフェイススワップ",
-      "subheading": "強力なAIフェイススワップの体験。フレームごとに滑らかに顔を置き換えて、楽しい、魅力的な、あるいはプロのコンテンツを瞬時に作成できます。",
+      "title": "ビデオ顔交換 | AIFACESWAP.APP",
+      "description": "進化したAIビデオ顔交換技術で動画を変身させます。",
+      "heading": "AIビデオ顔交換",
+      "subheading": "強力なAI顔交換技術で、ビデオごとにサクサクとした顔の交換を体験し、フレームごとに自然な表情と動きを維持します。瞬時に顔を交換して楽しい、魅力的、またはプロのコンテンツを作成します。",
       "features": {
-        "title": "ビデオフェイススワップの特徴",
+        "title": "当社のビデオ顔交換の特長",
         "items": [
           {
-            "title": "シームレスな顔の置き換え",
-            "description": "高度なAIによる滑らかでフレームごとの顔の置き換えで、自然な表情と動きをビデオ全体を通じて維持します。"
+            "title": "シームレスな顔の置換",
+            "description": "当社の高度なAIにより、自然な表情と動きを保ちながら、ビデオ全体でフレームごとに滑らかな顔の交換が実現します。"
           },
           {
             "title": "高品質な結果",
-            "description": "一貫した照明、リアルな肌のトーン、正確な顔の特徴マッピングを備えたプロ仕様のビデオフェイススワップを体験してください。"
+            "description": "一貫した照明、リアルな肌の色、正確な顔の特徴マッピングでプロフェッショナルグレードのビデオ顔交換を体験します。"
           },
           {
-            "title": "ユーザーフレンドリーなプロセス",
-            "description": "直感的なインターフェースを備えた当社のサービスでは、ビデオ内の顔を交換することは、ビデオをアップロードし、顔の画像を選択し、AIに作業を任せるだけの簡単なものです。"
+            "title": "使いやすいプロセス",
+            "description": "直感的なインターフェースで、ビデオ内の顔を置換するのは、ビデオをアップロードし、顔の画像を選択し、AIに作業を任せるだけです。"
           }
         ]
       },
@@ -706,35 +706,35 @@
         "steps": [
           {
             "number": "1",
-            "title": "ビデオをアップロード",
-            "description": "顔を交換したいビデオを選択してアップロードしてください。一般的なビデオ形式に対応しています。"
+            "title": "動画をアップロード",
+            "description": "顔を交換したい動画を選択してアップロードします。さまざまな一般的なビデオ形式に対応しています。"
           },
           {
             "number": "2",
             "title": "顔の写真をアップロード",
-            "description": "交換用の明瞭な顔写真を選びましょう。最良の結果を得るには、見やすい顔の写真を高画質で使用してください。"
+            "description": "交換用のはっきりした顔の写真を選択します。最高の結果を得るためには、顔がはっきり見える高品質の画像を使用してください。"
           },
           {
             "number": "3",
-            "title": "フェイススワップビデオを生成",
-            "description": "わずか1回のクリックで、当社のAIがビデオを処理してスムーズで高品質なフェイススワップを作成します。"
+            "title": "顔の交換動画を生成",
+            "description": "ワンクリックで、当社のAIがあなたのビデオを処理してスムーズで高品質な顔の交換を作成します。"
           }
         ]
       },
       "usageScenarios": {
-        "title": "ビデオフェイススワップのクリエイティブな使い方",
+        "title": "ビデオ顔交換のクリエイティブな活用法",
         "items": [
           {
             "title": "映画シーンの再現",
-            "description": "お気に入りの俳優と顔を交換することで、象徴的な映画の瞬間に入り込みましょう。自分自身や友人を主役としたユニークな映画体験を作り出します。"
+            "description": "お気に入りの俳優と顔を交換して、映画の象徴的な瞬間に入り込んでください。自分や友達を主役にして、独自の映画体験を作成します。"
           },
           {
-            "title": "ソーシャルメディアのコンテンツ",
-            "description": "TikTok、Instagram、YouTubeで視聴者の注意を引く面白い顔交換動画を作成し、魅力的でバイラルなコンテンツを創造します。"
+            "title": "ソーシャルメディアコンテンツ",
+            "description": "TikTok、Instagram、YouTube向けに、魅力的でバイラルなコンテンツを作成します。視聴者の注意を引くエンターテイニングな顔の交換ビデオを使ってください。"
           },
           {
-            "title": "特別なイベント用の動画",
-            "description": "誕生日、結婚式、お祝い事などを、主役の顔を交換したパーソナライズされた動画でより思い出深いものにしましょう。"
+            "title": "特別なイベントのビデオ",
+            "description": "誕生日、結婚式、お祝い事などを、主役のゲストの顔を交換してパーソナライズされたビデオを作成することで、より思い出深いものにします。"
           }
         ]
       },
@@ -742,16 +742,16 @@
         "title": "よくある質問",
         "items": [
           {
-            "title": "ビデオの処理にはどれくらい時間がかかりますか？",
-            "description": "処理時間はビデオの長さや品質によって異なりますが、高品質を維持しながら迅速な結果を提供するために進化したAIで対応します。"
+            "title": "ビデオ処理にはどのくらい時間がかかりますか？",
+            "description": "処理時間はビデオの長さや品質によって異なりますが、高度なAIにより、高品質を維持しながら迅速な結果を提供することを目指しています。"
           },
           {
             "title": "どのビデオ形式がサポートされますか？",
-            "description": "MP4、MOV、AVIなどの一般的なビデオ形式が利用可能です。"
+            "description": "弊社のサービスでは、MP4、MOV、AVIなど一般的なビデオ形式がサポートされます。"
           },
           {
-            "title": "ビデオの時間制限はありますか？",
-            "description": "無料ユーザーは短いビデオ処理にアクセスできますが、プレミアムサブスクリプションユーザーは長いビデオのサポートを享受できます。"
+            "title": "ビデオの長さに制限はありますか？",
+            "description": "無料ユーザーは短いビデオ処理にアクセスできますが、プレミアムサブスクリバーはより長いビデオをサポートします。"
           }
         ]
       }

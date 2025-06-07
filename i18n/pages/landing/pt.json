@@ -1,12 +1,12 @@
 {
-  "template": "ai-face-swap",
+  "template": "image-to-ghibli",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "Troca de Rosto com IA",
+      "title": "Imagem para Ghibli",
       "logo": {
         "src": "/logo.png",
-        "alt": "Troca de Rosto com IA"
+        "alt": "Imagem para Ghibli"
       },
       "url": "/"
     },
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "O melhor Trocador de Rosto com IA Online Gratuito",
-    "highlight_text": "Troca de Rosto com IA",
-    "description": "Mergulhe no mundo inovador da Troca de Rosto com IA, onde a tecnologia de ponta encontra o entretenimento ilimitado. Modifique facilmente imagens e vídeos, abrindo a porta para possibilidades digitais incomparáveis.",
+    "title": "Transforme Suas Fotos em Arte de Anime Mágica",
+    "highlight_text": "Estilo Studio Ghibli",
+    "description": "Experimente a transformação encantadora de suas fotos em impressionantes ilustrações de anime inspiradas na estética lendária do Studio Ghibli. Nossa tecnologia de IA traz o mundo mágico da animação para seus momentos cotidianos.",
     "announcement": {
       "label": "IA",
-      "title": "Grátis & Seguro",
+      "title": "Instant & Mágico",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "Experimente Agora",
+        "title": "Transformar Agora",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Ver Exemplos",
+        "title": "Ver Galeria",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -79,55 +79,55 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "Experimente a Magia da Troca de Rosto com IA",
+    "title": "Transformar Fotos em Magia Anime",
     "label": "Como Funciona",
-    "description": "Transforme qualquer foto com nossa tecnologia avançada de troca de rosto com IA. Rápido, preciso e seguro.",
+    "description": "Transforme suas fotos comuns em obras de arte anime extraordinárias com nossa tecnologia avançada de IA. Rápido, bonito e mágico.",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "Envie Suas Fotos",
-        "description": "Basta carregar a imagem de origem e o rosto que você deseja trocar.",
+        "title": "Carregue Sua Foto",
+        "description": "Basta carregar qualquer foto que deseje transformar em ilustrações no estilo anime.",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "Processamento por IA",
-        "description": "Nossa IA analisa e processa as imagens para uma troca de rosto perfeita.",
+        "title": "Magia AI",
+        "description": "Nosso AI analisa sua imagem e aplica o amado estético do Studio Ghibli.",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "Resultados Instantâneos",
-        "description": "Obtenha sua imagem transformada em segundos, pronta para download.",
+        "title": "Arte para Download",
+        "description": "Receba instantaneamente sua arte transformada, pronta para compartilhar e apreciar.",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
     "name": "benefício",
-    "title": "Por Que Escolher o AI Face Swap",
+    "title": "Por Que Escolher Nosso Transformador de Arte AI",
     "label": "Benefícios",
-    "description": "Experimente a melhor tecnologia de troca de rosto com recursos avançados e segurança.",
+    "description": "Experimente a magia de transformar suas fotos em impressionantes ilustrações no estilo anime com recursos avançados.",
     "items": [
       {
-        "title": "Tecnologia Avançada de IA",
-        "description": "Modelos de aprendizado profundo de última geração garantem trocas de rosto naturais e realistas.",
+        "title": "Tecnologia AI Avançada",
+        "description": "Modelos de aprendizado profundo de última geração garantem transformações belas e autênticas no estilo anime.",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Privacidade e Segurança",
-        "description": "Suas fotos são processadas com segurança e automaticamente excluídas após o processamento.",
+        "title": "Estilo Autêntico",
+        "description": "Nosso AI captura a essência dos estilos estéticos de anime amados em cada transformação.",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Amigável para Desenvolvedores",
-        "description": "Integre nossa tecnologia de troca de rosto em seus aplicativos com nossa API robusta.",
+        "title": "Integração Fácil",
+        "description": "Integre nossa tecnologia de transformação de imagem em seus aplicativos com nossa API robusta.",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -136,92 +136,92 @@
     ]
   },
   "usage": {
-    "name": "uso",
-    "title": "Como Trocar um Rosto Online",
-    "description": "Crie imagens incríveis em apenas alguns passos simples:",
+    "name": "utilização",
+    "title": "Transforme suas fotos em etapas simples",
+    "description": "Crie arte de animê deslumbrante em apenas alguns cliques:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "right",
-    "text_align": "left",
+    "image_position": "direita",
+    "text_align": "esquerda",
     "items": [
       {
-        "title": "Carregue Sua Imagem",
-        "description": "Simplesmente clique em 'Carregar uma Imagem' e selecione uma foto que você deseja usar como imagem fonte. Certifique-se de que apenas um rosto na foto seja de boa qualidade."
+        "title": "Envie Sua Foto",
+        "description": "Clique em 'Enviar uma Foto' e selecione qualquer imagem que deseja transformar. Fotos com assuntos claros funcionam melhor."
       },
       {
-        "title": "Escolha sua Opção de Troca de Rosto",
-        "description": "Quando sua imagem original estiver pronta, escolha o efeito de troca desejado entre as predefinições disponíveis. Isso significa que você substituirá o rosto da sua imagem carregada pela predefinição selecionada."
+        "title": "Escolha Opções de Estilo",
+        "description": "Escolha entre várias opções de estilo para personalizar sua transformação. Cada opção traz elementos artísticos exclusivos para sua obra final."
       },
       {
-        "title": "Troque o Rosto com IA",
-        "description": "Clique no botão 'Trocar Rosto Agora' para mostrar a mágica da IA. O AiFaceSwap.app concluirá a troca de rosto em poucos segundos. Nossa IA faz o trabalho automaticamente garantindo o melhor resultado."
+        "title": "Transformação de IA",
+        "description": "Deixe nossa IA fazer sua mágica. Em segundos, sua foto será transformada em uma bela obra de arte inspirada em animê."
       },
       {
-        "title": "Visualize e Baixe",
-        "description": "Bingo! Seu rosto foi trocado por quem você quiser! Visualize o resultado final na mesma página. Clique em 'Baixar' para salvar a imagem sem marca d'água no seu dispositivo. Compartilhe para se divertir!"
+        "title": "Baixe e Compartilhe",
+        "description": "Sua obra de arte está pronta! Baixe sua imagem transformada em alta qualidade e compartilhe sua criação mágica com o mundo."
       }
     ]
   },
   "feature": {
     "name": "recurso",
-    "title": "Poderosos Recursos de Troca de Rosto com IA",
-    "description": "Descubra as incríveis capacidades da nossa tecnologia de troca de rostos alimentada por IA",
+    "title": "Recursos mágicos para suas fotos",
+    "description": "Descubra as capacidades encantadoras da nossa tecnologia de transformação de arte de IA",
     "items": [
       {
-        "title": "Trocas de Rosto Realistas",
-        "description": "Nossa tecnologia de ponta garante trocas de rosto perfeitas e realistas, ocultando completamente qualquer evidência de edição.",
+        "title": "Estilo de Anime Autêntico",
+        "description": "Nossa IA captura perfeitamente o estilo artístico distintivo que torna a arte de anime tão amada em todo o mundo.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Interface Fácil de Usar",
-        "description": "Com apenas um clique, você pode substituir qualquer rosto em outra imagem, tornando o processo simples e intuitivo.",
+        "title": "Interface Simples",
+        "description": "Transforme suas fotos com apenas um clique, tornando a magia da arte de anime acessível a todos.",
         "icon": "RiMouseLine"
       },
       {
-        "title": "Criação de Memes",
-        "description": "Crie memes hilários facilmente, aumentando a interação com seu público através de conteúdo novo e envolvente.",
+        "title": "Variações de Estilo",
+        "description": "Escolha entre diferentes estilos artísticos para encontrar o visual perfeito para suas fotos.",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "Transformações em Celebridades",
-        "description": "Transforme sua aparência trocando seu rosto com várias personas, de estrelas de cinema a super-heróis.",
+        "title": "Alta Resolução",
+        "description": "Obtenha belas obras de arte em alta resolução, perfeitas para impressão ou exibição digital.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "Experimentação de Estilos",
-        "description": "Explore novos visuais aplicando seu rosto em diferentes personagens, experimentando maquiagem, penteados e estilos de moda.",
+        "title": "Processamento em Lote",
+        "description": "Transforme várias fotos de uma vez para criar uma coleção de arte de anime.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "Criatividade Infinita",
-        "description": "Desbloqueie um potencial infinito para criatividade e entretenimento com nossa versátil tecnologia de troca de rostos.",
+        "title": "Liberdade Criativa",
+        "description": "Liberte sua criatividade com várias opções de personalização para suas transformações.",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
-    "name": "vitrine",
-    "title": "Transformações Incríveis",
-    "description": "Veja o que nossos usuários criaram com o AI Face Swap.",
+    "name": "showcase",
+    "title": "Transformações Mágicas",
+    "description": "Veja as impressionantes obras de arte criadas com a nossa tecnologia de IA.",
     "items": [
       {
-        "title": "Troca de Rosto em Vídeo",
-        "description": "Troque rostos em vídeos, aprimorando a produção cinematográfica ou criando conteúdo para redes sociais",
+        "title": "Transformação de Paisagem",
+        "description": "Transforme suas fotos cênicas em paisagens de anime deslumbrantes",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "Troca de Rosto em Foto",
-        "description": "Permite trocar cabeças e substituir rostos em fotos",
+        "title": "Transformação de Retrato",
+        "description": "Transforme retratos em belas obras de arte de personagens no estilo anime",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "Troca Múltipla de Rostos",
-        "description": "Troque múltiplos rostos em fotos de família, fotos de casamento, fotos de festa, etc",
+        "title": "Transformação de Foto em Grupo",
+        "description": "Converta fotos em grupo em cenas encantadoras de anime",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,19 +231,19 @@
   "stats": {
     "name": "estatísticas",
     "label": "Estatísticas",
-    "title": "Confiado por Usuários em Todo o Mundo",
-    "description": "Junte-se a milhares de usuários satisfeitos usando o AI Face Swap.",
+    "title": "Confiado por Artistas em Todo o Mundo",
+    "description": "Junte-se a milhares de criadores transformando suas fotos em arte de anime.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Usuários Satisfeitos",
+        "title": "Artistas Felizes",
         "label": "1M+",
-        "description": "Usuários Ativos"
+        "description": "Utilizadores Ativos"
       },
       {
-        "title": "Trocas de Rosto",
+        "title": "Transformações",
         "label": "10M+",
-        "description": "Concluídos"
+        "description": "Concluído"
       },
       {
         "title": "Tempo de Processamento",
@@ -256,21 +256,21 @@
     "name": "preços",
     "label": "Preços",
     "title": "Preços Simples e Transparentes",
-    "description": "Escolha o plano perfeito para suas necessidades de troca de rosto.",
+    "description": "Escolha o plano perfeito para a sua jornada artística.",
     "toggle": {
-      "monthly": "Mensal",
-      "annual": "Anual",
+      "monthly": "Monthly",
+      "annual": "Annual",
       "default_plan": "anual",
-      "discount_text": "GANHE 2 MESES GRÁTIS ANUALMENTE"
+      "discount_text": "Ganhe 2 MESES GRÁTIS ANUALMENTE"
     },
     "cancel_text": "Cancelar a qualquer momento. Sem taxas ocultas",
     "items": [
       {
         "product_title": "Free",
-        "description": "Perfeito para uso pessoal",
+        "description": "Perfeito para experimentar",
         "features": [
           {
-            "text": "Trocas de rosto ilimitadas com marca d'água",
+            "text": "Transformações limitadas com marca d'água",
             "included": true
           },
           {
@@ -282,7 +282,7 @@
             "included": true
           },
           {
-            "text": "Sem troca de rosto em GIF ou vídeo",
+            "text": "Sem processamento em lote",
             "included": false
           }
         ],
@@ -310,22 +310,22 @@
       },
       {
         "product_title": "Basic",
-        "description": "Para usuários avançados",
+        "description": "Para criadores regulares",
         "features": [
           {
-            "text": "600 créditos por mês",
+            "text": "600 transformações por mês",
             "included": true
           },
           {
-            "text": "600 trocas de rosto sem marca d'água",
+            "text": "600 obras de arte sem marca d'água",
             "included": true
           },
           {
-            "text": "ou 200 trocas de rosto em GIF",
+            "text": "Saída de alta resolução",
             "included": true
           },
           {
-            "text": "ou 24 trocas de rosto em vídeo",
+            "text": "Processamento em lote de até 10 imagens",
             "included": true
           },
           {
@@ -351,7 +351,7 @@
         "currency": "USD",
         "unit": "mês",
         "is_featured": true,
-        "tip": "A escolha mais popular!",
+        "tip": "Escolha mais popular!",
         "product_id": {
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
@@ -360,29 +360,29 @@
         "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "Obter Pro",
+          "title": "Obter Básico",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
         "product_title": "Pro",
-        "description": "Para empresas",
+        "description": "Para artistas profissionais",
         "features": [
           {
-            "text": "Trocas de rosto sem marca d'água ilimitadas",
+            "text": "Transformações ilimitadas",
             "included": true
           },
           {
-            "text": "Trocas de rosto em GIF ilimitadas",
+            "text": "Saída em alta resolução ultra",
             "included": true
           },
           {
-            "text": "64 trocas de rosto em vídeo",
+            "text": "Personalização avançada de estilo",
             "included": true
           },
           {
-            "text": "Processamento ultra-rápido",
+            "text": "Processamento em lote ilimitado",
             "included": true
           },
           {
@@ -404,7 +404,7 @@
         "currency": "USD",
         "unit": "mês",
         "is_featured": false,
-        "tip": "Melhor para empresas!",
+        "tip": "Melhor para profissionais!",
         "product_id": {
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
@@ -421,16 +421,16 @@
     ]
   },
   "testimonial": {
-    "name": "depoimento",
+    "name": "testimonial",
     "label": "Depoimentos",
-    "title": "O Que Nossos Usuários Dizem",
-    "description": "Ouça as pessoas que adoram usar o AI Face Swap.",
+    "title": "O Que Nossos Artistas Dizem",
+    "description": "Ouça pessoas que adoram usar nossa transformação de arte com IA.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "Fotógrafo Profissional",
-        "description": "A qualidade das trocas de rosto é incrível! Eu uso para fotos profissionais e os resultados são sempre perfeitos.",
+        "label": "Artista Digital",
+        "description": "A qualidade das transformações de anime é incrível! Eu uso para criar obras de arte únicas e os resultados são sempre mágicos.",
         "image": {
           "src": "/imgs/users/1.png"
         }
@@ -438,15 +438,15 @@
       {
         "title": "Mike Chen",
         "label": "Criador de Conteúdo",
-        "description": "A API é super fácil de integrar, e a velocidade de processamento é incrível. Perfeito para minhas necessidades de criação de conteúdo.",
+        "description": "A API é super fácil de integrar, e a velocidade de transformação é incrível. Perfeito para meus projetos criativos.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "Gerente de Mídias Sociais",
-        "description": "O recurso de troca múltipla de rostos é revolucionário. Torna a criação de conteúdo envolvente muito mais fácil!",
+        "label": "Artista de Mídia Social",
+        "description": "O recurso de processamento em lote é revolucionário. Facilita muito a criação de coleções temáticas!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -460,44 +460,44 @@
     "description": "Tem perguntas? Nós temos respostas.",
     "items": [
       {
-        "title": "Como funciona a Troca de Rosto com IA?",
-        "description": "Nossa tecnologia avançada de IA analisa características faciais em ambas as imagens, então faz a troca perfeitamente mantendo aparência e expressões naturais. O processo leva apenas segundos e garante resultados de alta qualidade."
+        "title": "Como funciona o Image to Ghibli?",
+        "description": "Nossa tecnologia avançada de IA analisa suas fotos e as transforma em belas obras de arte no estilo anime inspiradas na estética do Studio Ghibli. O processo leva apenas alguns segundos e garante resultados de alta qualidade."
       },
       {
         "title": "Meus dados estão seguros?",
-        "description": "Sim, absolutamente! Levamos a privacidade muito a sério. Todas as fotos enviadas são processadas com segurança e automaticamente excluídas após o processamento. Nunca armazenamos ou compartilhamos suas imagens sem permissão."
+        "description": "Sim, absolutamente! Levamos a privacidade muito a sério. Todas as fotos enviadas são processadas de forma segura e excluídas automaticamente após o processamento. Nunca armazenamos nem compartilhamos suas imagens sem permissão."
       },
       {
         "title": "Quais formatos de imagem são suportados?",
-        "description": "Suportamos todos os formatos comuns de imagem, incluindo JPG, PNG e WEBP. Para melhores resultados, recomendamos usar fotos claras, bem iluminadas com rostos visíveis."
+        "description": "Suportamos todos os formatos de imagem comuns, incluindo JPG, PNG e WEBP. Para obter os melhores resultados, recomendamos usar fotos claras e bem iluminadas."
       },
       {
-        "title": "Posso trocar múltiplos rostos em uma imagem?",
-        "description": "Sim! Nossos planos Pro e Enterprise suportam múltiplas trocas de rosto em uma única imagem. Você pode trocar diferentes rostos com diferentes imagens de origem de uma só vez."
+        "title": "Posso transformar várias fotos de uma vez?",
+        "description": "Sim! Nossos planos Pro e Enterprise suportam processamento em lote, permitindo que você transforme várias fotos simultaneamente mantendo um estilo consistente."
       },
       {
         "title": "Vocês oferecem uma API?",
-        "description": "Sim, fornecemos uma API robusta para desenvolvedores integrarem nossa tecnologia de troca de rostos em seus aplicativos. O acesso à API está disponível com nossos planos Pro e Enterprise."
+        "description": "Sim, fornecemos uma API robusta para desenvolvedores integrarem nossa tecnologia de transformação em suas aplicações. O acesso à API está disponível em nossos planos Pro e Enterprise."
       },
       {
-        "title": "Qual é a política de reembolso?",
-        "description": "Oferecemos garantia de 100% de satisfação. Se você não estiver satisfeito com nosso serviço, entre em contato conosco dentro de 7 dias após sua compra para um reembolso total."
+        "title": "Qual é a sua política de reembolso?",
+        "description": "Oferecemos uma garantia de satisfação de 100%. Se não estiver satisfeito com nosso serviço, entre em contato conosco dentro de 7 dias da sua compra para obter um reembolso total."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Comece a Transformar Suas Fotos Hoje",
-    "description": "Junte-se a milhões de usuários satisfeitos e experimente a magia da Troca de Rosto com IA.",
+    "title": "Inicie sua Jornada Artística Hoje",
+    "description": "Junte-se a milhões de criadores e experimente a magia da transformação de arte de IA.",
     "buttons": [
       {
-        "title": "Experimente Grátis",
+        "title": "Experimente Gratuitamente",
         "url": "/#signup",
         "target": "_self",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Ver Exemplos",
+        "title": "Ver Galeria",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,15 +507,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "Transforme suas fotos com tecnologia avançada de troca de rosto por IA. Rápido, seguro e fácil de usar.",
+      "title": "Imagem para Ghibli",
+      "description": "Transforme suas fotos em impressionantes obras de arte no estilo anime com tecnologia avançada de IA. Rápido, seguro e fácil de usar.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Imagem para Ghibli"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap Todos os direitos reservados.",
+    "copyright": "© 2024 • Imagem para Ghibli Todos os direitos reservados.",
     "nav": {
       "items": [
         {
@@ -545,7 +545,7 @@
         {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
@@ -566,138 +566,138 @@
   "faceSwap": {
     "photoFaceSwap": "Troca de Rosto em Foto",
     "videoFaceSwap": "Troca de Rosto em Vídeo",
-    "multipleFaceSwap": "Troca Múltipla de Rostos",
+    "multipleFaceSwap": "Troca de Rosto Múltipla",
     "gifFaceSwap": "Troca de Rosto em GIF",
-    "uploadOriginalImage": "Carregar Imagem Original",
-    "uploadFaceImage": "Carregar Imagem do Rosto",
-    "startFaceSwap": "Iniciar Troca de Rosto",
-    "swapFace": "Trocar Rosto",
+    "uploadOriginalImage": "Enviar imagem original",
+    "uploadFaceImage": "Enviar imagem facial",
+    "startFaceSwap": "Iniciar troca de rosto",
+    "swapFace": "Trocar rosto",
     "processing": "Processando...",
     "before": "Antes",
     "after": "Depois",
-    "uploadImage": "Carregar Imagem",
-    "readyToSwap": "Pronto para Trocar",
-    "uploadBothImages": "Carregar Ambas as Imagens",
-    "comingSoon": "Em Breve",
+    "uploadImage": "Enviar imagem",
+    "readyToSwap": "Pronto para trocar",
+    "uploadBothImages": "Enviar ambas as imagens",
+    "comingSoon": "Em breve",
     "download": "Baixar",
-    "splitView": "Visão Dividida",
-    "compareView": "Visão Comparativa",
-    "zoomIn": "Ampliar",
+    "splitView": "Visualização dividida",
+    "compareView": "Visualização de comparação",
+    "zoomIn": "Dar zoom",
     "swapInProgress": "Troca de rosto em andamento...",
-    "completeSoon": "Será concluído em alguns segundos",
-    "magicHappening": "Mágica acontecendo...",
+    "completeSoon": "Concluirá em alguns segundos",
+    "magicHappening": "Magia acontecendo...",
     "uploadGif": "Carregar GIF",
     "uploadFacePhoto": "Carregar Foto do Rosto",
     "startGifFaceSwap": "Iniciar Troca de Rosto em GIF",
     "swapGifFace": "Trocar Rosto em GIF",
-    "preview": "Pré-visualização",
-    "gifPreview": "Pré-visualização em GIF",
+    "preview": "Visualização",
+    "gifPreview": "Visualização em GIF",
     "swapResult": "Resultado da Troca",
     "pleaseUploadGif": "Por favor, carregue um GIF",
     "gifSwapInProgress": "Troca de rosto em GIF em andamento...",
-    "gifCompleteSoon": "Isso pode levar um tempo, por favor, tenha paciência",
+    "gifCompleteSoon": "Isso pode levar um tempo, por favor, seja paciente",
     "watermarkNotice": "Créditos insuficientes, marca d'água adicionada",
     "gifFormat": "GIF",
     "wantRemoveWatermark": "Deseja remover a marca d'água?",
-    "upgradePremium": "Desbloqueie recursos premium",
-    "watermarkDescription": "Assine hoje para desfrutar de todos os recursos premium de nossa plataforma.",
-    "premiumBenefits": "Com a assinatura, você obtém:",
+    "upgradePremium": "Desbloquear Recursos Premium",
+    "watermarkDescription": "Inscreva-se hoje para desfrutar de todos os recursos premium da nossa plataforma.",
+    "premiumBenefits": "Com a assinatura você obtém:",
     "benefit1": "Experiência sem anúncios",
     "benefit2": "Fotos sem marca d'água",
-    "benefit3": "Capacidade de troca de rosto em formato GIF",
+    "benefit3": "Capacidade de troca de rosto em GIF",
     "benefit4": "Capacidade de troca de rosto em vídeo",
-    "subscribeNow": "Assine Agora",
+    "subscribeNow": "Inscreva-se Agora",
     "uploadVideo": "Carregar Vídeo",
     "pleaseUploadVideo": "Por favor, carregue um vídeo",
     "videoPreview": "Pré-visualização do Vídeo",
     "videoSwapInProgress": "Troca de rosto em vídeo em andamento...",
-    "videoCompleteSoon": "Isso pode levar um tempo, por favor, seja paciente",
-    "videoFormat": "Vídeos M4V, MP4, MOV",
-    "videoSizeLimit": "Inscritos: 10MB / 20s",
-    "videoFaceTip": "Certifique-se de que um rosto frontal claro apareça no início do vídeo",
-    "startVideoFaceSwap": "Iniciar Troca de Rosto em Vídeo",
-    "swapVideoFace": "Trocar Rosto em Vídeo",
+    "videoCompleteSoon": "Isso pode levar algum tempo, por favor, tenha paciência",
+    "videoFormat": "Vídeos em formato M4V, MP4, MOV",
+    "videoSizeLimit": "Subscritores: 10MB / 20s",
+    "videoFaceTip": "Por favor, certifique-se de que um rosto frontal claro aparece no início do vídeo",
+    "startVideoFaceSwap": "Iniciar Troca de Rosto por Vídeo",
+    "swapVideoFace": "Trocar Rosto do Vídeo",
     "videoSizeError": "O arquivo de vídeo excede 10MB. Por favor, faça o upload de um vídeo menor.",
     "videoDurationError": "A duração do vídeo excede 20 segundos. Por favor, faça o upload de um vídeo mais curto.",
     "gif": {
-      "title": "Troca de Rosto em GIF - Crie Trocas de Rosto Divertidas em GIF com Tecnologia de IA",
-      "description": "Troque rostos em GIFs com nossa avançada tecnologia de IA. Crie GIFs engraçados e compartilháveis em segundos. Não é necessário registro, uso gratuito, trocas ilimitadas!",
-      "heading": "Crie Trocas de Rosto Divertidas em GIF",
-      "subheading": "Faça upload dos seus GIFs e crie imagens divertidas e compartilháveis em apenas alguns cliques!",
+      "title": "Troca de Rosto em GIF - Crie Trocas de Rosto Hilarious com Tecnologia de IA",
+      "description": "Troque rostos em GIFs com nossa avançada tecnologia de IA. Crie GIFs engraçados e compartilháveis em segundos. Não é necessário registro, gratuito para usar, trocas ilimitadas!",
+      "heading": "Crie Trocas de Rosto em GIF Hilarious",
+      "subheading": "Faça o upload de seus GIFs e crie imagens divertidas e compartilháveis em apenas alguns cliques!",
       "features": {
-        "title": "Recursos de Troca de Rosto em GIF",
+        "title": "Recursos da Troca de Rosto em GIF",
         "items": [
           {
-            "title": "Troca Instantânea de Rosto",
-            "description": "Nossa ferramenta oferece troca de rosto em tempo real rápida e eficiente. Basta fazer upload do seu GIF, e nossa IA pode reconhecer e substituir instantaneamente rostos, garantindo que você possa visualizar os resultados imediatamente."
+            "title": "Troca de Rosto Instantânea",
+            "description": "Nossa ferramenta oferece troca de rosto em tempo real rápida e eficiente. Basta fazer o upload do seu GIF, e nossa IA pode reconhecer e substituir rostos instantaneamente, garantindo que você possa ver os resultados imediatamente."
           },
           {
             "title": "Interação Social Aprimorada",
-            "description": "Compartilhe GIFs divertidos com amigos para promover a interação social e adicionar humor. Perfeito para várias plataformas de mídia social para tornar seu conteúdo mais atraente."
+            "description": "Compartilhe GIFs divertidos com amigos para promover a interação social e adicionar humor. Perfeito para várias plataformas de mídia social para tornar o seu conteúdo mais envolvente."
           },
           {
-            "title": "Suporte para Múltiplos Formatos",
-            "description": "Além do formato GIF, nossa ferramenta suporta vários formatos de imagem de entrada, facilitando o upload de arquivos de diferentes fontes para uma experiência de usuário flexível."
+            "title": "Suporte para Vários Formatos",
+            "description": "Além do formato GIF, nossa ferramenta suporta diversos formatos de entrada de imagem, facilitando o upload de arquivos de diferentes fontes para uma experiência de usuário flexível."
           }
         ]
       },
       "howTo": {
-        "title": "Como Trocar Rostos em GIF",
+        "title": "Como Trocar Rostos em um GIF",
         "steps": [
           {
             "number": "1",
-            "title": "Faça upload de um GIF com um rosto",
-            "description": "Faça upload de um GIF do rosto que você deseja substituir. Garanta detalhes faciais claros para obter os melhores resultados."
+            "title": "Faça o upload de um GIF com um rosto",
+            "description": "Faça o upload de um GIF do rosto que você deseja substituir. Garanta detalhes faciais claros para obter os melhores resultados."
           },
           {
             "number": "2",
-            "title": "Faça upload de uma imagem de rosto de destino",
-            "description": "Faça upload de uma foto do rosto que você deseja usar como substituição. Clareza facial é necessária."
+            "title": "Faça o upload de uma imagem de rosto de destino",
+            "description": "Faça o upload de uma foto do rosto que você deseja usar como substituição. Clareza facial é necessária."
           },
           {
             "number": "3",
             "title": "Aguarde a geração",
-            "description": "Clique no botão \"Trocar rosto do GIF\" e aguarde nosso IA gerar seu novo GIF com rostos trocados."
+            "description": "Clique no botão \"Trocar Rosto no GIF\" e aguarde nosso IA gerar seu novo GIF com os rostos trocados."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Múltiplos cenários de uso",
+        "title": "Múltiplos Cenários de Uso",
         "items": [
           {
-            "title": "Compartilhamento em redes sociais",
-            "description": "Compartilhe seus GIFs divertidos em plataformas de redes sociais como Instagram, Facebook e Twitter para aumentar a interação e atrair atenção."
+            "title": "Compartilhamento em Redes Sociais",
+            "description": "Compartilhe seus GIFs divertidos em grandes plataformas de redes sociais como Instagram, Facebook e Twitter para melhorar a interação e atrair atenção."
           },
           {
-            "title": "Criação de conteúdo cômico",
+            "title": "Criação de Conteúdo de Comédia",
             "description": "Os criadores de conteúdo podem usar o GIF Face Swap para produzir vídeos e clipes engraçados, enriquecendo seu conteúdo e atraindo mais espectadores."
           },
           {
-            "title": "Convites para eventos e festas",
+            "title": "Convites de Eventos e Festas",
             "description": "Crie GIFs de convite personalizados para festas ou eventos para torná-los mais envolventes e atraentes, aumentando o interesse em participar."
           }
         ]
       }
     },
     "video": {
-      "title": "Video Face Swap | AIFACESWAP.APP",
-      "description": "Transform your videos with advanced AI video face swapping technology.",
-      "heading": "AI Video Face Swap",
-      "subheading": "Experience powerful AI face swap for videos, making every frame exciting and seamless. Instantly replace faces to create fun, engaging, or professional content.",
+      "title": "Troca de Rosto em Vídeo | AIFACESWAP.APP",
+      "description": "Transforme seus vídeos com a tecnologia avançada de troca de rosto em vídeos com IA.",
+      "heading": "Troca de Rosto em Vídeo com IA",
+      "subheading": "Experimente uma poderosa troca de rosto com IA para vídeos, tornando cada quadro emocionante e perfeito. Substitua rostos instantaneamente para criar conteúdo divertido, envolvente ou profissional.",
       "features": {
-        "title": "Features of Our Video Face Swap",
+        "title": "Recursos da Nossa Troca de Rosto em Vídeo",
         "items": [
           {
-            "title": "Seamless Face Replacement",
-            "description": "Our advanced AI ensures smooth, frame-by-frame face swapping that maintains natural expressions and movements throughout the entire video."
+            "title": "Substituição de Rosto Perfeita",
+            "description": "Nossa IA avançada garante uma troca de rosto suave, quadro a quadro, que mantém expressões e movimentos naturais ao longo de todo o vídeo."
           },
           {
-            "title": "High-Quality Results",
-            "description": "Experimente trocas de rosto de vídeo de alta qualidade, com iluminação consistente, tons de pele realistas e mapeamento preciso dos traços faciais."
+            "title": "Resultados de Alta Qualidade",
+            "description": "Experimente trocas de rosto em vídeo de qualidade profissional com iluminação consistente, tons de pele realistas e mapeamento preciso de características faciais."
           },
           {
-            "title": "Processo Fácil de Usar",
-            "description": "Com nossa interface intuitiva, substituir rostos em vídeos é tão simples quanto fazer o upload do seu vídeo, selecionar uma imagem de rosto e deixar que nossa inteligência artificial faça o trabalho."
+            "title": "Processo Amigável ao Usuário",
+            "description": "Com nossa interface intuitiva, substituir rostos em vídeos é tão simples quanto fazer upload de seu vídeo, selecionar uma imagem de rosto e deixar nossa IA fazer o trabalho."
           }
         ]
       },
@@ -706,35 +706,35 @@
         "steps": [
           {
             "number": "1",
-            "title": "Faça o Upload do Seu Vídeo",
-            "description": "Selecione e faça o upload do vídeo onde você deseja trocar de rosto. Aceitamos vários formatos de vídeo comuns."
+            "title": "Carregue Seu Vídeo",
+            "description": "Selecione e faça upload do vídeo onde deseja trocar um rosto. Suportamos vários formatos comuns de vídeo."
           },
           {
             "number": "2",
-            "title": "Faça o Upload de uma Foto de Rosto",
-            "description": "Escolha uma foto clara do rosto para fazer a troca. Para obter os melhores resultados, use uma imagem de alta qualidade com um rosto visível."
+            "title": "Carregue uma Foto do Rosto",
+            "description": "Escolha uma foto clara do rosto para trocar. Para obter os melhores resultados, use uma imagem de alta qualidade com o rosto visível."
           },
           {
             "number": "3",
-            "title": "Gere Seu Vídeo com Troca de Rosto",
-            "description": "Com apenas um clique, nossa IA processa seu vídeo para criar uma troca de rosto suave e de alta qualidade."
+            "title": "Gere Seu Vídeo de Troca de Rosto",
+            "description": "Com apenas um clique, nosso AI processa seu vídeo para criar uma troca de rosto suave e de alta qualidade."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Usos Criativos para a Troca de Rosto em Vídeo",
+        "title": "Usos Criativos para Troca de Rosto em Vídeo",
         "items": [
           {
             "title": "Recriação de Cena de Filme",
-            "description": "Entre em momentos icônicos do cinema trocando de rosto com seus atores favoritos. Crie experiências cinematográficas únicas com você mesmo ou com amigos como estrelas."
+            "description": "Entre em momentos icônicos do cinema trocando rostos com seus atores favoritos. Crie experiências cinematográficas únicas com você ou amigos como as estrelas."
           },
           {
             "title": "Conteúdo de Mídia Social",
-            "description": "Crie conteúdo envolvente e viral para TikTok, Instagram e YouTube com vídeos de troca de rosto divertidos que capturam a atenção dos espectadores."
+            "description": "Crie conteúdo envolvente e digno de se tornar viral para TikTok, Instagram e YouTube com vídeos engraçados de troca de rostos que chamam a atenção dos espectadores."
           },
           {
             "title": "Vídeos para Ocasiões Especiais",
-            "description": "Torne aniversários, casamentos e comemorações mais memoráveis ao criar vídeos personalizados com trocas de rosto dos convidados de honra."
+            "description": "Torne aniversários, casamentos e celebrações mais memoráveis criando vídeos personalizados com trocas de rostos dos convidados de honra."
           }
         ]
       },
@@ -743,15 +743,15 @@
         "items": [
           {
             "title": "Quanto tempo levará para processar meu vídeo?",
-            "description": "O tempo de processamento dependerá do comprimento e qualidade do vídeo, mas nossa IA avançada visa entregar resultados rapidamente, mantendo alta qualidade."
+            "description": "O tempo de processamento dependerá do comprimento e qualidade do vídeo, mas nossa IA avançada visa fornecer resultados rapidamente mantendo alta qualidade."
           },
           {
             "title": "Quais formatos de vídeo serão suportados?",
             "description": "Nosso serviço suportará formatos de vídeo comuns, incluindo MP4, MOV e AVI."
           },
           {
-            "title": "Haverá um limite de duração do vídeo?",
-            "description": "Os usuários gratuitos terão acesso a processamento de vídeo de duração mais curta, enquanto os assinantes premium desfrutarão de suporte a vídeos mais longos."
+            "title": "Haverá um limite para o comprimento do vídeo?",
+            "description": "Os usuários gratuitos terão acesso a processamento de vídeo mais curto, enquanto os assinantes premium desfrutarão de suporte a vídeos mais longos."
           }
         ]
       }

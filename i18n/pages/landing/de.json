@@ -1,12 +1,12 @@
 {
-  "template": "ai-face-swap",
+  "template": "image-to-ghibli",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "KI-Gesichtstausch",
+      "title": "Bild zu Ghibli",
       "logo": {
         "src": "/logo.png",
-        "alt": "KI-Gesichtstausch"
+        "alt": "Bild zu Ghibli"
       },
       "url": "/"
     },
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Der beste kostenlose KI-Gesichtstausch im Internet",
-    "highlight_text": "KI-Gesichtstausch",
-    "description": "Tauchen Sie ein in die innovative Welt des KI-Gesichtstausches, wo modernste Technologie auf grenzenlose Unterhaltung trifft. Bearbeiten Sie mühelos Bilder und Videoaufnahmen und öffnen Sie die Tür zu einzigartigen digitalen Möglichkeiten.",
+    "title": "Verwandeln Sie Ihre Fotos in magische Anime-Kunst",
+    "highlight_text": "Studio Ghibli Stil",
+    "description": "Erleben Sie die bezaubernde Verwandlung Ihrer Fotos in atemberaubende Anime-Kunstwerke, inspiriert vom legendären ästhetischen Stil des Studio Ghibli. Unsere KI-Technologie bringt die magische Welt der Animation in Ihre Alltagsmomente.",
     "announcement": {
       "label": "KI",
-      "title": "Kostenlos & Sicher",
+      "title": "Sofortig & Magisch",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "Jetzt Testen",
+        "title": "Jetzt Transformieren",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Beispiele Ansehen",
+        "title": "Galerie Ansehen",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -78,56 +78,56 @@
     "show_badge": false
   },
   "introduce": {
-    "name": "einführen",
-    "title": "Erleben Sie die Magie des KI-Gesichtstausches",
-    "label": "So Funktioniert's",
-    "description": "Verwandeln Sie jedes Foto mit unserer fortschrittlichen KI-Gesichtstausch-Technologie. Schnell, präzise und sicher.",
+    "name": "introduce",
+    "title": "Verwandeln Sie Fotos in Anime-Magie",
+    "label": "Wie es funktioniert",
+    "description": "Verwandeln Sie Ihre gewöhnlichen Fotos in außergewöhnliche Anime-Kunstwerke mit unserer fortschrittlichen KI-Technologie. Schnell, schön und magisch.",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "Laden Sie Ihre Fotos hoch",
-        "description": "Laden Sie einfach das Quellbild und das Gesicht hoch, das Sie austauschen möchten.",
+        "title": "Ihr Foto Hochladen",
+        "description": "Laden Sie einfach jedes Foto hoch, das Sie in ein Anime-Stil-Kunstwerk verwandeln möchten.",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "KI-Verarbeitung",
-        "description": "Unsere KI analysiert und verarbeitet die Bilder für perfekten Gesichtsaustausch.",
+        "title": "KI-Magie",
+        "description": "Unsere KI analysiert Ihr Bild und wendet die beliebte Studio Ghibli-Ästhetik an.",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "Sofortige Ergebnisse",
-        "description": "Erhalten Sie Ihr transformiertes Bild in Sekunden, bereit zum Herunterladen.",
+        "title": "Kunst herunterladen",
+        "description": "Erhalten Sie sofort Ihr transformiertes Kunstwerk, bereit zum Teilen und Schätzen.",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
-    "name": "Vorteile",
-    "title": "Warum AI Face Swap wählen",
+    "name": "Vorteil",
+    "title": "Warum Unsere KI-Kunsttransformator wählen",
     "label": "Vorteile",
-    "description": "Erleben Sie die beste Gesichtsaustausch-Technologie mit fortschrittlichen Funktionen und Sicherheit.",
+    "description": "Erleben Sie die Magie, Ihre Fotos mit fortschrittlichen Funktionen in atemberaubende Anime-Stil-Kunstwerke zu verwandeln.",
     "items": [
       {
-        "title": "Fortschrittliche KI-Technologie",
-        "description": "Modernste Deep-Learning-Modelle sorgen für natürliche und realistische Gesichtsaustausche.",
+        "title": "Modernste KI-Technologie",
+        "description": "Modernste Deep-Learning-Modelle garantieren schöne und authentische Anime-Stil-Transformationen.",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Datenschutz & Sicherheit",
-        "description": "Ihre Fotos werden sicher verarbeitet und nach der Verarbeitung automatisch gelöscht.",
+        "title": "Authentischer Stil",
+        "description": "Unsere KI fängt die Essenz der beliebten Anime-Ästhetik in jeder Transformation ein.",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Entwicklerfreundlich",
-        "description": "Integrieren Sie unsere Gesichtsaustausch-Technologie mit unserer robusten API in Ihre Apps.",
+        "title": "Einfache Integration",
+        "description": "Integrieren Sie unsere Bildtransformationstechnologie mit unserer leistungsstarken API in Ihre Apps.",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -136,92 +136,92 @@
     ]
   },
   "usage": {
-    "name": "usage",
-    "title": "So tauschen Sie online ein Gesicht aus",
-    "description": "Erstellen Sie atemberaubende Bilder in wenigen einfachen Schritten:",
+    "name": "Verwendung",
+    "title": "Verwandeln Sie Ihre Fotos in einfachen Schritten",
+    "description": "Erstellen Sie atemberaubende Anime-Kunstwerke in nur wenigen Klicks:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "right",
-    "text_align": "left",
+    "image_position": "rechts",
+    "text_align": "links",
     "items": [
       {
-        "title": "Laden Sie Ihr Bild hoch",
-        "description": "Klicken Sie einfach auf 'Bild hochladen' und wählen Sie ein Foto aus, das Sie als Quellbild verwenden möchten. Stellen Sie sicher, dass nur ein Gesicht im Foto von guter Qualität ist."
+        "title": "Laden Sie Ihr Foto hoch",
+        "description": "Klicken Sie auf 'Foto hochladen' und wählen Sie ein beliebiges Bild aus, das Sie transformieren möchten. Fotos mit klaren Motiven funktionieren am besten."
       },
       {
-        "title": "Wählen Sie Ihre Face-Swap-Option",
-        "description": "Sobald Ihr Originalbild bereit ist, wählen Sie den gewünschten Tauscheffekt aus den vorgegebenen Voreinstellungen. Das bedeutet, Sie ersetzen das Gesicht Ihres hochgeladenen Bildes mit der ausgewählten Voreinstellung."
+        "title": "Style-Optionen auswählen",
+        "description": "Wählen Sie aus verschiedenen Style-Optionen, um Ihre Transformation anzupassen. Jede Option bringt einzigartige künstlerische Elemente in Ihr fertiges Stück."
       },
       {
-        "title": "Gesicht mit KI tauschen",
-        "description": "Klicken Sie auf die Schaltfläche 'Gesicht jetzt tauschen', um die KI ihre Magie zeigen zu lassen. AiFaceSwap.app führt den Gesichtstausch in wenigen Sekunden durch. Unsere KI erledigt die Arbeit automatisch und garantiert das beste Ergebnis."
+        "title": "KI-Transformation",
+        "description": "Lassen Sie unsere KI ihre Magie wirken. Innerhalb von Sekunden wird Ihr Foto in ein wunderschönes, von Anime inspiriertes Kunstwerk verwandelt."
       },
       {
-        "title": "Vorschau und Download",
-        "description": "Bingo! Ihr Gesicht wurde getauscht! Sehen Sie sich das Endergebnis auf derselben Seite in der Vorschau an. Klicken Sie auf 'Download', um das wasserzeichenfreie Bild auf Ihrem Gerät zu speichern. Teilen Sie es zum Spaß!"
+        "title": "Herunterladen und Teilen",
+        "description": "Ihr Kunstwerk ist bereit! Laden Sie Ihr transformiertes Bild in hoher Qualität herunter und teilen Sie Ihre magische Kreation mit der Welt."
       }
     ]
   },
   "feature": {
-    "name": "feature",
-    "title": "Leistungsstarke KI-Gesichtstausch-Funktionen",
-    "description": "Entdecken Sie die erstaunlichen Möglichkeiten unserer KI-gestützten Gesichtsaustausch-Technologie",
+    "name": "Funktion",
+    "title": "Magische Features für Ihre Fotos",
+    "description": "Entdecken Sie die bezaubernden Fähigkeiten unserer KI-Kunsttransformationstechnologie",
     "items": [
       {
-        "title": "Realistische Gesichtsaustausche",
-        "description": "Unsere Spitzentechnologie garantiert perfekte, realistische Gesichtsaustausche, die jegliche Bearbeitungsspuren vollständig verbergen.",
+        "title": "Authentischer Anime-Stil",
+        "description": "Unsere KI erfasst perfekt den einzigartigen künstlerischen Stil, der Anime-Kunst weltweit so beliebt macht.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Benutzerfreundliche Oberfläche",
-        "description": "Mit nur einem Klick können Sie ein Gesicht durch ein anderes Bild ersetzen - einfach und intuitiv.",
+        "title": "Einfache Benutzeroberfläche",
+        "description": "Verwandeln Sie Ihre Fotos mit nur einem Klick und machen Sie die Magie der Anime-Kunst für jeden zugänglich.",
         "icon": "RiMouseLine"
       },
       {
-        "title": "Meme-Erstellung",
-        "description": "Erstellen Sie mühelos lustige Memes und steigern Sie die Interaktion mit Ihrem Publikum durch neue und ansprechende Inhalte.",
+        "title": "Stilvariationen",
+        "description": "Wählen Sie aus verschiedenen künstlerischen Stilen, um den perfekten Look für Ihre Fotos zu finden.",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "Promi-Transformationen",
-        "description": "Verwandeln Sie Ihr Aussehen, indem Sie Ihr Gesicht mit verschiedenen Persönlichkeiten austauschen, von Filmstars bis zu Superhelden.",
+        "title": "Hohe Auflösung",
+        "description": "Erhalten Sie wunderschöne, hochauflösende Kunstwerke, die sich ideal zum Drucken oder digitalen Anzeigen eignen.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "Style-Experimente",
-        "description": "Entdecken Sie neue Looks, indem Sie Ihr Gesicht auf verschiedene Charaktere anwenden und mit Make-up, Frisuren und Modestilen experimentieren.",
+        "title": "Stapelverarbeitung",
+        "description": "Verwandeln Sie mehrere Fotos auf einmal, um eine Sammlung von Anime-Kunstwerken zu erstellen.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "Grenzenlose Kreativität",
-        "description": "Erschließen Sie unendliche Möglichkeiten für Kreativität und Unterhaltung mit unserer vielseitigen Gesichtsaustausch-Technologie.",
+        "title": "Kreative Freiheit",
+        "description": "Entfesseln Sie Ihre Kreativität mit verschiedenen Anpassungsoptionen für Ihre Transformationen.",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
-    "name": "Showcase",
-    "title": "Erstaunliche Verwandlungen",
-    "description": "Sehen Sie, was unsere Nutzer mit AI Face Swap erstellt haben.",
+    "name": "showcase",
+    "title": "Magische Transformationen",
+    "description": "Erleben Sie die atemberaubende Kunstwerke, die mit unserer KI-Technologie erstellt wurden.",
     "items": [
       {
-        "title": "Video Face Swap",
-        "description": "Tauschen Sie Gesichter in Videos aus, verbessern Sie Filmproduktionen oder erstellen Sie Inhalte für soziale Medien",
+        "title": "Landschafts-Transformation",
+        "description": "Verwandeln Sie Ihre landschaftlichen Fotos in atemberaubende Anime-Landschaften",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "Photo Face Swap",
-        "description": "Ermöglicht das Austauschen von Köpfen und Gesichtern in Fotos",
+        "title": "Porträt-Transformation",
+        "description": "Verwandeln Sie Porträts in schöne Anime-Charakterkunstwerke",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "Multiple Face Swap",
-        "description": "Tauschen Sie mehrere Gesichter in Familienfotos, Hochzeitsfotos, Partyfotos usw. aus",
+        "title": "Gruppenfoto-Transformation",
+        "description": "Wandeln Sie Gruppenfotos in charmante Anime-Szenen um",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,58 +231,58 @@
   "stats": {
     "name": "Statistiken",
     "label": "Statistiken",
-    "title": "Weltweit von Nutzern vertraut",
-    "description": "Schließen Sie sich Tausenden zufriedener Nutzer von AI Face Swap an.",
+    "title": "Von Künstlern weltweit vertraut",
+    "description": "Schließen Sie sich Tausenden von Kreativen an, die ihre Fotos in Anime-Kunstwerke verwandeln.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Zufriedene Nutzer",
+        "title": "Glückliche Künstler",
         "label": "1M+",
-        "description": "Aktive Nutzer"
+        "description": "Aktive Benutzer"
       },
       {
-        "title": "Gesichtstausch",
+        "title": "Transformationen",
         "label": "10M+",
         "description": "Abgeschlossen"
       },
       {
         "title": "Verarbeitungszeit",
         "label": "5s",
-        "description": "Durchschnittlich"
+        "description": "Durchschnitt"
       }
     ]
   },
   "pricing": {
-    "name": "preise",
+    "name": "Preisgestaltung",
     "label": "Preise",
     "title": "Einfache, transparente Preisgestaltung",
-    "description": "Wählen Sie den perfekten Plan für Ihre Face-Swapping-Bedürfnisse.",
+    "description": "Wählen Sie den perfekten Plan für Ihre künstlerische Reise.",
     "toggle": {
-      "monthly": "Monatlich",
-      "annual": "Jährlich",
+      "monthly": "Monthly",
+      "annual": "Annual",
       "default_plan": "jährlich",
-      "discount_text": "2 MONATE GRATIS JÄHRLICH"
+      "discount_text": "ERHALTEN SIE 2 MONATE KOSTENLOS JÄHRLICH"
     },
     "cancel_text": "Jederzeit kündbar. Keine versteckten Gebühren",
     "items": [
       {
         "product_title": "Free",
-        "description": "Perfekt für die private Nutzung",
+        "description": "Perfekt zum Ausprobieren",
         "features": [
           {
-            "text": "Unbegrenzte Gesichtstausch mit Wasserzeichen",
+            "text": "Begrenzte Transformationen mit Wasserzeichen",
             "included": true
           },
           {
-            "text": "Standard-Verarbeitungsgeschwindigkeit",
+            "text": "Standardverarbeitungsgeschwindigkeit",
             "included": true
           },
           {
-            "text": "Grundlegender Support",
+            "text": "Grundlegende Unterstützung",
             "included": true
           },
           {
-            "text": "Kein GIF- oder Videogesichtstausch",
+            "text": "Keine Stapelverarbeitung",
             "included": false
           }
         ],
@@ -299,7 +299,7 @@
         "currency": "USD",
         "unit": "Monat",
         "is_featured": false,
-        "tip": "Perfekt für den Einstieg!",
+        "tip": "Ideal für den Einstieg!",
         "product_id": {
           "monthly": "price_free",
           "annual": "price_free"
@@ -310,22 +310,22 @@
       },
       {
         "product_title": "Basic",
-        "description": "Für Power-User",
+        "description": "Für regelmäßige Schöpfer",
         "features": [
           {
-            "text": "600 Credits pro Monat",
+            "text": "600 Umwandlungen pro Monat",
             "included": true
           },
           {
-            "text": "600 wasserzeichenfreie Gesichtstausche",
+            "text": "600 wasserzeichenfreie Kunstwerke",
             "included": true
           },
           {
-            "text": "oder 200 GIF-Gesichtstausche",
+            "text": "Ausgabe mit hoher Auflösung",
             "included": true
           },
           {
-            "text": "oder 24 Video-Gesichtstausche",
+            "text": "Stapelverarbeitung von bis zu 10 Bildern",
             "included": true
           },
           {
@@ -345,7 +345,7 @@
           "annual": {
             "amount": 10000,
             "price": "$10",
-            "savings_text": "Sparen Sie $24 pro Jahr"
+            "savings_text": "Sparen Sie $24/Jahr"
           }
         },
         "currency": "USD",
@@ -360,33 +360,33 @@
         "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "Pro erhalten",
+          "title": "Basic erhalten",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
         "product_title": "Pro",
-        "description": "Für Unternehmen",
+        "description": "Für professionelle Künstler",
         "features": [
           {
-            "text": "Unbegrenzte wasserzeichenfreie Gesichtsumtausch",
+            "text": "Unbegrenzte Transformationen",
             "included": true
           },
           {
-            "text": "Unbegrenzte GIF-Gesichtsumtausch",
+            "text": "Ultra-hohe Auflösung",
             "included": true
           },
           {
-            "text": "64 Video-Gesichtstausche",
+            "text": "Erweiterte Stilanpassung",
             "included": true
           },
           {
-            "text": "Ultra-schnelle Verarbeitung",
+            "text": "Unbegrenzte Stapelverarbeitung",
             "included": true
           },
           {
-            "text": "24/7 Prioritätssupport",
+            "text": "24/7 Prioritätsunterstützung",
             "included": true
           }
         ],
@@ -398,13 +398,13 @@
           "annual": {
             "amount": 20000,
             "price": "$20",
-            "savings_text": "Sparen Sie $48/jährlich"
+            "savings_text": "Sparen Sie $48/Jahr"
           }
         },
         "currency": "USD",
         "unit": "Monat",
         "is_featured": false,
-        "tip": "Perfekt für Unternehmen!",
+        "tip": "Am besten für Profis!",
         "product_id": {
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
@@ -413,7 +413,7 @@
         "credits": 1600,
         "valid_months": 1,
         "button": {
-          "title": "Pro Version erhalten",
+          "title": "Pro erhalten",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
@@ -421,32 +421,32 @@
     ]
   },
   "testimonial": {
-    "name": "Testimonial",
-    "label": "Kundenreferenzen",
-    "title": "Was unsere Nutzer sagen",
-    "description": "Hören Sie von Menschen, die AI Face Swap lieben.",
+    "name": "testimonial",
+    "label": "Referenzen",
+    "title": "Was unsere Künstler sagen",
+    "description": "Erfahren Sie, wie gerne unsere Künstler unsere AI-Kunsttransformation nutzen.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "Professioneller Fotograf",
-        "description": "Die Qualität der Face Swaps ist unglaublich! Ich verwende es für professionelle Porträtaufnahmen und die Ergebnisse sind immer perfekt.",
+        "label": "Digitaler Künstler",
+        "description": "Die Qualität der Anime-Transformationen ist unglaublich! Ich verwende es, um einzigartige Kunstwerke zu erstellen, und die Ergebnisse sind immer magisch.",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
         "title": "Mike Chen",
-        "label": "Content Creator",
-        "description": "Die API lässt sich super einfach integrieren und die Verarbeitungsgeschwindigkeit ist erstaunlich. Perfekt für meine Content-Erstellung.",
+        "label": "Inhalts-Ersteller",
+        "description": "Die API ist super einfach zu integrieren, und die Transformationsgeschwindigkeit ist erstaunlich. Perfekt für meine kreativen Projekte.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "Social Media Manager",
-        "description": "Die Mehrfach-Face-Swap-Funktion ist bahnbrechend. Macht das Erstellen von ansprechendem Content so viel einfacher!",
+        "label": "Social-Media-Künstler",
+        "description": "Die Stapelverarbeitungsfunktion ist ein Spielveränderer. Das Erstellen von thematischen Sammlungen wird so viel einfacher!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -457,47 +457,47 @@
     "name": "faq",
     "label": "FAQ",
     "title": "Häufig gestellte Fragen",
-    "description": "Haben Sie Fragen? Wir haben Antworten.",
+    "description": "Fragen? Wir haben Antworten.",
     "items": [
       {
-        "title": "Wie funktioniert AI Face Swap?",
-        "description": "Unsere fortschrittliche KI-Technologie analysiert die Gesichtszüge in beiden Bildern und tauscht sie dann nahtlos aus, während natürliches Aussehen und Ausdrücke erhalten bleiben. Der Prozess dauert nur Sekunden und gewährleistet qualitativ hochwertige Ergebnisse."
+        "title": "Wie funktioniert Bild zu Ghibli?",
+        "description": "Unsere fortschrittliche KI-Technologie analysiert Ihre Fotos und verwandelt sie in wunderschöne Anime-Kunstwerke, inspiriert vom ästhetischen Stil von Studio Ghibli. Der Prozess dauert nur Sekunden und garantiert hochwertige Ergebnisse."
       },
       {
-        "title": "Sind meine Daten sicher?",
-        "description": "Ja, absolut! Wir nehmen Datenschutz sehr ernst. Alle hochgeladenen Fotos werden sicher verarbeitet und nach der Verarbeitung automatisch gelöscht. Wir speichern oder teilen Ihre Bilder niemals ohne Erlaubnis."
+        "title": "Ist meine Daten sicher?",
+        "description": "Ja, auf jeden Fall! Wir nehmen Datenschutz sehr ernst. Alle hochgeladenen Fotos werden sicher verarbeitet und automatisch nach der Verarbeitung gelöscht. Wir speichern oder teilen Ihre Bilder niemals ohne Erlaubnis."
       },
       {
         "title": "Welche Bildformate werden unterstützt?",
-        "description": "Wir unterstützen alle gängigen Bildformate wie JPG, PNG und WEBP. Für beste Ergebnisse empfehlen wir die Verwendung von klaren, gut beleuchteten Fotos mit sichtbaren Gesichtern."
+        "description": "Wir unterstützen alle gängigen Bildformate, einschließlich JPG, PNG und WEBP. Für beste Ergebnisse empfehlen wir die Verwendung von klaren, gut beleuchteten Fotos."
       },
       {
-        "title": "Kann ich mehrere Gesichter in einem Bild tauschen?",
-        "description": "Ja! Unsere Pro- und Enterprise-Pläne unterstützen mehrfachen Gesichtertausch in einem einzelnen Bild. Sie können verschiedene Gesichter mit verschiedenen Quellbildern in einem Durchgang tauschen."
+        "title": "Kann ich mehrere Fotos gleichzeitig transformieren?",
+        "description": "Ja! Unsere Pro- und Enterprise-Pläne unterstützen die Stapelverarbeitung, mit der Sie mehrere Fotos gleichzeitig transformieren können, während der konsistente Stil beibehalten wird."
       },
       {
         "title": "Bieten Sie eine API an?",
-        "description": "Ja, wir bieten eine leistungsstarke API für Entwickler, um unsere Gesichtertausch-Technologie in ihre Anwendungen zu integrieren. API-Zugang ist in unseren Pro- und Enterprise-Plänen verfügbar."
+        "description": "Ja, wir stellen eine robuste API für Entwickler bereit, um unsere Transformations-Technologie in ihre Anwendungen zu integrieren. Der API-Zugriff ist mit unseren Pro- und Enterprise-Plänen verfügbar."
       },
       {
-        "title": "Wie ist Ihre Rückerstattungsrichtlinie?",
-        "description": "Wir bieten eine 100% Zufriedenheitsgarantie. Wenn Sie mit unserem Service nicht zufrieden sind, kontaktieren Sie uns innerhalb von 7 Tagen nach Ihrem Kauf für eine vollständige Rückerstattung."
+        "title": "Was ist Ihre Rückerstattungsrichtlinie?",
+        "description": "Wir bieten eine Zufriedenheitsgarantie von 100%. Wenn Sie mit unserem Service nicht zufrieden sind, kontaktieren Sie uns innerhalb von 7 Tagen nach Ihrem Kauf für eine vollständige Rückerstattung."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Beginnen Sie heute mit der Verwandlung Ihrer Fotos",
-    "description": "Schließen Sie sich Millionen zufriedener Nutzer an und erleben Sie die Magie von AI Face Swap.",
+    "title": "Starten Sie noch heute Ihre künstlerische Reise",
+    "description": "Schließen Sie sich Millionen von Kreativen an und erleben Sie die Magie der KI-Kunsttransformation.",
     "buttons": [
       {
-        "title": "Kostenlos testen",
+        "title": "Kostenlos ausprobieren",
         "url": "/#signup",
         "target": "_self",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Beispiele ansehen",
+        "title": "Galerie anzeigen",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,27 +507,27 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "Verwandeln Sie Ihre Fotos mit fortschrittlicher KI-Gesichtstausch-Technologie. Schnell, sicher und einfach zu bedienen.",
+      "title": "Bild zu Ghibli",
+      "description": "Verwandeln Sie Ihre Fotos in atemberaubende Anime-Kunstwerke mit fortschrittlicher KI-Technologie. Schnell, sicher und einfach zu bedienen.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Bild zu Ghibli"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap Alle Rechte vorbehalten.",
+    "copyright": "© 2024 • Bild zu Ghibli Alle Rechte vorbehalten.",
     "nav": {
       "items": [
         {
           "title": "Produkt",
           "children": [
             {
-              "title": "Funktionen",
+              "title": "Features",
               "url": "/#feature",
               "target": "_self"
             },
             {
-              "title": "Preise",
+              "title": "Preisgestaltung",
               "url": "#pricing",
               "target": "_self"
             },
@@ -545,7 +545,7 @@
         {
           "title": "E-Mail",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
@@ -567,12 +567,12 @@
     "photoFaceSwap": "Foto-Gesichtstausch",
     "videoFaceSwap": "Video-Gesichtstausch",
     "multipleFaceSwap": "Mehrfacher Gesichtstausch",
-    "gifFaceSwap": "GIF Gesichtstausch",
+    "gifFaceSwap": "GIF-Gesichtstausch",
     "uploadOriginalImage": "Originalbild hochladen",
     "uploadFaceImage": "Gesichtsbild hochladen",
-    "startFaceSwap": "Face Swap starten",
+    "startFaceSwap": "Gesichtstausch starten",
     "swapFace": "Gesicht tauschen",
-    "processing": "Wird verarbeitet...",
+    "processing": "Verarbeitung...",
     "before": "Vorher",
     "after": "Nachher",
     "uploadImage": "Bild hochladen",
@@ -582,159 +582,159 @@
     "download": "Herunterladen",
     "splitView": "Geteilte Ansicht",
     "compareView": "Vergleichsansicht",
-    "zoomIn": "Vergrößern",
-    "swapInProgress": "Gesichtstausch wird durchgeführt...",
-    "completeSoon": "Wird in wenigen Sekunden abgeschlossen",
-    "magicHappening": "Magie geschieht...",
+    "zoomIn": "Hineinzoomen",
+    "swapInProgress": "Gesichtstausch läuft...",
+    "completeSoon": "Wird in wenigen Sekunden abgeschlossen sein",
+    "magicHappening": "Magie passiert...",
     "uploadGif": "GIF hochladen",
     "uploadFacePhoto": "Gesichtsfoto hochladen",
-    "startGifFaceSwap": "GIF Gesichtstausch starten",
-    "swapGifFace": "GIF-Gesicht austauschen",
+    "startGifFaceSwap": "Starten Sie den GIF-Gesichtstausch",
+    "swapGifFace": "GIF-Gesichtstausch",
     "preview": "Vorschau",
     "gifPreview": "GIF-Vorschau",
-    "swapResult": "Tauschergebnis",
-    "pleaseUploadGif": "Bitte ein GIF hochladen",
-    "gifSwapInProgress": "GIF-Gesichtstausch wird durchgeführt...",
-    "gifCompleteSoon": "Dies kann eine Weile dauern, bitte haben Sie Geduld",
-    "watermarkNotice": "Unzureichende Credits, Wasserzeichen hinzugefügt",
+    "swapResult": "Tausch Ergebnis",
+    "pleaseUploadGif": "Bitte laden Sie ein GIF hoch",
+    "gifSwapInProgress": "GIF-Gesichtstausch läuft...",
+    "gifCompleteSoon": "Das kann eine Weile dauern, bitte haben Sie Geduld",
+    "watermarkNotice": "Nicht genügend Guthaben, Wasserzeichen hinzugefügt",
     "gifFormat": "GIF",
-    "wantRemoveWatermark": "Möchten Sie das Wasserzeichen entfernen?",
-    "upgradePremium": "Premium-Funktionen freischalten",
-    "watermarkDescription": "Abonnieren Sie noch heute, um alle Premium-Funktionen unserer Plattform genießen zu können.",
-    "premiumBenefits": "Mit einem Abonnement erhalten Sie:",
-    "benefit1": "Werbefreies Erlebnis",
+    "wantRemoveWatermark": "Wasserzeichen entfernen?",
+    "upgradePremium": "Freischalten der Premium-Funktionen",
+    "watermarkDescription": "Abonnieren Sie noch heute, um alle Premium-Funktionen unserer Plattform zu genießen.",
+    "premiumBenefits": "Mit dem Abonnement erhalten Sie:",
+    "benefit1": "Werbenfreies Erlebnis",
     "benefit2": "Wasserzeichenfreie Fotos",
-    "benefit3": "GIF-Gesichtstausch-Funktion",
-    "benefit4": "Video-Gesichtstausch-Funktion",
+    "benefit3": "GIF-Gesichtsaustauschfähigkeit",
+    "benefit4": "Video-Gesichtsaustauschfähigkeit",
     "subscribeNow": "Jetzt abonnieren",
     "uploadVideo": "Video hochladen",
     "pleaseUploadVideo": "Bitte laden Sie ein Video hoch",
     "videoPreview": "Video-Vorschau",
-    "videoSwapInProgress": "Video-Gesichtstausch läuft...",
-    "videoCompleteSoon": "Dies kann eine Weile dauern, bitte haben Sie Geduld",
-    "videoFormat": "M4V, MP4, MOV Videos",
+    "videoSwapInProgress": "Video-Gesichtsaustausch in Arbeit...",
+    "videoCompleteSoon": "Das kann eine Weile dauern, bitte haben Sie Geduld",
+    "videoFormat": "M4V, MP4, MOV-Videos",
     "videoSizeLimit": "Abonnenten: 10MB / 20s",
-    "videoFaceTip": "Bitte stellen Sie sicher, dass am Anfang des Videos ein klares Frontgesicht erscheint",
-    "startVideoFaceSwap": "Starten Sie das Video-Gesichtsaustausch",
-    "swapVideoFace": "Gesicht im Video austauschen",
-    "videoSizeError": "Videodatei überschreitet 10 MB. Bitte laden Sie eine kleinere Videodatei hoch.",
+    "videoFaceTip": "Bitte stellen Sie sicher, dass ein klares Frontgesicht am Anfang des Videos erscheint",
+    "startVideoFaceSwap": "Starten Sie den Video-Gesichtstausch",
+    "swapVideoFace": "Gesicht im Video tauschen",
+    "videoSizeError": "Videodatei überschreitet 10MB. Bitte laden Sie ein kleineres Video hoch.",
     "videoDurationError": "Videodauer überschreitet 20 Sekunden. Bitte laden Sie ein kürzeres Video hoch.",
     "gif": {
-      "title": "GIF-Gesichtstausch – Erstellen Sie lustige GIF-Gesichtstausche mit KI-Technologie",
-      "description": "Tauschen Sie Gesichter in GIFs mit unserer fortschrittlichen KI-Technologie aus. Erstellen Sie in Sekundenschnelle lustige, teilbare GIFs. Keine Registrierung erforderlich, kostenlos und unbegrenzte Tauschmöglichkeiten!",
-      "heading": "Erstellen Sie lustige GIF-Gesichtstausche",
-      "subheading": "Laden Sie Ihre GIFs hoch und erstellen Sie mit nur wenigen Klicks unterhaltsame, teilbare Bilder!",
+      "title": "GIF Face Swap - Erstellen Sie urkomische GIF-Gesichtstausche mit KI-Technologie",
+      "description": "Tauschen Sie Gesichter auf GIFs mit unserer fortschrittlichen KI-Technologie aus. Erstellen Sie in Sekunden lustige, teilbare GIFs. Keine Registrierung erforderlich, kostenlos zu verwenden, unbegrenzte Tausche!",
+      "heading": "Erstellen Sie urkomische GIF-Gesichtstausche",
+      "subheading": "Laden Sie Ihre GIFs hoch und erstellen Sie mit nur wenigen Klicks lustige, teilbare Bilder!",
       "features": {
-        "title": "Merkmale des GIF-Gesichtstauschs",
+        "title": "Funktionen des GIF-Gesichtstausches",
         "items": [
           {
-            "title": "Sofortiger Gesichtstausch",
-            "description": "Unser Tool bietet schnellen und effizienten Echtzeit-Gesichtstausch. Laden Sie einfach Ihr GIF hoch und unsere KI erkennt und ersetzt Gesichter sofort, sodass Sie die Ergebnisse sofort sehen können."
+            "title": "Instant-Gesichtstausch",
+            "description": "Unser Tool bietet schnellen und effizienten Echtzeit-Gesichtstausch. Laden Sie einfach Ihr GIF hoch, und unsere KI kann Gesichter sofort erkennen und ersetzen, sodass Sie die Ergebnisse sofort ansehen können."
           },
           {
             "title": "Erhöhte soziale Interaktion",
-            "description": "Teilen Sie lustige GIFs mit Freunden, um die soziale Interaktion zu fördern und Humor hinzuzufügen. Perfekt für verschiedene soziale Medien, um Ihren Inhalten mehr Engagement zu verleihen."
+            "description": "Teilen Sie lustige GIFs mit Freunden, um die soziale Interaktion zu fördern und Humor hinzuzufügen. Perfekt für verschiedene soziale Medienplattformen, um Ihren Inhalt spannender zu gestalten."
           },
           {
             "title": "Unterstützung für verschiedene Formate",
-            "description": "Neben dem GIF-Format unterstützt unser Tool verschiedene Eingabeformate für Bilder, sodass Sie Dateien aus unterschiedlichen Quellen problemlos hochladen können und ein flexibles Nutzungserlebnis haben."
+            "description": "Neben dem GIF-Format unterstützt unser Tool verschiedene Bildformate, was es einfach macht, Dateien aus verschiedenen Quellen hochzuladen und so eine flexible Benutzererfahrung zu ermöglichen."
           }
         ]
       },
       "howTo": {
-        "title": "So tauschen Sie Gesichter in GIFs aus",
+        "title": "Wie man Gesichter in GIF austauscht",
         "steps": [
           {
             "number": "1",
             "title": "Laden Sie ein GIF mit einem Gesicht hoch",
-            "description": "Laden Sie ein GIF des Gesichts hoch, das Sie ersetzen möchten. Stellen Sie klare Gesichtsdetails für beste Ergebnisse sicher."
+            "description": "Laden Sie ein GIF des Gesichts hoch, das Sie ersetzen möchten. Stellen Sie sicher, dass das Gesicht klare Details aufweist, um beste Ergebnisse zu erzielen."
           },
           {
             "number": "2",
-            "title": "Laden Sie ein Zielfoto des Gesichts hoch",
-            "description": "Laden Sie ein Foto des Gesichts hoch, das Sie als Ersatz verwenden möchten. Eine klare Gesichtsdarstellung ist erforderlich."
+            "title": "Laden Sie ein Ziel-Bild des Gesichts hoch",
+            "description": "Laden Sie ein Foto des Gesichts hoch, das Sie als Ersatz verwenden möchten. Klarheit im Gesicht ist erforderlich."
           },
           {
             "number": "3",
             "title": "Warten Sie auf die Generierung",
-            "description": "Klicken Sie auf den Button \"Gesicht im GIF tauschen\" und warten Sie, bis unsere KI Ihr neues GIF mit ausgetauschten Gesichtern generiert."
+            "description": "Klicken Sie auf die Schaltfläche \"Gesicht im GIF austauschen\" und warten Sie, bis unsere KI Ihr neues GIF mit ausgetauschten Gesichtern generiert."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Mehrere Anwendungsszenarien",
+        "title": "Verschiedene Nutzungsszenarien",
         "items": [
           {
-            "title": "Teilung auf sozialen Medien",
+            "title": "Teilen in sozialen Medien",
             "description": "Teilen Sie Ihre lustigen GIFs auf großen sozialen Medienplattformen wie Instagram, Facebook und Twitter, um die Interaktion zu verbessern und Aufmerksamkeit zu erregen."
           },
           {
             "title": "Erstellung von Comedy-Inhalten",
-            "description": "Content-Ersteller können GIF Face Swap verwenden, um lustige Videos und Clips zu produzieren, um ihren Inhalt zu bereichern und mehr Zuschauer anzulocken."
+            "description": "Content-Ersteller können GIF Face Swap nutzen, um lustige Videos und Clips zu erstellen, ihre Inhalte zu bereichern und mehr Zuschauer anzulocken."
           },
           {
-            "title": "Einladungen zu Veranstaltungen und Partys",
-            "description": "Erstellen Sie personalisierte Einladungs-GIFs für Partys oder Veranstaltungen, um sie ansprechender und attraktiver zu gestalten und das Interesse an einer Teilnahme zu steigern."
+            "title": "Event- und Partyeinladungen",
+            "description": "Erstellen Sie personalisierte Einladungs-GIFs für Partys oder Events, um sie ansprechender und attraktiver zu gestalten und das Interesse an der Teilnahme zu steigern."
           }
         ]
       }
     },
     "video": {
       "title": "Video Face Swap | AIFACESWAP.APP",
-      "description": "Verwandeln Sie Ihre Videos mit fortschrittlicher KI-Video-Gesichtsumtausch-Technologie.",
-      "heading": "AI-Video-Gesichtsumtausch",
-      "subheading": "Erleben Sie kraftvollen KI-Gesichtsumtausch für Videos und machen Sie jede einzelne Frame aufregend und nahtlos. Ersetzen Sie Gesichter sofort, um unterhaltsame, ansprechende oder professionelle Inhalte zu erstellen.",
+      "description": "Verwandeln Sie Ihre Videos mit fortschrittlicher AI-Video-Gesichtstauschtechnologie.",
+      "heading": "AI Video Face Swap",
+      "subheading": "Erleben Sie leistungsstarken AI-Gesichtstausch für Videos, der jede einzelne Frame aufregend und nahtlos gestaltet. Ersetzen Sie Gesichter sofort, um unterhaltsame, ansprechende oder professionelle Inhalte zu erstellen.",
       "features": {
-        "title": "Merkmale unseres Video-Gesichtsumtauschs",
+        "title": "Funktionen unseres Video Face Swap",
         "items": [
           {
             "title": "Nahtloser Gesichtsaustausch",
-            "description": "Dank unserer fortschrittlichen KI wird ein reibungsloser, framegenauer Gesichtsaustausch gewährleistet, der natürliche Ausdrücke und Bewegungen während des gesamten Videos beibehält."
+            "description": "Unsere fortschrittliche KI gewährleistet einen reibungslosen, frame-genauen Gesichtstausch, der natürliche Ausdrücke und Bewegungen während des gesamten Videos beibehält."
           },
           {
             "title": "Hochwertige Ergebnisse",
-            "description": "Experience professional-grade video face swaps with consistent lighting, realistic skin tones, and precise facial feature mapping."
+            "description": "Erleben Sie Video-Gesichtstausche auf professionellem Niveau mit gleichbleibender Beleuchtung, realistischen Hauttönen und präziser Abbildung von Gesichtsmerkmalen."
           },
           {
-            "title": "User-Friendly Process",
-            "description": "With our intuitive interface, replacing faces in videos is as simple as uploading your video, selecting a face image, and letting our AI do the work."
+            "title": "Benutzerfreundlicher Prozess",
+            "description": "Mit unserer intuitiven Benutzeroberfläche ist das Ersetzen von Gesichtern in Videos so einfach wie das Hochladen Ihres Videos, das Auswählen eines Gesichtsbilds und das Überlassen unserer KI die Arbeit."
           }
         ]
       },
       "howTo": {
-        "title": "How It Works",
+        "title": "Wie es funktioniert",
         "steps": [
           {
             "number": "1",
-            "title": "Upload Your Video",
-            "description": "Select and upload the video where you want to swap a face. We support various common video formats."
+            "title": "Laden Sie Ihr Video hoch",
+            "description": "Wählen Sie das Video aus, in dem Sie ein Gesicht austauschen möchten. Wir unterstützen verschiedene gängige Videoformate."
           },
           {
             "number": "2",
-            "title": "Upload a Face Photo",
-            "description": "Choose a clear face photo for swapping. For the best results, use a high-quality image with a visible face."
+            "title": "Laden Sie ein Gesichtsfoto hoch",
+            "description": "Wählen Sie ein klares Gesichtsfoto zum Austauschen aus. Verwenden Sie für die besten Ergebnisse ein hochwertiges Bild mit einem deutlich erkennbaren Gesicht."
           },
           {
             "number": "3",
-            "title": "Generate Your Face Swap Video",
-            "description": "With just one click, our AI processes your video to create a smooth, high-quality face swap."
+            "title": "Generieren Sie Ihr Face Swap Video",
+            "description": "Mit nur einem Klick verarbeitet unsere KI Ihr Video, um einen reibungslosen, hochwertigen Face Swap zu erstellen."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Creative Uses for Video Face Swap",
+        "title": "Kreative Verwendungsmöglichkeiten für Video Face Swap",
         "items": [
           {
-            "title": "Movie Scene Recreation",
-            "description": "Treten Sie in ikonische Filmszenen ein, indem Sie Gesichter mit Ihren Lieblingsschauspielern tauschen. Erstellen Sie einzigartige Filmerlebnisse mit sich selbst oder Freunden als Stars."
+            "title": "Nachstellung von Filmszenen",
+            "description": "Treten Sie in ikonische Filmszenen ein, indem Sie Gesichter mit Ihren Lieblingsschauspielern austauschen. Erstellen Sie einzigartige kinematografische Erlebnisse mit sich selbst oder Freunden als Stars."
           },
           {
-            "title": "Inhalte für soziale Medien",
-            "description": "Erstellen Sie mit unterhaltsamen Gesichtstauschvideos fesselnde und viralwürdige Inhalte für TikTok, Instagram und YouTube, die die Aufmerksamkeit der Zuschauer auf sich ziehen."
+            "title": "Social-Media-Inhalte",
+            "description": "Erstellen Sie ansprechende und viralwürdige Inhalte für TikTok, Instagram und YouTube mit unterhaltsamen Face Swap-Videos, die die Aufmerksamkeit der Zuschauer auf sich ziehen."
           },
           {
-            "title": "Videos für besondere Anlässe",
-            "description": "Machen Sie Geburtstage, Hochzeiten und Feierlichkeiten mit personalisierten Videos mit Gesichtstausch der Ehrengäste unvergesslicher."
+            "title": "Spezielle Anlässe Videos",
+            "description": "Machen Sie Geburtstage, Hochzeiten und Feierlichkeiten unvergesslicher, indem Sie personalisierte Videos mit Gesichtstauschen der Ehrengäste erstellen."
           }
         ]
       },
@@ -742,16 +742,16 @@
         "title": "Häufig gestellte Fragen",
         "items": [
           {
-            "title": "Wie lange dauert die Bearbeitung meines Videos?",
-            "description": "Die Bearbeitungszeit hängt von der Länge und Qualität des Videos ab, aber unsere fortschrittliche KI strebt danach, schnell Ergebnisse zu liefern und gleichzeitig eine hohe Qualität beizubehalten."
+            "title": "Wie lange dauert es, mein Video zu verarbeiten?",
+            "description": "Die Verarbeitungsdauer hängt von der Länge und Qualität des Videos ab, aber unsere fortschrittliche KI zielt darauf ab, schnell Ergebnisse zu liefern, während die Qualität beibehalten wird."
           },
           {
             "title": "Welche Videoformate werden unterstützt?",
             "description": "Unser Service unterstützt gängige Videoformate wie MP4, MOV und AVI."
           },
           {
-            "title": "Gibt es eine Begrenzung für die Videolänge?",
-            "description": "Kostenlose Benutzer erhalten Zugriff auf die Bearbeitung von kürzeren Videos, während Premium-Abonnenten eine längere Videounterstützung genießen werden."
+            "title": "Gibt es eine Beschränkung der Videolänge?",
+            "description": "Kostenlose Benutzer haben Zugriff auf die Verarbeitung von kürzeren Videos, während Premium-Abonnenten längeren Videosupport genießen werden."
           }
         ]
       }

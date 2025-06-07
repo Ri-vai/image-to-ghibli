@@ -72,7 +72,7 @@ const CONFIG = {
   targetLanguages: process.env.TRANSLATE_TARGET_LANGS,
   // 翻译规则（仅在使用规则时生效）
   rules: {
-    // 不需要翻译的字段
+    // 不需要翻译的字段（优先级高于 includeKeys）
     excludeKeys: [
       "url", // URL 链接
       "src", // 图片路径
@@ -110,7 +110,7 @@ const CONFIG = {
       "credits", // 积分
       "valid_months", // 有效月份
     ],
-    // 需要翻译的字段（优先级高于 excludeKeys）
+    // 需要翻译的字段
     includeKeys: [
       "title", // 标题
       "desc", // 描述
@@ -169,22 +169,14 @@ function shouldTranslateKey(key) {
     return true;
   }
 
-  // 如果在必须翻译列表中，直接返回 true
-  if (
-    CONFIG.rules.includeKeys.some((pattern) =>
-      key.toLowerCase().includes(pattern)
-    )
-  ) {
-    return true;
+  // 精确匹配排除列表
+  if (CONFIG.rules.excludeKeys.includes(key)) {
+    return false;
   }
 
-  // 如果在排除列表中，返回 false
-  if (
-    CONFIG.rules.excludeKeys.some((pattern) =>
-      key.toLowerCase().includes(pattern)
-    )
-  ) {
-    return false;
+  // 精确匹配包含列表
+  if (CONFIG.rules.includeKeys.includes(key)) {
+    return true;
   }
 
   // 默认翻译

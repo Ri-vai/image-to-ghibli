@@ -1,12 +1,12 @@
 {
-  "template": "ai-face-swap",
+  "template": "image-to-ghibli",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "AI Yüz Değiştirme",
+      "title": "Görüntüden Ghibli'ye",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Yüz Değiştirme"
+        "alt": "Görüntüden Ghibli'ye"
       },
       "url": "/"
     },
@@ -31,7 +31,7 @@
     },
     "buttons": [
       {
-        "title": "Şimdi Dene",
+        "title": "Şimdi Deneyin",
         "url": "/#try",
         "target": "_self",
         "variant": "link",
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "En iyi Çevrimiçi Ücretsiz AI Yüz Değiştirme",
-    "highlight_text": "AI Yüz Değiştirme",
-    "description": "En son teknoloji ile sınırsız eğlencenin buluştuğu AI Yüz Değiştirme dünyasına dalın. Görüntüleri ve videoları kolayca değiştirerek, eşsiz dijital olanaklara kapı açın.",
+    "title": "Fotoğraflarınızı Büyülü Anime Sanatına Dönüştürün",
+    "highlight_text": "Studio Ghibli Tarzı",
+    "description": "Fotoğraflarınızın büyüleyici bir şekilde, efsanevi Studio Ghibli estetiğinden esinlenerek harika anime eserlere dönüştüğü deneyimi yaşayın. Yapay zeka teknolojimiz animasyonun sihirli dünyasını günlük anılarınıza getiriyor.",
     "announcement": {
-      "label": "AI",
-      "title": "Ücretsiz ve Güvenli",
+      "label": "YI",
+      "title": "Anlık ve Sihirli",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "Şimdi Dene",
+        "title": "Şimdi Dönüştür",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Örnekleri Gör",
+        "title": "Galeriyi Görüntüle",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -79,55 +79,55 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "Yapay Zeka Yüz Değiştirme Sihirini Deneyimleyin",
+    "title": "Fotoğraflarınızı Anime Sihirine Dönüştürün",
     "label": "Nasıl Çalışır",
-    "description": "Gelişmiş yapay zeka yüz değiştirme teknolojimizle herhangi bir fotoğrafı dönüştürün. Hızlı, doğru ve güvenli.",
+    "description": "Sıradan fotoğraflarınızı gelişmiş yapay zeka teknolojimizle olağanüstü anime eserlerine dönüştürün. Hızlı, güzel ve sihirli.",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "Fotoğraflarınızı Yükleyin",
-        "description": "Kaynak görüntüyü ve değiştirmek istediğiniz yüzü kolayca yükleyin.",
+        "title": "Fotoğrafınızı Yükleyin",
+        "description": "Sadece dönüştürmek istediğiniz herhangi bir fotoğrafı yükleyin ve anime tarzı sanat eserine dönüştürün.",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "AI İşleme",
-        "description": "AI'mız mükemmel yüz değişimi için görüntüleri analiz eder ve işler.",
+        "title": "AI Sihirbazı",
+        "description": "Yapay zekamız resminizi analiz eder ve sevilen Studio Ghibli estetiğini uygular.",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "Anında Sonuçlar",
-        "description": "Dönüştürülmüş görüntünüzü saniyeler içinde indirmeye hazır alın.",
+        "title": "Sanatı İndir",
+        "description": "Dönüştürülen sanat eserinizi anında alın, paylaşmaya ve değerlendirmeye hazır olun.",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
     "name": "fayda",
-    "title": "Neden AI Face Swap'ı Seçmelisiniz",
+    "title": "Niçin AI Sanat Dönüştürücümüzü Seçmelisiniz",
     "label": "Faydalar",
-    "description": "Gelişmiş özellikler ve güvenlikle en iyi yüz değiştirme teknolojisini deneyimleyin.",
+    "description": "Fotoğraflarınızı çarpıcı anime tarzı sanat eserlerine dönüştürmenin sihrini gelişmiş özelliklerle deneyimleyin.",
     "items": [
       {
         "title": "Gelişmiş AI Teknolojisi",
-        "description": "En son derin öğrenme modelleri doğal ve gerçekçi yüz değişimlerini sağlar.",
+        "description": "Son teknoloji derin öğrenme modelleri, güzel ve otantik anime tarzı dönüşümleri sağlar.",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Gizlilik ve Güvenlik",
-        "description": "Fotoğraflarınız güvenli bir şekilde işlenir ve işlemden sonra otomatik olarak silinir.",
+        "title": "Otantik Tarz",
+        "description": "Yapay zekamız her dönüşümde sevilen anime estetiğinin özünü yakalar.",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Geliştirici Dostu",
-        "description": "Güçlü API'miz ile yüz değiştirme teknolojimizi uygulamalarınıza entegre edin.",
+        "title": "Kolay Entegrasyon",
+        "description": "Güçlü API'mızla görüntü dönüşüm teknolojimizi uygulamalarınıza entegre edin.",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -137,91 +137,91 @@
   },
   "usage": {
     "name": "kullanım",
-    "title": "Çevrimiçi Yüz Değiştirme Nasıl Yapılır",
-    "description": "Birkaç basit adımda etkileyici görseller oluşturun:",
+    "title": "Basit Adımlarla Fotoğraflarınızı Dönüştürün",
+    "description": "Sadece birkaç tıklamayla çarpıcı anime sanat eserleri oluşturun:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "right",
-    "text_align": "left",
+    "image_position": "sağ",
+    "text_align": "sol",
     "items": [
       {
-        "title": "Görselinizi Yükleyin",
-        "description": "Sadece 'Görsel Yükle' seçeneğine tıklayın ve kaynak görsel olarak kullanmak istediğiniz bir fotoğraf seçin. Fotoğrafta sadece bir yüzün iyi kalitede olduğundan emin olun."
+        "title": "Fotoğrafınızı Yükleyin",
+        "description": "'Fotoğraf Yükle' düğmesini tıklayın ve dönüştürmek istediğiniz herhangi bir resmi seçin. Net konulara sahip fotoğraflar en iyisidir."
       },
       {
-        "title": "Yüz Değiştirme Seçeneğinizi Belirleyin",
-        "description": "Orijinal görseliniz hazır olduğunda, verilen ön ayarlardan istediğiniz değiştirme efektini seçin. Bu, yüklediğiniz görseldeki yüzü seçili ön ayarla değiştireceğiniz anlamına gelir."
+        "title": "Stil Seçenekleri Belirleyin",
+        "description": "Dönüşümünüzü özelleştirmek için çeşitli stil seçeneklerinden seçim yapın. Her seçenek, benzersiz sanatsal unsurlar sunarak son eserinize farklılık katar."
       },
       {
-        "title": "AI ile Yüz Değiştirin",
-        "description": "AI'nin sihirini göstermesi için 'Şimdi Yüz Değiştir' düğmesine tıklayın. AiFaceSwap.app birkaç saniye içinde yüz değiştirme işlemini tamamlayacaktır. AI işi otomatik olarak yaparken en iyi çıktıyı garanti eder."
+        "title": "Yapay Zeka Dönüşümü",
+        "description": "Yapay zekamızın sihrine izin verin. Saniyeler içinde fotoğrafınız, güzel bir anime eserine dönüşecek."
       },
       {
-        "title": "Önizleme ve İndirme",
-        "description": "Bingo! Yüzünüz istediğiniz kişiyle değiştirildi! Son sonucu aynı sayfada önizleyin. Filigransız görseli cihazınıza kaydetmek için 'İndir' seçeneğine tıklayın. Eğlence için paylaşın!"
+        "title": "İndirin ve Paylaşın",
+        "description": "Sanat eseriniz hazır! Dönüştürülmüş görüntünüzü yüksek kalitede indirin ve sihirli eserinizi dünyayla paylaşın."
       }
     ]
   },
   "feature": {
     "name": "özellik",
-    "title": "Güçlü AI Yüz Değiştirme Özellikleri",
-    "description": "AI destekli yüz değiştirme teknolojimizin muhteşem yeteneklerini keşfedin",
+    "title": "Fotoğraflarınız için Sihirli Özellikler",
+    "description": "Yapay zeka sanat dönüşüm teknolojimizin büyüleyici yeteneklerini keşfedin",
     "items": [
       {
-        "title": "Gerçekçi Yüz Değişimleri",
-        "description": "Öncü teknolojimiz, düzenleme izlerini tamamen gizleyerek mükemmel ve gerçekçi yüz değişimleri sağlar.",
+        "title": "Orijinal Anime Tarzı",
+        "description": "Yapay zekamız, anime sanatını dünya çapında bu kadar sevilen benzersiz sanatsal tarzı mükemmel bir şekilde yakalar.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Kullanımı Kolay Arayüz",
-        "description": "Tek bir tıklamayla herhangi bir yüzü başka bir görüntüye yerleştirebilir, işlemi basit ve sezgisel hale getirebilirsiniz.",
+        "title": "Basit Arayüz",
+        "description": "Bir tıklamayla fotoğraflarınızı dönüştürün ve anime sanatının büyüsünü herkese erişilebilir kılın.",
         "icon": "RiMouseLine"
       },
       {
-        "title": "Meme Oluşturma",
-        "description": "Yeni ve ilgi çekici içeriklerle kitlenizle etkileşimi artırarak kolayca eğlenceli memeler oluşturun.",
+        "title": "Tarz Çeşitliliği",
+        "description": "Farklı sanatsal tarzlardan seçim yaparak fotoğraflarınız için mükemmel görünümü bulun.",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "Ünlü Dönüşümleri",
-        "description": "Film yıldızlarından süper kahramanlara kadar çeşitli karakterlerle yüzünüzü değiştirerek görünümünüzü dönüştürün.",
+        "title": "Yüksek Çözünürlük",
+        "description": "Yazdırma veya dijital gösterim için mükemmel yüksek çözünürlüklü eserler elde edin.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "Stil Denemesi",
-        "description": "Farklı karakterlere yüzünüzü uygulayarak, makyaj, saç stilleri ve moda stilleriyle yeni görünümler keşfedin.",
+        "title": "Toplu İşleme",
+        "description": "Bir seferde birden fazla fotoğrafı dönüştürerek anime sanat koleksiyonu oluşturun.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "Sonsuz Yaratıcılık",
-        "description": "Çok yönlü yüz değiştirme teknolojimizle sınırsız yaratıcılık ve eğlence potansiyelinin kilidini açın.",
+        "title": "Yaratıcı Özgürlük",
+        "description": "Dönüşümleriniz için çeşitli özelleştirme seçenekleriyle yaratıcılığınızı ortaya çıkarın.",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
-    "name": "vitrin",
-    "title": "Muhteşem Dönüşümler",
-    "description": "Kullanıcılarımızın AI Face Swap ile neler yarattığını görün.",
+    "name": "gösterim",
+    "title": "Sihirli Dönüşümler",
+    "description": "AI teknolojimizle oluşturulan muhteşem sanat eserlerini görün.",
     "items": [
       {
-        "title": "Video Yüz Değiştirme",
-        "description": "Film yapımını geliştirmek veya sosyal medya için içerik oluşturmak üzere videolarda yüz değiştirin",
+        "title": "Manzara Dönüşümü",
+        "description": "Manzara fotoğraflarınızı nefes kesen anime manzaralara dönüştürün",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "Fotoğraf Yüz Değiştirme",
-        "description": "Fotoğraflarda kafa değiştirmenize ve yüz değiştirmenize olanak tanır",
+        "title": "Portre Dönüşümü",
+        "description": "Portreleri güzel anime tarzı karakter sanat eserlerine dönüştürün",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "Çoklu Yüz Değiştirme",
-        "description": "Aile fotoğrafları, düğün fotoğrafları, parti fotoğrafları vb. içinde birden fazla yüz değiştirin",
+        "title": "Grup Fotoğrafı Dönüşümü",
+        "description": "Grup fotoğraflarını cazibeli anime sahnelerine dönüştürün",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,17 +231,17 @@
   "stats": {
     "name": "istatistikler",
     "label": "İstatistikler",
-    "title": "Dünya Çapında Kullanıcıların Güvendiği",
-    "description": "AI Face Swap kullanan binlerce memnun kullanıcıya katılın.",
+    "title": "Dünya Çapında Sanatçılar Tarafından Güvenilen",
+    "description": "Fotoğraflarınızı anime sanatına dönüştüren binlerce yaratıcıya katılın.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Mutlu Kullanıcılar",
+        "title": "Mutlu Sanatçılar",
         "label": "1M+",
         "description": "Aktif Kullanıcılar"
       },
       {
-        "title": "Yüz Değişimleri",
+        "title": "Dönüşümler",
         "label": "10M+",
         "description": "Tamamlandı"
       },
@@ -256,25 +256,25 @@
     "name": "fiyatlandırma",
     "label": "Fiyatlandırma",
     "title": "Basit, Şeffaf Fiyatlandırma",
-    "description": "Yüz değiştirme ihtiyaçlarınız için mükemmel planı seçin.",
+    "description": "Sanatsal yolculuğunuz için mükemmel planı seçin.",
     "toggle": {
-      "monthly": "Aylık",
-      "annual": "Yıllık",
+      "monthly": "Monthly",
+      "annual": "Annual",
       "default_plan": "yıllık",
-      "discount_text": "YILLIK İNDİRİMLE 2 AY BEDAVA"
+      "discount_text": "YILDA 2 AY BEDAVA ALIN"
     },
-    "cancel_text": "Dilediğiniz zaman iptal edebilirsiniz. Gizli ücret yok",
+    "cancel_text": "Dilediğiniz zaman iptal edin. Saklı ücret yok",
     "items": [
       {
         "product_title": "Free",
-        "description": "Kişisel kullanım için mükemmel",
+        "description": "Denemek için mükemmel",
         "features": [
           {
-            "text": "Filigranlı sınırsız yüz değiştirme",
+            "text": "Fiyatlandırma ile sınırlı dönüşümler",
             "included": true
           },
           {
-            "text": "Standart işleme hızı",
+            "text": "Standart işlem hızı",
             "included": true
           },
           {
@@ -282,7 +282,7 @@
             "included": true
           },
           {
-            "text": "GIF veya video yüz değiştirme yok",
+            "text": "Toplu işlem yok",
             "included": false
           }
         ],
@@ -293,13 +293,13 @@
           },
           "annual": {
             "amount": 0,
-            "price": "₺0"
+            "price": "$0"
           }
         },
         "currency": "USD",
         "unit": "ay",
         "is_featured": false,
-        "tip": "Başlamak için harika!",
+        "tip": "Başlamanız için harika!",
         "product_id": {
           "monthly": "price_free",
           "annual": "price_free"
@@ -310,26 +310,26 @@
       },
       {
         "product_title": "Basic",
-        "description": "Güçlü kullanıcılar için",
+        "description": "Düzenli yaratıcılar için",
         "features": [
           {
-            "text": "Aylık 600 kredi",
+            "text": "Aylık 600 dönüşüm",
             "included": true
           },
           {
-            "text": "600 su işaretsiz yüz takası",
+            "text": "600 su markasız sanat eseri",
             "included": true
           },
           {
-            "text": "ya da 200 GIF yüz takası",
+            "text": "Yüksek çözünürlüklü çıkış",
             "included": true
           },
           {
-            "text": "24 video yüz takası",
+            "text": "En fazla 10 görüntüye kadar toplu işlem",
             "included": true
           },
           {
-            "text": "Öncelikli işleme",
+            "text": "Öncelikli işlem",
             "included": true
           },
           {
@@ -340,12 +340,12 @@
         "pricing": {
           "monthly": {
             "amount": 1200,
-            "price": "₺12"
+            "price": "$12"
           },
           "annual": {
             "amount": 10000,
-            "price": "₺10",
-            "savings_text": "Yılda ₺24 tasarruf yapın"
+            "price": "$10",
+            "savings_text": "Yılda $24 tasarruf edin"
           }
         },
         "currency": "USD",
@@ -360,33 +360,33 @@
         "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "Pro'yu Al",
+          "title": "Temel Al",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
         "product_title": "Pro",
-        "description": "İşletmeler için",
+        "description": "Profesyonel sanatçılar için",
         "features": [
           {
-            "text": "Sınırsız filigransız yüz değiştirme",
+            "text": "Sınırsız dönüşümler",
             "included": true
           },
           {
-            "text": "Sınırsız GIF yüz değiştirme",
+            "text": "Ultra yüksek çözünürlüklü çıkış",
             "included": true
           },
           {
-            "text": "64 video yüz değiştirme",
+            "text": "Gelişmiş stil özelleştirme",
             "included": true
           },
           {
-            "text": "Ultra hızlı işleme",
+            "text": "Sınırsız toplu işlem",
             "included": true
           },
           {
-            "text": "7/24 öncelikli destek",
+            "text": "24/7 öncelikli destek",
             "included": true
           }
         ],
@@ -402,9 +402,9 @@
           }
         },
         "currency": "USD",
-        "unit": "ay",
+        "unit": "month",
         "is_featured": false,
-        "tip": "İşletmeler için en iyisi!",
+        "tip": "Profesyoneller için en iyisi!",
         "product_id": {
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
@@ -413,7 +413,7 @@
         "credits": 1600,
         "valid_months": 1,
         "button": {
-          "title": "Pro Sürüm Al",
+          "title": "Pro'yu Al",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
@@ -423,30 +423,30 @@
   "testimonial": {
     "name": "testimonial",
     "label": "Referanslar",
-    "title": "Kullanıcılarımız Ne Diyor",
-    "description": "AI Face Swap'ı kullanmayı seven kişilerin deneyimlerini dinleyin.",
+    "title": "Sanatçılarımızın Dediği",
+    "description": "Yapay zeka sanat dönüşümümüzü kullanan insanlardan dinleyin.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "Profesyonel Fotoğrafçı",
-        "description": "Yüz değiştirme kalitesi inanılmaz! Profesyonel portreler için kullanıyorum ve sonuçlar her zaman mükemmel.",
+        "label": "Dijital Sanatçı",
+        "description": "Anime dönüşümlerinin kalitesi inanılmaz! Ben eşsiz sanat eserleri yaratmak için kullanıyorum ve sonuçlar her zaman sihirli.",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
         "title": "Mike Chen",
-        "label": "İçerik Üreticisi",
-        "description": "API'yi entegre etmek çok kolay ve işlem hızı muhteşem. İçerik üretim ihtiyaçlarım için mükemmel.",
+        "label": "İçerik Oluşturucu",
+        "description": "API'nin entegrasyonu çok kolay ve dönüşüm hızı şaşırtıcı. Yaratıcı projelerim için mükemmel.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "Sosyal Medya Yöneticisi",
-        "description": "Çoklu yüz değiştirme özelliği oyunun kurallarını değiştiriyor. İlgi çekici içerik oluşturmayı çok daha kolaylaştırıyor!",
+        "label": "Sosyal Medya Sanatçısı",
+        "description": "Toplu işleme özelliği oyun değiştirici. Temalı koleksiyonlar oluşturmayı çok daha kolay hale getiriyor!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -454,41 +454,41 @@
     ]
   },
   "faq": {
-    "name": "faq",
+    "name": "ssSorular",
     "label": "SSS",
     "title": "Sık Sorulan Sorular",
-    "description": "Sorularınız mı var? Cevaplarımız hazır.",
+    "description": "Sorularınız mı var? Cevaplarımız var.",
     "items": [
       {
-        "title": "AI Yüz Değiştirme nasıl çalışır?",
-        "description": "Gelişmiş AI teknolojimiz her iki görüntüdeki yüz özelliklerini analiz eder, ardından doğal görünüm ve ifadeleri koruyarak onları kusursuzca değiştirir. İşlem sadece birkaç saniye sürer ve yüksek kaliteli sonuçlar sağlar."
+        "title": "Görüntüden Ghibli'ye nasıl çalışıyor?",
+        "description": "Gelişmiş yapay zeka teknolojimiz fotoğraflarınızı analiz eder ve onları Studio Ghibli'nin estetiğinden ilham alan güzel anime tarzı sanat eserlerine dönüştürür. Süreç yalnızca birkaç saniye sürer ve yüksek kaliteli sonuçlar sağlar."
       },
       {
         "title": "Verilerim güvende mi?",
-        "description": "Evet, kesinlikle! Gizliliği çok ciddiye alıyoruz. Yüklenen tüm fotoğraflar güvenli bir şekilde işlenir ve işlemden sonra otomatik olarak silinir. İzniniz olmadan görsellerinizi asla saklamaz veya paylaşmayız."
+        "description": "Evet, kesinlikle! Gizliliği çok ciddiye alıyoruz. Yüklenen tüm fotoğraflar güvenli bir şekilde işlenir ve işlemden sonra otomatik olarak silinir. İzin olmadan görüntülerinizi asla saklamayız veya paylaşmayız."
       },
       {
-        "title": "Hangi görsel formatları destekleniyor?",
-        "description": "JPG, PNG ve WEBP dahil tüm yaygın görsel formatlarını destekliyoruz. En iyi sonuçlar için, net, iyi aydınlatılmış ve yüzlerin görünür olduğu fotoğraflar kullanmanızı öneririz."
+        "title": "Hangi görüntü biçimleri destekleniyor?",
+        "description": "JPG, PNG ve WEBP dahil olmak üzere tüm yaygın görüntü biçimlerini destekliyoruz. En iyi sonuçlar için net ve iyi aydınlatılmış fotoğraflar kullanmanızı öneririz."
       },
       {
-        "title": "Bir görselde birden fazla yüz değiştirebilir miyim?",
-        "description": "Evet! Pro ve Enterprise planlarımız tek bir görselde birden fazla yüz değişimini destekler. Tek seferde farklı yüzleri farklı kaynak görsellerle değiştirebilirsiniz."
+        "title": "Birden fazla fotoğrafı aynı anda dönüştürebilir miyim?",
+        "description": "Evet! Pro ve Enterprise planlarımız, aynı stilini koruyarak birden fazla fotoğrafı aynı anda dönüştürmenizi sağlayan toplu işleme desteği sunar."
       },
       {
-        "title": "API sunuyor musunuz?",
-        "description": "Evet, geliştiricilerin yüz değiştirme teknolojimizi kendi uygulamalarına entegre edebilmeleri için güçlü bir API sunuyoruz. API erişimi Pro ve Enterprise planlarımızla mevcuttur."
+        "title": "Bir API sunuyor musunuz?",
+        "description": "Evet, geliştiricilerin uygulamalarına dönüşüm teknolojimizi entegre etmeleri için güçlü bir API sağlıyoruz. API erişimi, Pro ve Enterprise planlarımızla kullanılabilir."
       },
       {
         "title": "İade politikanız nedir?",
-        "description": "Yüzde 100 memnuniyet garantisi sunuyoruz. Hizmetimizden memnun kalmazsanız, satın alma işleminizden sonraki 7 gün içinde bizimle iletişime geçerek tam iade alabilirsiniz."
+        "description": "%100 memnuniyet garantisi sunuyoruz. Hizmetimizden memnun değilseniz, satın almanızdan sonraki 7 gün içinde bize başvurarak tam bir iade alabilirsiniz."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Fotoğraflarınızı Dönüştürmeye Bugün Başlayın",
-    "description": "Milyonlarca mutlu kullanıcıya katılın ve AI Face Swap'ın sihirini deneyimleyin.",
+    "title": "Sanatsal Yolculuğunuza Bugün Başlayın",
+    "description": "Milyonlarca yaratıcıya katılın ve yapay zeka sanat dönüşümünün sihrini deneyimleyin.",
     "buttons": [
       {
         "title": "Ücretsiz Deneyin",
@@ -497,7 +497,7 @@
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Örnekleri Görüntüle",
+        "title": "Galeriyi Görüntüle",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,15 +507,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "Gelişmiş AI yüz değiştirme teknolojisiyle fotoğraflarınızı dönüştürün. Hızlı, güvenli ve kullanımı kolay.",
+      "title": "Fotoğrafı Ghibli'ye Dönüştür",
+      "description": "Gelişmiş AI teknolojisi ile fotoğraflarınızı çarpıcı anime tarzı sanat eserlerine dönüştürün. Hızlı, güvenli ve kullanımı kolay.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Fotoğrafı Ghibli'ye Dönüştür"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap Tüm hakları saklıdır.",
+    "copyright": "© 2024 • Fotoğrafı Ghibli'ye Dönüştür Tüm hakları saklıdır.",
     "nav": {
       "items": [
         {
@@ -545,7 +545,7 @@
         {
           "title": "E-posta",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
@@ -557,7 +557,7 @@
           "url": "/privacy-policy"
         },
         {
-          "title": "Kullanım Şartları",
+          "title": "Hizmet Koşulları",
           "url": "/terms-of-service"
         }
       ]
@@ -567,114 +567,114 @@
     "photoFaceSwap": "Fotoğraf Yüz Değiştirme",
     "videoFaceSwap": "Video Yüz Değiştirme",
     "multipleFaceSwap": "Çoklu Yüz Değiştirme",
-    "gifFaceSwap": "GIF Yüz Takası",
+    "gifFaceSwap": "GIF Yüz Değiştirme",
     "uploadOriginalImage": "Orijinal Görüntüyü Yükle",
     "uploadFaceImage": "Yüz Görüntüsünü Yükle",
-    "startFaceSwap": "Yüz Değişimini Başlat",
+    "startFaceSwap": "Yüz Değiştirme İşlemine Başla",
     "swapFace": "Yüz Değiştir",
     "processing": "İşleniyor...",
-    "before": "Öncesi",
-    "after": "Sonrası",
+    "before": "Önce",
+    "after": "Sonra",
     "uploadImage": "Görüntü Yükle",
     "readyToSwap": "Değişime Hazır",
     "uploadBothImages": "Her İki Görüntüyü Yükle",
-    "comingSoon": "Çok Yakında",
+    "comingSoon": "Yakında",
     "download": "İndir",
-    "splitView": "Bölünmüş Görünüm",
+    "splitView": "Bölünmüş Görüntü",
     "compareView": "Karşılaştırma Görünümü",
     "zoomIn": "Yakınlaştır",
-    "swapInProgress": "Yüz değişimi devam ediyor...",
+    "swapInProgress": "Yüz değiştirme devam ediyor...",
     "completeSoon": "Birkaç saniye içinde tamamlanacak",
-    "magicHappening": "Sihir gerçekleşiyor...",
+    "magicHappening": "Büyü oluyor...",
     "uploadGif": "GIF Yükle",
     "uploadFacePhoto": "Yüz Fotoğrafı Yükle",
-    "startGifFaceSwap": "GIF Yüz Takası Başlat",
+    "startGifFaceSwap": "GIF Yüz Değiştirme Başlat",
     "swapGifFace": "GIF Yüz Değiştir",
     "preview": "Önizleme",
     "gifPreview": "GIF Önizleme",
     "swapResult": "Değiştirme Sonucu",
     "pleaseUploadGif": "Lütfen bir GIF yükleyin",
-    "gifSwapInProgress": "GIF yüz değişimi devam ediyor...",
+    "gifSwapInProgress": "GIF yüz değiştirme devam ediyor...",
     "gifCompleteSoon": "Bu biraz zaman alabilir, lütfen sabırlı olun",
     "watermarkNotice": "Yetersiz kredi, filigran eklenmiştir",
     "gifFormat": "GIF",
-    "wantRemoveWatermark": "Filigranı kaldırmak mı istiyorsunuz?",
+    "wantRemoveWatermark": "Filigranı kaldırmak istiyor musunuz?",
     "upgradePremium": "Premium Özellikleri Açın",
     "watermarkDescription": "Bugün abone olarak platformumuzun tüm premium özelliklerinden yararlanın.",
-    "premiumBenefits": "Abonelik ile şunları elde edersiniz:",
+    "premiumBenefits": "Abonelikle şunları elde edersiniz:",
     "benefit1": "Reklamsız deneyim",
-    "benefit2": "Filigransız fotoğraflar",
+    "benefit2": "Filigran içermeyen fotoğraflar",
     "benefit3": "GIF yüz değiştirme yeteneği",
     "benefit4": "Video yüz değiştirme yeteneği",
     "subscribeNow": "Şimdi Abone Ol",
     "uploadVideo": "Video Yükle",
     "pleaseUploadVideo": "Lütfen bir video yükleyin",
     "videoPreview": "Video Önizleme",
-    "videoSwapInProgress": "Video yüz değiştirme işlemi devam ediyor...",
+    "videoSwapInProgress": "Video yüz değiştirme devam ediyor...",
     "videoCompleteSoon": "Bu biraz zaman alabilir, lütfen sabırlı olun",
-    "videoFormat": "M4V, MP4, MOV videoları",
+    "videoFormat": "M4V, MP4, MOV videolar",
     "videoSizeLimit": "Aboneler: 10MB / 20s",
-    "videoFaceTip": "Lütfen videonun başında net bir önden yüz göründüğünden emin olun",
-    "startVideoFaceSwap": "Video Yüz Takası Başlat",
-    "swapVideoFace": "Video Yüz Değiştirme",
-    "videoSizeError": "Video dosyası 10MB'den büyük. Lütfen daha küçük bir video yükleyin.",
+    "videoFaceTip": "Lütfen videonun başında net bir ön yüzün göründüğünden emin olun",
+    "startVideoFaceSwap": "Video Yüz Değiştirme'yi Başlat",
+    "swapVideoFace": "Video Yüz Değiştir",
+    "videoSizeError": "Video dosyası 10MB'ı aşıyor. Lütfen daha küçük bir video yükleyin.",
     "videoDurationError": "Video süresi 20 saniyeyi aşıyor. Lütfen daha kısa bir video yükleyin.",
     "gif": {
-      "title": "GIF Yüz Değiştirme - Yüz Değiştirme Teknolojisiyle Komik GIF'ler Oluşturun",
-      "description": "GIF'lerde yüz değiştirme yapın gelişmiş yapay zeka teknolojimizle. Saniyeler içinde komik, paylaşılabilir GIF'ler oluşturun. Kayıt olmaya gerek yok, ücretsiz ve sınırsız değiştirme!",
-      "heading": "Komik GIF Yüz Değiştirme Oluşturun",
-      "subheading": "GIF'lerinizi yükleyin ve sadece birkaç tıklama ile eğlenceli, paylaşılabilir resimler oluşturun!",
+      "title": "GIF Yüz Değiştirme - Mizahı AI Teknolojisi ile Hilarious GIF Yüz Değişimleri Oluşturun",
+      "description": "Gelişmiş AI teknolojimizle GIF'lerde yüzleri değiştirin. Saniyeler içinde komik, paylaşılabilir GIF'ler oluşturun. Kayıt olma gerekmez, ücretsiz ve sınırsız kullanım!",
+      "heading": "Komik GIF Yüz Değişimleri Oluşturun",
+      "subheading": "GIF'lerinizi yükleyin ve birkaç tıklamayla eğlenceli, paylaşılabilir görseller oluşturun!",
       "features": {
         "title": "GIF Yüz Değiştirme Özellikleri",
         "items": [
           {
-            "title": "Anında Yüz Değiştirme",
-            "description": "Araçlarımız hızlı ve etkili gerçek zamanlı yüz değiştirme sunar. Sadece GIF'inizi yükleyin ve yapay zekamız hemen yüzleri tanır ve değiştirerek sonuçları hızla görmenizi sağlar."
+            "title": "Anlık Yüz Değiştirme",
+            "description": "Araçlarımız hızlı ve verimli gerçek zamanlı yüz değiştirme sunar. Basitçe GIF'inizi yükleyin ve AI'ımız yüzleri hemen tanıyıp değiştirerek sonuçları hemen görebilmenizi sağlar."
           },
           {
-            "title": "Gelişmiş Sosyal İnteraksiyon",
-            "description": "Arkadaşlarınızla eğlenceli GIF'ler paylaşarak sosyal etkileşimi artırın ve mizah katın. İçeriğinizi daha etkileyici hale getirmek için çeşitli sosyal medya platformları için mükemmel."
+            "title": "Gelişmiş Sosyal Etkileşim",
+            "description": "Arkadaşlarınızla eğlenceli GIF'ler paylaşarak sosyal etkileşimi artırın ve mizah ekleyin. İçeriğinizi daha etkileşimli hale getirmek için çeşitli sosyal medya platformları için mükemmel."
           },
           {
-            "title": "Birden Fazla Format Desteği",
-            "description": "GIF formatının yanı sıra, aracımız çeşitli resim giriş formatlarını destekler, böylece farklı kaynaklardan dosya yükleme konusunda esnek bir kullanıcı deneyimi sağlar."
+            "title": "Çeşitli Formatları Destekleme",
+            "description": "GIF formatının yanı sıra, aracımız çeşitli görüntü giriş formatlarını destekler, farklı kaynaklardan dosyaları yüklemeyi kolaylaştırarak esnek bir kullanıcı deneyimi sağlar."
           }
         ]
       },
       "howTo": {
-        "title": "GIF'te Yüz Değiştirmek İçin Nasıl Yapılır",
+        "title": "GIF'te Yüz Değiştirmenin Yolu",
         "steps": [
           {
             "number": "1",
-            "title": "Bir yüz içeren bir GIF yükleyin",
-            "description": "Değiştirmek istediğiniz yüzün bir GIF'ini yükleyin. En iyi sonuçlar için net yüz detaylarına sahip olduğundan emin olun."
+            "title": "Yüzü olan bir GIF yükleyin",
+            "description": "Değiştirmek istediğiniz bir yüzün GIF'ini yükleyin. En iyi sonuçlar için net yüz detayları sağlayın."
           },
           {
             "number": "2",
             "title": "Hedef yüz resmini yükleyin",
-            "description": "Değiştirme için kullanmak istediğiniz yüzün bir fotoğrafını yükleyin. Yüz netliği gereklidir."
+            "description": "Kullanmak istediğiniz yüzün fotoğrafını yükleyin. Yüz netliği gereklidir."
           },
           {
             "number": "3",
-            "title": "Oluşması için bekleyin",
-            "description": "\"GIF Yüz Değiştirme\" düğmesine tıklayın ve yapay zekamızın yüzleri değiştirerek yeni GIF'inizi oluşturmasını bekleyin."
+            "title": "Üretim için bekleyin",
+            "description": "Yeni yüzleri takas edilmiş GIF'inizi oluşturmak için \"Yüz Değiştir GIF\" düğmesine tıklayın ve yapay zekamızın üretmesini bekleyin."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Çoklu Kullanım Senaryoları",
+        "title": "Çeşitli Kullanım Senaryoları",
         "items": [
           {
             "title": "Sosyal Medya Paylaşımı",
-            "description": "Instagram, Facebook ve Twitter gibi büyük sosyal medya platformlarında eğlenceli GIF'lerinizi paylaşarak etkileşimi artırabilir ve dikkat çekebilirsiniz."
+            "description": "Eğlenceli GIF'lerinizi Instagram, Facebook ve Twitter gibi önemli sosyal medya platformlarında paylaşarak etkileşimi artırın ve ilgi çekin."
           },
           {
             "title": "Komedi İçerik Oluşturma",
-            "description": "İçerik oluşturucular, GIF Yüz Değiştirme özelliğini kullanarak komik videolar ve klipler üretebilir, içeriklerini zenginleştirir ve daha fazla izleyici çekerler."
+            "description": "İçerik üreticileri, GIF Yüz Değiştirme'yi kullanarak komik videolar ve klipler üretebilir, içeriklerini zenginleştirip daha fazla izleyici çekebilirler."
           },
           {
             "title": "Etkinlik ve Parti Davetiyeleri",
-            "description": "Daha ilgi çekici ve çekici hale getirmek için partiler veya etkinlikler için kişiselleştirilmiş davetiye GIF'leri oluşturarak katılımı artırın."
+            "description": "Parti veya etkinlikler için kişiselleştirilmiş davetiye GIF'leri oluşturarak etkinlikleri daha ilgi çekici ve çekici hale getirin, katılıma olan ilgiyi artırın."
           }
         ]
       }
@@ -683,21 +683,21 @@
       "title": "Video Yüz Değiştirme | AIFACESWAP.APP",
       "description": "Videolarınızı gelişmiş yapay zeka video yüz değiştirme teknolojisi ile dönüştürün.",
       "heading": "Yapay Zeka Video Yüz Değiştirme",
-      "subheading": "Güçlü yapay zeka yüz değiştirme teknolojisiyle her kareyi heyecan verici ve sorunsuz hale getirin. Anında yüzleri değiştirerek eğlenceli, ilgi çekici veya profesyonel içerik oluşturun.",
+      "subheading": "Her kareyi heyecan verici ve sorunsuz hale getiren videolar için güçlü yapay zeka yüz değiştirme deneyimi yaşayın. Yüzleri anında değiştirerek eğlenceli, çekici veya profesyonel içerikler oluşturun.",
       "features": {
         "title": "Video Yüz Değiştirme Özellikleri",
         "items": [
           {
             "title": "Sorunsuz Yüz Değiştirme",
-            "description": "Gelişmiş yapay zekamız, tüm video boyunca doğal ifadeleri ve hareketleri koruyan pürüzsüz, kare kare yüz değiştirmeyi sağlar."
+            "description": "Doğal ifadeleri ve hareketleri tüm video boyunca koruyan, pürüzsüz, kare kare yüz değiştirme sağlayan gelişmiş yapay zekamız."
           },
           {
             "title": "Yüksek Kaliteli Sonuçlar",
-            "description": "Sabit aydınlatma, gerçekçi cilt tonları ve hassas yüz özellikleri haritalama ile profesyonel kalitede video yüz değişimlerinin keyfini çıkarın."
+            "description": "Tutarlı aydınlatma, gerçekçi cilt tonları ve hassas yüz özellik eşlemesi ile profesyonel kalitede video yüz değiştirmeler yaşayın."
           },
           {
-            "title": "Kullanıcı Dostu İşlem",
-            "description": "Basit arayüzümüzle, videolardaki yüzleri değiştirmek, videonuzu yüklemek, bir yüz fotoğrafı seçmek ve yapay zekamızın işini yapmasını beklemek kadar kolaydır."
+            "title": "Kullanıcı Dostu Süreç",
+            "description": "Kullanıcı dostu arayüzümüzle, videolardaki yüzleri değiştirmek video yüklemeniz, bir yüz görüntüsü seçmeniz ve yapay zekamızın işini yapmasına izin vermeniz kadar basit."
           }
         ]
       },
@@ -706,35 +706,35 @@
         "steps": [
           {
             "number": "1",
-            "title": "Videonuzu Yükleyin",
-            "description": "Yüz değişimi yapmak istediğiniz videoyu seçin ve yükleyin. Çeşitli yaygın video formatlarını destekliyoruz."
+            "title": "Videoyu Yükleyin",
+            "description": "Yüz değiştirmek istediğiniz videoyu seçip yükleyin. Çeşitli yaygın video formatlarını destekliyoruz."
           },
           {
             "number": "2",
-            "title": "Bir Yüz Fotoğrafı Yükleyin",
-            "description": "Değişim için net görünen bir yüz fotoğrafı seçin. En iyi sonuçlar için, görünür bir yüzü olan yüksek kaliteli bir resim kullanın."
+            "title": "Yüz Fotoğrafı Yükleyin",
+            "description": "Değiştirmek için net bir yüz fotoğrafı seçin. En iyi sonuçlar için net bir şekilde görünen yüksek kaliteli bir fotoğraf kullanın."
           },
           {
             "number": "3",
-            "title": "Yüz Değişimi Videosu Oluşturun",
-            "description": "Sadece bir tıklama ile yapay zekamız videonuzu işleyerek pürüzsüz, yüksek kaliteli bir yüz değişimi oluşturur."
+            "title": "Yüz Değiştirme Videonuzu Oluşturun",
+            "description": "Sadece bir tıklamayla, yapay zekamız videonuzu işleyerek düzgün, yüksek kaliteli bir yüz değişimi oluşturur."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Video Yüz Değişimi için Yaratıcı Kullanımlar",
+        "title": "Video Yüz Değiştirme için Yaratıcı Kullanımlar",
         "items": [
           {
             "title": "Film Sahnesi Yeniden Oluşturma",
-            "description": "Favori oyuncularınızın yüzleriyle yüz değiştirerek ikonik film anlarına adım atın. Kendiniz veya arkadaşlarınızı yıldızlar olarak kullanarak benzersiz sinematik deneyimler yaratın."
+            "description": "Favori oyuncularınızın yüzlerini değiştirerek ikonik film anlarının içine adım atın. Kendinizi veya arkadaşlarınızı yıldız olarak seçerek benzersiz sinematik deneyimler yaratın."
           },
           {
             "title": "Sosyal Medya İçeriği",
-            "description": "TikTok, Instagram ve YouTube için ilgi çekici ve viral değerli içerikler oluşturun. İzleyicilerin dikkatini çeken eğlenceli yüz değiştirme videolarıyla ilgi çekin."
+            "description": "TikTok, Instagram ve YouTube için ilgi çekici ve viral içerikler oluşturun. İzleyicilerin dikkatini çeken eğlenceli yüz değiştirme videolarıyla etkileşimli içerikler oluşturun."
           },
           {
             "title": "Özel Gün Videoları",
-            "description": "Doğum günleri, düğünler ve kutlamaları, onur konuklarının yüz değiştirme videolarıyla daha unutulmaz hale getirin."
+            "description": "Doğum günleri, düğünler ve kutlamaları daha unutulmaz hale getirin; onur konuklarının yüz değişimleriyle kişiselleştirilmiş videolar oluşturun."
           }
         ]
       },
@@ -742,16 +742,16 @@
         "title": "Sıkça Sorulan Sorular",
         "items": [
           {
-            "title": "Videomun işlenmesi ne kadar zaman alacak?",
-            "description": "İşleme süresi, video uzunluğuna ve kalitesine bağlı olacaktır, ancak ileri teknolojili yapay zeka hızlı sonuçlar sunmayı ve yüksek kaliteyi korumayı hedeflemektedir."
+            "title": "Videomun işlenmesi ne kadar sürecek?",
+            "description": "İşleme süresi video uzunluğuna ve kalitesine bağlı olacaktır, ancak gelişmiş yapay zeka sonuçları hızlı bir şekilde sunmayı hedeflerken yüksek kaliteyi korur."
           },
           {
             "title": "Hangi video formatları desteklenecek?",
-            "description": "Hizmetimiz yaygın video formatlarını, MP4, MOV ve AVI dahil olmak üzere destekleyecektir."
+            "description": "Hizmetimiz MP4, MOV ve AVI gibi yaygın video formatlarını destekleyecektir."
           },
           {
-            "title": "Video uzunluğuna bir sınırlama olacak mı?",
-            "description": "Ücretsiz kullanıcıların kısa video işleme imkanı olacakken, premium aboneler uzun video desteğinin keyfini sürecekler."
+            "title": "Videonun uzunluğuna bir sınırlama olacak mı?",
+            "description": "Ücretsiz kullanıcılar kısa video işleme erişimine sahip olacakken, premium aboneler daha uzun video desteğinden yararlanacak."
           }
         ]
       }

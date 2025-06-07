@@ -1,12 +1,12 @@
 {
-  "template": "ai-face-swap",
-  "theme": "light",
+  "template": "image-to-ghibli",
+  "theme": "licht",
   "header": {
     "brand": {
-      "title": "AI Gezichtswissel",
+      "title": "Afbeelding naar Ghibli",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Gezichtswissel"
+        "alt": "Afbeelding naar Ghibli"
       },
       "url": "/"
     },
@@ -31,7 +31,7 @@
     },
     "buttons": [
       {
-        "title": "Probeer Nu",
+        "title": "Nu proberen",
         "url": "/#try",
         "target": "_self",
         "variant": "link",
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "De beste Online Gratis AI Gezichtswissel",
-    "highlight_text": "AI Gezichtswissel",
-    "description": "Duik in de innovatieve wereld van AI Gezichtswissel, waar geavanceerde technologie en grenzeloos entertainment samenkomen. Bewerk eenvoudig afbeeldingen en video's, en open de deur naar ongekende digitale mogelijkheden.",
+    "title": "Transformeer uw foto's in magische animekunst",
+    "highlight_text": "Studio Ghibli-stijl",
+    "description": "Ervaar de betoverende transformatie van uw foto's in verbluffende animekunstwerken geïnspireerd door de legendarische Studio Ghibli-esthetiek. Onze AI-technologie brengt de magische wereld van animatie naar uw alledaagse momenten.",
     "announcement": {
       "label": "AI",
-      "title": "Gratis & Veilig",
+      "title": "Direct & Magisch",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "Probeer Nu",
+        "title": "Nu Transformeren",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Bekijk Voorbeelden",
+        "title": "Bekijk Gallery",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -79,55 +79,55 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "Ervaar de Magie van AI Gezichtsverwisseling",
+    "title": "Transformeer Foto's in Anime Magie",
     "label": "Hoe Het Werkt",
-    "description": "Transformeer elke foto met onze geavanceerde AI gezichtsverwisselingstechnologie. Snel, nauwkeurig en veilig.",
+    "description": "Verander je gewone foto's in buitengewone anime kunstwerken met behulp van onze geavanceerde AI-technologie. Snel, prachtig, en magisch.",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "Upload Je Foto's",
-        "description": "Upload simpelweg de bronafbeelding en het gezicht waarmee je wilt wisselen.",
+        "title": "Upload Jouw Foto",
+        "description": "Upload eenvoudig een foto die u wilt omzetten in animestijl artwork.",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "AI Verwerking",
-        "description": "Onze AI analyseert en verwerkt de afbeeldingen voor perfecte gezichtswisseling.",
+        "title": "AI Magie",
+        "description": "Onze AI analyseert uw afbeelding en past de geliefde Studio Ghibli esthetiek toe.",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "Directe Resultaten",
-        "description": "Ontvang je getransformeerde afbeelding binnen enkele seconden, klaar om te downloaden.",
+        "title": "Download Kunst",
+        "description": "Ontvang direct uw getransformeerde kunstwerk, klaar om te delen en te koesteren.",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
     "name": "voordeel",
-    "title": "Waarom Kiezen voor AI Face Swap",
+    "title": "Waarom Onze AI Kunst Transformer Kiezen",
     "label": "Voordelen",
-    "description": "Ervaar de beste gezichtswisseltechnologie met geavanceerde functies en beveiliging.",
+    "description": "Ervaar de magie van het transformeren van uw foto's in prachtige anime-stijl kunstwerken met geavanceerde functies.",
     "items": [
       {
-        "title": "Geavanceerde AI Technologie",
-        "description": "Geavanceerde deep learning modellen zorgen voor natuurlijke en realistische gezichtswisselingen.",
+        "title": "Geavanceerde AI-technologie",
+        "description": "State-of-the-art diepgaande leermiddelen zorgen voor mooie en authentieke anime-stijl transformaties.",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Privacy & Beveiliging",
-        "description": "Je foto's worden veilig verwerkt en automatisch verwijderd na verwerking.",
+        "title": "Authentieke Stijl",
+        "description": "Onze AI legt de essentie vast van geliefde anime-esthetiek in elke transformatie.",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Ontwikkelaarsvriendelijk",
-        "description": "Integreer onze gezichtswisseltechnologie in je apps met onze robuuste API.",
+        "title": "Eenvoudige Integratie",
+        "description": "Integreer onze beeldtransformatietechnologie in uw apps met onze robuuste API.",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -137,91 +137,91 @@
   },
   "usage": {
     "name": "gebruik",
-    "title": "Hoe je Online een Gezicht kunt Verwisselen",
-    "description": "Creëer verbluffende afbeeldingen in slechts een paar eenvoudige stappen:",
+    "title": "Transformeer uw foto's in eenvoudige stappen",
+    "description": "Maak verbluffende anime kunstwerken met slechts een paar klikken:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "right",
-    "text_align": "left",
+    "image_position": "rechts",
+    "text_align": "links",
     "items": [
       {
-        "title": "Upload Je Afbeelding",
-        "description": "Klik simpelweg op 'Upload een Afbeelding' en selecteer een foto die je wilt gebruiken als bronafbeelding. Zorg ervoor dat er slechts één gezicht van goede kwaliteit op de foto staat."
+        "title": "Upload uw foto",
+        "description": "Klik op 'Upload een foto' en selecteer elke afbeelding die u wilt transformeren. Foto's met duidelijke onderwerpen werken het beste."
       },
       {
-        "title": "Kies je Gezichtswissel Optie",
-        "description": "Zodra je originele afbeelding klaar is, kies het gewenste wisseleffect uit de gegeven voorinstellingen. Dit betekent dat je het gezicht van je geüploade afbeelding vervangt met de geselecteerde voorinstelling."
+        "title": "Kies stijlopties",
+        "description": "Kies uit verschillende stijlopties om uw transformatie aan te passen. Elke optie brengt unieke artistieke elementen naar uw uiteindelijke stuk."
       },
       {
-        "title": "Wissel Gezicht met AI",
-        "description": "Klik op de 'Wissel Gezicht Nu' knop om de AI zijn magie te laten tonen. AiFaceSwap.app zal binnen enkele seconden het gezicht verwisselen. Onze AI doet het werk automatisch en garandeert het beste resultaat."
+        "title": "AI-transformatie",
+        "description": "Laat onze AI zijn magie uitvoeren. Binnen enkele seconden wordt uw foto omgetoverd tot een prachtig stuk geïnspireerd op anime-kunst."
       },
       {
-        "title": "Bekijk en Download",
-        "description": "Bingo! Je gezicht is verwisseld met wie je maar wilt! Bekijk het eindresultaat op dezelfde pagina. Klik op 'Download' om de afbeelding zonder watermerk op te slaan op je apparaat. Deel het voor de lol!"
+        "title": "Downloaden en delen",
+        "description": "Uw kunstwerk is klaar! Download uw getransformeerde afbeelding in hoge kwaliteit en deel uw magische creatie met de wereld."
       }
     ]
   },
   "feature": {
     "name": "functie",
-    "title": "Krachtige AI Gezichtswissel Functies",
-    "description": "Ontdek de verbazingwekkende mogelijkheden van onze AI-aangedreven gezichtswisseltechnologie",
+    "title": "Magische functies voor uw foto's",
+    "description": "Ontdek de betoverende mogelijkheden van onze AI-kunsttransformatietechnologie",
     "items": [
       {
-        "title": "Realistische Gezichtswissels",
-        "description": "Onze vooruitstrevende technologie zorgt voor perfecte, realistische gezichtswissels, waarbij elk spoor van bewerking volledig wordt verborgen.",
+        "title": "Authentieke Anime Stijl",
+        "description": "Onze AI legt perfect de kenmerkende artistieke stijl vast die animekunst wereldwijd zo geliefd maakt.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Gebruiksvriendelijke Interface",
-        "description": "Met slechts één klik kun je elk gezicht op een andere afbeelding vervangen, waardoor het proces eenvoudig en intuïtief is.",
+        "title": "Eenvoudige Interface",
+        "description": "Transformeer uw foto's met slechts één klik, waardoor de magie van animekunst toegankelijk wordt voor iedereen.",
         "icon": "RiMouseLine"
       },
       {
-        "title": "Meme Creatie",
-        "description": "Maak moeiteloos hilarische memes en versterk de interactie met je publiek door middel van nieuwe en boeiende content.",
+        "title": "Stijlvariaties",
+        "description": "Kies uit verschillende artistieke stijlen om de perfecte look voor uw foto's te vinden.",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "Celebrity Transformaties",
-        "description": "Transformeer je uiterlijk door je gezicht te wisselen met verschillende personages, van filmsterren tot superhelden.",
+        "title": "Hoge Resolutie",
+        "description": "Ontvang prachtige, hoge-resolutie kunstwerken die perfect zijn voor printen of digitale weergave.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "Stijl Experimentatie",
-        "description": "Verken nieuwe looks door je gezicht toe te passen op verschillende karakters, en experimenteer met make-up, kapsels en modestijlen.",
+        "title": "Batchverwerking",
+        "description": "Transformeer meerdere foto's tegelijk om een ​​collectie van animekunstwerken te maken.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "Eindeloze Creativiteit",
-        "description": "Ontgrendel oneindige mogelijkheden voor creativiteit en entertainment met onze veelzijdige gezichtswisseltechnologie.",
+        "title": "Creatieve Vrijheid",
+        "description": "Laat uw creativiteit de vrije loop met verschillende aanpassingsopties voor uw transformaties.",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
     "name": "showcase",
-    "title": "Geweldige Transformaties",
-    "description": "Bekijk wat onze gebruikers hebben gecreëerd met AI Face Swap.",
+    "title": "Magische Transformaties",
+    "description": "Bekijk de verbluffende kunstwerken gemaakt met onze AI-technologie.",
     "items": [
       {
-        "title": "Video Face Swap",
-        "description": "Wissel gezichten in video's, verbeter filmmaking of creëer content voor sociale media",
+        "title": "Landschapstransformatie",
+        "description": "Transformeer uw schilderachtige foto's tot adembenemende anime landschappen",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "Foto Face Swap",
-        "description": "Hiermee kun je hoofden verwisselen en gezichten vervangen in foto's",
+        "title": "Portrettransformatie",
+        "description": "Maak van portretten prachtige karakterkunstwerken in anime-stijl",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "Meervoudige Face Swap",
-        "description": "Wissel meerdere gezichten in familiefoto's, trouwfoto's, feestfoto's, etc",
+        "title": "Groepsfoto transformatie",
+        "description": "Zet groepsfoto's om in charmante anime scènes",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,17 +231,17 @@
   "stats": {
     "name": "statistieken",
     "label": "Statistieken",
-    "title": "Vertrouwd door gebruikers wereldwijd",
-    "description": "Sluit je aan bij duizenden tevreden gebruikers van AI Face Swap.",
+    "title": "Vertrouwd door Kunstenaars Wereldwijd",
+    "description": "Sluit je aan bij duizenden makers die hun foto's transformeren in animekunst.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Tevreden Gebruikers",
+        "title": "Gelukkige Kunstenaars",
         "label": "1M+",
         "description": "Actieve Gebruikers"
       },
       {
-        "title": "Face Swaps",
+        "title": "Transformaties",
         "label": "10M+",
         "description": "Voltooid"
       },
@@ -253,24 +253,24 @@
     ]
   },
   "pricing": {
-    "name": "prijzen",
+    "name": "pricing",
     "label": "Prijzen",
     "title": "Eenvoudige, Transparante Prijzen",
-    "description": "Kies het perfecte plan voor je face swapping behoeften.",
+    "description": "Kies het perfecte plan voor jouw artistieke reis.",
     "toggle": {
-      "monthly": "Maandelijks",
-      "annual": "Jaarlijks",
+      "monthly": "Monthly",
+      "annual": "Annual",
       "default_plan": "jaarlijks",
       "discount_text": "KRIJG 2 MAANDEN GRATIS JAARLIJKS"
     },
-    "cancel_text": "Altijd opzegbaar. Geen verborgen kosten",
+    "cancel_text": "Altijd annuleren. Geen verborgen kosten",
     "items": [
       {
         "product_title": "Free",
-        "description": "Perfect voor persoonlijk gebruik",
+        "description": "Perfect om uit te proberen",
         "features": [
           {
-            "text": "Onbeperkte gezichtswisselingen met watermerk",
+            "text": "Beperkte transformaties met watermerk",
             "included": true
           },
           {
@@ -282,7 +282,7 @@
             "included": true
           },
           {
-            "text": "Geen GIF- of videogegevensuitwisseling",
+            "text": "Geen batchverwerking",
             "included": false
           }
         ],
@@ -299,7 +299,7 @@
         "currency": "USD",
         "unit": "maand",
         "is_featured": false,
-        "tip": "Geweldig om mee te beginnen!",
+        "tip": "Ideaal om te beginnen!",
         "product_id": {
           "monthly": "price_free",
           "annual": "price_free"
@@ -310,22 +310,22 @@
       },
       {
         "product_title": "Basic",
-        "description": "Voor gevorderde gebruikers",
+        "description": "Voor reguliere makers",
         "features": [
           {
-            "text": "600 credits per maand",
+            "text": "600 transformaties per maand",
             "included": true
           },
           {
-            "text": "600 watermark-vrije gezichtswisselingen",
+            "text": "600 watervrije kunstwerken",
             "included": true
           },
           {
-            "text": "of 200 GIF-gezichtswisselingen",
+            "text": "Uitvoer met hoge resolutie",
             "included": true
           },
           {
-            "text": "of 24 video gezichtswissels",
+            "text": "Batchverwerking tot 10 afbeeldingen",
             "included": true
           },
           {
@@ -333,7 +333,7 @@
             "included": true
           },
           {
-            "text": "Voorrangsondersteuning",
+            "text": "Prioritaire ondersteuning",
             "included": true
           }
         ],
@@ -345,7 +345,7 @@
           "annual": {
             "amount": 10000,
             "price": "$10",
-            "savings_text": "Bespaar $24 per jaar"
+            "savings_text": "Bespaar $24/jaar"
           }
         },
         "currency": "USD",
@@ -360,33 +360,33 @@
         "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "Pro Versie Krijgen",
+          "title": "Krijg Basis",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
         "product_title": "Pro",
-        "description": "Voor bedrijven",
+        "description": "Voor professionele kunstenaars",
         "features": [
           {
-            "text": "Onbeperkte watermerkvrije gezichtswissels",
+            "text": "Onbeperkte transformaties",
             "included": true
           },
           {
-            "text": "Onbeperkte GIF gezichtswissels",
+            "text": "Ultrascherpe uitvoer",
             "included": true
           },
           {
-            "text": "64 video gezichtswissels",
+            "text": "Geavanceerde stijlaanpassing",
             "included": true
           },
           {
-            "text": "Supersnelle verwerking",
+            "text": "Onbeperkte batchverwerking",
             "included": true
           },
           {
-            "text": "24/7 prioritaire ondersteuning",
+            "text": "24/7 prioriteitsondersteuning",
             "included": true
           }
         ],
@@ -398,13 +398,13 @@
           "annual": {
             "amount": 20000,
             "price": "$20",
-            "savings_text": "Bespaar $48 per jaar"
+            "savings_text": "Bespaar $48/jaar"
           }
         },
         "currency": "USD",
         "unit": "maand",
         "is_featured": false,
-        "tip": "Het beste voor bedrijven!",
+        "tip": "Beste voor professionals!",
         "product_id": {
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
@@ -413,9 +413,9 @@
         "credits": 1600,
         "valid_months": 1,
         "button": {
-          "title": "Contact Verkoop",
-          "url": "/#contact",
-          "icon": "RiCustomerServiceLine"
+          "title": "Krijg Pro",
+          "url": "/#signup",
+          "icon": "RiFlashlightFill"
         }
       }
     ]
@@ -423,14 +423,14 @@
   "testimonial": {
     "name": "testimonial",
     "label": "Getuigenissen",
-    "title": "Wat Onze Gebruikers Zeggen",
-    "description": "Hoor van mensen die graag AI Face Swap gebruiken.",
+    "title": "Wat Onze Kunstenaars Zeggen",
+    "description": "Hoor van mensen die graag onze AI-kunsttransformatie gebruiken.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "Professionele Fotograaf",
-        "description": "De kwaliteit van de face swaps is ongelooflijk! Ik gebruik het voor professionele portretfoto's en de resultaten zijn altijd perfect.",
+        "label": "Digitale artiest",
+        "description": "De kwaliteit van de anime-transformaties is ongelooflijk! Ik gebruik het voor het maken van unieke kunstwerken en de resultaten zijn altijd magisch.",
         "image": {
           "src": "/imgs/users/1.png"
         }
@@ -438,15 +438,15 @@
       {
         "title": "Mike Chen",
         "label": "Content Creator",
-        "description": "De API is super eenvoudig te integreren en de verwerkingssnelheid is geweldig. Perfect voor mijn content creatie behoeften.",
+        "description": "De API is super eenvoudig te integreren, en de transformatiesnelheid is geweldig. Perfect voor mijn creatieve projecten.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "Social Media Manager",
-        "description": "De meerdere face swap functie is een game-changer. Maakt het creëren van boeiende content zo veel makkelijker!",
+        "label": "Social Media Artiest",
+        "description": "De functie voor batchverwerking is baanbrekend. Maakt het veel gemakkelijker om thematische collecties te maken!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -455,49 +455,49 @@
   },
   "faq": {
     "name": "faq",
-    "label": "FAQ",
-    "title": "Veelgestelde Vragen",
-    "description": "Vragen? Wij hebben de antwoorden.",
+    "label": "Veelgestelde vragen",
+    "title": "Veelgestelde vragen",
+    "description": "Vragen? Wij hebben antwoorden.",
     "items": [
       {
-        "title": "Hoe werkt AI Face Swap?",
-        "description": "Onze geavanceerde AI-technologie analyseert gezichtskenmerken in beide afbeeldingen en wisselt ze vervolgens naadloos uit met behoud van natuurlijke looks en expressies. Het proces duurt slechts enkele seconden en zorgt voor hoogwaardige resultaten."
+        "title": "Hoe werkt Afbeelding naar Ghibli?",
+        "description": "Onze geavanceerde AI-technologie analyseert uw foto's en transformeert ze in prachtige anime-stijl kunstwerken geïnspireerd op de esthetiek van Studio Ghibli. Het proces duurt slechts enkele seconden en zorgt voor hoogwaardige resultaten."
       },
       {
-        "title": "Zijn mijn gegevens veilig?",
-        "description": "Ja, absoluut! We nemen privacy zeer serieus. Alle geüploade foto's worden veilig verwerkt en automatisch verwijderd na verwerking. We slaan uw afbeeldingen nooit op en delen ze niet zonder toestemming."
+        "title": "Is mijn data veilig?",
+        "description": "Ja, absoluut! Wij nemen privacy zeer serieus. Alle geüploade foto's worden veilig verwerkt en automatisch verwijderd na verwerking. Wij slaan nooit uw afbeeldingen op of delen ze zonder toestemming."
       },
       {
-        "title": "Welke afbeeldingsformaten worden ondersteund?",
-        "description": "We ondersteunen alle gangbare afbeeldingsformaten, waaronder JPG, PNG en WEBP. Voor de beste resultaten raden we aan om duidelijke, goed belichte foto's met zichtbare gezichten te gebruiken."
+        "title": "Welke afbeeldingsindelingen worden ondersteund?",
+        "description": "Wij ondersteunen alle gangbare afbeeldingsindelingen, waaronder JPG, PNG en WEBP. Voor de beste resultaten raden wij aan om duidelijke, goed belichte foto's te gebruiken."
       },
       {
-        "title": "Kan ik meerdere gezichten in één afbeelding verwisselen?",
-        "description": "Ja! Onze Pro- en Enterprise-abonnementen ondersteunen meerdere gezichtswissels in één afbeelding. U kunt verschillende gezichten met verschillende bronafbeeldingen in één keer verwisselen."
+        "title": "Kan ik meerdere foto's tegelijk transformeren?",
+        "description": "Ja! Onze Pro en Enterprise plannen ondersteunen batchverwerking, waardoor u meerdere foto's tegelijk kunt transformeren met behoud van consistente stijl."
       },
       {
-        "title": "Bieden jullie een API aan?",
-        "description": "Ja, we bieden een robuuste API voor ontwikkelaars om onze gezichtswisseltechnologie in hun applicaties te integreren. API-toegang is beschikbaar bij onze Pro- en Enterprise-abonnementen."
+        "title": "Biedt u een API aan?",
+        "description": "Ja, wij bieden een uitgebreide API voor ontwikkelaars om onze transformatietechnologie in hun toepassingen te integreren. API-toegang is beschikbaar bij onze Pro en Enterprise plannen."
       },
       {
         "title": "Wat is jullie restitutiebeleid?",
-        "description": "We bieden een 100% tevredenheidsgarantie. Als u niet tevreden bent met onze service, neem dan binnen 7 dagen na uw aankoop contact met ons op voor een volledige terugbetaling."
+        "description": "Wij bieden een 100% tevredenheidsgarantie. Als u niet tevreden bent met onze service, neem dan binnen 7 dagen na uw aankoop contact met ons op voor een volledige restitutie."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Begin Vandaag Nog Met Het Transformeren Van Je Foto's",
-    "description": "Sluit je aan bij miljoenen tevreden gebruikers en ervaar de magie van AI Face Swap.",
+    "title": "Begin vandaag nog uw artistieke reis",
+    "description": "Sluit u aan bij miljoenen makers en ervaar de magie van AI-kunsttransformatie.",
     "buttons": [
       {
-        "title": "Probeer Gratis",
+        "title": "Gratis proberen",
         "url": "/#signup",
         "target": "_self",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Bekijk Voorbeelden",
+        "title": "Galerij bekijken",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,15 +507,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "Transformeer je foto's met geavanceerde AI-gezichtswisseltechnologie. Snel, veilig en gebruiksvriendelijk.",
+      "title": "Afbeelding naar Ghibli",
+      "description": "Transformeer uw foto's in verbluffende anime-stijl kunstwerken met geavanceerde AI-technologie. Snel, veilig en makkelijk in gebruik.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Afbeelding naar Ghibli"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap Alle rechten voorbehouden.",
+    "copyright": "© 2024 • Afbeelding naar Ghibli Alle rechten voorbehouden.",
     "nav": {
       "items": [
         {
@@ -545,7 +545,7 @@
         {
           "title": "E-mail",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
@@ -564,85 +564,85 @@
     }
   },
   "faceSwap": {
-    "photoFaceSwap": "Foto Gezichtswissel",
-    "videoFaceSwap": "Video Gezichtswissel",
-    "multipleFaceSwap": "Meervoudige Gezichtswissel",
-    "gifFaceSwap": "GIF Gezichtswissel",
+    "photoFaceSwap": "Foto Face Swap",
+    "videoFaceSwap": "Video Face Swap",
+    "multipleFaceSwap": "Meerdere Face Swap",
+    "gifFaceSwap": "GIF Face Swap",
     "uploadOriginalImage": "Upload Originele Afbeelding",
     "uploadFaceImage": "Upload Gezichtsafbeelding",
-    "startFaceSwap": "Start Gezichtswissel",
-    "swapFace": "Wissel Gezicht",
-    "processing": "Bezig met verwerken...",
+    "startFaceSwap": "Start Gezichtsvervanging",
+    "swapFace": "Gezicht Vervangen",
+    "processing": "Verwerken...",
     "before": "Voor",
     "after": "Na",
-    "uploadImage": "Afbeelding uploaden",
-    "readyToSwap": "Klaar om te wisselen",
-    "uploadBothImages": "Upload beide afbeeldingen",
-    "comingSoon": "Binnenkort beschikbaar",
+    "uploadImage": "Afbeelding Uploaden",
+    "readyToSwap": "Klaar om te Vervangen",
+    "uploadBothImages": "Upload Beide Afbeeldingen",
+    "comingSoon": "Binnenkort Beschikbaar",
     "download": "Downloaden",
-    "splitView": "Gesplitste weergave",
-    "compareView": "Vergelijkende weergave",
+    "splitView": "Gesplitst Beeld",
+    "compareView": "Vergelijkingsweergave",
     "zoomIn": "Inzoomen",
-    "swapInProgress": "Gezichtswissel wordt uitgevoerd...",
+    "swapInProgress": "Gezichtsruil in uitvoering...",
     "completeSoon": "Zal binnen enkele seconden voltooid zijn",
     "magicHappening": "Magie gebeurt...",
     "uploadGif": "Upload GIF",
-    "uploadFacePhoto": "Upload Gezichtsfoto",
-    "startGifFaceSwap": "Start GIF-Gezichtswap",
-    "swapGifFace": "GIF-Gezichtswaps",
+    "uploadFacePhoto": "Upload gezichtsfoto",
+    "startGifFaceSwap": "Start GIF gezichtsruil",
+    "swapGifFace": "Ruilen GIF-gezicht",
     "preview": "Voorbeeld",
     "gifPreview": "GIF-voorbeeld",
-    "swapResult": "Swapresultaat",
+    "swapResult": "Ruilverhouding",
     "pleaseUploadGif": "Upload alstublieft een GIF",
-    "gifSwapInProgress": "GIF-gezichtswap bezig...",
+    "gifSwapInProgress": "GIF-gezichtsruil in uitvoering...",
     "gifCompleteSoon": "Dit kan even duren, wees geduldig",
     "watermarkNotice": "Onvoldoende credits, watermerk toegevoegd",
     "gifFormat": "GIF",
-    "wantRemoveWatermark": "Wilt u het watermerk verwijderen?",
-    "upgradePremium": "Ontgrendel Premium-functies",
-    "watermarkDescription": "Abonneer u vandaag om te kunnen genieten van alle premium-functies van ons platform.",
-    "premiumBenefits": "Met een abonnement krijgt u:",
+    "wantRemoveWatermark": "Wil je het watermerk verwijderen?",
+    "upgradePremium": "Ontgrendel Premium Functies",
+    "watermarkDescription": "Abonneer vandaag om te genieten van alle premium functies van ons platform.",
+    "premiumBenefits": "Met een abonnement krijg je:",
     "benefit1": "Advertentievrije ervaring",
     "benefit2": "Foto's zonder watermerk",
-    "benefit3": "Mogelijkheid tot GIF-gezichtswap",
-    "benefit4": "Video face swap capaciteit",
-    "subscribeNow": "Abonneer nu",
+    "benefit3": "GIF gezichtsruil mogelijkheid",
+    "benefit4": "Video gezichtsruil mogelijkheid",
+    "subscribeNow": "Abonneer Nu",
     "uploadVideo": "Upload Video",
-    "pleaseUploadVideo": "Gelieve een video te uploaden",
-    "videoPreview": "Video Voorbeeld",
-    "videoSwapInProgress": "Video face swap bezig...",
-    "videoCompleteSoon": "Dit kan even duren, gelieve geduld te hebben",
-    "videoFormat": "M4V, MP4, MOV videos",
+    "pleaseUploadVideo": "Upload alsjeblieft een video",
+    "videoPreview": "Videovoorbeeld",
+    "videoSwapInProgress": "Video gezichtsruil bezig...",
+    "videoCompleteSoon": "Dit kan even duren, wees geduldig",
+    "videoFormat": "M4V, MP4, MOV video's",
     "videoSizeLimit": "Abonnees: 10MB / 20s",
-    "videoFaceTip": "Zorg ervoor dat er aan het begin van de video een duidelijk frontaal gezicht verschijnt",
+    "videoFaceTip": "Zorg ervoor dat er een duidelijk frontaal gezicht aan het begin van de video verschijnt",
     "startVideoFaceSwap": "Start Video Gezichtsruil",
-    "swapVideoFace": "Ruil Video Gezicht",
-    "videoSizeError": "Videobestand overschrijdt 10MB. Gelieve een kleiner video-bestand te uploaden.",
-    "videoDurationError": "Videoduur overschrijdt 20 seconden. Gelieve een kortere video te uploaden.",
+    "swapVideoFace": "Gezichtsruil Video",
+    "videoSizeError": "Videobestand groter dan 10MB. Gelieve een kleiner video te uploaden.",
+    "videoDurationError": "Videolengte groter dan 20 seconden. Gelieve een kortere video te uploaden.",
     "gif": {
-      "title": "GIF-Gezichtswap - Maak grappige GIF-Gezichtswaps met AI-technologie",
-      "description": "Verwissel gezichten op GIFs met behulp van onze geavanceerde AI-technologie. Maak in enkele seconden grappige, deelbare GIFs. Geen registratie vereist, gratis te gebruiken, onbeperkte swaps!",
-      "heading": "Maak grappige GIF-Gezichtswaps",
-      "subheading": "Upload uw GIFs en maak in slechts een paar klikken grappige, deelbare afbeeldingen!",
+      "title": "GIF Gezichtsruil - Maak Hilarische GIF Gezichtsruils met AI-technologie",
+      "description": "Ruil gezichten op GIFs met onze geavanceerde AI-technologie. Maak grappige, deelbare GIFs in enkele seconden. Geen registratie vereist, gratis te gebruiken, onbeperkte ruils!",
+      "heading": "Maak Hilarische GIF Gezichtsruils",
+      "subheading": "Upload je GIFs en maak plezierige, deelbare afbeeldingen met slechts een paar klikken!",
       "features": {
-        "title": "Kenmerken van GIF-gezichtswap",
+        "title": "Kenmerken van GIF Gezichtsruil",
         "items": [
           {
-            "title": "Directe gezichtswap",
-            "description": "Onze tool biedt snelle en efficiënte real-time gezichtswap. Upload gewoon uw GIF en onze AI kan direct gezichten herkennen en vervangen, zodat u meteen de resultaten kunt bekijken."
+            "title": "Direct Gezichtsruilen",
+            "description": "Onze tool biedt snelle en efficiënte realtime gezichtsruil. Upload eenvoudig je GIF, en onze AI kan direct gezichten herkennen en vervangen, waardoor je de resultaten meteen kunt bekijken."
           },
           {
-            "title": "Verbeterde sociale interactie",
-            "description": "Deel leuke GIFs met vrienden om sociale interactie te bevorderen en humor toe te voegen. Perfect voor verschillende sociale media platforms om uw inhoud boeiender te maken."
+            "title": "Verbeterde Sociale Interactie",
+            "description": "Deel leuke GIFs met vrienden om sociale interactie te bevorderen en humor toe te voegen. Perfect voor verschillende sociale mediaplatforms om je content boeiender te maken."
           },
           {
-            "title": "Ondersteuning voor meerdere formaten",
+            "title": "Ondersteuning voor Meerdere Formaten",
             "description": "Naast het GIF-formaat ondersteunt onze tool verschillende beeldindelingen, waardoor het gemakkelijk is om bestanden van verschillende bronnen te uploaden voor een flexibele gebruikerservaring."
           }
         ]
       },
       "howTo": {
-        "title": "Hoe gezichten te wisselen in een GIF",
+        "title": "Hoe Gezichten in GIF Verwisselen",
         "steps": [
           {
             "number": "1",
@@ -651,13 +651,13 @@
           },
           {
             "number": "2",
-            "title": "Upload een doelgezichtfoto",
+            "title": "Upload een doelgezichtafbeelding",
             "description": "Upload een foto van het gezicht dat je wilt gebruiken als vervanging. Duidelijkheid van het gezicht is vereist."
           },
           {
             "number": "3",
             "title": "Wacht op generatie",
-            "description": "Klik op de \"Swap GIF-gezicht\" knop en wacht tot onze AI uw nieuwe GIF genereert met verwisselde gezichten."
+            "description": "Klik op de knop 'Gezicht in GIF Verwisselen' en wacht tot onze AI uw nieuwe GIF met verwisselde gezichten genereert."
           }
         ]
       },
@@ -665,39 +665,39 @@
         "title": "Meerdere Gebruiksscenario's",
         "items": [
           {
-            "title": "Delen op sociale media",
-            "description": "Deel je leuke GIFs op grote sociale mediaplatforms zoals Instagram, Facebook en Twitter om interactie te verbeteren en aandacht te trekken."
+            "title": "Delen op Sociale Media",
+            "description": "Deel je leuke GIF's op belangrijke sociale mediaplatforms zoals Instagram, Facebook en Twitter om interactie te verbeteren en aandacht te trekken."
           },
           {
-            "title": "Comedy Inhoud Creatie",
-            "description": "Contentmakers kunnen GIF Face Swap gebruiken om grappige video's en clips te produceren, waardoor hun inhoud wordt verrijkt en meer kijkers worden aangetrokken."
+            "title": "Content creatie van komedie",
+            "description": "Content makers kunnen GIF Face Swap gebruiken om grappige video's en clips te maken, waardoor hun inhoud verrijkt wordt en meer kijkers aantrekt."
           },
           {
-            "title": "Evenement- en Feestuitnodigingen",
-            "description": "Maak gepersonaliseerde uitnodiging GIFs voor feesten of evenementen om ze boeiender en aantrekkelijker te maken, waardoor de interesse in deelname toeneemt."
+            "title": "Evenement- en feestuitnodigingen",
+            "description": "Maak gepersonaliseerde uitnodigings-GIFs voor feesten of evenementen om ze boeiender en aantrekkelijker te maken, waardoor de interesse in deelname toeneemt."
           }
         ]
       }
     },
     "video": {
       "title": "Video Face Swap | AIFACESWAP.APP",
-      "description": "Transformeer je video's met geavanceerde AI-video-gezichtsverwisselingstechnologie.",
+      "description": "Transformeer uw video's met geavanceerde AI-video-gezichtsruiltechnologie.",
       "heading": "AI Video Face Swap",
-      "subheading": "Ervaar krachtige AI-gezichtsverwisseling voor video's, waardoor elke frame spannend en naadloos wordt. Vervang direct gezichten om leuke, boeiende of professionele inhoud te creëren.",
+      "subheading": "Ervaar krachtige AI-gezichtsruil voor video's, waardoor elke frame opwindend en naadloos wordt. Vervang direct gezichten om leuke, boeiende of professionele inhoud te maken.",
       "features": {
-        "title": "Kenmerken van onze Video Face Swap",
+        "title": "Kenmerken van onze video-gezichtsruil",
         "items": [
           {
             "title": "Naadloze gezichtsvervanging",
-            "description": "Onze geavanceerde AI zorgt voor een soepele, frame-voor-frame gezichtsverwisseling die natuurlijke expressies en bewegingen behoudt gedurende de hele video."
+            "description": "Onze geavanceerde AI zorgt voor een soepele, frame-voor-frame gezichtsruil die natuurlijke expressies en bewegingen gedurende de hele video behoudt."
           },
           {
-            "title": "Resultaten van hoge kwaliteit",
-            "description": "Ervaar professionele video-gezichtswisselingen met constante belichting, realistische huidtinten en nauwkeurige mapping van gezichtskenmerken."
+            "title": "Hoogwaardige resultaten",
+            "description": "Ervaar video-gezichtsruilen van professionele kwaliteit met consistente belichting, realistische huidtinten en nauwkeurige kaarten van gezichtskenmerken."
           },
           {
             "title": "Gebruiksvriendelijk proces",
-            "description": "Met onze intuïtieve interface is het vervangen van gezichten in video's net zo eenvoudig als het uploaden van uw video, het selecteren van een gezichtsafbeelding en het gebruik van onze AI om het werk te doen."
+            "description": "Met onze intuïtieve interface is het vervangen van gezichten in video's net zo eenvoudig als het uploaden van uw video, het selecteren van een gezichtsbeeld en het laten doen van ons AI-werk."
           }
         ]
       },
@@ -707,51 +707,51 @@
           {
             "number": "1",
             "title": "Upload uw video",
-            "description": "Selecteer en upload de video waarin u een gezicht wilt verwisselen. We ondersteunen verschillende veelvoorkomende videoformaten."
+            "description": "Selecteer en upload de video waarin u een gezicht wilt verwisselen. We ondersteunen diverse gangbare videoformaten."
           },
           {
             "number": "2",
             "title": "Upload een gezichtsfoto",
-            "description": "Kies een duidelijke gezichtsfoto om te verwisselen. Gebruik voor de beste resultaten een hoogwaardige afbeelding met een zichtbaar gezicht."
+            "description": "Kies een duidelijke gezichtsfoto om te verwisselen. Gebruik voor de beste resultaten een afbeelding van hoge kwaliteit met een goed zichtbaar gezicht."
           },
           {
             "number": "3",
-            "title": "Genereer uw gezichtswissel video",
-            "description": "Met slechts één klik verwerkt onze AI uw video om een ​​soepele, hoogwaardige gezichtswisseling te creëren."
+            "title": "Genereer uw gezichtsverwisselingsvideo",
+            "description": "Met slechts één klik verwerkt onze AI uw video om een vloeiende, hoogwaardige gezichtsverwisseling te creëren."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Creatieve toepassingen voor video-gezichtswissel",
+        "title": "Creatieve toepassingen voor video-gezichtsverwisseling",
         "items": [
           {
-            "title": "Recreatie van filmscène",
-            "description": "Stap in iconische filmmomenten door gezichten te verwisselen met je favoriete acteurs. Creëer unieke filmische ervaringen met jezelf of vrienden als de sterren."
+            "title": "Hercreatie van filmscènes",
+            "description": "Stap in iconische filmmomenten door gezichten te verwisselen met uw favoriete acteurs. Creëer unieke filmervaringen met uzelf of vrienden als sterren."
           },
           {
             "title": "Inhoud voor sociale media",
-            "description": "Creëer boeiende en viraalwaardige inhoud voor TikTok, Instagram en YouTube met vermakelijke gezichtsverwisselingsvideo's die de aandacht van kijkers trekken."
+            "description": "Creëer boeiende en viraalwaardige inhoud voor TikTok, Instagram en YouTube met entertainende gezichtsverwisselingsvideo's die de aandacht van kijkers trekken."
           },
           {
-            "title": "Video's voor speciale gelegenheden",
-            "description": "Maak verjaardagen, bruiloften en vieringen onvergetelijk door gepersonaliseerde video's te maken met gezichtsverwisselingen van de eregasten."
+            "title": "Speciale Gelegenheid Video's",
+            "description": "Maak verjaardagen, bruiloften en vieringen memorabel door gepersonaliseerde video's te maken met gezichtsverwisselingen van de eregasten."
           }
         ]
       },
       "faq": {
-        "title": "Veelgestelde vragen",
+        "title": "Veelgestelde Vragen",
         "items": [
           {
             "title": "Hoe lang duurt het om mijn video te verwerken?",
-            "description": "De verwerkingstijd is afhankelijk van de lengte en kwaliteit van de video, maar onze geavanceerde AI streeft ernaar om snel resultaten te leveren met behoud van hoge kwaliteit."
+            "description": "De verwerkingstijd is afhankelijk van de videolengte en -kwaliteit, maar onze geavanceerde AI streeft ernaar om snel resultaten te leveren met behoud van hoge kwaliteit."
           },
           {
             "title": "Welke videoformaten worden ondersteund?",
-            "description": "Onze service ondersteunt gangbare videoformaten, waaronder MP4, MOV en AVI."
+            "description": "Onze service ondersteunt gangbare videoformaten zoals MP4, MOV en AVI."
           },
           {
-            "title": "Zal er een limiet zijn aan de videolengte?",
-            "description": "Gratis gebruikers hebben toegang tot kortere videoverwerking, terwijl premium-abonnees kunnen genieten van langere videondersteuning."
+            "title": "Zal er een limiet zijn voor de videolengte?",
+            "description": "Gratis gebruikers hebben toegang tot kortere videoverwerking, terwijl premium-abonnees kunnen genieten van ondersteuning voor langere video's."
           }
         ]
       }

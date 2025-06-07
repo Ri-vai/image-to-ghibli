@@ -1,24 +1,24 @@
 {
-  "template": "ai-face-swap",
+  "template": "image-to-ghibli",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "AI 換臉",
+      "title": "影像轉干脆面",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI 換臉"
+        "alt": "影像轉干脆面"
       },
       "url": "/"
     },
     "nav": {
       "items": [
         {
-          "title": "功能特色",
+          "title": "特色",
           "url": "/#feature",
           "icon": "HiOutlineSparkles"
         },
         {
-          "title": "價格方案",
+          "title": "價格",
           "url": "#pricing",
           "icon": "MdPayment"
         },
@@ -31,7 +31,7 @@
     },
     "buttons": [
       {
-        "title": "立即體驗",
+        "title": "立即嘗試",
         "url": "/#try",
         "target": "_self",
         "variant": "link",
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "最佳線上免費 AI 換臉",
-    "highlight_text": "AI 換臉",
-    "description": "進入創新的 AI 換臉領域，體驗最先進的技術與無限娛樂的完美結合。輕鬆修改圖片和影片，開啟前所未有的數位可能性。",
+    "title": "將您的照片轉換為神奇的動漫藝術",
+    "highlight_text": "宫崎骏风格",
+    "description": "體驗您的照片被轉換為令人驚嘆的動漫藝術，靈感來自傳奇的宫崎骏美學。我們的人工智能技術將動畫的神奇世界帶入您的日常時刻。",
     "announcement": {
-      "label": "AI",
-      "title": "免費且安全",
+      "label": "人工智能",
+      "title": "即時＆神奇",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "立即試用",
+        "title": "立即轉換",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "查看範例",
+        "title": "查看畫廊",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -79,55 +79,55 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "體驗AI換臉的魔力",
-    "label": "運作方式",
-    "description": "使用我們先進的AI換臉技術轉換任何照片。快速、準確且安全。",
+    "title": "將照片轉變為動漫魔法",
+    "label": "工作原理",
+    "description": "使用我們的先進AI技術將您的普通照片轉變為非凡的動漫藝術品。快速、美麗且神奇。",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
         "title": "上傳您的照片",
-        "description": "只需上傳原始圖片和您想要替換的臉部。",
+        "description": "只需上傳任何您想轉換為動畫風格藝術品的照片。",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "AI 處理",
-        "description": "我們的 AI 分析並處理圖像以實現完美的臉部替換。",
+        "title": "AI 魔法",
+        "description": "我們的人工智能分析您的圖片並應用受人喜愛的吉卜力工作室美學。",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "即時結果",
-        "description": "在幾秒鐘內獲得您的轉換後的圖像，可立即下載。",
+        "title": "下載藝術品",
+        "description": "立即獲得您轉換後的藝術品，隨時準備分享和珍惜。",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
-    "name": "優勢",
-    "title": "為什麼選擇 AI 換臉",
-    "label": "優勢",
-    "description": "體驗具有先進功能和安全性的最佳換臉技術。",
+    "name": "benefit",
+    "title": "為何選擇我們的 AI 藝術轉換器",
+    "label": "好處",
+    "description": "體驗將您的照片轉換為令人驚歎的動畫風格藝術品的魔力，擁有先進功能。",
     "items": [
       {
         "title": "先進的 AI 技術",
-        "description": "最先進的深度學習模型確保自然逼真的臉部替換。",
+        "description": "最先進的深度學習模型確保美麗和真實的動畫風格轉換。",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "隱私與安全",
-        "description": "您的照片經過安全處理，處理後會自動刪除。",
+        "title": "真實風格",
+        "description": "我們的人工智能捕捉每次轉換中受人喜愛的動畫美學的本質。",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "開發者友好",
-        "description": "通過我們強大的 API 將換臉技術整合到您的應用程序中。",
+        "title": "輕鬆整合",
+        "description": "使用我們堅固的 API，將我們的圖像轉換技術整合到您的應用程式中。",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -136,92 +136,92 @@
     ]
   },
   "usage": {
-    "name": "usage",
-    "title": "如何在線上換臉",
-    "description": "只需幾個簡單步驟即可創建令人驚艷的圖像：",
+    "name": "使用方法",
+    "title": "簡單步驟轉換您的照片",
+    "description": "只需幾個點擊，創建令人驚嘆的動漫藝術品：",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "right",
-    "text_align": "left",
+    "image_position": "右側",
+    "text_align": "左對齊",
     "items": [
       {
-        "title": "上傳您的圖片",
-        "description": "只需點擊「上傳圖片」並選擇您想要用作來源圖片的照片。請確保照片中只有一張臉且品質良好。"
+        "title": "上傳您的照片",
+        "description": "點擊“上傳照片”，選擇要轉換的任何圖像。清晰的主題照片效果最佳。"
       },
       {
-        "title": "選擇換臉選項",
-        "description": "當您的原始圖片準備就緒後，從給定的預設中選擇所需的換臉效果。這意味著您將用所選的預設來替換上傳圖片中的臉。"
+        "title": "選擇風格選項",
+        "description": "從各種風格選項中選擇，定製您的轉換。每個選項都會為您的最終作品帶來獨特的藝術元素。"
       },
       {
-        "title": "使用AI換臉",
-        "description": "點擊「立即換臉」按鈕讓AI展現其魔力。AiFaceSwap.app 將在幾秒鐘內完成換臉。我們的AI會自動完成工作，同時確保最佳輸出效果。"
+        "title": "AI轉換",
+        "description": "讓我們的AI發揮魔力。幾秒鐘內，您的照片將被轉換為一幅美麗的受動漫啟發的藝術品。"
       },
       {
-        "title": "預覽和下載",
-        "description": "太棒了！您的臉已經換成您喜歡的樣子！在同一頁面上預覽最終結果。點擊「下載」將無浮水印的圖片保存到您的設備。分享給大家同樂！"
+        "title": "下載並分享",
+        "description": "您的藝術作品已準備就緒！以高品質下載您的轉換圖像，並與世界分享您的神奇創作。"
       }
     ]
   },
   "feature": {
-    "name": "feature",
-    "title": "強大的AI換臉功能",
-    "description": "探索我們AI動力臉部替換技術的驚人功能",
+    "name": "功能",
+    "title": "為您的照片帶來神奇功能",
+    "description": "發現我們的AI藝術轉換技術迷人的功能",
     "items": [
       {
-        "title": "真實的臉部替換",
-        "description": "我們的前沿技術確保完美、逼真的臉部替換，完全消除任何編輯痕跡。",
+        "title": "正宗的動漫風格",
+        "description": "我們的AI完美捕捉到使動漫藝術在全球如此受喜愛的獨特藝術風格。",
         "icon": "RiImageLine"
       },
       {
-        "title": "簡易操作介面",
-        "description": "只需一鍵點擊，即可將任何臉部替換到另一張圖片上，讓整個過程簡單直觀。",
+        "title": "簡單界面",
+        "description": "只需點擊一下即可轉換您的照片，讓動漫藝術的魔力對所有人都輕鬆可得。",
         "icon": "RiMouseLine"
       },
       {
-        "title": "迷因製作",
-        "description": "輕鬆製作有趣的迷因，透過新穎有趣的內容提升與觀眾的互動。",
+        "title": "風格變化",
+        "description": "選擇不同的藝術風格，找到適合您照片的完美外觀。",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "名人變身",
-        "description": "透過將您的臉部與各種角色替換，從電影明星到超級英雄，徹底改變您的外表。",
+        "title": "高解析度",
+        "description": "獲取美麗的高解析度藝術作品，非常適合打印或數位展示。",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "風格實驗",
-        "description": "將您的臉部套用到不同角色上，嘗試各種妝容、髮型和時尚風格，探索全新造型。",
+        "title": "批次處理",
+        "description": "一次轉換多張照片，創建一系列的動漫藝術品。",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "無限創意",
-        "description": "透過我們多功能的臉部替換技術，釋放無限的創意和娛樂潛力。",
+        "title": "創意自由",
+        "description": "通過各種自定選項釋放您的創意，為您的轉換帶來更多可能性。",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
-    "name": "展示",
-    "title": "精彩變身",
-    "description": "查看我們的用戶使用 AI 換臉所創作的作品。",
+    "name": "showcase",
+    "title": "神奇的轉換",
+    "description": "使用我們的AI技術創建的令人驚嘆的藝術品。",
     "items": [
       {
-        "title": "影片換臉",
-        "description": "在影片中替換臉孔，提升電影製作或創作社群媒體內容",
+        "title": "景觀轉換",
+        "description": "將您的風景照片變成令人驚嘆的動漫風景",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "照片換臉",
-        "description": "讓您可以在照片中替換頭部和臉部",
+        "title": "肖像轉換",
+        "description": "將肖像轉換為美麗的動漫風格人物藝術作品",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "多人換臉",
-        "description": "在家庭照片、婚禮照片、派對照片等中替換多個臉孔",
+        "title": "團體照片轉換",
+        "description": "將團體照片轉換為迷人的動漫場景",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,17 +231,17 @@
   "stats": {
     "name": "統計",
     "label": "統計",
-    "title": "全球用戶信賴",
-    "description": "加入數千名使用 AI 換臉的滿意用戶。",
+    "title": "得到全球藝術家的信任",
+    "description": "加入成千上萬的創作者，將他們的照片轉換成動漫藝術品。",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "快樂用戶",
+        "title": "快樂的藝術家",
         "label": "1M+",
         "description": "活躍用戶"
       },
       {
-        "title": "換臉次數",
+        "title": "轉換數量",
         "label": "10M+",
         "description": "已完成"
       },
@@ -253,24 +253,24 @@
     ]
   },
   "pricing": {
-    "name": "定價",
-    "label": "定價",
-    "title": "簡單透明的價格",
-    "description": "為您的換臉需求選擇完美的方案。",
+    "name": "pricing",
+    "label": "價格",
+    "title": "簡單、透明的價格",
+    "description": "為您的藝術之旅選擇完美的方案。",
     "toggle": {
-      "monthly": "每月",
-      "annual": "每年",
-      "default_plan": "annual",
-      "discount_text": "以年計算，2個月免費"
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "default_plan": "年度",
+      "discount_text": "年費免費 2 個月"
     },
-    "cancel_text": "隨時取消，沒有隱藏費用",
+    "cancel_text": "隨時取消。無隱藏費用",
     "items": [
       {
         "product_title": "Free",
-        "description": "適合個人使用",
+        "description": "適合試用",
         "features": [
           {
-            "text": "帶水印的無限臉部交換",
+            "text": "帶浮水印的有限轉換",
             "included": true
           },
           {
@@ -282,7 +282,7 @@
             "included": true
           },
           {
-            "text": "沒有GIF或視頻臉部交換",
+            "text": "不支持批次處理",
             "included": false
           }
         ],
@@ -293,11 +293,11 @@
           },
           "annual": {
             "amount": 0,
-            "price": "NT$0"
+            "price": "$0"
           }
         },
         "currency": "USD",
-        "unit": "月",
+        "unit": "month",
         "is_featured": false,
         "tip": "非常適合入門！",
         "product_id": {
@@ -310,22 +310,22 @@
       },
       {
         "product_title": "Basic",
-        "description": "適合進階使用者",
+        "description": "適合常規創作者",
         "features": [
           {
-            "text": "每月600個點數",
+            "text": "每月 600 次轉換",
             "included": true
           },
           {
-            "text": "每月600個無水印人臉交換",
+            "text": "每月 600 張無浮水印的作品",
             "included": true
           },
           {
-            "text": "或每月200個GIF人臉交換",
+            "text": "高解析度輸出",
             "included": true
           },
           {
-            "text": "或每月24個視頻人臉交換",
+            "text": "最多處理 10 張圖片的批次處理",
             "included": true
           },
           {
@@ -340,16 +340,16 @@
         "pricing": {
           "monthly": {
             "amount": 1200,
-            "price": "NT$12"
+            "price": "$12"
           },
           "annual": {
             "amount": 10000,
-            "price": "NT$10",
-            "savings_text": "每年節省NT$24"
+            "price": "$10",
+            "savings_text": "節省 $24/年"
           }
         },
         "currency": "USD",
-        "unit": "月",
+        "unit": "month",
         "is_featured": true,
         "tip": "最受歡迎的選擇！",
         "product_id": {
@@ -360,33 +360,33 @@
         "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "取得專業版",
+          "title": "獲取基本版",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
         "product_title": "Pro",
-        "description": "適合企業使用",
+        "description": "給專業藝術家使用",
         "features": [
           {
-            "text": "無限水印人臉交換",
+            "text": "無限轉換",
             "included": true
           },
           {
-            "text": "無限GIF人臉交換",
+            "text": "超高解析度輸出",
             "included": true
           },
           {
-            "text": "64視頻人臉交換",
+            "text": "進階樣式自訂",
             "included": true
           },
           {
-            "text": "超快處理",
+            "text": "無限批次處理",
             "included": true
           },
           {
-            "text": "24/7優先支援",
+            "text": "全天候優先支援",
             "included": true
           }
         ],
@@ -398,13 +398,13 @@
           "annual": {
             "amount": 20000,
             "price": "$20",
-            "savings_text": "Save $48/year"
+            "savings_text": "每年省$48"
           }
         },
         "currency": "USD",
-        "unit": "月",
+        "unit": "month",
         "is_featured": false,
-        "tip": "最適合企業！",
+        "tip": "最適合專業人士！",
         "product_id": {
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
@@ -413,7 +413,7 @@
         "credits": 1600,
         "valid_months": 1,
         "button": {
-          "title": "取得專業版",
+          "title": "獲取專業版",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
@@ -421,16 +421,16 @@
     ]
   },
   "testimonial": {
-    "name": "見證",
-    "label": "使用者見證",
-    "title": "使用者怎麼說",
-    "description": "聽聽喜愛使用 AI Face Swap 的人們的心得。",
+    "name": "testimonial",
+    "label": "推薦",
+    "title": "我們的藝術家說",
+    "description": "聆聽那些喜歡使用我們的AI藝術轉換的人的故事。",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "專業攝影師",
-        "description": "換臉的品質令人難以置信！我將它用於專業形象照，效果總是完美。",
+        "label": "數位藝術家",
+        "description": "動漫轉換的品質令人難以置信！我用它來創作獨特的藝術作品，成果總是神奇的。",
         "image": {
           "src": "/imgs/users/1.png"
         }
@@ -438,15 +438,15 @@
       {
         "title": "Mike Chen",
         "label": "內容創作者",
-        "description": "API非常容易整合，處理速度驚人。完全符合我的內容創作需求。",
+        "description": "API整合超級簡單，轉換速度驚人。非常適合我的創意項目。",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "社群媒體經理",
-        "description": "多重換臉功能真是個突破性的創新。讓創建吸引人的內容變得如此容易！",
+        "label": "社群媒體藝術家",
+        "description": "批次處理功能是一個改變遊戲規則的功能。讓創建主題收藏品變得更加容易！",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -460,35 +460,35 @@
     "description": "有問題嗎？我們有答案。",
     "items": [
       {
-        "title": "AI換臉是如何運作的？",
-        "description": "我們的先進AI技術會分析兩張圖片中的臉部特徵，然後無縫地進行換臉，同時保持自然的外觀和表情。整個過程只需幾秒鐘，並確保高品質的結果。"
+        "title": "Image to Ghibli 是如何運作的？",
+        "description": "我們先進的人工智慧技術會分析您的照片並將其轉換為受宮崎駿工作室美學啟發的美麗動漫風格藝術品。該過程只需幾秒鐘，確保高質量的結果。"
       },
       {
-        "title": "我的資料安全嗎？",
-        "description": "是的，當然！我們非常重視隱私。所有上傳的照片都經過安全處理，處理後會自動刪除。未經許可，我們絕不會儲存或分享您的圖片。"
+        "title": "我的數據安全嗎？",
+        "description": "是的，絕對！我們非常重視隱私。所有上傳的照片都會安全處理並在處理後自動刪除。我們絕不會未經許可存儲或分享您的圖片。"
       },
       {
         "title": "支援哪些圖片格式？",
-        "description": "我們支援所有常見的圖片格式，包括JPG、PNG和WEBP。為了獲得最佳效果，我們建議使用清晰、光線充足且臉部清楚可見的照片。"
+        "description": "我們支援所有常見的圖片格式，包括JPG、PNG和WEBP。為了獲得最佳效果，我們建議使用清晰、光線充足的照片。"
       },
       {
-        "title": "我可以在一張圖片中更換多個臉嗎？",
-        "description": "是的！我們的Pro和Enterprise方案支援在單張圖片中進行多個臉部替換。您可以一次將不同的臉替換成不同的來源圖片。"
+        "title": "我可以一次轉換多張照片嗎？",
+        "description": "可以！我們的專業版和企業版支援批量處理，讓您可以同時轉換多張照片，同時保持一致的風格。"
       },
       {
-        "title": "你們有提供API嗎？",
-        "description": "是的，我們為開發者提供強大的API，可將我們的臉部替換技術整合到他們的應用程式中。API存取權限適用於Pro和Enterprise方案。"
+        "title": "您提供API嗎？",
+        "description": "是的，我們為開發人員提供強大的API，供他們將我們的轉換技術集成到其應用程序中。API訪問可用於我們的專業版和企業版。"
       },
       {
-        "title": "你們的退款政策是什麼？",
-        "description": "我們提供100%滿意保證。如果您對我們的服務不滿意，請在購買後7天內聯繫我們，我們將全額退款。"
+        "title": "您的退款政策是什麼？",
+        "description": "我們提供100%滿意保證。如果您對我們的服務不滿意，請在購買後的7天內與我們聯繫，以獲得全額退款。"
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "立即開始改造您的照片",
-    "description": "加入數百萬快樂用戶的行列，體驗AI換臉的魔力。",
+    "title": "立即開始您的藝術之旅",
+    "description": "加入數百萬創作者，體驗AI藝術轉化的魔法。",
     "buttons": [
       {
         "title": "免費試用",
@@ -497,7 +497,7 @@
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "查看範例",
+        "title": "查看畫廊",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,15 +507,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "使用先進的AI換臉技術轉換您的照片。快速、安全且易於使用。",
+      "title": "圖片轉吉卜力",
+      "description": "使用先進的人工智慧技術將您的照片轉換為令人驚嘆的動畫風格藝術作品。快速、安全且易於使用。",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "圖片轉吉卜力"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap 版權所有。",
+    "copyright": "© 2024 • 圖片轉吉卜力 保留所有權利。",
     "nav": {
       "items": [
         {
@@ -527,7 +527,7 @@
               "target": "_self"
             },
             {
-              "title": "價格",
+              "title": "定價",
               "url": "#pricing",
               "target": "_self"
             },
@@ -545,7 +545,7 @@
         {
           "title": "電子郵件",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
@@ -564,100 +564,100 @@
     }
   },
   "faceSwap": {
-    "photoFaceSwap": "照片換臉",
-    "videoFaceSwap": "影片換臉",
-    "multipleFaceSwap": "多人換臉",
+    "photoFaceSwap": "照片臉部交換",
+    "videoFaceSwap": "視頻臉部交換",
+    "multipleFaceSwap": "多重臉部交換",
     "gifFaceSwap": "GIF臉部交換",
-    "uploadOriginalImage": "上傳原始圖片",
-    "uploadFaceImage": "上傳臉部圖片",
-    "startFaceSwap": "開始換臉",
-    "swapFace": "換臉",
+    "uploadOriginalImage": "上傳原始圖像",
+    "uploadFaceImage": "上傳臉部圖像",
+    "startFaceSwap": "開始臉部交換",
+    "swapFace": "交換臉部",
     "processing": "處理中...",
     "before": "之前",
     "after": "之後",
-    "uploadImage": "上傳圖片",
-    "readyToSwap": "準備換臉",
-    "uploadBothImages": "上傳兩張圖片",
+    "uploadImage": "上傳圖像",
+    "readyToSwap": "準備交換",
+    "uploadBothImages": "上傳兩張圖像",
     "comingSoon": "即將推出",
     "download": "下載",
     "splitView": "分割視圖",
     "compareView": "比較視圖",
     "zoomIn": "放大",
-    "swapInProgress": "換臉進行中...",
-    "completeSoon": "幾秒鐘後完成",
+    "swapInProgress": "臉部交換進行中...",
+    "completeSoon": "將在幾秒內完成",
     "magicHappening": "魔法進行中...",
-    "uploadGif": "上傳GIF",
+    "uploadGif": "上傳 GIF",
     "uploadFacePhoto": "上傳臉部照片",
-    "startGifFaceSwap": "開始GIF臉部交換",
-    "swapGifFace": "交換GIF臉部",
+    "startGifFaceSwap": "開始 GIF 臉部交換",
+    "swapGifFace": "交換 GIF 臉部",
     "preview": "預覽",
-    "gifPreview": "GIF預覽",
+    "gifPreview": "GIF 預覽",
     "swapResult": "交換結果",
-    "pleaseUploadGif": "請上傳GIF",
-    "gifSwapInProgress": "GIF臉部交換進行中...",
-    "gifCompleteSoon": "這可能需要一些時間，請耐心等待",
-    "watermarkNotice": "積分不足，已添加水印",
+    "pleaseUploadGif": "請上傳一個 GIF",
+    "gifSwapInProgress": "GIF 臉部交換進行中...",
+    "gifCompleteSoon": "這可能需要一些時間，請耐心等候",
+    "watermarkNotice": "信用額度不足，已添加浮水印",
     "gifFormat": "GIF",
-    "wantRemoveWatermark": "想要移除水印嗎？",
+    "wantRemoveWatermark": "是否要移除水印？",
     "upgradePremium": "解鎖高級功能",
     "watermarkDescription": "立即訂閱以享受我們平台的所有高級功能。",
     "premiumBenefits": "訂閱後您將獲得：",
     "benefit1": "無廣告體驗",
-    "benefit2": "無水印照片",
+    "benefit2": "無水印的照片",
     "benefit3": "GIF人臉交換功能",
-    "benefit4": "視訊換臉功能",
+    "benefit4": "視頻人臉交換功能",
     "subscribeNow": "立即訂閱",
-    "uploadVideo": "上傳視訊",
-    "pleaseUploadVideo": "請上傳視訊",
-    "videoPreview": "視訊預覽",
-    "videoSwapInProgress": "視訊換臉進行中...",
-    "videoCompleteSoon": "這可能需要一段時間，請耐心等待",
-    "videoFormat": "M4V，MP4，MOV 視訊",
-    "videoSizeLimit": "訂閱者：10MB / 20s",
-    "videoFaceTip": "請確保在視頻開頭出現清晰的正面臉部",
-    "startVideoFaceSwap": "開始視頻人臉交換",
-    "swapVideoFace": "交換視頻人臉",
-    "videoSizeError": "影片檔案超過10MB。 請上傳一個較小的影片。",
-    "videoDurationError": "影片時長超過20秒。 請上傳一段較短的影片。",
+    "uploadVideo": "上傳視頻",
+    "pleaseUploadVideo": "請上傳視頻",
+    "videoPreview": "視頻預覽",
+    "videoSwapInProgress": "視頻人臉交換進行中...",
+    "videoCompleteSoon": "這可能需要一些時間，請耐心等待",
+    "videoFormat": "支持M4V、MP4、MOV格式的視頻",
+    "videoSizeLimit": "訂閱者: 10MB / 20秒",
+    "videoFaceTip": "請確保影片開頭出現清晰的正面臉部",
+    "startVideoFaceSwap": "開始視頻臉部交換",
+    "swapVideoFace": "交換視頻臉部",
+    "videoSizeError": "影片檔案超過10MB。請上傳較小的影片。",
+    "videoDurationError": "影片長度超過20秒。請上傳較短的影片。",
     "gif": {
-      "title": "GIF面部交換–使用人工智能技術創建有趣的GIF面部交換",
-      "description": "使用我們先進的人工智能技術在GIF上進行臉部交換。在幾秒鐘內創建有趣且可共享的GIF。無需註冊，免費使用，無限次數交換！",
-      "heading": "創建有趣的GIF面部交換",
-      "subheading": "上傳您的GIF，只需幾個點擊即可創建有趣且可共享的圖像！",
+      "title": "GIF臉部交換 - 利用AI技術創建風趣的GIF臉部交換",
+      "description": "使用我們的先進AI技術在GIF上交換臉部。幾秒鐘內創建有趣、可分享的GIF。無需註冊，免費使用，不限次數的交換！",
+      "heading": "創建滑稽的GIF臉部交換",
+      "subheading": "上傳您的GIF，只需點擊幾下即可創建有趣、可分享的圖像！",
       "features": {
-        "title": "GIF面部交換的功能",
+        "title": "GIF臉部交換功能",
         "items": [
           {
-            "title": "即時面部交換",
-            "description": "我們的工具提供快速高效的實時面部交換。只需上傳您的GIF，我們的人工智能可以立即識別並替換面部，確保您可以立即查看結果。"
+            "title": "即時臉部交換",
+            "description": "我們的工具提供快速高效的實時臉部交換。只需上傳您的GIF，我們的AI可以立即識別並替換臉部，確保您可以立即查看結果。"
           },
           {
             "title": "增強社交互動",
-            "description": "與朋友分享有趣的GIF，促進社交互動並增添幽默感。非常適合在各種社交媒體平台上，使您的內容更加引人入勝。"
+            "description": "與朋友分享有趣的GIF來促進社交互動，增添幽默感。非常適合各種社交媒體平台，使您的內容更具吸引力。"
           },
           {
             "title": "支援多種格式",
-            "description": "除了GIF格式外，我們的工具還支持各種圖像輸入格式，輕鬆上傳不同來源的文件，提供靈活的用戶體驗。"
+            "description": "除了 GIF 格式外，我們的工具支援各種圖片輸入格式，讓您能輕鬆從不同來源上傳檔案，提供靈活的使用者體驗。"
           }
         ]
       },
       "howTo": {
-        "title": "如何在GIF中交換面部",
+        "title": "如何在 GIF 中交換臉部",
         "steps": [
           {
             "number": "1",
-            "title": "上傳一個有臉部的 GIF",
-            "description": "上傳一個您想要替換的臉部 GIF。為了獲得最佳效果，請確保清晰的臉部細節。"
+            "title": "上傳帶有臉部的 GIF",
+            "description": "上傳您想要替換的臉部 GIF。為獲得最佳效果，請確保面部細節清晰。"
           },
           {
             "number": "2",
-            "title": "上傳目標臉部圖像",
-            "description": "上傳一張您想要作為替換的臉部照片。需要清晰的臉部細節。"
+            "title": "上傳目標臉部圖片",
+            "description": "上傳您想要用作替換的臉部照片。需要具有面部清晰度。"
           },
           {
             "number": "3",
             "title": "等待生成",
-            "description": "點擊\"交換 GIF 臉部\"按鈕，等待我們的 AI 生成您新的已交換臉部的 GIF。"
+            "description": "點擊“交換 GIF 臉部”按鈕，等待我們的人工智能生成您具有交換臉部的新 GIF。"
           }
         ]
       },
@@ -666,58 +666,58 @@
         "items": [
           {
             "title": "社交媒體分享",
-            "description": "在Instagram、Facebook、Twitter等主要社交媒體平台上分享您的有趣 GIF，增強互動並吸引注意力。"
+            "description": "在 Instagram、Facebook 和 Twitter 等主要社交媒體平台上分享您有趣的 GIF，以增強互動並吸引注意。"
           },
           {
             "title": "喜劇內容創作",
-            "description": "內容創作者可以使用 GIF 臉部交換功能製作有趣的視頻和剪輯，豐富內容並吸引更多觀眾。"
+            "description": "內容創作者可以使用 GIF 臉部交換來製作有趣的視頻和剪輯，豐富他們的內容並吸引更多觀眾。"
           },
           {
             "title": "活動和派對邀請",
-            "description": "創建個性化的邀請函GIF動畫，使派對或活動更具吸引力和參與度，增加出席的興趣。"
+            "description": "為派對或活動創建個性化的邀請 GIF，使它們更具吸引力和吸引力，增加參與興趣。"
           }
         ]
       }
     },
     "video": {
-      "title": "視頻換臉 | AIFACESWAP.APP",
-      "description": "利用先進的AI視頻換臉技術，轉變您的視頻。",
-      "heading": "AI視頻換臉",
-      "subheading": "體驗功能強大的AI視頻換臉，使每一幀令人興奮，無縫的臉部替換功能，即時替換臉部創造有趣、引人入勝或專業的內容。",
+      "title": "視頻臉部交換 | AIFACESWAP.APP",
+      "description": "使用先進的 AI 視頻臉部交換技術改變您的視頻。",
+      "heading": "AI 視頻臉部交換",
+      "subheading": "體驗功能強大的 AI 視頻臉部交換，使每一幀視頻激動人心且無縫。即時替換臉部以創建有趣、引人注目或專業的內容。",
       "features": {
-        "title": "我們視頻換臉的功能",
+        "title": "我們視頻臉部交換的特點",
         "items": [
           {
-            "title": "無縫臉部替換",
-            "description": "我們先進的人工智能確保平穩、逐幀的臉部替換，從視頻的開始到結束都能保持自然的表情和動作。"
+            "title": "無縫臉部更換",
+            "description": "我們的先進 AI 確保平滑，逐幀的臉部交換，保持整個視頻期間的自然表情和動作。"
           },
           {
             "title": "高質量的結果",
-            "description": "體驗專業級的視頻臉部交換，具有一致的照明，逼真的膚色和精確的臉部特徵映射。"
+            "description": "體驗具有一致照明、逼真膚色和精確臉部特徵映射的專業視頻臉部交換。"
           },
           {
-            "title": "使用方便的過程",
-            "description": "通過我們直觀的界面，在視頻中替換臉部就像上傳視頻，選擇一個臉部圖像，然後讓我們的人工智能來完成。"
+            "title": "用戶友好的流程",
+            "description": "通過我們直觀的界面，在視頻中替換臉部就像上傳您的視頻，選擇一張臉部圖像，然後讓我們的 AI 完成工作一樣簡單。"
           }
         ]
       },
       "howTo": {
-        "title": "如何操作",
+        "title": "操作方式",
         "steps": [
           {
             "number": "1",
             "title": "上傳您的視頻",
-            "description": "選擇並上傳您想進行臉部交換的視頻。我們支持各種常見的視頻格式。"
+            "description": "選擇並上傳您想要進行臉部交換的視頻。我們支持各種常見的視頻格式。"
           },
           {
             "number": "2",
             "title": "上傳臉部照片",
-            "description": "選擇一張清晰的臉部照片進行交換。為了獲得最佳效果，請使用具有可見臉部的高質量圖像。"
+            "description": "選擇一張清晰的臉部照片進行交換。為獲得最佳效果，請使用一張清晰的臉部可見的高質量圖像。"
           },
           {
             "number": "3",
             "title": "生成您的臉部交換視頻",
-            "description": "只需點擊一下，我們的人工智能就會處理您的視頻，創建出流暢、高質量的臉部交換視頻。"
+            "description": "只需點擊一下，我們的人工智能會處理您的視頻，創建出流暢且高質量的臉部交換。"
           }
         ]
       },
@@ -726,15 +726,15 @@
         "items": [
           {
             "title": "電影場景重現",
-            "description": "透過與您最喜愛的演員交換臉孔，走進標誌性的電影時刻。與您自己或朋友成為明星，創造獨特的電影體驗。"
+            "description": "通過與您最喜歡的演員交換臉部，踏入標誌性電影時刻。使用您自己或朋友作為主角，創建獨特的影片體驗。"
           },
           {
             "title": "社交媒體內容",
-            "description": "製作有趣的臉部交換影片，為 TikTok、Instagram 和 YouTube 創造引人注目且爆紅的內容，吸引觀眾的注意。"
+            "description": "通過有趣的臉部交換視頻在TikTok，Instagram和YouTube上創建引人入勝且具有病毒性的內容，吸引觀眾的注意力。"
           },
           {
             "title": "特殊場合影片",
-            "description": "透過使用榮譽客人的臉部交換影片，使生日、婚禮和慶祝活動更加難忘。"
+            "description": "通過使用榮譽來賓的臉部交換創建個性化影片，使生日、婚禮和慶祝活動更加難忘。"
           }
         ]
       },
@@ -742,16 +742,16 @@
         "title": "常見問題",
         "items": [
           {
-            "title": "處理我的影片需要多長時間？",
-            "description": "處理時間取決於影片長度和品質，但我們先進的人工智能旨在快速交付結果，同時保持高品質。"
+            "title": "處理我的視訊需要多長時間？",
+            "description": "處理時間將取決於視訊長度和質量，但我們的先進人工智能旨在在保持高質量的同時快速提供結果。"
           },
           {
-            "title": "支援哪些影片格式？",
-            "description": "我們的服務將支援包括 MP4、MOV 和 AVI 在內的常見影片格式。"
+            "title": "支援哪些視訊格式？",
+            "description": "我們的服務將支援常見的視訊格式，包括MP4、MOV和AVI。"
           },
           {
-            "title": "影片長度會有限制嗎？",
-            "description": "免費用戶將能夠使用較短的影片處理時間，而高級訂閱用戶則可享受更長的影片支援。"
+            "title": "視訊長度會有限制嗎？",
+            "description": "免費用戶將只能處理較短的視訊，而高級訂戶將享受較長的視訊支援。"
           }
         ]
       }

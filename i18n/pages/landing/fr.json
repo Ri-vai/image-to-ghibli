@@ -1,12 +1,12 @@
 {
-  "template": "ai-face-swap",
+  "template": "image-to-ghibli",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "Échange de Visage IA",
+      "title": "Image to Ghibli",
       "logo": {
         "src": "/logo.png",
-        "alt": "Échange de Visage IA"
+        "alt": "Image to Ghibli"
       },
       "url": "/"
     },
@@ -18,7 +18,7 @@
           "icon": "HiOutlineSparkles"
         },
         {
-          "title": "Tarifs",
+          "title": "Tarification",
           "url": "#pricing",
           "icon": "MdPayment"
         },
@@ -31,7 +31,7 @@
     },
     "buttons": [
       {
-        "title": "Essayer Maintenant",
+        "title": "Essayer maintenant",
         "url": "/#try",
         "target": "_self",
         "variant": "link",
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Le meilleur échange de visage IA gratuit en ligne",
-    "highlight_text": "Échange de Visage IA",
-    "description": "Plongez dans l'univers innovant de l'échange de visage par IA, où la technologie de pointe rencontre le divertissement sans limites. Modifiez facilement des images et des vidéos, ouvrant la porte à des possibilités numériques inégalées.",
+    "title": "Transformez vos photos en œuvres d'art anime magiques",
+    "highlight_text": "Style Studio Ghibli",
+    "description": "Découvrez la transformation enchanteresse de vos photos en superbes œuvres d'art anime inspirées par l'esthétique légendaire du Studio Ghibli. Notre technologie IA apporte le monde magique de l'animation à vos moments quotidiens.",
     "announcement": {
       "label": "IA",
-      "title": "Gratuit et sécurisé",
+      "title": "Instant & Magique",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "Essayer maintenant",
+        "title": "Transformer Maintenant",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Voir les exemples",
+        "title": "Voir la Galerie",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -79,55 +79,55 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "Découvrez la magie de l'échange de visages par IA",
-    "label": "Comment ça marche",
-    "description": "Transformez n'importe quelle photo avec notre technologie avancée d'échange de visages par IA. Rapide, précis et sécurisé.",
+    "title": "Transformer les Photos en Magie Anime",
+    "label": "Comment ça Marche",
+    "description": "Transformez vos photos ordinaires en œuvres d'art anime extraordinaire avec notre technologie avancée d'IA. Rapide, magnifique et magique.",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "Téléchargez vos photos",
-        "description": "Il suffit de télécharger l'image source et le visage que vous souhaitez échanger.",
+        "title": "Téléchargez Votre Photo",
+        "description": "Il vous suffit de télécharger n'importe quelle photo que vous souhaitez transformer en œuvre d'art de style anime.",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "Traitement IA",
-        "description": "Notre IA analyse et traite les images pour un échange de visage parfait.",
+        "title": "Magie de l'IA",
+        "description": "Notre IA analyse votre image et applique l'esthétique bien-aimée du Studio Ghibli.",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "Résultats Instantanés",
-        "description": "Obtenez votre image transformée en quelques secondes, prête à télécharger.",
+        "title": "Télécharger l'art",
+        "description": "Obtenez instantanément votre œuvre d'art transformée, prête à partager et à chérir.",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
     "name": "avantage",
-    "title": "Pourquoi Choisir AI Face Swap",
+    "title": "Pourquoi Choisir Notre Transformateur d'Art IA",
     "label": "Avantages",
-    "description": "Découvrez la meilleure technologie d'échange de visage avec des fonctionnalités avancées et une sécurité optimale.",
+    "description": "Découvrez la magie de transformer vos photos en de superbes œuvres d'art de style anime avec des fonctionnalités avancées.",
     "items": [
       {
         "title": "Technologie IA Avancée",
-        "description": "Des modèles d'apprentissage profond de pointe assurent des échanges de visage naturels et réalistes.",
+        "description": "Des modèles de deep learning de pointe garantissent des transformations de style anime belles et authentiques.",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Confidentialité et Sécurité",
-        "description": "Vos photos sont traitées en toute sécurité et automatiquement supprimées après le traitement.",
+        "title": "Style Authentique",
+        "description": "Notre IA capture l'essence des esthétiques anime bien-aimées dans chaque transformation.",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Adapté aux Développeurs",
-        "description": "Intégrez notre technologie d'échange de visage dans vos applications grâce à notre API robuste.",
+        "title": "Intégration Facile",
+        "description": "Intégrez notre technologie de transformation d'images dans vos applications grâce à notre API robuste.",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -137,91 +137,91 @@
   },
   "usage": {
     "name": "utilisation",
-    "title": "Comment échanger un visage en ligne",
-    "description": "Créez des images étonnantes en quelques étapes simples :",
+    "title": "Transformez Vos Photos en Quelques Étapes Simples",
+    "description": "Créez des œuvres d'art anime étonnantes en quelques clics :",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "right",
-    "text_align": "left",
+    "image_position": "droite",
+    "text_align": "gauche",
     "items": [
       {
-        "title": "Téléchargez votre image",
-        "description": "Cliquez simplement sur 'Télécharger une image' et sélectionnez une photo que vous souhaitez utiliser comme image source. Assurez-vous qu'un seul visage dans la photo soit de bonne qualité."
+        "title": "Téléchargez Votre Photo",
+        "description": "Cliquez sur 'Télécharger une photo' et sélectionnez l'image que vous souhaitez transformer. Les photos avec des sujets clairs fonctionnent le mieux."
       },
       {
-        "title": "Choisissez votre option d'échange de visage",
-        "description": "Une fois que votre image originale est prête, choisissez l'effet d'échange souhaité parmi les préréglages proposés. Cela signifie que vous remplacerez le visage de votre image téléchargée par le préréglage sélectionné."
+        "title": "Choisissez des Options de Style",
+        "description": "Choisissez parmi différentes options de style pour personnaliser votre transformation. Chaque option apporte des éléments artistiques uniques à votre pièce finale."
       },
       {
-        "title": "Échangez le visage avec l'IA",
-        "description": "Cliquez sur le bouton 'Échanger le visage maintenant' pour montrer la magie de l'IA. AiFaceSwap.app terminera l'échange de visage en quelques secondes. Notre IA fait le travail automatiquement tout en garantissant le meilleur résultat."
+        "title": "Transformation par IA",
+        "description": "Laissez notre IA faire sa magie. En quelques secondes, votre photo sera transformée en une belle œuvre d'art inspirée de l'anime."
       },
       {
-        "title": "Aperçu et téléchargement",
-        "description": "Bingo ! Votre visage est échangé avec qui vous voulez ! Prévisualisez le résultat final sur la même page. Cliquez sur 'Télécharger' pour enregistrer l'image sans filigrane sur votre appareil. Partagez-la pour vous amuser !"
+        "title": "Téléchargez et Partagez",
+        "description": "Votre œuvre d'art est prête ! Téléchargez votre image transformée en haute qualité et partagez votre création magique avec le monde."
       }
     ]
   },
   "feature": {
-    "name": "caractéristique",
-    "title": "Puissantes fonctionnalités d'échange de visage par IA",
-    "description": "Découvrez les capacités incroyables de notre technologie d'échange de visage alimentée par l'IA",
+    "name": "fonctionnalité",
+    "title": "Fonctionnalités Magiques pour Vos Photos",
+    "description": "Découvrez les capacités enchanteresses de notre technologie de transformation artistique AI",
     "items": [
       {
-        "title": "Échanges de visages réalistes",
-        "description": "Notre technologie de pointe assure des échanges de visages parfaits et réalistes, dissimulant complètement toute trace d'édition.",
+        "title": "Style d'Anime Authentique",
+        "description": "Notre AI capture parfaitement le style artistique distinctif qui rend l'art de l'anime si apprécié dans le monde entier.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Interface facile à utiliser",
-        "description": "En un seul clic, vous pouvez substituer n'importe quel visage sur une autre image, rendant le processus simple et intuitif.",
+        "title": "Interface Simple",
+        "description": "Transformez vos photos en un seul clic, rendant la magie de l'art anime accessible à tous.",
         "icon": "RiMouseLine"
       },
       {
-        "title": "Création de mèmes",
-        "description": "Créez facilement des mèmes hilarants, augmentant l'interaction avec votre audience grâce à un contenu nouveau et engageant.",
+        "title": "Variantes de Style",
+        "description": "Choisissez parmi différents styles artistiques pour trouver le look parfait pour vos photos.",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "Transformations en célébrités",
-        "description": "Transformez votre apparence en échangeant votre visage avec diverses personnalités, des stars de cinéma aux super-héros.",
+        "title": "Haute Résolution",
+        "description": "Obtenez de magnifiques œuvres d'art en haute résolution parfaites pour l'impression ou l'affichage numérique.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "Expérimentation de styles",
-        "description": "Explorez de nouveaux looks en appliquant votre visage à différents personnages, en expérimentant avec le maquillage, les coiffures et les styles vestimentaires.",
+        "title": "Traitement par Lot",
+        "description": "Transformez plusieurs photos à la fois pour créer une collection d'œuvres d'art anime.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "Créativité sans limites",
-        "description": "Débloquez un potentiel infini de créativité et de divertissement avec notre technologie polyvalente d'échange de visages.",
+        "title": "Liberté Créative",
+        "description": "Libérez votre créativité avec diverses options de personnalisation pour vos transformations.",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
-    "name": "vitrine",
-    "title": "Transformations étonnantes",
-    "description": "Découvrez ce que nos utilisateurs ont créé avec AI Face Swap.",
+    "name": "showcase",
+    "title": "Transformations Magiques",
+    "description": "Découvrez les magnifiques œuvres d'art créées avec notre technologie d'IA.",
     "items": [
       {
-        "title": "Échange de Visage Vidéo",
-        "description": "Échangez des visages dans des vidéos, améliorez la réalisation de films ou créez du contenu pour les médias sociaux",
+        "title": "Transformation de paysage",
+        "description": "Transformez vos photos de paysages en des paysages d'anime à couper le souffle",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "Échange de Visage Photo",
-        "description": "Vous permet d'échanger des têtes et de remplacer des visages dans les photos",
+        "title": "Transformation de portrait",
+        "description": "Transformez les portraits en de magnifiques œuvres d'art de personnages de style anime",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "Échange Multiple de Visages",
-        "description": "Échangez plusieurs visages dans les photos de famille, photos de mariage, photos de fête, etc",
+        "title": "Transformation de photo de groupe",
+        "description": "Transformez les photos de groupe en charmantes scènes d'anime",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,35 +231,35 @@
   "stats": {
     "name": "statistiques",
     "label": "Statistiques",
-    "title": "Fait confiance par des utilisateurs du monde entier",
-    "description": "Rejoignez des milliers d'utilisateurs satisfaits utilisant AI Face Swap.",
+    "title": "Faites confiance par les artistes du monde entier",
+    "description": "Rejoignez des milliers de créateurs transformant leurs photos en art anime.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Utilisateurs Satisfaits",
+        "title": "Artistes heureux",
         "label": "1M+",
-        "description": "Utilisateurs Actifs"
+        "description": "Utilisateurs actifs"
       },
       {
-        "title": "Échanges de Visages",
+        "title": "Transformations",
         "label": "10M+",
-        "description": "Complétés"
+        "description": "Terminé"
       },
       {
-        "title": "Temps de traitement",
+        "title": "Temps de Traitement",
         "label": "5s",
         "description": "Moyenne"
       }
     ]
   },
   "pricing": {
-    "name": "tarification",
-    "label": "Tarification",
+    "name": "prix",
+    "label": "Prix",
     "title": "Tarification Simple et Transparente",
-    "description": "Choisissez le forfait parfait pour vos besoins d'échange de visages.",
+    "description": "Choisissez le plan parfait pour votre parcours artistique.",
     "toggle": {
-      "monthly": "Mensuel",
-      "annual": "Annuel",
+      "monthly": "Monthly",
+      "annual": "Annual",
       "default_plan": "annuel",
       "discount_text": "OBTENEZ 2 MOIS GRATUITS ANNUELLEMENT"
     },
@@ -267,10 +267,10 @@
     "items": [
       {
         "product_title": "Free",
-        "description": "Parfait pour un usage personnel",
+        "description": "Parfait pour essayer",
         "features": [
           {
-            "text": "Échanges de visage illimités avec filigrane",
+            "text": "Transformations limitées avec filigrane",
             "included": true
           },
           {
@@ -278,11 +278,11 @@
             "included": true
           },
           {
-            "text": "Support basique",
+            "text": "Support de base",
             "included": true
           },
           {
-            "text": "Pas d'échange de visage en GIF ou vidéo",
+            "text": "Pas de traitement par lot",
             "included": false
           }
         ],
@@ -293,13 +293,13 @@
           },
           "annual": {
             "amount": 0,
-            "price": "0 €"
+            "price": "$0"
           }
         },
         "currency": "USD",
-        "unit": "mois",
+        "unit": "month",
         "is_featured": false,
-        "tip": "Parfait pour commencer !",
+        "tip": "Idéal pour commencer!",
         "product_id": {
           "monthly": "price_free",
           "annual": "price_free"
@@ -310,48 +310,48 @@
       },
       {
         "product_title": "Basic",
-        "description": "Pour les utilisateurs avancés",
+        "description": "Pour les créateurs réguliers",
         "features": [
           {
-            "text": "600 crédits par mois",
+            "text": "600 transformations par mois",
             "included": true
           },
           {
-            "text": "600 échanges de visage sans filigrane",
+            "text": "600 œuvres sans filigrane",
             "included": true
           },
           {
-            "text": "ou 200 GIF d'échanges de visage",
+            "text": "Sortie haute résolution",
             "included": true
           },
           {
-            "text": "24 échanges de visage en vidéo",
+            "text": "Traitement par lot jusqu'à 10 images",
             "included": true
           },
           {
-            "text": "Traitement prioritaire",
+            "text": "Traitement en priorité",
             "included": true
           },
           {
-            "text": "Assistance prioritaire",
+            "text": "Support prioritaire",
             "included": true
           }
         ],
         "pricing": {
           "monthly": {
             "amount": 1200,
-            "price": "12 €"
+            "price": "$12"
           },
           "annual": {
             "amount": 10000,
-            "price": "10 €",
-            "savings_text": "Économisez 24 €/an"
+            "price": "$10",
+            "savings_text": "Économisez 24 $/an"
           }
         },
         "currency": "USD",
-        "unit": "mois",
+        "unit": "month",
         "is_featured": true,
-        "tip": "Choix le plus populaire !",
+        "tip": "Choix le plus populaire!",
         "product_id": {
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
@@ -360,29 +360,29 @@
         "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "Obtenir Pro",
+          "title": "Obtenez Basic",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
         "product_title": "Pro",
-        "description": "Pour les entreprises",
+        "description": "Pour les artistes professionnels",
         "features": [
           {
-            "text": "Échanges de visage illimités sans filigrane",
+            "text": "Transformations illimitées",
             "included": true
           },
           {
-            "text": "Échanges de visage GIF illimités",
+            "text": "Sortie en ultra-haute résolution",
             "included": true
           },
           {
-            "text": "64 échanges de visage en vidéo",
+            "text": "Personnalisation avancée du style",
             "included": true
           },
           {
-            "text": "Traitement ultra-rapide",
+            "text": "Traitement par lot illimité",
             "included": true
           },
           {
@@ -393,18 +393,18 @@
         "pricing": {
           "monthly": {
             "amount": 2400,
-            "price": "$24"
+            "price": "24 $"
           },
           "annual": {
             "amount": 20000,
-            "price": "$20",
-            "savings_text": "Économisez $48/an"
+            "price": "20 $",
+            "savings_text": "Économisez 48 $/an"
           }
         },
         "currency": "USD",
         "unit": "mois",
         "is_featured": false,
-        "tip": "Idéal pour les entreprises !",
+        "tip": "Idéal pour les professionnels!",
         "product_id": {
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
@@ -423,30 +423,30 @@
   "testimonial": {
     "name": "témoignage",
     "label": "Témoignages",
-    "title": "Ce que disent nos utilisateurs",
-    "description": "Écoutez les personnes qui adorent utiliser AI Face Swap.",
+    "title": "Ce Que Disent Nos Artistes",
+    "description": "Découvrez ce que pensent les utilisateurs de notre transformation artistique par IA.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "Photographe Professionnel",
-        "description": "La qualité des échanges de visages est incroyable ! Je l'utilise pour des photos professionnelles et les résultats sont toujours parfaits.",
+        "label": "Artiste numérique",
+        "description": "La qualité des transformations d'anime est incroyable! Je l'utilise pour créer des œuvres d'art uniques et les résultats sont toujours magiques.",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
         "title": "Mike Chen",
-        "label": "Créateur de Contenu",
-        "description": "L'API est super facile à intégrer, et la vitesse de traitement est incroyable. Parfait pour mes besoins de création de contenu.",
+        "label": "Créateur de contenu",
+        "description": "L'API est très facile à intégrer, et la vitesse de transformation est incroyable. Parfait pour mes projets créatifs.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "Gestionnaire de Médias Sociaux",
-        "description": "La fonction d'échange multiple de visages change la donne. Cela rend la création de contenu engageant tellement plus facile !",
+        "label": "Artiste des médias sociaux",
+        "description": "La fonction de traitement par lot est révolutionnaire. Facilite grandement la création de collections thématiques!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -456,48 +456,48 @@
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Questions Fréquemment Posées",
-    "description": "Vous avez des questions ? Nous avons les réponses.",
+    "title": "Questions fréquemment posées",
+    "description": "Vous avez des questions? Nous avons des réponses.",
     "items": [
       {
-        "title": "Comment fonctionne l'échange de visage par IA ?",
-        "description": "Notre technologie IA avancée analyse les caractéristiques faciales dans les deux images, puis les échange de manière transparente tout en maintenant un aspect et des expressions naturels. Le processus ne prend que quelques secondes et garantit des résultats de haute qualité."
+        "title": "Comment fonctionne Image to Ghibli?",
+        "description": "Notre technologie d'IA avancée analyse vos photos et les transforme en magnifiques œuvres d'art de style anime inspirées par l'esthétique de Studio Ghibli. Le processus ne prend que quelques secondes et garantit des résultats de haute qualité."
       },
       {
-        "title": "Mes données sont-elles sécurisées ?",
-        "description": "Oui, absolument ! Nous prenons la confidentialité très au sérieux. Toutes les photos téléchargées sont traitées de manière sécurisée et automatiquement supprimées après le traitement. Nous ne stockons ni ne partageons jamais vos images sans permission."
+        "title": "Mes données sont-elles sécurisées?",
+        "description": "Oui, absolument ! Nous accordons une grande importance à la confidentialité. Toutes les photos téléchargées sont traitées de manière sécurisée et automatiquement supprimées après traitement. Nous ne stockons ni ne partageons jamais vos images sans votre permission."
       },
       {
         "title": "Quels formats d'image sont pris en charge ?",
-        "description": "Nous prenons en charge tous les formats d'image courants, notamment JPG, PNG et WEBP. Pour de meilleurs résultats, nous recommandons d'utiliser des photos claires, bien éclairées avec des visages visibles."
+        "description": "Nous prenons en charge tous les formats d'image courants, y compris JPG, PNG et WEBP. Pour de meilleurs résultats, nous vous recommandons d'utiliser des photos claires et bien éclairées."
       },
       {
-        "title": "Puis-je échanger plusieurs visages sur une seule image ?",
-        "description": "Oui ! Nos forfaits Pro et Enterprise permettent d'échanger plusieurs visages sur une seule image. Vous pouvez échanger différents visages avec différentes images sources en une seule fois."
+        "title": "Puis-je transformer plusieurs photos en une fois ?",
+        "description": "Oui ! Nos plans Pro et Enterprise prennent en charge le traitement par lots, vous permettant de transformer plusieurs photos simultanément tout en maintenant un style cohérent."
       },
       {
         "title": "Proposez-vous une API ?",
-        "description": "Oui, nous fournissons une API robuste permettant aux développeurs d'intégrer notre technologie d'échange de visages dans leurs applications. L'accès à l'API est disponible avec nos forfaits Pro et Enterprise."
+        "description": "Oui, nous fournissons une API robuste aux développeurs pour intégrer notre technologie de transformation dans leurs applications. L'accès à l'API est disponible avec nos plans Pro et Enterprise."
       },
       {
         "title": "Quelle est votre politique de remboursement ?",
-        "description": "Nous offrons une garantie de satisfaction à 100%. Si vous n'êtes pas satisfait de notre service, contactez-nous dans les 7 jours suivant votre achat pour un remboursement complet."
+        "description": "Nous offrons une garantie de satisfaction à 100 %. Si vous n'êtes pas satisfait de notre service, contactez-nous dans les 7 jours suivant votre achat pour un remboursement intégral."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Commencez à transformer vos photos dès aujourd'hui",
-    "description": "Rejoignez des millions d'utilisateurs satisfaits et découvrez la magie de l'échange de visages par IA.",
+    "title": "Commencez votre voyage artistique dès aujourd'hui",
+    "description": "Rejoignez des millions de créateurs et découvrez la magie de la transformation artistique par IA.",
     "buttons": [
       {
-        "title": "Essayer gratuitement",
+        "title": "Essayer Gratuitement",
         "url": "/#signup",
         "target": "_self",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Voir les exemples",
+        "title": "Voir la Galerie",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,15 +507,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "Transformez vos photos avec une technologie avancée d'échange de visage par IA. Rapide, sécurisé et facile à utiliser.",
+      "title": "Image to Ghibli",
+      "description": "Transformez vos photos en superbes œuvres d'art de style anime avec une technologie avancée d'IA. Rapide, sécurisé et facile à utiliser.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Image to Ghibli"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap Tous droits réservés.",
+    "copyright": "© 2024 • Image to Ghibli Tous droits réservés.",
     "nav": {
       "items": [
         {
@@ -527,7 +527,7 @@
               "target": "_self"
             },
             {
-              "title": "Tarifs",
+              "title": "Tarification",
               "url": "#pricing",
               "target": "_self"
             },
@@ -543,9 +543,9 @@
     "social": {
       "items": [
         {
-          "title": "Email",
+          "title": "E-mail",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
@@ -566,88 +566,88 @@
   "faceSwap": {
     "photoFaceSwap": "Échange de visage photo",
     "videoFaceSwap": "Échange de visage vidéo",
-    "multipleFaceSwap": "Échange multiple de visages",
-    "gifFaceSwap": "GIF d'échange de visage",
-    "uploadOriginalImage": "Télécharger l'image originale",
+    "multipleFaceSwap": "Échange de visages multiples",
+    "gifFaceSwap": "Échange de visages GIF",
+    "uploadOriginalImage": "Télécharger l'image d'origine",
     "uploadFaceImage": "Télécharger l'image du visage",
     "startFaceSwap": "Démarrer l'échange de visage",
-    "swapFace": "Échanger le visage",
-    "processing": "Traitement en cours...",
+    "swapFace": "Échanger de visage",
+    "processing": "En cours de traitement...",
     "before": "Avant",
     "after": "Après",
     "uploadImage": "Télécharger l'image",
-    "readyToSwap": "Prêt à échanger",
+    "readyToSwap": "Prêt à l'échange",
     "uploadBothImages": "Télécharger les deux images",
-    "comingSoon": "Bientôt disponible",
+    "comingSoon": "Prochainement",
     "download": "Télécharger",
-    "splitView": "Vue partagée",
-    "compareView": "Vue comparée",
-    "zoomIn": "Agrandir",
+    "splitView": "Vue séparée",
+    "compareView": "Vue comparative",
+    "zoomIn": "Zoom avant",
     "swapInProgress": "Échange de visage en cours...",
     "completeSoon": "Sera terminé dans quelques secondes",
     "magicHappening": "La magie opère...",
     "uploadGif": "Télécharger le GIF",
-    "uploadFacePhoto": "Télécharger la photo de visage",
-    "startGifFaceSwap": "Démarrer l'échange de visage GIF",
-    "swapGifFace": "Échanger le visage GIF",
+    "uploadFacePhoto": "Télécharger la photo du visage",
+    "startGifFaceSwap": "Démarrer l'échange de visage avec GIF",
+    "swapGifFace": "Échanger le visage du GIF",
     "preview": "Aperçu",
-    "gifPreview": "Aperçu GIF",
-    "swapResult": "Résultat d'échange",
+    "gifPreview": "Aperçu du GIF",
+    "swapResult": "Résultat de l'échange",
     "pleaseUploadGif": "Veuillez télécharger un GIF",
     "gifSwapInProgress": "Échange de visage GIF en cours...",
-    "gifCompleteSoon": "Cela peut prendre un certain temps, veuillez patienter",
+    "gifCompleteSoon": "Cela peut prendre un moment, veuillez patienter",
     "watermarkNotice": "Crédits insuffisants, filigrane ajouté",
     "gifFormat": "GIF",
-    "wantRemoveWatermark": "Voulez-vous supprimer le filigrane ?",
-    "upgradePremium": "Déverrouiller les fonctionnalités premium",
-    "watermarkDescription": "Abonnez-vous aujourd'hui pour profiter de toutes les fonctionnalités premium de notre plateforme.",
-    "premiumBenefits": "Avec l'abonnement, vous obtenez :",
+    "wantRemoveWatermark": "Voulez-vous supprimer le filigrane?",
+    "upgradePremium": "Débloquer les fonctionnalités Premium",
+    "watermarkDescription": "Abonnez-vous aujourd'hui pour profiter de toutes les fonctionnalités Premium de notre plateforme.",
+    "premiumBenefits": "Avec l'abonnement, vous obtenez:",
     "benefit1": "Expérience sans publicité",
     "benefit2": "Photos sans filigrane",
-    "benefit3": "Possibilité de faire des GIF avec le swap de visage",
-    "benefit4": "Capacité d'échange de visage vidéo",
-    "subscribeNow": "Abonnez-vous maintenant",
+    "benefit3": "Capacité de face swap GIF",
+    "benefit4": "Capacité de face swap vidéo",
+    "subscribeNow": "Souscrire maintenant",
     "uploadVideo": "Télécharger la vidéo",
     "pleaseUploadVideo": "Veuillez télécharger une vidéo",
     "videoPreview": "Aperçu de la vidéo",
     "videoSwapInProgress": "Échange de visage vidéo en cours...",
-    "videoCompleteSoon": "Cela peut prendre un certain temps, veuillez patienter",
-    "videoFormat": "Vidéos M4V, MP4, MOV",
-    "videoSizeLimit": "Abonnés : 10MB / 20s",
+    "videoCompleteSoon": "Cela peut prendre un certain temps, veuillez être patient",
+    "videoFormat": "Vidéos au format M4V, MP4, MOV",
+    "videoSizeLimit": "Abonnés : 10 Mo / 20s",
     "videoFaceTip": "Veuillez vous assurer qu'un visage frontal clair apparaît au début de la vidéo",
     "startVideoFaceSwap": "Démarrer le remplacement de visage vidéo",
     "swapVideoFace": "Échanger le visage vidéo",
     "videoSizeError": "Le fichier vidéo dépasse 10 Mo. Veuillez télécharger une vidéo plus petite.",
     "videoDurationError": "La durée de la vidéo dépasse 20 secondes. Veuillez télécharger une vidéo plus courte.",
     "gif": {
-      "title": "GIF Face Swap - Créez des swaps de visages hilarants avec la technologie de l'IA",
-      "description": "Échangez des visages sur des GIFs avec notre technologie d'IA avancée. Créez des GIFs drôles et partageables en quelques secondes. Aucune inscription requise, gratuit à utiliser, swaps illimités !",
-      "heading": "Créez des swaps de visages hilarants sur des GIFs",
-      "subheading": "Téléchargez vos GIFs et créez des images amusantes et partageables en quelques clics seulement !",
+      "title": "GIF Face Swap - Créez des échanges hilarants de visages GIF avec la technologie IA",
+      "description": "Échangez des visages sur des GIF avec notre technologie IA avancée. Créez des GIF drôles et partageables en quelques secondes. Aucune inscription requise, gratuit à utiliser, swaps illimités !",
+      "heading": "Créez des échanges hilarants de visages GIF",
+      "subheading": "Téléchargez vos GIF et créez des images amusantes et partageables en quelques clics seulement !",
       "features": {
-        "title": "Fonctionnalités du swap de visages sur des GIFs",
+        "title": "Fonctionnalités de l'échange de visages GIF",
         "items": [
           {
             "title": "Échange de visages instantané",
-            "description": "Notre outil offre un échange de visages en temps réel rapide et efficace. Il vous suffit de télécharger votre GIF, et notre IA peut instantanément reconnaître et remplacer les visages, vous permettant ainsi de voir les résultats immédiatement."
+            "description": "Notre outil offre un échange de visages en temps réel rapide et efficace. Il vous suffit de télécharger votre GIF, et notre IA peut reconnaître et remplacer instantanément les visages, garantissant que vous puissiez voir les résultats immédiatement."
           },
           {
             "title": "Interaction sociale améliorée",
-            "description": "Partagez des GIFs amusants avec vos amis pour favoriser l'interaction sociale et ajouter de l'humour. Parfait pour les différentes plateformes de médias sociaux pour rendre votre contenu plus attrayant."
+            "description": "Partagez des GIF amusants avec des amis pour promouvoir l'interaction sociale et ajouter de l'humour. Parfait pour diverses plateformes de médias sociaux pour rendre votre contenu plus engageant."
           },
           {
             "title": "Prise en charge de plusieurs formats",
-            "description": "En plus du format GIF, notre outil prend en charge différents formats d'images d'entrée, ce qui facilite le téléchargement de fichiers à partir de différentes sources pour une expérience utilisateur flexible."
+            "description": "Outre le format GIF, notre outil prend en charge divers formats d'image en entrée, ce qui facilite le téléchargement de fichiers depuis différentes sources pour une expérience utilisateur flexible."
           }
         ]
       },
       "howTo": {
-        "title": "Comment échanger des visages sur des GIFs",
+        "title": "Comment échanger des visages en GIF",
         "steps": [
           {
             "number": "1",
             "title": "Téléchargez un GIF avec un visage",
-            "description": "Téléchargez un GIF du visage que vous souhaitez remplacer. Assurez-vous d'avoir des détails faciaux clairs pour des résultats optimaux."
+            "description": "Téléchargez un GIF du visage que vous souhaitez remplacer. Assurez-vous que les détails faciaux sont clairs pour de meilleurs résultats."
           },
           {
             "number": "2",
@@ -657,101 +657,101 @@
           {
             "number": "3",
             "title": "Attendez la génération",
-            "description": "Cliquez sur le bouton \"Swap GIF Face\" et attendez que notre IA génère votre nouveau GIF avec les visages échangés."
+            "description": "Cliquez sur le bouton \"Échanger le visage du GIF\" et attendez que notre IA génère votre nouveau GIF avec les visages échangés."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Multiples scénarios d'utilisation",
+        "title": "Scénarios d'utilisation multiples",
         "items": [
           {
             "title": "Partage sur les réseaux sociaux",
-            "description": "Partagez vos GIF amusants sur les principales plateformes de médias sociaux comme Instagram, Facebook et Twitter pour améliorer l'interaction et attirer l'attention."
+            "description": "Partagez vos GIF amusants sur les principales plates-formes de médias sociaux telles qu'Instagram, Facebook et Twitter pour améliorer l'interaction et attirer l'attention."
           },
           {
-            "title": "Création de contenus comiques",
-            "description": "Les créateurs de contenu peuvent utiliser GIF Face Swap pour produire des vidéos et des clips amusants, enrichissant leur contenu et attirant davantage de spectateurs."
+            "title": "Création de contenu comique",
+            "description": "Les créateurs de contenu peuvent utiliser le GIF Face Swap pour produire des vidéos et des clips amusants, enrichissant leur contenu et attirant plus de spectateurs."
           },
           {
-            "title": "Invitations pour événements et fêtes",
-            "description": "Créez des GIF personnalisés d'invitation pour des fêtes ou des événements afin de les rendre plus attractifs et captivants, augmentant ainsi l'intérêt pour y participer."
+            "title": "Invitations à des événements et soirées",
+            "description": "Créez des GIFs d'invitation personnalisés pour des soirées ou des événements afin de les rendre plus attrayants et engageants, augmentant ainsi l'intérêt pour y participer."
           }
         ]
       }
     },
     "video": {
-      "title": "Échange de visage vidéo | AIFACESWAP.APP",
-      "description": "Transformez vos vidéos avec une technologie avancée d'échange de visage vidéo par IA.",
-      "heading": "Échange de visage vidéo IA",
-      "subheading": "Expérimentez un puissant échange de visage par IA pour les vidéos, rendant chaque image passionnante et parfaitement fluide. Remplacez instantanément les visages pour créer du contenu amusant, captivant ou professionnel.",
+      "title": "Face Swap Vidéo | AIFACESWAP.APP",
+      "description": "Transformez vos vidéos avec une technologie avancée de remplacement de visage en vidéo par IA.",
+      "heading": "Remplacement de Visage en Vidéo par IA",
+      "subheading": "Découvrez un puissant remplacement de visage en vidéo par IA, rendant chaque image excitante et fluide. Remplacez instantanément les visages pour créer du contenu amusant, engageant ou professionnel.",
       "features": {
-        "title": "Fonctionnalités de notre échange de visage vidéo",
+        "title": "Fonctionnalités de notre Remplacement de Visage en Vidéo",
         "items": [
           {
-            "title": "Remplacement de visage sans couture",
-            "description": "Notre IA avancée garantit un échange de visage fluide image par image, tout en conservant les expressions et les mouvements naturels tout au long de la vidéo."
+            "title": "Remplacement de Visage Sans Couture",
+            "description": "Notre IA avancée garantit un remplacement de visage image par image fluide qui conserve les expressions naturelles et les mouvements tout au long de la vidéo."
           },
           {
-            "title": "Résultats de haute qualité",
-            "description": "Découvrez des échanges de visage vidéo de qualité professionnelle avec un éclairage constant, des tons de peau réalistes et une cartographie précise des traits du visage."
+            "title": "Résultats de Haute Qualité",
+            "description": "Découvrez des remplacements de visage en vidéo de qualité professionnelle avec un éclairage constant, des tons de peau réalistes et une cartographie précise des traits du visage."
           },
           {
-            "title": "Processus convivial pour les utilisateurs",
-            "description": "Grâce à notre interface intuitive, remplacer des visages dans des vidéos est aussi simple que de télécharger votre vidéo, de sélectionner une image de visage et de laisser notre IA faire le travail."
+            "title": "Processus Convivial",
+            "description": "Avec notre interface intuitive, remplacer les visages dans les vidéos est aussi simple que de télécharger votre vidéo, de sélectionner une image de visage et de laisser notre IA faire le travail."
           }
         ]
       },
       "howTo": {
-        "title": "Comment ça marche",
+        "title": "Comment ça Marche",
         "steps": [
           {
             "number": "1",
-            "title": "Téléchargez votre vidéo",
-            "description": "Sélectionnez et téléchargez la vidéo dans laquelle vous voulez échanger un visage. Nous prenons en charge plusieurs formats vidéo courants."
+            "title": "Téléchargez Votre Vidéo",
+            "description": "Sélectionnez et téléchargez la vidéo dans laquelle vous souhaitez échanger un visage. Nous prenons en charge divers formats vidéo courants."
           },
           {
             "number": "2",
-            "title": "Téléchargez une photo de visage",
-            "description": "Choisissez une photo de visage claire pour l'échange. Pour de meilleurs résultats, utilisez une image de haute qualité avec un visage visible."
+            "title": "Téléchargez une Photo de Visage",
+            "description": "Choisissez une photo de visage claire pour l'échange. Pour des meilleurs résultats, utilisez une image de haute qualité avec un visage visible."
           },
           {
             "number": "3",
-            "title": "Générez votre vidéo d'échange de visage",
-            "description": "En un clic seulement, notre IA traite votre vidéo pour créer un échange de visage fluide et de haute qualité."
+            "title": "Générez Votre Vidéo d'Échange de Visages",
+            "description": "En un seul clic, notre IA traite votre vidéo pour créer un échange de visages lisse et de haute qualité."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Utilisations créatives de l'échange de visage vidéo",
+        "title": "Usages Créatifs de l'Échange de Visages Vidéo",
         "items": [
           {
-            "title": "Recréation de scènes de films",
-            "description": "Plongez dans des moments iconiques de films en échangeant les visages avec vos acteurs préférés. Créez des expériences cinématographiques uniques avec vous-mêmes ou vos amis en tant que stars."
+            "title": "Reconstitution de Scène de Film",
+            "description": "Plongez dans des moments emblématiques de films en échangeant les visages avec vos acteurs préférés. Créez des expériences cinématographiques uniques avec vous-même ou vos amis en tant que stars."
           },
           {
-            "title": "Contenu sur les réseaux sociaux",
-            "description": "Créez du contenu captivant et viral pour TikTok, Instagram et YouTube avec des vidéos amusantes d'échange de visages qui captent l'attention des spectateurs."
+            "title": "Contenu des Médias Sociaux",
+            "description": "Créez du contenu engageant et viral pour TikTok, Instagram et YouTube avec des vidéos d'échange de visages divertissantes qui captent l'attention des spectateurs."
           },
           {
-            "title": "Vidéos pour les occasions spéciales",
-            "description": "Rendez les anniversaires, les mariages et les célébrations plus mémorables en créant des vidéos personnalisées avec des échanges de visages des invités d'honneur."
+            "title": "Vidéos pour Occasions Spéciales",
+            "description": "Rendez les anniversaires, mariages et célébrations plus mémorables en créant des vidéos personnalisées avec des échanges de visages des invités d'honneur."
           }
         ]
       },
       "faq": {
-        "title": "Questions fréquemment posées",
+        "title": "Questions Fréquemment Posées",
         "items": [
           {
-            "title": "Combien de temps faut-il pour traiter ma vidéo ?",
-            "description": "Le temps de traitement dépendra de la longueur et de la qualité de la vidéo, mais notre IA avancée vise à fournir rapidement des résultats tout en maintenant une haute qualité."
+            "title": "Combien de temps faudra-t-il pour traiter ma vidéo?",
+            "description": "Le temps de traitement dépendra de la longueur et de la qualité de la vidéo, mais notre IA avancée vise à fournir rapidement des résultats de haute qualité."
           },
           {
-            "title": "Quels formats vidéo seront pris en charge ?",
-            "description": "Notre service prendra en charge les formats vidéo courants, y compris MP4, MOV et AVI."
+            "title": "Quels formats vidéo seront pris en charge?",
+            "description": "Notre service prendra en charge des formats vidéo courants tels que MP4, MOV et AVI."
           },
           {
-            "title": "Y aura-t-il une limite de durée de vidéo ?",
-            "description": "Les utilisateurs gratuits auront accès à un traitement vidéo plus court, tandis que les abonnés premium bénéficieront d'une prise en charge vidéo plus longue."
+            "title": "Y aura-t-il une limite sur la longueur de la vidéo?",
+            "description": "Les utilisateurs gratuits auront accès à un traitement de vidéo plus court, tandis que les abonnés premium profiteront d'une prise en charge de vidéos plus longues."
           }
         ]
       }

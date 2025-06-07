@@ -1,12 +1,12 @@
 {
-  "template": "ai-face-swap",
+  "template": "image-to-ghibli",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "AI Face Swap - Fotomontaggio Sostituire Volto",
+      "title": "Immagine in Ghibli",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Immagine in Ghibli"
       },
       "url": "/"
     },
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "Il miglior Fotomontaggio Sostituire Volto Online Gratis",
-    "highlight_text": "AI Face Swap",
-    "description": "Immergiti nell'innovativo mondo dei fotomontaggi per sostituire volti online gratis, dove la tecnologia all'avanguardia incontra l'intrattenimento senza limiti. Modifica facilmente immagini e filmati, aprendo la porta a possibilità digitali senza precedenti.",
+    "title": "Trasforma le Tue Foto in Magica Arte Anime",
+    "highlight_text": "Stile Studio Ghibli",
+    "description": "Vivi la trasformazione incantevole delle tue foto in splendide opere d'arte anime ispirate all'estetica leggendaria dello Studio Ghibli. La nostra tecnologia AI porta il magico mondo dell'animazione nei tuoi momenti quotidiani.",
     "announcement": {
       "label": "AI",
-      "title": "Gratuito e Sicuro",
+      "title": "Istantaneo e Magico",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "Prova Ora",
+        "title": "Trasforma Ora",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Vedi Esempi",
+        "title": "Visualizza Galleria",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -79,55 +79,55 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "Sperimenta la Magia del Fotomontaggio per Sostituire Volti",
+    "title": "Trasforma le Foto in Magia Anime",
     "label": "Come Funziona",
-    "description": "Trasforma qualsiasi foto con la nostra tecnologia avanzata di fotomontaggio per sostituire volti online gratis. Veloce, precisa e sicura.",
+    "description": "Trasforma le tue foto ordinarie in straordinarie opere d'arte anime con la nostra tecnologia avanzata di intelligenza artificiale. Veloce, bellissimo e magico.",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "Carica le Tue Foto",
-        "description": "Carica semplicemente l'immagine sorgente e il viso con cui vuoi effettuare il fotomontaggio.",
+        "title": "Carica la Tua Foto",
+        "description": "Carica semplicemente qualsiasi foto che desideri trasformare in un'opera d'arte in stile anime.",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "Elaborazione AI",
-        "description": "La nostra AI analizza ed elabora le immagini per un fotomontaggio perfetto del volto.",
+        "title": "Magia AI",
+        "description": "Il nostro AI analizza la tua immagine e applica l'amato estetica dello Studio Ghibli.",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "Risultati Istantanei",
-        "description": "Ottieni la tua immagine trasformata in pochi secondi, pronta per il download.",
+        "title": "Scarica Arte",
+        "description": "Scarica istantaneamente la tua opera d'arte trasformata, pronta da condividere e conservare.",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
     "name": "beneficio",
-    "title": "Perché Scegliere il Nostro Servizio di Fotomontaggio",
-    "label": "Benefici",
-    "description": "Sperimenta la migliore tecnologia di sostituzione volti online gratis con funzionalità avanzate e sicurezza.",
+    "title": "Perché Scegliere il Nostro Trasformatore d'Arte AI",
+    "label": "Vantaggi",
+    "description": "Vivi la magia di trasformare le tue foto in splendide opere d'arte in stile anime con funzionalità avanzate.",
     "items": [
       {
         "title": "Tecnologia AI Avanzata",
-        "description": "I modelli di deep learning all'avanguardia garantiscono fotomontaggi naturali e realistici per sostituire volti.",
+        "description": "Modelli di apprendimento profondo all'avanguardia garantiscono trasformazioni in stile anime belle e autentiche.",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Privacy e Sicurezza",
-        "description": "Le tue foto vengono elaborate in modo sicuro e automaticamente eliminate dopo l'elaborazione.",
+        "title": "Stile Autentico",
+        "description": "Il nostro AI cattura l'essenza delle amate estetiche anime in ogni trasformazione.",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Adatto agli Sviluppatori",
-        "description": "Integra la nostra tecnologia di fotomontaggio nelle tue app con la nostra robusta API.",
+        "title": "Integrazione Facile",
+        "description": "Integra la nostra tecnologia di trasformazione delle immagini nelle tue app con la nostra API robusta.",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -137,91 +137,91 @@
   },
   "usage": {
     "name": "utilizzo",
-    "title": "Come Sostituire un Volto Online Gratis",
-    "description": "Crea fotomontaggi straordinari in pochi semplici passaggi:",
+    "title": "Trasforma le tue foto in pochi semplici passaggi",
+    "description": "Crea splendide opere d'arte anime con pochi clic:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
-    "image_position": "right",
-    "text_align": "left",
+    "image_position": "destra",
+    "text_align": "sinistra",
     "items": [
       {
-        "title": "Carica la Tua Immagine",
-        "description": "Basta cliccare su 'Carica un'Immagine' e selezionare una foto che vuoi usare come immagine sorgente. Assicurati che ci sia solo un volto di buona qualità nella foto."
+        "title": "Carica la tua foto",
+        "description": "Fai clic su 'Carica una foto' e seleziona l'immagine che desideri trasformare. Le foto con soggetti chiari funzionano meglio."
       },
       {
-        "title": "Scegli l'Opzione di Sostituzione Volto",
-        "description": "Una volta che la tua immagine originale è pronta, scegli l'effetto di fotomontaggio desiderato tra i preset disponibili. Questo significa che sostituirai il volto della tua immagine caricata con il preset selezionato."
+        "title": "Scegli le opzioni di stile",
+        "description": "Scegli tra varie opzioni di stile per personalizzare la tua trasformazione. Ogni opzione porta elementi artistici unici al tuo pezzo finale."
       },
       {
-        "title": "Crea il Fotomontaggio con l'IA",
-        "description": "Clicca sul pulsante 'Scambia Volto Ora' per mostrare la magia dell'IA. Il nostro servizio completerà la sostituzione del volto in pochi secondi. La nostra IA svolge il lavoro automaticamente garantendo il miglior risultato."
+        "title": "Trasformazione con AI",
+        "description": "Lascia che la nostra intelligenza artificiale faccia magie. In pochi secondi, la tua foto sarà trasformata in una bellissima opera d'arte ispirata all'anime."
       },
       {
-        "title": "Anteprima e Download",
-        "description": "Bingo! Il tuo fotomontaggio per sostituire volto online gratis è pronto! Visualizza il risultato finale sulla stessa pagina. Clicca 'Download' per salvare l'immagine senza filigrana sul tuo dispositivo. Condividila per divertirti!"
+        "title": "Scarica e condividi",
+        "description": "La tua opera d'arte è pronta! Scarica la tua immagine trasformata in alta qualità e condividi la tua creazione magica con il mondo."
       }
     ]
   },
   "feature": {
-    "name": "funzionalità",
-    "title": "Potenti Funzionalità di Fotomontaggio con IA",
-    "description": "Scopri le straordinarie capacità del nostro servizio di fotomontaggio per sostituire volti online gratis",
+    "name": "caratteristica",
+    "title": "Funzionalità magiche per le tue foto",
+    "description": "Scopri le capacità incantevoli della nostra tecnologia di trasformazione artistica AI",
     "items": [
       {
-        "title": "Fotomontaggi Realistici",
-        "description": "La nostra tecnologia all'avanguardia garantisce fotomontaggi perfetti e realistici, nascondendo completamente qualsiasi traccia di modifica.",
+        "title": "Stile Anime Autentico",
+        "description": "La nostra intelligenza artificiale cattura perfettamente lo stile artistico distintivo che rende l'arte anime così amata in tutto il mondo.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Interfaccia Facile da Usare",
-        "description": "Con un solo clic, puoi sostituire qualsiasi volto su un'altra immagine, rendendo il processo semplice e intuitivo.",
+        "title": "Interfaccia Semplice",
+        "description": "Trasforma le tue foto con un solo clic, rendendo la magia dell'arte anime accessibile a tutti.",
         "icon": "RiMouseLine"
       },
       {
-        "title": "Creazione di Meme",
-        "description": "Crea meme esilaranti con facilità, aumentando l'interazione con il tuo pubblico attraverso contenuti nuovi e coinvolgenti.",
+        "title": "Variazioni di Stile",
+        "description": "Scegli tra diversi stili artistici per trovare l'aspetto perfetto per le tue foto.",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "Trasformazioni in Celebrità",
-        "description": "Trasforma il tuo aspetto sostituendo il tuo volto con vari personaggi, dalle star del cinema ai supereroi.",
+        "title": "Alta Risoluzione",
+        "description": "Ottieni bellissime opere d'arte ad alta risoluzione perfette per la stampa o l'esposizione digitale.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "Sperimentazione di Stili",
-        "description": "Esplora nuovi look applicando il tuo viso a diversi personaggi, sperimentando con trucco, acconciature e stili di moda.",
+        "title": "Elaborazione Batch",
+        "description": "Trasforma più foto contemporaneamente per creare una collezione di opere d'arte anime.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "Creatività Infinita",
-        "description": "Sblocca un potenziale infinito per la creatività e l'intrattenimento con il nostro versatile servizio di fotomontaggio online gratis.",
+        "title": "Libertà Creativa",
+        "description": "Libera la tua creatività con varie opzioni di personalizzazione per le tue trasformazioni.",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
-    "name": "vetrina",
-    "title": "Trasformazioni Incredibili",
-    "description": "Guarda cosa hanno creato i nostri utenti con il nostro strumento di fotomontaggio per sostituire volti.",
+    "name": "mostra",
+    "title": "Trasformazioni Magiche",
+    "description": "Scopri le sorprendenti opere d'arte create con la nostra tecnologia AI.",
     "items": [
       {
-        "title": "Cambio Volto Video",
-        "description": "Sostituisci i volti nei video, migliorando la realizzazione di film o creando contenuti per i social media",
+        "title": "Trasformazione del Paesaggio",
+        "description": "Trasforma le tue foto panoramiche in mozzafiato paesaggi anime",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "Cambio Volto Foto",
-        "description": "Ti permette di fare fotomontaggi per sostituire volti nelle foto online gratis",
+        "title": "Trasformazione del Ritratto",
+        "description": "Trasforma i ritratti in bellissime opere d'arte con personaggi in stile anime",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "Cambio Volto Multiplo",
-        "description": "Sostituisci più volti in foto di famiglia, foto di matrimonio, foto di feste, ecc",
+        "title": "Trasformazione della Foto di Gruppo",
+        "description": "Converti le foto di gruppo in affascinanti scene anime",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,24 +231,24 @@
   "stats": {
     "name": "statistiche",
     "label": "Statistiche",
-    "title": "Affidato da Utenti in Tutto il Mondo",
-    "description": "Unisciti a migliaia di utenti soddisfatti che utilizzano il nostro servizio di fotomontaggio online.",
+    "title": "Affidabile per Artisti in Tutto il Mondo",
+    "description": "Unisciti a migliaia di creatori che trasformano le loro foto in arte anime.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Utenti Felici",
+        "title": "Artisti Felici",
         "label": "1M+",
         "description": "Utenti Attivi"
       },
       {
-        "title": "Fotomontaggi Completati",
+        "title": "Trasformazioni",
         "label": "10M+",
-        "description": "Completati"
+        "description": "Completato"
       },
       {
         "title": "Tempo di Elaborazione",
         "label": "5s",
-        "description": "Media"
+        "description": "Medio"
       }
     ]
   },
@@ -256,21 +256,21 @@
     "name": "prezzi",
     "label": "Prezzi",
     "title": "Prezzi Semplici e Trasparenti",
-    "description": "Scegli il piano perfetto per le tue esigenze di fotomontaggio per sostituire volti.",
+    "description": "Scegli il piano perfetto per il tuo percorso artistico.",
     "toggle": {
-      "monthly": "Mensile",
-      "annual": "Annuale",
+      "monthly": "Monthly",
+      "annual": "Annual",
       "default_plan": "annuale",
       "discount_text": "OTTIENI 2 MESI GRATIS ANNUALMENTE"
     },
-    "cancel_text": "Annulla in qualsiasi momento. Nessuna tassa nascosta",
+    "cancel_text": "Annulla in qualsiasi momento. Nessuna spesa nascosta",
     "items": [
       {
         "product_title": "Free",
-        "description": "Perfetto per fotomontaggio gratis online",
+        "description": "Perfetto per provare",
         "features": [
           {
-            "text": "Fotomontaggi illimitati con filigrana",
+            "text": "Trasformazioni limitate con filigrana",
             "included": true
           },
           {
@@ -282,14 +282,14 @@
             "included": true
           },
           {
-            "text": "Nessun fotomontaggio GIF o video",
+            "text": "Nessun trattamento a lotti",
             "included": false
           }
         ],
         "pricing": {
           "monthly": {
             "amount": 0,
-            "price": "€0"
+            "price": "$0"
           },
           "annual": {
             "amount": 0,
@@ -297,9 +297,9 @@
           }
         },
         "currency": "USD",
-        "unit": "mese",
+        "unit": "month",
         "is_featured": false,
-        "tip": "Perfetto per iniziare!",
+        "tip": "Ideale per iniziare!",
         "product_id": {
           "monthly": "price_free",
           "annual": "price_free"
@@ -310,22 +310,22 @@
       },
       {
         "product_title": "Basic",
-        "description": "Per utenti avanzati",
+        "description": "Per creatori regolari",
         "features": [
           {
-            "text": "600 crediti al mese",
+            "text": "600 trasformazioni al mese",
             "included": true
           },
           {
-            "text": "600 scambi di volto senza filigrana",
+            "text": "600 opere d'arte senza filigrana",
             "included": true
           },
           {
-            "text": "o 200 scambi di volto GIF",
+            "text": "Output ad alta risoluzione",
             "included": true
           },
           {
-            "text": "24 scambi di volto video",
+            "text": "Elaborazione a lotti fino a 10 immagini",
             "included": true
           },
           {
@@ -351,7 +351,7 @@
         "currency": "USD",
         "unit": "mese",
         "is_featured": true,
-        "tip": "La scelta più popolare!",
+        "tip": "Scelta più popolare!",
         "product_id": {
           "monthly": "price_month_1200",
           "annual": "price_year_10000"
@@ -360,33 +360,33 @@
         "credits": 600,
         "valid_months": 1,
         "button": {
-          "title": "Ottieni Basic",
+          "title": "Ottieni Base",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
       },
       {
         "product_title": "Pro",
-        "description": "Per le aziende",
+        "description": "Per artisti professionisti",
         "features": [
           {
-            "text": "Scambi facciali illimitati senza filigrana",
+            "text": "Trasformazioni illimitate",
             "included": true
           },
           {
-            "text": "Scambi facciali GIF illimitati",
+            "text": "Output ad altissima risoluzione",
             "included": true
           },
           {
-            "text": "64 scambi di volto video",
+            "text": "Personalizzazione dello stile avanzata",
             "included": true
           },
           {
-            "text": "Elaborazione ultra veloce",
+            "text": "Elaborazione batch illimitata",
             "included": true
           },
           {
-            "text": "Supporto prioritario 24/7",
+            "text": "Assistenza prioritaria 24/7",
             "included": true
           }
         ],
@@ -404,7 +404,7 @@
         "currency": "USD",
         "unit": "mese",
         "is_featured": false,
-        "tip": "Ideale per le aziende!",
+        "tip": "Il migliore per i professionisti!",
         "product_id": {
           "monthly": "price_month_2400",
           "annual": "price_year_20000"
@@ -413,7 +413,7 @@
         "credits": 1600,
         "valid_months": 1,
         "button": {
-          "title": "Ottieni Pro",
+          "title": "Acquista Pro",
           "url": "/#signup",
           "icon": "RiFlashlightFill"
         }
@@ -423,30 +423,30 @@
   "testimonial": {
     "name": "testimonial",
     "label": "Testimonianze",
-    "title": "Cosa Dicono i Nostri Utenti",
-    "description": "Ascolta le persone che amano usare il nostro servizio di fotomontaggio per sostituire volti online.",
+    "title": "Cosa Dicono I Nostri Artisti",
+    "description": "Scopri cosa dicono le persone che amano utilizzare la nostra trasformazione artistica a IA.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "Fotografo Professionista",
-        "description": "La qualità dei fotomontaggi è incredibile! Lo uso per scatti professionali e i risultati sono sempre perfetti.",
+        "label": "Artista Digitale",
+        "description": "La qualità delle trasformazioni anime è incredibile! Lo uso per creare opere d'arte uniche e i risultati sono sempre magici.",
         "image": {
           "src": "/imgs/users/1.png"
         }
       },
       {
         "title": "Mike Chen",
-        "label": "Content Creator",
-        "description": "L'API è super facile da integrare e la velocità di elaborazione è sorprendente. Perfetto per le mie esigenze di creazione di contenuti.",
+        "label": "Creatore di Contenuti",
+        "description": "L'API è molto facile da integrare e la velocità di trasformazione è sorprendente. Perfetto per i miei progetti creativi.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "Social Media Manager",
-        "description": "La funzione di sostituire più volti online gratis è rivoluzionaria. Rende molto più facile creare contenuti coinvolgenti!",
+        "label": "Artista dei Social Media",
+        "description": "La funzione di elaborazione batch è rivoluzionaria. Rende molto più facile la creazione di collezioni a tema!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -457,38 +457,38 @@
     "name": "faq",
     "label": "FAQ",
     "title": "Domande Frequenti",
-    "description": "Hai domande? Abbiamo le risposte.",
+    "description": "Hai delle domande? Abbiamo le risposte.",
     "items": [
       {
-        "title": "Come funziona il fotomontaggio per sostituire volti online gratis?",
-        "description": "La nostra tecnologia AI avanzata analizza le caratteristiche facciali in entrambe le immagini, poi le sostituisce senza soluzione di continuità mantenendo aspetto ed espressioni naturali. Il processo richiede solo pochi secondi e garantisce risultati di alta qualità."
+        "title": "Come funziona Image to Ghibli?",
+        "description": "La nostra tecnologia avanzata di intelligenza artificiale analizza le tue foto e le trasforma in bellissime opere d'arte in stile anime ispirate all'estetica dello Studio Ghibli. Il processo richiede solo pochi secondi e garantisce risultati di alta qualità."
       },
       {
-        "title": "I miei dati sono sicuri?",
-        "description": "Sì, assolutamente! Prendiamo molto sul serio la privacy. Tutte le foto caricate vengono elaborate in modo sicuro e automaticamente eliminate dopo l'elaborazione. Non memorizziamo né condividiamo mai le tue immagini senza permesso."
+        "title": "I miei dati sono al sicuro?",
+        "description": "Sì, assolutamente! Noi prendiamo molto sul serio la privacy. Tutte le foto caricate vengono elaborate in modo sicuro ed automaticamente eliminate dopo l'elaborazione. Non memorizziamo mai o condividiamo le tue immagini senza il tuo permesso."
       },
       {
         "title": "Quali formati di immagine sono supportati?",
-        "description": "Supportiamo tutti i formati di immagine comuni inclusi JPG, PNG e WEBP. Per risultati migliori, consigliamo di utilizzare foto chiare, ben illuminate con volti visibili."
+        "description": "Supportiamo tutti i formati comuni delle immagini, inclusi JPG, PNG e WEBP. Per ottenere i migliori risultati, ti raccomandiamo di utilizzare foto chiare e ben illuminate."
       },
       {
-        "title": "Posso sostituire più volti in un'immagine?",
-        "description": "Sì! I nostri piani Pro ed Enterprise supportano la sostituzione di più volti in una singola immagine. Puoi creare fotomontaggi con diversi volti in una sola volta."
+        "title": "Posso trasformare più foto contemporaneamente?",
+        "description": "Sì! I nostri piani Pro ed Enterprise supportano l'elaborazione batch, consentendoti di trasformare più foto contemporaneamente mantenendo uno stile coerente."
       },
       {
         "title": "Offrite un'API?",
-        "description": "Sì, forniamo un'API robusta per gli sviluppatori per integrare la nostra tecnologia di fotomontaggio nelle loro applicazioni. L'accesso API è disponibile con i nostri piani Pro ed Enterprise."
+        "description": "Sì, forniamo una robusta API per gli sviluppatori per integrare la nostra tecnologia di trasformazione nelle loro applicazioni. L'accesso all'API è disponibile con i nostri piani Pro ed Enterprise."
       },
       {
         "title": "Qual è la vostra politica di rimborso?",
-        "description": "Offriamo una garanzia di soddisfazione al 100%. Se non sei soddisfatto del nostro servizio di fotomontaggio online, contattaci entro 7 giorni dal tuo acquisto per un rimborso completo."
+        "description": "Offriamo una garanzia di soddisfazione al 100%. Se non sei soddisfatto del nostro servizio, contattaci entro 7 giorni dall'acquisto per un rimborso completo."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Inizia a Trasformare le Tue Foto Oggi",
-    "description": "Unisciti a milioni di utenti soddisfatti e sperimenta la magia del fotomontaggio per sostituire volti online gratis.",
+    "title": "Inizia il Tuo Viaggio Artistico Oggi",
+    "description": "Unisciti a milioni di creatori e vivi la magia della trasformazione artistica tramite intelligenza artificiale.",
     "buttons": [
       {
         "title": "Prova Gratuitamente",
@@ -497,7 +497,7 @@
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "Visualizza Esempi",
+        "title": "Visualizza Galleria",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,22 +507,22 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "Trasforma le tue foto con la tecnologia avanzata di fotomontaggio per sostituire volti online gratis. Veloce, sicuro e facile da usare.",
+      "title": "Immagine a Ghibli",
+      "description": "Trasforma le tue foto in splendide opere d'arte in stile anime con tecnologia AI avanzata. Veloce, sicuro e facile da usare.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Immagine a Ghibli"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap Tutti i diritti riservati.",
+    "copyright": "© 2024 • Immagine a Ghibli Tutti i diritti riservati.",
     "nav": {
       "items": [
         {
           "title": "Prodotto",
           "children": [
             {
-              "title": "Caratteristiche",
+              "title": "Funzionalità",
               "url": "/#feature",
               "target": "_self"
             },
@@ -545,7 +545,7 @@
         {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
@@ -553,151 +553,151 @@
     "agreement": {
       "items": [
         {
-          "title": "Informativa sulla Privacy",
+          "title": "Informativa sulla privacy",
           "url": "/privacy-policy"
         },
         {
-          "title": "Termini di Servizio",
+          "title": "Condizioni di servizio",
           "url": "/terms-of-service"
         }
       ]
     }
   },
   "faceSwap": {
-    "photoFaceSwap": "Fotomontaggio Sostituire Volto",
-    "videoFaceSwap": "Sostituzione volti nei video",
-    "multipleFaceSwap": "Sostituzione Multipla di Volti",
-    "gifFaceSwap": "Sostituzione volti in formato GIF",
-    "uploadOriginalImage": "Carica Immagine Originale",
-    "uploadFaceImage": "Carica Immagine del Volto",
-    "startFaceSwap": "Inizia Fotomontaggio",
-    "swapFace": "Sostituisci Volto",
+    "photoFaceSwap": "Scambio facciale delle foto",
+    "videoFaceSwap": "Scambio facciale dei video",
+    "multipleFaceSwap": "Scambio facciale multiplo",
+    "gifFaceSwap": "Scambio facciale GIF",
+    "uploadOriginalImage": "Carica immagine originale",
+    "uploadFaceImage": "Carica immagine del viso",
+    "startFaceSwap": "Avvia scambio viso",
+    "swapFace": "Scambia viso",
     "processing": "Elaborazione in corso...",
     "before": "Prima",
     "after": "Dopo",
-    "uploadImage": "Carica Immagine",
-    "readyToSwap": "Pronto per la Sostituzione",
-    "uploadBothImages": "Carica Entrambe le Immagini",
-    "comingSoon": "Prossimamente",
+    "uploadImage": "Carica immagine",
+    "readyToSwap": "Pronto per lo scambio",
+    "uploadBothImages": "Carica entrambe le immagini",
+    "comingSoon": "In arrivo",
     "download": "Scarica",
-    "splitView": "Vista Divisa",
-    "compareView": "Vista Confronto",
+    "splitView": "Vista divisa",
+    "compareView": "Vista comparativa",
     "zoomIn": "Ingrandisci",
-    "swapInProgress": "Fotomontaggio in corso...",
-    "completeSoon": "Sarà completato in pochi secondi",
-    "magicHappening": "La magia sta accadendo...",
+    "swapInProgress": "Scambio facciale in corso...",
+    "completeSoon": "Completerà tra pochi secondi",
+    "magicHappening": "Magia in corso...",
     "uploadGif": "Carica GIF",
     "uploadFacePhoto": "Carica Foto del Viso",
-    "startGifFaceSwap": "Avvia Sostituzione viso in GIF",
-    "swapGifFace": "Sostituisci Volto in GIF",
+    "startGifFaceSwap": "Avvia Scambio Viso GIF",
+    "swapGifFace": "Scambia Viso GIF",
     "preview": "Anteprima",
     "gifPreview": "Anteprima GIF",
-    "swapResult": "Risultato Sostituzione",
-    "pleaseUploadGif": "Carica una GIF, per favore",
-    "gifSwapInProgress": "Sostituzione volto in GIF in corso...",
-    "gifCompleteSoon": "Ci vorrà del tempo, per favore abbi pazienza",
-    "watermarkNotice": "Crediti insufficienti, aggiunto watermark",
+    "swapResult": "Risultato dello Scambio",
+    "pleaseUploadGif": "Si prega di caricare una GIF",
+    "gifSwapInProgress": "Scambio facciale GIF in corso...",
+    "gifCompleteSoon": "Questo potrebbe richiedere del tempo, si prega di essere pazienti",
+    "watermarkNotice": "Crediti insufficienti, watermark aggiunto",
     "gifFormat": "GIF",
-    "wantRemoveWatermark": "Vuoi rimuovere il watermark?",
-    "upgradePremium": "Sblocca le funzionalità premium",
-    "watermarkDescription": "Iscriviti oggi per godere di tutte le funzionalità premium della nostra piattaforma di fotomontaggio online.",
+    "wantRemoveWatermark": "Desideri rimuovere il watermark?",
+    "upgradePremium": "Sblocca Funzionalità Premium",
+    "watermarkDescription": "Abbonati oggi per godere di tutte le funzionalità premium della nostra piattaforma.",
     "premiumBenefits": "Con l'abbonamento ottieni:",
     "benefit1": "Esperienza senza pubblicità",
-    "benefit2": "Fotomontaggi senza watermark",
-    "benefit3": "Capacità di sostituire volti in GIF",
-    "benefit4": "Capacità di sostituire volti nei video",
-    "subscribeNow": "Iscriviti ora",
-    "uploadVideo": "Carica video",
+    "benefit2": "Foto senza watermark",
+    "benefit3": "Capacità di scambio facciale GIF",
+    "benefit4": "Capacità di scambio facciale video",
+    "subscribeNow": "Abbonati Ora",
+    "uploadVideo": "Carica Video",
     "pleaseUploadVideo": "Si prega di caricare un video",
-    "videoPreview": "Anteprima video",
-    "videoSwapInProgress": "Fotomontaggio nel video in corso...",
-    "videoCompleteSoon": "Ci vorrà un po' di tempo, si prega di essere pazienti",
-    "videoFormat": "Video M4V, MP4, MOV",
+    "videoPreview": "Anteprima Video",
+    "videoSwapInProgress": "Scambio facciale video in corso...",
+    "videoCompleteSoon": "Questo potrebbe richiedere del tempo, si prega di essere pazienti",
+    "videoFormat": "Video in formato M4V, MP4, MOV",
     "videoSizeLimit": "Abbonati: 10MB / 20s",
     "videoFaceTip": "Assicurati che un viso frontale chiaro appaia all'inizio del video",
-    "startVideoFaceSwap": "Avvia il fotomontaggio nel video",
-    "swapVideoFace": "Sostituisci volto nel video",
-    "videoSizeError": "Il file video supera i 10MB. Carica un video più piccolo, per favore.",
-    "videoDurationError": "La durata del video supera i 20 secondi. Carica un video più breve, per favore.",
+    "startVideoFaceSwap": "Avvia Scambio Facce Video",
+    "swapVideoFace": "Scambia Viso Video",
+    "videoSizeError": "Il file video supera i 10MB. Carica un video più piccolo.",
+    "videoDurationError": "La durata del video supera i 20 secondi. Carica un video più breve.",
     "gif": {
-      "title": "Fotomontaggio GIF - Crea sostituzioni di volti divertenti con la tecnologia AI",
-      "description": "Sostituisci volti su GIF con la nostra avanzata tecnologia AI. Crea GIF divertenti e condivisibili in pochi secondi. Non è richiesta registrazione, fotomontaggio online gratis, sostituzioni illimitate!",
-      "heading": "Crea fotomontaggi divertentissimi con le GIF",
-      "subheading": "Carica le tue GIF e crea immagini divertenti e condivisibili in pochi clic!",
+      "title": "GIF Scambio Facce - Crea Divertenti Scambi di Facce GIF con Tecnologia AI",
+      "description": "Scambia i volti su GIF con la nostra avanzata tecnologia AI. Crea GIF divertenti e condivisibili in pochi secondi. Nessuna registrazione richiesta, gratuito da usare, scambi illimitati!",
+      "heading": "Crea Divertenti Scambi di Facce GIF",
+      "subheading": "Carica le tue GIF e crea immagini divertenti e condivisibili con pochi clic!",
       "features": {
-        "title": "Caratteristiche del Fotomontaggio con le GIF",
+        "title": "Caratteristiche del GIF Scambio Facce",
         "items": [
           {
-            "title": "Sostituzione volti istantanea",
-            "description": "Il nostro strumento offre una sostituzione di volti in tempo reale veloce ed efficiente. Carica semplicemente la tua GIF e la nostra IA può riconoscere e sostituire immediatamente i volti, assicurando così che tu possa vedere i risultati subito."
+            "title": "Scambio Facce Istantaneo",
+            "description": "Il nostro strumento offre uno scambio facce rapido ed efficiente in tempo reale. Carica semplicemente la tua GIF e la nostra AI può riconoscere e sostituire istantaneamente i volti, garantendo che tu possa visualizzare i risultati subito."
           },
           {
-            "title": "Interazione Sociale Avanzata",
-            "description": "Condividi GIF divertenti con gli amici per promuovere l'interazione sociale e aggiungere umorismo. Perfetto per le diverse piattaforme di social media per rendere i tuoi contenuti più coinvolgenti."
+            "title": "Interazione Sociale Potenziata",
+            "description": "Condividi divertenti GIF con amici per promuovere l'interazione sociale e aggiungere umorismo. Perfetto per vari social media per rendere il tuo contenuto più coinvolgente."
           },
           {
-            "title": "Supporto per Multiple Formati",
-            "description": "Oltre al formato GIF, il nostro strumento di fotomontaggio online gratis supporta vari formati di input di immagini, rendendo facile caricare file da diverse fonti per un'esperienza utente flessibile."
+            "title": "Supporto per Formati Multipli",
+            "description": "Oltre al formato GIF, il nostro strumento supporta vari formati di input di immagini, facilitando il caricamento di file da diverse fonti per un'esperienza utente flessibile."
           }
         ]
       },
       "howTo": {
-        "title": "Come Sostituire i Volti in una GIF",
+        "title": "Come Sostituire i Volti in un GIF",
         "steps": [
           {
             "number": "1",
             "title": "Carica un GIF con un volto",
-            "description": "Carica una GIF del volto che desideri sostituire. Assicurati che ci siano dettagli facciali chiari per ottenere i migliori risultati."
+            "description": "Carica un GIF del volto che vuoi sostituire. Assicurati di avere dettagli facciali chiari per ottenere i migliori risultati."
           },
           {
             "number": "2",
             "title": "Carica un'immagine del volto di destinazione",
-            "description": "Carica una foto del volto che desideri utilizzare come sostituto. La chiarezza del volto è richiesta."
+            "description": "Carica una foto del volto che vuoi usare come sostituzione. È richiesta chiarezza facciale."
           },
           {
             "number": "3",
             "title": "Attendi la generazione",
-            "description": "Clicca il pulsante \"Sostituisci volto GIF\" e attendi che la nostra intelligenza artificiale generi il tuo nuovo fotomontaggio in GIF."
+            "description": "Clicca sul pulsante \"Sostituisci Volto GIF\" e attendi che la nostra intelligenza artificiale generi il tuo nuovo GIF con i volti scambiati."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Diversi scenari di utilizzo",
+        "title": "Diversi Scenari d'Uso",
         "items": [
           {
-            "title": "Condivisione sui social media",
-            "description": "Condividi i tuoi divertenti fotomontaggi GIF su importanti piattaforme di social media come Instagram, Facebook e Twitter per aumentare l'interazione e attirare l'attenzione."
+            "title": "Condivisione sui Social Media",
+            "description": "Condividi i tuoi divertenti GIF sui principali social media come Instagram, Facebook e Twitter per migliorare l'interazione e attirare l'attenzione."
           },
           {
             "title": "Creazione di contenuti comici",
-            "description": "I creatori di contenuti possono utilizzare il nostro servizio di fotomontaggio per sostituire volti online gratis in GIF per produrre video e clip divertenti, arricchendo i loro contenuti."
+            "description": "I creatori di contenuti possono utilizzare GIF Face Swap per produrre video e clip divertenti, arricchendo i loro contenuti e attirando più spettatori."
           },
           {
             "title": "Inviti per eventi e feste",
-            "description": "Crea GIF personalizzate per inviti per feste o eventi per renderli più coinvolgenti e accattivanti, aumentando l'interesse a partecipare."
+            "description": "Crea GIF di invito personalizzati per feste o eventi per renderli più coinvolgenti e accattivanti, aumentando l'interesse a partecipare."
           }
         ]
       }
     },
     "video": {
-      "title": "Fotomontaggio Video | AIFACESWAP.APP",
-      "description": "Trasforma i tuoi video con la tecnologia avanzata di sostituzione del volto tramite intelligenza artificiale.",
-      "heading": "Sostituzione del volto nei video tramite IA",
-      "subheading": "Vivi un'esperienza potente con la sostituzione del volto tramite IA per i video, rendendo ogni frame eccitante e senza soluzione di continuità. Sostituisci istantaneamente i volti per creare contenuti divertenti, coinvolgenti o professionali.",
+      "title": "Scambio facciale video | AIFACESWAP.APP",
+      "description": "Trasforma i tuoi video con la tecnologia avanzata di scambio facciale video mediante intelligenza artificiale.",
+      "heading": "Scambio facciale video con intelligenza artificiale",
+      "subheading": "Esperienza con un potente scambio facciale video basato su intelligenza artificiale, rendendo ogni frame emozionante e senza soluzione di continuità. Sostituisci istantaneamente i volti per creare contenuti divertenti, coinvolgenti o professionali.",
       "features": {
-        "title": "Caratteristiche del fotomontaggio nei video",
+        "title": "Caratteristiche del nostro scambio facciale video",
         "items": [
           {
-            "title": "Sostituzione del volto senza soluzione di continuità",
-            "description": "La nostra IA avanzata garantisce un fotomontaggio senza soluzione di continuità frame per frame, mantenendo espressioni naturali e movimenti per l'intero video."
+            "title": "Sostituzione viso senza soluzione di continuità",
+            "description": "La nostra avanzata intelligenza artificiale garantisce un'intercettazione di viso frame-by-frame che mantiene espressioni naturali e movimenti durante l'intero video."
           },
           {
             "title": "Risultati di alta qualità",
-            "description": "Esperienza di fotomontaggio video di livello professionale con illuminazione costante, tonalità della pelle realistiche e mappatura precisa delle caratteristiche facciali."
+            "description": "Esperienza di scambi di facce video di qualità professionale con illuminazione uniforme, tonalità della pelle realistiche e mappatura precisa delle caratteristiche del viso."
           },
           {
-            "title": "Processo Facile da Usare",
-            "description": "Grazie alla nostra interfaccia intuitiva, sostituire i volti nei video è semplice come caricare il tuo video, selezionare un'immagine del volto e lasciare che la nostra intelligenza artificiale faccia il lavoro."
+            "title": "Processo user-friendly",
+            "description": "Grazie alla nostra interfaccia intuitiva, sostituire i volti nei video è semplice come caricare il tuo video, selezionare un'immagine del viso e lasciare che la nostra intelligenza artificiale faccia il lavoro."
           }
         ]
       },
@@ -707,34 +707,34 @@
           {
             "number": "1",
             "title": "Carica il Tuo Video",
-            "description": "Seleziona e carica il video in cui desideri sostituire un volto. Supportiamo vari formati video comuni."
+            "description": "Seleziona e carica il video in cui vuoi scambiare un volto. Supportiamo vari formati video comuni."
           },
           {
             "number": "2",
-            "title": "Carica una Foto del Volto",
-            "description": "Scegli una foto chiara del volto da sostituire. Per ottenere i migliori risultati, utilizza un'immagine di alta qualità con un volto visibile."
+            "title": "Carica una Foto del Viso",
+            "description": "Scegli una foto chiara del viso da scambiare. Per ottenere i migliori risultati, utilizza un'immagine di alta qualità con un viso ben visibile."
           },
           {
             "number": "3",
-            "title": "Genera il Tuo Fotomontaggio Video",
-            "description": "Con un solo clic, la nostra intelligenza artificiale elabora il tuo video per creare una sostituzione del volto fluida e di alta qualità."
+            "title": "Genera il Tuo Video di Scambio Viso",
+            "description": "Con un solo clic, la nostra intelligenza artificiale elabora il tuo video per creare uno scambio viso fluido e di alta qualità."
           }
         ]
       },
       "usageScenarios": {
-        "title": "Usi Creativi per il Fotomontaggio Video",
+        "title": "Usi Creativi per lo Scambio Viso nei Video",
         "items": [
           {
-            "title": "Ricreazione di Scene del Film",
-            "description": "Entra in momenti iconici del cinema sostituendo volti con i tuoi attori preferiti. Crea esperienze cinematografiche uniche con te stesso o con gli amici come protagonisti."
+            "title": "Ricreazione Scene di Film",
+            "description": "Immergiti in momenti iconici dei film scambiando i volti con i tuoi attori preferiti. Crea esperienze cinematografiche uniche con te stesso o amici come protagonisti."
           },
           {
-            "title": "Contenuti per Social Media",
-            "description": "Crea contenuti coinvolgenti e virali per TikTok, Instagram e YouTube con video di fotomontaggio divertenti che catturano l'attenzione degli spettatori."
+            "title": "Contenuti per i Social Media",
+            "description": "Crea contenuti coinvolgenti e degni di diventare virali per TikTok, Instagram e YouTube con video divertenti di scambio viso che catturano l'attenzione degli spettatori."
           },
           {
             "title": "Video per Occasioni Speciali",
-            "description": "Rendi i compleanni, i matrimoni e le celebrazioni più memorabili creando video personalizzati con fotomontaggi degli ospiti onorati."
+            "description": "Rendi compleanni, matrimoni e celebrazioni più memorabili creando video personalizzati con scambi di volti degli ospiti d'onore."
           }
         ]
       },
@@ -743,15 +743,15 @@
         "items": [
           {
             "title": "Quanto tempo ci vorrà per elaborare il mio video?",
-            "description": "Il tempo di elaborazione dipenderà dalla lunghezza e dalla qualità del video, ma la nostra avanzata intelligenza artificiale mira a fornire risultati rapidamente mantenendo un'alta qualità."
+            "description": "Il tempo di elaborazione dipenderà dalla lunghezza e dalla qualità del video, ma la nostra AI avanzata mira a fornire risultati rapidamente mantenendo alta qualità."
           },
           {
             "title": "Quali formati video saranno supportati?",
-            "description": "Il nostro servizio di fotomontaggio online gratis supporterà formati video comuni, inclusi MP4, MOV e AVI."
+            "description": "Il nostro servizio supporterà formati video comuni tra cui MP4, MOV e AVI."
           },
           {
             "title": "Ci sarà un limite sulla lunghezza del video?",
-            "description": "Gli utenti gratuiti avranno accesso a un elaborazione video più breve, mentre gli abbonati premium potranno godere di un supporto video più lungo."
+            "description": "Gli utenti gratuiti avranno accesso a elaborazioni video più brevi, mentre i sottoscrittori premium godranno di supporto video più lungo."
           }
         ]
       }

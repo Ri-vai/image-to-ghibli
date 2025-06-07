@@ -1,12 +1,12 @@
 {
-  "template": "ai-face-swap",
+  "template": "image-to-ghibli",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "AI Face Swap",
+      "title": "Image to Ghibli",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Image to Ghibli"
       },
       "url": "/"
     },
@@ -43,24 +43,24 @@
     "show_locale": true
   },
   "hero": {
-    "title": "The best Online Free AI Face Swap",
-    "highlight_text": "AI Face Swap",
-    "description": "Dive into the innovative realm of AI Face Swapping, where state-of-the-art technology meets boundless entertainment. Easily modify images and footage, opening the door to unparalleled digital possibilities.",
+    "title": "Transform Your Photos into Magical Anime Art",
+    "highlight_text": "Studio Ghibli Style",
+    "description": "Experience the enchanting transformation of your photos into stunning anime artwork inspired by the legendary Studio Ghibli aesthetic. Our AI technology brings the magical world of animation to your everyday moments.",
     "announcement": {
       "label": "AI",
-      "title": "Free & Secure",
+      "title": "Instant & Magical",
       "url": "/#feature"
     },
     "buttons": [
       {
-        "title": "Try Now",
+        "title": "Transform Now",
         "url": "/#try",
         "target": "_self",
         "variant": "default",
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "View Examples",
+        "title": "View Gallery",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -79,55 +79,55 @@
   },
   "introduce": {
     "name": "introduce",
-    "title": "Experience the Magic of AI Face Swap",
+    "title": "Transform Photos into Anime Magic",
     "label": "How It Works",
-    "description": "Transform any photo with our advanced AI face swapping technology. Fast, accurate, and secure.",
+    "description": "Turn your ordinary photos into extraordinary anime artwork with our advanced AI technology. Fast, beautiful, and magical.",
     "image": {
       "src": "/imgs/introduce.png"
     },
     "items": [
       {
-        "title": "Upload Your Photos",
-        "description": "Simply upload the source image and the face you want to swap with.",
+        "title": "Upload Your Photo",
+        "description": "Simply upload any photo you'd like to transform into anime style artwork.",
         "icon": "RiUploadCloud2Line"
       },
       {
-        "title": "AI Processing",
-        "description": "Our AI analyzes and processes the images for perfect face swapping.",
+        "title": "AI Magic",
+        "description": "Our AI analyzes your image and applies the beloved Studio Ghibli aesthetic.",
         "icon": "RiAiGenerate"
       },
       {
-        "title": "Instant Results",
-        "description": "Get your transformed image in seconds, ready to download.",
+        "title": "Download Art",
+        "description": "Get your transformed artwork instantly, ready to share and cherish.",
         "icon": "RiDownload2Line"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "Why Choose AI Face Swap",
+    "title": "Why Choose Our AI Art Transformer",
     "label": "Benefits",
-    "description": "Experience the best face swapping technology with advanced features and security.",
+    "description": "Experience the magic of transforming your photos into stunning anime-style artwork with advanced features.",
     "items": [
       {
         "title": "Advanced AI Technology",
-        "description": "State-of-the-art deep learning models ensure natural and realistic face swaps.",
+        "description": "State-of-the-art deep learning models ensure beautiful and authentic anime-style transformations.",
         "icon": "RiBrainLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Privacy & Security",
-        "description": "Your photos are processed securely and automatically deleted after processing.",
+        "title": "Authentic Style",
+        "description": "Our AI captures the essence of beloved anime aesthetics in every transformation.",
         "icon": "RiShieldUserLine",
         "image": {
           "src": "/imgs/benefits.jpg"
         }
       },
       {
-        "title": "Developer Friendly",
-        "description": "Integrate our face swap technology into your apps with our robust API.",
+        "title": "Easy Integration",
+        "description": "Integrate our image transformation technology into your apps with our robust API.",
         "icon": "RiCodeSSlashLine",
         "image": {
           "src": "/imgs/benefits.jpg"
@@ -137,8 +137,8 @@
   },
   "usage": {
     "name": "usage",
-    "title": "How to Swap a Face Online",
-    "description": "Create stunning images in just a few simple steps:",
+    "title": "Transform Your Photos in Simple Steps",
+    "description": "Create stunning anime artwork in just a few clicks:",
     "image": {
       "src": "/imgs/features/usage-demo.png"
     },
@@ -146,82 +146,82 @@
     "text_align": "left",
     "items": [
       {
-        "title": "Upload Your Image",
-        "description": "Simply click 'Upload an Image' and select a photo you want to use as the source image. Ensure only one face in the photo is of good quality."
+        "title": "Upload Your Photo",
+        "description": "Click 'Upload a Photo' and select any image you want to transform. Photos with clear subjects work best."
       },
       {
-        "title": "Choose your Face Swap Option",
-        "description": "Once your original image is ready, choose the desired swapping effect from the given presets. That means you will replace the face of your uploaded image with the selected preset."
+        "title": "Choose Style Options",
+        "description": "Select from various style options to customize your transformation. Each option brings unique artistic elements to your final piece."
       },
       {
-        "title": "Swap Face with AI",
-        "description": "Click the 'Swap Face Now' button to show AI its magic. AiFaceSwap.app will finish face swapping in a few seconds. Our AI does the job automatically while guaranteeing the best output."
+        "title": "AI Transformation",
+        "description": "Let our AI work its magic. In seconds, your photo will be transformed into a beautiful piece of anime-inspired artwork."
       },
       {
-        "title": "Preview and Download",
-        "description": "Bingo! Your face is swapped to who you like! Preview the final result on the same page. Click 'Download' to save the watermark-free picture to your device. Share it for fun!"
+        "title": "Download and Share",
+        "description": "Your artwork is ready! Download your transformed image in high quality and share your magical creation with the world."
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "Powerful AI Face Swap Features",
-    "description": "Discover the amazing capabilities of our AI-powered face swapping technology",
+    "title": "Magical Features for Your Photos",
+    "description": "Discover the enchanting capabilities of our AI art transformation technology",
     "items": [
       {
-        "title": "Realistic Face Swaps",
-        "description": "Our forefront technology ensures perfect, realistic face swaps, completely obscuring any editing evidence.",
+        "title": "Authentic Anime Style",
+        "description": "Our AI perfectly captures the distinctive artistic style that makes anime art so beloved worldwide.",
         "icon": "RiImageLine"
       },
       {
-        "title": "Easy-to-Use Interface",
-        "description": "With just a single click, you can substitute any face onto another image, making the process simple and intuitive.",
+        "title": "Simple Interface",
+        "description": "Transform your photos with just one click, making the magic of anime art accessible to everyone.",
         "icon": "RiMouseLine"
       },
       {
-        "title": "Meme Creation",
-        "description": "Craft hilarious memes with ease, boosting interaction with your audience through novel and engaging content.",
+        "title": "Style Variations",
+        "description": "Choose from different artistic styles to find the perfect look for your photos.",
         "icon": "RiEmotionLaughLine"
       },
       {
-        "title": "Celebrity Transformations",
-        "description": "Transform your appearance by swapping your face with various personas, from movie stars to superheroes.",
+        "title": "High Resolution",
+        "description": "Get beautiful, high-resolution artwork perfect for printing or digital display.",
         "icon": "RiUserStarLine"
       },
       {
-        "title": "Style Experimentation",
-        "description": "Explore new looks by applying your face to different characters, experimenting with makeup, hairstyles, and fashion styles.",
+        "title": "Batch Processing",
+        "description": "Transform multiple photos at once to create a collection of anime artwork.",
         "icon": "RiPaletteLine"
       },
       {
-        "title": "Endless Creativity",
-        "description": "Unlock infinite potential for creativity and entertainment with our versatile face swapping technology.",
+        "title": "Creative Freedom",
+        "description": "Unleash your creativity with various customization options for your transformations.",
         "icon": "RiMagicLine"
       }
     ]
   },
   "showcase": {
     "name": "showcase",
-    "title": "Amazing Transformations",
-    "description": "See what our users have created with AI Face Swap.",
+    "title": "Magical Transformations",
+    "description": "See the stunning artwork created with our AI technology.",
     "items": [
       {
-        "title": "Video Face Swap",
-        "description": "Swap faces in videos, enhancing filmmaking or creating content for social media",
+        "title": "Landscape Transformation",
+        "description": "Transform your scenic photos into breathtaking anime landscapes",
         "image": {
           "src": "/imgs/showcases/1.png"
         }
       },
       {
-        "title": "Photo Face Swap",
-        "description": "Allows you to swap heads and replace faces in photos",
+        "title": "Portrait Transformation",
+        "description": "Turn portraits into beautiful anime-style character artwork",
         "image": {
           "src": "/imgs/showcases/2.png"
         }
       },
       {
-        "title": "Multiple Face Swap",
-        "description": "Swap Multiple Faces in family photos, wedding photos, party photos, etc",
+        "title": "Group Photo Transformation",
+        "description": "Convert group photos into charming anime scenes",
         "image": {
           "src": "/imgs/showcases/3.png"
         }
@@ -231,17 +231,17 @@
   "stats": {
     "name": "stats",
     "label": "Stats",
-    "title": "Trusted by Users Worldwide",
-    "description": "Join thousands of satisfied users using AI Face Swap.",
+    "title": "Trusted by Artists Worldwide",
+    "description": "Join thousands of creators transforming their photos into anime art.",
     "icon": "FaRegHeart",
     "items": [
       {
-        "title": "Happy Users",
+        "title": "Happy Artists",
         "label": "1M+",
         "description": "Active Users"
       },
       {
-        "title": "Face Swaps",
+        "title": "Transformations",
         "label": "10M+",
         "description": "Completed"
       },
@@ -256,7 +256,7 @@
     "name": "pricing",
     "label": "Pricing",
     "title": "Simple, Transparent Pricing",
-    "description": "Choose the perfect plan for your face swapping needs.",
+    "description": "Choose the perfect plan for your artistic journey.",
     "toggle": {
       "monthly": "Monthly",
       "annual": "Annual",
@@ -270,7 +270,7 @@
         "description": "Perfect for trying out",
         "features": [
           {
-            "text": "Unlimited face swaps with watermark",
+            "text": "Limited transformations with watermark",
             "included": true
           },
           {
@@ -282,7 +282,7 @@
             "included": true
           },
           {
-            "text": "No GIF or video face swap",
+            "text": "No batch processing",
             "included": false
           }
         ],
@@ -310,22 +310,22 @@
       },
       {
         "product_title": "Basic",
-        "description": "For regular users",
+        "description": "For regular creators",
         "features": [
           {
-            "text": "600 credits per month",
+            "text": "600 transformations per month",
             "included": true
           },
           {
-            "text": "600 watermark-free face swaps",
+            "text": "600 watermark-free artworks",
             "included": true
           },
           {
-            "text": "or 200 GIF face swaps",
+            "text": "High-resolution output",
             "included": true
           },
           {
-            "text": "or 24 video face swaps",
+            "text": "Batch processing up to 10 images",
             "included": true
           },
           {
@@ -367,22 +367,22 @@
       },
       {
         "product_title": "Pro",
-        "description": "For power users",
+        "description": "For professional artists",
         "features": [
           {
-            "text": "Unlimited watermark-free face swaps",
+            "text": "Unlimited transformations",
             "included": true
           },
           {
-            "text": "Unlimited GIF face swaps",
+            "text": "Ultra-high resolution output",
             "included": true
           },
           {
-            "text": "64 video face swaps",
+            "text": "Advanced style customization",
             "included": true
           },
           {
-            "text": "Ultra-fast processing",
+            "text": "Unlimited batch processing",
             "included": true
           },
           {
@@ -423,14 +423,14 @@
   "testimonial": {
     "name": "testimonial",
     "label": "Testimonials",
-    "title": "What Our Users Say",
-    "description": "Hear from people who love using AI Face Swap.",
+    "title": "What Our Artists Say",
+    "description": "Hear from people who love using our AI art transformation.",
     "icon": "GoThumbsup",
     "items": [
       {
         "title": "Sarah Johnson",
-        "label": "Professional Photographer",
-        "description": "The quality of face swaps is incredible! I use it for professional headshots and the results are always perfect.",
+        "label": "Digital Artist",
+        "description": "The quality of the anime transformations is incredible! I use it for creating unique artwork and the results are always magical.",
         "image": {
           "src": "/imgs/users/1.png"
         }
@@ -438,15 +438,15 @@
       {
         "title": "Mike Chen",
         "label": "Content Creator",
-        "description": "The API is super easy to integrate, and the processing speed is amazing. Perfect for my content creation needs.",
+        "description": "The API is super easy to integrate, and the transformation speed is amazing. Perfect for my creative projects.",
         "image": {
           "src": "/imgs/users/2.png"
         }
       },
       {
         "title": "Emily Rodriguez",
-        "label": "Social Media Manager",
-        "description": "Multiple face swap feature is a game-changer. Makes creating engaging content so much easier!",
+        "label": "Social Media Artist",
+        "description": "The batch processing feature is a game-changer. Makes creating themed collections so much easier!",
         "image": {
           "src": "/imgs/users/3.png"
         }
@@ -460,8 +460,8 @@
     "description": "Got questions? We've got answers.",
     "items": [
       {
-        "title": "How does AI Face Swap work?",
-        "description": "Our advanced AI technology analyzes facial features in both images, then seamlessly swaps them while maintaining natural looks and expressions. The process takes just seconds and ensures high-quality results."
+        "title": "How does Image to Ghibli work?",
+        "description": "Our advanced AI technology analyzes your photos and transforms them into beautiful anime-style artwork inspired by Studio Ghibli's aesthetic. The process takes just seconds and ensures high-quality results."
       },
       {
         "title": "Is my data secure?",
@@ -469,15 +469,15 @@
       },
       {
         "title": "What image formats are supported?",
-        "description": "We support all common image formats including JPG, PNG, and WEBP. For best results, we recommend using clear, well-lit photos with visible faces."
+        "description": "We support all common image formats including JPG, PNG, and WEBP. For best results, we recommend using clear, well-lit photos."
       },
       {
-        "title": "Can I swap multiple faces in one image?",
-        "description": "Yes! Our Pro and Enterprise plans support multiple face swaps in a single image. You can swap different faces with different source images in one go."
+        "title": "Can I transform multiple photos at once?",
+        "description": "Yes! Our Pro and Enterprise plans support batch processing, allowing you to transform multiple photos simultaneously while maintaining consistent style."
       },
       {
         "title": "Do you offer an API?",
-        "description": "Yes, we provide a robust API for developers to integrate our face swap technology into their applications. API access is available with our Pro and Enterprise plans."
+        "description": "Yes, we provide a robust API for developers to integrate our transformation technology into their applications. API access is available with our Pro and Enterprise plans."
       },
       {
         "title": "What's your refund policy?",
@@ -487,8 +487,8 @@
   },
   "cta": {
     "name": "cta",
-    "title": "Start Transforming Your Photos Today",
-    "description": "Join millions of happy users and experience the magic of AI Face Swap.",
+    "title": "Start Your Artistic Journey Today",
+    "description": "Join millions of creators and experience the magic of AI art transformation.",
     "buttons": [
       {
         "title": "Try For Free",
@@ -497,7 +497,7 @@
         "icon": "RiFlashlightFill"
       },
       {
-        "title": "View Examples",
+        "title": "View Gallery",
         "url": "/#showcase",
         "target": "_self",
         "variant": "outline"
@@ -507,15 +507,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "AI Face Swap",
-      "description": "Transform your photos with advanced AI face swapping technology. Fast, secure, and easy to use.",
+      "title": "Image to Ghibli",
+      "description": "Transform your photos into stunning anime-style artwork with advanced AI technology. Fast, secure, and easy to use.",
       "logo": {
         "src": "/logo.png",
-        "alt": "AI Face Swap"
+        "alt": "Image to Ghibli"
       },
       "url": "/"
     },
-    "copyright": "© 2024 • AI Face Swap All rights reserved.",
+    "copyright": "© 2024 • Image to Ghibli All rights reserved.",
     "nav": {
       "items": [
         {
@@ -545,7 +545,7 @@
         {
           "title": "Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@aifaceswap.app",
+          "url": "mailto:support@image-to-ghibli.com",
           "target": "_self"
         }
       ]
